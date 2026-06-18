@@ -57,10 +57,10 @@ Phase 0 (scaffold) ✔ · Phase 1 (unit registry + CS probe) in progress.
 
 ## Published Reports
 The HTML reports for this project are published via GitHub Pages:
-- [Current Student Journey Map](https://redesigned-spork-92nvp2n.pages.github.io/journey/current-student-journey-map.html)
-- [Course Planning & Enrolment Journey Map](https://redesigned-spork-92nvp2n.pages.github.io/journey/course-planning-enrolment-journey-map.html)
-- [DEAG Findings Pack](https://redesigned-spork-92nvp2n.pages.github.io/report/DEAG-findings-pack.html)
-- [Recommendations](https://redesigned-spork-92nvp2n.pages.github.io/report/Recommendations.html)
-- [Topic Deep Dives](https://redesigned-spork-92nvp2n.pages.github.io/report/Topic-Deep-Dives.html)
-- [Main Report](https://redesigned-spork-92nvp2n.pages.github.io/report/report.html)
-- [Presentation Deck](https://redesigned-spork-92nvp2n.pages.github.io/deck/unimelb-cs-ia-deck.html)
+- [Current Student Journey Map](https://enterprise-services-group.github.io/unimelb-current-students-ia/journey/current-student-journey-map.html)
+- [Course Planning & Enrolment Journey Map](https://enterprise-services-group.github.io/unimelb-current-students-ia/journey/course-planning-enrolment-journey-map.html)
+- [DEAG Findings Pack](https://enterprise-services-group.github.io/unimelb-current-students-ia/report/DEAG-findings-pack.html)
+- [Recommendations](https://enterprise-services-group.github.io/unimelb-current-students-ia/report/Recommendations.html)
+- [Topic Deep Dives](https://enterprise-services-group.github.io/unimelb-current-students-ia/report/Topic-Deep-Dives.html)
+- [Main Report](https://enterprise-services-group.github.io/unimelb-current-students-ia/report/report.html)
+- [Presentation Deck](https://enterprise-services-group.github.io/unimelb-current-students-ia/deck/unimelb-cs-ia-deck.html)
