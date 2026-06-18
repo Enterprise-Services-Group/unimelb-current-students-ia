@@ -1,0 +1,7 @@
+# In-scope program subdomains discovered under dental.unimelb.edu.au/study/student-resources
+# (none — the subtree is self-contained on dental.unimelb.edu.au and links outward to central hubs / external form hosts)
+# Related current-students surfaces observed (NOT in-scope for this slug):
+#   mdhs.unimelb.edu.au/study/current-students   (parent-faculty current-students section)
+#   students.unimelb.edu.au                       (central student hub)
+#   futurestudents.unimelb.edu.au/admissions/scholarships
+#   gradresearch.unimelb.edu.au                   (graduate research portal)

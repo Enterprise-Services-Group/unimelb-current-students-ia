@@ -1,0 +1,576 @@
+{
+  "law": {
+    "root": "https://law.unimelb.edu.au/students",
+    "sections": {
+      "academic-support-and-wellbeing": {
+        "count": 7,
+        "urls": [
+          "https://law.unimelb.edu.au/students/academic-support-and-wellbeing",
+          "https://law.unimelb.edu.au/students/academic-support-and-wellbeing/student-equity-and-disability-support",
+          "https://law.unimelb.edu.au/students/academic-support-and-wellbeing/wellbeing",
+          "https://law.unimelb.edu.au/students/academic-support-and-wellbeing/wellbeing/contact-us",
+          "https://law.unimelb.edu.au/students/academic-support-and-wellbeing/wellbeing/extensions",
+          "https://law.unimelb.edu.au/students/academic-support-and-wellbeing/wellbeing/registration-for-ongoing-support",
+          "https://law.unimelb.edu.au/students/academic-support-and-wellbeing/wellbeing/special-consideration"
+        ]
+      },
+      "admission-to-practice": {
+        "count": 1,
+        "urls": [
+          "https://law.unimelb.edu.au/students/admission-to-practice"
+        ]
+      },
+      "biicl": {
+        "count": 1,
+        "urls": [
+          "https://law.unimelb.edu.au/students/biicl"
+        ]
+      },
+      "career-services": {
+        "count": 17,
+        "urls": [
+          "https://law.unimelb.edu.au/students/career-services",
+          "https://law.unimelb.edu.au/students/career-services/career-outcomes",
+          "https://law.unimelb.edu.au/students/career-services/career-pathways",
+          "https://law.unimelb.edu.au/students/career-services/career-pathways/careers-in-academia-and-research",
+          "https://law.unimelb.edu.au/students/career-services/career-pathways/careers-in-business",
+          "https://law.unimelb.edu.au/students/career-services/career-pathways/careers-in-judiciary",
+          "https://law.unimelb.edu.au/students/career-services/career-pathways/careers-in-private-sector",
+          "https://law.unimelb.edu.au/students/career-services/career-pathways/careers-in-public-interest-and-government",
+          "https://law.unimelb.edu.au/students/career-services/career-pathways/guide-to-becoming-a-barrister-in-victoria",
+          "https://law.unimelb.edu.au/students/career-services/career-pathways/other-career-paths"
+        ]
+      },
+      "further-study": {
+        "count": 1,
+        "urls": [
+          "https://law.unimelb.edu.au/students/further-study"
+        ]
+      },
+      "grd": {
+        "count": 82,
+        "urls": [
+          "https://law.unimelb.edu.au/students/grd",
+          "https://law.unimelb.edu.au/students/grd/candidature-management/degree-requirements",
+          "https://law.unimelb.edu.au/students/grd/candidature-management/degree-requirements/graduate-research-coordinators",
+          "https://law.unimelb.edu.au/students/grd/candidature-management/degree-requirements/mphil-law-milestones",
+          "https://law.unimelb.edu.au/students/grd/candidature-management/degree-requirements/phd-law-milestones",
+          "https://law.unimelb.edu.au/students/grd/candidature-management/supervision",
+          "https://law.unimelb.edu.au/students/grd/enrichment",
+          "https://law.unimelb.edu.au/students/grd/enrichment/student-life-and-societies",
+          "https://law.unimelb.edu.au/students/grd/enrichment/student-life-and-societies/mls-gra",
+          "https://law.unimelb.edu.au/students/grd/scholarships-funding-and-prizes"
+        ]
+      },
+      "jd": {
+        "count": 48,
+        "urls": [
+          "https://law.unimelb.edu.au/students/jd",
+          "https://law.unimelb.edu.au/students/jd/enrichment",
+          "https://law.unimelb.edu.au/students/jd/enrichment/global-learning-opportunities",
+          "https://law.unimelb.edu.au/students/jd/enrichment/global-learning-opportunities/ctls",
+          "https://law.unimelb.edu.au/students/jd/enrichment/global-learning-opportunities/degree-partnerships",
+          "https://law.unimelb.edu.au/students/jd/enrichment/global-learning-opportunities/degree-partnerships/boston-college",
+          "https://law.unimelb.edu.au/students/jd/enrichment/global-learning-opportunities/degree-partnerships/cambridge",
+          "https://law.unimelb.edu.au/students/jd/enrichment/global-learning-opportunities/degree-partnerships/leiden-university",
+          "https://law.unimelb.edu.au/students/jd/enrichment/global-learning-opportunities/degree-partnerships/national-taiwan-university",
+          "https://law.unimelb.edu.au/students/jd/enrichment/global-learning-opportunities/degree-partnerships/nus"
+        ]
+      },
+      "law-students-study-area": {
+        "count": 1,
+        "urls": [
+          "https://law.unimelb.edu.au/students/law-students-study-area"
+        ]
+      },
+      "legal-academic-skills": {
+        "count": 6,
+        "urls": [
+          "https://law.unimelb.edu.au/students/legal-academic-skills",
+          "https://law.unimelb.edu.au/students/legal-academic-skills/about",
+          "https://law.unimelb.edu.au/students/legal-academic-skills/academic-skills-resources",
+          "https://law.unimelb.edu.au/students/legal-academic-skills/facilitated-study-groups",
+          "https://law.unimelb.edu.au/students/legal-academic-skills/lms-community",
+          "https://law.unimelb.edu.au/students/legal-academic-skills/writing-for-law"
+        ]
+      },
+      "masters": {
+        "count": 19,
+        "urls": [
+          "https://law.unimelb.edu.au/students/masters",
+          "https://law.unimelb.edu.au/students/masters/enrichment",
+          "https://law.unimelb.edu.au/students/masters/enrichment/global-learning-opportunities",
+          "https://law.unimelb.edu.au/students/masters/enrichment/global-learning-opportunities/study-abroad-at-oxford",
+          "https://law.unimelb.edu.au/students/masters/enrichment/international-legal-internship",
+          "https://law.unimelb.edu.au/students/masters",
+          "https://law.unimelb.edu.au/students/masters/studies/accept-your-offer-and-get-started",
+          "https://law.unimelb.edu.au/students/masters/studies/course-transfers",
+          "https://law.unimelb.edu.au/students/masters/studies/cross-institutional-study",
+          "https://law.unimelb.edu.au/students/masters/studies/enrolment"
+        ]
+      },
+      "mls-feedback": {
+        "count": 1,
+        "urls": [
+          "https://law.unimelb.edu.au/students/mls-feedback"
+        ]
+      },
+      "mls-mentor-program": {
+        "count": 1,
+        "urls": [
+          "https://law.unimelb.edu.au/students/mls-mentor-program"
+        ]
+      },
+      "non-partner-programs": {
+        "count": 1,
+        "urls": [
+          "https://law.unimelb.edu.au/students/non-partner-programs"
+        ]
+      },
+      "orientation": {
+        "count": 4,
+        "urls": [
+          "https://law.unimelb.edu.au/students/orientation",
+          "https://law.unimelb.edu.au/students/orientation",
+          "https://law.unimelb.edu.au/students/orientation",
+          "https://law.unimelb.edu.au/students/orientation/mlm-students"
+        ]
+      },
+      "professional-behaviour-guidelines": {
+        "count": 1,
+        "urls": [
+          "https://law.unimelb.edu.au/students/professional-behaviour-guidelines"
+        ]
+      },
+      "root": {
+        "count": 1,
+        "urls": [
+          "https://law.unimelb.edu.au/students"
+        ]
+      },
+      "student-life-and-societies": {
+        "count": 1,
+        "urls": [
+          "https://law.unimelb.edu.au/students/student-life-and-societies"
+        ]
+      },
+      "study-overseas-program": {
+        "count": 2,
+        "urls": [
+          "https://law.unimelb.edu.au/students/study-overseas-program",
+          "https://law.unimelb.edu.au/students/study-overseas-program/exchange-partners"
+        ]
+      }
+    }
+  },
+  "arts": {
+    "root": "https://arts.unimelb.edu.au/students",
+    "sections": {
+      "arts-student-advisory-council": {
+        "count": 2,
+        "urls": [
+          "https://arts.unimelb.edu.au/students/arts-student-advisory-council",
+          "https://arts.unimelb.edu.au/students/arts-student-advisory-council"
+        ]
+      },
+      "arts-student-ambassadors": {
+        "count": 1,
+        "urls": [
+          "https://arts.unimelb.edu.au/students/arts-student-ambassadors"
+        ]
+      },
+      "arts-west-disability-access": {
+        "count": 2,
+        "urls": [
+          "https://arts.unimelb.edu.au/students/arts-west-disability-access",
+          "https://arts.unimelb.edu.au/students/arts-west-disability-access"
+        ]
+      },
+      "audiovisual-loan-equipment": {
+        "count": 1,
+        "urls": [
+          "https://arts.unimelb.edu.au/students/audiovisual-loan-equipment"
+        ]
+      },
+      "awards": {
+        "count": 2,
+        "urls": [
+          "https://scholarships.unimelb.edu.au/awards/faculty-of-arts-graduate-coursework-conference-grants",
+          "https://scholarships.unimelb.edu.au/awards/faculty-of-arts-internship-grants"
+        ]
+      },
+      "career-mentoring": {
+        "count": 1,
+        "urls": [
+          "https://arts.unimelb.edu.au/students/career-mentoring"
+        ]
+      },
+      "contact-us": {
+        "count": 1,
+        "urls": [
+          "https://arts.unimelb.edu.au/contact-us/book-a-room-or-equipment"
+        ]
+      },
+      "course-admin": {
+        "count": 4,
+        "urls": [
+          "https://students.unimelb.edu.au/course-admin/census-dates",
+          "https://students.unimelb.edu.au/course-admin/class-timetable",
+          "https://students.unimelb.edu.au/course-admin/cross-institutional-study",
+          "https://students.unimelb.edu.au/course-admin/planning-your-course-and-subjects/study-load/overloading"
+        ]
+      },
+      "employability-in-arts": {
+        "count": 1,
+        "urls": [
+          "https://arts.unimelb.edu.au/students/employability-in-arts"
+        ]
+      },
+      "experiential-learning": {
+        "count": 11,
+        "urls": [
+          "https://arts.unimelb.edu.au/students/experiential-learning",
+          "https://arts.unimelb.edu.au/students/experiential-learning/ema-internship-subject",
+          "https://arts.unimelb.edu.au/students/experiential-learning/job-ready-program",
+          "https://arts.unimelb.edu.au/students/experiential-learning/journalism-internship-subject",
+          "https://arts.unimelb.edu.au/students/experiential-learning/scc-graduate-internship-subjects",
+          "https://arts.unimelb.edu.au/students/experiential-learning/industry-project",
+          "https://arts.unimelb.edu.au/students/experiential-learning/internship-personal-and-career-growth",
+          "https://arts.unimelb.edu.au/students/experiential-learning/the-big-idea",
+          "https://arts.unimelb.edu.au/students/experiential-learning/industry-project",
+          "https://arts.unimelb.edu.au/students/experiential-learning/internship-personal-and-career-growth"
+        ]
+      },
+      "experiential-learning-archive": {
+        "count": 1,
+        "urls": [
+          "https://arts.unimelb.edu.au/students/experiential-learning-archive"
+        ]
+      },
+      "find": {
+        "count": 1,
+        "urls": [
+          "https://study.unimelb.edu.au/find/courses/honours/bachelor-of-arts-degree-with-honours/?referrer=arts_redirect"
+        ]
+      },
+      "graduate-coursework": {
+        "count": 15,
+        "urls": [
+          "https://arts.unimelb.edu.au/students/graduate-coursework",
+          "https://arts.unimelb.edu.au/students/graduate-coursework/enrichment/diploma-in-languages",
+          "https://arts.unimelb.edu.au/students/graduate-coursework/enrichment",
+          "https://arts.unimelb.edu.au/students/graduate-coursework/enrichment/arts-student-ambassadors",
+          "https://arts.unimelb.edu.au/students/graduate-coursework/enrichment/gshss-academic-culture-and-english-tutorials",
+          "https://arts.unimelb.edu.au/students/graduate-coursework/enrich-your-program/overseas-experience",
+          "https://arts.unimelb.edu.au/students/graduate-coursework/manage-your-course",
+          "https://arts.unimelb.edu.au/students/graduate-coursework/resources-and-support",
+          "https://arts.unimelb.edu.au/students/graduate-coursework/resources-and-support/video-edit-suites",
+          "https://arts.unimelb.edu.au/students/graduate-coursework/enrich-your-program/overseas-experience"
+        ]
+      },
+      "graduate-research": {
+        "count": 28,
+        "urls": [
+          "https://arts.unimelb.edu.au/students/graduate-research",
+          "https://arts.unimelb.edu.au/students/graduate-research/commencement",
+          "https://arts.unimelb.edu.au/students/graduate-research/commencement/commencement-checklist",
+          "https://arts.unimelb.edu.au/students/graduate-research/commencement/course-enrolment-information",
+          "https://arts.unimelb.edu.au/students/graduate-research/commencement/orientation-and-induction",
+          "https://arts.unimelb.edu.au/students/graduate-research/commencement/overview-of-course-structure",
+          "https://arts.unimelb.edu.au/students/graduate-research/faqs",
+          "https://arts.unimelb.edu.au/students/graduate-research/faqs/gr-research-support-funding",
+          "https://arts.unimelb.edu.au/students/graduate-research/faqs/research-support",
+          "https://arts.unimelb.edu.au/students/graduate-research/faqs/resources"
+        ]
+      },
+      "overseas-experience": {
+        "count": 4,
+        "urls": [
+          "https://arts.unimelb.edu.au/students/overseas-experience",
+          "https://arts.unimelb.edu.au/students/overseas-experience/funding/faculty-of-arts-overseas-subject-travel-grant",
+          "https://arts.unimelb.edu.au/students/overseas-experience/funding/melbourne-global-language-scholarship",
+          "https://arts.unimelb.edu.au/students/overseas-experience/funding/melbourne-mobility-awards"
+        ]
+      },
+      "root": {
+        "count": 1,
+        "urls": [
+          "https://arts.unimelb.edu.au/students"
+        ]
+      },
+      "undergraduate": {
+        "count": 15,
+        "urls": [
+          "https://arts.unimelb.edu.au/students/undergraduate",
+          "https://arts.unimelb.edu.au/students/undergraduate/enrich-your-bachelor-of-arts/academic-mentoring",
+          "https://arts.unimelb.edu.au/students/undergraduate/enrich-your-bachelor-of-arts/diploma-in-languages",
+          "https://arts.unimelb.edu.au/students/undergraduate/bachelor-of-arts-orientation",
+          "https://arts.unimelb.edu.au/students/undergraduate/enrich-your-bachelor-of-arts",
+          "https://arts.unimelb.edu.au/students/undergraduate/enrich-your-bachelor-of-arts/academic-mentoring/dr-delia-lin",
+          "https://arts.unimelb.edu.au/students/undergraduate/enrich-your-bachelor-of-arts/academic-mentoring/dr-lara-anderson",
+          "https://arts.unimelb.edu.au/students/undergraduate/enrich-your-bachelor-of-arts/academic-mentoring/professor-tim-parkin",
+          "https://arts.unimelb.edu.au/students/undergraduate/enrich-your-bachelor-of-arts/campus-experience",
+          "https://arts.unimelb.edu.au/students/undergraduate/enrich-your-bachelor-of-arts/melbourne-peer-mentor-program"
+        ]
+      }
+    }
+  },
+  "science": {
+    "root": "https://science.unimelb.edu.au/students",
+    "sections": {
+      "agriculture-discovery-week": {
+        "count": 1,
+        "urls": [
+          "https://science.unimelb.edu.au/students/agriculture-discovery-week"
+        ]
+      },
+      "course-guide-bachelor-of-agriculture": {
+        "count": 3,
+        "urls": [
+          "https://science.unimelb.edu.au/students/course-guide-bachelor-of-agriculture",
+          "https://science.unimelb.edu.au/students/course-guide-bachelor-of-agriculture/bag-orientation",
+          "https://science.unimelb.edu.au/students/course-guide-bachelor-of-agriculture/dookie-semester"
+        ]
+      },
+      "course-guide-bachelor-of-science": {
+        "count": 15,
+        "urls": [
+          "https://science.unimelb.edu.au/students/course-guide-bachelor-of-science",
+          "https://science.unimelb.edu.au/students/course-guide-bachelor-of-science/bachelor-of-science-majors-series",
+          "https://science.unimelb.edu.au/students/course-guide-bachelor-of-science/bachelor-of-science-majors-series/recorded-events-2025/Maths-and-Stats-Course-planning-talk-information-slides-2025.pdf",
+          "https://science.unimelb.edu.au/students/course-guide-bachelor-of-science/breadth",
+          "https://science.unimelb.edu.au/students/course-guide-bachelor-of-science/bsc-orientation",
+          "https://science.unimelb.edu.au/students/course-guide-bachelor-of-science/first-year-subject-sets",
+          "https://science.unimelb.edu.au/students/course-guide-bachelor-of-science/first-year-subject-sets/biological-sciences",
+          "https://science.unimelb.edu.au/students/course-guide-bachelor-of-science/first-year-subject-sets/chemical-sciences",
+          "https://science.unimelb.edu.au/students/course-guide-bachelor-of-science/first-year-subject-sets/earth-sciences",
+          "https://science.unimelb.edu.au/students/course-guide-bachelor-of-science/first-year-subject-sets/engineering-systems"
+        ]
+      },
+      "course-guide-diploma-in-general-studies": {
+        "count": 1,
+        "urls": [
+          "https://science.unimelb.edu.au/students/course-guide-diploma-in-general-studies"
+        ]
+      },
+      "course-guide-graduate-coursework-degrees": {
+        "count": 6,
+        "urls": [
+          "https://science.unimelb.edu.au/students/course-guide-graduate-coursework-degrees",
+          "https://science.unimelb.edu.au/students/course-guide-graduate-coursework-degrees/agriculture-food-science-research-projects",
+          "https://science.unimelb.edu.au/students/course-guide-graduate-coursework-degrees/agriculture-food-science-research-projects/differences-in-major-and-minor-research-projects",
+          "https://science.unimelb.edu.au/students/course-guide-graduate-coursework-degrees/agriculture-food-science-research-projects/masters-research-project-topic-areas",
+          "https://science.unimelb.edu.au/students/course-guide-graduate-coursework-degrees/graduate-getting-started",
+          "https://science.unimelb.edu.au/students/course-guide-graduate-coursework-degrees/master-of-science-research-projects"
+        ]
+      },
+      "current-indigenous-students": {
+        "count": 1,
+        "urls": [
+          "https://science.unimelb.edu.au/students/current-indigenous-students"
+        ]
+      },
+      "employability": {
+        "count": 2,
+        "urls": [
+          "https://science.unimelb.edu.au/students/employability",
+          "https://science.unimelb.edu.au/students/employability/career-enrichment-program"
+        ]
+      },
+      "enrich-your-studies": {
+        "count": 5,
+        "urls": [
+          "https://science.unimelb.edu.au/students/enrich-your-studies",
+          "https://science.unimelb.edu.au/students/enrich-your-studies/academic-skills",
+          "https://science.unimelb.edu.au/students/enrich-your-studies/academic-skills/graduate-science-academic-english-tutorial",
+          "https://science.unimelb.edu.au/students/enrich-your-studies/industry-projects",
+          "https://science.unimelb.edu.au/students/enrich-your-studies/internship-subjects"
+        ]
+      },
+      "graduate-research": {
+        "count": 5,
+        "urls": [
+          "https://science.unimelb.edu.au/students/graduate-research",
+          "https://science.unimelb.edu.au/students/graduate-research/contact",
+          "https://science.unimelb.edu.au/students/graduate-research/events",
+          "https://science.unimelb.edu.au/students/graduate-research/faculty-inductions-for-graduate-researchers",
+          "https://science.unimelb.edu.au/students/graduate-research/graduate-research-scholarships"
+        ]
+      },
+      "q-fever-vaccinations": {
+        "count": 1,
+        "urls": [
+          "https://science.unimelb.edu.au/students/q-fever-vaccinations"
+        ]
+      },
+      "quota-subjects": {
+        "count": 1,
+        "urls": [
+          "https://science.unimelb.edu.au/students/quota-subjects"
+        ]
+      },
+      "research-project-subjects": {
+        "count": 1,
+        "urls": [
+          "https://science.unimelb.edu.au/students/research-project-subjects"
+        ]
+      },
+      "root": {
+        "count": 1,
+        "urls": [
+          "https://science.unimelb.edu.au/students"
+        ]
+      },
+      "scholarships": {
+        "count": 12,
+        "urls": [
+          "https://science.unimelb.edu.au/students/scholarships",
+          "https://science.unimelb.edu.au/students/scholarships/deans-honours-list",
+          "https://science.unimelb.edu.au/students/scholarships/deans-honours-list/dhl-photos/2024-dhl/2023-medal-winners",
+          "https://science.unimelb.edu.au/students/scholarships/deans-honours-list/dhl-photos/2024-dhl/deans-honours-list-2023",
+          "https://science.unimelb.edu.au/students/scholarships/deans-honours-list/dhl-photos/2025-dhl/2024-medal-winners",
+          "https://science.unimelb.edu.au/students/scholarships/dookie-scholarship-applications",
+          "https://science.unimelb.edu.au/students/scholarships/faq",
+          "https://science.unimelb.edu.au/students/scholarships/prizes",
+          "https://science.unimelb.edu.au/students/scholarships/scholarship-recipients",
+          "https://science.unimelb.edu.au/students/scholarships/scholarships"
+        ]
+      },
+      "student-life": {
+        "count": 38,
+        "urls": [
+          "https://science.unimelb.edu.au/students/student-life",
+          "https://science.unimelb.edu.au/students/student-life/student-life-and-societies",
+          "https://science.unimelb.edu.au/students/student-life/student-staff-reference-committee",
+          "https://science.unimelb.edu.au/students/student-life/student-staff-reference-committee/committee-members/hannah-ramsey",
+          "https://science.unimelb.edu.au/students/student-life/student-staff-reference-committee/committee-members/kylie-wang",
+          "https://science.unimelb.edu.au/students/student-life/student-staff-reference-committee/committee-members/louisa-zhu",
+          "https://science.unimelb.edu.au/students/student-life/student-staff-reference-committee/committee-members/maxwell-chivers",
+          "https://science.unimelb.edu.au/students/student-life/student-staff-reference-committee/committee-members/patsy-quan",
+          "https://science.unimelb.edu.au/students/student-life/student-staff-reference-committee/committee-members/rudra-tiwari",
+          "https://science.unimelb.edu.au/students/student-life/student-staff-reference-committee/committee-members/ryder-browne"
+        ]
+      },
+      "support": {
+        "count": 1,
+        "urls": [
+          "https://science.unimelb.edu.au/students/support"
+        ]
+      }
+    }
+  },
+  "feit": {
+    "root": "https://eng.unimelb.edu.au/students",
+    "sections": {
+      "clubs": {
+        "count": 10,
+        "urls": [
+          "https://eng.unimelb.edu.au/students/clubs",
+          "https://eng.unimelb.edu.au/students/clubs/our-clubs",
+          "https://eng.unimelb.edu.au/students/clubs/committee",
+          "https://eng.unimelb.edu.au/students/clubs/feature-in-the-feit-express-newsletter",
+          "https://eng.unimelb.edu.au/students/clubs/event-funding-and-invoicing",
+          "https://eng.unimelb.edu.au/students/clubs/book-a-room-for-your-event",
+          "https://eng.unimelb.edu.au/students/clubs/our-clubs/melbourne-university-geomatics-society-mugs",
+          "https://eng.unimelb.edu.au/students/clubs/our-clubs/drone-aviation-and-racing-engineering-society",
+          "https://eng.unimelb.edu.au/students/clubs/our-clubs/melbourne-university-civil-and-structural-society",
+          "https://eng.unimelb.edu.au/students/clubs/our-clubs/mechanical-engineering-student-society-mess"
+        ]
+      },
+      "coursework": {
+        "count": 110,
+        "urls": [
+          "https://eng.unimelb.edu.au/students/coursework/study-resources/extensions-and-special-consideration",
+          "https://eng.unimelb.edu.au/students/coursework",
+          "https://eng.unimelb.edu.au/students/coursework/study-resources/building-access-and-id-cards",
+          "https://eng.unimelb.edu.au/students/coursework/career-resources",
+          "https://eng.unimelb.edu.au/students/coursework/study-resources",
+          "https://eng.unimelb.edu.au/students/coursework/student-experience",
+          "https://eng.unimelb.edu.au/students/coursework/industry-engagement/internship",
+          "https://eng.unimelb.edu.au/students/coursework/orientation",
+          "https://eng.unimelb.edu.au/students/coursework/student-experience/global-skills-series",
+          "https://eng.unimelb.edu.au/students/coursework/student-experience/academic-communication-skills-series"
+        ]
+      },
+      "employability-in-engineering-and-information-technology": {
+        "count": 1,
+        "urls": [
+          "https://eng.unimelb.edu.au/students/employability-in-engineering-and-information-technology"
+        ]
+      },
+      "eng-and-it-calendar": {
+        "count": 7,
+        "urls": [
+          "https://eng.unimelb.edu.au/students/eng-and-it-calendar/upcoming-events/lens-stevens-scholarship",
+          "https://eng.unimelb.edu.au/students/eng-and-it-calendar/upcoming-events/round-4-scholarships",
+          "https://eng.unimelb.edu.au/students/eng-and-it-calendar/upcoming-events/2026/international-skills-series/intercultural-career-mentoring-program",
+          "https://eng.unimelb.edu.au/students/eng-and-it-calendar/upcoming-events/round-3-scholarships",
+          "https://eng.unimelb.edu.au/students/eng-and-it-calendar/upcoming-events/ian-alexander-scholarship-round-2",
+          "https://eng.unimelb.edu.au/students/eng-and-it-calendar",
+          "https://eng.unimelb.edu.au/students/eng-and-it-calendar/upcoming-events"
+        ]
+      },
+      "eng-and-it-community": {
+        "count": 8,
+        "urls": [
+          "https://eng.unimelb.edu.au/students/eng-and-it-community",
+          "https://eng.unimelb.edu.au/students/eng-and-it-community/science-pathway",
+          "https://eng.unimelb.edu.au/students/eng-and-it-community/commerce-pathway",
+          "https://eng.unimelb.edu.au/students/eng-and-it-community/design-pathway",
+          "https://eng.unimelb.edu.au/students/eng-and-it-community/biomedicine-pathway",
+          "https://eng.unimelb.edu.au/students/eng-and-it-community/community-image-gallery",
+          "https://eng.unimelb.edu.au/students/eng-and-it-community/deep-dive-sessions",
+          "https://eng.unimelb.edu.au/students/eng-and-it-community/scholarships"
+        ]
+      },
+      "feit-indigenous-student-experience2": {
+        "count": 1,
+        "urls": [
+          "https://eng.unimelb.edu.au/students/feit-indigenous-student-experience2"
+        ]
+      },
+      "indigenous-student-experience": {
+        "count": 1,
+        "urls": [
+          "https://eng.unimelb.edu.au/students/indigenous-student-experience"
+        ]
+      },
+      "research": {
+        "count": 16,
+        "urls": [
+          "https://eng.unimelb.edu.au/students/research",
+          "https://eng.unimelb.edu.au/students/research/get-in-touch",
+          "https://eng.unimelb.edu.au/students/research/study-resources",
+          "https://eng.unimelb.edu.au/students/research/getting-started",
+          "https://eng.unimelb.edu.au/students/research/life-at-feit",
+          "https://eng.unimelb.edu.au/students/research/getting-started/building-access",
+          "https://eng.unimelb.edu.au/students/research/getting-started/arrival-checklist",
+          "https://eng.unimelb.edu.au/students/research/study-resources/progress-review",
+          "https://eng.unimelb.edu.au/students/research/study-resources/course-requirements",
+          "https://eng.unimelb.edu.au/students/research/study-resources/submitting-your-thesis"
+        ]
+      },
+      "root": {
+        "count": 1,
+        "urls": [
+          "https://eng.unimelb.edu.au/students"
+        ]
+      },
+      "scholarships-prizes-and-awards": {
+        "count": 49,
+        "urls": [
+          "https://eng.unimelb.edu.au/students/scholarships-prizes-and-awards",
+          "https://eng.unimelb.edu.au/students/scholarships-prizes-and-awards/coursework-students",
+          "https://eng.unimelb.edu.au/students/scholarships-prizes-and-awards/spotlight-celebrations",
+          "https://eng.unimelb.edu.au/students/scholarships-prizes-and-awards/undergraduate",
+          "https://eng.unimelb.edu.au/students/scholarships-prizes-and-awards/scholarships,-prizes-and-awards-recipients",
+          "https://eng.unimelb.edu.au/students/scholarships-prizes-and-awards/graduate-research-students",
+          "https://eng.unimelb.edu.au/students/scholarships-prizes-and-awards/scholarship-faq",
+          "https://eng.unimelb.edu.au/students/scholarships-prizes-and-awards/coursework-students/scholarships",
+          "https://eng.unimelb.edu.au/students/scholarships-prizes-and-awards/coursework-students/coursework-prizes",
+          "https://eng.unimelb.edu.au/students/scholarships-prizes-and-awards/frequently-asked-questions"
+        ]
+      }
+    }
+  }
+}

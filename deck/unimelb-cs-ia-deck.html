@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Current Students IA — Unification Strategy · University of Melbourne</title>
+<style>
+  :root {
+    --bg: #000F46;
+    --surface: #FFFFFF;
+    --accent: #46C8F0;
+    --text: #2D3748;
+    --muted: #718096;
+    --border: #E2E8F0;
+    --light: #F5F7FA;
+    --warm: #F6AD55;
+    --red: #E53E3E;
+    --green: #38A169;
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap');
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Source Sans 3', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: #0a0a1a;
+    display: flex; align-items: center; justify-content: center;
+    min-height: 100vh; overflow: hidden;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .deck {
+    width: 1920px; height: 1080px;
+    position: relative;
+    transform-origin: top left;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.4);
+  }
+
+  .slide {
+    position: absolute; inset: 0;
+    display: none;
+    flex-direction: column;
+    padding: 80px 100px;
+    background: var(--surface);
+    color: var(--text);
+    font-size: 22px;
+    line-height: 1.5;
+  }
+  .slide.active { display: flex; }
+
+  /* Slide variants */
+  .slide.dark { background: var(--bg); color: #fff; }
+  .slide.dark h1, .slide.dark h2 { color: #fff; }
+  .slide.dark .muted { color: rgba(255,255,255,0.6); }
+
+  h1 { font-size: 64px; font-weight: 700; line-height: 1.1; color: var(--bg); margin-bottom: 20px; letter-spacing: -0.02em; }
+  h2 { font-size: 48px; font-weight: 700; color: var(--bg); margin-bottom: 8px; line-height: 1.15; }
+  h3 { font-size: 28px; font-weight: 600; color: var(--bg); margin-bottom: 8px; }
+
+  .slide.dark h1, .slide.dark h2, .slide.dark h3 { color: #fff; }
+
+  .rule { width: 60px; height: 3px; background: var(--accent); margin-bottom: 24px; }
+  .rule.centered { margin-left: auto; margin-right: auto; }
+
+  .overline {
+    font-size: 14px; letter-spacing: 0.2em; text-transform: uppercase;
+    color: var(--accent); font-weight: 600; margin-bottom: 16px;
+  }
+
+  .subtitle {
+    font-size: 28px; font-weight: 300;
+    color: var(--muted); max-width: 700px; line-height: 1.4;
+  }
+  .slide.dark .subtitle { color: rgba(255,255,255,0.7); }
+
+  /* Stats grid */
+  .stat-grid {
+    display: grid; grid-template-columns: repeat(4, 1fr);
+    gap: 24px; margin-top: 32px;
+  }
+  .stat-grid.cols-5 { grid-template-columns: repeat(5, 1fr); }
+  .stat-grid.cols-3 { grid-template-columns: repeat(3, 1fr); }
+
+  .stat {
+    background: var(--light); border-radius: 8px;
+    padding: 28px; text-align: center;
+  }
+  .stat .num {
+    font-size: 56px; font-weight: 700; color: var(--bg);
+    line-height: 1; margin-bottom: 6px;
+  }
+  .stat .lbl {
+    font-size: 15px; color: var(--muted);
+    text-transform: uppercase; letter-spacing: 0.06em; font-weight: 600;
+  }
+  .slide.dark .stat { background: rgba(255,255,255,0.08); }
+  .slide.dark .stat .num { color: var(--accent); }
+  .slide.dark .stat .lbl { color: rgba(255,255,255,0.6); }
+
+  /* Tables */
+  table { width: 100%; border-collapse: collapse; margin-top: 20px; font-size: 18px; }
+  th {
+    text-align: left; background: var(--bg); color: #fff;
+    padding: 12px 16px; font-weight: 600; font-size: 14px;
+    letter-spacing: 0.04em; text-transform: uppercase;
+  }
+  td { padding: 10px 16px; border-bottom: 1px solid var(--border); vertical-align: top; }
+  tr:nth-child(even) td { background: var(--light); }
+  .slide.dark td { border-bottom-color: rgba(255,255,255,0.1); }
+  .slide.dark tr:nth-child(even) td { background: rgba(255,255,255,0.04); }
+
+  /* Tags */
+  .tag {
+    display: inline-block; padding: 3px 10px; border-radius: 3px;
+    font-size: 13px; font-weight: 700; letter-spacing: 0.05em; text-transform: uppercase;
+  }
+  .tag-h { background: var(--bg); color: #fff; }
+  .tag-f { background: rgba(70,200,240,0.2); color: var(--bg); }
+  .tag-b { background: var(--warm); color: var(--bg); }
+  .tag-red { background: var(--red); color: #fff; }
+  .tag-grn { background: var(--green); color: #fff; }
+
+  /* Findings */
+  .finding {
+    border-left: 3px solid var(--accent);
+    padding: 10px 16px; margin: 8px 0;
+    background: rgba(70,200,240,0.05);
+    font-size: 18px; border-radius: 0 4px 4px 0;
+  }
+  .finding strong { color: var(--bg); }
+  .slide.dark .finding { background: rgba(70,200,240,0.08); border-left-color: var(--accent); }
+  .slide.dark .finding strong { color: #fff; }
+
+  /* Two column */
+  .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; margin-top: 24px; }
+  .two-col.wide-right { grid-template-columns: 1fr 1.2fr; }
+
+  /* Card */
+  .card {
+    background: var(--light); border-radius: 8px;
+    padding: 24px; margin: 10px 0;
+    border-top: 3px solid var(--accent);
+  }
+  .card.red { border-top-color: var(--red); }
+  .card.warm { border-top-color: var(--warm); }
+  .card h4 { font-size: 20px; margin-bottom: 6px; color: var(--bg); }
+
+  /* Quote */
+  .quote {
+    font-size: 36px; font-weight: 300; font-style: italic;
+    line-height: 1.4; max-width: 900px; color: var(--bg);
+  }
+  .quote::before { content: '"'; }
+  .quote::after { content: '"'; }
+  .attribution { font-size: 20px; color: var(--muted); margin-top: 16px; font-style: normal; }
+
+  /* Timeline */
+  .timeline { display: flex; gap: 32px; margin-top: 32px; }
+  .tl-phase {
+    flex: 1; background: var(--light); border-radius: 8px;
+    padding: 24px; border-top: 4px solid var(--accent);
+    position: relative;
+  }
+  .tl-phase .tl-num {
+    font-size: 48px; font-weight: 700; color: var(--accent);
+    line-height: 1; margin-bottom: 8px;
+  }
+  .tl-phase h4 { font-size: 22px; margin-bottom: 10px; }
+  .tl-phase p { font-size: 16px; color: var(--muted); line-height: 1.4; }
+
+  /* Navigation */
+  .nav {
+    position: fixed; bottom: 20px; right: 24px;
+    font-size: 14px; color: rgba(255,255,255,0.4);
+    z-index: 100; font-weight: 600;
+  }
+  .nav span { color: var(--accent); }
+
+  /* Section divider */
+  .section-label {
+    position: absolute; top: 32px; right: 60px;
+    font-size: 12px; color: var(--accent); text-transform: uppercase;
+    letter-spacing: 0.15em; font-weight: 700;
+  }
+  .slide.dark .section-label { color: rgba(255,255,255,0.3); }
+
+  /* Print */
+  @media print {
+    body { background: white; overflow: visible; min-height: auto; }
+    .deck { width: auto; height: auto; box-shadow: none; transform: none; }
+    .slide { position: relative; display: flex; page-break-after: always; }
+    .nav { display: none; }
+  }
+
+  ul, ol { margin-left: 24px; }
+  li { margin-bottom: 6px; }
+</style>
+</head>
+<body>
+
+<div class="deck" id="deck">
+
+  <!-- SLIDE 1: COVER -->
+  <div class="slide dark active" id="s1">
+    <div class="section-label">Service Experience & Design</div>
+    <div style="flex:1; display:flex; flex-direction:column; justify-content:center;">
+      <div class="overline">June 2026 · Evidence-Based Audit</div>
+      <h1 style="font-size:72px;">Current Students IA<br>Unification Strategy</h1>
+      <div class="subtitle" style="margin-top:20px;">
+        Findings from a crawl of 9 faculty sites and the central hub — ~780 pages, ~650K words — with a recommended hub-and-spoke model.
+      </div>
+      <div style="margin-top:48px; font-size:16px; color:rgba(255,255,255,0.4);">
+        University of Melbourne · Service Experience & Design
+      </div>
+    </div>
+  </div>
+
+  <!-- SLIDE 2: THE PROBLEM -->
+  <div class="slide" id="s2">
+    <div class="section-label">Context</div>
+    <h2>The Fragmented Student Experience</h2>
+    <div class="rule"></div>
+
+    <div style="margin-top:32px;">
+      <div class="finding"><strong>9 faculty sites</strong> + the central hub each run their own "Current Students" section</div>
+      <div class="finding"><strong>4 different URL conventions</strong> for the same concept (<code>/students</code>, <code>/current-students</code>, <code>/study/current-students</code>, <code>/study/student-resources</code>)</div>
+      <div class="finding"><strong>3 schools</strong> run separate CS sections on their own subdomains (Biomedical Sciences, Dental, MBS)</div>
+      <div class="finding"><strong>No cross-linking</strong> between faculty career services and the central careers hub</div>
+      <div class="finding"><strong>No page exists</strong> that tells students "for X, go to the hub; for Y, see your faculty"</div>
+    </div>
+
+    <div class="stat-grid" style="margin-top:40px;">
+      <div class="stat"><div class="num">~780</div><div class="lbl">Total Pages</div></div>
+      <div class="stat"><div class="num">~650K</div><div class="lbl">Total Words</div></div>
+      <div class="stat"><div class="num">51%</div><div class="lbl">Law+FEIT Share</div></div>
+      <div class="stat"><div class="num">4</div><div class="lbl">URL Patterns</div></div>
+    </div>
+  </div>
+
+  <!-- SLIDE 3: SCOPE -->
+  <div class="slide dark" id="s3">
+    <div class="section-label">Methodology</div>
+    <h2>What We Crawled</h2>
+    <div class="rule"></div>
+
+    <table>
+      <tr><th>Faculty</th><th>CS URL</th><th>Pages</th><th>Depth</th></tr>
+      <tr><td>Law</td><td><code>law.unimelb.edu.au/students</code></td><td>195</td><td>Full BFS</td></tr>
+      <tr><td>FEIT</td><td><code>eng.unimelb.edu.au/students</code></td><td>204</td><td>Full BFS</td></tr>
+      <tr><td>Arts</td><td><code>arts.unimelb.edu.au/students</code></td><td>91</td><td>Full BFS</td></tr>
+      <tr><td>Science</td><td><code>science.unimelb.edu.au/students</code></td><td>94</td><td>Full BFS</td></tr>
+      <tr><td>ABP/MSD</td><td><code>msd.unimelb.edu.au/current-students</code></td><td>~40</td><td>Root + IA</td></tr>
+      <tr><td>FBE + MBS</td><td><code>fbe.unimelb.edu.au/students</code></td><td>~25</td><td>Root + MBS</td></tr>
+      <tr><td>Education</td><td><code>education.unimelb.edu.au/study/current-students</code></td><td>~40</td><td>Root + IA</td></tr>
+      <tr><td>FFAM</td><td><code>finearts-music.unimelb.edu.au/current-students</code></td><td>~40</td><td>Root</td></tr>
+      <tr><td>MDHS</td><td><code>mdhs.unimelb.edu.au/study/current-students</code></td><td>~50</td><td>Root + school</td></tr>
+      <tr style="background:rgba(70,200,240,0.08);"><td><strong>Central Hub</strong></td><td><code>students.unimelb.edu.au</code></td><td>4 sections</td><td>IA mapped</td></tr>
+    </table>
+
+    <div style="margin-top:24px; font-size:16px; color:rgba(255,255,255,0.5);">
+      Every page classified (unique / link-farm / mixed), topic-tagged (21 categories), and outbound destinations mapped.
+    </div>
+  </div>
+
+  <!-- SLIDE 4: KEY FINDINGS -->
+  <div class="slide" id="s4">
+    <div class="section-label">Findings</div>
+    <h2>Three Structural Problems</h2>
+    <div class="rule"></div>
+
+    <div class="two-col">
+      <div>
+        <div class="card red">
+          <h4>🔴 Careers is the most duplicated service</h4>
+          <p style="font-size:16px; color:var(--muted);">8/9 faculties + MBS run parallel career content. No cross-linking to the central careers hub.</p>
+        </div>
+        <div class="card warm">
+          <h4>🟡 School-level fragmentation</h4>
+          <p style="font-size:16px; color:var(--muted);">Biomedical Sciences, Dental School, and MBS run separate CS sections on their own subdomains — breaking the faculty model.</p>
+        </div>
+      </div>
+      <div>
+        <div class="card">
+          <h4>🔵 No "where to go" guidance</h4>
+          <p style="font-size:16px; color:var(--muted);">No page tells students which system handles which need. Discovery is trial and error.</p>
+        </div>
+        <div class="card">
+          <h4>🔵 Hub has genuine gaps</h4>
+          <p style="font-size:16px; color:var(--muted);">Zero content for placements/WIL, course plans, discipline-specific academic skills, or program regulatory requirements.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="stat-grid cols-3" style="margin-top:28px;">
+      <div class="stat"><div class="num">8/9</div><div class="lbl">Faculties Duplicate Careers</div></div>
+      <div class="stat"><div class="num">17</div><div class="lbl">Broken Links (FEIT)</div></div>
+      <div class="stat"><div class="num">3</div><div class="lbl">School-Level CS Sections</div></div>
+    </div>
+  </div>
+
+  <!-- SLIDE 5: THE SPECTRUM -->
+  <div class="slide dark" id="s5">
+    <div class="section-label">Analysis</div>
+    <h2>The Fragmentation Spectrum</h2>
+    <div class="rule"></div>
+
+    <div style="text-align:center; margin:40px 0 16px; font-size:18px; color:rgba(255,255,255,0.5);">
+      Hub-dependent link directory ←————————————————————————→ Self-contained parallel ecosystem
+    </div>
+
+    <div style="display:flex; gap:12px; margin:24px 0 48px;">
+      <div style="flex:1; background:rgba(70,200,240,0.15); border-radius:8px; padding:20px; text-align:center;">
+        <div style="font-size:14px; color:var(--accent); margin-bottom:4px;">Most Hub-Dependent</div>
+        <div style="font-weight:700; font-size:20px;">ABP</div>
+        <div style="font-size:13px; color:rgba(255,255,255,0.5);">Mostly link directory</div>
+      </div>
+      <div style="flex:1; background:rgba(70,200,240,0.15); border-radius:8px; padding:20px; text-align:center;">
+        <div style="font-weight:700; font-size:20px;">FBE</div>
+        <div style="font-size:13px; color:rgba(255,255,255,0.5);">Thin gateway + MBS split</div>
+      </div>
+      <div style="flex:1; background:rgba(70,200,240,0.15); border-radius:8px; padding:20px; text-align:center;">
+        <div style="font-weight:700; font-size:20px;">Education</div>
+        <div style="font-size:13px; color:rgba(255,255,255,0.5);">Unique content + hub redirect</div>
+      </div>
+      <div style="flex:1; background:rgba(70,200,240,0.20); border-radius:8px; padding:20px; text-align:center;">
+        <div style="font-weight:700; font-size:20px;">Arts</div>
+        <div style="font-size:13px; color:rgba(255,255,255,0.5);">Well-structured local hub</div>
+      </div>
+      <div style="flex:1; background:rgba(70,200,240,0.20); border-radius:8px; padding:20px; text-align:center;">
+        <div style="font-weight:700; font-size:20px;">Science</div>
+        <div style="font-size:13px; color:rgba(255,255,255,0.5);">Content-rich, minimal hub links</div>
+      </div>
+      <div style="flex:1; background:rgba(70,200,240,0.25); border-radius:8px; padding:20px; text-align:center;">
+        <div style="font-weight:700; font-size:20px;">MDHS</div>
+        <div style="font-size:13px; color:rgba(255,255,255,0.5);">Fragmented across schools</div>
+      </div>
+      <div style="flex:1; background:rgba(70,200,240,0.30); border-radius:8px; padding:20px; text-align:center;">
+        <div style="font-weight:700; font-size:20px;">Law</div>
+        <div style="font-size:13px; color:rgba(255,255,255,0.5);">Self-contained ecosystem</div>
+      </div>
+      <div style="flex:1; background:rgba(70,200,240,0.30); border-radius:8px; padding:20px; text-align:center;">
+        <div style="font-weight:700; font-size:20px;">FFAM</div>
+        <div style="font-size:13px; color:rgba(255,255,255,0.5);">Completely self-contained</div>
+      </div>
+      <div style="flex:1; background:rgba(70,200,240,0.35); border-radius:8px; padding:20px; text-align:center;">
+        <div style="font-weight:700; font-size:20px;">FEIT</div>
+        <div style="font-size:13px; color:rgba(255,255,255,0.5);">Parallel ecosystem (204p)</div>
+      </div>
+    </div>
+
+    <div class="stat-grid cols-3">
+      <div class="stat"><div class="num">0</div><div class="lbl">FEIT Link-Farm Pages</div></div>
+      <div class="stat"><div class="num">174</div><div class="lbl">FEIT Unique Pages</div></div>
+      <div class="stat"><div class="num">162</div><div class="lbl">Law Unique Pages</div></div>
+    </div>
+  </div>
+
+  <!-- SLIDE 6: SERVICE MODEL -->
+  <div class="slide" id="s6">
+    <div class="section-label">Evidence</div>
+    <h2>Who Provides What</h2>
+    <div class="rule"></div>
+
+    <div style="font-size:15px; color:var(--muted); margin-bottom:12px;">
+      <span class="tag tag-h">H</span> Hub &nbsp;
+      <span class="tag tag-f">F</span> Faculty &nbsp;
+      <span class="tag tag-b">B</span> Both
+    </div>
+
+    <table style="font-size:15px;">
+      <tr><th style="width:28%;">Service</th><th>Hub</th><th>Law</th><th>FEIT</th><th>Arts</th><th>Science</th><th>ABP</th><th>FBE</th><th>Edu</th><th>FFAM</th><th>MDHS</th></tr>
+      <tr><td>Enrolment</td><td><span class="tag tag-h">H</span></td><td><span class="tag tag-b">B</span></td><td><span class="tag tag-b">B</span></td><td><span class="tag tag-b">B</span></td><td><span class="tag tag-b">B</span></td><td><span class="tag tag-h">H</span></td><td><span class="tag tag-h">H</span></td><td><span class="tag tag-b">B</span></td><td><span class="tag tag-f">F</span></td><td><span class="tag tag-h">H</span></td></tr>
+      <tr style="background:rgba(229,62,62,0.04);"><td><strong>Careers</strong></td><td><span class="tag tag-h">H</span></td><td><span class="tag tag-f">F</span></td><td><span class="tag tag-f">F</span></td><td><span class="tag tag-f">F</span></td><td><span class="tag tag-f">F</span></td><td><span class="tag tag-f">F</span></td><td><span class="tag tag-f">F</span></td><td><span class="tag tag-f">F</span></td><td><span class="tag tag-f">F</span></td><td><span class="tag tag-f">F</span></td></tr>
+      <tr style="background:rgba(229,62,62,0.04);"><td><strong>Course planning</strong></td><td><span class="tag tag-h">H</span></td><td><span class="tag tag-f">F</span></td><td><span class="tag tag-f">F</span></td><td><span class="tag tag-f">F</span></td><td><span class="tag tag-f">F</span></td><td><span class="tag tag-f">F</span></td><td><span class="tag tag-f">F</span></td><td><span class="tag tag-f">F</span></td><td><span class="tag tag-f">F</span></td><td><span class="tag tag-b">B</span></td></tr>
+      <tr><td>Exams & results</td><td><span class="tag tag-h">H</span></td><td><span class="tag tag-b">B</span></td><td><span class="tag tag-f">F</span></td><td><span class="tag tag-h">H</span></td><td><span class="tag tag-h">H</span></td><td><span class="tag tag-h">H</span></td><td><span class="tag tag-h">H</span></td><td><span class="tag tag-b">B</span></td><td><span class="tag tag-f">F</span></td><td><span class="tag tag-h">H</span></td></tr>
+      <tr><td>Placements & WIL</td><td>—</td><td><span class="tag tag-f">F</span></td><td><span class="tag tag-f">F</span></td><td><span class="tag tag-f">F</span></td><td><span class="tag tag-f">F</span></td><td><span class="tag tag-f">F</span></td><td>—</td><td><span class="tag tag-f">F</span></td><td>—</td><td><span class="tag tag-f">F</span></td></tr>
+      <tr><td>Health & wellbeing</td><td><span class="tag tag-h">H</span></td><td><span class="tag tag-f">F</span></td><td><span class="tag tag-f">F</span></td><td><span class="tag tag-f">F</span></td><td><span class="tag tag-f">F</span></td><td><span class="tag tag-h">H</span></td><td><span class="tag tag-f">F</span></td><td><span class="tag tag-h">H</span></td><td><span class="tag tag-f">F</span></td><td><span class="tag tag-f">F</span></td></tr>
+    </table>
+
+    <div class="two-col" style="margin-top:24px; gap:24px;">
+      <div class="card red">
+        <h4>🔴 Most duplicated</h4>
+        <p style="font-size:15px;">Careers (8/9 + MBS), Course planning (9/9)</p>
+      </div>
+      <div class="card">
+        <h4>🔵 Hub gap</h4>
+        <p style="font-size:15px;">Placements/WIL — zero hub presence. All faculty-managed.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- SLIDE 7: THE MODEL -->
+  <div class="slide dark" id="s7">
+    <div class="section-label">Recommendation</div>
+    <h2>Hub-and-Spoke Model</h2>
+    <div class="rule"></div>
+
+    <div class="two-col wide-right" style="margin-top:24px;">
+      <div>
+        <div style="background:rgba(70,200,240,0.08); border-radius:8px; padding:24px; margin-bottom:16px;">
+          <h4 style="color:var(--accent); margin-bottom:12px;">Hub Owns</h4>
+          <ul style="font-size:17px; color:rgba(255,255,255,0.8);">
+            <li>Enrolment & course admin</li>
+            <li>Fees & key dates</li>
+            <li>Exams, results, graduation</li>
+            <li>Special consideration</li>
+            <li>Health & wellbeing</li>
+            <li>Careers platform & tools</li>
+            <li>Student life framework</li>
+            <li>Study overseas</li>
+          </ul>
+        </div>
+        <div style="background:rgba(246,173,85,0.10); border-radius:8px; padding:24px;">
+          <h4 style="color:var(--warm); margin-bottom:12px;">Both Provide</h4>
+          <ul style="font-size:17px; color:rgba(255,255,255,0.8);">
+            <li>Course planning (hub: general; faculty: degree-specific)</li>
+            <li>Careers (hub: platform; faculty: discipline mentoring)</li>
+          </ul>
+        </div>
+      </div>
+      <div>
+        <div style="background:rgba(56,161,105,0.10); border-radius:8px; padding:24px;">
+          <h4 style="color:var(--green); margin-bottom:12px;">Faculty Owns</h4>
+          <ul style="font-size:17px; color:rgba(255,255,255,0.8);">
+            <li>Sample course plans & degree guides</li>
+            <li>Placement/practicum management</li>
+            <li>Faculty-specific forms</li>
+            <li>Discipline-specific academic skills</li>
+            <li>Program regulatory requirements</li>
+            <li>Faculty scholarships & prizes</li>
+            <li>Faculty clubs, events, newsletters</li>
+            <li>Performance/practice facilities (FFAM)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="stat-grid cols-3" style="margin-top:32px;">
+      <div class="stat"><div class="num">8</div><div class="lbl">Services to Consolidate</div></div>
+      <div class="stat"><div class="num">~14</div><div class="lbl">New Hub Pages</div></div>
+      <div class="stat"><div class="num">~200</div><div class="lbl">Pages Removed from Faculties</div></div>
+    </div>
+  </div>
+
+  <!-- SLIDE 8: NEW HUB PAGES -->
+  <div class="slide" id="s8">
+    <div class="section-label">Implementation</div>
+    <h2>New Hub Pages Required</h2>
+    <div class="rule"></div>
+
+    <table>
+      <tr><th>Page</th><th style="width:100px;">Priority</th><th>What it does</th></tr>
+      <tr>
+        <td><code>/your-course/faculty-course-planning</code></td>
+        <td><span class="tag tag-red">HIGH</span></td>
+        <td>Links to every faculty's sample course plans & degree guides</td>
+      </tr>
+      <tr>
+        <td><code>/your-course/placements-and-wil</code></td>
+        <td><span class="tag tag-red">HIGH</span></td>
+        <td>WIL explainer + links to each faculty's placement program</td>
+      </tr>
+      <tr>
+        <td><code>/careers/faculty-career-programs</code></td>
+        <td><span class="tag tag-red">HIGH</span></td>
+        <td>Links to each faculty's mentoring & industry programs</td>
+      </tr>
+      <tr>
+        <td>9× Faculty landing pages</td>
+        <td><span class="tag tag-b">MED</span></td>
+        <td><code>/your-faculty/&lt;slug&gt;</code> — contacts, key dates, links</td>
+      </tr>
+      <tr>
+        <td><code>/student-support/academic-skills-by-discipline</code></td>
+        <td><span class="tag tag-b">MED</span></td>
+        <td>Links to faculty-specific academic skills resources</td>
+      </tr>
+      <tr>
+        <td>"Where do I go for..." tool</td>
+        <td><span class="tag tag-b">MED</span></td>
+        <td>Interactive page mapping common needs to correct system</td>
+      </tr>
+    </table>
+
+    <div style="margin-top:32px; font-size:18px; color:var(--muted);">
+      <strong>Total: ~14 new pages</strong> — all thin gateway/landing pages. No heavy content migration required.
+    </div>
+  </div>
+
+  <!-- SLIDE 9: FACULTY TEMPLATE -->
+  <div class="slide dark" id="s9">
+    <div class="section-label">Implementation</div>
+    <h2>Standardised Faculty Template</h2>
+    <div class="rule"></div>
+
+    <table>
+      <tr><th style="width:25%;">Section</th><th>Content</th><th style="width:15%;">Owner</th></tr>
+      <tr><td>Key Contacts</td><td>Stop 1 link + faculty student centre contact</td><td>Template</td></tr>
+      <tr><td>Course Planning</td><td>Sample course plans, degree guides, subject selection advice</td><td>Faculty</td></tr>
+      <tr><td>Placements & WIL</td><td>Placement programs, eligibility, how to apply</td><td>Faculty</td></tr>
+      <tr><td>Faculty Life</td><td>Clubs & societies, events, newsletters, mentoring programs</td><td>Faculty</td></tr>
+      <tr><td>Forms</td><td>Faculty-specific forms</td><td>Faculty</td></tr>
+      <tr style="background:rgba(70,200,240,0.10);"><td><strong>Where to Go</strong></td><td>Standardised sidebar: enrolment → hub, fees → hub, exams → hub, health → hub, careers → hub, IT → hub</td><td>Template</td></tr>
+    </table>
+
+    <div style="margin-top:32px;">
+      <h3 style="color:#fff;">What faculty sites remove</h3>
+      <div class="two-col" style="margin-top:12px; gap:16px;">
+        <div>
+          <ul style="font-size:17px; color:rgba(255,255,255,0.7);">
+            <li>Enrolment how-to pages → hub</li>
+            <li>Special consideration → hub</li>
+            <li>Leave of absence → hub</li>
+            <li>Fees explanation → hub</li>
+          </ul>
+        </div>
+        <div>
+          <ul style="font-size:17px; color:rgba(255,255,255,0.7);">
+            <li>Graduation info → hub</li>
+            <li>Key dates → hub</li>
+            <li>Health & counselling → hub</li>
+            <li>General career advice → hub</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SLIDE 10: TIMELINE -->
+  <div class="slide" id="s10">
+    <div class="section-label">Roadmap</div>
+    <h2>Migration in Three Phases</h2>
+    <div class="rule"></div>
+
+    <div class="timeline">
+      <div class="tl-phase">
+        <div class="tl-num">1</div>
+        <h4>Quick Wins</h4>
+        <div style="background:var(--bg); color:#fff; font-size:13px; padding:4px 12px; border-radius:3px; display:inline-block; margin-bottom:12px;">3 months</div>
+        <ul style="font-size:15px; color:var(--muted); padding-left:16px;">
+          <li>Standardise URL conventions</li>
+          <li>Add "Where to go" sidebar</li>
+          <li>Fix all broken links</li>
+          <li>Cross-link careers</li>
+        </ul>
+      </div>
+      <div class="tl-phase">
+        <div class="tl-num" style="color:var(--warm);">2</div>
+        <h4>Content Consolidation</h4>
+        <div style="background:var(--bg); color:#fff; font-size:13px; padding:4px 12px; border-radius:3px; display:inline-block; margin-bottom:12px;">6 months</div>
+        <ul style="font-size:15px; color:var(--muted); padding-left:16px;">
+          <li>Remove duplicative faculty content</li>
+          <li>Build hub placements gateway</li>
+          <li>Build hub course planning gateway</li>
+          <li>Build hub careers-faculty bridge</li>
+        </ul>
+      </div>
+      <div class="tl-phase">
+        <div class="tl-num" style="color:var(--green);">3</div>
+        <h4>Template Standardisation</h4>
+        <div style="background:var(--bg); color:#fff; font-size:13px; padding:4px 12px; border-radius:3px; display:inline-block; margin-bottom:12px;">12 months</div>
+        <ul style="font-size:15px; color:var(--muted); padding-left:16px;">
+          <li>All faculty CS → standard template</li>
+          <li>Consolidate school-level CS</li>
+          <li>Build hub faculty landing pages</li>
+          <li>Begin annual governance cycle</li>
+        </ul>
+      </div>
+    </div>
+
+    <div style="margin-top:40px; text-align:center;">
+      <div class="stat-grid cols-3" style="display:inline-grid;">
+        <div class="stat"><div class="num">4→1</div><div class="lbl">URL Conventions</div></div>
+        <div class="stat"><div class="num">3→0</div><div class="lbl">School-Level CS Sections</div></div>
+        <div class="stat"><div class="num">9</div><div class="lbl">Standardised Templates</div></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SLIDE 11: DESIGN PRINCIPLES -->
+  <div class="slide dark" id="s11">
+    <div class="section-label">Governance</div>
+    <h2>6 Design Principles</h2>
+    <div class="rule"></div>
+
+    <div class="two-col" style="gap:20px;">
+      <div class="finding"><strong>1.</strong> Students should never have to know which system handles what. The hub is always the first stop.</div>
+      <div class="finding"><strong>2.</strong> One source of truth per service. No duplication between faculty and hub.</div>
+      <div class="finding"><strong>3.</strong> Consistent URL conventions: <code>faculty.unimelb.edu.au/students</code> for every faculty.</div>
+      <div class="finding"><strong>4.</strong> Standard navigation label: "Current students" — not "Students" / "Study" / "Student resources".</div>
+      <div class="finding"><strong>5.</strong> Faculty pages link out; hub pages link down. Always explicit about where to go next.</div>
+      <div class="finding"><strong>6.</strong> "Where to go" is always explicit. Never make students infer the correct system.</div>
+    </div>
+
+    <div style="margin-top:48px; text-align:center;">
+      <div style="font-size:28px; font-weight:300; color:rgba(255,255,255,0.6); max-width:800px; margin:0 auto;">
+        The goal is not to centralise everything.<br>
+        The goal is that students never notice there are multiple systems.
+      </div>
+    </div>
+  </div>
+
+  <!-- SLIDE 12: CLOSING -->
+  <div class="slide" id="s12">
+    <div class="section-label">Next Steps</div>
+    <div style="flex:1; display:flex; flex-direction:column; justify-content:center; align-items:center; text-align:center;">
+      <h2 style="font-size:56px;">Questions & Discussion</h2>
+      <div class="rule centered" style="margin-top:16px;"></div>
+
+      <div style="margin-top:48px; font-size:24px; color:var(--muted); max-width:650px; line-height:1.5;">
+        Full report: <code style="font-size:20px;">report/recommendations.md</code><br>
+        Crawl data: <code style="font-size:20px;">crawl/pages/*.json</code><br>
+        Service model matrix: <code style="font-size:20px;">analysis/service-model-matrix.md</code>
+      </div>
+
+      <div style="margin-top:60px; font-size:18px; color:var(--muted);">
+        Service Experience & Design · University of Melbourne · June 2026
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<div class="nav"><span id="current">1</span> / <span id="total">12</span></div>
+
+<script>
+  const slides = document.querySelectorAll('.slide');
+  const total = slides.length;
+  let idx = 0;
+  document.getElementById('total').textContent = total;
+
+  function show(i) {
+    slides.forEach(s => s.classList.remove('active'));
+    idx = ((i % total) + total) % total;
+    slides[idx].classList.add('active');
+    document.getElementById('current').textContent = idx + 1;
+  }
+
+  document.addEventListener('keydown', e => {
+    if (e.key === 'ArrowRight' || e.key === 'ArrowDown' || e.key === ' ') {
+      e.preventDefault(); show(idx + 1);
+    } else if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') {
+      e.preventDefault(); show(idx - 1);
+    }
+  });
+
+  document.querySelector('.deck').addEventListener('click', e => {
+    const rect = e.target.closest('.slide').getBoundingClientRect();
+    if (e.clientX > rect.left + rect.width / 2) show(idx + 1);
+    else show(idx - 1);
+  });
+
+  // Scale deck to viewport
+  function scale() {
+    const deck = document.querySelector('.deck');
+    const scaleX = window.innerWidth / 1920;
+    const scaleY = window.innerHeight / 1080;
+    const s = Math.min(scaleX, scaleY);
+    deck.style.transform = `scale(${s})`;
+  }
+  window.addEventListener('resize', scale);
+  scale();
+</script>
+
+</body>
+</html>

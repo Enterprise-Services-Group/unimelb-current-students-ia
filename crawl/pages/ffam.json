@@ -1,0 +1,905 @@
+[
+ {
+  "url": "https://finearts-music.unimelb.edu.au/current-students",
+  "normalizedUrl": "https://finearts-music.unimelb.edu.au/current-students",
+  "faculty": "ffam",
+  "unitLevel": "faculty",
+  "title": "Information for current students at the Faculty of Fine Arts and Music",
+  "depth": 0,
+  "wordCount": 275,
+  "classification": "unique",
+  "topicTags": [
+   "subjects-timetable",
+   "orientation",
+   "IT-systems",
+   "forms-admin"
+  ],
+  "outboundHosts": {
+   "students.unimelb.edu.au": 5,
+   "maps.unimelb.edu.au": 1,
+   "finearts-music.unimelb.edu.au": 2,
+   "about.unimelb.edu.au": 1,
+   "forms.office.com": 1,
+   "ask.unimelb.edu.au": 1
+  },
+  "hubLinks": 5,
+  "inSectionCount": 25,
+  "excerpt": "Current student resources Find out what's on offer for current students at the Southbank and Parkville University campuses. Starting out For when you're beginning your studies. Orientation Course Planning Resources Melbourne Peer Mentoring Program Bachelor of Music student guide Room Bookings and Timetables Explore your timetable and book practice spaces. Timetable and room bookings information Practical Music and Performance Timetable Quiet spaces at the Southbank Campus Facilities and Amenities Find the resources you need on campus. Tech Support and Facilities Instrument loans Southbank Camp"
+ },
+ {
+  "url": "https://finearts-music.unimelb.edu.au/current-students/assessment-and-exams/conservatorium-accompanists",
+  "normalizedUrl": "https://finearts-music.unimelb.edu.au/current-students/assessment-and-exams/conservatorium-accompanists",
+  "faculty": "ffam",
+  "unitLevel": "faculty",
+  "title": "Conservatorium accompanists",
+  "depth": 1,
+  "wordCount": 792,
+  "classification": "unique",
+  "topicTags": [
+   "exams-results",
+   "forms-admin",
+   "clubs-events",
+   "graduation"
+  ],
+  "outboundHosts": {
+   "finearts-music.unimelb.edu.au": 1
+  },
+  "hubLinks": 0,
+  "inSectionCount": 0,
+  "excerpt": "Conservatorium accompanists The Melbourne Conservatorium of Music provides students with an accompanist allowance to rehearse and perform with an approved accompanist in performance classes and practical examinations.These allowances are available within the following degrees;Diploma in Music (Practical)Bachelor of MusicBachelor of Music (Honours)Graduate Diploma in Music (Practical)Master of Music (Performance Teaching)Master of Music (Orchestral Performance)Master of Music (Music Performance)Practical Examination Accompanist AllowanceMaximum accompanist allowance times are listed below and a"
+ },
+ {
+  "url": "https://finearts-music.unimelb.edu.au/current-students/assessment-and-exams/conservatorium-performance-timetable-and-examinations",
+  "normalizedUrl": "https://finearts-music.unimelb.edu.au/current-students/assessment-and-exams/conservatorium-performance-timetable-and-examinations",
+  "faculty": "ffam",
+  "unitLevel": "faculty",
+  "title": "Conservatorium performance examinations",
+  "depth": 1,
+  "wordCount": 307,
+  "classification": "unique",
+  "topicTags": [
+   "exams-results",
+   "subjects-timetable",
+   "forms-admin",
+   "enrolment"
+  ],
+  "outboundHosts": {
+   "lms.unimelb.edu.au": 2,
+   "www.unimelb.edu.au": 1,
+   "www.formstack.com": 2,
+   "vcamcm.formstack.com": 1,
+   "ffam-mcm.app.unimelb.edu.au": 1
+  },
+  "hubLinks": 0,
+  "inSectionCount": 1,
+  "excerpt": "Conservatorium Performance ExaminationsConservatorium performance timetable and examinations, student timetables, exam timetables and music performance timetables Exam timetablePlease log in to the LMS for your enrolled practical music subject. There, you will find your examination due date, and access to a copy of the Practical Examination Handbook.Students may have examination timetables where all or part of their final assessment includes sitting either a central or departmental exam. The University always ensures the Examination period is published in the Academic Calendar ahead of time, i"
+ },
+ {
+  "url": "https://finearts-music.unimelb.edu.au/current-students/assets/links/tech-support-and-facilities",
+  "normalizedUrl": "https://finearts-music.unimelb.edu.au/current-students/assets/links/tech-support-and-facilities",
+  "faculty": "ffam",
+  "unitLevel": "faculty",
+  "title": "Tech Support and Facilities",
+  "depth": 1,
+  "wordCount": 3501,
+  "classification": "unique",
+  "topicTags": [
+   "IT-systems",
+   "contacts-support"
+  ],
+  "outboundHosts": {
+   "vcamcm.formstack.com": 14,
+   "fineartsmusicequipment.youcanbook.me": 2,
+   "maps.unimelb.edu.au": 8,
+   "itunes.apple.com": 1,
+   "play.google.com": 1,
+   "knowledge.cheqroom.com": 3,
+   "staff.unimelb.edu.au": 1,
+   "studentit.unimelb.edu.au": 5,
+   "affinity.serif.com": 2,
+   "www.unimelb.edu.au": 1,
+   "vcaworkshoptechsupport.youcanbook.me": 1,
+   "photographyworkshopsupport.youcanbook.me": 1,
+   "photographytechsupport.youcanbook.me": 1,
+   "sculpturetechsupport.youcanbook.me": 1,
+   "paintingtechsupport.youcanbook.me": 1,
+   "dpmtechsupport.youcanbook.me": 1,
+   "mcahonourstechsupport.youcanbook.me": 1,
+   "artstudiotechassist.youcanbook.me": 3,
+   "digitalprintstudio.youcanbook.me": 2,
+   "ecommerce.unimelb.edu.au": 26,
+   "www.dropbox.com": 7,
+   "eng.unimelb.edu.au": 3,
+   "helpx.adobe.com": 4,
+   "documents.blackmagicdesign.com": 1,
+   "support.apple.com": 1,
+   "www.ableton.com": 1,
+   "www.apple.com": 1,
+   "www.rhino3d.com": 1,
+   "www.blenderguru.com": 1
+  },
+  "hubLinks": 0,
+  "inSectionCount": 1,
+  "excerpt": "TECH SUPPORT AND FACILITIESEquipment loans, technical staff, digital printing and more... Frequently asked questions:HOW DO I BORROW EQUIPMENT AT VCA & MCM? Refer to the Equipment Loans section below and follow the instructions.HOW LONG CAN I BORROW EQUIPMENT FOR? Most equipment is available for 48 hours only. Some equipment such as projectors may be available for longer. Check with the Equipment Storeroom staff for more details.IS THERE A LIST OF AVAILABLE EQUIPMENT? Yes. You can view the equipment via the CHEQROOM app once you have created an account - see the instructions below in the Equip"
+ },
+ {
+  "url": "https://finearts-music.unimelb.edu.au/current-students/bookings-and-timetables/pcme-practical-music-timetable",
+  "normalizedUrl": "https://finearts-music.unimelb.edu.au/current-students/bookings-and-timetables/pcme-practical-music-timetable",
+  "faculty": "ffam",
+  "unitLevel": "faculty",
+  "title": "Practical Music and Performance Timetable",
+  "depth": 1,
+  "wordCount": 43,
+  "classification": "link-farm",
+  "topicTags": [
+   "subjects-timetable",
+   "forms-admin",
+   "exams-results",
+   "inclusion-equity"
+  ],
+  "outboundHosts": {
+   "my.unimelb.edu.au": 1,
+   "students.unimelb.edu.au": 1
+  },
+  "hubLinks": 1,
+  "inSectionCount": 0,
+  "excerpt": "Practical Music and Performance Classes Performance timetableOnce enrolled, Conservatorium students can access their personal subject timetable via my.unimelb as well as use the portal to register for classes. Access the student pages on class registration and your timetable to help you get started."
+ },
+ {
+  "url": "https://finearts-music.unimelb.edu.au/current-students/bookings-and-timetables/quiet-spaces-at-the-southbank-campus",
+  "normalizedUrl": "https://finearts-music.unimelb.edu.au/current-students/bookings-and-timetables/quiet-spaces-at-the-southbank-campus",
+  "faculty": "ffam",
+  "unitLevel": "faculty",
+  "title": "Quiet spaces at the Southbank Campus",
+  "depth": 1,
+  "wordCount": 721,
+  "classification": "unique",
+  "topicTags": [
+   "wellbeing-health",
+   "subjects-timetable",
+   "placements-WIL",
+   "forms-admin"
+  ],
+  "outboundHosts": {
+   "maps.unimelb.edu.au": 11,
+   "go.unimelb.edu.au": 2,
+   "spaceinfo.staff.unimelb.edu.au": 1,
+   "unimelb.service-now.com": 1
+  },
+  "hubLinks": 0,
+  "inSectionCount": 0,
+  "excerpt": "Quiet spaces at the Southbank Campus Searching for a quiet space on campus?The Southbank Campus is home to diverse and dynamic creative learning. Noisy work often occurs from our studios, classrooms, and performances spaces, ranging from live music to workshop construction noise.Quiet spaces are designated areas where there is unlikely to be excessive noise. Two of these spaces are bookable.Flexible spaces are common areas that may be quiet at different times of the day.Spaces will have peak activity periods so you may need to try a few different spots before you find one that suits your needs"
+ },
+ {
+  "url": "https://finearts-music.unimelb.edu.au/current-students/bookings-and-timetables/timetable-and-room-bookings",
+  "normalizedUrl": "https://finearts-music.unimelb.edu.au/current-students/bookings-and-timetables/timetable-and-room-bookings",
+  "faculty": "ffam",
+  "unitLevel": "faculty",
+  "title": "Timetable & Room Bookings | Faculty of Fine Arts & Music",
+  "depth": 1,
+  "wordCount": 1598,
+  "classification": "mixed",
+  "topicTags": [
+   "subjects-timetable"
+  ],
+  "outboundHosts": {
+   "students.unimelb.edu.au": 6,
+   "cloud.timeedit.net": 1,
+   "www.unimelb.edu.au": 1,
+   "policy.unimelb.edu.au": 1,
+   "finearts-music.unimelb.edu.au": 5,
+   "maps.unimelb.edu.au": 1,
+   "staff.unimelb.edu.au": 1
+  },
+  "hubLinks": 6,
+  "inSectionCount": 1,
+  "excerpt": "Timetable and room bookings Get started Class timetabling dates Find out when the class timetable planning, preferencing and adjustment periods are for each study period in MyTimetable. Find out more TE Reserve Make and manage your Fine Arts and Music room bookings via TE Reserve. Click Here Guides For instructional guides on using TE Reserve for the Faculty of Fine Arts and Music Click here Your class timetableMyTimetable is a class timetabling system that creates individual timetables for students based on submitted class preferences, ensuring everyone has an equitable opportunity of getting"
+ },
+ {
+  "url": "https://finearts-music.unimelb.edu.au/current-students/employability-in-fine-arts-and-music",
+  "normalizedUrl": "https://finearts-music.unimelb.edu.au/current-students/employability-in-fine-arts-and-music",
+  "faculty": "ffam",
+  "unitLevel": "faculty",
+  "title": "Employability in Fine Arts and Music",
+  "depth": 1,
+  "wordCount": 711,
+  "classification": "mixed",
+  "topicTags": [
+   "careers-employability",
+   "student-life",
+   "contacts-support",
+   "exams-results"
+  ],
+  "outboundHosts": {
+   "finearts-music.unimelb.edu.au": 6,
+   "students.unimelb.edu.au": 22,
+   "www.unimelb.edu.au": 2,
+   "careersonline.unimelb.edu.au": 1,
+   "canvas.lms.unimelb.edu.au": 1,
+   "umsu.unimelb.edu.au": 1,
+   "gsa.unimelb.edu.au": 1,
+   "sso.unimelb.edu.au": 1,
+   "career-checklist.unimelb.edu.au": 1
+  },
+  "hubLinks": 22,
+  "inSectionCount": 2,
+  "excerpt": "Employability in Fine Arts and Music Your curriculum is at the heart of your employabilityOur courses provide a foundation for developing your employability. Every subject, assessment, placement, and activity helps you apply theory to practice, build confidence, and demonstrate your capabilities to future employers.In the Faculty of Fine Arts and Music, employability skills are woven into the fabric of our courses. Our creative community supports you to build peer networks, develop your practice, grow industry networks and explore creative collaborations. Your employability journey starts now "
+ },
+ {
+  "url": "https://finearts-music.unimelb.edu.au/current-students/ensembles/big-band",
+  "normalizedUrl": "https://finearts-music.unimelb.edu.au/current-students/ensembles/big-band",
+  "faculty": "ffam",
+  "unitLevel": "faculty",
+  "title": "Big Band",
+  "depth": 1,
+  "wordCount": 555,
+  "classification": "unique",
+  "topicTags": [
+   "clubs-events",
+   "forms-admin",
+   "international"
+  ],
+  "outboundHosts": {
+   "handbook.unimelb.edu.au": 9,
+   "maps.unimelb.edu.au": 2
+  },
+  "hubLinks": 0,
+  "inSectionCount": 0,
+  "excerpt": "Big Band About Big BandThe Melbourne University Big Band (directed by Mat Jodrell) utilises a wide variety of styles and eras of the Big Band catalog, incorporating many current composers in its repertoire. The band is primarily a reading band, promoting the skills of sight reading and instant interpretation. The ensemble also uses improvisation as a key element, often featuring extended solos. This group performs works by composers such as Maria Schneider, Thad Jones, Gil Evans, Jim McNeely, Toshiko Akiyoshi, Bob Mintzer, John Clayton and Bob Brookmeyer to name a few. It also encourages compo"
+ },
+ {
+  "url": "https://finearts-music.unimelb.edu.au/current-students/ensembles/chamber-music",
+  "normalizedUrl": "https://finearts-music.unimelb.edu.au/current-students/ensembles/chamber-music",
+  "faculty": "ffam",
+  "unitLevel": "faculty",
+  "title": "Chamber Music",
+  "depth": 1,
+  "wordCount": 293,
+  "classification": "unique",
+  "topicTags": [
+   "clubs-events",
+   "forms-admin",
+   "contacts-support"
+  ],
+  "outboundHosts": {
+   "handbook.unimelb.edu.au": 9,
+   "forms.cloud.microsoft": 1
+  },
+  "hubLinks": 0,
+  "inSectionCount": 0,
+  "excerpt": "Chamber Music group application About Chamber MusicThe Melbourne Conservatorium of Music has a long and distinguished history of offering outstanding chamber music experience for all levels of students. The Chamber Music class is one of the few performance subjects at the MCM in which students of all instruments and levels come together in an exciting and supportive environment for vibrant musical exchange and appreciation.Students form their own chamber music groups at the beginning of the semester. They are then allocated a tutor to work with throughout the semester, resulting in a public pe"
+ },
+ {
+  "url": "https://finearts-music.unimelb.edu.au/current-students/ensembles/conservatorium-symphonic-ensembles",
+  "normalizedUrl": "https://finearts-music.unimelb.edu.au/current-students/ensembles/conservatorium-symphonic-ensembles",
+  "faculty": "ffam",
+  "unitLevel": "faculty",
+  "title": "Symphonic Ensembles application and registration",
+  "depth": 1,
+  "wordCount": 912,
+  "classification": "unique",
+  "topicTags": [
+   "clubs-events",
+   "forms-admin"
+  ],
+  "outboundHosts": {
+   "finearts-music.unimelb.edu.au": 24,
+   "students.unimelb.edu.au": 2,
+   "handbook.unimelb.edu.au": 1,
+   "vcamcm.formstack.com": 1
+  },
+  "hubLinks": 2,
+  "inSectionCount": 0,
+  "excerpt": "Conservatorium Symphonic EnsemblesEligibility, registration, program and audition information for students wishing to participate in Symphonic Ensembles at the Conservatorium. Audition information for String and Brass Ensemble can also be found below. Semester 2 ConcertsUniversity of Melbourne Symphony Orchestra Sunday 23 August & Sunday 27 September, Hamer Hall 5pmUniversity of Melbourne Wind Symphony Sunday 16 August 5pm & Wednesday 14 October 7.30pm, Melbourne Recital Centre Melbourne Conservatorium of Music Concert Band Wednesday 26 August & Wednesday 7 October, 7pm Ian Potter Southbank Ce"
+ },
+ {
+  "url": "https://finearts-music.unimelb.edu.au/current-students/ensembles/percussion-ensemble",
+  "normalizedUrl": "https://finearts-music.unimelb.edu.au/current-students/ensembles/percussion-ensemble",
+  "faculty": "ffam",
+  "unitLevel": "faculty",
+  "title": "Percussion Ensemble",
+  "depth": 1,
+  "wordCount": 352,
+  "classification": "unique",
+  "topicTags": [
+   "clubs-events"
+  ],
+  "outboundHosts": {
+   "handbook.unimelb.edu.au": 6,
+   "maps.unimelb.edu.au": 1,
+   "finearts-music.unimelb.edu.au": 1,
+   "forms.office.com": 1
+  },
+  "hubLinks": 0,
+  "inSectionCount": 0,
+  "excerpt": "Percussion Ensemble MYRIAD is the Percussion Ensemble of the Melbourne Conservatorium of Music.Established in 2020 and directed by Head of Percussion Brent Miller, MYRIAD is named in honour of the esteemed inaugural Head of Percussion, Barry Quinn, in acknowledgement of his legacy.Each semester, MYRIAD presents concerts featuring diverse and eclectic programmes that showcase seminal repertoire, timeless classics, and works by staff and student composers, which are often world premieres.Proudly championing Australian repertoire, MYRIAD also dedicates time each year in the studio to record new A"
+ },
+ {
+  "url": "https://finearts-music.unimelb.edu.au/current-students/facilities/conservatorium-instrument-loans",
+  "normalizedUrl": "https://finearts-music.unimelb.edu.au/current-students/facilities/conservatorium-instrument-loans",
+  "faculty": "ffam",
+  "unitLevel": "faculty",
+  "title": "Instrument Loans | Faculty of Fine Arts & Music | UniMelb",
+  "depth": 1,
+  "wordCount": 305,
+  "classification": "unique",
+  "topicTags": [
+   "IT-systems",
+   "fees-finance"
+  ],
+  "outboundHosts": {
+   "forms.office.com": 1
+  },
+  "hubLinks": 0,
+  "inSectionCount": 0,
+  "excerpt": "Conservatorium instrument loansThe Melbourne Conservatorium of Music has a selection of musical instruments available for loan to current FAM students, including strings, woodwinds, brass and early music instruments for use in course-related activities. All instrument loans are subject to the recommendation of your teacher and approval of the responsible academic staff member and organized by the Technical Resources – Music & Instrumentation Department.All instrument loans require payment of a $250 refundable deposit, which must be paid prior to collection. Personal study instrument loans also"
+ },
+ {
+  "url": "https://finearts-music.unimelb.edu.au/current-students/forms/Conservatorium-Special-Permission-Forms",
+  "normalizedUrl": "https://finearts-music.unimelb.edu.au/current-students/forms/Conservatorium-Special-Permission-Forms",
+  "faculty": "ffam",
+  "unitLevel": "faculty",
+  "title": "Conservatorium Special Permission Forms",
+  "depth": 1,
+  "wordCount": 191,
+  "classification": "unique",
+  "topicTags": [
+   "forms-admin",
+   "special-consideration",
+   "enrolment",
+   "contacts-support"
+  ],
+  "outboundHosts": {
+   "my.unimelb.edu.au": 1,
+   "www.formstack.com": 1,
+   "concertclass.mcm.unimelb.edu.au": 1,
+   "performanceclass.mcm.unimelb.edu.au": 1
+  },
+  "hubLinks": 0,
+  "inSectionCount": 4,
+  "excerpt": "Conservatorium Special Permission Forms All current students of the Faculty of Fine Arts and Music may be required to apply for certain internal permissions throughout the duration of their enrolment.These applications differ from those made through my.unimelb, which include Special Consideration and Leave of Absence.It is the student's responsibility to ensure that they are applying for the appropriate permissions with respect to their subjects or enrolments. These forms must be filled out and submitted to the relevant area within a timely manner with any relevant supporting documentation. Ap"
+ },
+ {
+  "url": "https://finearts-music.unimelb.edu.au/current-students/forms/assessment-program-aproval-forms",
+  "normalizedUrl": "https://finearts-music.unimelb.edu.au/current-students/forms/assessment-program-aproval-forms",
+  "faculty": "ffam",
+  "unitLevel": "faculty",
+  "title": "Assessment and Program Approval forms",
+  "depth": 1,
+  "wordCount": 413,
+  "classification": "unique",
+  "topicTags": [
+   "forms-admin",
+   "exams-results",
+   "enrolment",
+   "special-consideration"
+  ],
+  "outboundHosts": {
+   "finearts-music.unimelb.edu.au": 1,
+   "www.formstack.com": 4,
+   "students.unimelb.edu.au": 3,
+   "vcamcm.formstack.com": 2,
+   "review.slideroom.com": 1,
+   "handbook.unimelb.edu.au": 1
+  },
+  "hubLinks": 3,
+  "inSectionCount": 0,
+  "excerpt": "Assessment and Program Approval forms All current students of the Faculty of Fine Arts and Music may be required to apply for certain internal permissions throughout the duration of their enrolment, such as extensions.It is the student's responsibility to ensure that they are applying for the appropriate permissions with respect to their subjects. These forms must be filled out and submitted within a timely manner with any relevant supporting documentation. Applications cannot be pre-assessed and do not guarantee an approval. Assessment forms School or DisciplineFormPurposeFaculty of Fine Arts"
+ },
+ {
+  "url": "https://finearts-music.unimelb.edu.au/current-students/forms/conservatorium-ensemble-enrolment-and-participation-forms",
+  "normalizedUrl": "https://finearts-music.unimelb.edu.au/current-students/forms/conservatorium-ensemble-enrolment-and-participation-forms",
+  "faculty": "ffam",
+  "unitLevel": "faculty",
+  "title": "Conservatorium Ensemble Enrolment & Participation Forms",
+  "depth": 1,
+  "wordCount": 716,
+  "classification": "unique",
+  "topicTags": [
+   "clubs-events",
+   "forms-admin",
+   "enrolment"
+  ],
+  "outboundHosts": {
+   "handbook.unimelb.edu.au": 75,
+   "forms.office.com": 3,
+   "canvas.lms.unimelb.edu.au": 1,
+   "www.formstack.com": 1
+  },
+  "hubLinks": 0,
+  "inSectionCount": 3,
+  "excerpt": "Conservatorium Ensemble Enrolment & Participation Forms EnsembleAudition requirements and subject informationBig BandStudents are required to audition to participate in the ensemble or enrol in the corresponding ensemble subjects:MUSI20071 Big Band 1MUSI20134 Big Band 1 (Breadth)MUSI30165 Big Band 1MUSI30277 Big Band 1 (Breadth)MUSI20072 Big Band 2MUSI20132 Big Band 2 (Breadth)MUSI30166 Big Band 2MUSI30278 Big Band 2 (Breadth)Applications for Semester 1, 2026 are now closedBrass EnsembleAudition information is available on the Symphonic Ensembles website.Details about Brass Ensemble can be fou"
+ },
+ {
+  "url": "https://finearts-music.unimelb.edu.au/current-students/forms/conservatorium-subject-enrolment-forms",
+  "normalizedUrl": "https://finearts-music.unimelb.edu.au/current-students/forms/conservatorium-subject-enrolment-forms",
+  "faculty": "ffam",
+  "unitLevel": "faculty",
+  "title": "Conservatorium Subject Enrolment Forms",
+  "depth": 1,
+  "wordCount": 265,
+  "classification": "unique",
+  "topicTags": [
+   "forms-admin",
+   "clubs-events",
+   "enrolment",
+   "course-planning"
+  ],
+  "outboundHosts": {
+   "www.formstack.com": 1,
+   "handbook.unimelb.edu.au": 15,
+   "vcamcm.slideroom.com": 1,
+   "vcamcm.formstack.com": 3,
+   "review.slideroom.com": 1
+  },
+  "hubLinks": 0,
+  "inSectionCount": 1,
+  "excerpt": "Conservatorium Subject Enrolment Application Forms Subject & FormEnrolment RequirementsChamber Music subjects – Group ApplicationAll students who wish to be considered for Chamber Music must be included in a Chamber Music application as part of a proposed chamber group.Students who wish to enrol or participate are required to apply for permission for the following subjects:MUSI20013 Chamber Music 1MUSI20014 Chamber Music 2MUSI30019 Chamber Music 3MUSI30020 Chamber Music 4Minor Music Performance 1-4 ApplicationFor Performance Major students who may wish to apply for a second instrument or Compo"
+ },
+ {
+  "url": "https://finearts-music.unimelb.edu.au/current-students/forms/fine-arts-and-music-enrolment-assistance",
+  "normalizedUrl": "https://finearts-music.unimelb.edu.au/current-students/forms/fine-arts-and-music-enrolment-assistance",
+  "faculty": "ffam",
+  "unitLevel": "faculty",
+  "title": "Fine Arts and Music Enrolment Assistance",
+  "depth": 1,
+  "wordCount": 77,
+  "classification": "link-farm",
+  "topicTags": [
+   "forms-admin",
+   "enrolment",
+   "course-planning",
+   "exams-results"
+  ],
+  "outboundHosts": {
+   "students.unimelb.edu.au": 1
+  },
+  "hubLinks": 1,
+  "inSectionCount": 4,
+  "excerpt": "Fine Arts and Music Enrolment Assistance Purpose of this formWhen permission of coordinator is required: Email the relevant subject coordinator listed in the Handbook and attach their permission to an Enrolment Assistance form as evidence of approval.Request a variation to your enrolment and/or study planEnrol in a subject not listed in your course/study planEnrolment Assistance Form Other Forms Assessment and Program Approval Forms Conservatorium Ensemble Enrolment & Participation Forms Conservatorium Subject Enrolment Forms Conservatorium Special Permission Forms"
+ },
+ {
+  "url": "https://finearts-music.unimelb.edu.au/current-students/research-students",
+  "normalizedUrl": "https://finearts-music.unimelb.edu.au/current-students/research-students",
+  "faculty": "ffam",
+  "unitLevel": "faculty",
+  "title": "Information for research students at the Faculty of Fine Arts & Music",
+  "depth": 1,
+  "wordCount": 290,
+  "classification": "unique",
+  "topicTags": [
+   "research-candidature",
+   "scholarships",
+   "enrolment",
+   "graduation"
+  ],
+  "outboundHosts": {
+   "finearts-music.unimelb.edu.au": 1
+  },
+  "hubLinks": 0,
+  "inSectionCount": 10,
+  "excerpt": "Research StudentsInformation and support for current Graduate Research students at the Faculty of Fine Arts and Music. Research Students FAQSView Research FAQs Enrolment Graduate Research students cannot self-enrol. When you first commenced your course, staff at the Faculty Research Office enrolled you in your course Grants and Awards Funding for your research, including the Faculty Graduate Research Fund Scholarships and Studentships Information about scholarship and studentship opportunities for research students. Progress reviews Confirmation, progress and conversion: towards successful com"
+ },
+ {
+  "url": "https://finearts-music.unimelb.edu.au/current-students/research-students/grants",
+  "normalizedUrl": "https://finearts-music.unimelb.edu.au/current-students/research-students/grants",
+  "faculty": "ffam",
+  "unitLevel": "faculty",
+  "title": "Grants and internal funding at the Faculty",
+  "depth": 1,
+  "wordCount": 1002,
+  "classification": "unique",
+  "topicTags": [
+   "research-candidature",
+   "scholarships",
+   "graduation",
+   "contacts-support"
+  ],
+  "outboundHosts": {
+   "finearts-music.unimelb.edu.au": 7,
+   "gateway.research.unimelb.edu.au": 4,
+   "ricunimelb.smartygrants.com.au": 3,
+   "gradresearch.unimelb.edu.au": 1,
+   "jobs.unimelb.edu.au": 1,
+   "unimelbcloud.sharepoint.com": 1,
+   "pivot.proquest.com": 1
+  },
+  "hubLinks": 0,
+  "inSectionCount": 3,
+  "excerpt": "Grants and AwardsSupporting graduate researchers in realising their research goals and encouraging the dissemination of this information nationally and internationally. Extend the impact and application of your research through our internal grants and funding schemes. The Faculty Graduate Researcher FundMaximise the impact of your research through the Faculty Graduate Researcher Fund (FGRF), which offers support for graduate researchers in undertaking activities associated with their research projects. Confirmed PhD candidates can receive up to $3,000 over the course of their candidature and u"
+ },
+ {
+  "url": "https://finearts-music.unimelb.edu.au/current-students/research-students/research-ethics-and-integrity2",
+  "normalizedUrl": "https://finearts-music.unimelb.edu.au/current-students/research-students/research-ethics-and-integrity2",
+  "faculty": "ffam",
+  "unitLevel": "faculty",
+  "title": "Research Ethics & Integrity | Faculty of Fine Arts & Music",
+  "depth": 1,
+  "wordCount": 788,
+  "classification": "unique",
+  "topicTags": [
+   "academic-skills",
+   "research-candidature",
+   "course-planning",
+   "contacts-support"
+  ],
+  "outboundHosts": {
+   "policy.unimelb.edu.au": 1,
+   "nhmrc.gov.au": 1,
+   "www.nhmrc.gov.au": 1,
+   "staff.unimelb.edu.au": 4,
+   "gateway.research.unimelb.edu.au": 5
+  },
+  "hubLinks": 0,
+  "inSectionCount": 0,
+  "excerpt": "Research ethics and integrityAdvice on getting approval for doing research with people or animals. Advice on research integrity, conflicts and breaches and Research Integrity Online Training (RIOT). Research integrityResearch integrity means that research is trustworthy due to using sound methods and being honestly and accurately described.At the University of Melbourne, all research is governed by:The University of Melbourne's Research Integrity and Misconduct PolicyThe Australian Code for the Responsible Conduct of Research 2018The National Statement on Ethical Conduct in Human Research 2025"
+ },
+ {
+  "url": "https://finearts-music.unimelb.edu.au/current-students/research-students/scholarships-and-studentships",
+  "normalizedUrl": "https://finearts-music.unimelb.edu.au/current-students/research-students/scholarships-and-studentships",
+  "faculty": "ffam",
+  "unitLevel": "faculty",
+  "title": "Scholarships & Studentships | Graduate Students | FFAM",
+  "depth": 1,
+  "wordCount": 393,
+  "classification": "unique",
+  "topicTags": [
+   "scholarships",
+   "research-candidature",
+   "graduation",
+   "forms-admin"
+  ],
+  "outboundHosts": {
+   "scholarships.unimelb.edu.au": 2,
+   "unimelb_admissions_scholarships.formstack.com": 1,
+   "finearts-music.unimelb.edu.au": 1,
+   "services.unimelb.edu.au": 1,
+   "arts.unimelb.edu.au": 1
+  },
+  "hubLinks": 0,
+  "inSectionCount": 0,
+  "excerpt": "ScholarshipsInformation about scholarship and studentship opportunities for research students.Every scholarship has different eligibility criteria, so there's more than likely one that you are eligible for. Find the right scholarship for you on the University's scholarships website. University Graduate Research and Equity scholarshipsAustralian Government Research Training Program Scholarships (RTP) which replaced Australian Postgraduate Awards (APA) in 2018, and Melbourne Research Scholarships (MRS) are university research scholarships awarded at entry to the course and based on academic meri"
+ },
+ {
+  "url": "https://finearts-music.unimelb.edu.au/current-students/starting-out/bachelor-of-music-student-guides",
+  "normalizedUrl": "https://finearts-music.unimelb.edu.au/current-students/starting-out/bachelor-of-music-student-guides",
+  "faculty": "ffam",
+  "unitLevel": "faculty",
+  "title": "Bachelor of Music student guide",
+  "depth": 1,
+  "wordCount": 62,
+  "classification": "link-farm",
+  "topicTags": [
+   "orientation",
+   "forms-admin",
+   "course-planning",
+   "student-life"
+  ],
+  "outboundHosts": {
+   "lms.unimelb.edu.au": 1,
+   "finearts-music.unimelb.edu.au": 1
+  },
+  "hubLinks": 0,
+  "inSectionCount": 0,
+  "excerpt": "Bachelor of Music Student Guide Important information for Diploma in Music, Bachelor of Music and Bachelor of Music (Honours) students majoring in Performance, Musicology & Ethnomusicology, and Music Studies can be found in the Music Performance Community in the Learning Management System (LMS), as well as the Bachelor of Music Student GuideLog in to the LMSDownload the Bachelor of Music Student Guide"
+ },
+ {
+  "url": "https://finearts-music.unimelb.edu.au/current-students/starting-out/orientation",
+  "normalizedUrl": "https://finearts-music.unimelb.edu.au/current-students/starting-out/orientation",
+  "faculty": "ffam",
+  "unitLevel": "faculty",
+  "title": "Orientation",
+  "depth": 1,
+  "wordCount": 409,
+  "classification": "mixed",
+  "topicTags": [
+   "orientation",
+   "enrolment",
+   "course-planning",
+   "forms-admin"
+  ],
+  "outboundHosts": {
+   "handbook.unimelb.edu.au": 1,
+   "students.unimelb.edu.au": 7,
+   "library.unimelb.edu.au": 1,
+   "www.ptv.vic.gov.au": 1
+  },
+  "hubLinks": 7,
+  "inSectionCount": 0,
+  "excerpt": "2026 Midyear OrientationSemester 2 Orientation runs from 20 - 24 July.Watch this space for program updates and important information. General Information Follow the below steps to begin your journey at Fine Arts and Music Use the Handbook to identify the subjects you will take to meet your course requirements and academic goals. If you are an undergraduate student, we encourage you to explore the interactive My Course Planner tool to understand your course rules, subject requisites, elective, and breadth options.From there, you can enrol into your subjects via your Study Plan. Enrolling in a s"
+ },
+ {
+  "url": "https://finearts-music.unimelb.edu.au/current-students/student-experience/fine-arts-and-music-career-mentoring",
+  "normalizedUrl": "https://finearts-music.unimelb.edu.au/current-students/student-experience/fine-arts-and-music-career-mentoring",
+  "faculty": "ffam",
+  "unitLevel": "faculty",
+  "title": "Fine Arts and Music Career Mentoring",
+  "depth": 1,
+  "wordCount": 1328,
+  "classification": "unique",
+  "topicTags": [
+   "careers-employability",
+   "student-life"
+  ],
+  "outboundHosts": {
+   "canvas.lms.unimelb.edu.au": 2,
+   "careersonline.unimelb.edu.au": 1,
+   "catalog.lms.unimelb.edu.au": 1
+  },
+  "hubLinks": 0,
+  "inSectionCount": 0,
+  "excerpt": "Fine Arts and Music Career Mentoring As you think about life beyond your studies you may be wondering how to shape a career around your creative practice.Fine Arts and Music Career Mentoring matches students with industry professionals who can offer guidance on navigating professional pathways, building networks, and developing complementary skills alongside your artistic training. Why join Fine Arts and Music Career Mentoring?Through one‑to‑one conversations with an experienced professional, mentoring gives you the opportunity to explore career pathways, build confidence, and gain insight int"
+ },
+ {
+  "url": "https://finearts-music.unimelb.edu.au/current-students/student-experience/ignite-lab",
+  "normalizedUrl": "https://finearts-music.unimelb.edu.au/current-students/student-experience/ignite-lab",
+  "faculty": "ffam",
+  "unitLevel": "faculty",
+  "title": "Ignite LAB",
+  "depth": 1,
+  "wordCount": 1439,
+  "classification": "unique",
+  "topicTags": [
+   "careers-employability",
+   "student-life",
+   "placements-WIL",
+   "scholarships"
+  ],
+  "outboundHosts": {
+   "canvas.lms.unimelb.edu.au": 6
+  },
+  "hubLinks": 0,
+  "inSectionCount": 0,
+  "excerpt": "IgniteLAB Music career and entrepreneurship program IgniteLAB fosters more informed and world-ready young music professionals through specialist training and resources for all music students. AboutIgniteLAB is a dedicated career development hub for students at the Melbourne Conservatorium of Music, offering practical guidance and hands-on support as students navigate their next career steps. Through one-on-one coaching, student grants, career workshops, and a dedicated resource hub, IgniteLAB empowers students at any stage of their degree to explore ideas, build skills, and shape sustainable, "
+ },
+ {
+  "url": "https://finearts-music.unimelb.edu.au/current-students/bookings-and-timetables/timetable-and-room-bookings/_nocache",
+  "normalizedUrl": "https://finearts-music.unimelb.edu.au/current-students/bookings-and-timetables/timetable-and-room-bookings/_nocache",
+  "faculty": "ffam",
+  "unitLevel": "faculty",
+  "title": "Timetable & Room Bookings | Faculty of Fine Arts & Music",
+  "depth": 2,
+  "wordCount": 1598,
+  "classification": "mixed",
+  "topicTags": [
+   "subjects-timetable"
+  ],
+  "outboundHosts": {
+   "students.unimelb.edu.au": 6,
+   "cloud.timeedit.net": 1,
+   "www.unimelb.edu.au": 1,
+   "policy.unimelb.edu.au": 1,
+   "finearts-music.unimelb.edu.au": 5,
+   "maps.unimelb.edu.au": 1,
+   "staff.unimelb.edu.au": 1
+  },
+  "hubLinks": 6,
+  "inSectionCount": 1,
+  "excerpt": "Timetable and room bookings Get started Class timetabling dates Find out when the class timetable planning, preferencing and adjustment periods are for each study period in MyTimetable. Find out more TE Reserve Make and manage your Fine Arts and Music room bookings via TE Reserve. Click Here Guides For instructional guides on using TE Reserve for the Faculty of Fine Arts and Music Click here Your class timetableMyTimetable is a class timetabling system that creates individual timetables for students based on submitted class preferences, ensuring everyone has an equitable opportunity of getting"
+ },
+ {
+  "url": "https://finearts-music.unimelb.edu.au/current-students/forms/conservatorium-subject-enrolment-forms/minor-music-performance",
+  "normalizedUrl": "https://finearts-music.unimelb.edu.au/current-students/forms/conservatorium-subject-enrolment-forms/minor-music-performance",
+  "faculty": "ffam",
+  "unitLevel": "faculty",
+  "title": "Minor Music Performance",
+  "depth": 2,
+  "wordCount": 253,
+  "classification": "unique",
+  "topicTags": [
+   "forms-admin",
+   "course-planning",
+   "enrolment"
+  ],
+  "outboundHosts": {
+   "handbook.unimelb.edu.au": 4,
+   "forms.cloud.microsoft": 1
+  },
+  "hubLinks": 0,
+  "inSectionCount": 0,
+  "excerpt": "Minor Music Performance About Minor Music PerformanceMinor Music Performance subjects allow Bachelor of Music Performance Major students who may wish to apply for a second instrument, or Bachelor of Music Composition Major students who may wish to continue their main instrument along with their Composition Major. SubjectsStudents who wish to enrol in Minor Music Performance are required to apply for permission for one of the following subjects:MUSI20025 Minor Music Performance 1 - Level 2 Music Elective, 6.25 credit pointsMUSI20026 Minor Music Performance 2 - Level 2 Music Elective, 6.25 credi"
+ },
+ {
+  "url": "https://finearts-music.unimelb.edu.au/current-students/opportunities-and-outreach/ignite-lab",
+  "normalizedUrl": "https://finearts-music.unimelb.edu.au/current-students/opportunities-and-outreach/ignite-lab",
+  "faculty": "ffam",
+  "unitLevel": "faculty",
+  "title": "Ignite LAB",
+  "depth": 2,
+  "wordCount": 1439,
+  "classification": "unique",
+  "topicTags": [
+   "placements-WIL",
+   "careers-employability",
+   "scholarships",
+   "forms-admin"
+  ],
+  "outboundHosts": {
+   "canvas.lms.unimelb.edu.au": 6
+  },
+  "hubLinks": 0,
+  "inSectionCount": 0,
+  "excerpt": "IgniteLAB Music career and entrepreneurship program IgniteLAB fosters more informed and world-ready young music professionals through specialist training and resources for all music students. AboutIgniteLAB is a dedicated career development hub for students at the Melbourne Conservatorium of Music, offering practical guidance and hands-on support as students navigate their next career steps. Through one-on-one coaching, student grants, career workshops, and a dedicated resource hub, IgniteLAB empowers students at any stage of their degree to explore ideas, build skills, and shape sustainable, "
+ },
+ {
+  "url": "https://finearts-music.unimelb.edu.au/current-students/research-students/enrolment",
+  "normalizedUrl": "https://finearts-music.unimelb.edu.au/current-students/research-students/enrolment",
+  "faculty": "ffam",
+  "unitLevel": "faculty",
+  "title": "Enrolment for research students",
+  "depth": 2,
+  "wordCount": 131,
+  "classification": "link-farm",
+  "topicTags": [
+   "research-candidature",
+   "enrolment",
+   "graduation",
+   "forms-admin"
+  ],
+  "outboundHosts": {
+   "gradresearch.unimelb.edu.au": 2
+  },
+  "hubLinks": 0,
+  "inSectionCount": 0,
+  "excerpt": "EnrolmentGraduate Research students cannot self-enrol. When you first commenced your course, staff at the Faculty Research Office enrolled you in your course. Enrolment changesDuring your candidature you may need to make changes to your enrolment. This can include changing between part time and full time, taking a leave of absence, taking leave to study away or changing supervisors. For a direct link to the online forms to make a change to your enrolment, go to the Making Changes page on the Graduate Research Hub.The Graduate Research HubThe Graduate Research Hub has a wealth of information on"
+ },
+ {
+  "url": "https://finearts-music.unimelb.edu.au/current-students/research-students/folio-recordings-support-scheme-for-music",
+  "normalizedUrl": "https://finearts-music.unimelb.edu.au/current-students/research-students/folio-recordings-support-scheme-for-music",
+  "faculty": "ffam",
+  "unitLevel": "faculty",
+  "title": "Portfolio Recordings Support Scheme for Music (Jazz & Improvisation)",
+  "depth": 2,
+  "wordCount": 819,
+  "classification": "unique",
+  "topicTags": [
+   "research-candidature",
+   "forms-admin",
+   "contacts-support",
+   "international"
+  ],
+  "outboundHosts": {
+   "forms.office.com": 2
+  },
+  "hubLinks": 0,
+  "inSectionCount": 1,
+  "excerpt": "Melbourne Conservatorium of MusicFolio Recording Fund for Doctoral Students OverviewThe Melbourne Conservatorium of Folio Recording Fund assists doctoral music students across Music Performance, Composition, Interactive Composition, and Jazz and Improvisation in the production of their creative outputs for confirmation and final examination.Melbourne Conservatorium employs audio engineers to assist with the production of high-quality audio and/or video recorded material. This documentation will typically be a mix of two forms:a live audio-visual recording, using high quality video and audio eq"
+ },
+ {
+  "url": "https://finearts-music.unimelb.edu.au/current-students/research-students/graduate-research-seminar-melbourne-conservatorium-of-music",
+  "normalizedUrl": "https://finearts-music.unimelb.edu.au/current-students/research-students/graduate-research-seminar-melbourne-conservatorium-of-music",
+  "faculty": "ffam",
+  "unitLevel": "faculty",
+  "title": "Graduate research seminar (Melbourne Conservatorium of Music)",
+  "depth": 2,
+  "wordCount": 119,
+  "classification": "link-farm",
+  "topicTags": [
+   "clubs-events",
+   "research-candidature",
+   "graduation",
+   "enrolment"
+  ],
+  "outboundHosts": {
+   "go.unimelb.edu.au": 3,
+   "finearts-music.unimelb.edu.au": 1
+  },
+  "hubLinks": 0,
+  "inSectionCount": 0,
+  "excerpt": "Graduate research seminarStudents enrolled in Music Performance and Musicology/Ethnomusicology are expected to participate in graduate seminars.The Graduate Research Seminar is held weekly, every Thursday during teaching semester.The seminar is a joint seminar.DetailsSeminars are held at 11am each Thursday during semesterSeminars are held in Room 721 Ian Potter Southbank Centre, Building 880, Sturt St Southbank (see map)Composition Seminar is held on Wednesday at 3.15pm in the Teaching Studio in Room 810, Ian Potter Southbank Centre, Building 880, Sturt St Southbank (see map)Seminar ScheduleSe"
+ },
+ {
+  "url": "https://finearts-music.unimelb.edu.au/current-students/research-students/grants/mcm-directors-writing-up-award",
+  "normalizedUrl": "https://finearts-music.unimelb.edu.au/current-students/research-students/grants/mcm-directors-writing-up-award",
+  "faculty": "ffam",
+  "unitLevel": "faculty",
+  "title": "MCM Director's Writing Up Award",
+  "depth": 2,
+  "wordCount": 831,
+  "classification": "unique",
+  "topicTags": [
+   "research-candidature",
+   "scholarships",
+   "exams-results",
+   "placements-WIL"
+  ],
+  "outboundHosts": {
+   "gradresearch.unimelb.edu.au": 1,
+   "q.surveys.unimelb.edu.au": 2
+  },
+  "hubLinks": 0,
+  "inSectionCount": 0,
+  "excerpt": "Melbourne Conservatorium of MusicConservatorium Director’s Awards for Exceptional Doctoral ResearchThe Melbourne Conservatorium Director’s Awards for Exceptional Doctoral Research are granted twice per year on a competitive basis to support outstanding Conservatorium PhD students to produce high quality research outputs closely following submission of the PhD thesis or portfolio for examination.Applicants submit a proposal to extend their PhD research project with additional outputs in the public domain. A competitive proposal will typically involve two or three significant and distinct output"
+ },
+ {
+  "url": "https://finearts-music.unimelb.edu.au/current-students/research-students/master-of-music-research-in-music-performance",
+  "normalizedUrl": "https://finearts-music.unimelb.edu.au/current-students/research-students/master-of-music-research-in-music-performance",
+  "faculty": "ffam",
+  "unitLevel": "faculty",
+  "title": "Current student info: Master of Music (Research)",
+  "depth": 2,
+  "wordCount": 799,
+  "classification": "unique",
+  "topicTags": [
+   "forms-admin",
+   "research-candidature",
+   "exams-results",
+   "clubs-events"
+  ],
+  "outboundHosts": {},
+  "hubLinks": 0,
+  "inSectionCount": 0,
+  "excerpt": "Master of Music (Research) in Music Performance Candidates undertake a supervised project that leads to a live, public recital consisting of at least 70 minutes of repertoire (plus an interval of 10-20 minutes) supported by an integrated written work of between 8,000 and 10,000 words. The related written project must be presented in a form that can be sent with the recorded performance for assessment by external examiners.Candidates are expected to participate in Performance Class and Seminars and are required to present one lecture-recital during their candidature.Course OutlineSupervision an"
+ },
+ {
+  "url": "https://finearts-music.unimelb.edu.au/current-students/research-students/phd-music-performance",
+  "normalizedUrl": "https://finearts-music.unimelb.edu.au/current-students/research-students/phd-music-performance",
+  "faculty": "ffam",
+  "unitLevel": "faculty",
+  "title": "PhD Music Performance | Research | Faculty of Fine Arts & Music",
+  "depth": 2,
+  "wordCount": 597,
+  "classification": "unique",
+  "topicTags": [
+   "research-candidature",
+   "forms-admin",
+   "placements-WIL"
+  ],
+  "outboundHosts": {},
+  "hubLinks": 0,
+  "inSectionCount": 3,
+  "excerpt": "PhD - Music Performance Probationary CandidatureIn the Melbourne Conservatorium of Music, confirmation of candidature in the PhD - Music Performance is generally recommended when all of the following criteria are satisfied:A precise thesis topic and fully-developed thesis proposal have been submitted, presented to and approved by the Melbourne Conservatorium of Music’s Confirmation PanelThe candidate has attended an interview with their Confirmation Committee and satisfied the Committee that he or she is ready for full PhD candidacy. In the case of Music Performance, the Committee will normall"
+ },
+ {
+  "url": "https://finearts-music.unimelb.edu.au/current-students/research-students/progress-reviews",
+  "normalizedUrl": "https://finearts-music.unimelb.edu.au/current-students/research-students/progress-reviews",
+  "faculty": "ffam",
+  "unitLevel": "faculty",
+  "title": "Progress reviews for research students",
+  "depth": 2,
+  "wordCount": 391,
+  "classification": "unique",
+  "topicTags": [
+   "research-candidature",
+   "graduation",
+   "contacts-support"
+  ],
+  "outboundHosts": {
+   "gateway.research.unimelb.edu.au": 1,
+   "gradresearch.unimelb.edu.au": 1
+  },
+  "hubLinks": 0,
+  "inSectionCount": 0,
+  "excerpt": "Progress reviewsConfirmation, progress and conversion: towards successful completion. ProgressIt is the responsibility of Graduate Research students to make good progress and the responsibility of supervisors and advisory committee members to discuss and assess progress. The University monitors the progress of graduate researchers through regular progress reports and meetings.Graduate researchers who are concerned about their progress should seek advice early and proactively discuss any problems they are experiencing with their supervisors and advisory committee.ConfirmationAll Graduate Resear"
+ },
+ {
+  "url": "https://finearts-music.unimelb.edu.au/current-students/research-students/university-student-services",
+  "normalizedUrl": "https://finearts-music.unimelb.edu.au/current-students/research-students/university-student-services",
+  "faculty": "ffam",
+  "unitLevel": "faculty",
+  "title": "Student Services | Graduate Students | FFAM",
+  "depth": 2,
+  "wordCount": 726,
+  "classification": "unique",
+  "topicTags": [
+   "graduation",
+   "research-candidature",
+   "academic-skills",
+   "contacts-support"
+  ],
+  "outboundHosts": {
+   "services.unimelb.edu.au": 6,
+   "students.unimelb.edu.au": 2,
+   "gsa.unimelb.edu.au": 1,
+   "gradresearch.unimelb.edu.au": 1,
+   "studentit.unimelb.edu.au": 1,
+   "library.unimelb.edu.au": 1,
+   "vca.unimelb.edu.au": 1,
+   "www.murrupbarak.unimelb.edu.au": 1,
+   "umsu.unimelb.edu.au": 1
+  },
+  "hubLinks": 2,
+  "inSectionCount": 0,
+  "excerpt": "University student servicesInformation about services for Graduate Research students - legal, finance, libraries, health, IT, indigenous, international, student union and Graduate Student Association. Academic skillsWe offer workshops and tutorials on a wide range of academic skills. Academic Skills supports the learning of all University of Melbourne students, whether undergraduate or postgraduate. Free workshops and seminars are open to all currently enrolled University of Melbourne Graduate Research students.Read more about Academic Skills ChildcareThe University has provided child care fac"
+ }
+]

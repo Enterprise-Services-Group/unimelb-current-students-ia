@@ -1,0 +1,3 @@
+# Newly discovered in-scope program subdomains for faculty=arts
+# (in-scope = host arts.unimelb.edu.au AND path under /students)
+# None: the entire /students subtree lives on the single host arts.unimelb.edu.au.

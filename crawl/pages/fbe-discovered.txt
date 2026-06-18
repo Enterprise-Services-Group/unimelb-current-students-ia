@@ -1,0 +1,5 @@
+# In-scope program subdomains discovered during FBE crawl
+# (FBE itself is the only in-scope host; these are cross-cutting CS destinations it routes to)
+mbs.unimelb.edu.au
+mbs.unimelb.edu.au/students  # MBS graduate coursework CS — separate subdomain, separate crawl scope
+mbs.unimelb.edu.au/career    # MBS career service — parallel to central careers

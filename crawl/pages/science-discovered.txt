@@ -1,0 +1,5 @@
+# Newly discovered in-scope program subdomains for faculty=science
+# (in-scope = host science.unimelb.edu.au AND path under /students)
+# None: the entire in-scope /students subtree lives on the single host science.unimelb.edu.au.
+# Note: many course-guide content sub-areas exist as deep /students/* paths on the same host
+# (e.g. /students/course-guide-bachelor-of-science/first-year-subject-sets/*, /students/scholarships/*).

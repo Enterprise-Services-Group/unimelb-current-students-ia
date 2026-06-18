@@ -1,0 +1,1064 @@
+{
+  "nodes": [
+    {
+      "id": "deag",
+      "label": "Digital Experience Advisory Group (DEAG)",
+      "type": "organization",
+      "description": "The University of Melbourne governance body that commissioned the current-students web estate audit and is asked to endorse the hub-and-spoke unification model.",
+      "source": "report/DEAG-findings-pack.md"
+    },
+    {
+      "id": "central-hub",
+      "label": "Central Hub (students.unimelb.edu.au)",
+      "type": "system",
+      "description": "The central current-students portal covering the transactional spine (enrolment, fees, exams, graduation) across 4 main sections. Has significant gaps: no content for placements/WIL, course plans, or discipline-specific academic skills.",
+      "source": "report/DEAG-findings-pack.md"
+    },
+    {
+      "id": "web-crawl",
+      "label": "Current Students Web Crawl (June 2026)",
+      "type": "methodology",
+      "description": "Browser-based breadth-first crawl of all current-students sections across the central hub, 9 faculties, and 3 schools. Captured 1,173 pages, classified each as unique/link-farm/mixed/broken, and tagged with 18 topics.",
+      "source": "report/DEAG-findings-pack.md"
+    },
+    {
+      "id": "hub-and-spoke-model",
+      "label": "Hub-and-Spoke Service Model",
+      "type": "recommendation",
+      "description": "The recommended architecture where the central hub owns the transactional spine and fills its gaps (placements, course-planning, careers bridge), while faculties retain discipline-specific content under mandated standards. Achievable in ~12 months in 3 phases.",
+      "source": "report/recommendations.md"
+    },
+    {
+      "id": "faculty-law",
+      "label": "Faculty of Law",
+      "type": "faculty",
+      "description": "195 pages crawled, 162 unique (83%). Uses /students URL convention. Includes ~70 researcher bios. Heavy on forms, placements, and research candidature.",
+      "source": "report/DEAG-findings-pack.md"
+    },
+    {
+      "id": "faculty-feit",
+      "label": "Faculty of Engineering & IT (FEIT)",
+      "type": "faculty",
+      "description": "204 pages crawled, 174 unique (85%), 0 link-farm — the most self-contained faculty ecosystem. Has 17 broken/duplicate URLs. Estate nested under /orientation and /students/it paths.",
+      "source": "report/DEAG-findings-pack.md"
+    },
+    {
+      "id": "faculty-arts",
+      "label": "Faculty of Arts",
+      "type": "faculty",
+      "description": "91 pages crawled, 51 unique (56%), 24 mixed, 13 link-farm. 3 broken pages. Significant restatements of hub wellbeing/equity/careers content.",
+      "source": "report/DEAG-findings-pack.md"
+    },
+    {
+      "id": "faculty-science",
+      "label": "Faculty of Science",
+      "type": "faculty",
+      "description": "94 pages crawled, 91 unique (97%). Uses /students URL. Strong discipline-specific content with minimal link-farm pages.",
+      "source": "report/DEAG-findings-pack.md"
+    },
+    {
+      "id": "faculty-abp-msd",
+      "label": "Faculty of Architecture Building & Planning / MSD",
+      "type": "faculty",
+      "description": "250 pages captured (capped at ceiling; ~700 more studio-archive pages uncrawled). 240 unique (96%). Uses /current-students URL. Heavy in design-studio and sample course plan content.",
+      "source": "report/DEAG-findings-pack.md"
+    },
+    {
+      "id": "faculty-fbe",
+      "label": "Faculty of Business & Economics",
+      "type": "faculty",
+      "description": "36 pages crawled, 31 unique. Uses /students URL. /current-students returns 404. MBS operates separate CS section under FBE.",
+      "source": "report/DEAG-findings-pack.md"
+    },
+    {
+      "id": "faculty-education",
+      "label": "Faculty of Education",
+      "type": "faculty",
+      "description": "47 pages crawled, 32 unique. Uses /study/current-students URL. Contains LANTITE regulatory pathway content unique to teaching.",
+      "source": "report/DEAG-findings-pack.md"
+    },
+    {
+      "id": "faculty-ffam",
+      "label": "Faculty of Fine Arts & Music",
+      "type": "faculty",
+      "description": "37 pages crawled, 28 unique. Uses /current-students URL. Contains ensembles, facilities, and performance/practice management content.",
+      "source": "report/DEAG-findings-pack.md"
+    },
+    {
+      "id": "faculty-mdhs",
+      "label": "Faculty of Medicine Dentistry & Health Sciences",
+      "type": "faculty",
+      "description": "112 pages crawled, 104 unique (93%). Uses /study/current-students URL. Heavy clinical-placement compliance content. Hosts 3 separate school-level CS sites beneath it.",
+      "source": "report/DEAG-findings-pack.md"
+    },
+    {
+      "id": "school-mbs",
+      "label": "Melbourne Business School",
+      "type": "school",
+      "description": "61 pages crawled, 60 unique. Operates separate CS section under FBE with its own Career Elevation service. Effectively a second business-school experience.",
+      "source": "report/DEAG-findings-pack.md"
+    },
+    {
+      "id": "school-biomedical",
+      "label": "School of Biomedical Sciences",
+      "type": "school",
+      "description": "42 pages crawled, 21 unique, 18 broken pages (16 major pages with duplicate CMS slugs bouncing students to the prospective catalogue). Uses /study/current-student-information URL.",
+      "source": "report/DEAG-findings-pack.md"
+    },
+    {
+      "id": "school-dental",
+      "label": "Melbourne Dental School",
+      "type": "school",
+      "description": "4 pages crawled, 3 unique. Uses /study/student-resources URL. Has case-sensitive path issue (/Forms works, /forms 404s). Splits forms across two external form hosts.",
+      "source": "report/DEAG-findings-pack.md"
+    },
+    {
+      "id": "url-chaos",
+      "label": "Six URL Conventions",
+      "type": "finding",
+      "description": "The concept 'information for current students' lives at six different URL patterns: /students, /current-students, /study/current-students, /study/student-resources, /study/current-student-information, and the central hub. Students cannot guess their faculty's URL.",
+      "source": "report/DEAG-findings-pack.md"
+    },
+    {
+      "id": "careers-silo",
+      "label": "Careers Content Silo",
+      "type": "finding",
+      "description": "8 of 9 faculties plus MBS run their own careers/employability content in parallel with the central Careers hub. Hub and faculty careers pages do not cross-link in either direction — the highest-value, lowest-cost fix in the estate.",
+      "source": "report/DEAG-findings-pack.md"
+    },
+    {
+      "id": "hub-gaps",
+      "label": "Hub Content Gaps",
+      "type": "finding",
+      "description": "The central hub has no presence in: placements & WIL (207 faculty pages), degree-specific course planning, discipline academic skills, faculty forms (213 pages), and program regulatory pathways (LANTITE, Fitness-to-Practice/AHPRA). These gaps are why faculties build parallel sites.",
+      "source": "report/DEAG-findings-pack.md"
+    },
+    {
+      "id": "school-fragmentation",
+      "label": "School-Level Fragmentation",
+      "type": "finding",
+      "description": "Three schools run their own current-students sites beneath their faculty: MBS (61 pages), Biomedical Sciences (42), Dental (4). A Biomedicine student traverses three different 'home' experiences with different URL patterns and templates.",
+      "source": "report/DEAG-findings-pack.md"
+    },
+    {
+      "id": "broken-pages",
+      "label": "50 Broken/Misrouting Pages",
+      "type": "finding",
+      "description": "Approximately 50 pages are broken or misrouting across the estate: Biomedical Sciences (18), FEIT (17), ABP (6), MDHS (3), Arts (3), FBE (2). Includes duplicate CMS slugs and case-sensitive paths.",
+      "source": "report/DEAG-findings-pack.md"
+    },
+    {
+      "id": "no-signposting",
+      "label": "No 'What's Where' Signposting",
+      "type": "finding",
+      "description": "Not one faculty section carries a consistent 'for X go to the hub; for Y stay here' signpost. Students learn the split by trial and error. Faculty pages routinely re-explain hub services that the hub owns definitively.",
+      "source": "report/DEAG-findings-pack.md"
+    },
+    {
+      "id": "unique-content-85",
+      "label": "85% Unique Content Finding",
+      "type": "finding",
+      "description": "997 of 1,173 pages (85%) are unique, substantive content. Only ~4% are pure link-farms and ~7% are mixed. The dominant content is subjects & timetabling, research candidature, forms & admin, course planning, and placements & WIL — exactly what can't live centrally.",
+      "source": "report/DEAG-findings-pack.md"
+    },
+    {
+      "id": "transactional-spine",
+      "label": "Transactional Admin Spine",
+      "type": "topic",
+      "description": "Enrolment, exams & results, special consideration, fees, library — 227 pages total, but only 6 of those pages are on the hub domain. The rest are faculty restatements of content the hub already owns — the single clearest consolidation target.",
+      "source": "report/DEAG-findings-pack.md"
+    },
+    {
+      "id": "placements-wil",
+      "label": "Placements & Work-Integrated Learning",
+      "type": "topic",
+      "description": "206 pages across faculties — MDHS holds 47% (clinical compliance). Near-zero hub overlap. Gap is discoverability, not duplication. Cannot be centralized; fundamentally different per discipline.",
+      "source": "report/DEAG-findings-pack.md"
+    },
+    {
+      "id": "course-planning-topic",
+      "label": "Course Planning",
+      "type": "topic",
+      "description": "207 pages of degree-specific course plans across all faculties. MBS + Biomedical = 46%. Hub provides My Course Planner and general advice. General 'how to plan' duplication is unnecessary; degree-specific plans are legitimate.",
+      "source": "report/DEAG-findings-pack.md"
+    },
+    {
+      "id": "cloudflare-blocking",
+      "label": "Cloudflare Bot Blocking",
+      "type": "finding",
+      "description": "Cloudflare actively blocked conventional/headless crawling on all unimelb.edu.au pages — a finding in itself for any future automated audit. Browser-based crawling required actual Chrome with CDP.",
+      "source": "state/progress.md"
+    },
+    {
+      "id": "option-a-full-centralisation",
+      "label": "Option A: Full Centralisation",
+      "type": "recommendation",
+      "description": "Move all faculty CS content to the hub. Three sub-variants: A1 (Full Consolidation, ~600 pages moved), A2 (Harmonise-then-centralise, ~400 pages moved), A3 (CDP Personalisation with Optimizely/Tealium, 0 pages moved). Verdict: REJECTED — 997 unique, discipline-specific pages cannot be owned or maintained centrally.",
+      "source": "report/recommendations.md"
+    },
+    {
+      "id": "option-b-federated-standards",
+      "label": "Option B: Federated Standards",
+      "type": "recommendation",
+      "description": "Keep the current model but enforce standards through governance. URL conventions, template standards, cross-linking, broken link fixes. 3-6 months, low cost, no content moves. Verdict: INSUFFICIENT — advisory standards already failed (6 URL conventions proved it).",
+      "source": "report/recommendations.md"
+    },
+    {
+      "id": "option-c-hub-and-spoke",
+      "label": "Option C: Hub-and-Spoke (RECOMMENDED)",
+      "type": "recommendation",
+      "description": "Hub owns transactional spine and fills gaps; faculties keep discipline content under mandated template, URL, and signposting standard; school sites consolidated. ~14 new hub pages, ~120-180 faculty pages removed. 12 months in 3 phases. Best fit for the evidence.",
+      "source": "report/recommendations.md"
+    },
+    {
+      "id": "option-d-minimal-fixes",
+      "label": "Option D: Status Quo + Minimal Fixes",
+      "type": "recommendation",
+      "description": "Fix broken links, add redirects, voluntary sidebar adoption. 1-2 months, very low cost. No structural change. Verdict: insufficient for core findings.",
+      "source": "report/recommendations.md"
+    },
+    {
+      "id": "no-regrets-actions",
+      "label": "Five No-Regrets Actions",
+      "type": "recommendation",
+      "description": "Actions to start immediately regardless of structural decision: (1) standardise URL to faculty.unimelb.edu.au/students, (2) ship 'Where do I go for X?' component, (3) fix ~50 broken pages, (4) cross-link careers both ways, (5) publish standard CS template.",
+      "source": "report/DEAG-findings-pack.md"
+    },
+    {
+      "id": "standard-cs-template",
+      "label": "Standardised Faculty CS Template",
+      "type": "methodology",
+      "description": "Six-section template for all faculty CS pages: Key Contacts, Course Planning, Placements & WIL, Faculty Life, Forms, and 'Where to Go for Everything Else' sidebar with standard hub links.",
+      "source": "report/recommendations.md"
+    },
+    {
+      "id": "design-principles",
+      "label": "Six Design Principles",
+      "type": "methodology",
+      "description": "(1) Students should never have to know which system handles what. (2) One source of truth per service. (3) Consistent URL conventions. (4) Standard navigation labels. (5) Faculty pages link out; hub pages link down. (6) 'Where to go' is always explicit.",
+      "source": "report/recommendations.md"
+    },
+    {
+      "id": "governance-model",
+      "label": "Governance & Audit Model",
+      "type": "methodology",
+      "description": "Hub content owner (central web team), faculty content owner (web officer), template enforcement (annual audit), cross-linking audit (quarterly), URL convention enforcement, content review cycle (6-monthly). Includes RACI matrix for distributed authorship.",
+      "source": "report/recommendations.md"
+    },
+    {
+      "id": "migration-phases",
+      "label": "Three-Phase Migration Plan",
+      "type": "methodology",
+      "description": "Phase 1 (3 months): Quick wins — standardise URLs, add sidebar, fix broken links, cross-link careers. Phase 2 (6 months): Content consolidation — remove duplicative content, build hub gateway pages. Phase 3 (12 months): Template standardisation — migrate all faculty CS to standard template, consolidate school-level CS.",
+      "source": "report/recommendations.md"
+    },
+    {
+      "id": "optimizely-tealium",
+      "label": "Optimizely + Tealium CDP",
+      "type": "system",
+      "description": "Potential martech stack for personalised hub experience. Tealium CDP holds student-faculty mappings; Optimizely serves personalised content widgets. Enables Option A3/D — personalised hub surfacing faculty content without moving pages. Availability unconfirmed at time of report.",
+      "source": "report/recommendations.md"
+    },
+    {
+      "id": "squiz-matrix-cms",
+      "label": "Squiz Matrix CMS",
+      "type": "system",
+      "description": "The CMS platform used by Law, Arts, FEIT, and Science faculties. Three different visual templates in use across faculties, contributing to the fragmented experience.",
+      "source": "report/report.html"
+    },
+    {
+      "id": "topic-taxonomy",
+      "label": "18-Topic Classification Taxonomy",
+      "type": "methodology",
+      "description": "Topic tags applied to all crawled pages: Subjects & timetabling, Orientation, Research candidature, IT & systems, Transactional admin, Student life, Forms & admin, Course planning, Placements & WIL, Contacts & support, Careers & employability, Scholarships, International, Graduation, Clubs & events, Wellbeing & health, Inclusion & equity, Academic skills.",
+      "source": "report/DEAG-findings-pack.md"
+    },
+    {
+      "id": "classifier-artifacts",
+      "label": "Classifier Artifacts (Data Quality Issue)",
+      "type": "finding",
+      "description": "Topic page counts are inflated by automated-classifier artifacts: MSD's ~700-page studio archive, FEIT /orientation and /it path-nesting, ~70 Law researcher bios, international=mobility mislabel, graduation=HDR-lifecycle misnomer. A meaningful share of apparent volume is archival bloat.",
+      "source": "report/DEAG-findings-pack.md"
+    },
+    {
+      "id": "career-elevation",
+      "label": "MBS Career Elevation",
+      "type": "system",
+      "description": "Melbourne Business School's own career service, operating separately from the central Careers hub. Recommendation: integrate with (not compete with) the central Careers hub.",
+      "source": "report/recommendations.md"
+    },
+    {
+      "id": "stop-1",
+      "label": "Stop 1 Student Service Desk",
+      "type": "system",
+      "description": "The University's central student service desk. Out of crawl scope (authenticated) but referenced as a key contact in the standardised CS template. Should be linked from every faculty CS page.",
+      "source": "report/recommendations.md"
+    },
+    {
+      "id": "my-unimelb",
+      "label": "my.unimelb Student Portal",
+      "type": "system",
+      "description": "Authenticated student portal — out of crawl scope. Recorded as outbound gateway only in the crawl. Part of the authenticated system layer alongside Canvas/LMS, SIS, and Stop 1.",
+      "source": "state/progress.md"
+    },
+    {
+      "id": "phase1-probing",
+      "label": "Phase 1: Unit Registry Probe",
+      "type": "methodology",
+      "description": "Initial probe of all 43 academic units plus the hub using 8-wide parallel browser tabs. Found 9/9 faculties have local CS sections with 4 URL patterns; ~33 sub-units are pass-throughs. Frontier seeded with 10 roots.",
+      "source": "state/progress.md"
+    },
+    {
+      "id": "bfs-crawl-method",
+      "label": "BFS Crawl via Claude-in-Chrome",
+      "type": "methodology",
+      "description": "Full breadth-first search crawling performed using Claude-in-Chrome (actual Chrome browser with CDP) to bypass Cloudflare. 4 faculties crawled in one session; remaining 5 + 3 schools via sub-agents.",
+      "source": "state/progress.md"
+    },
+    {
+      "id": "service-model-matrix",
+      "label": "Service Model Matrix",
+      "type": "methodology",
+      "description": "Cross-faculty mapping of which services each of 9 faculties provides vs the central hub. Covers enrolment, exams, careers, course planning, placements, scholarships, health & wellbeing, and student life. Used to identify duplication and gaps.",
+      "source": "report/report.html"
+    },
+    {
+      "id": "scholarships-topic",
+      "label": "Scholarships Consolidation Target",
+      "type": "finding",
+      "description": "141 pages of faculty scholarship content — mostly generic process scaffolding while a central catalogue (scholarships.unimelb.edu.au) already exists. Hub holds zero scholarship pages. Fold into central catalogue.",
+      "source": "report/DEAG-findings-pack.md"
+    },
+    {
+      "id": "lantite",
+      "label": "LANTITE Regulatory Requirement",
+      "type": "topic",
+      "description": "Literacy and Numeracy Test for Initial Teacher Education — a program regulatory pathway unique to the Faculty of Education. Example of content that cannot be centralized (legally required, discipline-specific).",
+      "source": "report/recommendations.md"
+    },
+    {
+      "id": "fitness-to-practice",
+      "label": "Fitness-to-Practice / AHPRA",
+      "type": "topic",
+      "description": "Regulatory compliance pathway for health disciplines under MDHS. Example of content that cannot be centralized — requires discipline-specific clinical compliance management.",
+      "source": "report/recommendations.md"
+    },
+    {
+      "id": "page-classification",
+      "label": "Page Classification System",
+      "type": "methodology",
+      "description": "Automated classification: 'unique' (substantive original prose), 'link-farm' (mostly routes elsewhere), 'mixed', 'redirect/broken'. Applied to all 1,173 crawled pages. Indicative, not hand-audited.",
+      "source": "report/DEAG-findings-pack.md"
+    },
+    {
+      "id": "data-csv-files",
+      "label": "Structured Data CSVs",
+      "type": "data-source",
+      "description": "Supporting data files: url-inventory.csv, pages-by-topic.csv, unique-vs-linkfarm.csv, topic-faculty-matrix.csv, unit-registry.csv. Generated from the 1,161-page deduped corpus.",
+      "source": "state/progress.md"
+    },
+    {
+      "id": "topic-deep-dives",
+      "label": "Topic Deep-Dive Notes",
+      "type": "data-source",
+      "description": "18 individual per-topic analysis notes in analysis/topic-deepdives/, each correcting for classifier artifacts and providing evidence-backed consolidation recommendations. Includes a README index with meta-findings.",
+      "source": "state/progress.md"
+    },
+    {
+      "id": "decision-matrix",
+      "label": "Four-Option Decision Matrix",
+      "type": "methodology",
+      "description": "Comparative matrix evaluating Options A1, A2, A3, B, C, and D across 10 criteria: duplication elimination, single entry point, faculty authorship, central team burden, timeline, technical complexity, governance required, faculty non-compliance risk, student experience improvement, and ongoing sustainability.",
+      "source": "report/recommendations.md"
+    },
+    {
+      "id": "career-cross-linking",
+      "label": "Careers Cross-Linking Mandate",
+      "type": "recommendation",
+      "description": "Every faculty careers page must prominently link to the central Careers hub, and the hub must link to every faculty's career programs. The current complete separation is the clearest failure in the ecosystem.",
+      "source": "report/recommendations.md"
+    }
+  ],
+  "edges": [
+    {
+      "source": "deag",
+      "target": "web-crawl",
+      "relation": "commissioned",
+      "weight": 2.0,
+      "provenance": "EXTRACTED"
+    },
+    {
+      "source": "web-crawl",
+      "target": "central-hub",
+      "relation": "analyzed",
+      "weight": 1.5,
+      "provenance": "EXTRACTED"
+    },
+    {
+      "source": "web-crawl",
+      "target": "faculty-law",
+      "relation": "crawled",
+      "weight": 1.0,
+      "provenance": "EXTRACTED"
+    },
+    {
+      "source": "web-crawl",
+      "target": "faculty-feit",
+      "relation": "crawled",
+      "weight": 1.0,
+      "provenance": "EXTRACTED"
+    },
+    {
+      "source": "web-crawl",
+      "target": "faculty-arts",
+      "relation": "crawled",
+      "weight": 1.0,
+      "provenance": "EXTRACTED"
+    },
+    {
+      "source": "web-crawl",
+      "target": "faculty-science",
+      "relation": "crawled",
+      "weight": 1.0,
+      "provenance": "EXTRACTED"
+    },
+    {
+      "source": "web-crawl",
+      "target": "faculty-abp-msd",
+      "relation": "crawled",
+      "weight": 1.0,
+      "provenance": "EXTRACTED"
+    },
+    {
+      "source": "web-crawl",
+      "target": "faculty-fbe",
+      "relation": "crawled",
+      "weight": 1.0,
+      "provenance": "EXTRACTED"
+    },
+    {
+      "source": "web-crawl",
+      "target": "faculty-education",
+      "relation": "crawled",
+      "weight": 1.0,
+      "provenance": "EXTRACTED"
+    },
+    {
+      "source": "web-crawl",
+      "target": "faculty-ffam",
+      "relation": "crawled",
+      "weight": 1.0,
+      "provenance": "EXTRACTED"
+    },
+    {
+      "source": "web-crawl",
+      "target": "faculty-mdhs",
+      "relation": "crawled",
+      "weight": 1.0,
+      "provenance": "EXTRACTED"
+    },
+    {
+      "source": "web-crawl",
+      "target": "school-mbs",
+      "relation": "crawled",
+      "weight": 1.0,
+      "provenance": "EXTRACTED"
+    },
+    {
+      "source": "web-crawl",
+      "target": "school-biomedical",
+      "relation": "crawled",
+      "weight": 1.0,
+      "provenance": "EXTRACTED"
+    },
+    {
+      "source": "web-crawl",
+      "target": "school-dental",
+      "relation": "crawled",
+      "weight": 1.0,
+      "provenance": "EXTRACTED"
+    },
+    {
+      "source": "web-crawl",
+      "target": "cloudflare-blocking",
+      "relation": "encountered",
+      "weight": 1.5,
+      "provenance": "EXTRACTED"
+    },
+    {
+      "source": "web-crawl",
+      "target": "unique-content-85",
+      "relation": "produced",
+      "weight": 2.0,
+      "provenance": "EXTRACTED"
+    },
+    {
+      "source": "web-crawl",
+      "target": "url-chaos",
+      "relation": "discovered",
+      "weight": 1.5,
+      "provenance": "EXTRACTED"
+    },
+    {
+      "source": "web-crawl",
+      "target": "careers-silo",
+      "relation": "identified",
+      "weight": 1.5,
+      "provenance": "EXTRACTED"
+    },
+    {
+      "source": "web-crawl",
+      "target": "hub-gaps",
+      "relation": "identified",
+      "weight": 1.5,
+      "provenance": "EXTRACTED"
+    },
+    {
+      "source": "web-crawl",
+      "target": "school-fragmentation",
+      "relation": "identified",
+      "weight": 1.5,
+      "provenance": "EXTRACTED"
+    },
+    {
+      "source": "web-crawl",
+      "target": "broken-pages",
+      "relation": "identified",
+      "weight": 1.0,
+      "provenance": "EXTRACTED"
+    },
+    {
+      "source": "web-crawl",
+      "target": "no-signposting",
+      "relation": "identified",
+      "weight": 1.0,
+      "provenance": "EXTRACTED"
+    },
+    {
+      "source": "web-crawl",
+      "target": "classifier-artifacts",
+      "relation": "flagged",
+      "weight": 1.0,
+      "provenance": "EXTRACTED"
+    },
+    {
+      "source": "web-crawl",
+      "target": "topic-taxonomy",
+      "relation": "used",
+      "weight": 1.0,
+      "provenance": "EXTRACTED"
+    },
+    {
+      "source": "web-crawl",
+      "target": "page-classification",
+      "relation": "applied",
+      "weight": 1.0,
+      "provenance": "EXTRACTED"
+    },
+    {
+      "source": "url-chaos",
+      "target": "central-hub",
+      "relation": "contrasts_with",
+      "weight": 1.0,
+      "provenance": "INFERRED"
+    },
+    {
+      "source": "url-chaos",
+      "target": "no-regrets-actions",
+      "relation": "informs",
+      "weight": 1.5,
+      "provenance": "EXTRACTED"
+    },
+    {
+      "source": "careers-silo",
+      "target": "career-cross-linking",
+      "relation": "necessitates",
+      "weight": 2.0,
+      "provenance": "EXTRACTED"
+    },
+    {
+      "source": "careers-silo",
+      "target": "career-elevation",
+      "relation": "exacerbated_by",
+      "weight": 1.0,
+      "provenance": "INFERRED"
+    },
+    {
+      "source": "hub-gaps",
+      "target": "placements-wil",
+      "relation": "exemplified_by",
+      "weight": 1.5,
+      "provenance": "EXTRACTED"
+    },
+    {
+      "source": "hub-gaps",
+      "target": "course-planning-topic",
+      "relation": "exemplified_by",
+      "weight": 1.5,
+      "provenance": "EXTRACTED"
+    },
+    {
+      "source": "hub-gaps",
+      "target": "hub-and-spoke-model",
+      "relation": "motivates",
+      "weight": 2.0,
+      "provenance": "EXTRACTED"
+    },
+    {
+      "source": "school-fragmentation",
+      "target": "school-mbs",
+      "relation": "exemplified_by",
+      "weight": 1.5,
+      "provenance": "EXTRACTED"
+    },
+    {
+      "source": "school-fragmentation",
+      "target": "school-biomedical",
+      "relation": "exemplified_by",
+      "weight": 1.5,
+      "provenance": "EXTRACTED"
+    },
+    {
+      "source": "school-fragmentation",
+      "target": "school-dental",
+      "relation": "exemplified_by",
+      "weight": 1.0,
+      "provenance": "EXTRACTED"
+    },
+    {
+      "source": "broken-pages",
+      "target": "school-biomedical",
+      "relation": "concentrated_in",
+      "weight": 1.5,
+      "provenance": "EXTRACTED"
+    },
+    {
+      "source": "broken-pages",
+      "target": "faculty-feit",
+      "relation": "concentrated_in",
+      "weight": 1.5,
+      "provenance": "EXTRACTED"
+    },
+    {
+      "source": "unique-content-85",
+      "target": "hub-and-spoke-model",
+      "relation": "supports",
+      "weight": 2.0,
+      "provenance": "EXTRACTED"
+    },
+    {
+      "source": "unique-content-85",
+      "target": "option-a-full-centralisation",
+      "relation": "contradicts",
+      "weight": 2.0,
+      "provenance": "EXTRACTED"
+    },
+    {
+      "source": "no-signposting",
+      "target": "no-regrets-actions",
+      "relation": "necessitates",
+      "weight": 1.5,
+      "provenance": "EXTRACTED"
+    },
+    {
+      "source": "transactional-spine",
+      "target": "central-hub",
+      "relation": "belongs_to",
+      "weight": 2.0,
+      "provenance": "EXTRACTED"
+    },
+    {
+      "source": "transactional-spine",
+      "target": "option-c-hub-and-spoke",
+      "relation": "informs",
+      "weight": 2.0,
+      "provenance": "EXTRACTED"
+    },
+    {
+      "source": "hub-and-spoke-model",
+      "target": "option-c-hub-and-spoke",
+      "relation": "same_as",
+      "weight": 2.0,
+      "provenance": "EXTRACTED"
+    },
+    {
+      "source": "hub-and-spoke-model",
+      "target": "central-hub",
+      "relation": "assigns_ownership_to",
+      "weight": 2.0,
+      "provenance": "EXTRACTED"
+    },
+    {
+      "source": "hub-and-spoke-model",
+      "target": "design-principles",
+      "relation": "governed_by",
+      "weight": 1.5,
+      "provenance": "EXTRACTED"
+    },
+    {
+      "source": "hub-and-spoke-model",
+      "target": "governance-model",
+      "relation": "enforced_by",
+      "weight": 1.5,
+      "provenance": "EXTRACTED"
+    },
+    {
+      "source": "hub-and-spoke-model",
+      "target": "standard-cs-template",
+      "relation": "requires",
+      "weight": 1.5,
+      "provenance": "EXTRACTED"
+    },
+    {
+      "source": "hub-and-spoke-model",
+      "target": "migration-phases",
+      "relation": "implemented_via",
+      "weight": 1.5,
+      "provenance": "EXTRACTED"
+    },
+    {
+      "source": "option-a-full-centralisation",
+      "target": "optimizely-tealium",
+      "relation": "depends_on",
+      "weight": 1.0,
+      "provenance": "EXTRACTED"
+    },
+    {
+      "source": "option-b-federated-standards",
+      "target": "url-chaos",
+      "relation": "addresses",
+      "weight": 1.0,
+      "provenance": "INFERRED"
+    },
+    {
+      "source": "option-c-hub-and-spoke",
+      "target": "deag",
+      "relation": "recommended_to",
+      "weight": 2.0,
+      "provenance": "EXTRACTED"
+    },
+    {
+      "source": "option-d-minimal-fixes",
+      "target": "broken-pages",
+      "relation": "addresses_partially",
+      "weight": 1.0,
+      "provenance": "EXTRACTED"
+    },
+    {
+      "source": "no-regrets-actions",
+      "target": "url-chaos",
+      "relation": "fixes",
+      "weight": 1.5,
+      "provenance": "EXTRACTED"
+    },
+    {
+      "source": "no-regrets-actions",
+      "target": "broken-pages",
+      "relation": "fixes",
+      "weight": 1.5,
+      "provenance": "EXTRACTED"
+    },
+    {
+      "source": "no-regrets-actions",
+      "target": "careers-silo",
+      "relation": "fixes",
+      "weight": 1.5,
+      "provenance": "EXTRACTED"
+    },
+    {
+      "source": "no-regrets-actions",
+      "target": "no-signposting",
+      "relation": "fixes",
+      "weight": 1.5,
+      "provenance": "EXTRACTED"
+    },
+    {
+      "source": "no-regrets-actions",
+      "target": "standard-cs-template",
+      "relation": "includes",
+      "weight": 1.0,
+      "provenance": "EXTRACTED"
+    },
+    {
+      "source": "phase1-probing",
+      "target": "web-crawl",
+      "relation": "preceded",
+      "weight": 1.5,
+      "provenance": "EXTRACTED"
+    },
+    {
+      "source": "bfs-crawl-method",
+      "target": "cloudflare-blocking",
+      "relation": "bypassed",
+      "weight": 1.5,
+      "provenance": "EXTRACTED"
+    },
+    {
+      "source": "bfs-crawl-method",
+      "target": "web-crawl",
+      "relation": "implemented",
+      "weight": 2.0,
+      "provenance": "EXTRACTED"
+    },
+    {
+      "source": "faculty-mdhs",
+      "target": "school-biomedical",
+      "relation": "contains",
+      "weight": 1.0,
+      "provenance": "EXTRACTED"
+    },
+    {
+      "source": "faculty-mdhs",
+      "target": "school-dental",
+      "relation": "contains",
+      "weight": 1.0,
+      "provenance": "EXTRACTED"
+    },
+    {
+      "source": "faculty-fbe",
+      "target": "school-mbs",
+      "relation": "contains",
+      "weight": 1.0,
+      "provenance": "EXTRACTED"
+    },
+    {
+      "source": "faculty-education",
+      "target": "lantite",
+      "relation": "owns",
+      "weight": 1.5,
+      "provenance": "EXTRACTED"
+    },
+    {
+      "source": "faculty-mdhs",
+      "target": "fitness-to-practice",
+      "relation": "owns",
+      "weight": 1.5,
+      "provenance": "EXTRACTED"
+    },
+    {
+      "source": "faculty-mdhs",
+      "target": "placements-wil",
+      "relation": "dominates",
+      "weight": 1.5,
+      "provenance": "EXTRACTED"
+    },
+    {
+      "source": "faculty-abp-msd",
+      "target": "classifier-artifacts",
+      "relation": "affected_by",
+      "weight": 1.0,
+      "provenance": "EXTRACTED"
+    },
+    {
+      "source": "faculty-feit",
+      "target": "classifier-artifacts",
+      "relation": "affected_by",
+      "weight": 1.0,
+      "provenance": "EXTRACTED"
+    },
+    {
+      "source": "school-mbs",
+      "target": "career-elevation",
+      "relation": "operates",
+      "weight": 1.5,
+      "provenance": "EXTRACTED"
+    },
+    {
+      "source": "standard-cs-template",
+      "target": "stop-1",
+      "relation": "references",
+      "weight": 1.0,
+      "provenance": "EXTRACTED"
+    },
+    {
+      "source": "standard-cs-template",
+      "target": "central-hub",
+      "relation": "links_to",
+      "weight": 1.5,
+      "provenance": "EXTRACTED"
+    },
+    {
+      "source": "service-model-matrix",
+      "target": "web-crawl",
+      "relation": "derived_from",
+      "weight": 1.5,
+      "provenance": "EXTRACTED"
+    },
+    {
+      "source": "service-model-matrix",
+      "target": "careers-silo",
+      "relation": "quantifies",
+      "weight": 1.5,
+      "provenance": "EXTRACTED"
+    },
+    {
+      "source": "topic-deep-dives",
+      "target": "topic-taxonomy",
+      "relation": "analyzes",
+      "weight": 1.5,
+      "provenance": "EXTRACTED"
+    },
+    {
+      "source": "topic-deep-dives",
+      "target": "classifier-artifacts",
+      "relation": "corrects_for",
+      "weight": 1.5,
+      "provenance": "EXTRACTED"
+    },
+    {
+      "source": "data-csv-files",
+      "target": "web-crawl",
+      "relation": "structured_from",
+      "weight": 1.0,
+      "provenance": "EXTRACTED"
+    },
+    {
+      "source": "decision-matrix",
+      "target": "option-c-hub-and-spoke",
+      "relation": "recommends",
+      "weight": 2.0,
+      "provenance": "EXTRACTED"
+    },
+    {
+      "source": "decision-matrix",
+      "target": "option-a-full-centralisation",
+      "relation": "evaluates",
+      "weight": 1.0,
+      "provenance": "EXTRACTED"
+    },
+    {
+      "source": "decision-matrix",
+      "target": "option-b-federated-standards",
+      "relation": "evaluates",
+      "weight": 1.0,
+      "provenance": "EXTRACTED"
+    },
+    {
+      "source": "decision-matrix",
+      "target": "option-d-minimal-fixes",
+      "relation": "evaluates",
+      "weight": 1.0,
+      "provenance": "EXTRACTED"
+    },
+    {
+      "source": "squiz-matrix-cms",
+      "target": "faculty-law",
+      "relation": "used_by",
+      "weight": 1.0,
+      "provenance": "EXTRACTED"
+    },
+    {
+      "source": "squiz-matrix-cms",
+      "target": "faculty-feit",
+      "relation": "used_by",
+      "weight": 1.0,
+      "provenance": "EXTRACTED"
+    },
+    {
+      "source": "squiz-matrix-cms",
+      "target": "faculty-arts",
+      "relation": "used_by",
+      "weight": 1.0,
+      "provenance": "EXTRACTED"
+    },
+    {
+      "source": "squiz-matrix-cms",
+      "target": "faculty-science",
+      "relation": "used_by",
+      "weight": 1.0,
+      "provenance": "EXTRACTED"
+    },
+    {
+      "source": "career-cross-linking",
+      "target": "careers-silo",
+      "relation": "resolves",
+      "weight": 2.0,
+      "provenance": "EXTRACTED"
+    },
+    {
+      "source": "career-cross-linking",
+      "target": "central-hub",
+      "relation": "connects",
+      "weight": 1.5,
+      "provenance": "EXTRACTED"
+    },
+    {
+      "source": "scholarships-topic",
+      "target": "transactional-spine",
+      "relation": "related_to",
+      "weight": 1.0,
+      "provenance": "INFERRED"
+    },
+    {
+      "source": "my-unimelb",
+      "target": "central-hub",
+      "relation": "complements",
+      "weight": 1.0,
+      "provenance": "INFERRED"
+    },
+    {
+      "source": "design-principles",
+      "target": "governance-model",
+      "relation": "operationalized_by",
+      "weight": 1.5,
+      "provenance": "EXTRACTED"
+    },
+    {
+      "source": "migration-phases",
+      "target": "no-regrets-actions",
+      "relation": "begins_with",
+      "weight": 1.5,
+      "provenance": "EXTRACTED"
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "he-unification-options",
+      "entities": ["option-a-full-centralisation", "option-b-federated-standards", "option-c-hub-and-spoke", "option-d-minimal-fixes", "deag", "decision-matrix"],
+      "relation": "evaluated_by_deag",
+      "description": "DEAG is asked to evaluate four unification options against the evidence from the 1,173-page crawl. Option C (hub-and-spoke) is recommended based on the decision matrix spanning 10 criteria. Option A is rejected as the 85% unique content cannot be centrally maintained. Option B is insufficient because advisory standards already failed. Option D is too minimal for core findings."
+    },
+    {
+      "id": "he-nine-findings",
+      "entities": ["unique-content-85", "url-chaos", "careers-silo", "hub-gaps", "school-fragmentation", "broken-pages", "no-signposting", "classifier-artifacts", "web-crawl", "hub-and-spoke-model"],
+      "relation": "collectively_inform",
+      "description": "Nine evidence-backed findings from the web crawl collectively inform the recommendation for a hub-and-spoke service model. The findings span content uniqueness (85%), URL inconsistency (6 conventions), career silos, hub gaps, school fragmentation, quality debt (~50 broken pages), missing signposting, content reality vs assumptions, and classifier artifact data-quality issues."
+    },
+    {
+      "id": "he-all-faculties-and-schools",
+      "entities": ["faculty-law", "faculty-feit", "faculty-arts", "faculty-science", "faculty-abp-msd", "faculty-fbe", "faculty-education", "faculty-ffam", "faculty-mdhs", "school-mbs", "school-biomedical", "school-dental", "central-hub"],
+      "relation": "compose_estate",
+      "description": "The complete current-students web estate comprises the central hub, 9 faculty CS sections, and 3 school-level CS sections — totaling 1,173 pages. Faculty pages are 85% unique/discipline-specific. The hub covers the transactional spine but misses placements, course planning, and discipline skills."
+    },
+    {
+      "id": "he-no-regrets-package",
+      "entities": ["no-regrets-actions", "url-chaos", "broken-pages", "careers-silo", "no-signposting", "standard-cs-template"],
+      "relation": "immediate_remediation_package",
+      "description": "Five no-regrets actions deliver visible improvement within one quarter and need no structural decision: standardise URL to /students, ship a 'Where do I go for X?' component, fix ~50 broken pages, cross-link careers both ways, and publish the standard CS template. These directly fix Findings 3, 4, 7, and 8."
+    },
+    {
+      "id": "he-three-phase-migration",
+      "entities": ["migration-phases", "no-regrets-actions", "hub-and-spoke-model", "standard-cs-template", "governance-model", "central-hub"],
+      "relation": "sequences_implementation",
+      "description": "The recommended hub-and-spoke model is implemented over 12 months in three phases: Phase 1 (3 months) — quick wins (URLs, sidebar, broken links, career cross-linking); Phase 2 (6 months) — content consolidation (remove duplication, build hub gateways); Phase 3 (12 months) — template standardisation and school consolidation. Each phase delivers independent value."
+    },
+    {
+      "id": "he-service-ownership-boundaries",
+      "entities": ["central-hub", "hub-and-spoke-model", "placements-wil", "course-planning-topic", "transactional-spine", "lantite", "fitness-to-practice", "scholarships-topic"],
+      "relation": "defines_boundaries",
+      "description": "The hub-and-spoke model defines clear service ownership: Hub owns enrolment, fees, exams, graduation, special consideration, leave of absence, key dates, health & wellbeing, careers platform, student life framework, IT, international, study overseas. Faculties own course plans, placements/WIL, forms, discipline academic skills, program regulatory requirements (LANTITE, Fitness-to-Practice), faculty scholarships, clubs/events. Both share: course planning, careers, academic skills."
+    },
+    {
+      "id": "he-topic-consolidation-targets",
+      "entities": ["transactional-spine", "scholarships-topic", "careers-silo", "topic-taxonomy", "classifier-artifacts", "topic-deep-dives"],
+      "relation": "identifies_consolidation_priorities",
+      "description": "Three clear consolidation targets emerge from topic analysis: (1) Transactional admin — 227 pages, only 6 on hub domain — fold faculty restatements into hub. (2) Scholarships — 141 pages of generic process scaffolding, central catalogue exists. (3) Careers — 141 pages with a duplicated 'Employability in X' layer to collapse. Topic counts are corrected for classifier artifacts by per-topic deep-dive notes."
+    },
+    {
+      "id": "he-crawl-methodology-stack",
+      "entities": ["phase1-probing", "bfs-crawl-method", "cloudflare-blocking", "page-classification", "topic-taxonomy", "service-model-matrix", "data-csv-files", "topic-deep-dives"],
+      "relation": "constitutes_methodology",
+      "description": "The project methodology involved: Phase 1 probing of 43 academic units to seed a frontier; BFS crawling via Claude-in-Chrome to bypass Cloudflare; automated page classification (unique/link-farm/mixed/broken); 18-topic taxonomy tagging; cross-faculty service model matrix; structured data CSV export; and 18 per-topic deep-dive analysis notes with artifact correction."
+    }
+  ]
+}

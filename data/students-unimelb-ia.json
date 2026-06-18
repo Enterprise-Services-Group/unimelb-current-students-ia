@@ -1,0 +1,194 @@
+{
+  "root": "https://students.unimelb.edu.au/",
+  "title": "Current students | The University of Melbourne",
+  "sections": {
+    "/your-course": {
+      "title": "Course Admin",
+      "subsections": {
+        "Plan and enrol": {
+          "pages": [
+            {"title": "Course planning", "path": "/course-admin/planning-your-course-and-subjects"},
+            {"title": "My Course Planner", "path": "/course-admin/planning-your-course-and-subjects/faculty-course-planning-resources/my-course-planner"},
+            {"title": "Enrol for the first time", "path": "/new-students/get-started"},
+            {"title": "Re-enrol in your course", "path": "/course-admin/re-enrol-in-your-course"},
+            {"title": "Enrolment requirements", "path": "/course-admin/enrolment-requirements-for-coursework-students"},
+            {"title": "Enrol in subjects", "path": "/course-admin/enrolling-in-subjects"},
+            {"title": "Leave of absence", "path": "/course-admin/leave-of-absence"},
+            {"title": "Transfer course", "path": "/course-admin/transferring-courses"},
+            {"title": "Withdraw from subject", "path": "/course-admin/subject-withdrawal"},
+            {"title": "Withdraw from course", "path": "/course-admin/course-withdrawal"},
+            {"title": "Handbook", "path": "https://handbook.unimelb.edu.au/"},
+            {"title": "Census dates", "path": "/course-admin/census-dates"},
+            {"title": "Subject requisites and waivers", "path": "/course-admin/requisite-waivers"},
+            {"title": "Cross-institutional study", "path": "/course-admin/cross-institutional-study"},
+            {"title": "Concurrent diplomas", "path": "/course-admin/concurrent-diplomas"},
+            {"title": "Class timetable (MyTimetable)", "path": "/mytimetable"},
+            {"title": "Key dates", "path": "/course-admin/key-dates"},
+            {"title": "Study overseas", "path": "/course-admin/study-overseas"}
+          ]
+        },
+        "Complete assessments and graduate": {
+          "pages": [
+            {"title": "Exams, assessments and results", "path": "/course-admin/exams-assessments-and-results"},
+            {"title": "Special consideration", "path": "/course-admin/exams-assessments-and-results/special-consideration"},
+            {"title": "Academic progress", "path": "/course-admin/exams-assessments-and-results/academic-progress"},
+            {"title": "Graduation", "path": "/course-admin/graduation"},
+            {"title": "Results and academic statements", "path": "/course-admin/exams-assessments-and-results/results-and-academic-statements"}
+          ]
+        },
+        "Pay fees and update details": {
+          "pages": [
+            {"title": "Fees", "path": "/course-admin/fees"},
+            {"title": "Personal details", "path": "/course-admin/personal-details"},
+            {"title": "Visas (international)", "path": "/student-support/international-student-support/visas"}
+          ]
+        }
+      }
+    },
+    "/student-support": {
+      "title": "Support & Wellbeing",
+      "subsections": {
+        "Advice and help": {
+          "pages": [
+            {"title": "Stop 1", "path": "/student-support/advice-and-help/stop-1"},
+            {"title": "Stop 1 AI Assistant", "path": "/student-life/student-voice/our-commitment-to-transforming-student-services/stop-1-AI-assistant"},
+            {"title": "Student workshops and sessions", "path": "/student-support/advice-and-help/student-services-workshops-and-sessions"},
+            {"title": "Scams awareness", "path": "/student-support/advice-and-help/scams"}
+          ]
+        },
+        "Health and wellbeing": {
+          "pages": [
+            {"title": "Health and wellbeing digital hub", "path": "/student-support/health-and-wellbeing"},
+            {"title": "Student Equity and Disability Services (SEDS)", "path": "/student-support/health-and-wellbeing/student-equity-and-disability-services"},
+            {"title": "Medical services", "path": "https://services.unimelb.edu.au/health"},
+            {"title": "Counselling and Psychological Services (CAPS)", "path": "https://services.unimelb.edu.au/counsel"},
+            {"title": "Pastoral and spiritual care", "path": "/student-support/health-and-wellbeing/faith-and-spirituality"},
+            {"title": "University Health Promotion Program", "path": "/student-support/health-and-wellbeing/university-health-promotion-program"},
+            {"title": "Diversity and inclusion", "path": "/student-support/health-and-wellbeing/diversity-and-inclusion"}
+          ]
+        },
+        "Financial support": {
+          "pages": [
+            {"title": "Find a scholarship", "path": "https://scholarships.unimelb.edu.au/"},
+            {"title": "Manage your scholarship", "path": "/student-support/scholarships-and-financial-support/manage-your-scholarship"},
+            {"title": "Australia Awards", "path": "/student-support/scholarships-and-financial-support/australia-awards"},
+            {"title": "Centrelink", "path": "/student-support/scholarships-and-financial-support/financial-aid/centrelink"},
+            {"title": "Student loans and grants", "path": "/student-support/student-loans-and-grants"},
+            {"title": "International loan programs", "path": "/student-support/scholarships-and-financial-support/international-loan-programs-and-financial-aid"}
+          ]
+        }
+      }
+    },
+    "/student-life": {
+      "title": "Student Life",
+      "subsections": {
+        "Campus life": {
+          "pages": [
+            {"title": "Discover UniMelb", "path": "/student-life/discover-unimelb"},
+            {"title": "Campuses and facilities", "path": "/student-life/campuses-and-facilities"},
+            {"title": "Safety and security", "path": "/student-life/safety-and-security"}
+          ]
+        },
+        "Build skills & make friends": {
+          "pages": [
+            {"title": "Melbourne Peer Mentor Program (MPMP)", "path": "/student-life/peer-mentor-program"},
+            {"title": "Academic Mentoring", "path": "/student-life/academic-mentoring"},
+            {"title": "Melbourne Plus", "path": "/student-life/melbourne-plus"},
+            {"title": "Peer Assisted Study Sessions (PASS)", "path": "/academic-skills/home/peer-assisted-study-sessions"},
+            {"title": "Volunteering at Melbourne", "path": "/student-life/volunteering-at-melbourne"}
+          ]
+        },
+        "Student voice": {
+          "pages": [
+            {"title": "Melbourne Student Forum", "path": "/student-life/melbourne-student-forum"},
+            {"title": "Student surveys", "path": "/student-life/student-surveys"},
+            {"title": "Student feedback group", "path": "/student-life/student-feedback-group"}
+          ]
+        },
+        "Affordable food": {
+          "pages": [
+            {"title": "Campus Canteen", "path": "https://www.unimelb.edu.au/campustour/campus-information/food-and-retail-on-campus/parkville-campus/campus-canteen"},
+            {"title": "Student kitchen", "path": "/student-life/campuses-and-facilities/student-kitchen"},
+            {"title": "Frozen meals at Union Mart", "path": "https://umsu.unimelb.edu.au/support/welfare/union-mart/"},
+            {"title": "Food relief", "path": "/student-support/health-and-wellbeing/food-relief"}
+          ]
+        },
+        "Getting to campus": {
+          "pages": [
+            {"title": "Public transport", "path": "/student-life/campuses-and-facilities/transport-and-parking/public-transport"},
+            {"title": "International Student Travel Pass", "path": "/student-life/campuses-and-facilities/transport-and-parking/public-transport/international-student-travel-pass"},
+            {"title": "Cycling", "path": "https://sustainablecampus.unimelb.edu.au/transport/cycling"},
+            {"title": "Parking on campus", "path": "https://about.unimelb.edu.au/news-resources/campus-services-and-facilities/transport-and-parking/parking-on-campus"},
+            {"title": "Parking permits", "path": "/student-life/campuses-and-facilities/transport-and-parking/parking-permits"}
+          ]
+        }
+      }
+    },
+    "/careers": {
+      "title": "Careers",
+      "subsections": {
+        "Prepare for your career": {
+          "pages": [
+            {"title": "Employability at Melbourne", "path": "/careers/employability"},
+            {"title": "Personalised Career Checklist", "path": "https://career-checklist.unimelb.edu.au/"}
+          ]
+        },
+        "Online platforms": {
+          "pages": [
+            {"title": "Careers and Employability LMS Community", "path": "https://canvas.lms.unimelb.edu.au/courses/222879"},
+            {"title": "Careers Online (jobs board)", "path": "https://careersonline.unimelb.edu.au/"},
+            {"title": "Smart Resume (AI reviewer)", "path": "/careers/smart-resume"}
+          ]
+        },
+        "Applying for work": {
+          "pages": [
+            {"title": "Find a job", "path": "/careers/find-a-job"},
+            {"title": "Cover letters", "path": "/careers/get-career-ready/cover-letters"},
+            {"title": "Resumes", "path": "/careers/get-career-ready/resumes"},
+            {"title": "Preparing for an interview", "path": "/careers/get-career-ready/preparing-for-an-interview"}
+          ]
+        },
+        "Get career advice": {
+          "pages": [
+            {"title": "About Careers and Employability", "path": "/careers/get-advice/about-careers-and-employability"},
+            {"title": "Get advice", "path": "/careers/get-advice"}
+          ]
+        }
+      }
+    }
+  },
+  "featured_links": [
+    {"title": "my.unimelb", "url": "https://my.unimelb.edu.au/", "description": "Student portal"},
+    {"title": "Key dates", "url": "/your-course/manage-your-course/key-dates", "description": "Academic calendar"},
+    {"title": "LMS", "url": "https://lms.unimelb.edu.au/canvas", "description": "Canvas learning management system"},
+    {"title": "Handbook", "url": "https://handbook.unimelb.edu.au/search", "description": "Course and subject information"}
+  ],
+  "topic_taxonomy": [
+    "enrolment-course-admin",
+    "exams-assessment-results",
+    "fees-finance",
+    "graduation",
+    "key-dates",
+    "timetable",
+    "course-planning",
+    "health-wellbeing",
+    "careers-employability",
+    "student-life-clubs",
+    "academic-skills",
+    "study-overseas",
+    "placements-WIL",
+    "scholarships-financial-support",
+    "international-student-support",
+    "IT-systems",
+    "indigenous-students"
+  ],
+  "hub_gaps": [
+    "No course plans or degree-specific planning content",
+    "No placements/WIL content — entirely faculty-managed",
+    "No discipline-specific academic skills (legal writing, lab skills, studio practice)",
+    "No faculty-specific forms",
+    "No program regulatory requirements (LANTITE, Fitness to Practice)",
+    "No faculty-specific enrichment or mentoring programs",
+    "No performance/practice management (FFAM ensembles, studios)"
+  ]
+}

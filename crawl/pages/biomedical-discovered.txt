@@ -1,0 +1,11 @@
+# Newly discovered in-scope program subdomains for unit=biomedical (parent MDHS)
+# (in-scope = host biomedicalsciences.unimelb.edu.au AND path under /study/current-student-information)
+#
+# No NEW subdomains: the entire in-scope subtree lives on the single host biomedicalsciences.unimelb.edu.au.
+# This school site is itself the 'discovery' — a SEPARATE current-students section on the School of
+# Biomedical Sciences subdomain, distinct from the MDHS faculty hub (mdhs.unimelb.edu.au/study/current-students).
+#
+# Two in-section program subtrees of note:
+#   /study/current-student-information/plan-your-bachelor-of-biomedicine/*   (Bachelor of Biomedicine)
+#   /study/current-student-information/master-of-biomedical-science/*        (Master of Biomedical Science)
+# Bachelor of Science is advertised on the hub but has NO subtree (card loops back to the root).

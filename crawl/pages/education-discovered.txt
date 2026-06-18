@@ -1,0 +1,3 @@
+# Education CS crawl — discovered in-scope program subdomains
+# (none — entire in-scope subtree lives under education.unimelb.edu.au/study/current-students)
+education.unimelb.edu.au

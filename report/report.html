@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Current Students IA Audit & Unification Strategy — University of Melbourne</title>
+<style>
+  :root {
+    --uom-navy: #000F46;
+    --uom-cyan: #46C8F0;
+    --uom-white: #FFFFFF;
+    --uom-light: #F5F7FA;
+    --uom-slate: #2D3748;
+    --uom-muted: #718096;
+    --uom-border: #E2E8F0;
+    --uom-accent-warm: #F6AD55;
+    --uom-red: #E53E3E;
+    --uom-green: #38A169;
+  }
+  
+  @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap');
+  
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  
+  body {
+    font-family: 'Source Sans 3', -apple-system, BlinkMacSystemFont, sans-serif;
+    color: var(--uom-slate);
+    background: var(--uom-light);
+    line-height: 1.6;
+    font-size: 11pt;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  /* Cover */
+  .cover {
+    background: var(--uom-navy);
+    color: var(--uom-white);
+    padding: 80px 60px 60px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    page-break-after: always;
+  }
+  .cover .overline {
+    font-size: 11pt;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--uom-cyan);
+    margin-bottom: 24px;
+    font-weight: 600;
+  }
+  .cover h1 {
+    font-size: 36pt;
+    font-weight: 700;
+    line-height: 1.15;
+    margin-bottom: 24px;
+    max-width: 700px;
+  }
+  .cover .subtitle {
+    font-size: 14pt;
+    font-weight: 300;
+    color: rgba(255,255,255,0.8);
+    max-width: 560px;
+    margin-bottom: 48px;
+    line-height: 1.5;
+  }
+  .cover .meta {
+    font-size: 10pt;
+    color: rgba(255,255,255,0.6);
+    border-top: 1px solid rgba(255,255,255,0.15);
+    padding-top: 32px;
+  }
+  .cover .meta strong { color: var(--uom-cyan); font-weight: 600; }
+  
+  /* Page layout */
+  .page {
+    background: var(--uom-white);
+    max-width: 210mm;
+    margin: 0 auto;
+    padding: 48px 56px;
+    page-break-after: always;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+  }
+  .page:last-child { page-break-after: auto; }
+  
+  h2 {
+    font-size: 20pt;
+    font-weight: 700;
+    color: var(--uom-navy);
+    margin-bottom: 8px;
+    line-height: 1.25;
+  }
+  h3 {
+    font-size: 14pt;
+    font-weight: 600;
+    color: var(--uom-navy);
+    margin-top: 28px;
+    margin-bottom: 8px;
+    line-height: 1.3;
+  }
+  h4 {
+    font-size: 11.5pt;
+    font-weight: 600;
+    color: var(--uom-slate);
+    margin-top: 20px;
+    margin-bottom: 6px;
+  }
+  
+  .section-rule {
+    border: none;
+    border-top: 2px solid var(--uom-cyan);
+    margin: 8px 0 24px;
+    width: 48px;
+  }
+  
+  p { margin-bottom: 10px; }
+  
+  /* Tables */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 16px 0;
+    font-size: 9.5pt;
+  }
+  th {
+    text-align: left;
+    background: var(--uom-navy);
+    color: var(--uom-white);
+    padding: 8px 12px;
+    font-weight: 600;
+    font-size: 9pt;
+    letter-spacing: 0.03em;
+  }
+  td {
+    padding: 7px 12px;
+    border-bottom: 1px solid var(--uom-border);
+    vertical-align: top;
+  }
+  tr:nth-child(even) td { background: var(--uom-light); }
+  
+  /* Callouts */
+  .finding-box {
+    border-left: 3px solid var(--uom-cyan);
+    background: rgba(70,200,240,0.06);
+    padding: 14px 18px;
+    margin: 16px 0;
+    border-radius: 0 4px 4px 0;
+    font-size: 10pt;
+  }
+  .finding-box strong { color: var(--uom-navy); }
+  
+  .stat-row {
+    display: flex;
+    gap: 24px;
+    margin: 20px 0;
+    flex-wrap: wrap;
+  }
+  .stat-card {
+    background: var(--uom-light);
+    border-radius: 6px;
+    padding: 18px 22px;
+    flex: 1;
+    min-width: 140px;
+    text-align: center;
+  }
+  .stat-card .number {
+    font-size: 28pt;
+    font-weight: 700;
+    color: var(--uom-navy);
+    line-height: 1;
+    margin-bottom: 4px;
+  }
+  .stat-card .label {
+    font-size: 9pt;
+    color: var(--uom-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  
+  .rec-card {
+    background: var(--uom-light);
+    border-radius: 6px;
+    padding: 16px 20px;
+    margin: 12px 0;
+    border-top: 3px solid var(--uom-cyan);
+  }
+  .rec-card.priority-high { border-top-color: var(--uom-red); }
+  .rec-card.priority-med { border-top-color: var(--uom-accent-warm); }
+  
+  .tag { 
+    display: inline-block; 
+    font-size: 8pt; 
+    padding: 2px 8px; 
+    border-radius: 3px; 
+    font-weight: 600; 
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    margin-right: 4px;
+  }
+  .tag-hub { background: var(--uom-navy); color: var(--uom-white); }
+  .tag-fac { background: rgba(70,200,240,0.2); color: var(--uom-navy); }
+  .tag-both { background: var(--uom-accent-warm); color: var(--uom-slate); }
+  
+  /* Matrix mini */
+  .matrix-cell { text-align: center; font-weight: 600; font-size: 9pt; }
+  .matrix-H { color: var(--uom-navy); }
+  .matrix-F { color: #2B6CB0; }
+  .matrix-B { color: var(--uom-accent-warm); }
+  
+  /* Print */
+  @media print {
+    body { background: white; }
+    .page { box-shadow: none; max-width: none; padding: 36px 44px; }
+    .cover { min-height: 100vh; }
+  }
+  
+  /* Page numbers */
+  .page-number {
+    text-align: right;
+    font-size: 8pt;
+    color: var(--uom-muted);
+    margin-top: 32px;
+    padding-top: 12px;
+    border-top: 1px solid var(--uom-border);
+  }
+  
+  ul, ol { margin: 8px 0 12px 20px; }
+  li { margin-bottom: 4px; }
+  code { 
+    background: var(--uom-light); 
+    padding: 1px 6px; 
+    border-radius: 3px; 
+    font-size: 9.5pt; 
+    font-family: 'SF Mono', 'Menlo', 'Consolas', monospace;
+  }
+</style>
+</head>
+<body>
+
+<!-- COVER -->
+<div class="cover">
+  <div class="overline">Service Experience & Design · June 2026</div>
+  <h1>Current Students IA Audit<br>& Unification Strategy</h1>
+  <div class="subtitle">
+    Evidence-based analysis of fragmentation across 9 faculty current-students sites and the central hub, with a recommended hub-and-spoke model for unification.
+  </div>
+  <div class="meta">
+    Prepared for <strong>University of Melbourne</strong> · 
+    Crawl corpus: <strong>584 fully crawled pages</strong> across Law, FEIT, Arts, Science + 
+    IA-captured for 5 additional faculties + central hub · 
+    ~780 total pages · ~650K words
+  </div>
+</div>
+
+<!-- PAGE 1: EXECUTIVE SUMMARY -->
+<div class="page">
+  <h2>Executive Summary</h2>
+  <hr class="section-rule">
+  
+  <p>The University of Melbourne runs a <strong>fragmented current-students ecosystem</strong>: 9 faculty sites plus the central hub (<code>students.unimelb.edu.au</code>), totalling approximately 780 pages across 650,000 words. The fragmentation is not uniform — four faculties (Law, FEIT, Arts, Science) operate full parallel ecosystems while others (ABP, FBE) function as link directories to the central hub.</p>
+  
+  <div class="stat-row">
+    <div class="stat-card">
+      <div class="number">9</div>
+      <div class="label">Faculty CS Sections</div>
+    </div>
+    <div class="stat-card">
+      <div class="number">4</div>
+      <div class="label">URL Conventions</div>
+    </div>
+    <div class="stat-card">
+      <div class="number">~780</div>
+      <div class="label">Total Pages</div>
+    </div>
+    <div class="stat-card">
+      <div class="number">~650K</div>
+      <div class="label">Total Words</div>
+    </div>
+    <div class="stat-card">
+      <div class="number">3</div>
+      <div class="label">Schools w/ Own CS</div>
+    </div>
+  </div>
+  
+  <h3>Core Problem</h3>
+  <p>Students cannot reliably find information because the same concept ("current students") lives at four different URL patterns (<code>/students</code>, <code>/current-students</code>, <code>/study/current-students</code>, <code>/study/student-resources</code>), across 9+ subdomains, with no consistent guidance on which system handles which need.</p>
+  
+  <h3>Recommendation</h3>
+  <p><strong>Adopt a hub-and-spoke model with clear service boundaries.</strong> The central hub becomes the definitive source for all transactional and cross-cutting services. Faculties retain genuinely discipline-specific content (course plans, placements, forms, program requirements) but adopt a standardised template and consistent URL convention.</p>
+  
+  <div class="stat-row">
+    <div class="stat-card">
+      <div class="number">~14</div>
+      <div class="label">New Hub Pages Needed</div>
+    </div>
+    <div class="stat-card">
+      <div class="number">8</div>
+      <div class="label">Services to Consolidate</div>
+    </div>
+    <div class="stat-card">
+      <div class="number">6</div>
+      <div class="label">Design Principles</div>
+    </div>
+  </div>
+  
+  <div class="page-number">1</div>
+</div>
+
+<!-- PAGE 2: SCOPE & METHODOLOGY -->
+<div class="page">
+  <h2>Scope & Methodology</h2>
+  <hr class="section-rule">
+  
+  <h3>What was audited</h3>
+  <table>
+    <tr><th>Faculty</th><th>CS URL</th><th>Pages</th><th>Crawl depth</th></tr>
+    <tr><td>Law</td><td><code>law.unimelb.edu.au/students</code></td><td>195</td><td>Full BFS (4 levels)</td></tr>
+    <tr><td>FEIT</td><td><code>eng.unimelb.edu.au/students</code></td><td>204</td><td>Full BFS (6 levels)</td></tr>
+    <tr><td>Arts</td><td><code>arts.unimelb.edu.au/students</code></td><td>91</td><td>Full BFS (5 levels)</td></tr>
+    <tr><td>Science</td><td><code>science.unimelb.edu.au/students</code></td><td>94</td><td>Full BFS (3 levels)</td></tr>
+    <tr><td>ABP/MSD</td><td><code>msd.unimelb.edu.au/current-students</code></td><td>~40 est</td><td>Root + IA capture</td></tr>
+    <tr><td>FBE + MBS</td><td><code>fbe.unimelb.edu.au/students</code></td><td>~25 est</td><td>Root + MBS subdomain</td></tr>
+    <tr><td>Education</td><td><code>education.unimelb.edu.au/study/current-students</code></td><td>~40 est</td><td>Root + IA capture</td></tr>
+    <tr><td>FFAM</td><td><code>finearts-music.unimelb.edu.au/current-students</code></td><td>~40 est</td><td>Root capture</td></tr>
+    <tr><td>MDHS</td><td><code>mdhs.unimelb.edu.au/study/current-students</code></td><td>~50 est</td><td>Root + biomedical school</td></tr>
+    <tr><td><strong>Central Hub</strong></td><td><code>students.unimelb.edu.au</code></td><td>4 sections</td><td>Root + 4 section LPs</td></tr>
+  </table>
+  
+  <h3>What was measured</h3>
+  <ul>
+    <li><strong>Page classification:</strong> unique, link-farm (mostly hub links), mixed, redirect/broken</li>
+    <li><strong>Topic tags:</strong> 21 categories from course-planning to graduation</li>
+    <li><strong>Outbound destinations:</strong> where each page sends students (by host, link count)</li>
+    <li><strong>Hub dependency:</strong> links to <code>students.unimelb.edu.au</code> per page</li>
+    <li><strong>IA tree:</strong> complete URL hierarchy per faculty</li>
+    <li><strong>Service-model mapping:</strong> which services each faculty provides vs the hub</li>
+  </ul>
+  
+  <h3>Constraints</h3>
+  <p>Cloudflare bot detection blocked browser-based crawling (Browserbase). Full BFS was done in a prior session via Claude-in-Chrome. Remaining faculties were captured at root + section level via Firecrawl. Auth-gated pages (my.unimelb, LMS/Canvas, services.unimelb) were recorded as outbound-only.</p>
+  
+  <div class="page-number">2</div>
+</div>
+
+<!-- PAGE 3: STRUCTURAL FINDINGS -->
+<div class="page">
+  <h2>Structural Findings</h2>
+  <hr class="section-rule">
+  
+  <div class="finding-box">
+    <strong>Finding 1:</strong> The single concept "current students" is served at <strong>four different URL patterns</strong> with no discoverability by convention.
+  </div>
+  
+  <div class="finding-box">
+    <strong>Finding 2:</strong> Faculties fall on a spectrum from "hub-dependent link directory" to "self-contained parallel ecosystem." FEIT (204 pages, 174 unique, 0 link-farm) is the most self-contained; ABP and FBE are mostly link directories.
+  </div>
+  
+  <div class="finding-box">
+    <strong>Finding 3 — School-level fragmentation:</strong> Three MDHS schools (Biomedical Sciences, Dental, MSPGH) and MBS run their own CS sections on separate subdomains. A Biomedicine student navigates 3+ different CS experiences.
+  </div>
+  
+  <div class="finding-box">
+    <strong>Finding 4:</strong> Careers & employability is the <strong>most duplicated service</strong>. All 9 faculties and MBS run parallel career content with no cross-linking to the central hub.
+  </div>
+  
+  <div class="finding-box">
+    <strong>Finding 5:</strong> Course planning duplication is partially legitimate — every faculty must provide degree-specific course plans — but general "how to plan" advice is duplicated from the hub unnecessarily.
+  </div>
+  
+  <div class="finding-box">
+    <strong>Finding 6:</strong> Broken and circular links exist across the ecosystem: FBE /current-students → 404, FEIT has 17 broken/duplicate URLs, Arts has 3 broken pages, MDHS school resource links are circular.
+  </div>
+  
+  <div class="finding-box">
+    <strong>Finding 7:</strong> The central hub has <strong>no content</strong> for placements/WIL, course plans, discipline-specific academic skills, or program regulatory requirements — all of which exist only on faculty sites.
+  </div>
+  
+  <div class="finding-box">
+    <strong>Finding 8:</strong> No faculty CS page tells students "for X, go to the hub; for Y, stay here." Students discover the correct system through trial and error.
+  </div>
+  
+  <div class="finding-box">
+    <strong>Finding 9:</strong> CMS/platform inconsistency — three different visual templates used across faculties (Squiz Matrix for Law/Arts/FEIT/Science, card-grid for MDHS, thin-menu for FFAM).
+  </div>
+  
+  <div class="finding-box">
+    <strong>Finding 10:</strong> Law and FEIT together account for <strong>51% of all CS pages</strong> (399 of ~780). The four fully-crawled faculties account for 75%.
+  </div>
+  
+  <div class="page-number">3</div>
+</div>
+
+<!-- PAGE 4: SERVICE MODEL MATRIX -->
+<div class="page">
+  <h2>Service Model Matrix</h2>
+  <hr class="section-rule">
+  
+  <p style="font-size:9.5pt; color:var(--uom-muted); margin-bottom:12px;">
+    <span class="tag tag-hub">H</span> Hub provides &nbsp;
+    <span class="tag tag-fac">F</span> Faculty provides &nbsp;
+    <span class="tag tag-both">B</span> Both provide (duplication)
+  </p>
+  
+  <table>
+    <tr><th>Service</th><th>Hub</th><th>Law</th><th>FEIT</th><th>Arts</th><th>Science</th><th>ABP</th><th>FBE</th><th>Edu</th><th>FFAM</th><th>MDHS</th></tr>
+    <tr>
+      <td>Enrolment</td>
+      <td class="matrix-cell"><span class="tag tag-hub">H</span></td>
+      <td class="matrix-cell"><span class="tag tag-both">B</span></td>
+      <td class="matrix-cell"><span class="tag tag-both">B</span></td>
+      <td class="matrix-cell"><span class="tag tag-both">B</span></td>
+      <td class="matrix-cell"><span class="tag tag-both">B</span></td>
+      <td class="matrix-cell"><span class="tag tag-hub">H</span></td>
+      <td class="matrix-cell"><span class="tag tag-hub">H</span></td>
+      <td class="matrix-cell"><span class="tag tag-both">B</span></td>
+      <td class="matrix-cell"><span class="tag tag-fac">F</span></td>
+      <td class="matrix-cell"><span class="tag tag-hub">H</span></td>
+    </tr>
+    <tr>
+      <td>Exams & results</td>
+      <td class="matrix-cell"><span class="tag tag-hub">H</span></td>
+      <td class="matrix-cell"><span class="tag tag-both">B</span></td>
+      <td class="matrix-cell"><span class="tag tag-fac">F</span></td>
+      <td class="matrix-cell"><span class="tag tag-hub">H</span></td>
+      <td class="matrix-cell"><span class="tag tag-hub">H</span></td>
+      <td class="matrix-cell"><span class="tag tag-hub">H</span></td>
+      <td class="matrix-cell"><span class="tag tag-hub">H</span></td>
+      <td class="matrix-cell"><span class="tag tag-both">B</span></td>
+      <td class="matrix-cell"><span class="tag tag-fac">F</span></td>
+      <td class="matrix-cell"><span class="tag tag-hub">H</span></td>
+    </tr>
+    <tr style="background:rgba(229,62,62,0.05);">
+      <td><strong>Careers & employability</strong></td>
+      <td class="matrix-cell"><span class="tag tag-hub">H</span></td>
+      <td class="matrix-cell"><span class="tag tag-fac">F</span></td>
+      <td class="matrix-cell"><span class="tag tag-fac">F</span></td>
+      <td class="matrix-cell"><span class="tag tag-fac">F</span></td>
+      <td class="matrix-cell"><span class="tag tag-fac">F</span></td>
+      <td class="matrix-cell"><span class="tag tag-fac">F</span></td>
+      <td class="matrix-cell"><span class="tag tag-fac">F</span></td>
+      <td class="matrix-cell"><span class="tag tag-fac">F</span></td>
+      <td class="matrix-cell"><span class="tag tag-fac">F</span></td>
+      <td class="matrix-cell"><span class="tag tag-fac">F</span></td>
+    </tr>
+    <tr style="background:rgba(229,62,62,0.05);">
+      <td><strong>Course planning</strong></td>
+      <td class="matrix-cell"><span class="tag tag-hub">H</span></td>
+      <td class="matrix-cell"><span class="tag tag-fac">F</span></td>
+      <td class="matrix-cell"><span class="tag tag-fac">F</span></td>
+      <td class="matrix-cell"><span class="tag tag-fac">F</span></td>
+      <td class="matrix-cell"><span class="tag tag-fac">F</span></td>
+      <td class="matrix-cell"><span class="tag tag-fac">F</span></td>
+      <td class="matrix-cell"><span class="tag tag-fac">F</span></td>
+      <td class="matrix-cell"><span class="tag tag-fac">F</span></td>
+      <td class="matrix-cell"><span class="tag tag-fac">F</span></td>
+      <td class="matrix-cell"><span class="tag tag-both">B</span></td>
+    </tr>
+    <tr>
+      <td>Placements & WIL</td>
+      <td class="matrix-cell">—</td>
+      <td class="matrix-cell"><span class="tag tag-fac">F</span></td>
+      <td class="matrix-cell"><span class="tag tag-fac">F</span></td>
+      <td class="matrix-cell"><span class="tag tag-fac">F</span></td>
+      <td class="matrix-cell"><span class="tag tag-fac">F</span></td>
+      <td class="matrix-cell"><span class="tag tag-fac">F</span></td>
+      <td class="matrix-cell">—</td>
+      <td class="matrix-cell"><span class="tag tag-fac">F</span></td>
+      <td class="matrix-cell">—</td>
+      <td class="matrix-cell"><span class="tag tag-fac">F</span></td>
+    </tr>
+    <tr>
+      <td>Scholarships</td>
+      <td class="matrix-cell"><span class="tag tag-hub">H</span></td>
+      <td class="matrix-cell"><span class="tag tag-fac">F</span></td>
+      <td class="matrix-cell"><span class="tag tag-fac">F</span></td>
+      <td class="matrix-cell"><span class="tag tag-fac">F</span></td>
+      <td class="matrix-cell"><span class="tag tag-fac">F</span></td>
+      <td class="matrix-cell"><span class="tag tag-fac">F</span></td>
+      <td class="matrix-cell"><span class="tag tag-fac">F</span></td>
+      <td class="matrix-cell"><span class="tag tag-fac">F</span></td>
+      <td class="matrix-cell">—</td>
+      <td class="matrix-cell"><span class="tag tag-both">B</span></td>
+    </tr>
+    <tr>
+      <td>Health & wellbeing</td>
+      <td class="matrix-cell"><span class="tag tag-hub">H</span></td>
+      <td class="matrix-cell"><span class="tag tag-fac">F</span></td>
+      <td class="matrix-cell"><span class="tag tag-fac">F</span></td>
+      <td class="matrix-cell"><span class="tag tag-fac">F</span></td>
+      <td class="matrix-cell"><span class="tag tag-fac">F</span></td>
+      <td class="matrix-cell"><span class="tag tag-hub">H</span></td>
+      <td class="matrix-cell"><span class="tag tag-fac">F</span></td>
+      <td class="matrix-cell"><span class="tag tag-hub">H</span></td>
+      <td class="matrix-cell"><span class="tag tag-fac">F</span></td>
+      <td class="matrix-cell"><span class="tag tag-fac">F</span></td>
+    </tr>
+    <tr>
+      <td>Student life & clubs</td>
+      <td class="matrix-cell"><span class="tag tag-hub">H</span></td>
+      <td class="matrix-cell"><span class="tag tag-fac">F</span></td>
+      <td class="matrix-cell"><span class="tag tag-fac">F</span></td>
+      <td class="matrix-cell"><span class="tag tag-fac">F</span></td>
+      <td class="matrix-cell"><span class="tag tag-fac">F</span></td>
+      <td class="matrix-cell"><span class="tag tag-fac">F</span></td>
+      <td class="matrix-cell"><span class="tag tag-fac">F</span></td>
+      <td class="matrix-cell"><span class="tag tag-fac">F</span></td>
+      <td class="matrix-cell"><span class="tag tag-fac">F</span></td>
+      <td class="matrix-cell"><span class="tag tag-fac">F</span></td>
+    </tr>
+  </table>
+  
+  <h3>Duplication Heatmap</h3>
+  <table>
+    <tr><th>Service</th><th>Faculties duplicating</th><th>Severity</th></tr>
+    <tr><td>Careers & employability</td><td>8/9 + MBS</td><td><span class="tag tag-hub" style="background:var(--uom-red);">HIGH</span></td></tr>
+    <tr><td>Course planning</td><td>9/9 + schools</td><td><span class="tag tag-hub" style="background:var(--uom-red);">HIGH</span> (mostly legitimate)</td></tr>
+    <tr><td>Student life & clubs</td><td>8/9</td><td>Medium</td></tr>
+    <tr><td>Academic skills</td><td>5/9</td><td>Medium</td></tr>
+    <tr><td>Scholarships</td><td>7/9</td><td>Medium</td></tr>
+    <tr><td>Health & wellbeing</td><td>6/9</td><td>Medium</td></tr>
+    <tr><td>Enrolment & admin</td><td>4/9</td><td>Low</td></tr>
+    <tr><td>Exams & assessment</td><td>3/9</td><td>Low</td></tr>
+  </table>
+  
+  <h3>What the Hub Does NOT Cover</h3>
+  <ol>
+    <li>Course plans / sample course plans</li>
+    <li>Placement/practicum management</li>
+    <li>Discipline-specific academic skills</li>
+    <li>Faculty-specific forms</li>
+    <li>Program regulatory requirements (LANTITE, Fitness to Practice)</li>
+    <li>Faculty-specific enrichment programs</li>
+    <li>Performance/practice management (FFAM)</li>
+    <li>School-level course planning</li>
+  </ol>
+  
+  <div class="page-number">4</div>
+</div>
+
+<!-- PAGE 5: RECOMMENDED MODEL -->
+<div class="page">
+  <h2>Recommended Model: Hub-and-Spoke</h2>
+  <hr class="section-rule">
+  
+  <h3>Service Boundaries</h3>
+  <table>
+    <tr><th>Hub Owns (consolidate)</th><th>Faculty Owns (retain)</th></tr>
+    <tr><td>Enrolment, re-enrolment, course withdrawal</td><td>Sample course plans & degree guides</td></tr>
+    <tr><td>Fees, census dates</td><td>Placement/practicum management</td></tr>
+    <tr><td>Exams, results, academic progress</td><td>Faculty-specific forms</td></tr>
+    <tr><td>Graduation</td><td>Faculty scholarships & prizes</td></tr>
+    <tr><td>Special consideration</td><td>Discipline-specific academic skills</td></tr>
+    <tr><td>Leave of absence</td><td>Faculty clubs, events, newsletters</td></tr>
+    <tr><td>Key dates</td><td>Program regulatory requirements</td></tr>
+    <tr><td>Health & wellbeing</td><td>Faculty contacts</td></tr>
+    <tr><td>Careers platform & tools</td><td>Discipline-specific career mentoring</td></tr>
+    <tr><td>Student life framework</td><td>Performance/practice facilities (FFAM)</td></tr>
+  </table>
+  
+  <h3>New Hub Pages Required</h3>
+  <table>
+    <tr><th>Page</th><th>Priority</th><th>Description</th></tr>
+    <tr><td><code>/your-course/faculty-course-planning</code></td><td><span class="tag tag-hub" style="background:var(--uom-red);">HIGH</span></td><td>Links to all faculty sample plans & degree guides</td></tr>
+    <tr><td><code>/your-course/placements-and-wil</code></td><td><span class="tag tag-hub" style="background:var(--uom-red);">HIGH</span></td><td>WIL explainer + link to each faculty's placement program</td></tr>
+    <tr><td><code>/careers/faculty-career-programs</code></td><td><span class="tag tag-hub" style="background:var(--uom-red);">HIGH</span></td><td>Links to each faculty's mentoring & industry programs</td></tr>
+    <tr><td>9× faculty landing pages</td><td>Medium</td><td><code>/your-faculty/&lt;slug&gt;</code> — contacts, links, key info</td></tr>
+    <tr><td><code>/student-support/academic-skills-by-discipline</code></td><td>Medium</td><td>Links to faculty-specific academic skills</td></tr>
+    <tr><td>"Where do I go for..." page</td><td>Medium</td><td>Maps common needs to correct system</td></tr>
+  </table>
+  
+  <h3>What Faculty Sites Remove</h3>
+  <p>Faculty sites should remove and redirect to hub:</p>
+  <ol>
+    <li>Enrolment how-to pages → <code>students.unimelb.edu.au/your-course</code></li>
+    <li>Special consideration explanation → hub exams section</li>
+    <li>Leave of absence explanation → hub course admin</li>
+    <li>Fees explanation → hub fees section</li>
+    <li>Graduation information → hub graduation section</li>
+    <li>Key dates → hub key dates</li>
+    <li>Health & counselling info → hub student support</li>
+    <li>General career advice → hub careers</li>
+  </ol>
+  
+  <div class="page-number">5</div>
+</div>
+
+<!-- PAGE 6: DESIGN PRINCIPLES & GOVERNANCE -->
+<div class="page">
+  <h2>Design Principles & Governance</h2>
+  <hr class="section-rule">
+  
+  <h3>6 Design Principles</h3>
+  
+  <ol>
+    <li><strong>Students should never have to know which system handles what.</strong> The hub is always the first stop. If the hub doesn't handle it, the hub links to the faculty page that does.</li>
+    <li><strong>One source of truth per service.</strong> No service should be explained on both a faculty page and the hub.</li>
+    <li><strong>Consistent URL conventions.</strong> <code>faculty.unimelb.edu.au/students</code> for every faculty. Redirect old patterns.</li>
+    <li><strong>Standard navigation labels.</strong> "Current students" — not "Students" / "Student resources" / "Current student information" / "Study".</li>
+    <li><strong>Faculty pages link out; hub pages link down.</strong> Faculty → hub for transactional. Hub → faculty for discipline-specific.</li>
+    <li><strong>"Where to go" is always explicit.</strong> Never make students infer the correct system.</li>
+  </ol>
+  
+  <h3>Standardised Faculty CS Template</h3>
+  <table>
+    <tr><th>Section</th><th>Content</th><th>Owner</th></tr>
+    <tr><td>Key Contacts</td><td>Stop 1 link + faculty student centre</td><td>Always present</td></tr>
+    <tr><td>Course Planning</td><td>Sample course plans, degree guides, subject selection</td><td>Faculty</td></tr>
+    <tr><td>Placements & WIL</td><td>Placement programs, eligibility, how to apply</td><td>Faculty</td></tr>
+    <tr><td>Faculty Life</td><td>Clubs, events, newsletters, mentoring</td><td>Faculty</td></tr>
+    <tr><td>Forms</td><td>Faculty-specific forms</td><td>Faculty</td></tr>
+    <tr><td>Where to Go</td><td>Standardised sidebar: enrolment, fees, exams, health, careers, IT → hub</td><td>Template</td></tr>
+  </table>
+  
+  <h3>Governance Model</h3>
+  <table>
+    <tr><th>Role</th><th>Who</th><th>Responsibility</th></tr>
+    <tr><td>Hub content owner</td><td>Central web team / Student Services</td><td>All hub pages, faculty landing pages, cross-faculty gateway pages</td></tr>
+    <tr><td>Faculty content owner</td><td>Faculty web officer / student centre</td><td>Faculty CS pages — course plans, placements, forms, faculty life</td></tr>
+    <tr><td>Template enforcement</td><td>Central web team</td><td>All faculty CS pages use standardised template. Annual audit.</td></tr>
+    <tr><td>Cross-linking audit</td><td>Central web team (quarterly)</td><td>Verify hub↔faculty links, fix broken links</td></tr>
+    <tr><td>URL convention enforcement</td><td>Central web team</td><td>Redirect old patterns. Annual broken-link scan.</td></tr>
+    <tr><td>Content review cycle</td><td>Faculty content owners (6-monthly)</td><td>Verify course plans, placement info, contacts are current</td></tr>
+  </table>
+  
+  <h3>Migration Phases</h3>
+  <table>
+    <tr><th>Phase</th><th>Timeline</th><th>Actions</th></tr>
+    <tr><td>1. Quick wins</td><td>3 months</td><td>Standardise URLs, add "Where to go" sidebar, fix all broken links, cross-link careers</td></tr>
+    <tr><td>2. Content consolidation</td><td>6 months</td><td>Remove duplicative content from faculty sites, build hub placements & course planning gateways</td></tr>
+    <tr><td>3. Template standardisation</td><td>12 months</td><td>Migrate all faculty CS to standard template, consolidate school-level CS, build hub faculty LPs</td></tr>
+  </table>
+  
+  <div class="page-number">6</div>
+</div>
+
+<!-- PAGE 7: DECISION MATRIX -->
+<div class="page">
+  <h2>The Decision: Four Options</h2>
+  <hr class="section-rule">
+  
+  <p style="font-size:10pt; color:var(--uom-muted); margin-bottom:16px;">
+    Each option represents a different trade-off between centralisation, faculty autonomy, implementation speed, and technical complexity. None are binary — each can be tuned.
+  </p>
+  
+  <h4>Option A: Full Centralisation (3 variants)</h4>
+  <table>
+    <tr><th style="width:22%;">Variant</th><th>Model</th><th>Pages on hub</th><th>Timeline</th><th>Faculty control?</th></tr>
+    <tr>
+      <td><strong>A1: Full Consolidation</strong></td>
+      <td>Move all ~600 faculty CS pages to hub under <code>/your-faculty/&lt;slug&gt;/</code></td>
+      <td>~600</td><td>6–12 mo</td><td>No</td>
+    </tr>
+    <tr>
+      <td><strong>A2: Harmonise-then-centralise</strong></td>
+      <td>First remove ~200 duplicative pages, then migrate remaining ~400 unique pages</td>
+      <td>~400</td><td>12–18 mo</td><td>No</td>
+    </tr>
+    <tr>
+      <td><strong>A3: CDP Personalisation</strong></td>
+      <td>Harmonise first (same as A2 Step 1), then use Optimizely + Tealium CDP to personalise the hub — surfacing faculty-specific links based on known student attributes. Content stays on faculty sites.</td>
+      <td>~20</td><td>12–18 mo</td><td>Yes</td>
+    </tr>
+  </table>
+  
+  <div class="finding-box">
+    <strong>When to choose A:</strong> Single namespace is the overriding priority. All three variants use distributed authorship — faculties manage their own pages on the hub via RACI and CMS permissions. A3 additionally requires Optimizely + Tealium CDP in the martech stack.
+  </div>
+  
+  <h4 style="margin-top:16px;">Option B: Federated Standards</h4>
+  <p style="font-size:10pt;">Keep the current model but enforce URL conventions, template standards, cross-linking, and "where to go" guidance through governance. <strong>3–6 months. Low cost. No content moves.</strong> Doesn't eliminate duplication — just signposts it.</p>
+  
+  <h4>Option C: Hub-and-Spoke <span class="tag tag-hub" style="background:var(--uom-green); margin-left:8px;">RECOMMENDED</span></h4>
+  <p style="font-size:10pt;">Hub owns transactional + cross-cutting. Faculties own discipline-specific under standardised template. <strong>~14 new hub pages. ~200 faculty pages removed.</strong> 12 months in 3 phases. Content split by service type, not organizational unit.</p>
+  
+  <h4>Option D: Status Quo + Minimal Fixes</h4>
+  <p style="font-size:10pt;">Fix broken links, add redirects, voluntarily adopt "where to go" sidebars. <strong>1–2 months. Very low cost.</strong> No structural change. Duplication persists.</p>
+  
+  <h3 style="margin-top:20px;">Decision Matrix</h3>
+  <table style="font-size:8.5pt;">
+    <tr><th style="width:20%;">Criterion</th><th style="width:10%;">A1</th><th style="width:10%;">A2</th><th style="width:10%;">A3</th><th style="width:10%;">B</th><th style="width:10%;">C ✓</th><th style="width:10%;">D</th></tr>
+    <tr><td>Duplication eliminated?</td><td>Partial</td><td>Yes</td><td>Yes</td><td>No</td><td><strong>Yes</strong></td><td>No</td></tr>
+    <tr><td>Single entry point?</td><td>Yes</td><td>Yes</td><td>Yes</td><td>No</td><td><strong>Partial</strong></td><td>No</td></tr>
+    <tr><td>Faculty authorship retained?</td><td>Yes (on hub)</td><td>Yes (on hub)</td><td>Yes (own sites)</td><td>Yes</td><td><strong>Partial</strong></td><td>Yes</td></tr>
+    <tr><td>Central team burden</td><td>Medium</td><td>Medium</td><td>Medium</td><td>Low</td><td><strong>Medium</strong></td><td>V.Low</td></tr>
+    <tr><td>Timeline</td><td>6–12m</td><td>12–18m</td><td>12–18m</td><td>3–6m</td><td><strong>12m</strong></td><td>1–2m</td></tr>
+    <tr><td>Technical complexity</td><td>Low</td><td>Low</td><td>Medium</td><td>Low</td><td><strong>Low</strong></td><td>V.Low</td></tr>
+    <tr><td>Governance needed</td><td>High</td><td>High</td><td>High</td><td>High</td><td><strong>Medium</strong></td><td>Minimal</td></tr>
+    <tr><td>Student exp. improvement</td><td>High</td><td>High</td><td>High</td><td>Medium</td><td><strong>High</strong></td><td>Low</td></tr>
+  </table>
+  
+  <h3 style="margin-top:16px;">Why Hub-and-Spoke?</h3>
+  <ol style="font-size:10pt;">
+    <li><strong>Matches the evidence.</strong> Crawl data shows ~200 pages are genuine duplication (can be removed), ~400-450 are genuinely discipline-specific (should stay). Hub-and-spoke maps directly to this split.</li>
+    <li><strong>Realistic.</strong> Works with existing CMS infrastructure. No content migration. No API federation across 3+ platforms.</li>
+    <li><strong>Preserves investment.</strong> Law, FEIT, Arts, and Science have built genuinely useful faculty content over years. This preserves it while removing confusion.</li>
+  </ol>
+  
+  <h3>Five Fixes Regardless of Choice</h3>
+  <div class="rec-card priority-high"><strong>Standardise URLs.</strong> <code>faculty.unimelb.edu.au/students</code>. Redirect old patterns.</div>
+  <div class="rec-card priority-high"><strong>"Where do I go for X?" sidebar</strong> on every faculty CS page.</div>
+  <div class="rec-card priority-high"><strong>Consolidate school-level CS.</strong> Biomedical, Dental, MBS → same template as faculties.</div>
+  <div class="rec-card priority-high"><strong>Fix broken links.</strong> FEIT (17), Arts (3), FBE 404, MDHS circular.</div>
+  <div class="rec-card priority-med"><strong>Cross-link careers.</strong> Mandatory bidirectional links between hub and every faculty.</div>
+  
+  <h3 style="margin-top:16px;">Key Metrics for Success</h3>
+  <div class="stat-row">
+    <div class="stat-card">
+      <div class="number">4→1</div>
+      <div class="label">URL Conventions Reduced</div>
+    </div>
+    <div class="stat-card">
+      <div class="number">~200</div>
+      <div class="label">Duplicative Pages Removed</div>
+    </div>
+    <div class="stat-card">
+      <div class="number">9</div>
+      <div class="label">Standardised Faculty Templates</div>
+    </div>
+    <div class="stat-card">
+      <div class="number">0</div>
+      <div class="label">School-Level CS Sections</div>
+    </div>
+  </div>
+  
+  <div class="page-number">7</div>
+</div>
+
+</body>
+</html>

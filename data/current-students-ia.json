@@ -1,0 +1,1195 @@
+{
+  "law": [
+    {
+      "name": "students",
+      "children": [
+        {
+          "name": "academic-support-and-wellbeing",
+          "children": [
+            "student-equity-and-disability-support",
+            {
+              "name": "wellbeing",
+              "children": [
+                "contact-us",
+                "extensions",
+                "registration-for-ongoing-support",
+                "special-consideration"
+              ]
+            }
+          ]
+        },
+        "admission-to-practice",
+        "biicl",
+        {
+          "name": "career-services",
+          "children": [
+            "career-outcomes",
+            {
+              "name": "career-pathways",
+              "children": [
+                "careers-in-academia-and-research",
+                "careers-in-business",
+                "careers-in-judiciary",
+                "careers-in-private-sector",
+                "careers-in-public-interest-and-government",
+                "guide-to-becoming-a-barrister-in-victoria",
+                "other-career-paths"
+              ]
+            },
+            {
+              "name": "services-and-resources",
+              "children": [
+                "career-consultation",
+                "career-support-for-graduate-researchers",
+                {
+                  "name": "ellis-program",
+                  "children": [
+                    "2023",
+                    "2024"
+                  ]
+                }
+              ]
+            },
+            "steps-to-practising-law"
+          ]
+        },
+        "further-study",
+        {
+          "name": "grd",
+          "children": [
+            {
+              "name": "candidature-management",
+              "children": [
+                {
+                  "name": "degree-requirements",
+                  "children": [
+                    "graduate-research-coordinators",
+                    "mphil-law-milestones",
+                    "phd-law-milestones"
+                  ]
+                },
+                "supervision"
+              ]
+            },
+            {
+              "name": "enrichment",
+              "children": [
+                {
+                  "name": "student-life-and-societies",
+                  "children": [
+                    "mls-gra"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "scholarships-funding-and-prizes",
+              "children": [
+                "domestic",
+                "international",
+                "mcniff-scholarship",
+                "research-support-funds",
+                "sprp"
+              ]
+            },
+            {
+              "name": "students",
+              "children": [
+                "aashish-yadav",
+                "allanah-colley",
+                "alumita-lekenaua",
+                "andrea-furger",
+                "andrea-immanuel",
+                "astrid-bernal-rubio",
+                "azadah-raz-mohammad",
+                "balu-gopalakrishnan-nair",
+                "belete-yemata",
+                "bongkot-napaumporn",
+                "charlie-hock",
+                "chin-yang-joseph-lau",
+                "daniel-goldsworthy",
+                "daria-vasilevskaia",
+                "debaranjan-goswami",
+                "elisabeth-lopez-desvars",
+                "elliot-legendre",
+                "emilia-sterjova",
+                "emma-finlay",
+                "eryanto-nugroho",
+                "fia-hamid-walker",
+                "fitria-ratna-wardika",
+                "grace-chaw",
+                "hannah-gordon",
+                "haris-jamil",
+                "haseenah-huurieyah-wan-rosli",
+                "hossain-mohammad-reza",
+                "ishika-chatterjee",
+                "ishrat-jahan",
+                "janelle-koh",
+                "jasmine-ali",
+                "jesse-hartery",
+                "jessica-bridges",
+                "jiacheng-gong",
+                "john-sebastian",
+                "kevin-yam",
+                "kinkino-legide",
+                "lauren-bellamy",
+                "liam-elphick",
+                "lilia-anderson",
+                "lydie-schmidt",
+                "magdalena-sylister",
+                "malini-chidambaram",
+                "marcus-hickleton",
+                "monal-gera",
+                "monica-hope",
+                "nimna-prematilaka",
+                "nurul-zayzda",
+                "ratu-ayu-asih-kusuma-putri",
+                "rebekah-markey-towler",
+                "renuka-balasubramaniam",
+                "shilpa-singh-jaswant",
+                "sid-saigal",
+                "sumedha-choudhury",
+                "suprawee-earn-asanasak",
+                "surabhi-singh",
+                "tegan-evans",
+                "thi-nhung-nguyen",
+                "thi-thu-ha-do",
+                "tina-yao",
+                "tom-hvala",
+                "vita-apriliasari",
+                "wilson-lui",
+                "yan-wang",
+                "yanjie-zhu",
+                "zelalem-shiferaw-woldemichael"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "jd",
+          "children": [
+            {
+              "name": "enrichment",
+              "children": [
+                {
+                  "name": "global-learning-opportunities",
+                  "children": [
+                    "ctls",
+                    {
+                      "name": "degree-partnerships",
+                      "children": [
+                        "boston-college",
+                        "cambridge",
+                        "leiden-university",
+                        "national-taiwan-university",
+                        "nus",
+                        "nyu",
+                        "oxford",
+                        "peking-university",
+                        "sjtu",
+                        "ubc",
+                        "university-of-amsterdam"
+                      ]
+                    },
+                    "global-subjects"
+                  ]
+                },
+                {
+                  "name": "mls-clinics",
+                  "children": [
+                    {
+                      "name": "subjects",
+                      "children": [
+                        "climate-resilience-clinic",
+                        {
+                          "name": "disability-human-rights-clinic",
+                          "children": [
+                            "research-outcomes"
+                          ]
+                        },
+                        "indigenous-legal-advocacy-clinic",
+                        "law-and-the-environment-lab",
+                        "law-apps",
+                        "legal-internship",
+                        "mls-tax-clinic",
+                        "ndis-and-disability-benefits-clinic",
+                        "public-interest-law-clinic",
+                        "stateless-legal-clinic",
+                        "street-law",
+                        "sustainability-business-clinic"
+                      ]
+                    }
+                  ]
+                },
+                "mooting-and-competitions",
+                "orientation"
+              ]
+            },
+            {
+              "name": "studies",
+              "children": [
+                "acceleration-guidelines",
+                "accept-your-offer-and-get-started",
+                "class-recording-policy",
+                "concurrent-diploma",
+                "course-planning",
+                "course-plans",
+                {
+                  "name": "enrolment",
+                  "children": [
+                    {
+                      "name": "jd-subjects",
+                      "children": [
+                        "_recache"
+                      ]
+                    },
+                    {
+                      "name": "legal-research",
+                      "children": [
+                        "_recache"
+                      ]
+                    }
+                  ]
+                },
+                "rankings",
+                "student-achievement-and-grading",
+                "time-commitment-and-timetabling",
+                "waiver-of-subject-prerequisites"
+              ]
+            }
+          ]
+        },
+        "law-students-study-area",
+        {
+          "name": "legal-academic-skills",
+          "children": [
+            "about",
+            "academic-skills-resources",
+            "facilitated-study-groups",
+            "lms-community",
+            "writing-for-law"
+          ]
+        },
+        {
+          "name": "masters",
+          "children": [
+            {
+              "name": "enrichment",
+              "children": [
+                {
+                  "name": "global-learning-opportunities",
+                  "children": [
+                    "study-abroad-at-oxford"
+                  ]
+                },
+                "international-legal-internship",
+                "orientation"
+              ]
+            },
+            {
+              "name": "studies",
+              "children": [
+                "accept-your-offer-and-get-started",
+                "course-transfers",
+                "cross-institutional-study",
+                {
+                  "name": "enrolment",
+                  "children": [
+                    {
+                      "name": "mlm-subjects",
+                      "children": [
+                        "_recache"
+                      ]
+                    }
+                  ]
+                },
+                "leave-of-absence",
+                "locker-hire",
+                "minor-thesis-option",
+                "mlm-course-planning",
+                "prerequisites-and-recommended-requirements",
+                "student-advising",
+                "subject-delivery"
+              ]
+            }
+          ]
+        },
+        "mls-feedback",
+        "mls-mentor-program",
+        "non-partner-programs",
+        {
+          "name": "orientation",
+          "children": [
+            "mlm-students"
+          ]
+        },
+        "professional-behaviour-guidelines",
+        "student-life-and-societies",
+        {
+          "name": "study-overseas-program",
+          "children": [
+            "exchange-partners"
+          ]
+        }
+      ]
+    }
+  ],
+  "arts": [
+    {
+      "name": "students",
+      "children": [
+        "arts-student-advisory-council",
+        "arts-student-ambassadors",
+        "arts-west-disability-access",
+        "audiovisual-loan-equipment",
+        "career-mentoring",
+        "employability-in-arts",
+        {
+          "name": "experiential-learning",
+          "children": [
+            "ema-internship-subject",
+            "industry-project",
+            {
+              "name": "internship-personal-and-career-growth",
+              "children": [
+                "invitation-to-host-an-intern"
+              ]
+            },
+            "job-ready-program",
+            "journalism-internship-subject",
+            "scc-graduate-internship-subjects",
+            {
+              "name": "subjects",
+              "children": [
+                "industry-project",
+                "internship-personal-and-career-growth"
+              ]
+            },
+            "the-big-idea"
+          ]
+        },
+        {
+          "name": "graduate-coursework",
+          "children": [
+            "census-dates",
+            "class-timetable",
+            {
+              "name": "enrich-your-program",
+              "children": [
+                {
+                  "name": "overseas-experience",
+                  "children": [
+                    {
+                      "name": "funding",
+                      "children": [
+                        "faculty-of-arts-overseas-subject-travel-grant",
+                        "melbourne-global-language-scholarship",
+                        "melbourne-mobility-awards"
+                      ]
+                    }
+                  ]
+                },
+                "video-edit-suites"
+              ]
+            },
+            {
+              "name": "enrichment",
+              "children": [
+                "arts-student-ambassadors",
+                "cross-institutional-study",
+                "diploma-in-languages",
+                "gshss-academic-culture-and-english-tutorials",
+                "overseas-experience"
+              ]
+            },
+            "manage-your-course",
+            "overloading-and-over-enrolment",
+            {
+              "name": "resources-and-support",
+              "children": [
+                "arts-west-building-disability-access",
+                "graduate-coursework-conference-grants",
+                "graduate-internship-grants",
+                "video-edit-suites"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "graduate-research",
+          "children": [
+            {
+              "name": "commencement",
+              "children": [
+                "commencement-checklist",
+                "course-enrolment-information",
+                {
+                  "name": "orientation-and-induction",
+                  "children": [
+                    "_nocache"
+                  ]
+                },
+                {
+                  "name": "overview-of-course-structure",
+                  "children": [
+                    "_nocache"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "faqs",
+              "children": [
+                "gr-research-support-funding",
+                "research-support",
+                "resources"
+              ]
+            },
+            {
+              "name": "manage-your-research-program",
+              "children": [
+                "candidature-variation",
+                "conversion-and-transfer",
+                "eStudent%20login",
+                {
+                  "name": "enrichment-activities",
+                  "children": [
+                    "artsmodules"
+                  ]
+                },
+                "milestone-reviews",
+                "thesis-requirements"
+              ]
+            },
+            "meet-our-graduate-researchers",
+            {
+              "name": "plan-your-program",
+              "children": [
+                "orientation-and-induction",
+                "overview-of-course-structure"
+              ]
+            },
+            {
+              "name": "plan-your-program2",
+              "children": [
+                "commencement-checklist",
+                "course-enrolment-information",
+                "orientation-and-induction",
+                "overview-of-course-structure"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "overseas-experience",
+          "children": [
+            {
+              "name": "funding",
+              "children": [
+                "faculty-of-arts-overseas-subject-travel-grant",
+                "melbourne-global-language-scholarship",
+                "melbourne-mobility-awards"
+              ]
+            }
+          ]
+        },
+        "room-booking",
+        {
+          "name": "undergraduate",
+          "children": [
+            "bachelor-of-arts-orientation",
+            {
+              "name": "enrich-your-bachelor-of-arts",
+              "children": [
+                {
+                  "name": "academic-mentoring",
+                  "children": [
+                    "dr-delia-lin",
+                    "dr-lara-anderson",
+                    "professor-tim-parkin"
+                  ]
+                },
+                "arts-student-forum",
+                "campus-experience",
+                "diploma-in-languages",
+                "honours",
+                "melbourne-peer-mentor-program",
+                "peer-assisted-study-sessions",
+                "work-integrated-learning-internships2"
+              ]
+            },
+            {
+              "name": "resources-and-support",
+              "children": [
+                "academic-resources",
+                "arts-west-disability-access",
+                "language-placement-tests"
+              ]
+            }
+          ]
+        },
+        "video-edit-suites"
+      ]
+    }
+  ],
+  "science": [
+    {
+      "name": "students",
+      "children": [
+        "agriculture-discovery-week",
+        {
+          "name": "course-guide-bachelor-of-agriculture",
+          "children": [
+            "bag-orientation",
+            "dookie-semester"
+          ]
+        },
+        {
+          "name": "course-guide-bachelor-of-science",
+          "children": [
+            {
+              "name": "bachelor-of-science-majors-series",
+              "children": [
+                {
+                  "name": "recorded-events-2025",
+                  "children": [
+                    "Maths-and-Stats-Course-planning-talk-information-slides-2025.pdf"
+                  ]
+                }
+              ]
+            },
+            "breadth",
+            "bsc-orientation",
+            {
+              "name": "first-year-subject-sets",
+              "children": [
+                "biological-sciences",
+                "chemical-sciences",
+                "earth-sciences",
+                "engineering-systems",
+                "geography",
+                "information-technology",
+                "mathematics-and-statistics",
+                "physical-sciences",
+                "psychological-sciences"
+              ]
+            }
+          ]
+        },
+        "course-guide-diploma-in-general-studies",
+        {
+          "name": "course-guide-graduate-coursework-degrees",
+          "children": [
+            {
+              "name": "agriculture-food-science-research-projects",
+              "children": [
+                "differences-in-major-and-minor-research-projects",
+                "masters-research-project-topic-areas"
+              ]
+            },
+            "graduate-getting-started",
+            "master-of-science-research-projects"
+          ]
+        },
+        "current-indigenous-students",
+        {
+          "name": "employability",
+          "children": [
+            "career-enrichment-program"
+          ]
+        },
+        {
+          "name": "enrich-your-studies",
+          "children": [
+            {
+              "name": "academic-skills",
+              "children": [
+                "graduate-science-academic-english-tutorial"
+              ]
+            },
+            "industry-projects",
+            "internship-subjects"
+          ]
+        },
+        {
+          "name": "graduate-research",
+          "children": [
+            "contact",
+            "events",
+            "faculty-inductions-for-graduate-researchers",
+            "graduate-research-scholarships"
+          ]
+        },
+        "q-fever-vaccinations",
+        "quota-subjects",
+        "research-project-subjects",
+        {
+          "name": "scholarships",
+          "children": [
+            {
+              "name": "deans-honours-list",
+              "children": [
+                {
+                  "name": "dhl-photos",
+                  "children": [
+                    {
+                      "name": "2024-dhl",
+                      "children": [
+                        "2023-medal-winners",
+                        "deans-honours-list-2023"
+                      ]
+                    },
+                    {
+                      "name": "2025-dhl",
+                      "children": [
+                        "2024-medal-winners"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "dookie-scholarship-applications",
+            "faq",
+            "prizes",
+            "scholarship-recipients",
+            {
+              "name": "scholarships",
+              "children": [
+                "open-scholarships",
+                {
+                  "name": "other-scholarships",
+                  "children": [
+                    "industry-scholarships"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "student-life",
+          "children": [
+            "student-life-and-societies",
+            {
+              "name": "student-staff-reference-committee",
+              "children": [
+                {
+                  "name": "committee-members",
+                  "children": [
+                    "hannah-ramsey",
+                    "kylie-wang",
+                    "louisa-zhu",
+                    "maxwell-chivers",
+                    "patsy-quan",
+                    "rudra-tiwari",
+                    "ryder-browne",
+                    "shreya-shrivastava",
+                    "yu-zhang",
+                    "zirui-oscar-xu"
+                  ]
+                },
+                {
+                  "name": "grad-ssrc-2026-committee-bios",
+                  "children": [
+                    "adinda-putri",
+                    "arati-chaskar",
+                    "beth-hebdon",
+                    "bothainah-sharrofna",
+                    "georgia-juler",
+                    "hafsah-ramjane",
+                    "hanshi-tang",
+                    "hongyi-liu",
+                    "john-drugli",
+                    "jordan-russo",
+                    "justin-lian",
+                    "luca-thomas",
+                    "min-chien-wu",
+                    "nabila-afifah",
+                    "ranita-saha",
+                    "shreshta-gupta-kukkadapu",
+                    "velankanni-jesika-nadar",
+                    "viraj-patel"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "volunteering-and-leadership",
+              "children": [
+                "become-a-science-roadshow-presenter",
+                "biotechnology-peer-to-peer-mentoring",
+                "data-science-peer-to-peer-mentoring",
+                "science-ambassadors"
+              ]
+            },
+            {
+              "name": "wellbeing",
+              "children": [
+                {
+                  "name": "wellbeing-events",
+                  "children": [
+                    "swot-vac-wellbeing-brunch"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "support"
+      ]
+    }
+  ],
+  "feit": [
+    {
+      "name": "students",
+      "children": [
+        {
+          "name": "clubs",
+          "children": [
+            "book-a-room-for-your-event",
+            "committee",
+            "event-funding-and-invoicing",
+            "feature-in-the-feit-express-newsletter",
+            {
+              "name": "our-clubs",
+              "children": [
+                "drone-aviation-and-racing-engineering-society",
+                "mechanical-engineering-student-society-mess",
+                "melbourne-university-civil-and-structural-society",
+                "melbourne-university-geomatics-society-mugs"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "coursework",
+          "children": [
+            {
+              "name": "career-resources",
+              "children": [
+                "professional-associations"
+              ]
+            },
+            {
+              "name": "student-experience",
+              "children": [
+                "academic-communication-skills-series",
+                "global-skills-series",
+                {
+                  "name": "industry-series",
+                  "children": [
+                    "all-industry-events",
+                    {
+                      "name": "diversity-and-inclusion-case-competition",
+                      "children": [
+                        "how-does-it-work",
+                        "prizes",
+                        "who-can-participate"
+                      ]
+                    },
+                    {
+                      "name": "feit-hackathon-festival",
+                      "children": [
+                        "2025-hackathon-festival-image-gallery"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "internship",
+                  "children": [
+                    "domestic-internship-opportunities",
+                    "faq",
+                    "internship-no-credit",
+                    "internship-subjects",
+                    {
+                      "name": "practice-hurdle",
+                      "children": [
+                        "internship-no-credit",
+                        "step"
+                      ]
+                    },
+                    "preparing-for-and-securing-an-internship",
+                    "self-sourced",
+                    "self-sourced-international",
+                    "university-sourced-internships"
+                  ]
+                },
+                {
+                  "name": "mentoring-volunteering",
+                  "children": [
+                    "peer-connect-program",
+                    "salp"
+                  ]
+                },
+                {
+                  "name": "orientation",
+                  "children": [
+                    "Melbourne%20Connect%20Building",
+                    "Peter%20Hall%20Building",
+                    {
+                      "name": "after-orientation",
+                      "children": [
+                        {
+                          "name": "keep-in-touch",
+                          "children": [
+                            {
+                              "name": "eng-and-it-calendar",
+                              "children": [
+                                {
+                                  "name": "upcoming-events",
+                                  "children": [
+                                    {
+                                      "name": "2026",
+                                      "children": [
+                                        {
+                                          "name": "international-skills-series",
+                                          "children": [
+                                            "intercultural-career-mentoring-program"
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    "ian-alexander-scholarship-round-2",
+                                    "lens-stevens-scholarship",
+                                    "round-3-scholarships",
+                                    "round-4-scholarships"
+                                  ]
+                                }
+                              ]
+                            },
+                            "newsletter"
+                          ]
+                        },
+                        {
+                          "name": "whats-next",
+                          "children": [
+                            {
+                              "name": "coursework-students",
+                              "children": [
+                                "coursework-prizes",
+                                "deans-honours-award",
+                                {
+                                  "name": "scholarships",
+                                  "children": [
+                                    "other-scholarships",
+                                    "round-1a-scholarships",
+                                    "round-one",
+                                    "round-two",
+                                    {
+                                      "name": "scholarships",
+                                      "children": [
+                                        "m.k.n.-johansen-scholarship-for-the-advancement-of-municipal-engineering"
+                                      ]
+                                    },
+                                    {
+                                      "name": "terms",
+                                      "children": [
+                                        "engineering-and-it-coursework-scholarship-terms-and-conditions"
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            "student-resources-and-services"
+                          ]
+                        },
+                        {
+                          "name": "your-feedback",
+                          "children": [
+                            "feedback"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "before-orientation",
+                      "children": [
+                        {
+                          "name": "class-registration",
+                          "children": [
+                            "enrolling-in-subjects",
+                            "mytimetable"
+                          ]
+                        },
+                        {
+                          "name": "explore-university-platforms-and-systems",
+                          "children": [
+                            "international-student-resources",
+                            "international-student-support",
+                            "melbourne-talks"
+                          ]
+                        },
+                        {
+                          "name": "finalising-enrolment",
+                          "children": [
+                            "accepting-offers",
+                            "enrolment-and-assistance"
+                          ]
+                        },
+                        {
+                          "name": "further-support",
+                          "children": [
+                            "covid-19-student-support",
+                            "faculty-course-planning-resources",
+                            "how-to-plan-your-course",
+                            "manage-your-course",
+                            "my-course-planner"
+                          ]
+                        },
+                        {
+                          "name": "improve-your-english,-communication-and-academic-skills",
+                          "children": [
+                            "academic-english-tutorials",
+                            "academic-skills"
+                          ]
+                        },
+                        {
+                          "name": "plan-to-attend-melbourne-orientation",
+                          "children": [
+                            "new-student-checklist-domestic-students",
+                            "new-student-checklist-international-students"
+                          ]
+                        },
+                        {
+                          "name": "technology-requirements-and-available-resources",
+                          "children": [
+                            "calculator-policy",
+                            "chat-with-student-it",
+                            "general-software-for-uom-students",
+                            "student-it",
+                            "student-it-contact"
+                          ]
+                        }
+                      ]
+                    },
+                    "program"
+                  ]
+                },
+                "professional-skills-series",
+                {
+                  "name": "study-overseas",
+                  "children": [
+                    "ICMP",
+                    {
+                      "name": "feit-students-study-abroad-and-exchange",
+                      "children": [
+                        "graduate-coursework-and-research-students",
+                        {
+                          "name": "international-coursework-opportunities",
+                          "children": [
+                            "upcoming-short-term-coursework-opportunities"
+                          ]
+                        },
+                        {
+                          "name": "international-research",
+                          "children": [
+                            "catholic-university-of-louvain-summer-research-program-summer-nov-feb",
+                            "kaist-visiting-student-researcher-program",
+                            "kaist-visiting-student-researcher-program2",
+                            "ku-star",
+                            "university-of-twente-summer-research-program-summer-nov-feb"
+                          ]
+                        },
+                        "saex-funding-and-scholarships"
+                      ]
+                    },
+                    "global-challenges-in-engineering-jakarta"
+                  ]
+                },
+                "technical-skills",
+                "wellbeing-series"
+              ]
+            },
+            {
+              "name": "study-resources",
+              "children": [
+                "academic-skills",
+                "building-access-and-id-cards",
+                "extensions-and-special-consideration",
+                "newsletter",
+                "wellbeing"
+              ]
+            }
+          ]
+        },
+        "employability-in-engineering-and-information-technology",
+        {
+          "name": "eng-and-it-calendar",
+          "children": [
+            {
+              "name": "upcoming-events",
+              "children": [
+                {
+                  "name": "2026",
+                  "children": [
+                    {
+                      "name": "international-skills-series",
+                      "children": [
+                        "intercultural-career-mentoring-program"
+                      ]
+                    }
+                  ]
+                },
+                "ian-alexander-scholarship-round-2",
+                "lens-stevens-scholarship",
+                "round-3-scholarships",
+                "round-4-scholarships"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "eng-and-it-community",
+          "children": [
+            "biomedicine-pathway",
+            "commerce-pathway",
+            "community-image-gallery",
+            "deep-dive-sessions",
+            "design-pathway",
+            "scholarships",
+            "science-pathway"
+          ]
+        },
+        "indigenous-student-experience",
+        {
+          "name": "research",
+          "children": [
+            "get-in-touch",
+            {
+              "name": "getting-started",
+              "children": [
+                "arrival-checklist",
+                "building-access"
+              ]
+            },
+            {
+              "name": "life-at-feit",
+              "children": [
+                "award-winners",
+                "internships",
+                "student-clubs",
+                "student-profile",
+                "thesis-writing-events"
+              ]
+            },
+            {
+              "name": "study-resources",
+              "children": [
+                "course-requirements",
+                "progress-review",
+                "services-support-activities",
+                "submitting-your-thesis"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "scholarships-prizes-and-awards",
+          "children": [
+            {
+              "name": "coursework-students",
+              "children": [
+                "coursework-prizes",
+                {
+                  "name": "deans-honours-award",
+                  "children": [
+                    "2023",
+                    "2024",
+                    "eligibility-and-selection-criteria",
+                    "faqs",
+                    "honour-roll",
+                    "school-of-computing-and-information-systems-1"
+                  ]
+                },
+                {
+                  "name": "scholarships",
+                  "children": [
+                    "other-scholarships",
+                    "round-1a-scholarships",
+                    "round-one",
+                    "round-two",
+                    {
+                      "name": "scholarships",
+                      "children": [
+                        "acusensus-scholarship-for-women-in-engineering",
+                        "john-balfour",
+                        "stephen-ho-accelerator-grant",
+                        "stephen-ho-innovation-awards"
+                      ]
+                    },
+                    {
+                      "name": "terms",
+                      "children": [
+                        "engineering-and-it-commencing-scholarship-terms-and-conditions",
+                        "engineering-and-it-coursework-scholarship-terms-and-conditions"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "frequently-asked-questions",
+            {
+              "name": "graduate-research-students",
+              "children": [
+                "graduate-research-awards",
+                {
+                  "name": "scholarships",
+                  "children": [
+                    "other-scholarships,-2023",
+                    {
+                      "name": "scholarships",
+                      "children": [
+                        "phd-write-up-award",
+                        "travel"
+                      ]
+                    },
+                    "summer-round",
+                    "winter-round"
+                  ]
+                }
+              ]
+            },
+            "scholarship-faq",
+            "scholarships,-prizes-and-awards-recipients",
+            {
+              "name": "spotlight-celebrations",
+              "children": [
+                "2022-spotlight-celebration-image-gallery",
+                "2023-spotlight-celebration-image-gallery",
+                "2024-spotlight-celebration-image-gallery",
+                "2025-spotlight-celebration-image-gallery",
+                {
+                  "name": "community-awards",
+                  "children": [
+                    "faqs",
+                    "nominate",
+                    {
+                      "name": "winners",
+                      "children": [
+                        "2022-winners",
+                        "2023-winners",
+                        "2024-winners",
+                        "2025-winners"
+                      ]
+                    }
+                  ]
+                },
+                "image-galleries"
+              ]
+            },
+            {
+              "name": "undergraduate",
+              "children": [
+                "subject-prizes-1"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

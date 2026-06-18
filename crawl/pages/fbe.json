@@ -1,0 +1,986 @@
+[
+  {
+    "url": "https://fbe.unimelb.edu.au/students",
+    "normalizedUrl": "https://fbe.unimelb.edu.au/students",
+    "faculty": "fbe",
+    "unitLevel": "faculty",
+    "title": "Students",
+    "depth": 0,
+    "wordCount": 367,
+    "classification": "unique",
+    "topicTags": [],
+    "outboundHosts": {
+      "fbe.unimelb.edu.au": 4,
+      "mbs.unimelb.edu.au": 2,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "www.linkedin.com": 2,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 0,
+    "inSectionCount": 5,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Business and Economics\",\"external\":false,\"facultyHref\":\"https://fbe.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About Us\",\"href\":\"https://fbe.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Our Departments\",\"href\":\"https://fbe.unimelb.edu.au/about/our-departments\",\"navItems\":[{\"title\":\"Centre for Actuarial Studies\",\"href\":\"https://fbe.unimelb.edu.au/economics/"
+  },
+  {
+    "url": "https://fbe.unimelb.edu.au/students/bcom",
+    "normalizedUrl": "https://fbe.unimelb.edu.au/students/bcom",
+    "faculty": "fbe",
+    "unitLevel": "faculty",
+    "title": "BCom",
+    "depth": 1,
+    "wordCount": 360,
+    "classification": "unique",
+    "topicTags": [],
+    "outboundHosts": {
+      "fbe.unimelb.edu.au": 3,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "www.linkedin.com": 2,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 0,
+    "inSectionCount": 5,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Business and Economics\",\"external\":false,\"facultyHref\":\"https://fbe.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About Us\",\"href\":\"https://fbe.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Our Departments\",\"href\":\"https://fbe.unimelb.edu.au/about/our-departments\",\"navItems\":[{\"title\":\"Centre for Actuarial Studies\",\"href\":\"https://fbe.unimelb.edu.au/economics/"
+  },
+  {
+    "url": "https://fbe.unimelb.edu.au/students/phd",
+    "normalizedUrl": "https://fbe.unimelb.edu.au/students/phd",
+    "faculty": "fbe",
+    "unitLevel": "faculty",
+    "title": "Graduate Research",
+    "depth": 1,
+    "wordCount": 300,
+    "classification": "unique",
+    "topicTags": [
+      "research-candidature"
+    ],
+    "outboundHosts": {
+      "fbe.unimelb.edu.au": 2,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "www.linkedin.com": 2,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 0,
+    "inSectionCount": 5,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Business and Economics\",\"external\":false,\"facultyHref\":\"https://fbe.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About Us\",\"href\":\"https://fbe.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Our Departments\",\"href\":\"https://fbe.unimelb.edu.au/about/our-departments\",\"navItems\":[{\"title\":\"Centre for Actuarial Studies\",\"href\":\"https://fbe.unimelb.edu.au/economics/"
+  },
+  {
+    "url": "https://fbe.unimelb.edu.au/students/services",
+    "normalizedUrl": "https://fbe.unimelb.edu.au/students/services",
+    "faculty": "fbe",
+    "unitLevel": "faculty",
+    "title": "FBE student services",
+    "depth": 1,
+    "wordCount": 328,
+    "classification": "unique",
+    "topicTags": [],
+    "outboundHosts": {
+      "fbe.unimelb.edu.au": 2,
+      "studentit.unimelb.edu.au": 1,
+      "students.unimelb.edu.au": 1,
+      "library.unimelb.edu.au": 2,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "www.linkedin.com": 2,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 1,
+    "inSectionCount": 5,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Business and Economics\",\"external\":false,\"facultyHref\":\"https://fbe.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About Us\",\"href\":\"https://fbe.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Our Departments\",\"href\":\"https://fbe.unimelb.edu.au/about/our-departments\",\"navItems\":[{\"title\":\"Centre for Actuarial Studies\",\"href\":\"https://fbe.unimelb.edu.au/economics/"
+  },
+  {
+    "url": "https://fbe.unimelb.edu.au/students/wellbeing",
+    "normalizedUrl": "https://fbe.unimelb.edu.au/students/wellbeing",
+    "faculty": "fbe",
+    "unitLevel": "faculty",
+    "title": "Wellbeing",
+    "depth": 1,
+    "wordCount": 850,
+    "classification": "unique",
+    "topicTags": [
+      "wellbeing-health"
+    ],
+    "outboundHosts": {
+      "fbe.unimelb.edu.au": 4,
+      "students.unimelb.edu.au": 2,
+      "services.unimelb.edu.au": 1,
+      "umsu.unimelb.edu.au": 1,
+      "headspace.org.au": 1,
+      "www.beyondblue.org.au": 1,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "www.linkedin.com": 2,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 2,
+    "inSectionCount": 3,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Business and Economics\",\"external\":false,\"facultyHref\":\"https://fbe.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About Us\",\"href\":\"https://fbe.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Our Departments\",\"href\":\"https://fbe.unimelb.edu.au/about/our-departments\",\"navItems\":[{\"title\":\"Centre for Actuarial Studies\",\"href\":\"https://fbe.unimelb.edu.au/economics/"
+  },
+  {
+    "url": "https://fbe.unimelb.edu.au/students/bcom/current-students",
+    "normalizedUrl": "https://fbe.unimelb.edu.au/students/bcom/current-students",
+    "faculty": "fbe",
+    "unitLevel": "faculty",
+    "title": "Course Planning",
+    "depth": 2,
+    "wordCount": 448,
+    "classification": "unique",
+    "topicTags": [
+      "course-planning"
+    ],
+    "outboundHosts": {
+      "fbe.unimelb.edu.au": 2,
+      "students.unimelb.edu.au": 1,
+      "study.unimelb.edu.au": 1,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "www.linkedin.com": 2,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 1,
+    "inSectionCount": 10,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Business and Economics\",\"external\":false,\"facultyHref\":\"https://fbe.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About Us\",\"href\":\"https://fbe.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Our Departments\",\"href\":\"https://fbe.unimelb.edu.au/about/our-departments\",\"navItems\":[{\"title\":\"Centre for Actuarial Studies\",\"href\":\"https://fbe.unimelb.edu.au/economics/"
+  },
+  {
+    "url": "https://fbe.unimelb.edu.au/students/bcom/honours",
+    "normalizedUrl": "https://fbe.unimelb.edu.au/students/bcom/honours",
+    "faculty": "fbe",
+    "unitLevel": "faculty",
+    "title": "Bachelor of Commerce (Honours)",
+    "depth": 2,
+    "wordCount": 314,
+    "classification": "unique",
+    "topicTags": [
+      "course-planning"
+    ],
+    "outboundHosts": {
+      "fbe.unimelb.edu.au": 2,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "www.linkedin.com": 2,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 0,
+    "inSectionCount": 6,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Business and Economics\",\"external\":false,\"facultyHref\":\"https://fbe.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About Us\",\"href\":\"https://fbe.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Our Departments\",\"href\":\"https://fbe.unimelb.edu.au/about/our-departments\",\"navItems\":[{\"title\":\"Centre for Actuarial Studies\",\"href\":\"https://fbe.unimelb.edu.au/economics/"
+  },
+  {
+    "url": "https://fbe.unimelb.edu.au/students/bcom/orientation",
+    "normalizedUrl": "https://fbe.unimelb.edu.au/students/bcom/orientation",
+    "faculty": "fbe",
+    "unitLevel": "faculty",
+    "title": "Orientation",
+    "depth": 2,
+    "wordCount": 576,
+    "classification": "unique",
+    "topicTags": [
+      "orientation"
+    ],
+    "outboundHosts": {
+      "fbe.unimelb.edu.au": 3,
+      "students.unimelb.edu.au": 1,
+      "canvas.lms.unimelb.edu.au": 1,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "www.linkedin.com": 2,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 1,
+    "inSectionCount": 4,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Business and Economics\",\"external\":false,\"facultyHref\":\"https://fbe.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About Us\",\"href\":\"https://fbe.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Our Departments\",\"href\":\"https://fbe.unimelb.edu.au/about/our-departments\",\"navItems\":[{\"title\":\"Centre for Actuarial Studies\",\"href\":\"https://fbe.unimelb.edu.au/economics/"
+  },
+  {
+    "url": "https://fbe.unimelb.edu.au/students/phd/resources-and-support",
+    "normalizedUrl": "https://fbe.unimelb.edu.au/students/phd/resources-and-support",
+    "faculty": "fbe",
+    "unitLevel": "faculty",
+    "title": "Resources and Support",
+    "depth": 2,
+    "wordCount": 607,
+    "classification": "unique",
+    "topicTags": [
+      "contacts-support",
+      "research-candidature"
+    ],
+    "outboundHosts": {
+      "fbe.unimelb.edu.au": 5,
+      "library.unimelb.edu.au": 1,
+      "gradresearch.unimelb.edu.au": 1,
+      "gateway.research.unimelb.edu.au": 1,
+      "forms.your.unimelb.edu.au": 1,
+      "findanexpert.unimelb.edu.au": 6,
+      "mbs.edu": 1,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "www.linkedin.com": 2,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 0,
+    "inSectionCount": 3,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Business and Economics\",\"external\":false,\"facultyHref\":\"https://fbe.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About Us\",\"href\":\"https://fbe.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Our Departments\",\"href\":\"https://fbe.unimelb.edu.au/about/our-departments\",\"navItems\":[{\"title\":\"Centre for Actuarial Studies\",\"href\":\"https://fbe.unimelb.edu.au/economics/"
+  },
+  {
+    "url": "https://fbe.unimelb.edu.au/students/phd/scholarships-and-grants",
+    "normalizedUrl": "https://fbe.unimelb.edu.au/students/phd/scholarships-and-grants",
+    "faculty": "fbe",
+    "unitLevel": "faculty",
+    "title": "Graduate Research Scholarships and Grants",
+    "depth": 2,
+    "wordCount": 330,
+    "classification": "unique",
+    "topicTags": [
+      "research-candidature",
+      "scholarships"
+    ],
+    "outboundHosts": {
+      "fbe.unimelb.edu.au": 2,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "www.linkedin.com": 2,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 0,
+    "inSectionCount": 6,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Business and Economics\",\"external\":false,\"facultyHref\":\"https://fbe.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About Us\",\"href\":\"https://fbe.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Our Departments\",\"href\":\"https://fbe.unimelb.edu.au/about/our-departments\",\"navItems\":[{\"title\":\"Centre for Actuarial Studies\",\"href\":\"https://fbe.unimelb.edu.au/economics/"
+  },
+  {
+    "url": "https://fbe.unimelb.edu.au/students/phd/your-candidature",
+    "normalizedUrl": "https://fbe.unimelb.edu.au/students/phd/your-candidature",
+    "faculty": "fbe",
+    "unitLevel": "faculty",
+    "title": "Your Candidature",
+    "depth": 2,
+    "wordCount": 2469,
+    "classification": "mixed",
+    "topicTags": [
+      "research-candidature"
+    ],
+    "outboundHosts": {
+      "fbe.unimelb.edu.au": 2,
+      "gradresearch.unimelb.edu.au": 17,
+      "unimelb-web.t1cloud.com": 1,
+      "staff.unimelb.edu.au": 1,
+      "policy.unimelb.edu.au": 4,
+      "tes.app.unimelb.edu.au": 2,
+      "gateway.research.unimelb.edu.au": 1,
+      "ask.unimelb.edu.au": 2,
+      "services.unimelb.edu.au": 3,
+      "gsa.unimelb.edu.au": 1,
+      "thesiswhisperer.com": 1,
+      "www.beyondblue.org.au": 1,
+      "students.unimelb.edu.au": 1,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "www.linkedin.com": 2,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 1,
+    "inSectionCount": 3,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Business and Economics\",\"external\":false,\"facultyHref\":\"https://fbe.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About Us\",\"href\":\"https://fbe.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Our Departments\",\"href\":\"https://fbe.unimelb.edu.au/about/our-departments\",\"navItems\":[{\"title\":\"Centre for Actuarial Studies\",\"href\":\"https://fbe.unimelb.edu.au/economics/"
+  },
+  {
+    "url": "https://fbe.unimelb.edu.au/students/services/computing-spaces",
+    "normalizedUrl": "https://fbe.unimelb.edu.au/students/services/computing-spaces",
+    "faculty": "fbe",
+    "unitLevel": "faculty",
+    "title": "Student Computing Spaces",
+    "depth": 2,
+    "wordCount": 550,
+    "classification": "unique",
+    "topicTags": [
+      "IT-systems"
+    ],
+    "outboundHosts": {
+      "fbe.unimelb.edu.au": 2,
+      "library.unimelb.edu.au": 1,
+      "ask.unimelb.edu.au": 1,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "www.linkedin.com": 2,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 0,
+    "inSectionCount": 3,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Business and Economics\",\"external\":false,\"facultyHref\":\"https://fbe.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About Us\",\"href\":\"https://fbe.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Our Departments\",\"href\":\"https://fbe.unimelb.edu.au/about/our-departments\",\"navItems\":[{\"title\":\"Centre for Actuarial Studies\",\"href\":\"https://fbe.unimelb.edu.au/economics/"
+  },
+  {
+    "url": "https://fbe.unimelb.edu.au/students/services/rules",
+    "normalizedUrl": "https://fbe.unimelb.edu.au/students/services/rules",
+    "faculty": "fbe",
+    "unitLevel": "faculty",
+    "title": "FBE computing facilities rules",
+    "depth": 2,
+    "wordCount": 490,
+    "classification": "unique",
+    "topicTags": [
+      "IT-systems"
+    ],
+    "outboundHosts": {
+      "fbe.unimelb.edu.au": 3,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "www.linkedin.com": 2,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 0,
+    "inSectionCount": 3,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Business and Economics\",\"external\":false,\"facultyHref\":\"https://fbe.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About Us\",\"href\":\"https://fbe.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Our Departments\",\"href\":\"https://fbe.unimelb.edu.au/about/our-departments\",\"navItems\":[{\"title\":\"Centre for Actuarial Studies\",\"href\":\"https://fbe.unimelb.edu.au/economics/"
+  },
+  {
+    "url": "https://fbe.unimelb.edu.au/students/services/virtual-lab",
+    "normalizedUrl": "https://fbe.unimelb.edu.au/students/services/virtual-lab",
+    "faculty": "fbe",
+    "unitLevel": "faculty",
+    "title": "FBE virtual lab",
+    "depth": 2,
+    "wordCount": 320,
+    "classification": "unique",
+    "topicTags": [
+      "IT-systems"
+    ],
+    "outboundHosts": {
+      "fbe.unimelb.edu.au": 2,
+      "students.unimelb.edu.au": 1,
+      "myuniapps.unimelb.edu.au": 1,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "www.linkedin.com": 2,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 1,
+    "inSectionCount": 3,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Business and Economics\",\"external\":false,\"facultyHref\":\"https://fbe.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About Us\",\"href\":\"https://fbe.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Our Departments\",\"href\":\"https://fbe.unimelb.edu.au/about/our-departments\",\"navItems\":[{\"title\":\"Centre for Actuarial Studies\",\"href\":\"https://fbe.unimelb.edu.au/economics/"
+  },
+  {
+    "url": "https://fbe.unimelb.edu.au/students/wellbeing/ambassadors",
+    "normalizedUrl": "https://fbe.unimelb.edu.au/students/wellbeing/ambassadors",
+    "faculty": "fbe",
+    "unitLevel": "faculty",
+    "title": "Ambassadors",
+    "depth": 2,
+    "wordCount": 419,
+    "classification": "unique",
+    "topicTags": [
+      "wellbeing-health"
+    ],
+    "outboundHosts": {
+      "fbe.unimelb.edu.au": 2,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "www.linkedin.com": 2,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 0,
+    "inSectionCount": 3,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Business and Economics\",\"external\":false,\"facultyHref\":\"https://fbe.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About Us\",\"href\":\"https://fbe.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Our Departments\",\"href\":\"https://fbe.unimelb.edu.au/about/our-departments\",\"navItems\":[{\"title\":\"Centre for Actuarial Studies\",\"href\":\"https://fbe.unimelb.edu.au/economics/"
+  },
+  {
+    "url": "https://fbe.unimelb.edu.au/students/bcom/current-students/academic-success",
+    "normalizedUrl": "https://fbe.unimelb.edu.au/students/bcom/current-students/academic-success",
+    "faculty": "fbe",
+    "unitLevel": "faculty",
+    "title": "Academic Success",
+    "depth": 3,
+    "wordCount": 352,
+    "classification": "unique",
+    "topicTags": [
+      "academic-skills",
+      "course-planning"
+    ],
+    "outboundHosts": {
+      "fbe.unimelb.edu.au": 4,
+      "services.unimelb.edu.au": 1,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "www.linkedin.com": 2,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 0,
+    "inSectionCount": 4,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Business and Economics\",\"external\":false,\"facultyHref\":\"https://fbe.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About Us\",\"href\":\"https://fbe.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Our Departments\",\"href\":\"https://fbe.unimelb.edu.au/about/our-departments\",\"navItems\":[{\"title\":\"Centre for Actuarial Studies\",\"href\":\"https://fbe.unimelb.edu.au/economics/"
+  },
+  {
+    "url": "https://fbe.unimelb.edu.au/students/bcom/current-students/assessment",
+    "normalizedUrl": "https://fbe.unimelb.edu.au/students/bcom/current-students/assessment",
+    "faculty": "fbe",
+    "unitLevel": "faculty",
+    "title": "Assessment",
+    "depth": 3,
+    "wordCount": 1039,
+    "classification": "unique",
+    "topicTags": [
+      "exams-results"
+    ],
+    "outboundHosts": {
+      "fbe.unimelb.edu.au": 2,
+      "www.lms.unimelb.edu.au": 1,
+      "students.unimelb.edu.au": 3,
+      "commercestudentcentre.formstack.com": 1,
+      "lms.unimelb.edu.au": 1,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "www.linkedin.com": 2,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 3,
+    "inSectionCount": 5,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Business and Economics\",\"external\":false,\"facultyHref\":\"https://fbe.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About Us\",\"href\":\"https://fbe.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Our Departments\",\"href\":\"https://fbe.unimelb.edu.au/about/our-departments\",\"navItems\":[{\"title\":\"Centre for Actuarial Studies\",\"href\":\"https://fbe.unimelb.edu.au/economics/"
+  },
+  {
+    "url": "https://fbe.unimelb.edu.au/students/bcom/current-students/compulsory-quantitative-requirement",
+    "normalizedUrl": "https://fbe.unimelb.edu.au/students/bcom/current-students/compulsory-quantitative-requirement",
+    "faculty": "fbe",
+    "unitLevel": "faculty",
+    "title": "Compulsory Quantitative Requirement",
+    "depth": 3,
+    "wordCount": 392,
+    "classification": "unique",
+    "topicTags": [
+      "subjects-timetable",
+      "academic-skills"
+    ],
+    "outboundHosts": {
+      "fbe.unimelb.edu.au": 2,
+      "handbook.unimelb.edu.au": 11,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "www.linkedin.com": 2,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 0,
+    "inSectionCount": 4,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Business and Economics\",\"external\":false,\"facultyHref\":\"https://fbe.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About Us\",\"href\":\"https://fbe.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Our Departments\",\"href\":\"https://fbe.unimelb.edu.au/about/our-departments\",\"navItems\":[{\"title\":\"Centre for Actuarial Studies\",\"href\":\"https://fbe.unimelb.edu.au/economics/"
+  },
+  {
+    "url": "https://fbe.unimelb.edu.au/students/bcom/current-students/deans-honours-list-2020",
+    "normalizedUrl": "https://fbe.unimelb.edu.au/students/bcom/current-students/deans-honours-list-2020",
+    "faculty": "fbe",
+    "unitLevel": "faculty",
+    "title": "Dean's Honours List 2024",
+    "depth": 3,
+    "wordCount": 627,
+    "classification": "unique",
+    "topicTags": [
+      "graduation",
+      "course-planning"
+    ],
+    "outboundHosts": {
+      "fbe.unimelb.edu.au": 2,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "www.linkedin.com": 2,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 0,
+    "inSectionCount": 4,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Business and Economics\",\"external\":false,\"facultyHref\":\"https://fbe.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About Us\",\"href\":\"https://fbe.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Our Departments\",\"href\":\"https://fbe.unimelb.edu.au/about/our-departments\",\"navItems\":[{\"title\":\"Centre for Actuarial Studies\",\"href\":\"https://fbe.unimelb.edu.au/economics/"
+  },
+  {
+    "url": "https://fbe.unimelb.edu.au/students/bcom/current-students/intensives",
+    "normalizedUrl": "https://fbe.unimelb.edu.au/students/bcom/current-students/intensives",
+    "faculty": "fbe",
+    "unitLevel": "faculty",
+    "title": "Summer & Winter Intensives",
+    "depth": 3,
+    "wordCount": 458,
+    "classification": "unique",
+    "topicTags": [
+      "subjects-timetable"
+    ],
+    "outboundHosts": {
+      "fbe.unimelb.edu.au": 2,
+      "ask.unimelb.edu.au": 1,
+      "handbook.unimelb.edu.au": 14,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "www.linkedin.com": 2,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 0,
+    "inSectionCount": 4,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Business and Economics\",\"external\":false,\"facultyHref\":\"https://fbe.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About Us\",\"href\":\"https://fbe.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Our Departments\",\"href\":\"https://fbe.unimelb.edu.au/about/our-departments\",\"navItems\":[{\"title\":\"Centre for Actuarial Studies\",\"href\":\"https://fbe.unimelb.edu.au/economics/"
+  },
+  {
+    "url": "https://fbe.unimelb.edu.au/students/bcom/current-students/services",
+    "normalizedUrl": "https://fbe.unimelb.edu.au/students/bcom/current-students/services",
+    "faculty": "fbe",
+    "unitLevel": "faculty",
+    "title": "FBE student services",
+    "depth": 3,
+    "wordCount": 331,
+    "classification": "unique",
+    "topicTags": [],
+    "outboundHosts": {
+      "fbe.unimelb.edu.au": 2,
+      "studentit.unimelb.edu.au": 1,
+      "students.unimelb.edu.au": 1,
+      "library.unimelb.edu.au": 2,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "www.linkedin.com": 2,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 1,
+    "inSectionCount": 7,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Business and Economics\",\"external\":false,\"facultyHref\":\"https://fbe.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About Us\",\"href\":\"https://fbe.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Our Departments\",\"href\":\"https://fbe.unimelb.edu.au/about/our-departments\",\"navItems\":[{\"title\":\"Centre for Actuarial Studies\",\"href\":\"https://fbe.unimelb.edu.au/economics/"
+  },
+  {
+    "url": "https://fbe.unimelb.edu.au/students/bcom/current-students/studies-in-engineering",
+    "normalizedUrl": "https://fbe.unimelb.edu.au/students/bcom/current-students/studies-in-engineering",
+    "faculty": "fbe",
+    "unitLevel": "faculty",
+    "title": "Studies in Engineering",
+    "depth": 3,
+    "wordCount": 614,
+    "classification": "unique",
+    "topicTags": [
+      "course-planning"
+    ],
+    "outboundHosts": {
+      "fbe.unimelb.edu.au": 2,
+      "eng.unimelb.edu.au": 3,
+      "students.unimelb.edu.au": 1,
+      "study.unimelb.edu.au": 1,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "www.linkedin.com": 2,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 1,
+    "inSectionCount": 4,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Business and Economics\",\"external\":false,\"facultyHref\":\"https://fbe.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About Us\",\"href\":\"https://fbe.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Our Departments\",\"href\":\"https://fbe.unimelb.edu.au/about/our-departments\",\"navItems\":[{\"title\":\"Centre for Actuarial Studies\",\"href\":\"https://fbe.unimelb.edu.au/economics/"
+  },
+  {
+    "url": "https://fbe.unimelb.edu.au/students/bcom/first-semester-guide",
+    "normalizedUrl": "https://fbe.unimelb.edu.au/students/bcom/first-semester-guide",
+    "faculty": "fbe",
+    "unitLevel": "faculty",
+    "title": "BCom First Semester Guide",
+    "depth": 3,
+    "wordCount": 2086,
+    "classification": "mixed",
+    "topicTags": [
+      "student-life"
+    ],
+    "outboundHosts": {
+      "fbe.unimelb.edu.au": 12,
+      "students.unimelb.edu.au": 20,
+      "handbook.unimelb.edu.au": 1,
+      "study.unimelb.edu.au": 1,
+      "scholarships.unimelb.edu.au": 1,
+      "services.unimelb.edu.au": 2,
+      "www.unimelb.edu.au": 9,
+      "canvas.lms.unimelb.edu.au": 1,
+      "maps.unimelb.edu.au": 1,
+      "safercommunity.unimelb.edu.au": 1,
+      "umsu.unimelb.edu.au": 2,
+      "studentit.unimelb.edu.au": 1,
+      "my.unilife.unimelb.edu.au": 2,
+      "fbeengagementplanner.unimelb.edu.au": 1,
+      "library.unimelb.edu.au": 1,
+      "academicintegrity.unimelb.edu.au": 1,
+      "sport.unimelb.edu.au": 1,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "www.linkedin.com": 2,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 20,
+    "inSectionCount": 8,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Business and Economics\",\"external\":false,\"facultyHref\":\"https://fbe.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About Us\",\"href\":\"https://fbe.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Our Departments\",\"href\":\"https://fbe.unimelb.edu.au/about/our-departments\",\"navItems\":[{\"title\":\"Centre for Actuarial Studies\",\"href\":\"https://fbe.unimelb.edu.au/economics/"
+  },
+  {
+    "url": "https://fbe.unimelb.edu.au/students/bcom/honours/convenors",
+    "normalizedUrl": "https://fbe.unimelb.edu.au/students/bcom/honours/convenors",
+    "faculty": "fbe",
+    "unitLevel": "faculty",
+    "title": "Honours Convenors",
+    "depth": 3,
+    "wordCount": 301,
+    "classification": "unique",
+    "topicTags": [
+      "course-planning"
+    ],
+    "outboundHosts": {
+      "fbe.unimelb.edu.au": 2,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "www.linkedin.com": 2,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 0,
+    "inSectionCount": 4,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Business and Economics\",\"external\":false,\"facultyHref\":\"https://fbe.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About Us\",\"href\":\"https://fbe.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Our Departments\",\"href\":\"https://fbe.unimelb.edu.au/about/our-departments\",\"navItems\":[{\"title\":\"Centre for Actuarial Studies\",\"href\":\"https://fbe.unimelb.edu.au/economics/"
+  },
+  {
+    "url": "https://fbe.unimelb.edu.au/students/bcom/honours/entry-requirements-and-how-to-apply",
+    "normalizedUrl": "https://fbe.unimelb.edu.au/students/bcom/honours/entry-requirements-and-how-to-apply",
+    "faculty": "fbe",
+    "unitLevel": "faculty",
+    "title": "Honours Entry & Application",
+    "depth": 3,
+    "wordCount": 664,
+    "classification": "unique",
+    "topicTags": [
+      "course-planning",
+      "forms-admin"
+    ],
+    "outboundHosts": {
+      "fbe.unimelb.edu.au": 3,
+      "handbook.unimelb.edu.au": 1,
+      "prod.ss.unimelb.edu.au": 2,
+      "study.unimelb.edu.au": 1,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "www.linkedin.com": 2,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 0,
+    "inSectionCount": 4,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Business and Economics\",\"external\":false,\"facultyHref\":\"https://fbe.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About Us\",\"href\":\"https://fbe.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Our Departments\",\"href\":\"https://fbe.unimelb.edu.au/about/our-departments\",\"navItems\":[{\"title\":\"Centre for Actuarial Studies\",\"href\":\"https://fbe.unimelb.edu.au/economics/"
+  },
+  {
+    "url": "https://fbe.unimelb.edu.au/students/bcom/honours/what-is-honours",
+    "normalizedUrl": "https://fbe.unimelb.edu.au/students/bcom/honours/what-is-honours",
+    "faculty": "fbe",
+    "unitLevel": "faculty",
+    "title": "What is Honours?",
+    "depth": 3,
+    "wordCount": 492,
+    "classification": "unique",
+    "topicTags": [
+      "course-planning"
+    ],
+    "outboundHosts": {
+      "fbe.unimelb.edu.au": 2,
+      "handbook.unimelb.edu.au": 1,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "www.linkedin.com": 2,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 0,
+    "inSectionCount": 4,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Business and Economics\",\"external\":false,\"facultyHref\":\"https://fbe.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About Us\",\"href\":\"https://fbe.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Our Departments\",\"href\":\"https://fbe.unimelb.edu.au/about/our-departments\",\"navItems\":[{\"title\":\"Centre for Actuarial Studies\",\"href\":\"https://fbe.unimelb.edu.au/economics/"
+  },
+  {
+    "url": "https://fbe.unimelb.edu.au/students/phd/scholarships-and-grants/prizes-and-awards",
+    "normalizedUrl": "https://fbe.unimelb.edu.au/students/phd/scholarships-and-grants/prizes-and-awards",
+    "faculty": "fbe",
+    "unitLevel": "faculty",
+    "title": "Graduate researcher prizes and awards",
+    "depth": 3,
+    "wordCount": 873,
+    "classification": "unique",
+    "topicTags": [
+      "research-candidature",
+      "scholarships",
+      "graduation"
+    ],
+    "outboundHosts": {
+      "fbe.unimelb.edu.au": 2,
+      "scholarships.unimelb.edu.au": 2,
+      "gradresearch.unimelb.edu.au": 1,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "www.linkedin.com": 2,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 0,
+    "inSectionCount": 4,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Business and Economics\",\"external\":false,\"facultyHref\":\"https://fbe.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About Us\",\"href\":\"https://fbe.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Our Departments\",\"href\":\"https://fbe.unimelb.edu.au/about/our-departments\",\"navItems\":[{\"title\":\"Centre for Actuarial Studies\",\"href\":\"https://fbe.unimelb.edu.au/economics/"
+  },
+  {
+    "url": "https://fbe.unimelb.edu.au/students/phd/scholarships-and-grants/research-training-and-development",
+    "normalizedUrl": "https://fbe.unimelb.edu.au/students/phd/scholarships-and-grants/research-training-and-development",
+    "faculty": "fbe",
+    "unitLevel": "faculty",
+    "title": "Research training and development scholarships",
+    "depth": 3,
+    "wordCount": 1383,
+    "classification": "unique",
+    "topicTags": [
+      "research-candidature",
+      "scholarships"
+    ],
+    "outboundHosts": {
+      "fbe.unimelb.edu.au": 8,
+      "www.smartraveller.gov.au": 2,
+      "gradresearch.unimelb.edu.au": 3,
+      "forms.office.com": 1,
+      "unimelb.libguides.com": 1,
+      "scholarships.unimelb.edu.au": 4,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "www.linkedin.com": 2,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 0,
+    "inSectionCount": 4,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Business and Economics\",\"external\":false,\"facultyHref\":\"https://fbe.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About Us\",\"href\":\"https://fbe.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Our Departments\",\"href\":\"https://fbe.unimelb.edu.au/about/our-departments\",\"navItems\":[{\"title\":\"Centre for Actuarial Studies\",\"href\":\"https://fbe.unimelb.edu.au/economics/"
+  },
+  {
+    "url": "https://fbe.unimelb.edu.au/students/phd/scholarships-and-grants/stipends-and-fee-remissions",
+    "normalizedUrl": "https://fbe.unimelb.edu.au/students/phd/scholarships-and-grants/stipends-and-fee-remissions",
+    "faculty": "fbe",
+    "unitLevel": "faculty",
+    "title": "Stipends and fee remissions",
+    "depth": 3,
+    "wordCount": 642,
+    "classification": "unique",
+    "topicTags": [
+      "scholarships",
+      "fees-finance",
+      "research-candidature"
+    ],
+    "outboundHosts": {
+      "fbe.unimelb.edu.au": 2,
+      "www.education.gov.au": 1,
+      "gradresearch.unimelb.edu.au": 1,
+      "scholarships.unimelb.edu.au": 3,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "www.linkedin.com": 2,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 0,
+    "inSectionCount": 5,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Business and Economics\",\"external\":false,\"facultyHref\":\"https://fbe.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About Us\",\"href\":\"https://fbe.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Our Departments\",\"href\":\"https://fbe.unimelb.edu.au/about/our-departments\",\"navItems\":[{\"title\":\"Centre for Actuarial Studies\",\"href\":\"https://fbe.unimelb.edu.au/economics/"
+  },
+  {
+    "url": "https://fbe.unimelb.edu.au/students/bcom/current-students/assessment/exam-viewing-faq",
+    "normalizedUrl": "https://fbe.unimelb.edu.au/students/bcom/current-students/assessment/exam-viewing-faq",
+    "faculty": "fbe",
+    "unitLevel": "faculty",
+    "title": "Exam Viewing FAQ",
+    "depth": 4,
+    "wordCount": 735,
+    "classification": "unique",
+    "topicTags": [
+      "exams-results"
+    ],
+    "outboundHosts": {
+      "fbe.unimelb.edu.au": 2,
+      "ask.unimelb.edu.au": 1,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "www.linkedin.com": 2,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 0,
+    "inSectionCount": 5,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Business and Economics\",\"external\":false,\"facultyHref\":\"https://fbe.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About Us\",\"href\":\"https://fbe.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Our Departments\",\"href\":\"https://fbe.unimelb.edu.au/about/our-departments\",\"navItems\":[{\"title\":\"Centre for Actuarial Studies\",\"href\":\"https://fbe.unimelb.edu.au/economics/"
+  },
+  {
+    "url": "https://fbe.unimelb.edu.au/students/bcom/current-students/services/computing-spaces",
+    "normalizedUrl": "https://fbe.unimelb.edu.au/students/bcom/current-students/services/computing-spaces",
+    "faculty": "fbe",
+    "unitLevel": "faculty",
+    "title": "Student Computing Spaces",
+    "depth": 4,
+    "wordCount": 553,
+    "classification": "unique",
+    "topicTags": [
+      "IT-systems"
+    ],
+    "outboundHosts": {
+      "fbe.unimelb.edu.au": 2,
+      "library.unimelb.edu.au": 1,
+      "ask.unimelb.edu.au": 1,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "www.linkedin.com": 2,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 0,
+    "inSectionCount": 5,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Business and Economics\",\"external\":false,\"facultyHref\":\"https://fbe.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About Us\",\"href\":\"https://fbe.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Our Departments\",\"href\":\"https://fbe.unimelb.edu.au/about/our-departments\",\"navItems\":[{\"title\":\"Centre for Actuarial Studies\",\"href\":\"https://fbe.unimelb.edu.au/economics/"
+  },
+  {
+    "url": "https://fbe.unimelb.edu.au/students/bcom/current-students/services/rules",
+    "normalizedUrl": "https://fbe.unimelb.edu.au/students/bcom/current-students/services/rules",
+    "faculty": "fbe",
+    "unitLevel": "faculty",
+    "title": "FBE computing facilities rules",
+    "depth": 4,
+    "wordCount": 493,
+    "classification": "unique",
+    "topicTags": [
+      "IT-systems"
+    ],
+    "outboundHosts": {
+      "fbe.unimelb.edu.au": 3,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "www.linkedin.com": 2,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 0,
+    "inSectionCount": 5,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Business and Economics\",\"external\":false,\"facultyHref\":\"https://fbe.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About Us\",\"href\":\"https://fbe.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Our Departments\",\"href\":\"https://fbe.unimelb.edu.au/about/our-departments\",\"navItems\":[{\"title\":\"Centre for Actuarial Studies\",\"href\":\"https://fbe.unimelb.edu.au/economics/"
+  },
+  {
+    "url": "https://fbe.unimelb.edu.au/students/bcom/current-students/services/virtual-lab",
+    "normalizedUrl": "https://fbe.unimelb.edu.au/students/bcom/current-students/services/virtual-lab",
+    "faculty": "fbe",
+    "unitLevel": "faculty",
+    "title": "FBE virtual lab",
+    "depth": 4,
+    "wordCount": 323,
+    "classification": "unique",
+    "topicTags": [
+      "IT-systems"
+    ],
+    "outboundHosts": {
+      "fbe.unimelb.edu.au": 2,
+      "students.unimelb.edu.au": 1,
+      "myuniapps.unimelb.edu.au": 1,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "www.linkedin.com": 2,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 1,
+    "inSectionCount": 5,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Business and Economics\",\"external\":false,\"facultyHref\":\"https://fbe.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About Us\",\"href\":\"https://fbe.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Our Departments\",\"href\":\"https://fbe.unimelb.edu.au/about/our-departments\",\"navItems\":[{\"title\":\"Centre for Actuarial Studies\",\"href\":\"https://fbe.unimelb.edu.au/economics/"
+  },
+  {
+    "url": "https://fbe.unimelb.edu.au/students/bcom/first-semester-guide/week-1/connect-with-your-peer-mentor",
+    "normalizedUrl": "https://fbe.unimelb.edu.au/students/bcom/first-semester-guide/week-1/connect-with-your-peer-mentor",
+    "faculty": "fbe",
+    "unitLevel": "faculty",
+    "title": "Sign In (SSO redirect)",
+    "depth": 4,
+    "wordCount": 0,
+    "classification": "redirect",
+    "topicTags": [
+      "IT-systems",
+      "student-life",
+      "careers-employability",
+      "orientation"
+    ],
+    "outboundHosts": {
+      "sso.unimelb.edu.au": 1
+    },
+    "hubLinks": 0,
+    "inSectionCount": 0,
+    "excerpt": "Redirects to University SSO login then studentlifeapp (Salesforce-backed authenticated student-life app: peer mentoring / engagement planner). Auth-gated; recorded outbound-only.",
+    "authGated": true
+  },
+  {
+    "url": "https://fbe.unimelb.edu.au/students/bcom/first-semester-guide/week-2-3/fbe-engagement-planner",
+    "normalizedUrl": "https://fbe.unimelb.edu.au/students/bcom/first-semester-guide/week-2-3/fbe-engagement-planner",
+    "faculty": "fbe",
+    "unitLevel": "faculty",
+    "title": "Sign In (SSO redirect)",
+    "depth": 4,
+    "wordCount": 0,
+    "classification": "redirect",
+    "topicTags": [
+      "IT-systems",
+      "student-life",
+      "careers-employability"
+    ],
+    "outboundHosts": {
+      "sso.unimelb.edu.au": 1
+    },
+    "hubLinks": 0,
+    "inSectionCount": 0,
+    "excerpt": "Redirects to University SSO login then studentlifeapp (Salesforce-backed authenticated student-life app: peer mentoring / engagement planner). Auth-gated; recorded outbound-only.",
+    "authGated": true
+  },
+  {
+    "url": "https://fbe.unimelb.edu.au/students/phd/scholarships-and-grants/stipends-and-fee-remissions/fbe-doctoral-program-stipend-and-tuition-fee-remission-scholarships",
+    "normalizedUrl": "https://fbe.unimelb.edu.au/students/phd/scholarships-and-grants/stipends-and-fee-remissions/fbe-doctoral-program-stipend-and-tuition-fee-remission-scholarships",
+    "faculty": "fbe",
+    "unitLevel": "faculty",
+    "title": "FBE Doctoral Program Stipend and Tuition (Fee Remission) Scholarships",
+    "depth": 4,
+    "wordCount": 732,
+    "classification": "mixed",
+    "topicTags": [
+      "research-candidature",
+      "scholarships",
+      "fees-finance"
+    ],
+    "outboundHosts": {
+      "fbe.unimelb.edu.au": 2,
+      "students.unimelb.edu.au": 5,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "www.linkedin.com": 2,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 5,
+    "inSectionCount": 5,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Business and Economics\",\"external\":false,\"facultyHref\":\"https://fbe.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About Us\",\"href\":\"https://fbe.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Our Departments\",\"href\":\"https://fbe.unimelb.edu.au/about/our-departments\",\"navItems\":[{\"title\":\"Centre for Actuarial Studies\",\"href\":\"https://fbe.unimelb.edu.au/economics/"
+  }
+]

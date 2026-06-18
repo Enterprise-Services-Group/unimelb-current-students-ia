@@ -1,0 +1,389 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Current Student Experience — Journey Map</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Source+Sans+3:wght@400;600;700&family=Source+Code+Pro:wght@500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --navy:#000F46; --navy2:#000B34; --cyan:#46C8F0; --cyanh:#2F95B7;
+    --ink:#1c1c28; --muted:#5b5b6b; --line:#DDDDE7; --light:#F4F4F4; --tint:#F3F3F6;
+    --pain:#C0392B; --pain-bg:#FBEDEB; --opp:#0E8FB3; --opp-bg:#E9FAFF; --sol:#1E8E5A; --sol-bg:#EAF7F0;
+    --pos:#2E9E6B; --neu:#9aa0b4;
+    --serif:'Fraunces',Georgia,serif; --sans:'Source Sans 3',system-ui,sans-serif; --mono:'Source Code Pro',monospace;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:#fff;color:var(--ink);font-family:var(--sans);font-size:14px;line-height:1.45}
+  /* ---- Brand header ---- */
+  header.brand{background:var(--navy);color:#fff;padding:22px 34px 26px;display:flex;flex-direction:column;gap:14px}
+  .brand-top{display:flex;align-items:center;gap:18px}
+  .brand-top img{height:50px;filter:brightness(0) invert(1)}
+  .brand h1{font-family:var(--serif);font-weight:600;font-size:30px;letter-spacing:-.01em;margin:0;line-height:1.05}
+  .brand .eyebrow{font-family:var(--mono);color:var(--cyan);font-size:11px;letter-spacing:.18em;text-transform:uppercase;margin:0 0 3px}
+  .brand p.sub{margin:0;color:#c3c8e6;font-size:14.5px;max-width:70ch}
+  .persona{display:flex;gap:14px;align-items:center;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.14);border-radius:8px;padding:11px 16px;align-self:flex-start}
+  .persona .av{width:40px;height:40px;border-radius:50%;background:var(--cyan);color:var(--navy);font-family:var(--serif);font-weight:700;display:flex;align-items:center;justify-content:center;font-size:18px}
+  .persona b{font-size:15px}.persona span{color:#aab0d4;font-size:13px}
+  /* ---- Legend / edit note ---- */
+  .meta-bar{display:flex;flex-wrap:wrap;gap:18px 26px;align-items:center;padding:12px 34px;border-bottom:1px solid var(--line);background:var(--tint);font-size:12.5px;color:var(--muted)}
+  .legend{display:flex;gap:16px;flex-wrap:wrap}
+  .legend span{display:inline-flex;align-items:center;gap:6px}
+  .swatch{width:12px;height:12px;border-radius:3px;display:inline-block}
+  .edit-note{margin-left:auto;color:var(--navy2)}
+  .edit-note code{font-family:var(--mono);background:#fff;border:1px solid var(--line);padding:1px 6px;border-radius:4px;font-size:11.5px}
+  /* ---- Map ---- */
+  .scroll{overflow-x:auto;padding:8px 34px 40px}
+  #map{display:grid;min-width:1180px;border:1px solid var(--line);border-radius:10px;overflow:hidden;background:#fff}
+  .cell{border-right:1px solid var(--line);border-bottom:1px solid var(--line);padding:12px 13px}
+  .cell:last-child{border-right:0}
+  .rowlabel{position:sticky;left:0;z-index:2;background:#fff;border-right:2px solid var(--navy);font-weight:700;color:var(--navy2);font-size:12.5px;display:flex;align-items:center}
+  .rowlabel .ico{font-family:var(--mono);color:var(--cyanh);margin-right:8px;font-size:11px}
+  /* stage header */
+  .stagehead{background:var(--navy);color:#fff;border-right:1px solid #1b2a6b}
+  .stagehead .n{font-family:var(--mono);color:var(--cyan);font-size:11px}
+  .stagehead h3{font-family:var(--serif);font-weight:600;font-size:16px;margin:3px 0 0;line-height:1.12}
+  .corner{background:var(--navy2);border-right:2px solid var(--cyan)}
+  /* emotion row */
+  .emorow{position:relative;height:118px;background:linear-gradient(180deg,#fff,#fafbff)}
+  .emolabel{background:#fff}
+  svg.emo{position:absolute;inset:0;width:100%;height:100%}
+  .feel{position:absolute;transform:translate(-50%,0);text-align:center;font-size:11.5px;color:var(--muted);width:120px;pointer-events:none}
+  .feel b{display:block;color:var(--navy2);font-size:12px}
+  /* content lists */
+  ul.items{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:7px}
+  ul.items li{font-size:12.7px;line-height:1.35;padding-left:11px;position:relative;color:#23232f}
+  ul.items li::before{content:"";position:absolute;left:0;top:6px;width:5px;height:5px;border-radius:50%;background:var(--neu)}
+  .lane-action li::before{background:var(--navy)}
+  .lane-touch li::before{background:var(--cyanh)}
+  .lane-system li::before{background:#8a90a6}
+  .lane-system li{font-family:var(--mono);font-size:11.5px;color:#3a3f52}
+  .lane-pain{background:var(--pain-bg)}
+  .lane-pain li::before{background:var(--pain)}
+  .lane-pain li{color:#5a1f19}
+  .lane-opp{background:var(--opp-bg)}
+  .lane-opp li::before{background:var(--opp)}
+  .lane-opp li{color:#0b4a5c}
+  .lane-opp li{font-style:italic}
+  .lane-sol{background:var(--sol-bg)}
+  .lane-sol li::before{background:var(--sol)}
+  .lane-sol li{color:#13503a}
+  footer{padding:18px 34px 30px;color:var(--muted);font-size:12px;border-top:1px solid var(--line)}
+  footer .aoc{font-style:italic;margin-top:8px;max-width:80ch}
+  /* clickable items + modal */
+  ul.items li.hasmodal{cursor:pointer}
+  ul.items li.hasmodal:hover{text-decoration:underline}
+  li .more{display:inline-block;margin-left:5px;min-width:14px;height:14px;line-height:13px;text-align:center;border-radius:50%;background:rgba(0,15,70,.10);color:var(--navy);font-size:11px;font-weight:700;vertical-align:1px}
+  .lane-pain li .more{background:rgba(192,57,43,.14);color:var(--pain)}
+  .lane-opp li .more{background:rgba(14,143,179,.18);color:var(--opp)}
+  .lane-system li .more{background:rgba(0,15,70,.10);color:var(--navy)}
+  .moverlay{position:fixed;inset:0;background:rgba(0,11,52,.55);display:flex;align-items:center;justify-content:center;padding:24px;z-index:50}
+  .moverlay[hidden]{display:none}
+  .mcard{background:#fff;max-width:560px;width:100%;max-height:84vh;overflow:auto;border-radius:12px;box-shadow:0 24px 64px rgba(0,11,52,.4);position:relative;padding:24px 28px 26px;border-top:6px solid var(--cyan)}
+  .mclose{position:absolute;top:9px;right:14px;border:0;background:transparent;font-size:25px;line-height:1;color:var(--muted);cursor:pointer}
+  .mclose:hover{color:var(--navy)}
+  .mkicker{font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--cyanh)}
+  .mcard h2{font-family:var(--serif);color:var(--navy);font-size:19px;margin:4px 0 12px;line-height:1.18;font-weight:600}
+  #mbody p{font-size:14px;color:#23232f;margin:0 0 10px;line-height:1.5}
+  #mbody .mnote{color:var(--muted);font-size:12.5px}
+  .murls{margin-top:6px;border-top:1px solid var(--line);padding-top:12px}
+  .murls .mlbl{font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--navy2);margin-bottom:7px}
+  .murls ul{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:6px}
+  .murls li{font-family:var(--mono);font-size:12px;word-break:break-word}
+  .murls a{color:var(--cyanh);text-decoration:none}
+  .murls a:hover{text-decoration:underline}
+  @media print{.scroll{overflow:visible}#map{min-width:0}}
+</style>
+</head>
+<body>
+<header class="brand">
+  <div class="brand-top">
+    <img src="logo.svg" alt="University of Melbourne">
+    <div>
+      <p class="eyebrow">Current Students · Service Design</p>
+      <h1>The current student experience</h1>
+    </div>
+  </div>
+  <p class="sub">A journey map of how a current student moves through the University's fragmented current-students web estate — grounded in a full crawl of 1,161 pages across the hub, 9 faculties and 3 schools. It shows where the hub serves students well, and where the seams break.</p>
+  <div class="persona" id="persona"></div>
+</header>
+
+<div class="meta-bar">
+  <div class="legend">
+    <span><i class="swatch" style="background:var(--navy)"></i> Actions</span>
+    <span><i class="swatch" style="background:var(--cyanh)"></i> Touchpoints</span>
+    <span><i class="swatch" style="background:#8a90a6"></i> Systems</span>
+    <span><i class="swatch" style="background:var(--pain)"></i> Pain points</span>
+    <span><i class="swatch" style="background:var(--opp)"></i> Opportunities (HMW)</span>
+    <span><i class="swatch" style="background:var(--sol)"></i> Solution examples</span>
+  </div>
+  <div class="edit-note"><b style="color:var(--cyanh)">Click</b> any pain point, opportunity or system <b>+</b> for detail &nbsp;·&nbsp; Editable in code — the map is generated from the <code>JOURNEY</code> object.</div>
+</div>
+
+<div class="scroll"><div id="map"></div></div>
+
+<div id="modal" class="moverlay" hidden>
+  <div class="mcard" role="dialog" aria-modal="true" aria-labelledby="mtitle">
+    <button class="mclose" aria-label="Close">&times;</button>
+    <div class="mkicker" id="mkicker"></div>
+    <h2 id="mtitle"></h2>
+    <div id="mbody"></div>
+  </div>
+</div>
+
+<footer>
+  <div>Illustrative service-design journey map. Evidence base: <code style="font-family:var(--mono)">unimelb-current-students-ia/</code> (crawl corpus, topic deep-dives, recommendations). The "current" experience shown is the fragmented one the audit found; the Opportunities row is the hub-and-spoke target state.</div>
+  <div class="aoc">The University of Melbourne acknowledges the Traditional Owners of the unceded land on which we work, learn and live, and pays respect to their Elders, past and present, and to Indigenous Australians today.</div>
+</footer>
+
+<script>
+/* =========================================================================
+   EDIT EVERYTHING BELOW. The map is fully generated from this object.
+   - persona:  who the journey is for (add/swap freely)
+   - lanes:    the rows down the left (key → which field, style → colour)
+   - stages:   the columns across the top. Each stage has the lane fields
+               plus `emotion` (-2..+2) and `feeling` (short label on the curve).
+   ========================================================================= */
+const JOURNEY = {
+  persona: {
+    initials: "M",
+    name: "Mia — 2nd-year undergraduate",
+    detail: "Single degree + breadth · studies on campus · digitally confident, time-poor"
+  },
+
+  lanes: [
+    { key: "doing",       label: "What the student does", icon: "01", style: "action" },
+    { key: "touchpoints", label: "Where they go",         icon: "02", style: "touch"  },
+    { key: "systems",     label: "Systems & URLs",        icon: "03", style: "system" },
+    { key: "pains",       label: "Pain points",           icon: "!",  style: "pain"   },
+    { key: "hmw",         label: "Opportunities — how might we…", icon: "?", style: "opp" },
+    { key: "solutions",   label: "Solution examples",     icon: "→",  style: "sol"    },
+  ],
+
+  stages: [
+    {
+      name: "Orientate & set up",
+      emotion: 0,  feeling: "Finding my feet",
+      doing: ["Accept offer, enrol for the first time", "Work out what to use for what"],
+      touchpoints: ["Central hub", "Faculty 'current students' page", "my.unimelb"],
+      systems: ["students.unimelb.edu.au", "my.unimelb", "faculty site (1 of 6 URL patterns)"],
+      pains: ["No map of 'which system handles what'", "Faculty orientation nested oddly (FEIT buries its whole estate under /orientation)"],
+      hmw: ["How might we make it obvious — on any page — where to go for each need?", "How might we give every new student one consistent front door?"],
+      solutions: ["A 'Where do I go for X?' component on every page", "One standard /students URL across faculties"]
+    },
+    {
+      name: "Plan my course",
+      emotion: -1, feeling: "Where do I look?",
+      doing: ["Choose subjects & breadth", "Map my degree to graduation"],
+      touchpoints: ["Hub: My Course Planner + Handbook", "Faculty: sample plans, major guides", "School site (if MBS / Biomedical)"],
+      systems: ["My Course Planner", "handbook.unimelb.edu.au", "faculty course-planning pages"],
+      pains: ["Planning split across the hub tool and faculty plans, not connected", "School-level plans (MBS + Biomedical = 46% of all course-planning) sit on separate subdomains", "FEIT even re-hosts the hub's planner"],
+      hmw: ["How might we let a student plan their whole degree without hopping between hub and faculty?"],
+      solutions: ["Hub gateway linking every faculty's plans", "Faculties link the planner, not re-host it"]
+    },
+    {
+      name: "Manage my studies",
+      emotion: 1,  feeling: "This bit works",
+      doing: ["Build my timetable", "Check results, apply for special consideration", "Pay fees, re-enrol"],
+      touchpoints: ["Hub owns it: MyTimetable, results, special con, fees", "Faculty: restated versions of the same"],
+      systems: ["MyTimetable", "my.unimelb", "hub course-admin"],
+      pains: ["Faculties restate transactional admin the hub already owns (227 pages — only 6 sit on the hub)", "The same task explained two different ways"],
+      hmw: ["How might we make sure each transactional task is explained once, in one place?"],
+      solutions: ["Hub is the single source of truth", "Faculties link, not restate — retire the duplicate layer"]
+    },
+    {
+      name: "Get experience (WIL)",
+      emotion: -2, feeling: "Is this even here?",
+      doing: ["Find placements / internships", "Check eligibility & how to apply"],
+      touchpoints: ["Faculty placement pages — the only source", "No central WIL page exists"],
+      systems: ["Faculty WIL pages (SONIA, Formstack…)", "MDHS clinical compliance"],
+      pains: ["The hub has ZERO placements content — no front door", "207 WIL pages, all faculty-owned, undiscoverable from the centre", "You must already know your faculty's URL"],
+      hmw: ["How might we help a student discover and compare WIL opportunities from the centre?"],
+      solutions: ["New hub gateway: /your-course/placements-and-wil", "Standard faculty pattern: Overview → Eligibility → Apply → Contacts"]
+    },
+    {
+      name: "Build my career",
+      emotion: -1, feeling: "Two worlds, no bridge",
+      doing: ["Use career tools, book advice", "Join mentoring / industry programs"],
+      touchpoints: ["Hub: Careers Online, Smart Resume, Checklist", "Faculty: mentoring, internships, pathways", "MBS runs its own 'Career Elevation'"],
+      systems: ["hub careers platform", "faculty careers pages"],
+      pains: ["The most-duplicated service: 8/9 faculties + MBS run parallel careers", "ZERO cross-linking hub↔faculty — use one, never find the other", "7 near-identical 'Employability in X' pages"],
+      hmw: ["How might we connect the hub's career tools with each faculty's programs so students find both?"],
+      solutions: ["Mandatory hub↔faculty careers cross-linking (highest-value, lowest-cost fix)", "Hub gateway: /careers/faculty-career-programs"]
+    },
+    {
+      name: "Get support & belong",
+      emotion: 0,  feeling: "Scattered",
+      doing: ["Find wellbeing / financial / equity help", "Join clubs, find my people"],
+      touchpoints: ["Hub: Stop 1, CAPS, SEDS, scholarships", "Faculty: local wellbeing landings, clubs, contacts"],
+      systems: ["Stop 1", "hub student-support", "faculty contact/wellbeing pages"],
+      pains: ["Diffuse — half of faculty 'contacts/support' restates hub services", "6 near-duplicate 'Wellbeing + Ambassadors' landings", "Equity content parallel-reinvents the central service"],
+      hmw: ["How might we make support easy to find without every faculty rebuilding it?"],
+      solutions: ["Hub owns wellbeing/equity; faculties keep only local contacts", "Collapse the duplicate landings into one"]
+    },
+    {
+      name: "Finish & graduate",
+      emotion: 0,  feeling: "Where's the finish line?",
+      doing: ["Apply to graduate", "(HDR) hit candidature milestones"],
+      touchpoints: ["Hub: results, academic statements", "Faculty / School: honours, HDR milestones"],
+      systems: ["my.unimelb", "faculty research pages"],
+      pains: ["'Graduation' content is mostly HDR lifecycle — the apply-to-graduate path is thin here", "The candidature spine is restated per faculty around one central system"],
+      hmw: ["How might we give every student a clear path to completion and graduation?"],
+      solutions: ["A clear hub apply-to-graduate path", "Hub-own the candidature lifecycle; faculties keep discipline milestones"]
+    }
+  ],
+
+  /* Modal detail, keyed by the EXACT item text above.
+     Pain points & opportunities get a `body` expansion; systems get example `urls`.
+     Items with no entry here simply aren't clickable. Add/edit freely. */
+  details: {
+    /* ---- PAIN POINTS ---- */
+    "No map of 'which system handles what'": { body: "No single page tells students which of the hub, their faculty site, my.unimelb, the Handbook or a school site owns a given task — so they learn the split by trial and error." },
+    "Faculty orientation nested oddly (FEIT buries its whole estate under /orientation)": { body: "Engineering & IT nests its entire current-students estate under /orientation paths, so 71% of all 'orientation'-tagged pages are FEIT — an information-architecture artifact, not real orientation volume." },
+    "Planning split across the hub tool and faculty plans, not connected": { body: "The hub holds the planning tools (My Course Planner, the Handbook) while faculties hold the degree-specific sample plans — and the two don't link cleanly, so students bounce between them." },
+    "School-level plans (MBS + Biomedical = 46% of all course-planning) sit on separate subdomains": { body: "Of 207 course-planning pages, 46% live on two school subdomains (Melbourne Business School and Biomedical Sciences) beneath their faculties — a level deeper than the faculty site." },
+    "FEIT even re-hosts the hub's planner": { body: "FEIT's top two course-planning pages are literally 'My Course Planner' and 'Faculty Course Planning Resources' — a second copy of the central tool to keep in sync." },
+    "Faculties restate transactional admin the hub already owns (227 pages — only 6 sit on the hub)": { body: "Across enrolment, exams, special consideration, fees and library, 227 pages exist but only 6 are on the hub domain — the rest are faculty restatements. The single clearest consolidation target." },
+    "The same task explained two different ways": { body: "Because faculties restate hub processes, a student can find the same task (special consideration, leave of absence) described differently on a faculty page and on the hub, with no signal which is authoritative." },
+    "The hub has ZERO placements content — no front door": { body: "Work-integrated learning is 207 pages, entirely faculty-owned; the hub has no placements/WIL page at all, so WIL is invisible from the centre." },
+    "207 WIL pages, all faculty-owned, undiscoverable from the centre": { body: "The WIL estate is large and discipline-specific (clinical, teaching, legal, engineering) and legitimately faculty-owned — but with no central discovery path it can't be found or compared centrally." },
+    "You must already know your faculty's URL": { body: "With six faculty URL conventions and no central WIL gateway, finding placement information depends on already knowing where your faculty puts it." },
+    "The most-duplicated service: 8/9 faculties + MBS run parallel careers": { body: "Careers is the most-duplicated service in the estate — eight of nine faculties plus Melbourne Business School run their own mentoring, internships and pathways alongside the hub's platform." },
+    "ZERO cross-linking hub↔faculty — use one, never find the other": { body: "The hub's career tools and faculty career programs don't cross-link in either direction, so a student using one may never discover the other." },
+    "7 near-identical 'Employability in X' pages": { body: "Seven faculties run near-identical 'Employability in [discipline]' pages — prime candidates to template or consolidate." },
+    "Diffuse — half of faculty 'contacts/support' restates hub services": { body: "Contacts & support is the estate's most diffuse topic; roughly half of faculty pages restate hub-owned wellbeing, equity and careers services rather than adding local value." },
+    "6 near-duplicate 'Wellbeing + Ambassadors' landings": { body: "Six near-duplicate 'Wellbeing + Ambassadors' landing pages exist across faculties — they should collapse into one hub page with local contacts." },
+    "Equity content parallel-reinvents the central service": { body: "Faculty inclusion/equity pages reinvent the central service (Murrup Barak, Student Equity and Disability Support) rather than pointing to it." },
+    "'Graduation' content is mostly HDR lifecycle — the apply-to-graduate path is thin here": { body: "The 'graduation' tag is a misnomer — it mostly captures HDR candidature lifecycle and honours, not completion. The actual apply-to-graduate path is thin and hub-owned." },
+    "The candidature spine is restated per faculty around one central system": { body: "Research candidature (241 pages) is largely legitimate, but the lifecycle spine is restated per faculty around one central Candidature Management System." },
+
+    /* ---- OPPORTUNITIES (How might we…) ---- */
+    "How might we make it obvious — on any page — where to go for each need?": { body: "A consistent 'Where do I go for X?' component on every page, mapping common needs to the right system — the highest-impact, lowest-cost navigation fix in the audit." },
+    "How might we give every new student one consistent front door?": { body: "One standard URL pattern (faculty.unimelb.edu.au/students) plus a shared orientation entry would replace today's six conventions and the guesswork of finding your faculty's section." },
+    "How might we let a student plan their whole degree without hopping between hub and faculty?": { body: "A hub course-planning gateway linking every faculty's sample plans — with faculties linking the planner, not re-hosting it — lets a student plan in one flow." },
+    "How might we make sure each transactional task is explained once, in one place?": { body: "Make the hub the single source of truth for enrolment, fees, exams and special consideration, with faculties linking rather than restating, and the duplicate 227-page layer disappears." },
+    "How might we help a student discover and compare WIL opportunities from the centre?": { body: "A thin hub gateway (/your-course/placements-and-wil) that explains WIL and links to every faculty program gives the largest employability content body its first central front door — without moving faculty-owned operations." },
+    "How might we connect the hub's career tools with each faculty's programs so students find both?": { body: "Mandatory two-way cross-linking between the hub careers platform and every faculty's programs — plus a hub gateway listing them — closes the estate's clearest failure at near-zero cost." },
+    "How might we make support easy to find without every faculty rebuilding it?": { body: "If the hub owns wellbeing, financial and equity support and faculties keep only local contacts, the diffuse, duplicated support layer collapses into one findable place." },
+    "How might we give every student a clear path to completion and graduation?": { body: "A clear hub apply-to-graduate path, with faculties keeping only discipline-specific milestones, gives every student an unambiguous route to completion that the current HDR-skewed content lacks." },
+
+    /* ---- SYSTEMS & URLs (example URLs) ---- */
+    "students.unimelb.edu.au": { note: "The central current-students hub — the unification target.", urls: ["https://students.unimelb.edu.au/", "https://students.unimelb.edu.au/your-course", "https://students.unimelb.edu.au/student-support", "https://students.unimelb.edu.au/careers", "https://students.unimelb.edu.au/student-life"] },
+    "my.unimelb": { note: "Authenticated student portal — recorded as a gateway, not crawled.", urls: ["https://my.unimelb.edu.au/"] },
+    "faculty site (1 of 6 URL patterns)": { note: "Six different URL conventions for one 'current students' concept (plus 3 separate school sites).", urls: ["https://arts.unimelb.edu.au/students", "https://fbe.unimelb.edu.au/students", "https://msd.unimelb.edu.au/current-students", "https://eng.unimelb.edu.au/students", "https://law.unimelb.edu.au/students", "https://science.unimelb.edu.au/students", "https://finearts-music.unimelb.edu.au/current-students", "https://education.unimelb.edu.au/study/current-students", "https://mdhs.unimelb.edu.au/study/current-students"] },
+    "My Course Planner": { note: "The central planning tool — some faculties re-host it rather than link.", urls: ["https://students.unimelb.edu.au/your-course/manage-my-course/plan-your-course-and-subjects", "https://eng.unimelb.edu.au/students"] },
+    "handbook.unimelb.edu.au": { note: "Authoritative subject and course rules.", urls: ["https://handbook.unimelb.edu.au/"] },
+    "faculty course-planning pages": { note: "Degree-specific sample plans — 46% on the MBS + Biomedical subdomains.", urls: ["https://mbs.unimelb.edu.au/students/course-planning", "https://science.unimelb.edu.au/students", "https://law.unimelb.edu.au/students/jd/studies/course-planning", "https://biomedicalsciences.unimelb.edu.au/study/current-student-information"] },
+    "MyTimetable": { note: "The central timetabling tool.", urls: ["https://my-timetable.unimelb.edu.au/", "https://students.unimelb.edu.au/your-course/manage-my-course/timetable"] },
+    "hub course-admin": { note: "Enrolment, results, special consideration, fees — hub-definitive.", urls: ["https://students.unimelb.edu.au/your-course", "https://students.unimelb.edu.au/your-course/manage-my-course", "https://students.unimelb.edu.au/your-course/exams-assessments-and-results"] },
+    "Faculty WIL pages (SONIA, Formstack…)": { note: "Placement platforms (SONIA, Formstack) are faculty-run; the hub has none.", urls: ["https://law.unimelb.edu.au/students/jd/enrichment/mls-clinics", "https://education.unimelb.edu.au/study/current-students", "https://msd.unimelb.edu.au/current-students/subject-information/internships-vocational-placements"] },
+    "MDHS clinical compliance": { note: "Clinical-placement compliance — immunisations, AHPRA, fitness to practice (96 pages).", urls: ["https://mdhs.unimelb.edu.au/study/current-students/student-placements", "https://mdhs.unimelb.edu.au/study/current-students/student-fitness-to-practice"] },
+    "hub careers platform": { note: "Career Checklist, Careers Online, Smart Resume.", urls: ["https://students.unimelb.edu.au/careers", "https://students.unimelb.edu.au/careers/online-platforms", "https://students.unimelb.edu.au/careers/prepare-for-your-career"] },
+    "faculty careers pages": { note: "8/9 faculties + MBS run parallel careers (MBS 'Career Elevation').", urls: ["https://eng.unimelb.edu.au/students", "https://arts.unimelb.edu.au/students", "https://mbs.unimelb.edu.au/career"] },
+    "Stop 1": { note: "The University's central student-services front line.", urls: ["https://students.unimelb.edu.au/student-support", "https://ask.unimelb.edu.au/"] },
+    "hub student-support": { note: "Health, CAPS counselling, SEDS disability, financial aid, scholarships.", urls: ["https://students.unimelb.edu.au/student-support", "https://students.unimelb.edu.au/student-support/health-and-wellbeing"] },
+    "faculty contact/wellbeing pages": { note: "Local landings that often restate hub services.", urls: ["https://arts.unimelb.edu.au/students", "https://finearts-music.unimelb.edu.au/current-students"] },
+    "faculty research pages": { note: "HDR candidature milestones live per faculty.", urls: ["https://law.unimelb.edu.au/students/grd", "https://science.unimelb.edu.au/students"] }
+  }
+};
+
+/* ---------- renderer (generic — no need to edit below) ---------- */
+const EMO_MIN=-2, EMO_MAX=2;
+const el=(t,c,h)=>{const e=document.createElement(t);if(c)e.className=c;if(h!=null)e.innerHTML=h;return e;};
+const esc=s=>String(s).replace(/[&<>]/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[m]));
+const MODAL_LANES={pains:1,hmw:1,systems:1};
+const KICK={pains:"Pain point",hmw:"Opportunity — how might we",systems:"System & example URLs"};
+let MODALS=[];
+
+function render(){
+  const J=JOURNEY, N=J.stages.length, map=document.getElementById('map');
+  map.style.gridTemplateColumns=`200px repeat(${N}, minmax(210px, 1fr))`;
+  map.innerHTML=""; MODALS=[];
+
+  // persona chip
+  document.getElementById('persona').innerHTML=
+    `<div class="av">${esc(J.persona.initials||J.persona.name[0])}</div>`+
+    `<div><b>${esc(J.persona.name)}</b><br><span>${esc(J.persona.detail||'')}</span></div>`;
+
+  // row 1: corner + stage headers
+  map.appendChild(el('div','cell corner rowlabel','Journey stage'));
+  J.stages.forEach((s,i)=>map.appendChild(el('div','cell stagehead',
+    `<span class="n">${String(i+1).padStart(2,'0')}</span><h3>${esc(s.name)}</h3>`)));
+
+  // row 2: emotion curve (label + one spanning cell)
+  map.appendChild(el('div','cell rowlabel emolabel','<span class="ico">~</span>Experience'));
+  const emo=el('div','cell emorow'); emo.style.gridColumn=`2 / ${N+2}`; emo.id='emocell';
+  map.appendChild(emo);
+
+  // lane rows
+  J.lanes.forEach(L=>{
+    map.appendChild(el('div',`cell rowlabel`,`<span class="ico">${esc(L.icon||'')}</span>${esc(L.label)}`));
+    J.stages.forEach(s=>{
+      const items=(s[L.key]||[]).map(x=>{
+        const txt=typeof x==='string'?x:(x.t||'');
+        const d=MODAL_LANES[L.key]?(J.details||{})[txt]:null;
+        if(d){const i=MODALS.push({title:txt,kicker:KICK[L.key],body:d.body,note:d.note,urls:d.urls})-1;
+          return `<li class="hasmodal" data-idx="${i}">${esc(txt)}<span class="more">+</span></li>`;}
+        return `<li>${esc(txt)}</li>`;
+      }).join('');
+      map.appendChild(el('div',`cell lane-${L.style}`,`<ul class="items">${items}</ul>`));
+    });
+  });
+
+  drawEmotion();
+}
+
+function drawEmotion(){
+  const J=JOURNEY, N=J.stages.length, cell=document.getElementById('emocell');
+  if(!cell) return;
+  const w=cell.clientWidth, h=cell.clientHeight, padY=26;
+  const x=i=>(i+0.5)/N*w;
+  const y=v=>{const t=(v-EMO_MIN)/(EMO_MAX-EMO_MIN); return h-padY - t*(h-2*padY);};
+  const col=v=>v>0?'var(--pos)':(v<0?'var(--pain)':'#5b6480');
+  const pts=J.stages.map((s,i)=>[x(i),y(s.emotion||0)]);
+  const path=pts.map((p,i)=>(i?'L':'M')+p[0].toFixed(1)+' '+p[1].toFixed(1)).join(' ');
+  const zero=y(0).toFixed(1);
+  let svg=`<svg class="emo" viewBox="0 0 ${w} ${h}" preserveAspectRatio="none">
+    <line x1="0" y1="${zero}" x2="${w}" y2="${zero}" stroke="#d7dbe8" stroke-width="1" stroke-dasharray="4 4"/>
+    <path d="${path}" fill="none" stroke="var(--cyanh)" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>`;
+  pts.forEach((p,i)=>{svg+=`<circle cx="${p[0].toFixed(1)}" cy="${p[1].toFixed(1)}" r="6" fill="#fff" stroke="${col(J.stages[i].emotion)}" stroke-width="3"/>`;});
+  svg+=`</svg>`;
+  // feeling labels
+  let labels='';
+  J.stages.forEach((s,i)=>{
+    const yy=y(s.emotion||0); const below=(s.emotion||0)>0;
+    const top = below ? (yy+12) : (yy-40);
+    labels+=`<div class="feel" style="left:${x(i)}px;top:${Math.max(2,top)}px"><b>${esc(s.feeling||'')}</b></div>`;
+  });
+  cell.innerHTML=svg+labels;
+}
+
+render();
+let rt; window.addEventListener('resize',()=>{clearTimeout(rt);rt=setTimeout(drawEmotion,120);});
+
+/* ---- modal (detail for pain points, opportunities & systems) ---- */
+function openModalIdx(i){
+  const m=MODALS[i]; if(!m) return;
+  document.getElementById('mkicker').textContent=m.kicker||'';
+  document.getElementById('mtitle').textContent=m.title||'';
+  let html=''; if(m.body) html+=`<p>${esc(m.body)}</p>`;
+  if(m.note) html+=`<p class="mnote">${esc(m.note)}</p>`;
+  if(m.urls&&m.urls.length){
+    html+=`<div class="murls"><div class="mlbl">Example URLs</div><ul>`+m.urls.map(u=>{
+      const href=String(u).split(' ')[0];
+      return `<li>${/^https?:/.test(href)?`<a href="${esc(href)}" target="_blank" rel="noopener">${esc(u)}</a>`:esc(u)}</li>`;
+    }).join('')+`</ul></div>`;
+  }
+  document.getElementById('mbody').innerHTML=html;
+  const ov=document.getElementById('modal'); ov.hidden=false; document.body.style.overflow='hidden';
+}
+function closeModal(){document.getElementById('modal').hidden=true; document.body.style.overflow='';}
+document.getElementById('map').addEventListener('click',e=>{const li=e.target.closest('li.hasmodal'); if(li) openModalIdx(+li.dataset.idx);});
+document.getElementById('modal').addEventListener('click',e=>{if(e.target.id==='modal'||e.target.classList.contains('mclose')) closeModal();});
+document.addEventListener('keydown',e=>{if(e.key==='Escape') closeModal();});
+{const _h=location.hash.match(/^#open=(\d+)/); if(_h) openModalIdx(+_h[1]);}  // deep-link: …#open=N opens modal N
+</script>
+</body>
+</html>

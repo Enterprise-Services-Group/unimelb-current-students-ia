@@ -1,0 +1,130 @@
+[
+  {
+    "url": "https://dental.unimelb.edu.au/study/student-resources",
+    "normalizedUrl": "https://dental.unimelb.edu.au/study/student-resources",
+    "faculty": "dental",
+    "unitLevel": "faculty",
+    "title": "Student Resources | Melbourne Dental School",
+    "depth": 0,
+    "wordCount": 1669,
+    "classification": "mixed",
+    "topicTags": [
+      "research-candidature",
+      "scholarships",
+      "forms-admin",
+      "contacts-support"
+    ],
+    "outboundHosts": {
+      "dental.unimelb.edu.au": 14,
+      "forms.office.com": 3,
+      "futurestudents.unimelb.edu.au": 1,
+      "gradresearch.unimelb.edu.au": 1,
+      "students.unimelb.edu.au": 2,
+      "uomdental.formstack.com": 4,
+      "www.facebook.com": 2,
+      "www.linkedin.com": 2,
+      "www.instagram.com": 2,
+      "www.youtube.com": 1,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 2,
+    "inSectionCount": 2,
+    "excerpt": "Skip to main content Welcome to Melbourne Dental SchoolThe University of Melbourne is recognised internationally as a leader in graduate research training. As one of our researchers, you will be working with leading experts in the Dentistry field in first rate facilities such as the Melbourne Dental Clinic.In collaboration with Industry partners and The Melbourne Dental School offers a range of grants, awards and scholarships which support students’ research projects and post graduate studies. Research degrees allow students to study a specific subject area in great depth through sustained, in"
+  },
+  {
+    "url": "https://dental.unimelb.edu.au/study/student-resources/Research",
+    "normalizedUrl": "https://dental.unimelb.edu.au/study/student-resources/Research",
+    "faculty": "dental",
+    "unitLevel": "faculty",
+    "title": "Research",
+    "depth": 1,
+    "wordCount": 660,
+    "classification": "unique",
+    "topicTags": [
+      "research-candidature",
+      "scholarships",
+      "fees-finance"
+    ],
+    "outboundHosts": {
+      "dental.unimelb.edu.au": 9,
+      "forms.office.com": 1,
+      "futurestudents.unimelb.edu.au": 1,
+      "gradresearch.unimelb.edu.au": 1,
+      "www.facebook.com": 2,
+      "www.linkedin.com": 2,
+      "www.instagram.com": 2,
+      "www.youtube.com": 1,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 0,
+    "inSectionCount": 3,
+    "excerpt": "Skip to main content Welcome to Melbourne Dental SchoolThe University of Melbourne is recognised internationally as a leader in graduate research training. As one of our researchers, you will be working with leading experts in the Dentistry field in first rate facilities such as the Melbourne Dental Clinic.In collaboration with Industry partners and The Melbourne Dental School offers a range of grants, awards and scholarships which support students’ research projects and post graduate studies. Research degrees allow students to study a specific subject area in great depth through sustained, in"
+  },
+  {
+    "url": "https://dental.unimelb.edu.au/study/student-resources/Forms",
+    "normalizedUrl": "https://dental.unimelb.edu.au/study/student-resources/Forms",
+    "faculty": "dental",
+    "unitLevel": "faculty",
+    "title": "Forms",
+    "depth": 1,
+    "wordCount": 1013,
+    "classification": "unique",
+    "topicTags": [
+      "forms-admin",
+      "fees-finance",
+      "enrolment",
+      "contacts-support"
+    ],
+    "outboundHosts": {
+      "dental.unimelb.edu.au": 7,
+      "forms.office.com": 2,
+      "students.unimelb.edu.au": 2,
+      "uomdental.formstack.com": 4,
+      "www.facebook.com": 2,
+      "www.linkedin.com": 2,
+      "www.instagram.com": 2,
+      "www.youtube.com": 1,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 2,
+    "inSectionCount": 2,
+    "excerpt": "Skip to main content Welcome to Melbourne Dental SchoolAs a Melbourne Dental School student, you are responsible for maintaining administrative requirements throughout your studies including the timely submission of forms, reimbursement applications and keeping the school informed of any absences as part of your course requirements.The range of forms available below are specific to Melbourne Dental School students for administrative requirements throughout the student life cycle. Students are encouraged to utilise these online facilities for efficient and accessible processing of financial and"
+  },
+  {
+    "url": "https://dental.unimelb.edu.au/study/student-resources/Research/mds-internal-grants",
+    "normalizedUrl": "https://dental.unimelb.edu.au/study/student-resources/Research/mds-internal-grants",
+    "faculty": "dental",
+    "unitLevel": "faculty",
+    "title": "Melbourne Dental School Internal Grants",
+    "depth": 1,
+    "wordCount": 571,
+    "classification": "unique",
+    "topicTags": [
+      "scholarships",
+      "research-candidature",
+      "forms-admin",
+      "fees-finance"
+    ],
+    "outboundHosts": {
+      "dental.unimelb.edu.au": 9,
+      "staff.unimelb.edu.au": 1,
+      "forms.office.com": 1,
+      "www.facebook.com": 2,
+      "www.linkedin.com": 2,
+      "www.instagram.com": 2,
+      "www.youtube.com": 1,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 0,
+    "inSectionCount": 2,
+    "excerpt": "Skip to main content As a student at the Melbourne Dental School, you can look forward to studying in Australia's top school for everything relating to dentistry, oral health, and dental research.The School offers internal grants to all cohorts for various research projects. Funds granted will be paid on reimbursement of invoices submitted to the School Office.In order to obtain funding, students, together with their academic research supervisors, must submit a research funds application form and budget form. Supervisors must check budgets completed by their students in accordance with the con"
+  }
+]

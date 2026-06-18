@@ -1,0 +1,4 @@
+# In-scope program/archive subtrees discovered under msd.unimelb.edu.au/current-students
+https://msd.unimelb.edu.au/current-students/subject-information/msd-studios/  (MSD Studio Archive — ~900+ self-interlinked detail URLs; 169 captured, 737 truncated at cap)
+https://msd.unimelb.edu.au/current-students/subject-information/travelling-studios/past-studios/  (year-indexed travelling-studio archive 2008–2025)
+https://msd.unimelb.edu.au/current-students/course-planning/sample-course-plans/  (10 single + 13 double-masters sample course plans)

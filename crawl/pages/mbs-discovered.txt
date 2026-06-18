@@ -1,0 +1,4 @@
+# MBS discovered in-scope sub-paths / notable subdomains
+# crawl root: https://mbs.unimelb.edu.au/students
+https://mbs.unimelb.edu.au/career   # MBS Career Elevation — separate careers service (HTTP 200, NOT under /students; notable outbound, not crawled)
+# No additional in-scope program SUBDOMAINS discovered; entire CS section lives under mbs.unimelb.edu.au/students.

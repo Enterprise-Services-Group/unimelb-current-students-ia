@@ -1,0 +1,2666 @@
+[
+  {
+    "url": "https://science.unimelb.edu.au/students",
+    "normalizedUrl": "https://science.unimelb.edu.au/students",
+    "faculty": "science",
+    "unitLevel": "faculty",
+    "title": "Current Students",
+    "depth": 0,
+    "wordCount": 760,
+    "classification": "unique",
+    "topicTags": [
+      "contacts-support"
+    ],
+    "outboundHosts": {
+      "science.unimelb.edu.au": 3,
+      "mvs.unimelb.edu.au": 1,
+      "www.linkedin.com": 2,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "staff.unimelb.edu.au": 1,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 0,
+    "inSectionCount": 12,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Science\",\"external\":false,\"facultyHref\":\"https://science.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About us\",\"href\":\"https://science.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Faculty news and announcements\",\"href\":\"https://science.unimelb.edu.au/about/news\"},{\"title\":\"Our leadership team\",\"href\":\"https://science.unimelb.edu.au/about/faculty-of-science-"
+  },
+  {
+    "url": "https://science.unimelb.edu.au/students/agriculture-discovery-week",
+    "normalizedUrl": "https://science.unimelb.edu.au/students/agriculture-discovery-week",
+    "faculty": "science",
+    "unitLevel": "faculty",
+    "title": "Agriculture Discovery Week",
+    "depth": 3,
+    "wordCount": 2235,
+    "classification": "unique",
+    "topicTags": [
+      "clubs-events"
+    ],
+    "outboundHosts": {
+      "science.unimelb.edu.au": 4,
+      "q.surveys.unimelb.edu.au": 1,
+      "students.unimelb.edu.au": 1,
+      "www.linkedin.com": 2,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "staff.unimelb.edu.au": 1,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 1,
+    "inSectionCount": 4,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Science\",\"external\":false,\"facultyHref\":\"https://science.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About us\",\"href\":\"https://science.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Faculty news and announcements\",\"href\":\"https://science.unimelb.edu.au/about/news\"},{\"title\":\"Our leadership team\",\"href\":\"https://science.unimelb.edu.au/about/faculty-of-science-"
+  },
+  {
+    "url": "https://science.unimelb.edu.au/students/course-guide-bachelor-of-agriculture",
+    "normalizedUrl": "https://science.unimelb.edu.au/students/course-guide-bachelor-of-agriculture",
+    "faculty": "science",
+    "unitLevel": "faculty",
+    "title": "Course guide: Bachelor of Agriculture",
+    "depth": 1,
+    "wordCount": 1182,
+    "classification": "unique",
+    "topicTags": [
+      "course-planning"
+    ],
+    "outboundHosts": {
+      "science.unimelb.edu.au": 3,
+      "students.unimelb.edu.au": 7,
+      "handbook.unimelb.edu.au": 1,
+      "lms.unimelb.edu.au": 1,
+      "my.unimelb.edu.au": 1,
+      "services.unimelb.edu.au": 1,
+      "www.linkedin.com": 2,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "staff.unimelb.edu.au": 1,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 7,
+    "inSectionCount": 13,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Science\",\"external\":false,\"facultyHref\":\"https://science.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About us\",\"href\":\"https://science.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Faculty news and announcements\",\"href\":\"https://science.unimelb.edu.au/about/news\"},{\"title\":\"Our leadership team\",\"href\":\"https://science.unimelb.edu.au/about/faculty-of-science-"
+  },
+  {
+    "url": "https://science.unimelb.edu.au/students/course-guide-bachelor-of-agriculture/bag-orientation",
+    "normalizedUrl": "https://science.unimelb.edu.au/students/course-guide-bachelor-of-agriculture/bag-orientation",
+    "faculty": "science",
+    "unitLevel": "faculty",
+    "title": "Bachelor of Agriculture Orientation",
+    "depth": 2,
+    "wordCount": 855,
+    "classification": "unique",
+    "topicTags": [
+      "course-planning",
+      "orientation"
+    ],
+    "outboundHosts": {
+      "science.unimelb.edu.au": 3,
+      "students.unimelb.edu.au": 4,
+      "science-enrichment-planner.unimelb.edu.au": 1,
+      "www.eventbrite.com.au": 1,
+      "www.linkedin.com": 2,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "staff.unimelb.edu.au": 1,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 4,
+    "inSectionCount": 4,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Science\",\"external\":false,\"facultyHref\":\"https://science.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About us\",\"href\":\"https://science.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Faculty news and announcements\",\"href\":\"https://science.unimelb.edu.au/about/news\"},{\"title\":\"Our leadership team\",\"href\":\"https://science.unimelb.edu.au/about/faculty-of-science-"
+  },
+  {
+    "url": "https://science.unimelb.edu.au/students/course-guide-bachelor-of-agriculture/dookie-semester",
+    "normalizedUrl": "https://science.unimelb.edu.au/students/course-guide-bachelor-of-agriculture/dookie-semester",
+    "faculty": "science",
+    "unitLevel": "faculty",
+    "title": "Dookie Semester",
+    "depth": 2,
+    "wordCount": 852,
+    "classification": "unique",
+    "topicTags": [
+      "course-planning"
+    ],
+    "outboundHosts": {
+      "science.unimelb.edu.au": 5,
+      "www.linkedin.com": 2,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "staff.unimelb.edu.au": 1,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 0,
+    "inSectionCount": 4,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Science\",\"external\":false,\"facultyHref\":\"https://science.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About us\",\"href\":\"https://science.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Faculty news and announcements\",\"href\":\"https://science.unimelb.edu.au/about/news\"},{\"title\":\"Our leadership team\",\"href\":\"https://science.unimelb.edu.au/about/faculty-of-science-"
+  },
+  {
+    "url": "https://science.unimelb.edu.au/students/course-guide-bachelor-of-science",
+    "normalizedUrl": "https://science.unimelb.edu.au/students/course-guide-bachelor-of-science",
+    "faculty": "science",
+    "unitLevel": "faculty",
+    "title": "Course guide: Bachelor of Science",
+    "depth": 1,
+    "wordCount": 1304,
+    "classification": "mixed",
+    "topicTags": [
+      "course-planning"
+    ],
+    "outboundHosts": {
+      "science.unimelb.edu.au": 4,
+      "students.unimelb.edu.au": 8,
+      "handbook.unimelb.edu.au": 1,
+      "lms.unimelb.edu.au": 1,
+      "my.unimelb.edu.au": 1,
+      "services.unimelb.edu.au": 1,
+      "www.linkedin.com": 2,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "staff.unimelb.edu.au": 1,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 8,
+    "inSectionCount": 15,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Science\",\"external\":false,\"facultyHref\":\"https://science.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About us\",\"href\":\"https://science.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Faculty news and announcements\",\"href\":\"https://science.unimelb.edu.au/about/news\"},{\"title\":\"Our leadership team\",\"href\":\"https://science.unimelb.edu.au/about/faculty-of-science-"
+  },
+  {
+    "url": "https://science.unimelb.edu.au/students/course-guide-bachelor-of-science/bachelor-of-science-majors-series",
+    "normalizedUrl": "https://science.unimelb.edu.au/students/course-guide-bachelor-of-science/bachelor-of-science-majors-series",
+    "faculty": "science",
+    "unitLevel": "faculty",
+    "title": "Bachelor of Science Majors Information Series",
+    "depth": 2,
+    "wordCount": 439,
+    "classification": "unique",
+    "topicTags": [
+      "course-planning"
+    ],
+    "outboundHosts": {
+      "science.unimelb.edu.au": 9,
+      "www.linkedin.com": 2,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "staff.unimelb.edu.au": 1,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 0,
+    "inSectionCount": 4,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Science\",\"external\":false,\"facultyHref\":\"https://science.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About us\",\"href\":\"https://science.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Faculty news and announcements\",\"href\":\"https://science.unimelb.edu.au/about/news\"},{\"title\":\"Our leadership team\",\"href\":\"https://science.unimelb.edu.au/about/faculty-of-science-"
+  },
+  {
+    "url": "https://science.unimelb.edu.au/students/course-guide-bachelor-of-science/bachelor-of-science-majors-series/recorded-events-2025/Maths-and-Stats-Course-planning-talk-information-slides-2025.pdf",
+    "normalizedUrl": "https://science.unimelb.edu.au/students/course-guide-bachelor-of-science/bachelor-of-science-majors-series/recorded-events-2025/Maths-and-Stats-Course-planning-talk-information-slides-2025.pdf",
+    "faculty": "science",
+    "unitLevel": "faculty",
+    "title": "Redirecting...",
+    "depth": 3,
+    "wordCount": 0,
+    "classification": "redirect/broken",
+    "topicTags": [
+      "course-planning",
+      "clubs-events",
+      "forms-admin"
+    ],
+    "outboundHosts": {},
+    "hubLinks": 0,
+    "inSectionCount": 0,
+    "excerpt": ""
+  },
+  {
+    "url": "https://science.unimelb.edu.au/students/course-guide-bachelor-of-science/breadth",
+    "normalizedUrl": "https://science.unimelb.edu.au/students/course-guide-bachelor-of-science/breadth",
+    "faculty": "science",
+    "unitLevel": "faculty",
+    "title": "Breadth subjects in the Bachelor of Science",
+    "depth": 2,
+    "wordCount": 841,
+    "classification": "unique",
+    "topicTags": [
+      "course-planning",
+      "subjects-timetable"
+    ],
+    "outboundHosts": {
+      "science.unimelb.edu.au": 3,
+      "handbook.unimelb.edu.au": 27,
+      "www.linkedin.com": 2,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "staff.unimelb.edu.au": 1,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 0,
+    "inSectionCount": 3,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Science\",\"external\":false,\"facultyHref\":\"https://science.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About us\",\"href\":\"https://science.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Faculty news and announcements\",\"href\":\"https://science.unimelb.edu.au/about/news\"},{\"title\":\"Our leadership team\",\"href\":\"https://science.unimelb.edu.au/about/faculty-of-science-"
+  },
+  {
+    "url": "https://science.unimelb.edu.au/students/course-guide-bachelor-of-science/bsc-orientation",
+    "normalizedUrl": "https://science.unimelb.edu.au/students/course-guide-bachelor-of-science/bsc-orientation",
+    "faculty": "science",
+    "unitLevel": "faculty",
+    "title": "Bachelor of Science Orientation",
+    "depth": 2,
+    "wordCount": 626,
+    "classification": "unique",
+    "topicTags": [
+      "course-planning",
+      "orientation"
+    ],
+    "outboundHosts": {
+      "science.unimelb.edu.au": 3,
+      "students.unimelb.edu.au": 3,
+      "science-enrichment-planner.unimelb.edu.au": 1,
+      "www.linkedin.com": 2,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "staff.unimelb.edu.au": 1,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 3,
+    "inSectionCount": 3,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Science\",\"external\":false,\"facultyHref\":\"https://science.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About us\",\"href\":\"https://science.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Faculty news and announcements\",\"href\":\"https://science.unimelb.edu.au/about/news\"},{\"title\":\"Our leadership team\",\"href\":\"https://science.unimelb.edu.au/about/faculty-of-science-"
+  },
+  {
+    "url": "https://science.unimelb.edu.au/students/course-guide-bachelor-of-science/first-year-subject-sets",
+    "normalizedUrl": "https://science.unimelb.edu.au/students/course-guide-bachelor-of-science/first-year-subject-sets",
+    "faculty": "science",
+    "unitLevel": "faculty",
+    "title": "First year subject sets",
+    "depth": 2,
+    "wordCount": 939,
+    "classification": "unique",
+    "topicTags": [
+      "course-planning",
+      "subjects-timetable"
+    ],
+    "outboundHosts": {
+      "science.unimelb.edu.au": 4,
+      "students.unimelb.edu.au": 1,
+      "www.linkedin.com": 2,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "staff.unimelb.edu.au": 1,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 1,
+    "inSectionCount": 13,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Science\",\"external\":false,\"facultyHref\":\"https://science.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About us\",\"href\":\"https://science.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Faculty news and announcements\",\"href\":\"https://science.unimelb.edu.au/about/news\"},{\"title\":\"Our leadership team\",\"href\":\"https://science.unimelb.edu.au/about/faculty-of-science-"
+  },
+  {
+    "url": "https://science.unimelb.edu.au/students/course-guide-bachelor-of-science/first-year-subject-sets/biological-sciences",
+    "normalizedUrl": "https://science.unimelb.edu.au/students/course-guide-bachelor-of-science/first-year-subject-sets/biological-sciences",
+    "faculty": "science",
+    "unitLevel": "faculty",
+    "title": "Biological sciences: getting started in the Bachelor of Science",
+    "depth": 3,
+    "wordCount": 949,
+    "classification": "unique",
+    "topicTags": [
+      "course-planning",
+      "subjects-timetable"
+    ],
+    "outboundHosts": {
+      "science.unimelb.edu.au": 3,
+      "study.unimelb.edu.au": 23,
+      "biosciences.unimelb.edu.au": 1,
+      "students.unimelb.edu.au": 3,
+      "www.linkedin.com": 2,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "staff.unimelb.edu.au": 1,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 3,
+    "inSectionCount": 12,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Science\",\"external\":false,\"facultyHref\":\"https://science.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About us\",\"href\":\"https://science.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Faculty news and announcements\",\"href\":\"https://science.unimelb.edu.au/about/news\"},{\"title\":\"Our leadership team\",\"href\":\"https://science.unimelb.edu.au/about/faculty-of-science-"
+  },
+  {
+    "url": "https://science.unimelb.edu.au/students/course-guide-bachelor-of-science/first-year-subject-sets/chemical-sciences",
+    "normalizedUrl": "https://science.unimelb.edu.au/students/course-guide-bachelor-of-science/first-year-subject-sets/chemical-sciences",
+    "faculty": "science",
+    "unitLevel": "faculty",
+    "title": "Chemical Sciences: getting started in the Bachelor of Science",
+    "depth": 3,
+    "wordCount": 1006,
+    "classification": "unique",
+    "topicTags": [
+      "course-planning",
+      "subjects-timetable"
+    ],
+    "outboundHosts": {
+      "science.unimelb.edu.au": 3,
+      "study.unimelb.edu.au": 12,
+      "chemistry.unimelb.edu.au": 1,
+      "students.unimelb.edu.au": 3,
+      "www.linkedin.com": 2,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "staff.unimelb.edu.au": 1,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 3,
+    "inSectionCount": 12,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Science\",\"external\":false,\"facultyHref\":\"https://science.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About us\",\"href\":\"https://science.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Faculty news and announcements\",\"href\":\"https://science.unimelb.edu.au/about/news\"},{\"title\":\"Our leadership team\",\"href\":\"https://science.unimelb.edu.au/about/faculty-of-science-"
+  },
+  {
+    "url": "https://science.unimelb.edu.au/students/course-guide-bachelor-of-science/first-year-subject-sets/earth-sciences",
+    "normalizedUrl": "https://science.unimelb.edu.au/students/course-guide-bachelor-of-science/first-year-subject-sets/earth-sciences",
+    "faculty": "science",
+    "unitLevel": "faculty",
+    "title": "Earth Sciences: getting started in the Bachelor of Science",
+    "depth": 3,
+    "wordCount": 1034,
+    "classification": "unique",
+    "topicTags": [
+      "course-planning",
+      "subjects-timetable"
+    ],
+    "outboundHosts": {
+      "science.unimelb.edu.au": 4,
+      "study.unimelb.edu.au": 2,
+      "earthsci.unimelb.edu.au": 1,
+      "students.unimelb.edu.au": 3,
+      "www.linkedin.com": 2,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "staff.unimelb.edu.au": 1,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 3,
+    "inSectionCount": 12,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Science\",\"external\":false,\"facultyHref\":\"https://science.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About us\",\"href\":\"https://science.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Faculty news and announcements\",\"href\":\"https://science.unimelb.edu.au/about/news\"},{\"title\":\"Our leadership team\",\"href\":\"https://science.unimelb.edu.au/about/faculty-of-science-"
+  },
+  {
+    "url": "https://science.unimelb.edu.au/students/course-guide-bachelor-of-science/first-year-subject-sets/engineering-systems",
+    "normalizedUrl": "https://science.unimelb.edu.au/students/course-guide-bachelor-of-science/first-year-subject-sets/engineering-systems",
+    "faculty": "science",
+    "unitLevel": "faculty",
+    "title": "Engineering Systems: starting in the Bachelor of Science",
+    "depth": 3,
+    "wordCount": 974,
+    "classification": "unique",
+    "topicTags": [
+      "course-planning",
+      "subjects-timetable"
+    ],
+    "outboundHosts": {
+      "science.unimelb.edu.au": 3,
+      "study.unimelb.edu.au": 8,
+      "eng.unimelb.edu.au": 1,
+      "students.unimelb.edu.au": 3,
+      "www.linkedin.com": 2,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "staff.unimelb.edu.au": 1,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 3,
+    "inSectionCount": 12,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Science\",\"external\":false,\"facultyHref\":\"https://science.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About us\",\"href\":\"https://science.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Faculty news and announcements\",\"href\":\"https://science.unimelb.edu.au/about/news\"},{\"title\":\"Our leadership team\",\"href\":\"https://science.unimelb.edu.au/about/faculty-of-science-"
+  },
+  {
+    "url": "https://science.unimelb.edu.au/students/course-guide-bachelor-of-science/first-year-subject-sets/geography",
+    "normalizedUrl": "https://science.unimelb.edu.au/students/course-guide-bachelor-of-science/first-year-subject-sets/geography",
+    "faculty": "science",
+    "unitLevel": "faculty",
+    "title": "Geography: getting started in the Bachelor of Science",
+    "depth": 3,
+    "wordCount": 1047,
+    "classification": "unique",
+    "topicTags": [
+      "course-planning",
+      "subjects-timetable"
+    ],
+    "outboundHosts": {
+      "science.unimelb.edu.au": 3,
+      "study.unimelb.edu.au": 1,
+      "sgeas.unimelb.edu.au": 1,
+      "students.unimelb.edu.au": 3,
+      "www.linkedin.com": 2,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "staff.unimelb.edu.au": 1,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 3,
+    "inSectionCount": 12,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Science\",\"external\":false,\"facultyHref\":\"https://science.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About us\",\"href\":\"https://science.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Faculty news and announcements\",\"href\":\"https://science.unimelb.edu.au/about/news\"},{\"title\":\"Our leadership team\",\"href\":\"https://science.unimelb.edu.au/about/faculty-of-science-"
+  },
+  {
+    "url": "https://science.unimelb.edu.au/students/course-guide-bachelor-of-science/first-year-subject-sets/information-technology",
+    "normalizedUrl": "https://science.unimelb.edu.au/students/course-guide-bachelor-of-science/first-year-subject-sets/information-technology",
+    "faculty": "science",
+    "unitLevel": "faculty",
+    "title": "Information Technology: starting in the Bachelor of Science",
+    "depth": 3,
+    "wordCount": 952,
+    "classification": "unique",
+    "topicTags": [
+      "course-planning",
+      "subjects-timetable",
+      "forms-admin"
+    ],
+    "outboundHosts": {
+      "science.unimelb.edu.au": 3,
+      "study.unimelb.edu.au": 2,
+      "cis.unimelb.edu.au": 1,
+      "students.unimelb.edu.au": 3,
+      "www.linkedin.com": 2,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "staff.unimelb.edu.au": 1,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 3,
+    "inSectionCount": 12,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Science\",\"external\":false,\"facultyHref\":\"https://science.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About us\",\"href\":\"https://science.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Faculty news and announcements\",\"href\":\"https://science.unimelb.edu.au/about/news\"},{\"title\":\"Our leadership team\",\"href\":\"https://science.unimelb.edu.au/about/faculty-of-science-"
+  },
+  {
+    "url": "https://science.unimelb.edu.au/students/course-guide-bachelor-of-science/first-year-subject-sets/mathematics-and-statistics",
+    "normalizedUrl": "https://science.unimelb.edu.au/students/course-guide-bachelor-of-science/first-year-subject-sets/mathematics-and-statistics",
+    "faculty": "science",
+    "unitLevel": "faculty",
+    "title": "Mathematics and Statistics: starting in the Bachelor of Science",
+    "depth": 3,
+    "wordCount": 1245,
+    "classification": "unique",
+    "topicTags": [
+      "course-planning",
+      "subjects-timetable"
+    ],
+    "outboundHosts": {
+      "science.unimelb.edu.au": 3,
+      "study.unimelb.edu.au": 14,
+      "ms.unimelb.edu.au": 1,
+      "students.unimelb.edu.au": 3,
+      "www.linkedin.com": 2,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "staff.unimelb.edu.au": 1,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 3,
+    "inSectionCount": 12,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Science\",\"external\":false,\"facultyHref\":\"https://science.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About us\",\"href\":\"https://science.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Faculty news and announcements\",\"href\":\"https://science.unimelb.edu.au/about/news\"},{\"title\":\"Our leadership team\",\"href\":\"https://science.unimelb.edu.au/about/faculty-of-science-"
+  },
+  {
+    "url": "https://science.unimelb.edu.au/students/course-guide-bachelor-of-science/first-year-subject-sets/physical-sciences",
+    "normalizedUrl": "https://science.unimelb.edu.au/students/course-guide-bachelor-of-science/first-year-subject-sets/physical-sciences",
+    "faculty": "science",
+    "unitLevel": "faculty",
+    "title": "Physical Sciences: starting in the Bachelor of Science",
+    "depth": 3,
+    "wordCount": 1224,
+    "classification": "unique",
+    "topicTags": [
+      "course-planning",
+      "subjects-timetable"
+    ],
+    "outboundHosts": {
+      "science.unimelb.edu.au": 3,
+      "study.unimelb.edu.au": 5,
+      "physics.unimelb.edu.au": 1,
+      "students.unimelb.edu.au": 3,
+      "www.linkedin.com": 2,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "staff.unimelb.edu.au": 1,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 3,
+    "inSectionCount": 12,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Science\",\"external\":false,\"facultyHref\":\"https://science.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About us\",\"href\":\"https://science.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Faculty news and announcements\",\"href\":\"https://science.unimelb.edu.au/about/news\"},{\"title\":\"Our leadership team\",\"href\":\"https://science.unimelb.edu.au/about/faculty-of-science-"
+  },
+  {
+    "url": "https://science.unimelb.edu.au/students/course-guide-bachelor-of-science/first-year-subject-sets/psychological-sciences",
+    "normalizedUrl": "https://science.unimelb.edu.au/students/course-guide-bachelor-of-science/first-year-subject-sets/psychological-sciences",
+    "faculty": "science",
+    "unitLevel": "faculty",
+    "title": "Psychological Sciences: starting in the Bachelor of Science",
+    "depth": 3,
+    "wordCount": 963,
+    "classification": "unique",
+    "topicTags": [
+      "course-planning",
+      "subjects-timetable"
+    ],
+    "outboundHosts": {
+      "science.unimelb.edu.au": 3,
+      "study.unimelb.edu.au": 1,
+      "psychologicalsciences.unimelb.edu.au": 1,
+      "students.unimelb.edu.au": 3,
+      "www.linkedin.com": 2,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "staff.unimelb.edu.au": 1,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 3,
+    "inSectionCount": 12,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Science\",\"external\":false,\"facultyHref\":\"https://science.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About us\",\"href\":\"https://science.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Faculty news and announcements\",\"href\":\"https://science.unimelb.edu.au/about/news\"},{\"title\":\"Our leadership team\",\"href\":\"https://science.unimelb.edu.au/about/faculty-of-science-"
+  },
+  {
+    "url": "https://science.unimelb.edu.au/students/course-guide-diploma-in-general-studies",
+    "normalizedUrl": "https://science.unimelb.edu.au/students/course-guide-diploma-in-general-studies",
+    "faculty": "science",
+    "unitLevel": "faculty",
+    "title": "Course guide: Diploma in General Studies",
+    "depth": 1,
+    "wordCount": 941,
+    "classification": "unique",
+    "topicTags": [
+      "course-planning"
+    ],
+    "outboundHosts": {
+      "science.unimelb.edu.au": 5,
+      "students.unimelb.edu.au": 6,
+      "handbook.unimelb.edu.au": 1,
+      "lms.unimelb.edu.au": 1,
+      "my.unimelb.edu.au": 1,
+      "services.unimelb.edu.au": 1,
+      "www.linkedin.com": 2,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "staff.unimelb.edu.au": 1,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 6,
+    "inSectionCount": 9,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Science\",\"external\":false,\"facultyHref\":\"https://science.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About us\",\"href\":\"https://science.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Faculty news and announcements\",\"href\":\"https://science.unimelb.edu.au/about/news\"},{\"title\":\"Our leadership team\",\"href\":\"https://science.unimelb.edu.au/about/faculty-of-science-"
+  },
+  {
+    "url": "https://science.unimelb.edu.au/students/course-guide-graduate-coursework-degrees",
+    "normalizedUrl": "https://science.unimelb.edu.au/students/course-guide-graduate-coursework-degrees",
+    "faculty": "science",
+    "unitLevel": "faculty",
+    "title": "Course guide: Graduate coursework degrees",
+    "depth": 1,
+    "wordCount": 973,
+    "classification": "unique",
+    "topicTags": [
+      "course-planning"
+    ],
+    "outboundHosts": {
+      "science.unimelb.edu.au": 3,
+      "students.unimelb.edu.au": 3,
+      "handbook.unimelb.edu.au": 1,
+      "lms.unimelb.edu.au": 1,
+      "my.unimelb.edu.au": 1,
+      "services.unimelb.edu.au": 1,
+      "www.linkedin.com": 2,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "staff.unimelb.edu.au": 1,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 3,
+    "inSectionCount": 12,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Science\",\"external\":false,\"facultyHref\":\"https://science.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About us\",\"href\":\"https://science.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Faculty news and announcements\",\"href\":\"https://science.unimelb.edu.au/about/news\"},{\"title\":\"Our leadership team\",\"href\":\"https://science.unimelb.edu.au/about/faculty-of-science-"
+  },
+  {
+    "url": "https://science.unimelb.edu.au/students/course-guide-graduate-coursework-degrees/agriculture-food-science-research-projects",
+    "normalizedUrl": "https://science.unimelb.edu.au/students/course-guide-graduate-coursework-degrees/agriculture-food-science-research-projects",
+    "faculty": "science",
+    "unitLevel": "faculty",
+    "title": "Research Project Subjects | Veterinary & Agricultural Sciences",
+    "depth": 2,
+    "wordCount": 3185,
+    "classification": "unique",
+    "topicTags": [
+      "course-planning",
+      "subjects-timetable",
+      "research-candidature"
+    ],
+    "outboundHosts": {
+      "science.unimelb.edu.au": 3,
+      "services.unimelb.edu.au": 3,
+      "students.unimelb.edu.au": 1,
+      "research.unimelb.edu.au": 1,
+      "safety.unimelb.edu.au": 2,
+      "safes.unimelb.edu.au": 1,
+      "enrolmentvariations.app.unimelb.edu.au": 1,
+      "www.linkedin.com": 2,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "staff.unimelb.edu.au": 1,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4
+    },
+    "hubLinks": 1,
+    "inSectionCount": 5,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Science\",\"external\":false,\"facultyHref\":\"https://science.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About us\",\"href\":\"https://science.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Faculty news and announcements\",\"href\":\"https://science.unimelb.edu.au/about/news\"},{\"title\":\"Our leadership team\",\"href\":\"https://science.unimelb.edu.au/about/faculty-of-science-"
+  },
+  {
+    "url": "https://science.unimelb.edu.au/students/course-guide-graduate-coursework-degrees/agriculture-food-science-research-projects/differences-in-major-and-minor-research-projects",
+    "normalizedUrl": "https://science.unimelb.edu.au/students/course-guide-graduate-coursework-degrees/agriculture-food-science-research-projects/differences-in-major-and-minor-research-projects",
+    "faculty": "science",
+    "unitLevel": "faculty",
+    "title": "Differences in Major and Minor Research Projects",
+    "depth": 3,
+    "wordCount": 707,
+    "classification": "unique",
+    "topicTags": [
+      "course-planning",
+      "research-candidature"
+    ],
+    "outboundHosts": {
+      "science.unimelb.edu.au": 3,
+      "handbook.unimelb.edu.au": 1,
+      "safes.unimelb.edu.au": 1,
+      "unimelb.t1cloud.com": 1,
+      "www.linkedin.com": 2,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "staff.unimelb.edu.au": 1,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 0,
+    "inSectionCount": 4,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Science\",\"external\":false,\"facultyHref\":\"https://science.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About us\",\"href\":\"https://science.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Faculty news and announcements\",\"href\":\"https://science.unimelb.edu.au/about/news\"},{\"title\":\"Our leadership team\",\"href\":\"https://science.unimelb.edu.au/about/faculty-of-science-"
+  },
+  {
+    "url": "https://science.unimelb.edu.au/students/course-guide-graduate-coursework-degrees/agriculture-food-science-research-projects/masters-research-project-topic-areas",
+    "normalizedUrl": "https://science.unimelb.edu.au/students/course-guide-graduate-coursework-degrees/agriculture-food-science-research-projects/masters-research-project-topic-areas",
+    "faculty": "science",
+    "unitLevel": "faculty",
+    "title": "Masters Research Project Topic Areas",
+    "depth": 3,
+    "wordCount": 1292,
+    "classification": "unique",
+    "topicTags": [
+      "course-planning",
+      "research-candidature"
+    ],
+    "outboundHosts": {
+      "science.unimelb.edu.au": 3,
+      "www.linkedin.com": 2,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "staff.unimelb.edu.au": 1,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 0,
+    "inSectionCount": 4,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Science\",\"external\":false,\"facultyHref\":\"https://science.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About us\",\"href\":\"https://science.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Faculty news and announcements\",\"href\":\"https://science.unimelb.edu.au/about/news\"},{\"title\":\"Our leadership team\",\"href\":\"https://science.unimelb.edu.au/about/faculty-of-science-"
+  },
+  {
+    "url": "https://science.unimelb.edu.au/students/course-guide-graduate-coursework-degrees/graduate-getting-started",
+    "normalizedUrl": "https://science.unimelb.edu.au/students/course-guide-graduate-coursework-degrees/graduate-getting-started",
+    "faculty": "science",
+    "unitLevel": "faculty",
+    "title": "Getting started in your graduate science degree",
+    "depth": 2,
+    "wordCount": 578,
+    "classification": "unique",
+    "topicTags": [
+      "course-planning",
+      "orientation"
+    ],
+    "outboundHosts": {
+      "science.unimelb.edu.au": 3,
+      "students.unimelb.edu.au": 1,
+      "www.linkedin.com": 2,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "staff.unimelb.edu.au": 1,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 1,
+    "inSectionCount": 3,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Science\",\"external\":false,\"facultyHref\":\"https://science.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About us\",\"href\":\"https://science.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Faculty news and announcements\",\"href\":\"https://science.unimelb.edu.au/about/news\"},{\"title\":\"Our leadership team\",\"href\":\"https://science.unimelb.edu.au/about/faculty-of-science-"
+  },
+  {
+    "url": "https://science.unimelb.edu.au/students/course-guide-graduate-coursework-degrees/master-of-science-research-projects",
+    "normalizedUrl": "https://science.unimelb.edu.au/students/course-guide-graduate-coursework-degrees/master-of-science-research-projects",
+    "faculty": "science",
+    "unitLevel": "faculty",
+    "title": "Master of Science research projects",
+    "depth": 2,
+    "wordCount": 2102,
+    "classification": "unique",
+    "topicTags": [
+      "course-planning",
+      "research-candidature"
+    ],
+    "outboundHosts": {
+      "science.unimelb.edu.au": 3,
+      "handbook.unimelb.edu.au": 9,
+      "students.unimelb.edu.au": 1,
+      "www.linkedin.com": 2,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "staff.unimelb.edu.au": 1,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 1,
+    "inSectionCount": 3,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Science\",\"external\":false,\"facultyHref\":\"https://science.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About us\",\"href\":\"https://science.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Faculty news and announcements\",\"href\":\"https://science.unimelb.edu.au/about/news\"},{\"title\":\"Our leadership team\",\"href\":\"https://science.unimelb.edu.au/about/faculty-of-science-"
+  },
+  {
+    "url": "https://science.unimelb.edu.au/students/current-indigenous-students",
+    "normalizedUrl": "https://science.unimelb.edu.au/students/current-indigenous-students",
+    "faculty": "science",
+    "unitLevel": "faculty",
+    "title": "Current Indigenous students",
+    "depth": 1,
+    "wordCount": 1161,
+    "classification": "unique",
+    "topicTags": [
+      "inclusion-equity"
+    ],
+    "outboundHosts": {
+      "science.unimelb.edu.au": 6,
+      "study.unimelb.edu.au": 1,
+      "indigenousknowledge.unimelb.edu.au": 1,
+      "forms.your.unimelb.edu.au": 1,
+      "murrupbarak.unimelb.edu.au": 1,
+      "www.linkedin.com": 2,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "staff.unimelb.edu.au": 1,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 0,
+    "inSectionCount": 6,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Science\",\"external\":false,\"facultyHref\":\"https://science.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About us\",\"href\":\"https://science.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Faculty news and announcements\",\"href\":\"https://science.unimelb.edu.au/about/news\"},{\"title\":\"Our leadership team\",\"href\":\"https://science.unimelb.edu.au/about/faculty-of-science-"
+  },
+  {
+    "url": "https://science.unimelb.edu.au/students/employability",
+    "normalizedUrl": "https://science.unimelb.edu.au/students/employability",
+    "faculty": "science",
+    "unitLevel": "faculty",
+    "title": "Employability in Science",
+    "depth": 1,
+    "wordCount": 1309,
+    "classification": "mixed",
+    "topicTags": [
+      "careers-employability"
+    ],
+    "outboundHosts": {
+      "science.unimelb.edu.au": 5,
+      "ms.unimelb.edu.au": 1,
+      "students.unimelb.edu.au": 23,
+      "www.unimelb.edu.au": 9,
+      "careersonline.unimelb.edu.au": 1,
+      "canvas.lms.unimelb.edu.au": 2,
+      "umsu.unimelb.edu.au": 2,
+      "gsa.unimelb.edu.au": 2,
+      "intl.umsu.unimelb.edu.au": 1,
+      "career-checklist.unimelb.edu.au": 1,
+      "wiseemployment.com.au": 1,
+      "www.linkedin.com": 2,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "staff.unimelb.edu.au": 1,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 23,
+    "inSectionCount": 11,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Science\",\"external\":false,\"facultyHref\":\"https://science.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About us\",\"href\":\"https://science.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Faculty news and announcements\",\"href\":\"https://science.unimelb.edu.au/about/news\"},{\"title\":\"Our leadership team\",\"href\":\"https://science.unimelb.edu.au/about/faculty-of-science-"
+  },
+  {
+    "url": "https://science.unimelb.edu.au/students/employability/career-enrichment-program",
+    "normalizedUrl": "https://science.unimelb.edu.au/students/employability/career-enrichment-program",
+    "faculty": "science",
+    "unitLevel": "faculty",
+    "title": "Career Enrichment Program",
+    "depth": 2,
+    "wordCount": 537,
+    "classification": "unique",
+    "topicTags": [
+      "careers-employability"
+    ],
+    "outboundHosts": {
+      "science.unimelb.edu.au": 3,
+      "careersonline.unimelb.edu.au": 1,
+      "www.linkedin.com": 2,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "staff.unimelb.edu.au": 1,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 0,
+    "inSectionCount": 3,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Science\",\"external\":false,\"facultyHref\":\"https://science.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About us\",\"href\":\"https://science.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Faculty news and announcements\",\"href\":\"https://science.unimelb.edu.au/about/news\"},{\"title\":\"Our leadership team\",\"href\":\"https://science.unimelb.edu.au/about/faculty-of-science-"
+  },
+  {
+    "url": "https://science.unimelb.edu.au/students/enrich-your-studies",
+    "normalizedUrl": "https://science.unimelb.edu.au/students/enrich-your-studies",
+    "faculty": "science",
+    "unitLevel": "faculty",
+    "title": "Enrich your studies",
+    "depth": 1,
+    "wordCount": 515,
+    "classification": "unique",
+    "topicTags": [
+      "academic-skills"
+    ],
+    "outboundHosts": {
+      "science.unimelb.edu.au": 3,
+      "science-enrichment-planner.unimelb.edu.au": 1,
+      "students.unimelb.edu.au": 1,
+      "ms.unimelb.edu.au": 1,
+      "www.linkedin.com": 2,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "staff.unimelb.edu.au": 1,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 1,
+    "inSectionCount": 5,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Science\",\"external\":false,\"facultyHref\":\"https://science.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About us\",\"href\":\"https://science.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Faculty news and announcements\",\"href\":\"https://science.unimelb.edu.au/about/news\"},{\"title\":\"Our leadership team\",\"href\":\"https://science.unimelb.edu.au/about/faculty-of-science-"
+  },
+  {
+    "url": "https://science.unimelb.edu.au/students/enrich-your-studies/academic-skills",
+    "normalizedUrl": "https://science.unimelb.edu.au/students/enrich-your-studies/academic-skills",
+    "faculty": "science",
+    "unitLevel": "faculty",
+    "title": "Build your academic skills",
+    "depth": 2,
+    "wordCount": 612,
+    "classification": "unique",
+    "topicTags": [
+      "academic-skills"
+    ],
+    "outboundHosts": {
+      "science.unimelb.edu.au": 3,
+      "students.unimelb.edu.au": 3,
+      "services.unimelb.edu.au": 1,
+      "www.linkedin.com": 2,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "staff.unimelb.edu.au": 1,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 3,
+    "inSectionCount": 4,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Science\",\"external\":false,\"facultyHref\":\"https://science.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About us\",\"href\":\"https://science.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Faculty news and announcements\",\"href\":\"https://science.unimelb.edu.au/about/news\"},{\"title\":\"Our leadership team\",\"href\":\"https://science.unimelb.edu.au/about/faculty-of-science-"
+  },
+  {
+    "url": "https://science.unimelb.edu.au/students/enrich-your-studies/academic-skills/graduate-science-academic-english-tutorial",
+    "normalizedUrl": "https://science.unimelb.edu.au/students/enrich-your-studies/academic-skills/graduate-science-academic-english-tutorial",
+    "faculty": "science",
+    "unitLevel": "faculty",
+    "title": "Science Academic English Tutorials",
+    "depth": 3,
+    "wordCount": 631,
+    "classification": "unique",
+    "topicTags": [
+      "academic-skills"
+    ],
+    "outboundHosts": {
+      "science.unimelb.edu.au": 3,
+      "melbourneuni.au1.qualtrics.com": 1,
+      "services.unimelb.edu.au": 1,
+      "www.linkedin.com": 2,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "staff.unimelb.edu.au": 1,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 0,
+    "inSectionCount": 4,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Science\",\"external\":false,\"facultyHref\":\"https://science.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About us\",\"href\":\"https://science.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Faculty news and announcements\",\"href\":\"https://science.unimelb.edu.au/about/news\"},{\"title\":\"Our leadership team\",\"href\":\"https://science.unimelb.edu.au/about/faculty-of-science-"
+  },
+  {
+    "url": "https://science.unimelb.edu.au/students/enrich-your-studies/industry-projects",
+    "normalizedUrl": "https://science.unimelb.edu.au/students/enrich-your-studies/industry-projects",
+    "faculty": "science",
+    "unitLevel": "faculty",
+    "title": "Industry projects for graduate students",
+    "depth": 2,
+    "wordCount": 1035,
+    "classification": "unique",
+    "topicTags": [
+      "placements-WIL",
+      "careers-employability"
+    ],
+    "outboundHosts": {
+      "science.unimelb.edu.au": 3,
+      "handbook.unimelb.edu.au": 6,
+      "forms.your.unimelb.edu.au": 1,
+      "www.linkedin.com": 2,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "staff.unimelb.edu.au": 1,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 0,
+    "inSectionCount": 3,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Science\",\"external\":false,\"facultyHref\":\"https://science.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About us\",\"href\":\"https://science.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Faculty news and announcements\",\"href\":\"https://science.unimelb.edu.au/about/news\"},{\"title\":\"Our leadership team\",\"href\":\"https://science.unimelb.edu.au/about/faculty-of-science-"
+  },
+  {
+    "url": "https://science.unimelb.edu.au/students/enrich-your-studies/internship-subjects",
+    "normalizedUrl": "https://science.unimelb.edu.au/students/enrich-your-studies/internship-subjects",
+    "faculty": "science",
+    "unitLevel": "faculty",
+    "title": "Internships in the Faculty of Science",
+    "depth": 2,
+    "wordCount": 2666,
+    "classification": "unique",
+    "topicTags": [
+      "subjects-timetable",
+      "placements-WIL",
+      "careers-employability"
+    ],
+    "outboundHosts": {
+      "science.unimelb.edu.au": 8,
+      "careersonline.unimelb.edu.au": 1,
+      "industry.science.unimelb.edu.au": 10,
+      "handbook.unimelb.edu.au": 8,
+      "immi.homeaffairs.gov.au": 1,
+      "students.unimelb.edu.au": 1,
+      "gradresearch.unimelb.edu.au": 1,
+      "forms.your.unimelb.edu.au": 1,
+      "www.linkedin.com": 2,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "staff.unimelb.edu.au": 1,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 1,
+    "inSectionCount": 3,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Science\",\"external\":false,\"facultyHref\":\"https://science.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About us\",\"href\":\"https://science.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Faculty news and announcements\",\"href\":\"https://science.unimelb.edu.au/about/news\"},{\"title\":\"Our leadership team\",\"href\":\"https://science.unimelb.edu.au/about/faculty-of-science-"
+  },
+  {
+    "url": "https://science.unimelb.edu.au/students/graduate-research",
+    "normalizedUrl": "https://science.unimelb.edu.au/students/graduate-research",
+    "faculty": "science",
+    "unitLevel": "faculty",
+    "title": "Course guide: Graduate research",
+    "depth": 1,
+    "wordCount": 1144,
+    "classification": "unique",
+    "topicTags": [
+      "research-candidature"
+    ],
+    "outboundHosts": {
+      "science.unimelb.edu.au": 4,
+      "students.unimelb.edu.au": 4,
+      "gradresearch.unimelb.edu.au": 17,
+      "gateway.research.unimelb.edu.au": 1,
+      "services.unimelb.edu.au": 1,
+      "www.linkedin.com": 2,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "staff.unimelb.edu.au": 1,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 4,
+    "inSectionCount": 7,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Science\",\"external\":false,\"facultyHref\":\"https://science.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About us\",\"href\":\"https://science.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Faculty news and announcements\",\"href\":\"https://science.unimelb.edu.au/about/news\"},{\"title\":\"Our leadership team\",\"href\":\"https://science.unimelb.edu.au/about/faculty-of-science-"
+  },
+  {
+    "url": "https://science.unimelb.edu.au/students/graduate-research/contact",
+    "normalizedUrl": "https://science.unimelb.edu.au/students/graduate-research/contact",
+    "faculty": "science",
+    "unitLevel": "faculty",
+    "title": "Important contacts for graduate researchers",
+    "depth": 2,
+    "wordCount": 647,
+    "classification": "unique",
+    "topicTags": [
+      "contacts-support",
+      "research-candidature"
+    ],
+    "outboundHosts": {
+      "science.unimelb.edu.au": 3,
+      "www.linkedin.com": 2,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "staff.unimelb.edu.au": 1,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 0,
+    "inSectionCount": 3,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Science\",\"external\":false,\"facultyHref\":\"https://science.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About us\",\"href\":\"https://science.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Faculty news and announcements\",\"href\":\"https://science.unimelb.edu.au/about/news\"},{\"title\":\"Our leadership team\",\"href\":\"https://science.unimelb.edu.au/about/faculty-of-science-"
+  },
+  {
+    "url": "https://science.unimelb.edu.au/students/graduate-research/events",
+    "normalizedUrl": "https://science.unimelb.edu.au/students/graduate-research/events",
+    "faculty": "science",
+    "unitLevel": "faculty",
+    "title": "Events for graduate researchers",
+    "depth": 2,
+    "wordCount": 879,
+    "classification": "unique",
+    "topicTags": [
+      "clubs-events",
+      "research-candidature"
+    ],
+    "outboundHosts": {
+      "science.unimelb.edu.au": 3,
+      "research.unimelb.edu.au": 3,
+      "ecologyandevolutionatmelbourne.com": 1,
+      "library.unimelb.edu.au": 1,
+      "gradresearch.unimelb.edu.au": 1,
+      "www.linkedin.com": 2,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "staff.unimelb.edu.au": 1,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 0,
+    "inSectionCount": 3,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Science\",\"external\":false,\"facultyHref\":\"https://science.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About us\",\"href\":\"https://science.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Faculty news and announcements\",\"href\":\"https://science.unimelb.edu.au/about/news\"},{\"title\":\"Our leadership team\",\"href\":\"https://science.unimelb.edu.au/about/faculty-of-science-"
+  },
+  {
+    "url": "https://science.unimelb.edu.au/students/graduate-research/faculty-inductions-for-graduate-researchers",
+    "normalizedUrl": "https://science.unimelb.edu.au/students/graduate-research/faculty-inductions-for-graduate-researchers",
+    "faculty": "science",
+    "unitLevel": "faculty",
+    "title": "Online guides and Faculty inductions",
+    "depth": 2,
+    "wordCount": 396,
+    "classification": "unique",
+    "topicTags": [
+      "research-candidature"
+    ],
+    "outboundHosts": {
+      "science.unimelb.edu.au": 3,
+      "www.linkedin.com": 2,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "staff.unimelb.edu.au": 1,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 0,
+    "inSectionCount": 3,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Science\",\"external\":false,\"facultyHref\":\"https://science.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About us\",\"href\":\"https://science.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Faculty news and announcements\",\"href\":\"https://science.unimelb.edu.au/about/news\"},{\"title\":\"Our leadership team\",\"href\":\"https://science.unimelb.edu.au/about/faculty-of-science-"
+  },
+  {
+    "url": "https://science.unimelb.edu.au/students/graduate-research/graduate-research-scholarships",
+    "normalizedUrl": "https://science.unimelb.edu.au/students/graduate-research/graduate-research-scholarships",
+    "faculty": "science",
+    "unitLevel": "faculty",
+    "title": "Graduate research scholarships",
+    "depth": 2,
+    "wordCount": 794,
+    "classification": "unique",
+    "topicTags": [
+      "scholarships",
+      "research-candidature"
+    ],
+    "outboundHosts": {
+      "science.unimelb.edu.au": 3,
+      "scholarships.unimelb.edu.au": 6,
+      "smartfertiliserhub.org.au": 1,
+      "www.linkedin.com": 2,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "staff.unimelb.edu.au": 1,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 0,
+    "inSectionCount": 4,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Science\",\"external\":false,\"facultyHref\":\"https://science.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About us\",\"href\":\"https://science.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Faculty news and announcements\",\"href\":\"https://science.unimelb.edu.au/about/news\"},{\"title\":\"Our leadership team\",\"href\":\"https://science.unimelb.edu.au/about/faculty-of-science-"
+  },
+  {
+    "url": "https://science.unimelb.edu.au/students/q-fever-vaccinations",
+    "normalizedUrl": "https://science.unimelb.edu.au/students/q-fever-vaccinations",
+    "faculty": "science",
+    "unitLevel": "faculty",
+    "title": "Q fever vaccinations",
+    "depth": 2,
+    "wordCount": 706,
+    "classification": "unique",
+    "topicTags": [
+      "wellbeing-health"
+    ],
+    "outboundHosts": {
+      "science.unimelb.edu.au": 3,
+      "www.health.vic.gov.au": 1,
+      "www.betterhealth.vic.gov.au": 1,
+      "services.unimelb.edu.au": 1,
+      "www.linkedin.com": 2,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "staff.unimelb.edu.au": 1,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 0,
+    "inSectionCount": 2,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Science\",\"external\":false,\"facultyHref\":\"https://science.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About us\",\"href\":\"https://science.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Faculty news and announcements\",\"href\":\"https://science.unimelb.edu.au/about/news\"},{\"title\":\"Our leadership team\",\"href\":\"https://science.unimelb.edu.au/about/faculty-of-science-"
+  },
+  {
+    "url": "https://science.unimelb.edu.au/students/quota-subjects",
+    "normalizedUrl": "https://science.unimelb.edu.au/students/quota-subjects",
+    "faculty": "science",
+    "unitLevel": "faculty",
+    "title": "Quota subjects",
+    "depth": 2,
+    "wordCount": 1774,
+    "classification": "unique",
+    "topicTags": [
+      "course-planning",
+      "subjects-timetable"
+    ],
+    "outboundHosts": {
+      "science.unimelb.edu.au": 3,
+      "handbook.unimelb.edu.au": 1,
+      "students.unimelb.edu.au": 1,
+      "futurestudents.unimelb.edu.au": 1,
+      "biomedicalsciences.unimelb.edu.au": 1,
+      "www.linkedin.com": 2,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "staff.unimelb.edu.au": 1,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 1,
+    "inSectionCount": 2,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Science\",\"external\":false,\"facultyHref\":\"https://science.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About us\",\"href\":\"https://science.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Faculty news and announcements\",\"href\":\"https://science.unimelb.edu.au/about/news\"},{\"title\":\"Our leadership team\",\"href\":\"https://science.unimelb.edu.au/about/faculty-of-science-"
+  },
+  {
+    "url": "https://science.unimelb.edu.au/students/research-project-subjects",
+    "normalizedUrl": "https://science.unimelb.edu.au/students/research-project-subjects",
+    "faculty": "science",
+    "unitLevel": "faculty",
+    "title": "Undergraduate research projects",
+    "depth": 2,
+    "wordCount": 1271,
+    "classification": "unique",
+    "topicTags": [
+      "subjects-timetable",
+      "research-candidature"
+    ],
+    "outboundHosts": {
+      "science.unimelb.edu.au": 3,
+      "findanexpert.unimelb.edu.au": 6,
+      "ask.unimelb.edu.au": 1,
+      "student-research-project.app.unimelb.edu.au": 1,
+      "biomedicalsciences.unimelb.edu.au": 1,
+      "www.linkedin.com": 2,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "staff.unimelb.edu.au": 1,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 0,
+    "inSectionCount": 2,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Science\",\"external\":false,\"facultyHref\":\"https://science.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About us\",\"href\":\"https://science.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Faculty news and announcements\",\"href\":\"https://science.unimelb.edu.au/about/news\"},{\"title\":\"Our leadership team\",\"href\":\"https://science.unimelb.edu.au/about/faculty-of-science-"
+  },
+  {
+    "url": "https://science.unimelb.edu.au/students/scholarships",
+    "normalizedUrl": "https://science.unimelb.edu.au/students/scholarships",
+    "faculty": "science",
+    "unitLevel": "faculty",
+    "title": "Awards, prizes and scholarships",
+    "depth": 1,
+    "wordCount": 657,
+    "classification": "unique",
+    "topicTags": [
+      "scholarships"
+    ],
+    "outboundHosts": {
+      "science.unimelb.edu.au": 4,
+      "scienceunimelb.smartygrants.com.au": 1,
+      "unimelb-scholarships.smartygrants.com.au": 1,
+      "scholarships.unimelb.edu.au": 1,
+      "www.linkedin.com": 2,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "staff.unimelb.edu.au": 1,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 0,
+    "inSectionCount": 8,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Science\",\"external\":false,\"facultyHref\":\"https://science.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About us\",\"href\":\"https://science.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Faculty news and announcements\",\"href\":\"https://science.unimelb.edu.au/about/news\"},{\"title\":\"Our leadership team\",\"href\":\"https://science.unimelb.edu.au/about/faculty-of-science-"
+  },
+  {
+    "url": "https://science.unimelb.edu.au/students/scholarships/deans-honours-list",
+    "normalizedUrl": "https://science.unimelb.edu.au/students/scholarships/deans-honours-list",
+    "faculty": "science",
+    "unitLevel": "faculty",
+    "title": "Dean's Honours List",
+    "depth": 2,
+    "wordCount": 1130,
+    "classification": "unique",
+    "topicTags": [
+      "scholarships"
+    ],
+    "outboundHosts": {
+      "science.unimelb.edu.au": 15,
+      "www.linkedin.com": 2,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "staff.unimelb.edu.au": 1,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 0,
+    "inSectionCount": 6,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Science\",\"external\":false,\"facultyHref\":\"https://science.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About us\",\"href\":\"https://science.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Faculty news and announcements\",\"href\":\"https://science.unimelb.edu.au/about/news\"},{\"title\":\"Our leadership team\",\"href\":\"https://science.unimelb.edu.au/about/faculty-of-science-"
+  },
+  {
+    "url": "https://science.unimelb.edu.au/students/scholarships/deans-honours-list/dhl-photos/2024-dhl/2023-medal-winners",
+    "normalizedUrl": "https://science.unimelb.edu.au/students/scholarships/deans-honours-list/dhl-photos/2024-dhl/2023-medal-winners",
+    "faculty": "science",
+    "unitLevel": "faculty",
+    "title": "2023 Medal Winners",
+    "depth": 3,
+    "wordCount": 638,
+    "classification": "unique",
+    "topicTags": [
+      "scholarships"
+    ],
+    "outboundHosts": {
+      "science.unimelb.edu.au": 3,
+      "www.linkedin.com": 2,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "staff.unimelb.edu.au": 1,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 0,
+    "inSectionCount": 4,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Science\",\"external\":false,\"facultyHref\":\"https://science.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About us\",\"href\":\"https://science.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Faculty news and announcements\",\"href\":\"https://science.unimelb.edu.au/about/news\"},{\"title\":\"Our leadership team\",\"href\":\"https://science.unimelb.edu.au/about/faculty-of-science-"
+  },
+  {
+    "url": "https://science.unimelb.edu.au/students/scholarships/deans-honours-list/dhl-photos/2024-dhl/deans-honours-list-2023",
+    "normalizedUrl": "https://science.unimelb.edu.au/students/scholarships/deans-honours-list/dhl-photos/2024-dhl/deans-honours-list-2023",
+    "faculty": "science",
+    "unitLevel": "faculty",
+    "title": "Dean's Honours List 2023",
+    "depth": 3,
+    "wordCount": 853,
+    "classification": "unique",
+    "topicTags": [
+      "scholarships"
+    ],
+    "outboundHosts": {
+      "science.unimelb.edu.au": 3,
+      "www.linkedin.com": 2,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "staff.unimelb.edu.au": 1,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 0,
+    "inSectionCount": 4,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Science\",\"external\":false,\"facultyHref\":\"https://science.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About us\",\"href\":\"https://science.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Faculty news and announcements\",\"href\":\"https://science.unimelb.edu.au/about/news\"},{\"title\":\"Our leadership team\",\"href\":\"https://science.unimelb.edu.au/about/faculty-of-science-"
+  },
+  {
+    "url": "https://science.unimelb.edu.au/students/scholarships/deans-honours-list/dhl-photos/2025-dhl/2024-medal-winners",
+    "normalizedUrl": "https://science.unimelb.edu.au/students/scholarships/deans-honours-list/dhl-photos/2025-dhl/2024-medal-winners",
+    "faculty": "science",
+    "unitLevel": "faculty",
+    "title": "2024 Medal Winners",
+    "depth": 3,
+    "wordCount": 602,
+    "classification": "unique",
+    "topicTags": [
+      "scholarships"
+    ],
+    "outboundHosts": {
+      "science.unimelb.edu.au": 3,
+      "www.linkedin.com": 2,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "staff.unimelb.edu.au": 1,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 0,
+    "inSectionCount": 4,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Science\",\"external\":false,\"facultyHref\":\"https://science.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About us\",\"href\":\"https://science.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Faculty news and announcements\",\"href\":\"https://science.unimelb.edu.au/about/news\"},{\"title\":\"Our leadership team\",\"href\":\"https://science.unimelb.edu.au/about/faculty-of-science-"
+  },
+  {
+    "url": "https://science.unimelb.edu.au/students/scholarships/dookie-scholarship-applications",
+    "normalizedUrl": "https://science.unimelb.edu.au/students/scholarships/dookie-scholarship-applications",
+    "faculty": "science",
+    "unitLevel": "faculty",
+    "title": "Dookie scholarship applications",
+    "depth": 3,
+    "wordCount": 788,
+    "classification": "unique",
+    "topicTags": [
+      "scholarships"
+    ],
+    "outboundHosts": {
+      "science.unimelb.edu.au": 3,
+      "scholarships.unimelb.edu.au": 6,
+      "www.doctorconnect.gov.au": 1,
+      "www.linkedin.com": 2,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "staff.unimelb.edu.au": 1,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 0,
+    "inSectionCount": 2,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Science\",\"external\":false,\"facultyHref\":\"https://science.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About us\",\"href\":\"https://science.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Faculty news and announcements\",\"href\":\"https://science.unimelb.edu.au/about/news\"},{\"title\":\"Our leadership team\",\"href\":\"https://science.unimelb.edu.au/about/faculty-of-science-"
+  },
+  {
+    "url": "https://science.unimelb.edu.au/students/scholarships/faq",
+    "normalizedUrl": "https://science.unimelb.edu.au/students/scholarships/faq",
+    "faculty": "science",
+    "unitLevel": "faculty",
+    "title": "Frequently asked questions about scholarships | Faculty of Science, The University of Melbourne",
+    "depth": 2,
+    "wordCount": 1962,
+    "classification": "unique",
+    "topicTags": [
+      "scholarships",
+      "contacts-support"
+    ],
+    "outboundHosts": {
+      "science.unimelb.edu.au": 3,
+      "unimelb-scholarships.smartygrants.com.au": 1,
+      "www.doctorconnect.gov.au": 1,
+      "www.smartygrants.com.au": 1,
+      "students.unimelb.edu.au": 6,
+      "ask.unimelb.edu.au": 1,
+      "forms.your.unimelb.edu.au": 1,
+      "www.linkedin.com": 2,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "staff.unimelb.edu.au": 1,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 6,
+    "inSectionCount": 4,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Science\",\"external\":false,\"facultyHref\":\"https://science.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About us\",\"href\":\"https://science.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Faculty news and announcements\",\"href\":\"https://science.unimelb.edu.au/about/news\"},{\"title\":\"Our leadership team\",\"href\":\"https://science.unimelb.edu.au/about/faculty-of-science-"
+  },
+  {
+    "url": "https://science.unimelb.edu.au/students/scholarships/prizes",
+    "normalizedUrl": "https://science.unimelb.edu.au/students/scholarships/prizes",
+    "faculty": "science",
+    "unitLevel": "faculty",
+    "title": "Prizes for top performing students",
+    "depth": 2,
+    "wordCount": 1128,
+    "classification": "unique",
+    "topicTags": [
+      "scholarships"
+    ],
+    "outboundHosts": {
+      "science.unimelb.edu.au": 3,
+      "scholarships.unimelb.edu.au": 138,
+      "www.linkedin.com": 2,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "staff.unimelb.edu.au": 1,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 0,
+    "inSectionCount": 3,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Science\",\"external\":false,\"facultyHref\":\"https://science.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About us\",\"href\":\"https://science.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Faculty news and announcements\",\"href\":\"https://science.unimelb.edu.au/about/news\"},{\"title\":\"Our leadership team\",\"href\":\"https://science.unimelb.edu.au/about/faculty-of-science-"
+  },
+  {
+    "url": "https://science.unimelb.edu.au/students/scholarships/scholarship-recipients",
+    "normalizedUrl": "https://science.unimelb.edu.au/students/scholarships/scholarship-recipients",
+    "faculty": "science",
+    "unitLevel": "faculty",
+    "title": "Scholarships, Prizes and Awards Recipients",
+    "depth": 2,
+    "wordCount": 1604,
+    "classification": "unique",
+    "topicTags": [
+      "scholarships"
+    ],
+    "outboundHosts": {
+      "science.unimelb.edu.au": 3,
+      "scholarships.unimelb.edu.au": 8,
+      "www.linkedin.com": 2,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "staff.unimelb.edu.au": 1,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 0,
+    "inSectionCount": 3,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Science\",\"external\":false,\"facultyHref\":\"https://science.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About us\",\"href\":\"https://science.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Faculty news and announcements\",\"href\":\"https://science.unimelb.edu.au/about/news\"},{\"title\":\"Our leadership team\",\"href\":\"https://science.unimelb.edu.au/about/faculty-of-science-"
+  },
+  {
+    "url": "https://science.unimelb.edu.au/students/scholarships/scholarships",
+    "normalizedUrl": "https://science.unimelb.edu.au/students/scholarships/scholarships",
+    "faculty": "science",
+    "unitLevel": "faculty",
+    "title": "Scholarships",
+    "depth": 2,
+    "wordCount": 683,
+    "classification": "unique",
+    "topicTags": [
+      "scholarships"
+    ],
+    "outboundHosts": {
+      "science.unimelb.edu.au": 3,
+      "scholarships.unimelb.edu.au": 9,
+      "www.linkedin.com": 2,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "staff.unimelb.edu.au": 1,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 0,
+    "inSectionCount": 5,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Science\",\"external\":false,\"facultyHref\":\"https://science.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About us\",\"href\":\"https://science.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Faculty news and announcements\",\"href\":\"https://science.unimelb.edu.au/about/news\"},{\"title\":\"Our leadership team\",\"href\":\"https://science.unimelb.edu.au/about/faculty-of-science-"
+  },
+  {
+    "url": "https://science.unimelb.edu.au/students/scholarships/scholarships/open-scholarships",
+    "normalizedUrl": "https://science.unimelb.edu.au/students/scholarships/scholarships/open-scholarships",
+    "faculty": "science",
+    "unitLevel": "faculty",
+    "title": "Open scholarships",
+    "depth": 2,
+    "wordCount": 1293,
+    "classification": "unique",
+    "topicTags": [
+      "scholarships"
+    ],
+    "outboundHosts": {
+      "science.unimelb.edu.au": 3,
+      "scholarships.unimelb.edu.au": 127,
+      "scienceunimelb.smartygrants.com.au": 1,
+      "facultyofsciencetheuniversityofmelbourne.createsend1.com": 1,
+      "gradresearch.unimelb.edu.au": 1,
+      "www.linkedin.com": 2,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "staff.unimelb.edu.au": 1,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 0,
+    "inSectionCount": 4,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Science\",\"external\":false,\"facultyHref\":\"https://science.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About us\",\"href\":\"https://science.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Faculty news and announcements\",\"href\":\"https://science.unimelb.edu.au/about/news\"},{\"title\":\"Our leadership team\",\"href\":\"https://science.unimelb.edu.au/about/faculty-of-science-"
+  },
+  {
+    "url": "https://science.unimelb.edu.au/students/scholarships/scholarships/other-scholarships/industry-scholarships",
+    "normalizedUrl": "https://science.unimelb.edu.au/students/scholarships/scholarships/other-scholarships/industry-scholarships",
+    "faculty": "science",
+    "unitLevel": "faculty",
+    "title": "Industry, external and other research scholarships",
+    "depth": 3,
+    "wordCount": 631,
+    "classification": "unique",
+    "topicTags": [
+      "scholarships"
+    ],
+    "outboundHosts": {
+      "science.unimelb.edu.au": 6,
+      "scholarships.unimelb.edu.au": 16,
+      "mdhs.unimelb.edu.au": 1,
+      "www.rbms.org.au": 2,
+      "eng.unimelb.edu.au": 4,
+      "agrifutures.com.au": 2,
+      "www.aarnutrition.com.au": 2,
+      "www.gardinerfoundation.com.au": 1,
+      "www.rspcapetinsurance.org.au": 1,
+      "worldvet.org": 1,
+      "www.crawfordfund.org": 1,
+      "grdc.com.au": 1,
+      "www.ruralbank.com.au": 1,
+      "trustfornature.org.au": 1,
+      "www.sfa.gov.sg": 1,
+      "agriculture.vic.gov.au": 1,
+      "21centuryweather.org.au": 2,
+      "veac.vic.gov.au": 1,
+      "www.atse.org.au": 1,
+      "www.austchinaalumni.org": 1,
+      "www.johnmonash.com": 2,
+      "www.fulbright.org.au": 1,
+      "maryjanelewis.com.au": 1,
+      "www.linkedin.com": 2,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "staff.unimelb.edu.au": 1,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 0,
+    "inSectionCount": 4,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Science\",\"external\":false,\"facultyHref\":\"https://science.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About us\",\"href\":\"https://science.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Faculty news and announcements\",\"href\":\"https://science.unimelb.edu.au/about/news\"},{\"title\":\"Our leadership team\",\"href\":\"https://science.unimelb.edu.au/about/faculty-of-science-"
+  },
+  {
+    "url": "https://science.unimelb.edu.au/students/student-life",
+    "normalizedUrl": "https://science.unimelb.edu.au/students/student-life",
+    "faculty": "science",
+    "unitLevel": "faculty",
+    "title": "Student life in the Faculty of Science",
+    "depth": 1,
+    "wordCount": 518,
+    "classification": "unique",
+    "topicTags": [
+      "student-life"
+    ],
+    "outboundHosts": {
+      "science.unimelb.edu.au": 3,
+      "students.unimelb.edu.au": 1,
+      "www.linkedin.com": 2,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "staff.unimelb.edu.au": 1,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 1,
+    "inSectionCount": 6,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Science\",\"external\":false,\"facultyHref\":\"https://science.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About us\",\"href\":\"https://science.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Faculty news and announcements\",\"href\":\"https://science.unimelb.edu.au/about/news\"},{\"title\":\"Our leadership team\",\"href\":\"https://science.unimelb.edu.au/about/faculty-of-science-"
+  },
+  {
+    "url": "https://science.unimelb.edu.au/students/student-life/student-life-and-societies",
+    "normalizedUrl": "https://science.unimelb.edu.au/students/student-life/student-life-and-societies",
+    "faculty": "science",
+    "unitLevel": "faculty",
+    "title": "Student Clubs and Societies",
+    "depth": 2,
+    "wordCount": 1163,
+    "classification": "unique",
+    "topicTags": [
+      "student-life",
+      "clubs-events"
+    ],
+    "outboundHosts": {
+      "science.unimelb.edu.au": 3,
+      "umsu.unimelb.edu.au": 15,
+      "melbunisss.org": 1,
+      "gsa.unimelb.edu.au": 7,
+      "umcpc.club": 1,
+      "cissa.org.au": 1,
+      "www.dscubed.org.au": 1,
+      "muees.org": 1,
+      "www.mupaunimelb.com": 1,
+      "murmotorsports.eng.unimelb.edu.au": 1,
+      "www.vssv.com.au": 1,
+      "witunimelb.org.au": 1,
+      "q.surveys.unimelb.edu.au": 1,
+      "www.facebook.com": 3,
+      "science-enrichment-planner.unimelb.edu.au": 1,
+      "www.linkedin.com": 2,
+      "www.instagram.com": 2,
+      "staff.unimelb.edu.au": 1,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 0,
+    "inSectionCount": 3,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Science\",\"external\":false,\"facultyHref\":\"https://science.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About us\",\"href\":\"https://science.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Faculty news and announcements\",\"href\":\"https://science.unimelb.edu.au/about/news\"},{\"title\":\"Our leadership team\",\"href\":\"https://science.unimelb.edu.au/about/faculty-of-science-"
+  },
+  {
+    "url": "https://science.unimelb.edu.au/students/student-life/student-staff-reference-committee",
+    "normalizedUrl": "https://science.unimelb.edu.au/students/student-life/student-staff-reference-committee",
+    "faculty": "science",
+    "unitLevel": "faculty",
+    "title": "Student-Staff Reference Committee",
+    "depth": 2,
+    "wordCount": 960,
+    "classification": "unique",
+    "topicTags": [
+      "student-life"
+    ],
+    "outboundHosts": {
+      "science.unimelb.edu.au": 3,
+      "q.surveys.unimelb.edu.au": 1,
+      "www.linkedin.com": 2,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "staff.unimelb.edu.au": 1,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 0,
+    "inSectionCount": 31,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Science\",\"external\":false,\"facultyHref\":\"https://science.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About us\",\"href\":\"https://science.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Faculty news and announcements\",\"href\":\"https://science.unimelb.edu.au/about/news\"},{\"title\":\"Our leadership team\",\"href\":\"https://science.unimelb.edu.au/about/faculty-of-science-"
+  },
+  {
+    "url": "https://science.unimelb.edu.au/students/student-life/student-staff-reference-committee/committee-members/hannah-ramsey",
+    "normalizedUrl": "https://science.unimelb.edu.au/students/student-life/student-staff-reference-committee/committee-members/hannah-ramsey",
+    "faculty": "science",
+    "unitLevel": "faculty",
+    "title": "Hannah Ramsey",
+    "depth": 3,
+    "wordCount": 368,
+    "classification": "unique",
+    "topicTags": [
+      "student-life"
+    ],
+    "outboundHosts": {
+      "science.unimelb.edu.au": 3,
+      "www.linkedin.com": 2,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "staff.unimelb.edu.au": 1,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 0,
+    "inSectionCount": 4,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Science\",\"external\":false,\"facultyHref\":\"https://science.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About us\",\"href\":\"https://science.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Faculty news and announcements\",\"href\":\"https://science.unimelb.edu.au/about/news\"},{\"title\":\"Our leadership team\",\"href\":\"https://science.unimelb.edu.au/about/faculty-of-science-"
+  },
+  {
+    "url": "https://science.unimelb.edu.au/students/student-life/student-staff-reference-committee/committee-members/kylie-wang",
+    "normalizedUrl": "https://science.unimelb.edu.au/students/student-life/student-staff-reference-committee/committee-members/kylie-wang",
+    "faculty": "science",
+    "unitLevel": "faculty",
+    "title": "Kylie Wang",
+    "depth": 3,
+    "wordCount": 416,
+    "classification": "unique",
+    "topicTags": [
+      "student-life"
+    ],
+    "outboundHosts": {
+      "science.unimelb.edu.au": 3,
+      "www.linkedin.com": 2,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "staff.unimelb.edu.au": 1,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 0,
+    "inSectionCount": 4,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Science\",\"external\":false,\"facultyHref\":\"https://science.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About us\",\"href\":\"https://science.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Faculty news and announcements\",\"href\":\"https://science.unimelb.edu.au/about/news\"},{\"title\":\"Our leadership team\",\"href\":\"https://science.unimelb.edu.au/about/faculty-of-science-"
+  },
+  {
+    "url": "https://science.unimelb.edu.au/students/student-life/student-staff-reference-committee/committee-members/louisa-zhu",
+    "normalizedUrl": "https://science.unimelb.edu.au/students/student-life/student-staff-reference-committee/committee-members/louisa-zhu",
+    "faculty": "science",
+    "unitLevel": "faculty",
+    "title": "Louisa Zhu",
+    "depth": 3,
+    "wordCount": 379,
+    "classification": "unique",
+    "topicTags": [
+      "student-life"
+    ],
+    "outboundHosts": {
+      "science.unimelb.edu.au": 3,
+      "www.linkedin.com": 2,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "staff.unimelb.edu.au": 1,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 0,
+    "inSectionCount": 4,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Science\",\"external\":false,\"facultyHref\":\"https://science.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About us\",\"href\":\"https://science.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Faculty news and announcements\",\"href\":\"https://science.unimelb.edu.au/about/news\"},{\"title\":\"Our leadership team\",\"href\":\"https://science.unimelb.edu.au/about/faculty-of-science-"
+  },
+  {
+    "url": "https://science.unimelb.edu.au/students/student-life/student-staff-reference-committee/committee-members/maxwell-chivers",
+    "normalizedUrl": "https://science.unimelb.edu.au/students/student-life/student-staff-reference-committee/committee-members/maxwell-chivers",
+    "faculty": "science",
+    "unitLevel": "faculty",
+    "title": "Maxwell Chivers",
+    "depth": 3,
+    "wordCount": 391,
+    "classification": "unique",
+    "topicTags": [
+      "student-life"
+    ],
+    "outboundHosts": {
+      "science.unimelb.edu.au": 3,
+      "www.linkedin.com": 2,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "staff.unimelb.edu.au": 1,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 0,
+    "inSectionCount": 4,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Science\",\"external\":false,\"facultyHref\":\"https://science.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About us\",\"href\":\"https://science.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Faculty news and announcements\",\"href\":\"https://science.unimelb.edu.au/about/news\"},{\"title\":\"Our leadership team\",\"href\":\"https://science.unimelb.edu.au/about/faculty-of-science-"
+  },
+  {
+    "url": "https://science.unimelb.edu.au/students/student-life/student-staff-reference-committee/committee-members/patsy-quan",
+    "normalizedUrl": "https://science.unimelb.edu.au/students/student-life/student-staff-reference-committee/committee-members/patsy-quan",
+    "faculty": "science",
+    "unitLevel": "faculty",
+    "title": "Patsy Quan",
+    "depth": 3,
+    "wordCount": 387,
+    "classification": "unique",
+    "topicTags": [
+      "student-life"
+    ],
+    "outboundHosts": {
+      "science.unimelb.edu.au": 3,
+      "www.linkedin.com": 2,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "staff.unimelb.edu.au": 1,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 0,
+    "inSectionCount": 4,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Science\",\"external\":false,\"facultyHref\":\"https://science.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About us\",\"href\":\"https://science.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Faculty news and announcements\",\"href\":\"https://science.unimelb.edu.au/about/news\"},{\"title\":\"Our leadership team\",\"href\":\"https://science.unimelb.edu.au/about/faculty-of-science-"
+  },
+  {
+    "url": "https://science.unimelb.edu.au/students/student-life/student-staff-reference-committee/committee-members/rudra-tiwari",
+    "normalizedUrl": "https://science.unimelb.edu.au/students/student-life/student-staff-reference-committee/committee-members/rudra-tiwari",
+    "faculty": "science",
+    "unitLevel": "faculty",
+    "title": "Rudra Tiwari",
+    "depth": 3,
+    "wordCount": 420,
+    "classification": "unique",
+    "topicTags": [
+      "student-life"
+    ],
+    "outboundHosts": {
+      "science.unimelb.edu.au": 3,
+      "www.linkedin.com": 2,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "staff.unimelb.edu.au": 1,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 0,
+    "inSectionCount": 4,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Science\",\"external\":false,\"facultyHref\":\"https://science.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About us\",\"href\":\"https://science.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Faculty news and announcements\",\"href\":\"https://science.unimelb.edu.au/about/news\"},{\"title\":\"Our leadership team\",\"href\":\"https://science.unimelb.edu.au/about/faculty-of-science-"
+  },
+  {
+    "url": "https://science.unimelb.edu.au/students/student-life/student-staff-reference-committee/committee-members/ryder-browne",
+    "normalizedUrl": "https://science.unimelb.edu.au/students/student-life/student-staff-reference-committee/committee-members/ryder-browne",
+    "faculty": "science",
+    "unitLevel": "faculty",
+    "title": "Ryder Browne",
+    "depth": 3,
+    "wordCount": 350,
+    "classification": "unique",
+    "topicTags": [
+      "student-life"
+    ],
+    "outboundHosts": {
+      "science.unimelb.edu.au": 3,
+      "www.linkedin.com": 2,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "staff.unimelb.edu.au": 1,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 0,
+    "inSectionCount": 4,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Science\",\"external\":false,\"facultyHref\":\"https://science.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About us\",\"href\":\"https://science.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Faculty news and announcements\",\"href\":\"https://science.unimelb.edu.au/about/news\"},{\"title\":\"Our leadership team\",\"href\":\"https://science.unimelb.edu.au/about/faculty-of-science-"
+  },
+  {
+    "url": "https://science.unimelb.edu.au/students/student-life/student-staff-reference-committee/committee-members/shreya-shrivastava",
+    "normalizedUrl": "https://science.unimelb.edu.au/students/student-life/student-staff-reference-committee/committee-members/shreya-shrivastava",
+    "faculty": "science",
+    "unitLevel": "faculty",
+    "title": "Shreya Shrivastava",
+    "depth": 3,
+    "wordCount": 434,
+    "classification": "unique",
+    "topicTags": [
+      "student-life"
+    ],
+    "outboundHosts": {
+      "science.unimelb.edu.au": 3,
+      "www.linkedin.com": 2,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "staff.unimelb.edu.au": 1,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 0,
+    "inSectionCount": 4,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Science\",\"external\":false,\"facultyHref\":\"https://science.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About us\",\"href\":\"https://science.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Faculty news and announcements\",\"href\":\"https://science.unimelb.edu.au/about/news\"},{\"title\":\"Our leadership team\",\"href\":\"https://science.unimelb.edu.au/about/faculty-of-science-"
+  },
+  {
+    "url": "https://science.unimelb.edu.au/students/student-life/student-staff-reference-committee/committee-members/yu-zhang",
+    "normalizedUrl": "https://science.unimelb.edu.au/students/student-life/student-staff-reference-committee/committee-members/yu-zhang",
+    "faculty": "science",
+    "unitLevel": "faculty",
+    "title": "Yu Zhang",
+    "depth": 3,
+    "wordCount": 409,
+    "classification": "unique",
+    "topicTags": [
+      "student-life"
+    ],
+    "outboundHosts": {
+      "science.unimelb.edu.au": 3,
+      "www.linkedin.com": 2,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "staff.unimelb.edu.au": 1,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 0,
+    "inSectionCount": 4,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Science\",\"external\":false,\"facultyHref\":\"https://science.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About us\",\"href\":\"https://science.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Faculty news and announcements\",\"href\":\"https://science.unimelb.edu.au/about/news\"},{\"title\":\"Our leadership team\",\"href\":\"https://science.unimelb.edu.au/about/faculty-of-science-"
+  },
+  {
+    "url": "https://science.unimelb.edu.au/students/student-life/student-staff-reference-committee/committee-members/zirui-oscar-xu",
+    "normalizedUrl": "https://science.unimelb.edu.au/students/student-life/student-staff-reference-committee/committee-members/zirui-oscar-xu",
+    "faculty": "science",
+    "unitLevel": "faculty",
+    "title": "Zirui (Oscar) Xu",
+    "depth": 3,
+    "wordCount": 408,
+    "classification": "unique",
+    "topicTags": [
+      "student-life"
+    ],
+    "outboundHosts": {
+      "science.unimelb.edu.au": 3,
+      "www.linkedin.com": 2,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "staff.unimelb.edu.au": 1,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 0,
+    "inSectionCount": 4,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Science\",\"external\":false,\"facultyHref\":\"https://science.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About us\",\"href\":\"https://science.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Faculty news and announcements\",\"href\":\"https://science.unimelb.edu.au/about/news\"},{\"title\":\"Our leadership team\",\"href\":\"https://science.unimelb.edu.au/about/faculty-of-science-"
+  },
+  {
+    "url": "https://science.unimelb.edu.au/students/student-life/student-staff-reference-committee/grad-ssrc-2026-committee-bios/adinda-putri",
+    "normalizedUrl": "https://science.unimelb.edu.au/students/student-life/student-staff-reference-committee/grad-ssrc-2026-committee-bios/adinda-putri",
+    "faculty": "science",
+    "unitLevel": "faculty",
+    "title": "Adinda Putri",
+    "depth": 3,
+    "wordCount": 316,
+    "classification": "unique",
+    "topicTags": [
+      "student-life"
+    ],
+    "outboundHosts": {
+      "science.unimelb.edu.au": 3,
+      "www.linkedin.com": 2,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "staff.unimelb.edu.au": 1,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 0,
+    "inSectionCount": 4,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Science\",\"external\":false,\"facultyHref\":\"https://science.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About us\",\"href\":\"https://science.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Faculty news and announcements\",\"href\":\"https://science.unimelb.edu.au/about/news\"},{\"title\":\"Our leadership team\",\"href\":\"https://science.unimelb.edu.au/about/faculty-of-science-"
+  },
+  {
+    "url": "https://science.unimelb.edu.au/students/student-life/student-staff-reference-committee/grad-ssrc-2026-committee-bios/arati-chaskar",
+    "normalizedUrl": "https://science.unimelb.edu.au/students/student-life/student-staff-reference-committee/grad-ssrc-2026-committee-bios/arati-chaskar",
+    "faculty": "science",
+    "unitLevel": "faculty",
+    "title": "Arati Chandrakant Chaskar",
+    "depth": 3,
+    "wordCount": 372,
+    "classification": "unique",
+    "topicTags": [
+      "student-life",
+      "contacts-support"
+    ],
+    "outboundHosts": {
+      "science.unimelb.edu.au": 3,
+      "www.linkedin.com": 2,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "staff.unimelb.edu.au": 1,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 0,
+    "inSectionCount": 4,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Science\",\"external\":false,\"facultyHref\":\"https://science.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About us\",\"href\":\"https://science.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Faculty news and announcements\",\"href\":\"https://science.unimelb.edu.au/about/news\"},{\"title\":\"Our leadership team\",\"href\":\"https://science.unimelb.edu.au/about/faculty-of-science-"
+  },
+  {
+    "url": "https://science.unimelb.edu.au/students/student-life/student-staff-reference-committee/grad-ssrc-2026-committee-bios/beth-hebdon",
+    "normalizedUrl": "https://science.unimelb.edu.au/students/student-life/student-staff-reference-committee/grad-ssrc-2026-committee-bios/beth-hebdon",
+    "faculty": "science",
+    "unitLevel": "faculty",
+    "title": "Beth Hebdon",
+    "depth": 3,
+    "wordCount": 320,
+    "classification": "unique",
+    "topicTags": [
+      "student-life"
+    ],
+    "outboundHosts": {
+      "science.unimelb.edu.au": 3,
+      "www.linkedin.com": 2,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "staff.unimelb.edu.au": 1,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 0,
+    "inSectionCount": 4,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Science\",\"external\":false,\"facultyHref\":\"https://science.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About us\",\"href\":\"https://science.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Faculty news and announcements\",\"href\":\"https://science.unimelb.edu.au/about/news\"},{\"title\":\"Our leadership team\",\"href\":\"https://science.unimelb.edu.au/about/faculty-of-science-"
+  },
+  {
+    "url": "https://science.unimelb.edu.au/students/student-life/student-staff-reference-committee/grad-ssrc-2026-committee-bios/bothainah-sharrofna",
+    "normalizedUrl": "https://science.unimelb.edu.au/students/student-life/student-staff-reference-committee/grad-ssrc-2026-committee-bios/bothainah-sharrofna",
+    "faculty": "science",
+    "unitLevel": "faculty",
+    "title": "Bothainah Sharrofna",
+    "depth": 3,
+    "wordCount": 446,
+    "classification": "unique",
+    "topicTags": [
+      "student-life"
+    ],
+    "outboundHosts": {
+      "science.unimelb.edu.au": 3,
+      "www.linkedin.com": 2,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "staff.unimelb.edu.au": 1,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 0,
+    "inSectionCount": 4,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Science\",\"external\":false,\"facultyHref\":\"https://science.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About us\",\"href\":\"https://science.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Faculty news and announcements\",\"href\":\"https://science.unimelb.edu.au/about/news\"},{\"title\":\"Our leadership team\",\"href\":\"https://science.unimelb.edu.au/about/faculty-of-science-"
+  },
+  {
+    "url": "https://science.unimelb.edu.au/students/student-life/student-staff-reference-committee/grad-ssrc-2026-committee-bios/georgia-juler",
+    "normalizedUrl": "https://science.unimelb.edu.au/students/student-life/student-staff-reference-committee/grad-ssrc-2026-committee-bios/georgia-juler",
+    "faculty": "science",
+    "unitLevel": "faculty",
+    "title": "Georgia Juler",
+    "depth": 3,
+    "wordCount": 374,
+    "classification": "unique",
+    "topicTags": [
+      "student-life"
+    ],
+    "outboundHosts": {
+      "science.unimelb.edu.au": 3,
+      "www.linkedin.com": 2,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "staff.unimelb.edu.au": 1,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 0,
+    "inSectionCount": 4,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Science\",\"external\":false,\"facultyHref\":\"https://science.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About us\",\"href\":\"https://science.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Faculty news and announcements\",\"href\":\"https://science.unimelb.edu.au/about/news\"},{\"title\":\"Our leadership team\",\"href\":\"https://science.unimelb.edu.au/about/faculty-of-science-"
+  },
+  {
+    "url": "https://science.unimelb.edu.au/students/student-life/student-staff-reference-committee/grad-ssrc-2026-committee-bios/hafsah-ramjane",
+    "normalizedUrl": "https://science.unimelb.edu.au/students/student-life/student-staff-reference-committee/grad-ssrc-2026-committee-bios/hafsah-ramjane",
+    "faculty": "science",
+    "unitLevel": "faculty",
+    "title": "Hafsah Ramjane",
+    "depth": 3,
+    "wordCount": 363,
+    "classification": "unique",
+    "topicTags": [
+      "student-life"
+    ],
+    "outboundHosts": {
+      "science.unimelb.edu.au": 3,
+      "www.linkedin.com": 2,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "staff.unimelb.edu.au": 1,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 0,
+    "inSectionCount": 4,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Science\",\"external\":false,\"facultyHref\":\"https://science.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About us\",\"href\":\"https://science.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Faculty news and announcements\",\"href\":\"https://science.unimelb.edu.au/about/news\"},{\"title\":\"Our leadership team\",\"href\":\"https://science.unimelb.edu.au/about/faculty-of-science-"
+  },
+  {
+    "url": "https://science.unimelb.edu.au/students/student-life/student-staff-reference-committee/grad-ssrc-2026-committee-bios/hanshi-tang",
+    "normalizedUrl": "https://science.unimelb.edu.au/students/student-life/student-staff-reference-committee/grad-ssrc-2026-committee-bios/hanshi-tang",
+    "faculty": "science",
+    "unitLevel": "faculty",
+    "title": "Hanshi Tang",
+    "depth": 3,
+    "wordCount": 407,
+    "classification": "unique",
+    "topicTags": [
+      "student-life"
+    ],
+    "outboundHosts": {
+      "science.unimelb.edu.au": 3,
+      "www.linkedin.com": 2,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "staff.unimelb.edu.au": 1,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 0,
+    "inSectionCount": 4,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Science\",\"external\":false,\"facultyHref\":\"https://science.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About us\",\"href\":\"https://science.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Faculty news and announcements\",\"href\":\"https://science.unimelb.edu.au/about/news\"},{\"title\":\"Our leadership team\",\"href\":\"https://science.unimelb.edu.au/about/faculty-of-science-"
+  },
+  {
+    "url": "https://science.unimelb.edu.au/students/student-life/student-staff-reference-committee/grad-ssrc-2026-committee-bios/hongyi-liu",
+    "normalizedUrl": "https://science.unimelb.edu.au/students/student-life/student-staff-reference-committee/grad-ssrc-2026-committee-bios/hongyi-liu",
+    "faculty": "science",
+    "unitLevel": "faculty",
+    "title": "Hongyi Liu",
+    "depth": 3,
+    "wordCount": 320,
+    "classification": "unique",
+    "topicTags": [
+      "student-life"
+    ],
+    "outboundHosts": {
+      "science.unimelb.edu.au": 3,
+      "www.linkedin.com": 2,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "staff.unimelb.edu.au": 1,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 0,
+    "inSectionCount": 4,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Science\",\"external\":false,\"facultyHref\":\"https://science.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About us\",\"href\":\"https://science.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Faculty news and announcements\",\"href\":\"https://science.unimelb.edu.au/about/news\"},{\"title\":\"Our leadership team\",\"href\":\"https://science.unimelb.edu.au/about/faculty-of-science-"
+  },
+  {
+    "url": "https://science.unimelb.edu.au/students/student-life/student-staff-reference-committee/grad-ssrc-2026-committee-bios/john-drugli",
+    "normalizedUrl": "https://science.unimelb.edu.au/students/student-life/student-staff-reference-committee/grad-ssrc-2026-committee-bios/john-drugli",
+    "faculty": "science",
+    "unitLevel": "faculty",
+    "title": "John Drugli",
+    "depth": 3,
+    "wordCount": 406,
+    "classification": "unique",
+    "topicTags": [
+      "student-life"
+    ],
+    "outboundHosts": {
+      "science.unimelb.edu.au": 3,
+      "www.linkedin.com": 2,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "staff.unimelb.edu.au": 1,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 0,
+    "inSectionCount": 4,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Science\",\"external\":false,\"facultyHref\":\"https://science.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About us\",\"href\":\"https://science.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Faculty news and announcements\",\"href\":\"https://science.unimelb.edu.au/about/news\"},{\"title\":\"Our leadership team\",\"href\":\"https://science.unimelb.edu.au/about/faculty-of-science-"
+  },
+  {
+    "url": "https://science.unimelb.edu.au/students/student-life/student-staff-reference-committee/grad-ssrc-2026-committee-bios/jordan-russo",
+    "normalizedUrl": "https://science.unimelb.edu.au/students/student-life/student-staff-reference-committee/grad-ssrc-2026-committee-bios/jordan-russo",
+    "faculty": "science",
+    "unitLevel": "faculty",
+    "title": "Jordan Russo",
+    "depth": 3,
+    "wordCount": 384,
+    "classification": "unique",
+    "topicTags": [
+      "student-life"
+    ],
+    "outboundHosts": {
+      "science.unimelb.edu.au": 3,
+      "www.linkedin.com": 2,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "staff.unimelb.edu.au": 1,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 0,
+    "inSectionCount": 4,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Science\",\"external\":false,\"facultyHref\":\"https://science.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About us\",\"href\":\"https://science.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Faculty news and announcements\",\"href\":\"https://science.unimelb.edu.au/about/news\"},{\"title\":\"Our leadership team\",\"href\":\"https://science.unimelb.edu.au/about/faculty-of-science-"
+  },
+  {
+    "url": "https://science.unimelb.edu.au/students/student-life/student-staff-reference-committee/grad-ssrc-2026-committee-bios/justin-lian",
+    "normalizedUrl": "https://science.unimelb.edu.au/students/student-life/student-staff-reference-committee/grad-ssrc-2026-committee-bios/justin-lian",
+    "faculty": "science",
+    "unitLevel": "faculty",
+    "title": "Justin Lian",
+    "depth": 3,
+    "wordCount": 369,
+    "classification": "unique",
+    "topicTags": [
+      "student-life"
+    ],
+    "outboundHosts": {
+      "science.unimelb.edu.au": 3,
+      "www.linkedin.com": 2,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "staff.unimelb.edu.au": 1,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 0,
+    "inSectionCount": 4,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Science\",\"external\":false,\"facultyHref\":\"https://science.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About us\",\"href\":\"https://science.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Faculty news and announcements\",\"href\":\"https://science.unimelb.edu.au/about/news\"},{\"title\":\"Our leadership team\",\"href\":\"https://science.unimelb.edu.au/about/faculty-of-science-"
+  },
+  {
+    "url": "https://science.unimelb.edu.au/students/student-life/student-staff-reference-committee/grad-ssrc-2026-committee-bios/luca-thomas",
+    "normalizedUrl": "https://science.unimelb.edu.au/students/student-life/student-staff-reference-committee/grad-ssrc-2026-committee-bios/luca-thomas",
+    "faculty": "science",
+    "unitLevel": "faculty",
+    "title": "Luca Thomas",
+    "depth": 3,
+    "wordCount": 316,
+    "classification": "unique",
+    "topicTags": [
+      "student-life"
+    ],
+    "outboundHosts": {
+      "science.unimelb.edu.au": 3,
+      "www.linkedin.com": 2,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "staff.unimelb.edu.au": 1,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 0,
+    "inSectionCount": 4,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Science\",\"external\":false,\"facultyHref\":\"https://science.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About us\",\"href\":\"https://science.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Faculty news and announcements\",\"href\":\"https://science.unimelb.edu.au/about/news\"},{\"title\":\"Our leadership team\",\"href\":\"https://science.unimelb.edu.au/about/faculty-of-science-"
+  },
+  {
+    "url": "https://science.unimelb.edu.au/students/student-life/student-staff-reference-committee/grad-ssrc-2026-committee-bios/min-chien-wu",
+    "normalizedUrl": "https://science.unimelb.edu.au/students/student-life/student-staff-reference-committee/grad-ssrc-2026-committee-bios/min-chien-wu",
+    "faculty": "science",
+    "unitLevel": "faculty",
+    "title": "Min-Chien Wu",
+    "depth": 3,
+    "wordCount": 447,
+    "classification": "unique",
+    "topicTags": [
+      "student-life"
+    ],
+    "outboundHosts": {
+      "science.unimelb.edu.au": 3,
+      "www.linkedin.com": 2,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "staff.unimelb.edu.au": 1,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 0,
+    "inSectionCount": 4,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Science\",\"external\":false,\"facultyHref\":\"https://science.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About us\",\"href\":\"https://science.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Faculty news and announcements\",\"href\":\"https://science.unimelb.edu.au/about/news\"},{\"title\":\"Our leadership team\",\"href\":\"https://science.unimelb.edu.au/about/faculty-of-science-"
+  },
+  {
+    "url": "https://science.unimelb.edu.au/students/student-life/student-staff-reference-committee/grad-ssrc-2026-committee-bios/nabila-afifah",
+    "normalizedUrl": "https://science.unimelb.edu.au/students/student-life/student-staff-reference-committee/grad-ssrc-2026-committee-bios/nabila-afifah",
+    "faculty": "science",
+    "unitLevel": "faculty",
+    "title": "Nabila Afifah",
+    "depth": 3,
+    "wordCount": 367,
+    "classification": "unique",
+    "topicTags": [
+      "student-life"
+    ],
+    "outboundHosts": {
+      "science.unimelb.edu.au": 3,
+      "www.linkedin.com": 2,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "staff.unimelb.edu.au": 1,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 0,
+    "inSectionCount": 4,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Science\",\"external\":false,\"facultyHref\":\"https://science.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About us\",\"href\":\"https://science.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Faculty news and announcements\",\"href\":\"https://science.unimelb.edu.au/about/news\"},{\"title\":\"Our leadership team\",\"href\":\"https://science.unimelb.edu.au/about/faculty-of-science-"
+  },
+  {
+    "url": "https://science.unimelb.edu.au/students/student-life/student-staff-reference-committee/grad-ssrc-2026-committee-bios/ranita-saha",
+    "normalizedUrl": "https://science.unimelb.edu.au/students/student-life/student-staff-reference-committee/grad-ssrc-2026-committee-bios/ranita-saha",
+    "faculty": "science",
+    "unitLevel": "faculty",
+    "title": "Ranita Saha",
+    "depth": 3,
+    "wordCount": 379,
+    "classification": "unique",
+    "topicTags": [
+      "student-life"
+    ],
+    "outboundHosts": {
+      "science.unimelb.edu.au": 3,
+      "www.linkedin.com": 2,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "staff.unimelb.edu.au": 1,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 0,
+    "inSectionCount": 4,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Science\",\"external\":false,\"facultyHref\":\"https://science.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About us\",\"href\":\"https://science.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Faculty news and announcements\",\"href\":\"https://science.unimelb.edu.au/about/news\"},{\"title\":\"Our leadership team\",\"href\":\"https://science.unimelb.edu.au/about/faculty-of-science-"
+  },
+  {
+    "url": "https://science.unimelb.edu.au/students/student-life/student-staff-reference-committee/grad-ssrc-2026-committee-bios/shreshta-gupta-kukkadapu",
+    "normalizedUrl": "https://science.unimelb.edu.au/students/student-life/student-staff-reference-committee/grad-ssrc-2026-committee-bios/shreshta-gupta-kukkadapu",
+    "faculty": "science",
+    "unitLevel": "faculty",
+    "title": "Shreshta Gupta Kukkadapu",
+    "depth": 3,
+    "wordCount": 370,
+    "classification": "unique",
+    "topicTags": [
+      "student-life"
+    ],
+    "outboundHosts": {
+      "science.unimelb.edu.au": 3,
+      "www.linkedin.com": 2,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "staff.unimelb.edu.au": 1,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 0,
+    "inSectionCount": 4,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Science\",\"external\":false,\"facultyHref\":\"https://science.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About us\",\"href\":\"https://science.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Faculty news and announcements\",\"href\":\"https://science.unimelb.edu.au/about/news\"},{\"title\":\"Our leadership team\",\"href\":\"https://science.unimelb.edu.au/about/faculty-of-science-"
+  },
+  {
+    "url": "https://science.unimelb.edu.au/students/student-life/student-staff-reference-committee/grad-ssrc-2026-committee-bios/velankanni-jesika-nadar",
+    "normalizedUrl": "https://science.unimelb.edu.au/students/student-life/student-staff-reference-committee/grad-ssrc-2026-committee-bios/velankanni-jesika-nadar",
+    "faculty": "science",
+    "unitLevel": "faculty",
+    "title": "Velankanni Jesika Nadar",
+    "depth": 3,
+    "wordCount": 449,
+    "classification": "unique",
+    "topicTags": [
+      "student-life"
+    ],
+    "outboundHosts": {
+      "science.unimelb.edu.au": 3,
+      "www.linkedin.com": 2,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "staff.unimelb.edu.au": 1,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 0,
+    "inSectionCount": 4,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Science\",\"external\":false,\"facultyHref\":\"https://science.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About us\",\"href\":\"https://science.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Faculty news and announcements\",\"href\":\"https://science.unimelb.edu.au/about/news\"},{\"title\":\"Our leadership team\",\"href\":\"https://science.unimelb.edu.au/about/faculty-of-science-"
+  },
+  {
+    "url": "https://science.unimelb.edu.au/students/student-life/student-staff-reference-committee/grad-ssrc-2026-committee-bios/viraj-patel",
+    "normalizedUrl": "https://science.unimelb.edu.au/students/student-life/student-staff-reference-committee/grad-ssrc-2026-committee-bios/viraj-patel",
+    "faculty": "science",
+    "unitLevel": "faculty",
+    "title": "Viraj Patel",
+    "depth": 3,
+    "wordCount": 425,
+    "classification": "unique",
+    "topicTags": [
+      "student-life"
+    ],
+    "outboundHosts": {
+      "science.unimelb.edu.au": 3,
+      "www.linkedin.com": 2,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "staff.unimelb.edu.au": 1,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 0,
+    "inSectionCount": 4,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Science\",\"external\":false,\"facultyHref\":\"https://science.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About us\",\"href\":\"https://science.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Faculty news and announcements\",\"href\":\"https://science.unimelb.edu.au/about/news\"},{\"title\":\"Our leadership team\",\"href\":\"https://science.unimelb.edu.au/about/faculty-of-science-"
+  },
+  {
+    "url": "https://science.unimelb.edu.au/students/student-life/volunteering-and-leadership",
+    "normalizedUrl": "https://science.unimelb.edu.au/students/student-life/volunteering-and-leadership",
+    "faculty": "science",
+    "unitLevel": "faculty",
+    "title": "Volunteering and leadership",
+    "depth": 2,
+    "wordCount": 791,
+    "classification": "unique",
+    "topicTags": [
+      "student-life"
+    ],
+    "outboundHosts": {
+      "science.unimelb.edu.au": 5,
+      "students.unimelb.edu.au": 2,
+      "staff.unimelb.edu.au": 2,
+      "www.csiro.au": 1,
+      "handbook.unimelb.edu.au": 1,
+      "www.linkedin.com": 2,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 2,
+    "inSectionCount": 7,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Science\",\"external\":false,\"facultyHref\":\"https://science.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About us\",\"href\":\"https://science.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Faculty news and announcements\",\"href\":\"https://science.unimelb.edu.au/about/news\"},{\"title\":\"Our leadership team\",\"href\":\"https://science.unimelb.edu.au/about/faculty-of-science-"
+  },
+  {
+    "url": "https://science.unimelb.edu.au/students/student-life/volunteering-and-leadership/become-a-science-roadshow-presenter",
+    "normalizedUrl": "https://science.unimelb.edu.au/students/student-life/volunteering-and-leadership/become-a-science-roadshow-presenter",
+    "faculty": "science",
+    "unitLevel": "faculty",
+    "title": "Become a Science Roadshow presenter",
+    "depth": 2,
+    "wordCount": 493,
+    "classification": "unique",
+    "topicTags": [
+      "student-life"
+    ],
+    "outboundHosts": {
+      "science.unimelb.edu.au": 11,
+      "www.linkedin.com": 2,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "staff.unimelb.edu.au": 1,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 0,
+    "inSectionCount": 4,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Science\",\"external\":false,\"facultyHref\":\"https://science.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About us\",\"href\":\"https://science.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Faculty news and announcements\",\"href\":\"https://science.unimelb.edu.au/about/news\"},{\"title\":\"Our leadership team\",\"href\":\"https://science.unimelb.edu.au/about/faculty-of-science-"
+  },
+  {
+    "url": "https://science.unimelb.edu.au/students/student-life/volunteering-and-leadership/biotechnology-peer-to-peer-mentoring",
+    "normalizedUrl": "https://science.unimelb.edu.au/students/student-life/volunteering-and-leadership/biotechnology-peer-to-peer-mentoring",
+    "faculty": "science",
+    "unitLevel": "faculty",
+    "title": "Biotechnology Peer-to-Peer Mentoring",
+    "depth": 2,
+    "wordCount": 575,
+    "classification": "unique",
+    "topicTags": [
+      "student-life"
+    ],
+    "outboundHosts": {
+      "science.unimelb.edu.au": 3,
+      "students.unimelb.edu.au": 1,
+      "www.linkedin.com": 2,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "staff.unimelb.edu.au": 1,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 1,
+    "inSectionCount": 4,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Science\",\"external\":false,\"facultyHref\":\"https://science.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About us\",\"href\":\"https://science.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Faculty news and announcements\",\"href\":\"https://science.unimelb.edu.au/about/news\"},{\"title\":\"Our leadership team\",\"href\":\"https://science.unimelb.edu.au/about/faculty-of-science-"
+  },
+  {
+    "url": "https://science.unimelb.edu.au/students/student-life/volunteering-and-leadership/data-science-peer-to-peer-mentoring",
+    "normalizedUrl": "https://science.unimelb.edu.au/students/student-life/volunteering-and-leadership/data-science-peer-to-peer-mentoring",
+    "faculty": "science",
+    "unitLevel": "faculty",
+    "title": "Data Science Peer-to-Peer Mentoring",
+    "depth": 2,
+    "wordCount": 585,
+    "classification": "unique",
+    "topicTags": [
+      "student-life"
+    ],
+    "outboundHosts": {
+      "science.unimelb.edu.au": 3,
+      "students.unimelb.edu.au": 1,
+      "www.linkedin.com": 2,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "staff.unimelb.edu.au": 1,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 1,
+    "inSectionCount": 4,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Science\",\"external\":false,\"facultyHref\":\"https://science.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About us\",\"href\":\"https://science.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Faculty news and announcements\",\"href\":\"https://science.unimelb.edu.au/about/news\"},{\"title\":\"Our leadership team\",\"href\":\"https://science.unimelb.edu.au/about/faculty-of-science-"
+  },
+  {
+    "url": "https://science.unimelb.edu.au/students/student-life/volunteering-and-leadership/science-ambassadors",
+    "normalizedUrl": "https://science.unimelb.edu.au/students/student-life/volunteering-and-leadership/science-ambassadors",
+    "faculty": "science",
+    "unitLevel": "faculty",
+    "title": "Science Student Ambassadors",
+    "depth": 2,
+    "wordCount": 857,
+    "classification": "unique",
+    "topicTags": [
+      "student-life"
+    ],
+    "outboundHosts": {
+      "science.unimelb.edu.au": 3,
+      "students.unimelb.edu.au": 1,
+      "forms.office.com": 1,
+      "www.linkedin.com": 2,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "staff.unimelb.edu.au": 1,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 1,
+    "inSectionCount": 4,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Science\",\"external\":false,\"facultyHref\":\"https://science.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About us\",\"href\":\"https://science.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Faculty news and announcements\",\"href\":\"https://science.unimelb.edu.au/about/news\"},{\"title\":\"Our leadership team\",\"href\":\"https://science.unimelb.edu.au/about/faculty-of-science-"
+  },
+  {
+    "url": "https://science.unimelb.edu.au/students/student-life/wellbeing",
+    "normalizedUrl": "https://science.unimelb.edu.au/students/student-life/wellbeing",
+    "faculty": "science",
+    "unitLevel": "faculty",
+    "title": "Student wellbeing",
+    "depth": 2,
+    "wordCount": 1087,
+    "classification": "unique",
+    "topicTags": [
+      "student-life",
+      "wellbeing-health"
+    ],
+    "outboundHosts": {
+      "science.unimelb.edu.au": 3,
+      "services.unimelb.edu.au": 1,
+      "students.unimelb.edu.au": 2,
+      "gsa.unimelb.edu.au": 2,
+      "umsu.unimelb.edu.au": 5,
+      "q.surveys.unimelb.edu.au": 1,
+      "www.linkedin.com": 2,
+      "www.facebook.com": 2,
+      "www.instagram.com": 2,
+      "staff.unimelb.edu.au": 1,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 2,
+    "inSectionCount": 4,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Science\",\"external\":false,\"facultyHref\":\"https://science.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About us\",\"href\":\"https://science.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Faculty news and announcements\",\"href\":\"https://science.unimelb.edu.au/about/news\"},{\"title\":\"Our leadership team\",\"href\":\"https://science.unimelb.edu.au/about/faculty-of-science-"
+  },
+  {
+    "url": "https://science.unimelb.edu.au/students/student-life/wellbeing/wellbeing-events/swot-vac-wellbeing-brunch",
+    "normalizedUrl": "https://science.unimelb.edu.au/students/student-life/wellbeing/wellbeing-events/swot-vac-wellbeing-brunch",
+    "faculty": "science",
+    "unitLevel": "faculty",
+    "title": "SWOT Vac Wellbeing Brunch",
+    "depth": 3,
+    "wordCount": 379,
+    "classification": "unique",
+    "topicTags": [
+      "student-life",
+      "clubs-events",
+      "wellbeing-health"
+    ],
+    "outboundHosts": {
+      "science.unimelb.edu.au": 3,
+      "www.eventbrite.com.au": 1,
+      "twitter.com": 1,
+      "www.facebook.com": 3,
+      "www.linkedin.com": 3,
+      "www.instagram.com": 2,
+      "staff.unimelb.edu.au": 1,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 0,
+    "inSectionCount": 4,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Science\",\"external\":false,\"facultyHref\":\"https://science.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About us\",\"href\":\"https://science.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Faculty news and announcements\",\"href\":\"https://science.unimelb.edu.au/about/news\"},{\"title\":\"Our leadership team\",\"href\":\"https://science.unimelb.edu.au/about/faculty-of-science-"
+  },
+  {
+    "url": "https://science.unimelb.edu.au/students/support",
+    "normalizedUrl": "https://science.unimelb.edu.au/students/support",
+    "faculty": "science",
+    "unitLevel": "faculty",
+    "title": "Support and contacts for students",
+    "depth": 1,
+    "wordCount": 1114,
+    "classification": "unique",
+    "topicTags": [
+      "contacts-support"
+    ],
+    "outboundHosts": {
+      "science.unimelb.edu.au": 3,
+      "students.unimelb.edu.au": 6,
+      "ask.unimelb.edu.au": 3,
+      "handbook.unimelb.edu.au": 1,
+      "www.facebook.com": 5,
+      "www.instagram.com": 3,
+      "confirmsubscription.com": 4,
+      "melbourneuni.au1.qualtrics.com": 1,
+      "www.linkedin.com": 2,
+      "staff.unimelb.edu.au": 1,
+      "www.unimelb.edu.au": 7,
+      "about.unimelb.edu.au": 4,
+      "safety.unimelb.edu.au": 1
+    },
+    "hubLinks": 6,
+    "inSectionCount": 5,
+    "excerpt": "Skip to main content #top header.page-header,#top header.page-header.floating {display:none;} .uom-megamenu {min-height:96px; background-color: #000f46;} @media (min-width: 1098px) {.uom-megamenu {min-height: 110px;}} {\"facultyName\":\"Faculty of Science\",\"external\":false,\"facultyHref\":\"https://science.unimelb.edu.au\", \"navItems\":[ {\"title\":\" About us\",\"href\":\"https://science.unimelb.edu.au/about\",\"navItems\":[{\"title\":\"Faculty news and announcements\",\"href\":\"https://science.unimelb.edu.au/about/news\"},{\"title\":\"Our leadership team\",\"href\":\"https://science.unimelb.edu.au/about/faculty-of-science-"
+  }
+]

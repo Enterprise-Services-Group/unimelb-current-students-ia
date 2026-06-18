@@ -1,0 +1,293 @@
+# Topic Deep-Dive: Student Life
+
+*Cross-faculty analysis from the full crawl. June 2026.*
+
+**214 student-life–tagged pages** sit across the faculty estate — a mid-to-large topic, comparable in size to course-planning (207). It is almost entirely **faculty-owned**, and mostly *legitimately* so: clubs, mentoring, ambassador programs, faculty awards and discipline-specific enrichment are inherently local. But the raw count is inflated by two non-content patterns — MSD's **studio archive** and Science's **student-staff committee member roster** — which together account for roughly a third of the topic without adding student-facing "how to" content.
+
+## Distribution — who holds it
+
+| Unit | Pages | What dominates |
+|---|--:|---|
+| Architecture, Building & Planning (MSD) | 60 | Studio archive + student-experience hub (clubs, mentoring, awards, exhibitions) |
+| Law | 46 | JD enrichment: clinics + global degree-partnership pages |
+| Science | 38 | Student-staff reference committee member bios + volunteering/wellbeing |
+| Engineering & IT (FEIT) | 25 | Eng & IT Community, peer/ambassador programs, Community Awards winners |
+| Medicine, Dentistry & Health Sciences | 25 | Student enrichment (mentoring, leadership, clubs) + placement student content |
+| Arts | 7 | Student advisory council, student ambassadors |
+| Fine Arts & Music | 4 | Ignite LAB, career mentoring, employability |
+| Business & Economics (FBE) | 3 | BCom First Semester Guide |
+| Education | 3 | Student advisory committee, ambassador program, ICAS |
+| Biomedical Sciences (school · MDHS) | 2 | "Shape your experience" landing |
+| Melbourne Business School (school · FBE) | 1 | Wellbeing ambassadors |
+| **Total** | **214** | |
+
+ABP/MSD alone holds **28%** of the topic — but the bulk of that is the MSD studio archive (2014–2026 studio briefs) and is really subject/portfolio content shelved under "student experience", not transferable student-life advice.
+
+## Types of Student Life content
+
+1. **Clubs, societies & student associations** — the canonical "student life" content. *MSD* "Clubs and Societies" / "Information for clubs"; *Science* "Student Clubs and Societies"; *MDHS* "Student Clubs and Societies"; *Law* "Student Life and Societies" (separate JD, MLM and graduate-researcher variants). Inherently local — each faculty has its own clubs.
+2. **Peer mentoring & ambassador programs** — structured peer-to-peer schemes. *FEIT* "Peer Connect Program", "Student Ambassador Leadership Program"; *MSD* "Peer Mentoring Program", "Student Ambassador & Leadership Program", "Construction Ambassador Program"; *Science* "Science Ambassadors", discipline-specific "Data Science / Biotechnology Peer-to-Peer Mentoring"; *Arts*, *Education* and *FFAM* each run their own ambassador/mentoring page.
+3. **Student representation & governance** — committees and councils that give students a voice. *Science* "Student-Staff Reference Committee" (plus **~30 individual committee-member bio pages** — Hannah Ramsey, Kylie Wang, Viraj Patel…); *Arts* "Arts Student Advisory Council"; *Education* "Education Student Advisory Committee"; *MDHS* "Student Advisory Council", "Student Leadership"; *MSD* "Student Representation on Faculty Committees", "Student Forum", "Student Feedback, Complaints and Grievances".
+4. **Faculty awards, recognition & celebrations** — *MSD* "Dean's Honours Awards" (2023, 2024); *FEIT* "Community Awards" (FAQs, nomination, and a winners page **per year, 2022–2025**); *MDHS* "Chancellor's Scholars" (with individual scholar bios — Garry Zhu, Emily Sun, Zahra Ataie).
+5. **Discipline-specific enrichment & experiential programs** — the line where "student life" blurs into curriculum. *Law*'s **MLS Clinics** (Tax, Public Interest, Climate Resilience, Indigenous Legal Advocacy, NDIS/Disability) and **global learning / degree partnerships** (Oxford, Cambridge, NYU, NUS, Peking…) — 30+ Law pages; *FFAM* "Ignite LAB"; *Arts* "The Social Impact Project"; *FEIT* cross-faculty "pathway" pages (Commerce, Design, Science, Biomedicine/Engineering).
+6. **Wellbeing & belonging events** — *Science* "Student wellbeing", "SWOT Vac Wellbeing Brunch"; *FEIT* "Wellbeing Series"; *MDHS* "Chat Fest" (international graduate-entry students). (The transactional wellbeing/health spine lives under its own topic; these are local community events.)
+7. **Indigenous student experience** — *FEIT* "Indigenous Student Experience"; *MDHS* "MDHS Indigenous Student Success". Faculty-tailored, but a clear hub-coordination candidate.
+8. **Orientation & "starting out" / first-semester guides** — *FBE* "BCom First Semester Guide" (a week-by-week SSO-gated walkthrough); *Law* "Orientation", "Student Cards and Law Students' Study Area"; *Education* "Introduction to Contemporary Australian Schooling (ICAS)".
+9. **Studio / exhibition archive (MSD-specific artefact)** — the largest single block: *MSD* "MSD Studios" briefs (Threshold, Five Mile Creek, Go East Young Wo(Man)…) and the 2014–2018 "MSD Studio Archive", plus "MSDx" student-exhibition resources. This is portfolio/subject material parked under student-experience, and is the main reason ABP's count is so high.
+
+## Legitimate vs hub-overlapping
+
+| Faculty-owned (cannot be centralised) | Overlaps the hub (consolidation candidate) |
+|---|---|
+| Clubs, societies & student associations (all faculties) | Generic "what is student life / get involved" framing pages |
+| Discipline enrichment — MLS Clinics, global partnerships, Ignite LAB | Indigenous student experience (hub should coordinate a standard) |
+| Faculty awards & recognition (Dean's Honours, Community Awards) | Wellbeing-event pages that restate the central wellbeing spine |
+| Student representation committees & councils | Orientation / "starting out" generic onboarding content |
+| MSD studio & exhibition archive (discipline artefact) | Ambassador/mentoring pages reduced to thin "register here" stubs |
+
+The balance is strongly **faculty-owned** — clubs, mentoring, awards and enrichment are intrinsically local and the genuine hub overlap is thin. The real problem here is not duplication of the hub but **internal bloat**: roster bios (Science) and archival studio briefs (MSD) swell the count without being reusable student-life guidance.
+
+## Recommendation
+- **Hub owns:** the cross-cutting "Getting involved at Melbourne" gateway — university-wide clubs/UMSU, volunteering, and the canonical wellbeing/belonging spine — as the single front door students reach for first.
+- **Faculties keep:** their clubs, peer-mentoring and ambassador programs, faculty awards, student-representation committees, and discipline-specific enrichment (Law clinics, global partnerships, Ignite LAB) — none of this can or should be centralised.
+- **Add one hub gateway page:** `students.unimelb.edu.au/student-life/faculty-communities` — a thin index linking each faculty's student-experience hub, so a student can find "what's on in my faculty" from the centre (today these are invisible from the hub).
+- **Set a standard, don't centralise:** Indigenous student experience and wellbeing events should follow a hub-defined template/label so they're consistent and discoverable, while faculties retain the local content.
+- **Highest-value fix:** stop tagging the MSD studio archive and the Science committee-member bio pages as "student life." Re-classify the studios as subject/portfolio content and collapse the committee roster behind its parent page — that alone removes ~60 low-value pages from this topic and makes the genuinely useful student-life content findable.
+
+## Appendix — all student-life pages (214)
+
+### ABP/MSD — 60
+- **3247w** — [IT Support | Current Students | Melbourne School of Design](https://msd.unimelb.edu.au/current-students/student-experience/it-support)
+- **1924w** — [Dean's Honours Awards 2024](https://msd.unimelb.edu.au/current-students/student-experience/deans-honours-awards/2024)
+- **1877w** — [Dean's Honours Awards 2023](https://msd.unimelb.edu.au/current-students/student-experience/deans-honours-awards/2023)
+- **1858w** — [ABP Industry Mentoring](https://msd.unimelb.edu.au/current-students/student-experience/abp-industry-mentoring)
+- **1641w** — [Information for clubs](https://msd.unimelb.edu.au/current-students/student-experience/clubs-and-societies/information-for-clubs)
+- **1347w** — [Threshold](https://msd.unimelb.edu.au/current-students/subject-information/msd-studios/master-of-architecture/c_sm1_2026/threshold)
+- **1228w** — [Studio 6](https://msd.unimelb.edu.au/current-students/subject-information/msd-studios/msd-studio-archive/2018/CDE-2018_SM1-Studios/studio-6)
+- **1199w** · _mixed_ — [Employability in Architecture, Building & Planning](https://msd.unimelb.edu.au/current-students/student-experience/employability-in-architecture-building-and-planning)
+- **1100w** — [2023 and 2024](https://msd.unimelb.edu.au/current-students/subject-information/travelling-studios/past-studios/2023m-and-2024)
+- **1076w** — [Go East Young Wo(Man)](https://msd.unimelb.edu.au/current-students/subject-information/msd-studios/master-of-architecture/d_sm2_2025/go-east-young-woman)
+- **1012w** — [Summer 2018 Studio 5](https://msd.unimelb.edu.au/current-students/subject-information/msd-studios/msd-studio-archive/2018/CDE-2018_SUM-Studios/studio-5)
+- **1006w** — [Studio 17](https://msd.unimelb.edu.au/current-students/subject-information/msd-studios/msd-studio-archive/2018/CDE-2018_SM1-Studios/studio-17)
+- **981w** — [Semester 1 2017 Studio 18](https://msd.unimelb.edu.au/current-students/subject-information/msd-studios/msd-studio-archive/2017/cde-2017_SM1-studios/semester-1-2017-studio-18)
+- **946w** — [Bower Studio (Studio 30)](https://msd.unimelb.edu.au/current-students/subject-information/msd-studios/msd-studio-archive/2017/cde-2017_SM1-studios/semester-1-2017-studio-30)
+- **942w** — [Studio 13](https://msd.unimelb.edu.au/current-students/subject-information/msd-studios/msd-studio-archive/2018/CDE-2018_SM1-Studios/studio-13)
+- **941w** — [Five Mile Creek](https://msd.unimelb.edu.au/current-students/subject-information/msd-studios/master-of-architecture/c_sm1_2026/five-mile-creek)
+- **884w** — [Semester 2 2017 Studio 6](https://msd.unimelb.edu.au/current-students/subject-information/msd-studios/msd-studio-archive/2017/CDE-2017_SM2-Studios/studio-6)
+- **835w** — [Not Only But Also](https://msd.unimelb.edu.au/current-students/subject-information/msd-studios/master-of-architecture/e_sm1_2026/NotOnlyButAlso)
+- **792w** — [Semester 2 2017 Studio 23](https://msd.unimelb.edu.au/current-students/subject-information/msd-studios/msd-studio-archive/2017/CDE-2017_SM2-Studios/studio-23)
+- **773w** — [Living Island](https://msd.unimelb.edu.au/current-students/subject-information/msd-studios/master-of-architecture/c_sm1_2026/living-island)
+- **773w** — [Light Industry](https://msd.unimelb.edu.au/current-students/subject-information/msd-studios/master-of-architecture/e_sm1_2026/space-for-hire)
+- **772w** — [MSD Student Curator Group](https://msd.unimelb.edu.au/current-students/student-experience/msdx-and-student-exhibitions/msd-student-curator-group)
+- **763w** — [Master of Landscape/Master of Urban Planning](https://msd.unimelb.edu.au/current-students/course-planning/sample-course-plans/double-masters/landscape-urban-planning)
+- **761w** — [Semester 2 2017 Studio 1](https://msd.unimelb.edu.au/current-students/subject-information/msd-studios/msd-studio-archive/2017/CDE-2017_SM2-Studios/studio-1)
+- **736w** — [Semester 1 2017 Studio 19](https://msd.unimelb.edu.au/current-students/subject-information/msd-studios/msd-studio-archive/2017/cde-2017_SM1-studios/semester-1-2017-studio-19)
+- **735w** — [Student Representation on Faculty Committees & Advisory Boards](https://msd.unimelb.edu.au/current-students/student-experience/student-participation-on-faculty-committees-and-advisory-boards)
+- **723w** — [Master of Property/Master of Urban Planning](https://msd.unimelb.edu.au/current-students/course-planning/sample-course-plans/double-masters/property-urban-planning)
+- **711w** — [Install tips and equipment](https://msd.unimelb.edu.au/current-students/student-experience/msdx-and-student-exhibitions/installation-tips)
+- **711w** — [Master of Architecture/Master of Urban Planning](https://msd.unimelb.edu.au/current-students/course-planning/sample-course-plans/double-masters/architecture-urban-planning)
+- **687w** — [Semester 1 2017 Studio 24](https://msd.unimelb.edu.au/current-students/subject-information/msd-studios/msd-studio-archive/2017/cde-2017_SM1-studios/semester-1-2017-studio-24)
+- **676w** — [Master of Architecture/Master of Urban Design](https://msd.unimelb.edu.au/current-students/course-planning/sample-course-plans/double-masters/architecture-urban-design)
+- **671w** — [Student Newsletters](https://msd.unimelb.edu.au/current-students/student-experience/student-newsletters)
+- **663w** — [Student Experience | Melbourne School of Design](https://msd.unimelb.edu.au/current-students/student-experience)
+- **657w** — [Student Ambassador & Leadership Program](https://msd.unimelb.edu.au/current-students/student-experience/graduate-ambassador-program)
+- **649w** — [Summer Design Studio 21](https://msd.unimelb.edu.au/current-students/subject-information/msd-studios/msd-studio-archive/2017/cde-2017_SUM-studios/studio-21)
+- **647w** — [Semester 1 2017 Studio 29](https://msd.unimelb.edu.au/current-students/subject-information/msd-studios/msd-studio-archive/2017/cde-2017_SM1-studios/semester-1-2017-studio-29)
+- **639w** — [Semester 2 2017 Thesis 9](https://msd.unimelb.edu.au/current-students/subject-information/msd-studios/msd-studio-archive/2017/THE-2017_SM2-Studios/thesis-9)
+- **634w** — [Construction Ambassador Program](https://msd.unimelb.edu.au/current-students/student-experience/construction-ambassador-program)
+- **627w** — [MSDx Student Resources](https://msd.unimelb.edu.au/current-students/student-experience/msdx-and-student-exhibitions)
+- **626w** — [Semester 2 2017 Studio 29](https://msd.unimelb.edu.au/current-students/subject-information/msd-studios/msd-studio-archive/2017/CDE-2017_SM2-Studios/studio-29)
+- **622w** — [Studio S: Social Planning](https://msd.unimelb.edu.au/current-students/subject-information/msd-studios/msd-studio-archive/2017/mup-2017_SM2-studios/studio-s)
+- **612w** — [Student Feedback, Complaints and Grievances](https://msd.unimelb.edu.au/current-students/student-experience/student-feedback-and-grievances)
+- **602w** — [Building Access and ID Cards](https://msd.unimelb.edu.au/current-students/student-experience/access-and-id-cards)
+- **599w** — [Master of Urban Planning/Master of Urban Design](https://msd.unimelb.edu.au/current-students/course-planning/sample-course-plans/double-masters/urban-planning-urban-design)
+- **593w** — [Studio 9](https://msd.unimelb.edu.au/current-students/subject-information/msd-studios/msd-studio-archive/2018/CDE-2018_SM1-Studios/studio-9)
+- **585w** — [Key dates](https://msd.unimelb.edu.au/current-students/student-experience/msdx-and-student-exhibitions/key-dates)
+- **578w** — [2025](https://msd.unimelb.edu.au/current-students/subject-information/travelling-studios/past-studios/2025)
+- **571w** — [Semester 2 2017 Thesis 5](https://msd.unimelb.edu.au/current-students/subject-information/msd-studios/msd-studio-archive/2017/THE-2017_SM2-Studios/thesis-5)
+- **558w** — [Semester 2 2017 Studio 27](https://msd.unimelb.edu.au/current-students/subject-information/msd-studios/msd-studio-archive/2017/CDE-2017_SM2-Studios/studio-27)
+- **554w** — [Semester 1 2017 Studio 27](https://msd.unimelb.edu.au/current-students/subject-information/msd-studios/msd-studio-archive/2017/cde-2017_SM1-studios/semester-1-2017-studio-27)
+- **549w** — [MSD Peer Mentoring Program](https://msd.unimelb.edu.au/current-students/student-experience/peer-mentoring-program)
+- **545w** — [Clubs and Societies | Melbourne School of Design](https://msd.unimelb.edu.au/current-students/student-experience/clubs-and-societies)
+- **528w** — [Dean's Honours Awards & Prizes](https://msd.unimelb.edu.au/current-students/student-experience/deans-honours-awards)
+- **521w** — [2025](https://msd.unimelb.edu.au/current-students/subject-information/msd-studios/msd-studio-archive/2026)
+- **494w** — [Studio H: Housing](https://msd.unimelb.edu.au/current-students/subject-information/msd-studios/msd-studio-archive/2017/mup-2017_SM1-studios/studio-h)
+- **461w** — [Student Forum | Current Students | Melbourne School of Design](https://msd.unimelb.edu.au/current-students/student-experience/student-forum)
+- **0w** · _redirect_ — [Redirecting...](https://msd.unimelb.edu.au/current-students/student-experience/peer-mentoring-program/register-for-msd-peer-mentoring)
+- **0w** · _redirect_ — [Redirecting...](https://msd.unimelb.edu.au/current-students/student-experience/access-and-id-cards/student-card-access-error-webform)
+- **0w** · _redirect_ — [Redirecting...](https://msd.unimelb.edu.au/current-students/student-experience/it-support/requestfeedback-form)
+- **0w** · _redirect_ — [Redirecting...](https://msd.unimelb.edu.au/current-students/student-experience/student-newsletters/n01-edsc-newsletter-submission-form)
+
+### Law — 46
+- **1593w** — [Enrichment](https://law.unimelb.edu.au/students/grd/enrichment)
+- **1545w** — [Degree Partnerships](https://law.unimelb.edu.au/students/jd/enrichment/global-learning-opportunities/degree-partnerships)
+- **1356w** — [Legal Internship](https://law.unimelb.edu.au/students/jd/enrichment/mls-clinics/subjects/legal-internship)
+- **1259w** — [Stateless Legal Clinic](https://law.unimelb.edu.au/students/jd/enrichment/mls-clinics/subjects/stateless-legal-clinic)
+- **1103w** — [University of British Columbia’s Peter A Allard School of Law LLM/LLM (CL)/LLM (Tax)](https://law.unimelb.edu.au/students/jd/enrichment/global-learning-opportunities/degree-partnerships/ubc)
+- **1097w** — [New York University JD-LLM](https://law.unimelb.edu.au/students/jd/enrichment/global-learning-opportunities/degree-partnerships/nyu)
+- **1095w** — [Melbourne Law School Clinics](https://law.unimelb.edu.au/students/jd/enrichment/mls-clinics)
+- **1087w** — [University of Oxford BCL or MLF](https://law.unimelb.edu.au/students/jd/enrichment/global-learning-opportunities/degree-partnerships/oxford)
+- **1065w** — [University of Cambridge LLM/MCL](https://law.unimelb.edu.au/students/jd/enrichment/global-learning-opportunities/degree-partnerships/cambridge)
+- **1029w** — [Center for Transnational Legal Studies](https://law.unimelb.edu.au/students/jd/enrichment/global-learning-opportunities/ctls)
+- **1026w** — [National University of Singapore Master of Laws (LLM)](https://law.unimelb.edu.au/students/jd/enrichment/global-learning-opportunities/degree-partnerships/nus)
+- **973w** — [Shanghai Jiao Tong University](https://law.unimelb.edu.au/students/jd/enrichment/global-learning-opportunities/degree-partnerships/sjtu)
+- **957w** — [Leiden University](https://law.unimelb.edu.au/students/jd/enrichment/global-learning-opportunities/degree-partnerships/leiden-university)
+- **946w** — [University of Amsterdam](https://law.unimelb.edu.au/students/jd/enrichment/global-learning-opportunities/degree-partnerships/university-of-amsterdam)
+- **943w** — [Sustainability Business Clinic](https://law.unimelb.edu.au/students/jd/enrichment/mls-clinics/subjects/sustainability-business-clinic)
+- **937w** · _mixed_ — [JD Students](https://law.unimelb.edu.au/students/jd)
+- **932w** — [National Taiwan University](https://law.unimelb.edu.au/students/jd/enrichment/global-learning-opportunities/degree-partnerships/national-taiwan-university)
+- **932w** — [Study Abroad at Oxford](https://law.unimelb.edu.au/students/masters/enrichment/global-learning-opportunities/study-abroad-at-oxford)
+- **931w** — [Peking University](https://law.unimelb.edu.au/students/jd/enrichment/global-learning-opportunities/degree-partnerships/peking-university)
+- **920w** — [Boston College](https://law.unimelb.edu.au/students/jd/enrichment/global-learning-opportunities/degree-partnerships/boston-college)
+- **894w** · _mixed_ — [MLM Students](https://law.unimelb.edu.au/students/masters)
+- **803w** — [Public Interest Law Clinic](https://law.unimelb.edu.au/students/jd/enrichment/mls-clinics/subjects/public-interest-law-clinic)
+- **727w** — [Bongkot Napaumporn](https://law.unimelb.edu.au/students/grd/students/bongkot-napaumporn)
+- **708w** — [Global and interstate subjects](https://law.unimelb.edu.au/students/jd/enrichment/global-learning-opportunities/global-subjects)
+- **564w** — [Tax Clinic | Melbourne Law School | University of Melbourne](https://law.unimelb.edu.au/students/jd/enrichment/mls-clinics/subjects/mls-tax-clinic)
+- **537w** — [Law Apps](https://law.unimelb.edu.au/students/jd/enrichment/mls-clinics/subjects/law-apps)
+- **509w** — [Orientation](https://law.unimelb.edu.au/students/orientation)
+- **508w** — [Student Cards and Law Students' Study Area](https://law.unimelb.edu.au/students/law-students-study-area)
+- **475w** — [Street Law](https://law.unimelb.edu.au/students/jd/enrichment/mls-clinics/subjects/street-law)
+- **453w** — [NDIS and Disability Benefits Clinic](https://law.unimelb.edu.au/students/jd/enrichment/mls-clinics/subjects/ndis-and-disability-benefits-clinic)
+- **443w** — [International Legal Internship](https://law.unimelb.edu.au/students/masters/enrichment/international-legal-internship)
+- **437w** — [Indigenous Legal Advocacy Clinic](https://law.unimelb.edu.au/students/jd/enrichment/mls-clinics/subjects/indigenous-legal-advocacy-clinic)
+- **349w** — [Graduate Researchers | Students | Melbourne Law School](https://law.unimelb.edu.au/students/grd)
+- **303w** — [Enrichment | JD Students | Melbourne Law School](https://law.unimelb.edu.au/students/jd/enrichment)
+- **289w** — [Student Life and Societies](https://law.unimelb.edu.au/students/student-life-and-societies)
+- **286w** — [Global learning opportunities](https://law.unimelb.edu.au/students/jd/enrichment/global-learning-opportunities)
+- **265w** — [MLS Graduate Researchers Association (GRA)](https://law.unimelb.edu.au/students/grd/enrichment/student-life-and-societies/mls-gra)
+- **256w** — [Disability Human Rights Clinic](https://law.unimelb.edu.au/students/jd/enrichment/mls-clinics/subjects/disability-human-rights-clinic)
+- **222w** — [Enrichment | Masters (Law) | Melbourne Law School](https://law.unimelb.edu.au/students/masters/enrichment)
+- **216w** — [Student Life and Societies](https://law.unimelb.edu.au/students/grd/enrichment/student-life-and-societies)
+- **205w** — [DHRC Research Outcomes](https://law.unimelb.edu.au/students/jd/enrichment/mls-clinics/subjects/disability-human-rights-clinic/research-outcomes)
+- **169w** — [Mooting and Competitions](https://law.unimelb.edu.au/students/jd/enrichment/mooting-and-competitions)
+- **131w** · _link-farm_ — [Climate Resilience Clinic](https://law.unimelb.edu.au/students/jd/enrichment/mls-clinics/subjects/climate-resilience-clinic)
+- **130w** · _link-farm_ — [Law and the Environment Lab](https://law.unimelb.edu.au/students/jd/enrichment/mls-clinics/subjects/law-and-the-environment-lab)
+- **117w** · _link-farm_ — [Global learning opportunities](https://law.unimelb.edu.au/students/masters/enrichment/global-learning-opportunities)
+- **89w** · _link-farm_ — [Further study](https://law.unimelb.edu.au/students/further-study)
+
+### Science — 38
+- **1163w** — [Student Clubs and Societies](https://science.unimelb.edu.au/students/student-life/student-life-and-societies)
+- **1087w** — [Student wellbeing](https://science.unimelb.edu.au/students/student-life/wellbeing)
+- **960w** — [Student-Staff Reference Committee](https://science.unimelb.edu.au/students/student-life/student-staff-reference-committee)
+- **857w** — [Science Student Ambassadors](https://science.unimelb.edu.au/students/student-life/volunteering-and-leadership/science-ambassadors)
+- **791w** — [Volunteering and leadership](https://science.unimelb.edu.au/students/student-life/volunteering-and-leadership)
+- **585w** — [Data Science Peer-to-Peer Mentoring](https://science.unimelb.edu.au/students/student-life/volunteering-and-leadership/data-science-peer-to-peer-mentoring)
+- **575w** — [Biotechnology Peer-to-Peer Mentoring](https://science.unimelb.edu.au/students/student-life/volunteering-and-leadership/biotechnology-peer-to-peer-mentoring)
+- **518w** — [Student life in the Faculty of Science](https://science.unimelb.edu.au/students/student-life)
+- **493w** — [Become a Science Roadshow presenter](https://science.unimelb.edu.au/students/student-life/volunteering-and-leadership/become-a-science-roadshow-presenter)
+- **449w** — [Velankanni Jesika Nadar](https://science.unimelb.edu.au/students/student-life/student-staff-reference-committee/grad-ssrc-2026-committee-bios/velankanni-jesika-nadar)
+- **447w** — [Min-Chien Wu](https://science.unimelb.edu.au/students/student-life/student-staff-reference-committee/grad-ssrc-2026-committee-bios/min-chien-wu)
+- **446w** — [Bothainah Sharrofna](https://science.unimelb.edu.au/students/student-life/student-staff-reference-committee/grad-ssrc-2026-committee-bios/bothainah-sharrofna)
+- **434w** — [Shreya Shrivastava](https://science.unimelb.edu.au/students/student-life/student-staff-reference-committee/committee-members/shreya-shrivastava)
+- **425w** — [Viraj Patel](https://science.unimelb.edu.au/students/student-life/student-staff-reference-committee/grad-ssrc-2026-committee-bios/viraj-patel)
+- **420w** — [Rudra Tiwari](https://science.unimelb.edu.au/students/student-life/student-staff-reference-committee/committee-members/rudra-tiwari)
+- **416w** — [Kylie Wang](https://science.unimelb.edu.au/students/student-life/student-staff-reference-committee/committee-members/kylie-wang)
+- **409w** — [Yu Zhang](https://science.unimelb.edu.au/students/student-life/student-staff-reference-committee/committee-members/yu-zhang)
+- **408w** — [Zirui (Oscar) Xu](https://science.unimelb.edu.au/students/student-life/student-staff-reference-committee/committee-members/zirui-oscar-xu)
+- **407w** — [Hanshi Tang](https://science.unimelb.edu.au/students/student-life/student-staff-reference-committee/grad-ssrc-2026-committee-bios/hanshi-tang)
+- **406w** — [John Drugli](https://science.unimelb.edu.au/students/student-life/student-staff-reference-committee/grad-ssrc-2026-committee-bios/john-drugli)
+- **391w** — [Maxwell Chivers](https://science.unimelb.edu.au/students/student-life/student-staff-reference-committee/committee-members/maxwell-chivers)
+- **387w** — [Patsy Quan](https://science.unimelb.edu.au/students/student-life/student-staff-reference-committee/committee-members/patsy-quan)
+- **384w** — [Jordan Russo](https://science.unimelb.edu.au/students/student-life/student-staff-reference-committee/grad-ssrc-2026-committee-bios/jordan-russo)
+- **379w** — [Louisa Zhu](https://science.unimelb.edu.au/students/student-life/student-staff-reference-committee/committee-members/louisa-zhu)
+- **379w** — [Ranita Saha](https://science.unimelb.edu.au/students/student-life/student-staff-reference-committee/grad-ssrc-2026-committee-bios/ranita-saha)
+- **379w** — [SWOT Vac Wellbeing Brunch](https://science.unimelb.edu.au/students/student-life/wellbeing/wellbeing-events/swot-vac-wellbeing-brunch)
+- **374w** — [Georgia Juler](https://science.unimelb.edu.au/students/student-life/student-staff-reference-committee/grad-ssrc-2026-committee-bios/georgia-juler)
+- **372w** — [Arati Chandrakant Chaskar](https://science.unimelb.edu.au/students/student-life/student-staff-reference-committee/grad-ssrc-2026-committee-bios/arati-chaskar)
+- **370w** — [Shreshta Gupta Kukkadapu](https://science.unimelb.edu.au/students/student-life/student-staff-reference-committee/grad-ssrc-2026-committee-bios/shreshta-gupta-kukkadapu)
+- **369w** — [Justin Lian](https://science.unimelb.edu.au/students/student-life/student-staff-reference-committee/grad-ssrc-2026-committee-bios/justin-lian)
+- **368w** — [Hannah Ramsey](https://science.unimelb.edu.au/students/student-life/student-staff-reference-committee/committee-members/hannah-ramsey)
+- **367w** — [Nabila Afifah](https://science.unimelb.edu.au/students/student-life/student-staff-reference-committee/grad-ssrc-2026-committee-bios/nabila-afifah)
+- **363w** — [Hafsah Ramjane](https://science.unimelb.edu.au/students/student-life/student-staff-reference-committee/grad-ssrc-2026-committee-bios/hafsah-ramjane)
+- **350w** — [Ryder Browne](https://science.unimelb.edu.au/students/student-life/student-staff-reference-committee/committee-members/ryder-browne)
+- **320w** — [Beth Hebdon](https://science.unimelb.edu.au/students/student-life/student-staff-reference-committee/grad-ssrc-2026-committee-bios/beth-hebdon)
+- **320w** — [Hongyi Liu](https://science.unimelb.edu.au/students/student-life/student-staff-reference-committee/grad-ssrc-2026-committee-bios/hongyi-liu)
+- **316w** — [Adinda Putri](https://science.unimelb.edu.au/students/student-life/student-staff-reference-committee/grad-ssrc-2026-committee-bios/adinda-putri)
+- **316w** — [Luca Thomas](https://science.unimelb.edu.au/students/student-life/student-staff-reference-committee/grad-ssrc-2026-committee-bios/luca-thomas)
+
+### FEIT — 25
+- **1614w** — [Peer Connect Program](https://eng.unimelb.edu.au/students/coursework/student-experience/mentoring-volunteering/peer-connect-program)
+- **1285w** — [Commerce/Engineering pathway](https://eng.unimelb.edu.au/students/eng-and-it-community/commerce-pathway)
+- **1255w** — [Engineering and IT Community](https://eng.unimelb.edu.au/students/eng-and-it-community)
+- **1038w** — [Nominate for the Community Awards](https://eng.unimelb.edu.au/students/scholarships-prizes-and-awards/spotlight-celebrations/community-awards/nominate)
+- **873w** — [Community Awards FAQs](https://eng.unimelb.edu.au/students/scholarships-prizes-and-awards/spotlight-celebrations/community-awards/faqs)
+- **726w** — [Student Ambassador Leadership Program](https://eng.unimelb.edu.au/students/coursework/student-experience/mentoring-volunteering/salp)
+- **698w** — [Student Experience](https://eng.unimelb.edu.au/students/coursework/student-experience)
+- **670w** — [Indigenous Student Experience](https://eng.unimelb.edu.au/students/indigenous-student-experience)
+- **670w** · _redirect_ — [Indigenous Student Experience](https://eng.unimelb.edu.au/students/feit-indigenous-student-experience2)
+- **669w** — [Design/Engineering pathway](https://eng.unimelb.edu.au/students/eng-and-it-community/design-pathway)
+- **601w** — [Science/Engineering pathway](https://eng.unimelb.edu.au/students/eng-and-it-community/science-pathway)
+- **581w** — [Biomedicine/Engineering pathway](https://eng.unimelb.edu.au/students/eng-and-it-community/biomedicine-pathway)
+- **569w** — [Engineering and IT undergraduate scholarships, The University of Melbourne](https://eng.unimelb.edu.au/students/eng-and-it-community/scholarships)
+- **489w** — [Community Awards](https://eng.unimelb.edu.au/students/scholarships-prizes-and-awards/spotlight-celebrations/community-awards)
+- **441w** · _redirect_ — [~ Page not found](https://eng.unimelb.edu.au/students/coursework/student-experience/orientation/Melbourne%20Connect%20Building)
+- **421w** — [Wellbeing Series](https://eng.unimelb.edu.au/students/coursework/student-experience/wellbeing-series)
+- **382w** — [Deep Dive Sessions](https://eng.unimelb.edu.au/students/eng-and-it-community/deep-dive-sessions)
+- **375w** — [Community image gallery](https://eng.unimelb.edu.au/students/eng-and-it-community/community-image-gallery)
+- **375w** · _redirect_ — [Mentoring & Volunteering](https://eng.unimelb.edu.au/students/coursework/student-experience/professional-skills-series/technical-skills-series)
+- **375w** — [Mentoring & Volunteering](https://eng.unimelb.edu.au/students/coursework/student-experience/mentoring-volunteering)
+- **352w** — [2023 winners](https://eng.unimelb.edu.au/students/scholarships-prizes-and-awards/spotlight-celebrations/community-awards/winners/2023-winners)
+- **349w** — [2022 winners](https://eng.unimelb.edu.au/students/scholarships-prizes-and-awards/spotlight-celebrations/community-awards/winners/2022-winners)
+- **344w** — [2024 winners](https://eng.unimelb.edu.au/students/scholarships-prizes-and-awards/spotlight-celebrations/community-awards/winners/2024-winners)
+- **328w** — [2025 winners](https://eng.unimelb.edu.au/students/scholarships-prizes-and-awards/spotlight-celebrations/community-awards/winners/2025-winners)
+- **323w** — [Previous Community Awards winners](https://eng.unimelb.edu.au/students/scholarships-prizes-and-awards/spotlight-celebrations/community-awards/winners)
+
+### MDHS — 25
+- **735w** — [Student Testimonials](https://mdhs.unimelb.edu.au/study/current-students/placements/student-testimonials)
+- **605w** — [Student Leadership](https://mdhs.unimelb.edu.au/study/current-students/student-enrichment/student-leadership)
+- **515w** · _mixed_ — [MDHS Indigenous Student Success](https://mdhs.unimelb.edu.au/study/current-students/student-enrichment/indigenous-student-success)
+- **490w** — [Garry Zhu](https://mdhs.unimelb.edu.au/study/current-students/student-enrichment/mentoring-programs/chancellors-scholars/garry-zhu)
+- **482w** — [Chat Fest](https://mdhs.unimelb.edu.au/study/current-students/student-enrichment/chat-fest)
+- **468w** — [Emily Sun](https://mdhs.unimelb.edu.au/study/current-students/student-enrichment/mentoring-programs/chancellors-scholars/emily-sun)
+- **463w** — [Zahra Ataie](https://mdhs.unimelb.edu.au/study/current-students/student-enrichment/mentoring-programs/chancellors-scholars/zahra-ataie)
+- **462w** — [Student Clubs and Societies](https://mdhs.unimelb.edu.au/study/current-students/student-enrichment/clubs-and-societies)
+- **394w** — [Day one of placement](https://mdhs.unimelb.edu.au/study/current-students/placements/org/mspgh/day-one-of-placement)
+- **369w** — [Melbourne Medical School](https://mdhs.unimelb.edu.au/study/current-students/placements/org/melbourne-medical-school)
+- **360w** · _mixed_ — [Mentoring Programs](https://mdhs.unimelb.edu.au/study/current-students/student-enrichment/mentoring-programs)
+- **358w** — [Student Placements](https://mdhs.unimelb.edu.au/study/current-students/placements)
+- **343w** — [Other checks by course](https://mdhs.unimelb.edu.au/study/current-students/placements/students/requirements/course-specific-checks/additional)
+- **327w** — [MDHS Student Hub](https://mdhs.unimelb.edu.au/study/current-students/student-enrichment/mdhs-student-hub)
+- **310w** — [Chancellor’s Scholars](https://mdhs.unimelb.edu.au/study/current-students/student-enrichment/mentoring-programs/chancellors-scholars)
+- **304w** — [Day one of Placement](https://mdhs.unimelb.edu.au/study/current-students/placements/org/dsp/day-one-of-placement)
+- **297w** — [During placement](https://mdhs.unimelb.edu.au/study/current-students/placements/org/department-of-social-work-resources/during-placement)
+- **286w** — [Before placement](https://mdhs.unimelb.edu.au/study/current-students/placements/org/department-of-social-work-resources/before-placement)
+- **276w** — [Department of Social Work](https://mdhs.unimelb.edu.au/study/current-students/placements/org/department-of-social-work-resources)
+- **253w** — [Research Pathways Advising](https://mdhs.unimelb.edu.au/study/current-students/student-enrichment/research-pathways-advising)
+- **233w** — [Why should your organisation place students?](https://mdhs.unimelb.edu.au/study/current-students/placements/prospective-orgs/why-should-your-ogranisation-place-student)
+- **213w** — [Student Enrichment and Support](https://mdhs.unimelb.edu.au/study/current-students/student-enrichment)
+- **212w** — [Student Advisory Council](https://mdhs.unimelb.edu.au/study/current-students/student-enrichment/student-leadership/Student-Advisory-Council)
+- **206w** — [Conclusion of placement](https://mdhs.unimelb.edu.au/study/current-students/placements/org/department-of-social-work-resources/conclusion-of-placement)
+- **0w** · _redirect_ — [Student support](https://mdhs.unimelb.edu.au/study/current-students/student-enrichment/older-site-versions/Student-Advisory-Council/student-support)
+
+### Arts — 7
+- **1489w** — [Arts Student Advisory Council](https://arts.unimelb.edu.au/students/arts-student-advisory-council)
+- **991w** — [Arts Student Ambassadors](https://arts.unimelb.edu.au/students/arts-student-ambassadors)
+- **991w** — [Arts Student Ambassadors](https://arts.unimelb.edu.au/students/graduate-coursework/enrichment/arts-student-ambassadors)
+- **550w** · _mixed_ — [Graduate coursework students](https://arts.unimelb.edu.au/students/graduate-coursework)
+- **276w** — [The Social Impact Project](https://arts.unimelb.edu.au/students/experiential-learning/the-big-idea)
+- **224w** — [Enrichment](https://arts.unimelb.edu.au/students/graduate-coursework/enrichment)
+- **68w** · _link-farm_ — [Graduate researcher profiles](https://arts.unimelb.edu.au/students/graduate-research/meet-our-graduate-researchers)
+
+### FFAM — 4
+- **1439w** — [Ignite LAB](https://finearts-music.unimelb.edu.au/current-students/student-experience/ignite-lab)
+- **1328w** — [Fine Arts and Music Career Mentoring](https://finearts-music.unimelb.edu.au/current-students/student-experience/fine-arts-and-music-career-mentoring)
+- **711w** · _mixed_ — [Employability in Fine Arts and Music](https://finearts-music.unimelb.edu.au/current-students/employability-in-fine-arts-and-music)
+- **62w** · _link-farm_ — [Bachelor of Music student guide](https://finearts-music.unimelb.edu.au/current-students/starting-out/bachelor-of-music-student-guides)
+
+### FBE — 3
+- **2086w** · _mixed_ — [BCom First Semester Guide](https://fbe.unimelb.edu.au/students/bcom/first-semester-guide)
+- **0w** · _redirect_ — [Sign In (SSO redirect)](https://fbe.unimelb.edu.au/students/bcom/first-semester-guide/week-1/connect-with-your-peer-mentor)
+- **0w** · _redirect_ — [Sign In (SSO redirect)](https://fbe.unimelb.edu.au/students/bcom/first-semester-guide/week-2-3/fbe-engagement-planner)
+
+### Education — 3
+- **1142w** — [Introduction to Contemporary Australian Schooling](https://education.unimelb.edu.au/study/current-students/icas)
+- **927w** — [Education Student Advisory Committee](https://education.unimelb.edu.au/study/current-students/education-student-advisory-committee)
+- **467w** — [Student Ambassador program](https://education.unimelb.edu.au/study/current-students/enrich-your-studies/graduate-education-ambassador-program)
+
+### Biomedical (school) — 2
+- **478w** — [Shape your biomedical sciences experience](https://biomedicalsciences.unimelb.edu.au/study/current-student-information)
+- **127w** · _redirect_ — [Human Structure and Function - The University of Melbourne](https://study.unimelb.edu.au/find/courses/major/human-structure-and-function/)
+
+### MBS (school) — 1
+- **390w** — [Ambassadors](https://mbs.unimelb.edu.au/students/wellbeing/ambassadors)
