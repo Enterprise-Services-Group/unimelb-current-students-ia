@@ -192,6 +192,31 @@ sd.addText("WHAT THE DATA SHOWS",{x:7.68,y:1.62,w:4.9,h:0.3,fontFace:MONO,fontSi
 });
 sd.addNotes("Data-driven discussion (~15 min). Each finding on the right is from the June 2026 crawl — use them as conversation starters, not a rigid sequence. For each: is this the right picture? What explains it? Is someone already working on it? Capture themes on the next slide. Keep out of solution mode — we're mapping the territory, not resolving it today.");
 
+/* ============ 6b — Current student topics discussion ============ */
+const sdc=content("Current student topics — where the content sits");
+sdc.addText([
+  {text:"For each topic area — the same three questions:",options:{bold:true,breakLine:true,paraSpaceAfter:16}},
+  {text:"1.  Is the overlap intentional, or accidental?",options:{breakLine:true,paraSpaceAfter:10}},
+  {text:"2.  Does it help or hinder the student?",options:{breakLine:true,paraSpaceAfter:10}},
+  {text:"3.  Is someone already working on it?",options:{breakLine:true,paraSpaceAfter:28}},
+  {text:"Use the capture board to note what we agree on, what's already in flight, what's worth exploring, and who's involved.",options:{color:C.muted}},
+],{x:0.62,y:1.45,w:6.3,h:4.8,fontFace:BODY,fontSize:15.5,color:C.ink,valign:"top",margin:0,lineSpacingMultiple:1.22});
+sdc.addShape(pres.shapes.RECTANGLE,{x:7.35,y:1.4,w:5.37,h:5.3,fill:{color:C.tint}});
+sdc.addShape(pres.shapes.RECTANGLE,{x:7.35,y:1.4,w:0.1,h:5.3,fill:{color:C.cyan}});
+sdc.addText("WHAT THE DATA SHOWS",{x:7.68,y:1.62,w:4.9,h:0.3,fontFace:MONO,fontSize:11,bold:true,color:C.cyandk,charSpacing:2,margin:0});
+[
+  "Course planning: hub has My Course Planner; every faculty runs discipline-specific degree plans (heavy in the 1,150 CS pages). Two sources serving the same need — no connecting link between them.",
+  "Placements & WIL: 207 pages on faculty sites; hub has none. Students on clinical, practicum, studio or internship placements have no central entry point — they must find their faculty page first.",
+  "Employability: hub Careers (11 pages) + 8 faculty services (141 pages) + study.unimelb (37 pages) + alumni mentoring (20 pages). Four presences in the estate, zero cross-links between them.",
+  "Student life: hub covers UMSU/GSA (20 pages); faculties run their own enrichment programs; alumni.unimelb has 21 community pages. Three framings of campus experience with no connecting web path.",
+  "Scholarships: 141 faculty pages + hub's generic 'Find a scholarship' link. scholarships.unimelb.edu.au is the dedicated entry point; none of the faculty CS pages link to it.",
+].forEach((a,i)=>{
+  const y=2.1+i*0.90;
+  sdc.addShape(pres.shapes.RECTANGLE,{x:7.68,y,w:4.8,h:0.80,fill:{color:C.white},line:{color:C.linelt,width:1}});
+  sdc.addText(a,{x:7.82,y,w:4.6,h:0.80,fontFace:BODY,fontSize:10.5,color:C.navy2,valign:"middle",margin:0,lineSpacingMultiple:1.1});
+});
+sdc.addNotes("Use this slide for current student journey topics. Five data-backed findings from the June 2026 crawl across the current-student estate. For each: is this the right picture? Is the split intentional? Does it serve or confuse students? Keep out of solution mode — map the territory first.");
+
 /* ============ 7 — What's in flight ============ */
 const sf=content("What's already in flight");
 sf.addText("Initiatives already underway — to build on rather than duplicate.",
