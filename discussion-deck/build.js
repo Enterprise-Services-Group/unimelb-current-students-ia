@@ -62,20 +62,30 @@ s3.addNotes("Ground the room in the user's view (~4 min). The journey is illustr
 
 /* ============ 3 — Landscape ============ */
 const s4=content("The shared landscape");
-s4.addText("A full content scan of the current-students estate — the central hub plus nine faculties and three schools. The same user need is often served in more than one place; some content is genuinely discipline-specific, and some is shared.",
-  {x:0.62,y:1.45,w:11.9,h:1.0,fontFace:BODY,fontSize:15.5,color:C.ink,margin:0,lineSpacingMultiple:1.12});
-[["1,161","pages of current-students content"],["13","separate websites"],["6","different web-address patterns"]].forEach(([n,l],i)=>{
-  const x=0.62+i*4.12;
-  s4.addShape(pres.shapes.RECTANGLE,{x,y:2.85,w:3.86,h:2.0,fill:{color:C.light}});
-  s4.addShape(pres.shapes.RECTANGLE,{x,y:2.85,w:3.86,h:0.1,fill:{color:C.cyan}});
-  s4.addText(n,{x,y:3.1,w:3.86,h:1.0,fontFace:HEAD,fontSize:52,bold:true,color:C.navy,align:"center",valign:"middle",margin:0});
-  s4.addText(l,{x:x+0.25,y:4.1,w:3.36,h:0.6,fontFace:BODY,fontSize:13,color:C.muted,align:"center",margin:0});
+s4.addText("In June 2026, an automated browser visited every publicly reachable page across the University's web estate — following links the same way a user would. Each page was read, classified and tagged by topic. The numbers below come from that crawl.",
+  {x:0.62,y:1.45,w:11.9,h:0.72,fontFace:BODY,fontSize:14.5,color:C.ink,margin:0,lineSpacingMultiple:1.12});
+[["1,173","Current Students Website\n+ 12 faculty / school sites"],["300","study.unimelb\nprospective students"],["116","alumni.unimelb\ngraduate community"],["1,589","total pages\nreviewed"]].forEach(([n,l],i)=>{
+  const x=0.62+i*3.06;
+  s4.addShape(pres.shapes.RECTANGLE,{x,y:2.28,w:2.9,h:1.72,fill:{color:C.light}});
+  s4.addShape(pres.shapes.RECTANGLE,{x,y:2.28,w:2.9,h:0.1,fill:{color:C.cyan}});
+  s4.addText(n,{x,y:2.42,w:2.9,h:0.88,fontFace:HEAD,fontSize:44,bold:true,color:C.navy,align:"center",valign:"middle",margin:0});
+  s4.addText(l,{x:x+0.1,y:3.32,w:2.7,h:0.56,fontFace:BODY,fontSize:11.5,color:C.muted,align:"center",margin:0,lineSpacingMultiple:1.1});
 });
-s4.addText("Central hub · Architecture, Building & Planning · Arts · Business & Economics · Education · Engineering & IT · Fine Arts & Music · Law · Medicine, Dentistry & Health Sciences · Science  —  plus separate Business School, Biomedical Sciences and Dental school sites.",
-  {x:0.62,y:5.2,w:11.9,h:0.9,fontFace:BODY,fontSize:12.5,italic:true,color:C.navy2,margin:0,lineSpacingMultiple:1.18});
-s4.addText("Scope note: this scan covers the current-students sections. The broader picture also includes study.unimelb.edu.au and the University's alumni estate.",
-  {x:0.62,y:6.2,w:11.9,h:0.35,fontFace:MONO,fontSize:9.5,color:C.muted,margin:0});
-s4.addNotes("Scale-setting (~2 min), don't dwell. The point is breadth: 13 sites, 6 address patterns — and this is only the current-students slice. Reinforce the descriptive note — we're not grading anyone's site today.");
+const themes=[
+  ["Careers","4 parallel presences — central, 8 faculties, study.unimelb, alumni. No cross-links in any direction."],
+  ["Mentoring","12 faculty alumni programs matching student programs on all faculties. Neither side links to the other."],
+  ["Course info","Enrolled students follow 529 links back to the prospective site — for content missing from their own."],
+  ["Alumni handoff","0 current-student pages link forward to alumni, including graduation pages. No web path at exit."],
+];
+themes.forEach(([title,desc],i)=>{
+  const x=0.62+i*3.06;
+  s4.addShape(pres.shapes.RECTANGLE,{x,y:4.12,w:2.9,h:0.07,fill:{color:C.cyan}});
+  s4.addText(title,{x,y:4.22,w:2.9,h:0.3,fontFace:BODY,fontSize:12,bold:true,color:C.navy,margin:0});
+  s4.addText(desc,{x,y:4.56,w:2.9,h:1.02,fontFace:BODY,fontSize:11,color:C.muted,margin:0,lineSpacingMultiple:1.14});
+});
+s4.addText("Current Students Website · Architecture, Building & Planning · Arts · Business & Economics · Education · Engineering & IT · Fine Arts & Music · Law · Medicine, Dentistry & Health Sciences · Science · Melbourne Business School · Biomedical Sciences · Dental School · study.unimelb.edu.au · alumni.unimelb.edu.au",
+  {x:0.62,y:5.76,w:11.9,h:0.62,fontFace:BODY,fontSize:11,italic:true,color:C.navy2,margin:0,lineSpacingMultiple:1.12});
+s4.addNotes("Scale-setting and method (~3 min). Explain the crawl in one sentence: an automated browser, every public page, tagged by topic. The four stat cards cover all four parts of the estate. The four themes below are the main overlaps the data surfaced. Don't dwell — the discussion slides go deeper. We're not grading anyone's site today.");
 
 /* ============ 4 — Overlap lens ============ */
 const s5=content("A lens for today: overlap");
@@ -91,7 +101,7 @@ s5.addShape(pres.shapes.OVAL,{x:7.6,y:3.6,w:2.85,h:2.85,fill:{color:C.navy,trans
 s5.addShape(pres.shapes.OVAL,{x:9.6,y:3.6,w:2.85,h:2.85,fill:{color:C.cyan,transparency:72},line:{color:C.cyandk,width:1.5}});
 
 // Labels in the unique (non-overlapping) zone of each circle
-s5.addText("Central hub",{x:7.65,y:1.9,w:1.85,h:0.38,fontFace:BODY,fontSize:12,bold:true,color:C.navy,align:"center",valign:"middle",margin:0});
+s5.addText([{text:"Current Students",options:{breakLine:true}},{text:"Website"}],{x:7.62,y:1.82,w:1.9,h:0.58,fontFace:BODY,fontSize:11.5,bold:true,color:C.navy,align:"center",valign:"middle",margin:0});
 s5.addText([{text:"Faculty /",options:{breakLine:true}},{text:"school sites"}],{x:10.65,y:1.85,w:1.75,h:0.55,fontFace:BODY,fontSize:12,bold:true,color:C.navy,align:"center",valign:"middle",margin:0});
 s5.addText("Further study",{x:7.65,y:5.75,w:1.85,h:0.38,fontFace:BODY,fontSize:12,bold:true,color:C.navy,align:"center",valign:"middle",margin:0});
 s5.addText("Alumni",{x:10.7,y:5.75,w:1.7,h:0.38,fontFace:BODY,fontSize:12,bold:true,color:C.navy,align:"center",valign:"middle",margin:0});
@@ -109,28 +119,26 @@ const hd=(t)=>({text:t,options:{fill:{color:C.navy},color:C.white,bold:true,font
 const cl=(t)=>({text:t,options:{color:C.ink,fontSize:11.5,valign:"middle"}});
 const cm=(t)=>({text:t,options:{color:C.muted,fontSize:11,italic:true,valign:"middle"}});
 s6.addTable([
- [hd("Topic"),hd("Central hub"),hd("Faculties"),hd("Schools"),hd("Cross-linked?")],
+ [hd("Topic"),hd("Current Students\nWebsite"),hd("Faculties"),hd("Schools"),hd("Cross-linked?")],
  [cl("Course planning"),cl("Planner + Handbook"),cl("Every faculty"),cl("MBS, Biomedical"),cl("Partly")],
- [cl("Careers"),cl("Central platform"),cl("8 of 9"),cl("MBS"),cl("Rarely")],
+ [cl("Careers"),cl("Central platform"),cl("8 of 9 (141 pp)"),cl("MBS"),cl("Rarely")],
  [cl("Placements / WIL"),cl("—"),cl("Every faculty"),cl("Some"),cl("—")],
  [cl("Service requests"),cl("Stop 1 + processes"),cl("Student centres + forms"),cl("Some"),cl("Mixed")],
  [cl("Further study"),cl("Some"),cl("Faculties"),cl("Some"),cl("Mixed")],
- [cm("Alumni engagement"),cm("—"),cm("Some faculties"),cm("MBS"),cm("No")],
- [cm("study.unimelb"),cm("Entry paths"),cm("Some"),cm("—"),cm("Rarely")],
-],{x:0.62,y:2.05,w:12.1,colW:[2.9,2.7,2.7,2.0,1.8],rowH:0.50,border:{type:"solid",pt:1,color:C.linelt},fontFace:BODY,valign:"middle",margin:[3,6,3,6],fill:{color:C.white}});
-s6.addText("Alumni and study.unimelb rows are indicative — full audit in progress.",
-  {x:0.62,y:6.12,w:7,h:0.28,fontFace:MONO,fontSize:9,italic:true,color:C.muted,margin:0});
-s6.addShape(pres.shapes.RECTANGLE,{x:0.62,y:6.45,w:11.9,h:0.68,fill:{color:C.tint}});
-s6.addShape(pres.shapes.RECTANGLE,{x:0.62,y:6.45,w:0.1,h:0.68,fill:{color:C.cyan}});
+ [cl("Alumni engagement"),cl("—"),cl("Some faculties (patchy)"),cl("MBS"),cl("No — 0 links")],
+ [cl("study.unimelb"),cl("Entry paths"),cl("529 links back"),cl("—"),cl("One-way only")],
+],{x:0.62,y:2.05,w:12.1,colW:[2.9,2.7,2.7,2.0,1.8],rowH:[0.60,0.50,0.50,0.50,0.50,0.50,0.50,0.50],border:{type:"solid",pt:1,color:C.linelt},fontFace:BODY,valign:"middle",margin:[3,6,3,6],fill:{color:C.white}});
+s6.addShape(pres.shapes.RECTANGLE,{x:0.62,y:6.15,w:11.9,h:0.68,fill:{color:C.tint}});
+s6.addShape(pres.shapes.RECTANGLE,{x:0.62,y:6.15,w:0.1,h:0.68,fill:{color:C.cyan}});
 s6.addText([{text:"To discuss:  ",options:{bold:true,color:C.navy}},
   {text:"Is this the right picture of where things live? Where is the overlap helpful — and where is it accidental or frustrating?",options:{color:C.navy2}}],
-  {x:0.95,y:6.45,w:11.3,h:0.68,fontFace:BODY,fontSize:13.5,valign:"middle",margin:0});
-s6.addNotes("Walk the rows quickly (~5 min). Don't defend the marks — invite corrections and mark them live. 'Cross-linked?' means: do the central and faculty versions point to each other. Note the bottom two rows are indicative — full audit of study.unimelb and alumni coming. The goal is a shared picture before we open the discussion.");
+  {x:0.95,y:6.15,w:11.3,h:0.68,fontFace:BODY,fontSize:13.5,valign:"middle",margin:0});
+s6.addNotes("Walk the rows quickly (~5 min). Don't defend the marks — invite corrections and mark them live. 'Cross-linked?' means: do the current-students-website and faculty versions point to each other. Alumni and study.unimelb rows are from the June 2026 crawl — 0 links from current-student pages to alumni is confirmed. The goal is a shared picture before we open the discussion.");
 
 /* ============ 6 — Open discussion ============ */
 const sd=content("Where overlap shows up — and where it matters");
 sd.addText([
-  {text:"For each area — the same three questions:",options:{bold:true,breakLine:true,paraSpaceAfter:16}},
+  {text:"For each finding — the same three questions:",options:{bold:true,breakLine:true,paraSpaceAfter:16}},
   {text:"1.  Is the overlap intentional, or accidental?",options:{breakLine:true,paraSpaceAfter:10}},
   {text:"2.  Does it help or hinder the user?",options:{breakLine:true,paraSpaceAfter:10}},
   {text:"3.  Is someone already working on it?",options:{breakLine:true,paraSpaceAfter:28}},
@@ -138,13 +146,19 @@ sd.addText([
 ],{x:0.62,y:1.45,w:6.3,h:4.8,fontFace:BODY,fontSize:15.5,color:C.ink,valign:"top",margin:0,lineSpacingMultiple:1.22});
 sd.addShape(pres.shapes.RECTANGLE,{x:7.35,y:1.4,w:5.37,h:5.3,fill:{color:C.tint}});
 sd.addShape(pres.shapes.RECTANGLE,{x:7.35,y:1.4,w:0.1,h:5.3,fill:{color:C.cyan}});
-sd.addText("AREAS TO DISCUSS",{x:7.68,y:1.62,w:4.9,h:0.3,fontFace:MONO,fontSize:11,bold:true,color:C.cyandk,charSpacing:2,margin:0});
-["Course planning","Careers & employability","Faculty service requests","Further study pathways","Alumni engagement","study.unimelb.edu.au"].forEach((a,i)=>{
-  const y=2.1+i*0.72;
-  sd.addShape(pres.shapes.RECTANGLE,{x:7.68,y,w:4.8,h:0.56,fill:{color:C.white},line:{color:C.linelt,width:1}});
-  sd.addText(a,{x:7.82,y,w:4.6,h:0.56,fontFace:BODY,fontSize:13,color:C.navy2,valign:"middle",margin:0});
+sd.addText("WHAT THE DATA SHOWS",{x:7.68,y:1.62,w:4.9,h:0.3,fontFace:MONO,fontSize:11,bold:true,color:C.cyandk,charSpacing:2,margin:0});
+[
+  "Mentoring: 12 faculty alumni programs + matching student programs on all faculties. Neither side links to the other.",
+  "Careers: 4 parallel presences — central, 8 faculties, study.unimelb, alumni. No cross-links in any direction.",
+  "Graduation exit: 0 current-student pages link to alumni, including graduation pages. No web path forward.",
+  "529 enrolled-student links back to study.unimelb — for content that's missing from their own faculty sites.",
+  "Scholarships: 3 presences (141 faculty, 75 study, 1 alumni) + 1 consolidation subdomain that none of them link to.",
+].forEach((a,i)=>{
+  const y=2.1+i*0.86;
+  sd.addShape(pres.shapes.RECTANGLE,{x:7.68,y,w:4.8,h:0.72,fill:{color:C.white},line:{color:C.linelt,width:1}});
+  sd.addText(a,{x:7.82,y,w:4.6,h:0.72,fontFace:BODY,fontSize:11.5,color:C.navy2,valign:"middle",margin:0,lineSpacingMultiple:1.1});
 });
-sd.addNotes("Open the room (~15 min). Work through the areas on the right — use the list as a prompt, not a rigid sequence. For each: is there overlap? Is it helpful? Is someone already working on it? Capture themes on the next slide. Keep out of solution mode — we're mapping the territory, not resolving it today.");
+sd.addNotes("Data-driven discussion (~15 min). Each finding on the right is from the June 2026 crawl — use them as conversation starters, not a rigid sequence. For each: is this the right picture? What explains it? Is someone already working on it? Capture themes on the next slide. Keep out of solution mode — we're mapping the territory, not resolving it today.");
 
 /* ============ 7 — What's in flight ============ */
 const sf=content("What's already in flight");
@@ -227,7 +241,7 @@ sb.addText("Across all four parts of the University's web estate. Source: June 2
 const bh=(t,al)=>({text:t,options:{fill:{color:C.navy},color:C.white,bold:true,fontSize:11,align:al||"left",valign:"middle"}});
 const bc=(t)=>({text:t,options:{color:C.ink,fontSize:11,valign:"middle"}});
 const brows=[
-  [bh("Topic area"),bh("Hub\n(students.)","center"),bh("Faculty sites","center"),bh("Further study\n(study.)","center"),bh("Alumni","center")],
+  [bh("Topic area"),bh("Current Students\nWebsite","center"),bh("Faculty sites","center"),bh("Further study\n(study.)","center"),bh("Alumni","center")],
   [bc("Course / degree info"),bc("Planner + Handbook"),bc("Every faculty"),bc("224 pages — full coverage"),bc("—")],
   [bc("Careers"),bc("Central platform"),bc("8 of 9 (141 pp)"),bc("37 pages — entry only"),bc("38 pp + mentoring")],
   [bc("Placements / WIL"),bc("—"),bc("Every faculty\n(207 pp)"),bc("10 pages — overview"),bc("—")],
