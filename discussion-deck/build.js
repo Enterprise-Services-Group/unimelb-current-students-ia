@@ -62,9 +62,9 @@ s3.addNotes("Ground the room in the user's view (~4 min). The journey is illustr
 
 /* ============ 3 — Landscape ============ */
 const s4=content("The shared landscape");
-s4.addText("In June 2026, an automated browser visited every publicly reachable page — following links the same way a user would. Each page was read, classified and tagged by topic. The crawl covered the Current Students Website (students.unimelb.edu.au), 12 faculty & school current-student sections, and both estate-adjacent sites. The hub is largely auth-gated — only 4 public pages were reachable.",
+s4.addText("In June 2026, an automated browser visited every publicly reachable page — following links the same way a user would. Each page was read, classified and tagged by topic. The crawl covered the Current Students Website (students.unimelb.edu.au), 12 faculty & school current-student sections, and both estate-adjacent sites.",
   {x:0.62,y:1.45,w:11.9,h:0.82,fontFace:BODY,fontSize:13.5,color:C.ink,margin:0,lineSpacingMultiple:1.12});
-[["4","students.unimelb.edu.au\n(auth-gated, 4 public pages)"],["1,169","pages across 12 faculty\n& school current-student sites"],["300","study.unimelb\nprospective students"],["116","alumni.unimelb\ngraduate community"]].forEach(([n,l],i)=>{
+[["74","students.unimelb.edu.au\nCurrent Students Website"],["1,150","pages across 12 faculty\n& school current-student sites"],["300","study.unimelb\nprospective students"],["116","alumni.unimelb\ngraduate community"]].forEach(([n,l],i)=>{
   const x=0.62+i*3.06;
   s4.addShape(pres.shapes.RECTANGLE,{x,y:2.28,w:2.9,h:1.72,fill:{color:C.light}});
   s4.addShape(pres.shapes.RECTANGLE,{x,y:2.28,w:2.9,h:0.1,fill:{color:C.cyan}});
@@ -112,7 +112,7 @@ s5.addNotes("Define overlap neutrally (~2 min): not inherently good or bad. Four
 
 /* ============ 5 — Three phases + overlap ============ */
 const s6=content("Three phases — one student journey");
-s6.addText("Faculty sites are unusual in this picture: they have a presence in all three phases — prospectus content for applicants, current-student sections (1,169 pages crawled), and alumni networks. The chips below show where the same content appears across phases without connecting.",
+s6.addText("Faculty sites are unusual in this picture: they have a presence in all three phases — prospectus content for applicants, current-student sections (1,150 pages crawled), and alumni networks. The chips below show where the same content appears across phases without connecting.",
   {x:0.62,y:1.55,w:6.3,h:2.8,fontFace:BODY,fontSize:15.5,color:C.ink,margin:0,valign:"top",lineSpacingMultiple:1.22});
 const P1X=7.35,P1W=1.4,P2X=9.1,P2W=2.05,P3X=11.45,P3W=1.25;
 // Phase headers
@@ -129,7 +129,7 @@ s6.addText("300 pages",{x:P1X,y:3.02,w:P1W,h:0.34,fontFace:MONO,fontSize:9,color
 s6.addShape(pres.shapes.RECTANGLE,{x:P2X,y:2.17,w:P2W,h:1.25,fill:{color:C.navy},line:{color:C.navy,width:1.5}});
 s6.addText("students.unimelb.edu.au",{x:P2X,y:2.32,w:P2W,h:0.55,fontFace:BODY,fontSize:10.5,bold:true,color:C.white,align:"center",margin:0});
 s6.addText("hub · student services",{x:P2X,y:2.90,w:P2W,h:0.38,fontFace:MONO,fontSize:8.5,color:C.ice,align:"center",margin:0});
-s6.addText("(auth-gated, 4 public pages)",{x:P2X,y:3.18,w:P2W,h:0.22,fontFace:MONO,fontSize:7.5,color:C.dim,align:"center",margin:0});
+s6.addText("74 pages",{x:P2X,y:3.18,w:P2W,h:0.22,fontFace:MONO,fontSize:9,color:C.dim,align:"center",margin:0});
 s6.addShape(pres.shapes.RECTANGLE,{x:P3X,y:2.17,w:P3W,h:1.25,fill:{color:C.light},line:{color:C.linelt,width:1.5}});
 s6.addText("alumni\n.unimelb.edu.au",{x:P3X,y:2.27,w:P3W,h:0.72,fontFace:BODY,fontSize:10.5,bold:true,color:C.navy,align:"center",margin:0,lineSpacingMultiple:1.1});
 s6.addText("116 pages",{x:P3X,y:3.02,w:P3W,h:0.34,fontFace:MONO,fontSize:9,color:C.muted,align:"center",margin:0});
@@ -142,7 +142,7 @@ s6.addText("FACULTY & SCHOOL SITES (12) — spans all three phases",
   {x:P1X,y:3.52,w:5.35,h:0.26,fontFace:MONO,fontSize:8,bold:true,color:C.ice,align:"center",margin:0,charSpacing:0.3});
 s6.addShape(pres.shapes.RECTANGLE,{x:P1X,y:3.78,w:5.35,h:1.0,fill:{color:C.faint,transparency:75},line:{color:C.navy2,width:0.75}});
 s6.addText("Prospectus\n& entry info",{x:P1X,y:3.78,w:P1W,h:1.0,fontFace:BODY,fontSize:10,color:C.navy,align:"center",valign:"middle",margin:0,lineSpacingMultiple:1.1});
-s6.addText("1,169 current-student pages\n(9 faculties + 3 schools)",{x:P2X,y:3.78,w:P2W,h:1.0,fontFace:BODY,fontSize:10,color:C.navy,align:"center",valign:"middle",margin:0,lineSpacingMultiple:1.1});
+s6.addText("1,150 current-student pages\n(9 faculties + 3 schools)",{x:P2X,y:3.78,w:P2W,h:1.0,fontFace:BODY,fontSize:10,color:C.navy,align:"center",valign:"middle",margin:0,lineSpacingMultiple:1.1});
 s6.addText("Alumni\nnetworks",{x:P3X,y:3.78,w:P3W,h:1.0,fontFace:BODY,fontSize:10,color:C.navy,align:"center",valign:"middle",margin:0,lineSpacingMultiple:1.1});
 // Overlap chips
 s6.addShape(pres.shapes.RECTANGLE,{x:P1X,y:4.88,w:5.35,h:0.24,fill:{color:C.cyan,transparency:50}});
