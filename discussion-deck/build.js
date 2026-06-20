@@ -62,9 +62,9 @@ s3.addNotes("Ground the room in the user's view (~4 min). The journey is illustr
 
 /* ============ 3 — Landscape ============ */
 const s4=content("The shared landscape");
-s4.addText("In June 2026, an automated browser visited every publicly reachable page — following links the same way a user would. Each page was read, classified and tagged by topic. The crawl covered the 12 faculty & school current-student sections and both estate-adjacent sites. The central Current Students Website (students.unimelb.edu.au) is the hub all these link into and was not separately crawled in this round.",
+s4.addText("In June 2026, an automated browser visited every publicly reachable page — following links the same way a user would. Each page was read, classified and tagged by topic. The crawl covered the Current Students Website (students.unimelb.edu.au), 12 faculty & school current-student sections, and both estate-adjacent sites. The hub is largely auth-gated — only 4 public pages were reachable.",
   {x:0.62,y:1.45,w:11.9,h:0.82,fontFace:BODY,fontSize:13.5,color:C.ink,margin:0,lineSpacingMultiple:1.12});
-[["1,173","pages across 12 faculty\n& school current-student sites"],["300","study.unimelb\nprospective students"],["116","alumni.unimelb\ngraduate community"],["1,589","total pages\nreviewed"]].forEach(([n,l],i)=>{
+[["4","students.unimelb.edu.au\n(auth-gated, 4 public pages)"],["1,169","pages across 12 faculty\n& school current-student sites"],["300","study.unimelb\nprospective students"],["116","alumni.unimelb\ngraduate community"]].forEach(([n,l],i)=>{
   const x=0.62+i*3.06;
   s4.addShape(pres.shapes.RECTANGLE,{x,y:2.28,w:2.9,h:1.72,fill:{color:C.light}});
   s4.addShape(pres.shapes.RECTANGLE,{x,y:2.28,w:2.9,h:0.1,fill:{color:C.cyan}});
@@ -88,68 +88,83 @@ s4.addText("Current Students Website · Architecture, Building & Planning · Art
 s4.addNotes("Scale-setting and method (~3 min). Explain the crawl in one sentence: an automated browser, every public page, tagged by topic. The four stat cards cover all four parts of the estate. The four themes below are the main overlaps the data surfaced. Don't dwell — the discussion slides go deeper. We're not grading anyone's site today.");
 
 /* ============ 4 — Overlap lens ============ */
-const s5=content("Three phases of one student journey");
-s5.addText("Students experience one University — not separate websites. When they need careers help, scholarship info, or study planning, that need may exist in any phase of the estate. Today: where does content appear in more than one place, and where are the handoffs between phases broken?",
-  {x:0.62,y:1.55,w:6.3,h:2.6,fontFace:BODY,fontSize:16.5,color:C.ink,margin:0,valign:"top",lineSpacingMultiple:1.22});
+const s5=content("A lens for today: overlap");
+s5.addText("Overlap isn't automatically a problem. Sometimes it is helpful local context; sometimes it is duplicated effort or mixed messages. For each area today, we will look at where the content sits — then ask whether the overlap is intentional, and whether it helps or hinders the user.",
+  {x:0.62,y:1.55,w:6.3,h:4.0,fontFace:BODY,fontSize:17,color:C.ink,margin:0,valign:"top",lineSpacingMultiple:1.22});
+// 4-circle Venn: 2×2 arrangement
+// TL: Current Students Website  TR: Faculty/school sites
+// BL: Further study (study.unimelb)  BR: Alumni
+s5.addShape(pres.shapes.OVAL,{x:7.6,y:1.8,w:2.85,h:2.85,fill:{color:C.navy,transparency:82},line:{color:C.navy,width:1.5}});
+s5.addShape(pres.shapes.OVAL,{x:9.6,y:1.8,w:2.85,h:2.85,fill:{color:C.cyan,transparency:72},line:{color:C.cyandk,width:1.5}});
+s5.addShape(pres.shapes.OVAL,{x:7.6,y:3.6,w:2.85,h:2.85,fill:{color:C.navy,transparency:82},line:{color:C.navy,width:1.5}});
+s5.addShape(pres.shapes.OVAL,{x:9.6,y:3.6,w:2.85,h:2.85,fill:{color:C.cyan,transparency:72},line:{color:C.cyandk,width:1.5}});
+s5.addText([{text:"Current Students",options:{breakLine:true}},{text:"Website"}],
+  {x:7.62,y:1.82,w:1.9,h:0.58,fontFace:BODY,fontSize:11.5,bold:true,color:C.navy,align:"center",valign:"middle",margin:0});
+s5.addText([{text:"Faculty /",options:{breakLine:true}},{text:"school sites"}],
+  {x:10.65,y:1.85,w:1.75,h:0.55,fontFace:BODY,fontSize:12,bold:true,color:C.navy,align:"center",valign:"middle",margin:0});
+s5.addText("Further study",
+  {x:7.65,y:5.75,w:1.85,h:0.38,fontFace:BODY,fontSize:12,bold:true,color:C.navy,align:"center",valign:"middle",margin:0});
+s5.addText("Alumni",
+  {x:10.7,y:5.75,w:1.7,h:0.38,fontFace:BODY,fontSize:12,bold:true,color:C.navy,align:"center",valign:"middle",margin:0});
+s5.addText("overlap",
+  {x:9.6,y:3.95,w:1.0,h:0.35,fontFace:MONO,fontSize:11,bold:true,color:C.navy2,align:"center",margin:0});
+s5.addNotes("Define overlap neutrally (~2 min): not inherently good or bad. Four circles because four parts of the estate share users and content — Current Students Website (hub), faculty sites, further study (study.unimelb) and alumni. This is the lens for everything that follows — 'is the overlap intentional, and does it help or hinder the user?' Keep the room out of solution mode for now.");
 
-// Three lifecycle phase boxes
-// x layout: 7.35 | 1.35 box | 0.45 gap | 2.0 box | 0.45 gap | 1.1 box | = 7.35+5.35=12.7
-const phaseBoxes=[
-  {x:7.35,w:1.35,fill:C.tint,lc:C.cyandk,tc:C.navy,phase:"BEFORE\nENROLMENT",site:"study.unimelb\n.edu.au"},
-  {x:9.15,w:2.0,fill:C.navy,lc:C.navy,tc:C.white,phase:"DURING STUDY",site:"students.unimelb.edu.au\n+ 12 faculty sites"},
-  {x:11.6,w:1.1,fill:C.light,lc:C.linelt,tc:C.navy,phase:"AFTER\nGRADUATION",site:"alumni\n.unimelb.edu.au"},
-];
-phaseBoxes.forEach(({x,w,fill,lc,tc,phase,site})=>{
-  s5.addShape(pres.shapes.RECTANGLE,{x,y:2.1,w,h:2.75,fill:{color:fill},line:{color:lc,width:1.5}});
-  s5.addText(phase,{x,y:2.18,w,h:0.58,fontFace:MONO,fontSize:9,bold:true,color:tc===C.white?C.ice:C.cyandk,align:"center",margin:0,lineSpacingMultiple:1.1,charSpacing:0.5});
-  s5.addText(site,{x:x+0.06,y:2.86,w:w-0.12,h:0.72,fontFace:BODY,fontSize:10.5,bold:true,color:tc,align:"center",margin:0,lineSpacingMultiple:1.12});
-});
-// Connection labels in the gaps
-s5.addText("↔ 529 links",{x:8.48,y:3.2,w:0.88,h:0.3,fontFace:MONO,fontSize:8,color:C.navy2,align:"center",margin:0});
-s5.addText("(intentional?)",{x:8.48,y:3.5,w:0.88,h:0.26,fontFace:MONO,fontSize:7.5,italic:true,color:C.muted,align:"center",margin:0});
-s5.addText("→ 0 links",{x:11.15,y:3.2,w:0.68,h:0.3,fontFace:MONO,fontSize:8,color:C.muted,align:"center",margin:0});
-s5.addText("out",{x:11.15,y:3.5,w:0.68,h:0.26,fontFace:MONO,fontSize:7.5,italic:true,color:C.muted,align:"center",margin:0});
-
-// Overlap chips: content appearing across multiple phases
-s5.addShape(pres.shapes.RECTANGLE,{x:7.35,y:5.0,w:5.35,h:0.3,fill:{color:C.navy}});
-s5.addText("CONTENT APPEARING ACROSS MULTIPLE PHASES",{x:7.35,y:5.0,w:5.35,h:0.3,fontFace:MONO,fontSize:8,bold:true,color:C.cyan,align:"center",margin:0,charSpacing:0.8});
+/* ============ 5 — Three phases + overlap ============ */
+const s6=content("Three phases — one student journey");
+s6.addText("Faculty sites are unusual in this picture: they have a presence in all three phases — prospectus content for applicants, current-student sections (1,169 pages crawled), and alumni networks. The chips below show where the same content appears across phases without connecting.",
+  {x:0.62,y:1.55,w:6.3,h:2.8,fontFace:BODY,fontSize:15.5,color:C.ink,margin:0,valign:"top",lineSpacingMultiple:1.22});
+const P1X=7.35,P1W=1.4,P2X=9.1,P2W=2.05,P3X=11.45,P3W=1.25;
+// Phase headers
+s6.addShape(pres.shapes.RECTANGLE,{x:P1X,y:1.85,w:P1W,h:0.28,fill:{color:C.tint},line:{color:C.cyandk,width:0.5}});
+s6.addText("BEFORE\nENROLMENT",{x:P1X,y:1.85,w:P1W,h:0.28,fontFace:MONO,fontSize:7,bold:true,color:C.cyandk,align:"center",margin:0,lineSpacingMultiple:1.0});
+s6.addShape(pres.shapes.RECTANGLE,{x:P2X,y:1.85,w:P2W,h:0.28,fill:{color:C.navy},line:{color:C.navy,width:0.5}});
+s6.addText("DURING STUDY",{x:P2X,y:1.85,w:P2W,h:0.28,fontFace:MONO,fontSize:7.5,bold:true,color:C.cyan,align:"center",margin:0,charSpacing:0.5});
+s6.addShape(pres.shapes.RECTANGLE,{x:P3X,y:1.85,w:P3W,h:0.28,fill:{color:C.light},line:{color:C.linelt,width:0.5}});
+s6.addText("AFTER\nGRADUATION",{x:P3X,y:1.85,w:P3W,h:0.28,fontFace:MONO,fontSize:7,bold:true,color:C.navy2,align:"center",margin:0,lineSpacingMultiple:1.0});
+// Core site boxes
+s6.addShape(pres.shapes.RECTANGLE,{x:P1X,y:2.17,w:P1W,h:1.25,fill:{color:C.tint},line:{color:C.cyandk,width:1.5}});
+s6.addText("study.unimelb\n.edu.au",{x:P1X,y:2.27,w:P1W,h:0.72,fontFace:BODY,fontSize:10.5,bold:true,color:C.navy,align:"center",margin:0,lineSpacingMultiple:1.1});
+s6.addText("300 pages",{x:P1X,y:3.02,w:P1W,h:0.34,fontFace:MONO,fontSize:9,color:C.muted,align:"center",margin:0});
+s6.addShape(pres.shapes.RECTANGLE,{x:P2X,y:2.17,w:P2W,h:1.25,fill:{color:C.navy},line:{color:C.navy,width:1.5}});
+s6.addText("students.unimelb.edu.au",{x:P2X,y:2.32,w:P2W,h:0.55,fontFace:BODY,fontSize:10.5,bold:true,color:C.white,align:"center",margin:0});
+s6.addText("hub · student services",{x:P2X,y:2.90,w:P2W,h:0.38,fontFace:MONO,fontSize:8.5,color:C.ice,align:"center",margin:0});
+s6.addText("(auth-gated, 4 public pages)",{x:P2X,y:3.18,w:P2W,h:0.22,fontFace:MONO,fontSize:7.5,color:C.dim,align:"center",margin:0});
+s6.addShape(pres.shapes.RECTANGLE,{x:P3X,y:2.17,w:P3W,h:1.25,fill:{color:C.light},line:{color:C.linelt,width:1.5}});
+s6.addText("alumni\n.unimelb.edu.au",{x:P3X,y:2.27,w:P3W,h:0.72,fontFace:BODY,fontSize:10.5,bold:true,color:C.navy,align:"center",margin:0,lineSpacingMultiple:1.1});
+s6.addText("116 pages",{x:P3X,y:3.02,w:P3W,h:0.34,fontFace:MONO,fontSize:9,color:C.muted,align:"center",margin:0});
+// Gap connection labels (in the whitespace between core site boxes)
+s6.addText("↔ 529\nlinks",{x:P1X+P1W+0.03,y:2.60,w:0.30,h:0.42,fontFace:MONO,fontSize:7,color:C.navy2,align:"center",margin:0,lineSpacingMultiple:1.05});
+s6.addText("→ 0\nlinks",{x:P2X+P2W+0.03,y:2.60,w:0.25,h:0.42,fontFace:MONO,fontSize:7,color:C.muted,align:"center",margin:0,lineSpacingMultiple:1.05});
+// Faculty spanning band
+s6.addShape(pres.shapes.RECTANGLE,{x:P1X,y:3.52,w:5.35,h:0.26,fill:{color:C.navy2}});
+s6.addText("FACULTY & SCHOOL SITES (12) — spans all three phases",
+  {x:P1X,y:3.52,w:5.35,h:0.26,fontFace:MONO,fontSize:8,bold:true,color:C.ice,align:"center",margin:0,charSpacing:0.3});
+s6.addShape(pres.shapes.RECTANGLE,{x:P1X,y:3.78,w:5.35,h:1.0,fill:{color:C.faint,transparency:75},line:{color:C.navy2,width:0.75}});
+s6.addText("Prospectus\n& entry info",{x:P1X,y:3.78,w:P1W,h:1.0,fontFace:BODY,fontSize:10,color:C.navy,align:"center",valign:"middle",margin:0,lineSpacingMultiple:1.1});
+s6.addText("1,169 current-student pages\n(9 faculties + 3 schools)",{x:P2X,y:3.78,w:P2W,h:1.0,fontFace:BODY,fontSize:10,color:C.navy,align:"center",valign:"middle",margin:0,lineSpacingMultiple:1.1});
+s6.addText("Alumni\nnetworks",{x:P3X,y:3.78,w:P3W,h:1.0,fontFace:BODY,fontSize:10,color:C.navy,align:"center",valign:"middle",margin:0,lineSpacingMultiple:1.1});
+// Overlap chips
+s6.addShape(pres.shapes.RECTANGLE,{x:P1X,y:4.88,w:5.35,h:0.24,fill:{color:C.cyan,transparency:50}});
+s6.addText("WHERE CONTENT OVERLAPS ACROSS PHASES",
+  {x:P1X,y:4.88,w:5.35,h:0.24,fontFace:MONO,fontSize:7.5,bold:true,color:C.navy,align:"center",margin:0,charSpacing:0.5});
 [
-  ["Careers","all 4 estates\nnone connected"],
-  ["Mentoring","both ends\nno web link"],
-  ["Course info","study → enrolled\nno handoff"],
-  ["Scholarships","3 sites + 1\nunused entry point"],
+  ["Careers","4 estates, none linked"],
+  ["Mentoring","faculty ↔ alumni, no link"],
+  ["Course info","529 back-links, no forward path"],
+  ["Scholarships","3 presences, 1 unused entry point"],
 ].forEach(([t,d],i)=>{
-  const x=7.35+i*1.3375;
-  s5.addShape(pres.shapes.RECTANGLE,{x,y:5.34,w:1.3,h:0.88,fill:{color:C.tint},line:{color:C.cyandk,width:0.75}});
-  s5.addText(t,{x,y:5.37,w:1.3,h:0.34,fontFace:BODY,fontSize:11,bold:true,color:C.navy,align:"center",margin:0});
-  s5.addText(d,{x,y:5.72,w:1.3,h:0.46,fontFace:MONO,fontSize:8.5,color:C.muted,align:"center",margin:0,lineSpacingMultiple:1.05});
+  const x=P1X+i*1.3375;
+  s6.addShape(pres.shapes.RECTANGLE,{x,y:5.16,w:1.3,h:0.75,fill:{color:C.tint},line:{color:C.cyandk,width:0.75}});
+  s6.addText(t,{x,y:5.19,w:1.3,h:0.30,fontFace:BODY,fontSize:10.5,bold:true,color:C.navy,align:"center",margin:0});
+  s6.addText(d,{x,y:5.50,w:1.3,h:0.38,fontFace:MONO,fontSize:8,color:C.muted,align:"center",margin:0,lineSpacingMultiple:1.05});
 });
-
-s5.addNotes("Reframed as a lifecycle: three phases — before enrolment, during study, after graduation — and two key handoffs. The 529 links back to study.unimelb were deliberate (study.unimelb holds the canonical prospectus). Prompt the room: 'is the enrolled-student experience on those journeys working as intended?' The 0 links to alumni = no graduation handoff. Bottom chips: where the same content appears across multiple phases — these are today's discussion territory. Keep the room out of solution mode.");
-
-/* ============ 5 — Overlap matrix ============ */
-const s6=content("Overlap at a glance");
-s6.addText("Where each topic is provided today, across the estate. The same need often appears in several places.",
-  {x:0.62,y:1.4,w:11.9,h:0.5,fontFace:BODY,fontSize:15,color:C.ink,margin:0});
-const hd=(t)=>({text:t,options:{fill:{color:C.navy},color:C.white,bold:true,fontSize:12,align:"left",valign:"middle"}});
-const cl=(t)=>({text:t,options:{color:C.ink,fontSize:11.5,valign:"middle"}});
-const cm=(t)=>({text:t,options:{color:C.muted,fontSize:11,italic:true,valign:"middle"}});
-s6.addTable([
- [hd("Topic"),hd("Current Students\nWebsite"),hd("Faculties"),hd("Schools"),hd("Cross-linked?")],
- [cl("Course planning"),cl("Planner + Handbook"),cl("Every faculty"),cl("MBS, Biomedical"),cl("Partly")],
- [cl("Careers"),cl("Careers service"),cl("8 of 9 (141 pp)"),cl("MBS"),cl("Rarely")],
- [cl("Placements / WIL"),cl("—"),cl("Every faculty"),cl("Some"),cl("—")],
- [cl("Service requests"),cl("Stop 1 + processes"),cl("Student centres + forms"),cl("Some"),cl("Mixed")],
- [cl("Further study"),cl("Some"),cl("Faculties"),cl("Some"),cl("Mixed")],
- [cl("Alumni engagement"),cl("—"),cl("Some faculties (patchy)"),cl("MBS"),cl("No — 0 links")],
- [cl("study.unimelb"),cl("Entry paths"),cl("529 links back"),cl("—"),cl("One-way only")],
-],{x:0.62,y:2.05,w:12.1,colW:[2.9,2.7,2.7,2.0,1.8],rowH:[0.60,0.50,0.50,0.50,0.50,0.50,0.50,0.50],border:{type:"solid",pt:1,color:C.linelt},fontFace:BODY,valign:"middle",margin:[3,6,3,6],fill:{color:C.white}});
-s6.addShape(pres.shapes.RECTANGLE,{x:0.62,y:6.15,w:11.9,h:0.68,fill:{color:C.tint}});
-s6.addShape(pres.shapes.RECTANGLE,{x:0.62,y:6.15,w:0.1,h:0.68,fill:{color:C.cyan}});
+s6.addShape(pres.shapes.RECTANGLE,{x:0.62,y:6.08,w:11.9,h:0.68,fill:{color:C.tint}});
+s6.addShape(pres.shapes.RECTANGLE,{x:0.62,y:6.08,w:0.1,h:0.68,fill:{color:C.cyan}});
 s6.addText([{text:"To discuss:  ",options:{bold:true,color:C.navy}},
-  {text:"Is this the right picture of where things live? Where is the overlap helpful — and where is it accidental or frustrating?",options:{color:C.navy2}}],
-  {x:0.95,y:6.15,w:11.3,h:0.68,fontFace:BODY,fontSize:13.5,valign:"middle",margin:0});
-s6.addNotes("Walk the rows quickly (~5 min). Don't defend the marks — invite corrections and mark them live. 'Cross-linked?' means: do the current-students-website and faculty versions point to each other. Alumni and study.unimelb rows are from the June 2026 crawl — 0 links from current-student pages to alumni is confirmed. The goal is a shared picture before we open the discussion.");
+  {text:"Is this the right picture of where the estate sits? Where does the faculty presence in all three phases create useful duplication — and where is it a broken thread?",options:{color:C.navy2}}],
+  {x:0.95,y:6.08,w:11.3,h:0.68,fontFace:BODY,fontSize:13,valign:"middle",margin:0});
+s6.addNotes("Walk through the diagram (~5 min). The key insight is the faculty band spanning all three phases — faculties are not just 'current student' sites, they have prospectus content and alumni sections too. The four overlap chips are today's discussion territory. Invite corrections to the picture before moving to open discussion. For each chip: 'is this a problem, and is anyone already working on it?'");
 
 /* ============ 6 — Open discussion ============ */
 const sd=content("Where overlap shows up — and where it matters");
@@ -168,11 +183,11 @@ sd.addText("WHAT THE DATA SHOWS",{x:7.68,y:1.62,w:4.9,h:0.3,fontFace:MONO,fontSi
   "Careers: 4 parallel presences — Current Students Website, 8 faculties, study.unimelb, alumni. No cross-links in any direction.",
   "Graduation exit: 0 current-student pages link to alumni, including graduation pages. No web path forward.",
   "study.unimelb: 529 links from faculty pages back to the prospective site — deliberate when study.unimelb was set up. Is the enrolled-student experience on these journeys working as intended?",
-  "Scholarships: 3 separate presences — 141 faculty pages, 75 on study.unimelb, 1 on alumni. scholarships.unimelb.edu.au exists as a dedicated single entry point for all of them, but none of the three sites link to it.",
+  "Scholarships: 3 separate presences — 141 faculty pages, 75 on study.unimelb, 1 on alumni. scholarships.unimelb.edu.au is the dedicated entry point; none of the three link to it.",
 ].forEach((a,i)=>{
-  const y=2.1+i*0.86;
-  sd.addShape(pres.shapes.RECTANGLE,{x:7.68,y,w:4.8,h:0.72,fill:{color:C.white},line:{color:C.linelt,width:1}});
-  sd.addText(a,{x:7.82,y,w:4.6,h:0.72,fontFace:BODY,fontSize:11.5,color:C.navy2,valign:"middle",margin:0,lineSpacingMultiple:1.1});
+  const y=2.1+i*0.90;
+  sd.addShape(pres.shapes.RECTANGLE,{x:7.68,y,w:4.8,h:0.80,fill:{color:C.white},line:{color:C.linelt,width:1}});
+  sd.addText(a,{x:7.82,y,w:4.6,h:0.80,fontFace:BODY,fontSize:10.5,color:C.navy2,valign:"middle",margin:0,lineSpacingMultiple:1.1});
 });
 sd.addNotes("Data-driven discussion (~15 min). Each finding on the right is from the June 2026 crawl — use them as conversation starters, not a rigid sequence. For each: is this the right picture? What explains it? Is someone already working on it? Capture themes on the next slide. Keep out of solution mode — we're mapping the territory, not resolving it today.");
 
@@ -185,7 +200,7 @@ const ic=(t)=>({text:t,options:{color:C.ink,fontSize:12,valign:"middle"}});
 const ig=(t)=>({text:t,options:{color:C.muted,fontSize:11.5,italic:true,valign:"middle"}});
 sf.addTable([
   [ih("Initiative"),ih("Owner area"),ih("Status")],
-  [ic("Employability Service Integration"),ic("Central Careers / Faculties"),ic("In progress")],
+  [ig(""),ig(""),ig("")],
   [ig(""),ig(""),ig("")],
   [ig(""),ig(""),ig("")],
   [ig(""),ig(""),ig("")],
