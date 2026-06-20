@@ -10,11 +10,11 @@ const LOGO_W=ASSETS+"/logo-white.png", LOGO_R=2600/818;
 const pres = new pptxgen();
 pres.layout = "LAYOUT_WIDE";
 pres.author = "University of Melbourne";
-pres.title = "Current Students — End-to-End Experience (discussion)";
+pres.title = "University of Melbourne — Web Estate Alignment Discussion";
 
 let PG = 0;
 function footer(s){
-  s.addText("Current Students: End-to-End Experience — alignment discussion · for discussion",
+  s.addText("University of Melbourne — web estate alignment discussion · for discussion",
     {x:0.6,y:7.04,w:10.5,h:0.3,fontFace:BODY,fontSize:9,color:C.muted,margin:0});
   s.addText(String(PG),{x:12.3,y:7.04,w:0.45,h:0.3,fontFace:BODY,fontSize:9,color:C.muted,align:"right",margin:0});
 }
@@ -30,33 +30,17 @@ function content(title){ const s=pres.addSlide(); PG++; head(s,title); return s;
 const s1=pres.addSlide(); PG++; s1.background={color:C.navy};
 s1.addImage({path:LOGO_W,x:0.6,y:0.55,w:2.2,h:2.2/LOGO_R});
 s1.addShape(pres.shapes.RECTANGLE,{x:0.62,y:2.5,w:0.32,h:0.32,fill:{color:C.cyan}});
-s1.addText("CURRENT STUDENTS · SERVICE EXPERIENCE",{x:1.08,y:2.48,w:10,h:0.38,fontFace:MONO,fontSize:12,color:C.cyan,bold:true,charSpacing:3,valign:"middle",margin:0});
+s1.addText("DIGITAL EXPERIENCE · ALIGNMENT DISCUSSION",{x:1.08,y:2.48,w:10,h:0.38,fontFace:MONO,fontSize:12,color:C.cyan,bold:true,charSpacing:3,valign:"middle",margin:0});
 s1.addText("The end-to-end student experience",{x:0.6,y:3.0,w:12,h:1.2,fontFace:HEAD,fontSize:44,color:C.white,bold:true,margin:0});
-s1.addText("An alignment discussion on overlaps across our current-students websites",{x:0.63,y:4.35,w:10.6,h:0.7,fontFace:BODY,fontSize:18,color:C.ice,margin:0});
+s1.addText("An alignment conversation about overlaps across the University's web estate",{x:0.63,y:4.35,w:10.6,h:0.7,fontFace:BODY,fontSize:18,color:C.ice,margin:0});
 s1.addText("For discussion · June 2026",{x:0.63,y:5.1,w:8,h:0.4,fontFace:MONO,fontSize:12,color:C.dim,margin:0});
 s1.addText("The University of Melbourne acknowledges the Traditional Owners of the unceded land on which we work, learn and live, and pays respect to their Elders, past and present, and to Indigenous Australians today.",
   {x:0.63,y:6.7,w:11.6,h:0.6,fontFace:BODY,fontSize:9.5,italic:true,color:"C9CDE6",margin:0});
-s1.addNotes("Welcome. This is a discussion, not a decision meeting (~45 min). Frame: we're aligning on where the current-students experience overlaps across our websites, what's already underway, and what we might explore together. Make clear up front: no recommendations today — the data is a guide, the questions are the work.");
+s1.addNotes("Welcome. This is a discussion, not a decision meeting (~45 min). Frame: we're aligning on where the University's web experiences overlap across our sites, what's already underway, and what we might explore together. Make clear up front: no recommendations today — the data is a guide, the questions are the work.");
 
-/* ============ 2 — About ============ */
-const s2=content("About this session");
-s2.addText([
- {text:"Our current-students content lives across many websites — the central hub, nine faculties and three schools. Students move between them, end to end.",options:{breakLine:true,paraSpaceAfter:14}},
- {text:"This is an alignment conversation: where do these experiences overlap, what is already underway to address them, and what might we do together.",options:{breakLine:true,paraSpaceAfter:14}},
- {text:"This pack is a discussion guide — not a set of recommendations. The data sets the scene; the questions are ours to work through.",options:{}}
-],{x:0.62,y:1.5,w:11.9,h:2.4,fontFace:BODY,fontSize:17,color:C.ink,valign:"top",margin:0,lineSpacingMultiple:1.12});
-s2.addText("TODAY'S TOPICS",{x:0.62,y:4.45,w:6,h:0.3,fontFace:MONO,fontSize:11,bold:true,color:C.cyandk,charSpacing:2,margin:0});
-["Course planning","Employability","Faculty service requests","Applications for further study"].forEach((t,i)=>{
-  const x=0.62+i*3.0;
-  s2.addShape(pres.shapes.RECTANGLE,{x,y:4.95,w:2.78,h:0.78,fill:{color:C.navy}});
-  s2.addShape(pres.shapes.RECTANGLE,{x,y:4.95,w:2.78,h:0.09,fill:{color:C.cyan}});
-  s2.addText(t,{x:x+0.1,y:4.95,w:2.58,h:0.78,fontFace:BODY,fontSize:12.5,bold:true,color:C.white,align:"center",valign:"middle",margin:0});
-});
-s2.addNotes("Set expectations (~3 min): the data describes what exists and where — it is not a judgement. The four topics are our agenda. Invite people to hold their 'what should we do' ideas for the discussion prompts and the capture board near the end. Confirm everyone can see the four topics.");
-
-/* ============ 3 — Journey ============ */
-const s3=content("What students are trying to do");
-s3.addText("Students don't experience our websites as 'central' or 'faculty' — they have needs that run across the whole year, and they cross between sites as they go.",
+/* ============ 2 — Journey ============ */
+const s3=content("How users move across our websites");
+s3.addText("Our websites are experienced as one University — not as separate sites. Users cross between them as they try to do things, and the seams show.",
   {x:0.62,y:1.45,w:11.9,h:0.8,fontFace:BODY,fontSize:16,color:C.ink,margin:0,lineSpacingMultiple:1.12});
 const stages=["Orientate","Plan my course","Manage study","Get experience","Build my career","Get support","Finish & graduate"];
 const jx0=1.05, jx1=12.0, jy=3.35;
@@ -67,16 +51,18 @@ stages.forEach((st,i)=>{
   s3.addText(String(i+1),{x:cx-0.19,y:jy-0.19,w:0.38,h:0.38,fontFace:BODY,fontSize:11,bold:true,color:C.white,align:"center",valign:"middle",margin:0});
   s3.addText(st,{x:cx-0.95,y:jy+0.28,w:1.9,h:0.7,fontFace:BODY,fontSize:11,bold:true,color:C.navy2,align:"center",valign:"top",margin:0});
 });
+s3.addText("Shown for a current student — the same pattern of crossing between sites applies across further study, alumni and faculty experiences.",
+  {x:0.62,y:4.48,w:11.9,h:0.42,fontFace:MONO,fontSize:10,italic:true,color:C.muted,margin:0,align:"center"});
 s3.addShape(pres.shapes.RECTANGLE,{x:0.62,y:5.05,w:11.9,h:1.05,fill:{color:C.tint}});
 s3.addShape(pres.shapes.RECTANGLE,{x:0.62,y:5.05,w:0.1,h:1.05,fill:{color:C.cyan}});
 s3.addText([{text:"To discuss:  ",options:{bold:true,color:C.navy}},
-  {text:"Where in this journey do students cross between websites most — and where does that help or hinder them?",options:{color:C.navy2}}],
+  {text:"Where do users cross between websites most — and where does that crossing help or hinder them?",options:{color:C.navy2}}],
   {x:0.95,y:5.05,w:11.3,h:1.05,fontFace:BODY,fontSize:15,valign:"middle",margin:0});
-s3.addNotes("Ground the room in the student's view (~4 min). The journey is illustrative, not a process map. Ask the opening question and capture early themes about where students hop between sites. Today's four topics each sit somewhere on this journey — flag that we'll go deep on those.");
+s3.addNotes("Ground the room in the user's view (~4 min). The journey is illustrative — it shows the current-student view, but the same crossing-between-sites experience applies to anyone moving through University web content. Ask the opening question and capture early themes. We'll go deeper on specific areas shortly.");
 
-/* ============ 4 — Landscape ============ */
+/* ============ 3 — Landscape ============ */
 const s4=content("The shared landscape");
-s4.addText("A full content scan of the current-students estate — the central hub plus nine faculties and three schools. The same student need is often served in more than one place; some content is genuinely discipline-specific, and some is shared.",
+s4.addText("A full content scan of the current-students estate — the central hub plus nine faculties and three schools. The same user need is often served in more than one place; some content is genuinely discipline-specific, and some is shared.",
   {x:0.62,y:1.45,w:11.9,h:1.0,fontFace:BODY,fontSize:15.5,color:C.ink,margin:0,lineSpacingMultiple:1.12});
 [["1,161","pages of current-students content"],["13","separate websites"],["6","different web-address patterns"]].forEach(([n,l],i)=>{
   const x=0.62+i*4.12;
@@ -87,27 +73,41 @@ s4.addText("A full content scan of the current-students estate — the central h
 });
 s4.addText("Central hub · Architecture, Building & Planning · Arts · Business & Economics · Education · Engineering & IT · Fine Arts & Music · Law · Medicine, Dentistry & Health Sciences · Science  —  plus separate Business School, Biomedical Sciences and Dental school sites.",
   {x:0.62,y:5.2,w:11.9,h:0.9,fontFace:BODY,fontSize:12.5,italic:true,color:C.navy2,margin:0,lineSpacingMultiple:1.18});
-s4.addText("Descriptive only — a scan of what exists and where, not an assessment.",
-  {x:0.62,y:6.25,w:11.9,h:0.3,fontFace:MONO,fontSize:9.5,color:C.muted,margin:0});
-s4.addNotes("Scale-setting (~2 min), don't dwell. The point is breadth: 13 sites, 6 address patterns. Reinforce the 'descriptive, not an assessment' note — we're not grading anyone's site today.");
+s4.addText("Scope note: this scan covers the current-students sections. The broader picture also includes study.unimelb.edu.au and the University's alumni estate.",
+  {x:0.62,y:6.2,w:11.9,h:0.35,fontFace:MONO,fontSize:9.5,color:C.muted,margin:0});
+s4.addNotes("Scale-setting (~2 min), don't dwell. The point is breadth: 13 sites, 6 address patterns — and this is only the current-students slice. Reinforce the descriptive note — we're not grading anyone's site today.");
 
-/* ============ 5 — Overlap lens ============ */
+/* ============ 4 — Overlap lens ============ */
 const s5=content("A lens for today: overlap");
-s5.addText("Overlap isn't automatically a problem. Sometimes it is helpful local context; sometimes it is duplicated effort or mixed messages. For each topic today, we will look at where the content sits — then ask whether the overlap is intentional, and whether it helps or hinders the student.",
+s5.addText("Overlap isn't automatically a problem. Sometimes it is helpful local context; sometimes it is duplicated effort or mixed messages. For each area today, we will look at where the content sits — then ask whether the overlap is intentional, and whether it helps or hinders the user.",
   {x:0.62,y:1.55,w:6.3,h:4.0,fontFace:BODY,fontSize:17,color:C.ink,margin:0,valign:"top",lineSpacingMultiple:1.22});
-s5.addShape(pres.shapes.OVAL,{x:7.55,y:2.1,w:3.1,h:3.1,fill:{color:C.navy,transparency:86},line:{color:C.navy,width:1.5}});
-s5.addShape(pres.shapes.OVAL,{x:9.35,y:2.1,w:3.1,h:3.1,fill:{color:C.cyan,transparency:72},line:{color:C.cyandk,width:1.5}});
-s5.addText("Central hub",{x:7.5,y:3.35,w:1.85,h:0.5,fontFace:BODY,fontSize:13,bold:true,color:C.navy,align:"center",valign:"middle",margin:0});
-s5.addText([{text:"Faculty /",options:{breakLine:true}},{text:"school sites"}],{x:10.6,y:3.2,w:1.95,h:0.85,fontFace:BODY,fontSize:13,bold:true,color:C.navy,align:"center",valign:"middle",margin:0});
-s5.addText("overlap",{x:9.43,y:4.08,w:1.15,h:0.35,fontFace:MONO,fontSize:11,bold:true,color:C.navy2,align:"center",margin:0});
-s5.addNotes("Define overlap neutrally (~2 min): not inherently good or bad. This is the lens for every topic that follows — 'is the overlap intentional, and does it help or hinder the student?' Keep the room out of solution mode for now.");
 
-/* ============ 6 — Overlap matrix ============ */
+// 4-circle Venn: 2×2 arrangement
+// TL: Central hub    TR: Faculty/school sites
+// BL: Further study  BR: Alumni
+s5.addShape(pres.shapes.OVAL,{x:7.6,y:1.8,w:2.85,h:2.85,fill:{color:C.navy,transparency:82},line:{color:C.navy,width:1.5}});
+s5.addShape(pres.shapes.OVAL,{x:9.6,y:1.8,w:2.85,h:2.85,fill:{color:C.cyan,transparency:72},line:{color:C.cyandk,width:1.5}});
+s5.addShape(pres.shapes.OVAL,{x:7.6,y:3.6,w:2.85,h:2.85,fill:{color:C.navy,transparency:82},line:{color:C.navy,width:1.5}});
+s5.addShape(pres.shapes.OVAL,{x:9.6,y:3.6,w:2.85,h:2.85,fill:{color:C.cyan,transparency:72},line:{color:C.cyandk,width:1.5}});
+
+// Labels in the unique (non-overlapping) zone of each circle
+s5.addText("Central hub",{x:7.65,y:1.9,w:1.85,h:0.38,fontFace:BODY,fontSize:12,bold:true,color:C.navy,align:"center",valign:"middle",margin:0});
+s5.addText([{text:"Faculty /",options:{breakLine:true}},{text:"school sites"}],{x:10.65,y:1.85,w:1.75,h:0.55,fontFace:BODY,fontSize:12,bold:true,color:C.navy,align:"center",valign:"middle",margin:0});
+s5.addText("Further study",{x:7.65,y:5.75,w:1.85,h:0.38,fontFace:BODY,fontSize:12,bold:true,color:C.navy,align:"center",valign:"middle",margin:0});
+s5.addText("Alumni",{x:10.7,y:5.75,w:1.7,h:0.38,fontFace:BODY,fontSize:12,bold:true,color:C.navy,align:"center",valign:"middle",margin:0});
+
+// Centre overlap label
+s5.addText("overlap",{x:9.6,y:3.95,w:1.0,h:0.35,fontFace:MONO,fontSize:11,bold:true,color:C.navy2,align:"center",margin:0});
+
+s5.addNotes("Define overlap neutrally (~2 min): not inherently good or bad. Four circles because four parts of the estate share users and content — current students, faculty sites, further study (study.unimelb) and alumni. This is the lens for everything that follows — 'is the overlap intentional, and does it help or hinder the user?' Keep the room out of solution mode for now.");
+
+/* ============ 5 — Overlap matrix ============ */
 const s6=content("Overlap at a glance");
 s6.addText("Where each topic is provided today, across the estate. The same need often appears in several places.",
   {x:0.62,y:1.4,w:11.9,h:0.5,fontFace:BODY,fontSize:15,color:C.ink,margin:0});
 const hd=(t)=>({text:t,options:{fill:{color:C.navy},color:C.white,bold:true,fontSize:12,align:"left",valign:"middle"}});
 const cl=(t)=>({text:t,options:{color:C.ink,fontSize:11.5,valign:"middle"}});
+const cm=(t)=>({text:t,options:{color:C.muted,fontSize:11,italic:true,valign:"middle"}});
 s6.addTable([
  [hd("Topic"),hd("Central hub"),hd("Faculties"),hd("Schools"),hd("Cross-linked?")],
  [cl("Course planning"),cl("Planner + Handbook"),cl("Every faculty"),cl("MBS, Biomedical"),cl("Partly")],
@@ -115,114 +115,58 @@ s6.addTable([
  [cl("Placements / WIL"),cl("—"),cl("Every faculty"),cl("Some"),cl("—")],
  [cl("Service requests"),cl("Stop 1 + processes"),cl("Student centres + forms"),cl("Some"),cl("Mixed")],
  [cl("Further study"),cl("Some"),cl("Faculties"),cl("Some"),cl("Mixed")],
-],{x:0.62,y:2.05,w:12.1,colW:[2.9,2.7,2.7,2.0,1.8],rowH:0.62,border:{type:"solid",pt:1,color:C.linelt},fontFace:BODY,valign:"middle",margin:[3,6,3,6],fill:{color:C.white}});
-s6.addShape(pres.shapes.RECTANGLE,{x:0.62,y:6.05,w:11.9,h:0.7,fill:{color:C.tint}});
-s6.addShape(pres.shapes.RECTANGLE,{x:0.62,y:6.05,w:0.1,h:0.7,fill:{color:C.cyan}});
+ [cm("Alumni engagement"),cm("—"),cm("Some faculties"),cm("MBS"),cm("No")],
+ [cm("study.unimelb"),cm("Entry paths"),cm("Some"),cm("—"),cm("Rarely")],
+],{x:0.62,y:2.05,w:12.1,colW:[2.9,2.7,2.7,2.0,1.8],rowH:0.50,border:{type:"solid",pt:1,color:C.linelt},fontFace:BODY,valign:"middle",margin:[3,6,3,6],fill:{color:C.white}});
+s6.addText("Alumni and study.unimelb rows are indicative — full audit in progress.",
+  {x:0.62,y:6.12,w:7,h:0.28,fontFace:MONO,fontSize:9,italic:true,color:C.muted,margin:0});
+s6.addShape(pres.shapes.RECTANGLE,{x:0.62,y:6.45,w:11.9,h:0.68,fill:{color:C.tint}});
+s6.addShape(pres.shapes.RECTANGLE,{x:0.62,y:6.45,w:0.1,h:0.68,fill:{color:C.cyan}});
 s6.addText([{text:"To discuss:  ",options:{bold:true,color:C.navy}},
-  {text:"Is this the right picture? Where is the overlap intentional and helpful — and where is it accidental?",options:{color:C.navy2}}],
-  {x:0.95,y:6.05,w:11.3,h:0.7,fontFace:BODY,fontSize:14.5,valign:"middle",margin:0});
-s6.addNotes("Walk the rows quickly (~5 min). Don't defend the marks — invite corrections and mark them live. 'Cross-linked?' means: do the central and faculty versions point to each other. The goal is a shared picture before we go topic by topic.");
+  {text:"Is this the right picture of where things live? Where is the overlap helpful — and where is it accidental or frustrating?",options:{color:C.navy2}}],
+  {x:0.95,y:6.45,w:11.3,h:0.68,fontFace:BODY,fontSize:13.5,valign:"middle",margin:0});
+s6.addNotes("Walk the rows quickly (~5 min). Don't defend the marks — invite corrections and mark them live. 'Cross-linked?' means: do the central and faculty versions point to each other. Note the bottom two rows are indicative — full audit of study.unimelb and alumni coming. The goal is a shared picture before we open the discussion.");
 
-/* ============ Topic helper ============ */
-function topic(title, dataPts, questions, notes){
-  const s=content(title);
-  s.addText("WHAT THE DATA SHOWS",{x:0.62,y:1.4,w:6.6,h:0.3,fontFace:MONO,fontSize:11,bold:true,color:C.cyandk,charSpacing:2,margin:0});
-  s.addText(dataPts.map(t=>({text:t,options:{bullet:{indent:16},breakLine:true,paraSpaceAfter:10}})),
-    {x:0.62,y:1.8,w:6.65,h:5.0,fontFace:BODY,fontSize:13.5,color:C.ink,valign:"top",margin:0});
-  s.addShape(pres.shapes.RECTANGLE,{x:7.62,y:1.4,w:5.11,h:5.3,fill:{color:C.tint}});
-  s.addShape(pres.shapes.RECTANGLE,{x:7.62,y:1.4,w:0.1,h:5.3,fill:{color:C.cyan}});
-  s.addText("TO DISCUSS",{x:7.95,y:1.62,w:4.6,h:0.3,fontFace:MONO,fontSize:11,bold:true,color:C.navy,charSpacing:2,margin:0});
-  s.addText(questions.map(q=>({text:q,options:{bullet:{indent:16},breakLine:true,paraSpaceAfter:12}})),
-    {x:7.95,y:2.06,w:4.55,h:4.5,fontFace:BODY,fontSize:14,color:C.navy2,valign:"top",margin:0});
-  s.addNotes(notes);
-}
-
-topic("Course planning",
-[
- "Around 207 pages relate to course planning — across the central hub (My Course Planner, the Handbook) and every faculty.",
- "Two schools — Business (MBS) and Biomedical Sciences — hold about 46% of it, a level below their faculty.",
- "It spans many forms: degree sample plans, subject-selection guides, breadth and diploma options, prerequisites and quotas, honours and research-project planning.",
- "The central planning tool is sometimes re-presented on faculty sites, and the section is reached through several different web addresses.",
-],
-[
- "Where do students actually start when planning their course?",
- "Which parts are genuinely degree-specific, and which are shared?",
- "What is already underway to align course planning?",
- "What would make course planning feel seamless to a student?",
-],
-"~6 min. Course planning is mostly degree-specific (legitimately faculty-owned), with a thin shared layer on top. Pull in faculty course-planning owners. Listen for: where the hub tool and faculty plans should connect, and whether labels/locations differ confusingly. Hold solutions for the capture board.");
-
-topic("Employability",
-[
- "Around 351 pages relate to employability — roughly 144 on careers and 207 on work-integrated learning (placements, internships).",
- "Careers content appears in 8 of 9 faculties, plus Melbourne Business School, alongside the central careers platform.",
- "Today the central and faculty careers content largely do not link to each other; several near-identical 'Employability in [discipline]' pages exist.",
- "Work-integrated learning sits entirely with faculties; there is no central placements page.",
-],
-[
- "How does a student discover careers and placement support — central, faculty, or both?",
- "Where does the current split serve students well, and where does it confuse?",
- "What is already in flight here (for example, the Employability Service Integration work)?",
- "What would a joined-up employability journey feel like?",
-],
-"~6 min. The richest topic. Note the Employability Service Integration (ESI) work is already in flight — invite that team to speak to it. Listen for: the careers central/faculty disconnect, and that WIL has no central front door. Keep neutral — surface, don't solve.");
-
-topic("Faculty service requests",
-[
- "Students request help — special consideration, forms, advising, enrolment changes — through several channels: Stop 1 centrally, faculty student centres, and around 210 faculty forms and admin pages.",
- "Some requests are university-wide processes (special consideration, leave of absence, fees); others are specific to a faculty or school.",
- "Across the estate, about 227 pages touch enrolment, exams, fees and special consideration — and the same process is often described in more than one place.",
- "Where a student starts (central or faculty) often differs from where the request is actually handled.",
-],
-[
- "When a student needs to request something, where do they go first — and where do they end up?",
- "Which service requests are genuinely faculty-specific, and which are university-wide?",
- "What is underway to streamline how students request service?",
- "Where are the hand-offs that frustrate students or duplicate effort?",
-],
-"~6 min. This is the service-model question. Bring in Stop 1 / faculty student-centre voices. Listen for: the hand-offs between central and faculty, and where students start vs where requests are resolved. Distinguish genuinely faculty-specific requests from university-wide ones.");
-
-topic("Applications for further study",
-[
- "'What next' content spans honours, graduate and coursework pathways, course transfers, concurrent diplomas, and research candidature.",
- "It sits across faculties and schools — for example faculty honours pages and graduate-pathway guides.",
- "It overlaps with admissions / future-students messaging, and with course-planning content.",
- "Research candidature alone is around 240 pages, largely held by faculties.",
-],
-[
- "How does a current student find out about further study options?",
- "Where should 'current student' stop and 'future student / admissions' begin?",
- "What is already underway to support student progression?",
- "How do we make the path to further study clear for current students?",
-],
-"~6 min. The trickiest boundary — current-student vs admissions/future-student content. Listen for: where the 'apply for further study' path lives and who owns it, and the overlap with course planning. Note any progression-support work already underway.");
-
-/* ============ Worked example ============ */
-const sw=content("One student, four topics");
-sw.addShape(pres.shapes.RECTANGLE,{x:0.62,y:1.4,w:11.9,h:0.62,fill:{color:C.navy}});
-sw.addText([{text:"Maya  ",options:{bold:true,color:C.white,fontSize:15}},{text:"· second-year Science undergraduate · one semester",options:{color:C.ice,fontSize:13}}],
-  {x:0.85,y:1.4,w:11.5,h:0.62,fontFace:BODY,valign:"middle",margin:0});
-const steps=[
- ["1","Course planning","Plans her second-year subjects","Hub planner + Science course guides"],
- ["2","Employability","Looks for a summer internship","Science WIL pages — nothing central"],
- ["3","Service request","Applies for special consideration","Starts at Stop 1 → handled by the faculty"],
- ["4","Further study","Starts weighing up Honours","Science Honours info (would compare faculties)"],
-];
-steps.forEach((st,i)=>{
-  const y=2.25+i*0.86;
-  sw.addShape(pres.shapes.OVAL,{x:0.7,y:y+0.04,w:0.5,h:0.5,fill:{color:C.cyan}});
-  sw.addText(st[0],{x:0.7,y:y+0.04,w:0.5,h:0.5,fontFace:HEAD,fontSize:16,bold:true,color:C.navy,align:"center",valign:"middle",margin:0});
-  sw.addText([{text:st[1]+"  —  ",options:{bold:true,color:C.navy}},{text:st[2],options:{color:C.ink}}],
-    {x:1.4,y:y,w:7.7,h:0.6,fontFace:BODY,fontSize:14,valign:"middle",margin:0});
-  sw.addShape(pres.shapes.RECTANGLE,{x:9.25,y:y+0.06,w:3.45,h:0.46,fill:{color:C.tint}});
-  sw.addText(st[3],{x:9.35,y:y+0.06,w:3.3,h:0.46,fontFace:BODY,fontSize:10.5,color:C.navy2,valign:"middle",margin:0});
+/* ============ 6 — Open discussion ============ */
+const sd=content("Where overlap shows up — and where it matters");
+sd.addText([
+  {text:"For each area — the same three questions:",options:{bold:true,breakLine:true,paraSpaceAfter:16}},
+  {text:"1.  Is the overlap intentional, or accidental?",options:{breakLine:true,paraSpaceAfter:10}},
+  {text:"2.  Does it help or hinder the user?",options:{breakLine:true,paraSpaceAfter:10}},
+  {text:"3.  Is someone already working on it?",options:{breakLine:true,paraSpaceAfter:28}},
+  {text:"Use the capture board to note what we agree on, what's already in flight, what's worth exploring, and who's involved.",options:{color:C.muted}},
+],{x:0.62,y:1.45,w:6.3,h:4.8,fontFace:BODY,fontSize:15.5,color:C.ink,valign:"top",margin:0,lineSpacingMultiple:1.22});
+sd.addShape(pres.shapes.RECTANGLE,{x:7.35,y:1.4,w:5.37,h:5.3,fill:{color:C.tint}});
+sd.addShape(pres.shapes.RECTANGLE,{x:7.35,y:1.4,w:0.1,h:5.3,fill:{color:C.cyan}});
+sd.addText("AREAS TO DISCUSS",{x:7.68,y:1.62,w:4.9,h:0.3,fontFace:MONO,fontSize:11,bold:true,color:C.cyandk,charSpacing:2,margin:0});
+["Course planning","Careers & employability","Faculty service requests","Further study pathways","Alumni engagement","study.unimelb.edu.au"].forEach((a,i)=>{
+  const y=2.1+i*0.72;
+  sd.addShape(pres.shapes.RECTANGLE,{x:7.68,y,w:4.8,h:0.56,fill:{color:C.white},line:{color:C.linelt,width:1}});
+  sd.addText(a,{x:7.82,y,w:4.6,h:0.56,fontFace:BODY,fontSize:13,color:C.navy2,valign:"middle",margin:0});
 });
-sw.addText([{text:"In one semester Maya crosses the central hub, her faculty site and a school site several times — with no single thread tying it together.    ",options:{italic:true,color:C.ink}},
-  {text:"To discuss: where in this one journey would small changes make the biggest difference?",options:{bold:true,color:C.navy}}],
-  {x:0.7,y:5.95,w:12.0,h:0.7,fontFace:BODY,fontSize:13.5,valign:"top",margin:0,lineSpacingMultiple:1.1});
-sw.addNotes("~5 min. Make it concrete — one student, four topics, one semester. The right-hand tags show which site(s) she touches. The point is the experience is a single thread for her, even though our content isn't. Ask where small changes in her journey would help most.");
+sd.addNotes("Open the room (~15 min). Work through the areas on the right — use the list as a prompt, not a rigid sequence. For each: is there overlap? Is it helpful? Is someone already working on it? Capture themes on the next slide. Keep out of solution mode — we're mapping the territory, not resolving it today.");
 
-/* ============ Capture canvas ============ */
+/* ============ 7 — What's in flight ============ */
+const sf=content("What's already in flight");
+sf.addText("Initiatives already underway — to build on rather than duplicate.",
+  {x:0.62,y:1.45,w:11.9,h:0.5,fontFace:BODY,fontSize:15,color:C.ink,margin:0});
+const ih=(t)=>({text:t,options:{fill:{color:C.navy},color:C.white,bold:true,fontSize:12,align:"left",valign:"middle"}});
+const ic=(t)=>({text:t,options:{color:C.ink,fontSize:12,valign:"middle"}});
+const ig=(t)=>({text:t,options:{color:C.muted,fontSize:11.5,italic:true,valign:"middle"}});
+sf.addTable([
+  [ih("Initiative"),ih("Owner area"),ih("Status")],
+  [ic("Employability Service Integration"),ic("Central Careers / Faculties"),ic("In progress")],
+  [ig(""),ig(""),ig("")],
+  [ig(""),ig(""),ig("")],
+  [ig(""),ig(""),ig("")],
+  [ig(""),ig(""),ig("")],
+  [ig(""),ig(""),ig("")],
+],{x:0.62,y:2.1,w:12.1,colW:[6.8,3.2,2.1],rowH:0.62,border:{type:"solid",pt:1,color:C.linelt},fontFace:BODY,valign:"middle",margin:[3,6,3,8],fill:{color:C.white}});
+sf.addText("Pre-populate any known initiatives before the session — or capture from the room.",
+  {x:0.62,y:6.55,w:11.9,h:0.3,fontFace:MONO,fontSize:9.5,color:C.muted,margin:0});
+sf.addNotes("Ask: 'what's already underway in your area that touches these overlaps?' Pre-populate any known initiatives before the session. Goal: we don't want to invent solutions to problems someone else is already solving — connect first.");
+
+/* ============ 8 — Capture canvas ============ */
 const sc=content("Capturing today's discussion");
 sc.addText("We'll capture the conversation here — to revisit together, not to conclude today.",
   {x:0.62,y:1.4,w:11.9,h:0.5,fontFace:BODY,fontSize:15,italic:true,color:C.ink,margin:0});
@@ -234,15 +178,15 @@ sc.addText("We'll capture the conversation here — to revisit together, not to 
 });
 sc.addNotes("~5 min, capture mode. Fill the four columns from everything raised: overlaps people agreed on, work already in flight, things worth exploring, and a name against each. This is the artefact we take away.");
 
-/* ============ Closing ============ */
+/* ============ 9 — Closing ============ */
 const s9=pres.addSlide(); PG++; s9.background={color:C.navy};
 s9.addShape(pres.shapes.RECTANGLE,{x:0.62,y:0.72,w:0.3,h:0.3,fill:{color:C.cyan}});
 s9.addText("Where to from here — together",{x:1.06,y:0.6,w:11,h:0.7,fontFace:HEAD,fontSize:32,bold:true,color:C.white,valign:"middle",margin:0});
 s9.addText("Not conclusions — questions to take forward.",{x:0.64,y:1.65,w:11,h:0.5,fontFace:BODY,fontSize:17,italic:true,color:C.cyan,margin:0});
 s9.addText([
- "Across the four topics, what did we agree are the real overlaps?",
+ "Across all areas: what did we agree are the real overlaps?",
  "What is already in flight that we could connect or build on?",
- "For each topic — what is one thing we'd like to explore next, and who is involved?",
+ "For the biggest overlap — what is one next step, and who is involved?",
  "How will we keep aligned as this work continues?",
 ].map(q=>({text:q,options:{bullet:{indent:18},breakLine:true,paraSpaceAfter:16}})),
  {x:0.66,y:2.5,w:11.4,h:3.6,fontFace:BODY,fontSize:18,color:C.white,valign:"top",margin:0});
@@ -257,7 +201,7 @@ sa.addText("Appendix",{x:1.08,y:3.05,w:10,h:0.7,fontFace:HEAD,fontSize:34,bold:t
 sa.addText("Backup detail — per-faculty data, for reference if the discussion calls for specifics.",{x:0.64,y:3.95,w:10.5,h:0.5,fontFace:BODY,fontSize:15,color:C.ice,margin:0});
 sa.addNotes("Backup. Pull up the next slide only if the room wants faculty-level specifics.");
 
-/* ============ Appendix — per-faculty matrix ============ */
+/* ============ Appendix A — per-faculty matrix (current-students) ============ */
 const sm=content("Who holds what — pages by faculty and topic");
 const ah=(t,al)=>({text:t,options:{fill:{color:C.navy},color:C.white,bold:true,fontSize:11,align:al||"left",valign:"middle"}});
 const an=(t)=>({text:String(t),options:{color:C.ink,fontSize:11,align:"right",valign:"middle"}});
@@ -272,9 +216,31 @@ const mrows=[[ah("Faculty / school"),ah("Course\nplanning","right"),ah("Careers"
 M.forEach(r=>mrows.push([af(r[0]),an(r[1]),an(r[2]),an(r[3]),an(r[4]),an(r[5])]));
 sm.addTable(mrows,{x:0.62,y:1.45,w:12.1,colW:[3.4,1.74,1.74,1.74,1.74,1.74],rowH:0.4,
   border:{type:"solid",pt:1,color:C.linelt},fontFace:BODY,valign:"middle",margin:[2,6,2,6],fill:{color:C.white}});
-sm.addText("* school-level site (runs its own current-students section below its faculty).  Page counts are descriptive — they show where content sits, not its quality. Source: full crawl, June 2026.",
+sm.addText("* school-level site (runs its own current-students section below its faculty).  Page counts are descriptive — they show where content sits, not its quality. Source: current-students crawl, June 2026.",
   {x:0.62,y:6.55,w:11.9,h:0.4,fontFace:BODY,fontSize:10,italic:true,color:C.muted,margin:0});
-sm.addNotes("Reference only. Per-faculty page counts by topic, from the full crawl. Schools (*) run their own sites. Use to answer 'how much does faculty X have for topic Y?' Bigger numbers = more content there, not better or worse.");
+sm.addNotes("Reference only. Per-faculty page counts by topic, from the current-students crawl. Schools (*) run their own sites. Use to answer 'how much does faculty X have for topic Y?' Bigger numbers = more content there, not better or worse.");
+
+/* ============ Appendix B — broader estate (June 2026 crawl data) ============ */
+const sb=content("The broader estate — where each topic lives");
+sb.addText("Across all four parts of the University's web estate. Source: June 2026 crawl — 1,173 pages (current-students), 300 pages (study.unimelb), 116 pages (alumni.unimelb).",
+  {x:0.62,y:1.45,w:11.9,h:0.65,fontFace:BODY,fontSize:14,color:C.ink,margin:0,lineSpacingMultiple:1.12});
+const bh=(t,al)=>({text:t,options:{fill:{color:C.navy},color:C.white,bold:true,fontSize:11,align:al||"left",valign:"middle"}});
+const bc=(t)=>({text:t,options:{color:C.ink,fontSize:11,valign:"middle"}});
+const brows=[
+  [bh("Topic area"),bh("Hub\n(students.)","center"),bh("Faculty sites","center"),bh("Further study\n(study.)","center"),bh("Alumni","center")],
+  [bc("Course / degree info"),bc("Planner + Handbook"),bc("Every faculty"),bc("224 pages — full coverage"),bc("—")],
+  [bc("Careers"),bc("Central platform"),bc("8 of 9 (141 pp)"),bc("37 pages — entry only"),bc("38 pp + mentoring")],
+  [bc("Placements / WIL"),bc("—"),bc("Every faculty\n(207 pp)"),bc("10 pages — overview"),bc("—")],
+  [bc("Scholarships"),bc("—"),bc("Some (141 pp)"),bc("75 pages"),bc("1 page")],
+  [bc("Research candidature"),bc("Thin"),bc("Heavy"),bc("1 page — entry only"),bc("1 page")],
+  [bc("Alumni engagement"),bc("—"),bc("Some (patchy)"),bc("—"),bc("116 pages — full")],
+  [bc("Service requests"),bc("Stop 1 + processes"),bc("Student centres"),bc("—"),bc("—")],
+];
+sb.addTable(brows,{x:0.62,y:2.2,w:12.1,colW:[3.4,2.5,2.5,2.1,1.6],rowH:0.47,
+  border:{type:"solid",pt:1,color:C.linelt},fontFace:BODY,valign:"middle",margin:[2,6,2,6],fill:{color:C.white}});
+sb.addText("Source: analysis/cross-site-overlap.md · crawl/pages/study-unimelb.json (300 pp) · crawl/pages/alumni-unimelb.json (116 pp)",
+  {x:0.62,y:6.2,w:11.9,h:0.3,fontFace:MONO,fontSize:9,italic:true,color:C.muted,margin:0});
+sb.addNotes("Reference only — broader view of the estate across all four circles from the overlap diagram. All page counts are from the June 2026 crawl. See analysis/cross-site-overlap.md for full breakdown and verdicts.");
 
 pres.writeFile({ fileName: __dirname + "/Current-Students-EndToEnd-Discussion.pptx" })
   .then(f=>console.log("WROTE", f, "·", PG, "slides"));
