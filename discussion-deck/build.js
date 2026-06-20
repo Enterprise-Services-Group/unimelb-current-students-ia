@@ -112,7 +112,7 @@ s5.addNotes("Define overlap neutrally (~2 min): not inherently good or bad. Four
 
 /* ============ 5 — Three phases + overlap ============ */
 const s6=content("Three phases — one student journey");
-s6.addText("Faculty sites are unusual in this picture: they have a presence in all three phases — prospectus content for applicants, current-student sections (1,150 pages crawled), and alumni networks. The chips below show where the same content appears across phases without connecting.",
+s6.addText("Faculty sites span all three phases — prospectus content for applicants, 1,150 current-student pages, and alumni networks. The link flows below show how estates connect and where the connections are broken. Arrows show direction and volume of links found in the June 2026 crawl.",
   {x:0.62,y:1.55,w:6.3,h:2.8,fontFace:BODY,fontSize:15.5,color:C.ink,margin:0,valign:"top",lineSpacingMultiple:1.22});
 const P1X=7.35,P1W=1.4,P2X=9.1,P2W=2.05,P3X=11.45,P3W=1.25;
 // Phase headers
@@ -134,37 +134,38 @@ s6.addShape(pres.shapes.RECTANGLE,{x:P3X,y:2.17,w:P3W,h:1.25,fill:{color:C.light
 s6.addText("alumni\n.unimelb.edu.au",{x:P3X,y:2.27,w:P3W,h:0.72,fontFace:BODY,fontSize:10.5,bold:true,color:C.navy,align:"center",margin:0,lineSpacingMultiple:1.1});
 s6.addText("116 pages",{x:P3X,y:3.02,w:P3W,h:0.34,fontFace:MONO,fontSize:9,color:C.muted,align:"center",margin:0});
 // Gap connection labels (in the whitespace between core site boxes)
-s6.addText("↔ 529\nlinks",{x:P1X+P1W+0.03,y:2.60,w:0.30,h:0.42,fontFace:MONO,fontSize:7,color:C.navy2,align:"center",margin:0,lineSpacingMultiple:1.05});
-s6.addText("→ 0\nlinks",{x:P2X+P2W+0.03,y:2.60,w:0.25,h:0.42,fontFace:MONO,fontSize:7,color:C.muted,align:"center",margin:0,lineSpacingMultiple:1.05});
+s6.addText("→273\nlinks",{x:P1X+P1W+0.03,y:2.60,w:0.30,h:0.42,fontFace:MONO,fontSize:7,color:C.cyandk,align:"center",margin:0,lineSpacingMultiple:1.05});
+s6.addText("✗ 0\nlinks",{x:P2X+P2W+0.03,y:2.60,w:0.25,h:0.42,fontFace:MONO,fontSize:7,color:C.muted,align:"center",margin:0,lineSpacingMultiple:1.05});
 // Faculty spanning band
 s6.addShape(pres.shapes.RECTANGLE,{x:P1X,y:3.52,w:5.35,h:0.26,fill:{color:C.navy2}});
 s6.addText("FACULTY & SCHOOL SITES (12) — spans all three phases",
   {x:P1X,y:3.52,w:5.35,h:0.26,fontFace:MONO,fontSize:8,bold:true,color:C.ice,align:"center",margin:0,charSpacing:0.3});
 s6.addShape(pres.shapes.RECTANGLE,{x:P1X,y:3.78,w:5.35,h:1.0,fill:{color:C.faint,transparency:75},line:{color:C.navy2,width:0.75}});
-s6.addText("Prospectus\n& entry info",{x:P1X,y:3.78,w:P1W,h:1.0,fontFace:BODY,fontSize:10,color:C.navy,align:"center",valign:"middle",margin:0,lineSpacingMultiple:1.1});
-s6.addText("1,150 current-student pages\n(9 faculties + 3 schools)",{x:P2X,y:3.78,w:P2W,h:1.0,fontFace:BODY,fontSize:10,color:C.navy,align:"center",valign:"middle",margin:0,lineSpacingMultiple:1.1});
-s6.addText("Alumni\nnetworks",{x:P3X,y:3.78,w:P3W,h:1.0,fontFace:BODY,fontSize:10,color:C.navy,align:"center",valign:"middle",margin:0,lineSpacingMultiple:1.1});
-// Overlap chips
-s6.addShape(pres.shapes.RECTANGLE,{x:P1X,y:4.88,w:5.35,h:0.24,fill:{color:C.cyan,transparency:50}});
-s6.addText("WHERE CONTENT OVERLAPS ACROSS PHASES",
-  {x:P1X,y:4.88,w:5.35,h:0.24,fontFace:MONO,fontSize:7.5,bold:true,color:C.navy,align:"center",margin:0,charSpacing:0.5});
+s6.addText("← 529 links\nsent back to\nstudy.unimelb\n(course plans\n& entry info)",{x:P1X,y:3.78,w:P1W,h:1.0,fontFace:BODY,fontSize:9,color:C.navy,align:"center",valign:"middle",margin:0,lineSpacingMultiple:1.05});
+s6.addText("1,150 current-student pages\n(9 faculties + 3 schools)\n→ 4,629 links to hub",{x:P2X,y:3.78,w:P2W,h:1.0,fontFace:BODY,fontSize:10,color:C.navy,align:"center",valign:"middle",margin:0,lineSpacingMultiple:1.1});
+s6.addText("13 faculty\nmentoring streams\non alumni.unimelb\n✗ 0 links\nfrom faculty CS",{x:P3X,y:3.78,w:P3W,h:1.0,fontFace:BODY,fontSize:9,color:C.navy,align:"center",valign:"middle",margin:0,lineSpacingMultiple:1.05});
+// Link flows section
+s6.addShape(pres.shapes.RECTANGLE,{x:P1X,y:4.88,w:5.35,h:0.22,fill:{color:C.cyan,transparency:50}});
+s6.addText("LINK FLOWS BETWEEN ESTATES",
+  {x:P1X,y:4.88,w:5.35,h:0.22,fontFace:MONO,fontSize:7.5,bold:true,color:C.navy,align:"center",margin:0,charSpacing:0.5});
 [
-  ["Careers","4 estates, none linked"],
-  ["Mentoring","faculty ↔ alumni, no link"],
-  ["Course info","529 back-links, no forward path"],
-  ["Scholarships","3 presences, 1 unused entry point"],
-].forEach(([t,d],i)=>{
-  const x=P1X+i*1.3375;
-  s6.addShape(pres.shapes.RECTANGLE,{x,y:5.16,w:1.3,h:0.75,fill:{color:C.tint},line:{color:C.cyandk,width:0.75}});
-  s6.addText(t,{x,y:5.19,w:1.3,h:0.30,fontFace:BODY,fontSize:10.5,bold:true,color:C.navy,align:"center",margin:0});
-  s6.addText(d,{x,y:5.50,w:1.3,h:0.38,fontFace:MONO,fontSize:8,color:C.muted,align:"center",margin:0,lineSpacingMultiple:1.05});
+  ["→","Faculty CS → students.unimelb","4,629 links · all topics",true],
+  ["→","Faculty CS → study.unimelb","529 links · course planning",true],
+  ["→","study.unimelb → students hub","273 links · course info",true],
+  ["✗","students hub → alumni.unimelb","0 links — graduation exit broken",false],
+  ["✗","Faculty CS → alumni.unimelb","0 links — 13 mentoring streams not connected",false],
+].forEach(([icon,lbl,detail,active],i)=>{
+  const y=5.12+i*0.19;
+  s6.addShape(pres.shapes.RECTANGLE,{x:P1X,y,w:5.35,h:0.18,fill:{color:active?C.tint:C.light},line:{color:C.linelt,width:0.5}});
+  s6.addText(`${icon} ${lbl}`,{x:P1X+0.05,y,w:3.15,h:0.18,fontFace:MONO,fontSize:8,bold:true,color:active?C.cyandk:C.muted,valign:"middle",margin:0});
+  s6.addText(detail,{x:P1X+3.22,y,w:2.08,h:0.18,fontFace:MONO,fontSize:7.5,color:C.muted,valign:"middle",margin:0});
 });
 s6.addShape(pres.shapes.RECTANGLE,{x:0.62,y:6.08,w:11.9,h:0.68,fill:{color:C.tint}});
 s6.addShape(pres.shapes.RECTANGLE,{x:0.62,y:6.08,w:0.1,h:0.68,fill:{color:C.cyan}});
 s6.addText([{text:"To discuss:  ",options:{bold:true,color:C.navy}},
   {text:"Is this the right picture of where the estate sits? Where does the faculty presence in all three phases create useful duplication — and where is it a broken thread?",options:{color:C.navy2}}],
   {x:0.95,y:6.08,w:11.3,h:0.68,fontFace:BODY,fontSize:13,valign:"middle",margin:0});
-s6.addNotes("Walk through the diagram (~5 min). The key insight is the faculty band spanning all three phases — faculties are not just 'current student' sites, they have prospectus content and alumni sections too. The four overlap chips are today's discussion territory. Invite corrections to the picture before moving to open discussion. For each chip: 'is this a problem, and is anyone already working on it?'");
+s6.addNotes("Walk through the diagram (~5 min). The key insight is the faculty band spanning all three phases. Link flows (bottom section) show what the June 2026 crawl found: three active connections (faculty→hub 4,629 links; faculty→study 529 links; study→hub 273 links) and two completely broken connections (hub→alumni 0 links; faculty→alumni 0 links despite 13 mentoring streams existing on alumni.unimelb). The gap labels between core boxes show study→hub (273 links, active) and students→alumni (0 links, broken). Invite corrections to the picture — 'does this match what you see from your site's perspective?'");
 
 /* ============ 6 — Open discussion ============ */
 const sd=content("Where overlap shows up — and where it matters");
