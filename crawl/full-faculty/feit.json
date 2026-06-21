@@ -1,0 +1,17 @@
+{
+  "domain": "eng.unimelb.edu.au",
+  "slug": "feit",
+  "pages_crawled": 1,
+  "urls_visited": 1,
+  "frontier_remaining": 0,
+  "pages": [
+    {
+      "url": "https://eng.unimelb.edu.au/",
+      "normalizedUrl": "https://eng.unimelb.edu.au/",
+      "title": "Just a moment...",
+      "wordCount": 45,
+      "outboundLinks": [],
+      "fingerprint": "aa8db9d952730aa0"
+    }
+  ]
+}

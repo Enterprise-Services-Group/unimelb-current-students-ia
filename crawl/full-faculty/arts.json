@@ -1,0 +1,1820 @@
+{
+  "domain": "arts.unimelb.edu.au",
+  "slug": "arts",
+  "pages_crawled": 259,
+  "pages": [
+    {
+      "url": "https://arts.unimelb.edu.au/scholarships/external-prizes/ernest-scott-prize",
+      "normalizedUrl": "https://arts.unimelb.edu.au/scholarships/external-prizes/ernest-scott-prize",
+      "title": "Ernest Scott Prize \u2014 Australian Centre | Faculty of Arts",
+      "wordCount": 8691,
+      "fingerprint": "012343a74610f4a7"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/research/assets/case-studies/improving-machine-translations-for-emergency-communications",
+      "normalizedUrl": "https://arts.unimelb.edu.au/research/assets/case-studies/improving-machine-translations-for-emergency-communications",
+      "title": "Improving machine translations for emergency communications",
+      "wordCount": 276,
+      "fingerprint": "037b2a1749f2f7f9"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/research-unit-in-public-cultures",
+      "normalizedUrl": "https://arts.unimelb.edu.au/research-unit-in-public-cultures",
+      "title": "Home \u2014 Research Unit in Public Cultures | Faculty of Arts",
+      "wordCount": 6101,
+      "fingerprint": "046881dd57e0164b"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/asia-institute/podcasts",
+      "normalizedUrl": "https://arts.unimelb.edu.au/asia-institute/podcasts",
+      "title": "Podcasts",
+      "wordCount": 763,
+      "fingerprint": "05b6ceda5a02a223"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/school-of-culture-and-communication/our-research/research-projects/disability-and-the-performing-arts-in-australia",
+      "normalizedUrl": "https://arts.unimelb.edu.au/school-of-culture-and-communication/our-research/research-projects/disability-and-the-performing-arts-in-australia",
+      "title": "Disability and the Performing Arts in Australia: The Last Avant Garde",
+      "wordCount": 472,
+      "fingerprint": "06d85322f4e909b8"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/news/",
+      "normalizedUrl": "https://arts.unimelb.edu.au/news/",
+      "title": "News | Faculty of Arts",
+      "wordCount": 46,
+      "fingerprint": "0818fcd3d6593ca3"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/built-with-a-ba/abe-watson",
+      "normalizedUrl": "https://arts.unimelb.edu.au/built-with-a-ba/abe-watson",
+      "title": "Abe Watson",
+      "wordCount": 326,
+      "fingerprint": "0845644e1c8da2c5"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/asia-institute/news-and-events/episode-168-how-are-rice-farmers-faring-in-the-philippines",
+      "normalizedUrl": "https://arts.unimelb.edu.au/asia-institute/news-and-events/episode-168-how-are-rice-farmers-faring-in-the-philippines",
+      "title": "Episode 168: How are rice farmers faring in the Philippines?",
+      "wordCount": 156,
+      "fingerprint": "0889150fdabebfc4"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/news/past-news",
+      "normalizedUrl": "https://arts.unimelb.edu.au/news/past-news",
+      "title": "Past news \u2014 Faculty of Arts",
+      "wordCount": 758,
+      "fingerprint": "0a3aea4a070d2bec"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/news/episode-154-trickle-down-tensions-the-hydropolitics-of-transboundary-river-systems-in-asia",
+      "normalizedUrl": "https://arts.unimelb.edu.au/news/episode-154-trickle-down-tensions-the-hydropolitics-of-transboundary-river-systems-in-asia",
+      "title": "Episode 154: Trickle-down tensions: The hydropolitics of transboundary river systems in Asia",
+      "wordCount": 218,
+      "fingerprint": "0ba78043776c3e6d"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/poetry",
+      "normalizedUrl": "https://arts.unimelb.edu.au/poetry",
+      "title": "Billboard Poetry",
+      "wordCount": 777,
+      "fingerprint": "0c5e1ed207c6437a"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/school-of-languages-and-linguistics/news/new-news/call-for-phd-projects-in-italian-studies",
+      "normalizedUrl": "https://arts.unimelb.edu.au/school-of-languages-and-linguistics/news/new-news/call-for-phd-projects-in-italian-studies",
+      "title": "Call for PhD Projects in Italian Studies",
+      "wordCount": 80,
+      "fingerprint": "0d542126033fc5ba"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/school-of-historical-and-philosophical-studies/our-research/research-centres-hubs-and-groups/ripss",
+      "normalizedUrl": "https://arts.unimelb.edu.au/school-of-historical-and-philosophical-studies/our-research/research-centres-hubs-and-groups/ripss",
+      "title": "The Research Initiative on Post-Soviet Space (RIPSS)",
+      "wordCount": 2361,
+      "fingerprint": "0db8d483f99c1657"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/news/past-news/episode-109-Ending-the-cycle-of-political-disarray-in-Malaysia",
+      "normalizedUrl": "https://arts.unimelb.edu.au/news/past-news/episode-109-Ending-the-cycle-of-political-disarray-in-Malaysia",
+      "title": "Episode 109: Ending the cycle of political disarray in Malaysia",
+      "wordCount": 166,
+      "fingerprint": "0e87d450a848819a"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/research/Infrastructure-and-Platforms",
+      "normalizedUrl": "https://arts.unimelb.edu.au/research/Infrastructure-and-Platforms",
+      "title": "Infrastructure and Platforms",
+      "wordCount": 178,
+      "fingerprint": "0fbb92d0e295ea45"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/research/assets/case-studies/interactive-campus-adventure-shows-games-are-part-of-our-culture",
+      "normalizedUrl": "https://arts.unimelb.edu.au/research/assets/case-studies/interactive-campus-adventure-shows-games-are-part-of-our-culture",
+      "title": "Interactive campus adventure shows games are part of our culture",
+      "wordCount": 196,
+      "fingerprint": "1048d37b80663c55"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/e/being-human-festival/past-festival-activities",
+      "normalizedUrl": "https://arts.unimelb.edu.au/e/being-human-festival/past-festival-activities",
+      "title": "Past festival activities",
+      "wordCount": 203,
+      "fingerprint": "10bcf4be475927a0"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/built-with-a-ba/jenna-davey-burns",
+      "normalizedUrl": "https://arts.unimelb.edu.au/built-with-a-ba/jenna-davey-burns",
+      "title": "Cr Jenna Davey-Burns",
+      "wordCount": 289,
+      "fingerprint": "11b10adba77f947a"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/school-of-culture-and-communication/our-research/groups-and-resource-centre/critical-research-association-melbourne",
+      "normalizedUrl": "https://arts.unimelb.edu.au/school-of-culture-and-communication/our-research/groups-and-resource-centre/critical-research-association-melbourne",
+      "title": "Critical Research Association Melbourne",
+      "wordCount": 6480,
+      "fingerprint": "121d6191c5d2e9f3"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/crippsinstitute",
+      "normalizedUrl": "https://arts.unimelb.edu.au/crippsinstitute",
+      "title": "Robert Cripps Institute for Cultural Conservation",
+      "wordCount": 2248,
+      "fingerprint": "12f0a6507170eca4"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/school-of-social-and-political-sciences/discipline-areas/gender-studies",
+      "normalizedUrl": "https://arts.unimelb.edu.au/school-of-social-and-political-sciences/discipline-areas/gender-studies",
+      "title": "Gender Studies",
+      "wordCount": 742,
+      "fingerprint": "14ef002fa5bc05e6"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/asia-institute/discipline-areas/indonesian",
+      "normalizedUrl": "https://arts.unimelb.edu.au/asia-institute/discipline-areas/indonesian",
+      "title": "Indonesian Studies \u2014 Asia Institute | Faculty of Arts",
+      "wordCount": 814,
+      "fingerprint": "1723f4ae89a709be"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/school-of-languages-and-linguistics/news/the-secret-life-of-language/episodes/episode-12-secret-messages-of-the-bata-drums-yoruba-culture-from-nigeria-to-cuba",
+      "normalizedUrl": "https://arts.unimelb.edu.au/school-of-languages-and-linguistics/news/the-secret-life-of-language/episodes/episode-12-secret-messages-of-the-bata-drums-yoruba-culture-from-nigeria-to-cuba",
+      "title": "Episode 12: Secret messages of the bata\u0301 drums - Yoruba culture from Nigeria to Cuba",
+      "wordCount": 331,
+      "fingerprint": "17f40e01f5e49a2a"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/?a=",
+      "normalizedUrl": "https://arts.unimelb.edu.au/?a=",
+      "title": "Page not found",
+      "wordCount": 203,
+      "fingerprint": "1acda9ac16caf366"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/news/episode-161-can-ethnic-minority-languages-co-exist-with-mandarin-in-china",
+      "normalizedUrl": "https://arts.unimelb.edu.au/news/episode-161-can-ethnic-minority-languages-co-exist-with-mandarin-in-china",
+      "title": "Episode 161: Can ethnic minority languages co-exist with Mandarin in China?",
+      "wordCount": 188,
+      "fingerprint": "1b39c272438a6031"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/school-of-culture-and-communication/discipline-areas",
+      "normalizedUrl": "https://arts.unimelb.edu.au/school-of-culture-and-communication/discipline-areas",
+      "title": "Discipline areas \u2014 School of Culture and Communication | Faculty of Arts",
+      "wordCount": 388,
+      "fingerprint": "1ce8049569f12c45"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/school-of-culture-and-communication/our-research/child-family-mediascape",
+      "normalizedUrl": "https://arts.unimelb.edu.au/school-of-culture-and-communication/our-research/child-family-mediascape",
+      "title": "Child and Family Mediascape Research Group (CFMRG)",
+      "wordCount": 1477,
+      "fingerprint": "1ec092f6d2ddf1e0"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/news/dr-shannyn-palmer-awarded-2024-ernest-scott-prize",
+      "normalizedUrl": "https://arts.unimelb.edu.au/news/dr-shannyn-palmer-awarded-2024-ernest-scott-prize",
+      "title": "Dr Shannyn Palmer awarded 2024 Ernest Scott Prize",
+      "wordCount": 967,
+      "fingerprint": "1f19e34878546788"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/policylink/showcase/international-digital-policy",
+      "normalizedUrl": "https://arts.unimelb.edu.au/policylink/showcase/international-digital-policy",
+      "title": "International Digital Policy Initiative",
+      "wordCount": 1584,
+      "fingerprint": "1f8292996d4fef7b"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/ancient-medieval-and-early-modern-studies",
+      "normalizedUrl": "https://arts.unimelb.edu.au/ancient-medieval-and-early-modern-studies",
+      "title": "Home \u2014 Ancient, Medieval and Early Modern Studies | Faculty of Arts",
+      "wordCount": 35,
+      "fingerprint": "1fa9d280f010a265"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/public-humanities-initiative/absolutely-revolting",
+      "normalizedUrl": "https://arts.unimelb.edu.au/public-humanities-initiative/absolutely-revolting",
+      "title": "Absolutely Revolting",
+      "wordCount": 506,
+      "fingerprint": "20e42c2f0459cb04"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/school-of-languages-and-linguistics/news/the-secret-life-of-language/episodes/episode-23-choc-episode-23-matts-chitchats-vera-gheno",
+      "normalizedUrl": "https://arts.unimelb.edu.au/school-of-languages-and-linguistics/news/the-secret-life-of-language/episodes/episode-23-choc-episode-23-matts-chitchats-vera-gheno",
+      "title": "Episode 23:\u00a0 Matt's Chitchats - Music, technology and the anxiety of Italian Identity \u2013 A Conversation with Vera Gheno",
+      "wordCount": 421,
+      "fingerprint": "232eced6128eeebe"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/news/past-news/our-democracy-needs-hass-education",
+      "normalizedUrl": "https://arts.unimelb.edu.au/news/past-news/our-democracy-needs-hass-education",
+      "title": "Our democracy needs HASS education",
+      "wordCount": 551,
+      "fingerprint": "27cc36f76b9a3a6e"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/research-unit-for-multilingualism-and-cross-cultural-communication",
+      "normalizedUrl": "https://arts.unimelb.edu.au/research-unit-for-multilingualism-and-cross-cultural-communication",
+      "title": "Home \u2014 RUMACCC | Faculty of Arts",
+      "wordCount": 26,
+      "fingerprint": "2a158bba6befb694"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/school-of-culture-and-communication/discipline-areas/screen-and-cultural-studies/screening-ideas/on-demand-content/the-faculties",
+      "normalizedUrl": "https://arts.unimelb.edu.au/school-of-culture-and-communication/discipline-areas/screen-and-cultural-studies/screening-ideas/on-demand-content/the-faculties",
+      "title": "'The Faculties': what is the meaning of the university institution?",
+      "wordCount": 294,
+      "fingerprint": "2a60c8eacc42f7ad"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/school-of-languages-and-linguistics/news/the-secret-life-of-language/episodes/episode-14-universities-and-the-rise-of-ai-part-2-a-peek-into-large-language-models",
+      "normalizedUrl": "https://arts.unimelb.edu.au/school-of-languages-and-linguistics/news/the-secret-life-of-language/episodes/episode-14-universities-and-the-rise-of-ai-part-2-a-peek-into-large-language-models",
+      "title": "Episode 14: Universities and the rise of AI - Part 2: A peek into large language models",
+      "wordCount": 292,
+      "fingerprint": "2ad3b473d6a97126"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/built-with-a-ba/dr-vicky-au",
+      "normalizedUrl": "https://arts.unimelb.edu.au/built-with-a-ba/dr-vicky-au",
+      "title": "Dr Vicky Au",
+      "wordCount": 301,
+      "fingerprint": "2b2ecb45a36900e1"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/asia-institute/our-research/migration-gender-and-environment",
+      "normalizedUrl": "https://arts.unimelb.edu.au/asia-institute/our-research/migration-gender-and-environment",
+      "title": "Gender, Environment and Migration \u2014 Asia Institute | Faculty of Arts",
+      "wordCount": 251,
+      "fingerprint": "2bf09d7053e766c5"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/school-of-languages-and-linguistics/news/the-secret-life-of-language/episodes/episode-1",
+      "normalizedUrl": "https://arts.unimelb.edu.au/school-of-languages-and-linguistics/news/the-secret-life-of-language/episodes/episode-1",
+      "title": "Episode 1: The Stasi Files",
+      "wordCount": 117,
+      "fingerprint": "2d9ca085c67e5ec3"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/engage/partner-with-us/work-with-our-students/experiential-learning",
+      "normalizedUrl": "https://arts.unimelb.edu.au/engage/partner-with-us/work-with-our-students/experiential-learning",
+      "title": "Work Integrated Learning and Industry Partnerships",
+      "wordCount": 870,
+      "fingerprint": "2ed41391be17a307"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/research",
+      "normalizedUrl": "https://arts.unimelb.edu.au/research",
+      "title": "Research in the Faculty of Arts, the University of Melbourne",
+      "wordCount": 1046,
+      "fingerprint": "2f4bcdeb2fbd9834"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/engage/partner-with-us/work-with-our-students",
+      "normalizedUrl": "https://arts.unimelb.edu.au/engage/partner-with-us/work-with-our-students",
+      "title": "Work with our students",
+      "wordCount": 469,
+      "fingerprint": "304e87a566960b3b"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/school-of-culture-and-communication/our-research/groups-and-resource-centre/asian-cultural-research-hub-acrh",
+      "normalizedUrl": "https://arts.unimelb.edu.au/school-of-culture-and-communication/our-research/groups-and-resource-centre/asian-cultural-research-hub-acrh",
+      "title": "Asian Cultural Research Hub (ACRH)",
+      "wordCount": 2068,
+      "fingerprint": "310680434d15cc1b"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/",
+      "normalizedUrl": "https://arts.unimelb.edu.au/",
+      "title": "Faculty of Arts | Home",
+      "wordCount": 1583,
+      "fingerprint": "31ba20c9d6a19e11"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/school-of-languages-and-linguistics/our-research/research-centres-hubs-and-units/phonetics-laboratory",
+      "normalizedUrl": "https://arts.unimelb.edu.au/school-of-languages-and-linguistics/our-research/research-centres-hubs-and-units/phonetics-laboratory",
+      "title": "Phonetics Laboratory \u2014 School of Languages and Linguistics | Faculty of Arts",
+      "wordCount": 694,
+      "fingerprint": "3262351744344965"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/school-of-languages-and-linguistics/news/truth-telling-and-the-ancient-knowledge-of-indigenous-food-systems",
+      "normalizedUrl": "https://arts.unimelb.edu.au/school-of-languages-and-linguistics/news/truth-telling-and-the-ancient-knowledge-of-indigenous-food-systems",
+      "title": "Episode 10: Truth-telling and the ancient knowledge of Indigenous food systems",
+      "wordCount": 143,
+      "fingerprint": "32ff2546f1804525"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/asia-institute/news-and-events/episode-167-can-india-maintain-strategic-autonomy-in-the-trump-2.0-era",
+      "normalizedUrl": "https://arts.unimelb.edu.au/asia-institute/news-and-events/episode-167-can-india-maintain-strategic-autonomy-in-the-trump-2.0-era",
+      "title": "Episode 167: Can India maintain strategic autonomy in the Trump 2.0 era?",
+      "wordCount": 160,
+      "fingerprint": "335d64ef11a0e12a"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/school-of-languages-and-linguistics/discipline-areas/applied-linguistics",
+      "normalizedUrl": "https://arts.unimelb.edu.au/school-of-languages-and-linguistics/discipline-areas/applied-linguistics",
+      "title": "Linguistics and Applied Linguistics",
+      "wordCount": 1071,
+      "fingerprint": "337be92242e882f9"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/news/experts-map-new-directions-for-internationalised-higher-education",
+      "normalizedUrl": "https://arts.unimelb.edu.au/news/experts-map-new-directions-for-internationalised-higher-education",
+      "title": "Experts map new directions for internationalised higher education",
+      "wordCount": 336,
+      "fingerprint": "348091e311244a49"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/asia-institute/our-people/academic-staff",
+      "normalizedUrl": "https://arts.unimelb.edu.au/asia-institute/our-people/academic-staff",
+      "title": "Academic staff",
+      "wordCount": 1009,
+      "fingerprint": "37e8b6502ec6ef42"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/asia-institute/news-and-events/episode-163-how-governments-in-asia-juggle-the-pros-and-cons-of-ai",
+      "normalizedUrl": "https://arts.unimelb.edu.au/asia-institute/news-and-events/episode-163-how-governments-in-asia-juggle-the-pros-and-cons-of-ai",
+      "title": "Episode 163: How governments in Asia juggle the pros and cons of AI",
+      "wordCount": 293,
+      "fingerprint": "3863b11c1cd724c1"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/school-of-languages-and-linguistics/discipline-areas/french-studies",
+      "normalizedUrl": "https://arts.unimelb.edu.au/school-of-languages-and-linguistics/discipline-areas/french-studies",
+      "title": "French Studies",
+      "wordCount": 1114,
+      "fingerprint": "390bb5dbc7925b43"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/school-of-culture-and-communication/discipline-areas/indigenous-studies",
+      "normalizedUrl": "https://arts.unimelb.edu.au/school-of-culture-and-communication/discipline-areas/indigenous-studies",
+      "title": "Indigenous Studies",
+      "wordCount": 1154,
+      "fingerprint": "3965259b994a473e"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/school-of-culture-and-communication/discipline-areas/screen-and-cultural-studies/screening-ideas/on-demand-content/wood-and-water-patience-for-slow-cinema",
+      "normalizedUrl": "https://arts.unimelb.edu.au/school-of-culture-and-communication/discipline-areas/screen-and-cultural-studies/screening-ideas/on-demand-content/wood-and-water-patience-for-slow-cinema",
+      "title": "'Wood and Water': patience for slow cinema",
+      "wordCount": 445,
+      "fingerprint": "3a7054b55552b088"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/engage/community-education",
+      "normalizedUrl": "https://arts.unimelb.edu.au/engage/community-education",
+      "title": "404 : Page not found | Error",
+      "wordCount": 155,
+      "fingerprint": "3a9d7e1ebf0e6714"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/asia-institute/our-research/global-korea-research-hub",
+      "normalizedUrl": "https://arts.unimelb.edu.au/asia-institute/our-research/global-korea-research-hub",
+      "title": "Global Korea Research Hub",
+      "wordCount": 2997,
+      "fingerprint": "3bc1c7060d1f645d"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/school-of-social-and-political-sciences/our-research/public-policy-and-governance",
+      "normalizedUrl": "https://arts.unimelb.edu.au/school-of-social-and-political-sciences/our-research/public-policy-and-governance",
+      "title": "Public policy and governance",
+      "wordCount": 459,
+      "fingerprint": "3bf08d0e6ef78a6d"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/news/past-news/billy-griffiths-awarded-2019-ernest-scott-prize",
+      "normalizedUrl": "https://arts.unimelb.edu.au/news/past-news/billy-griffiths-awarded-2019-ernest-scott-prize",
+      "title": "404 : Page not found | Error",
+      "wordCount": 144,
+      "fingerprint": "3d2d73f58d6f8fd6"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/e/being-human-festival/previous-activities/timeless",
+      "normalizedUrl": "https://arts.unimelb.edu.au/e/being-human-festival/previous-activities/timeless",
+      "title": "Timeless: designer classics as slow fashion",
+      "wordCount": 375,
+      "fingerprint": "3d389becc3f7d135"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/school-of-culture-and-communication/our-people/professional-staff",
+      "normalizedUrl": "https://arts.unimelb.edu.au/school-of-culture-and-communication/our-people/professional-staff",
+      "title": "Professional staff",
+      "wordCount": 156,
+      "fingerprint": "3dd621306c99042b"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/news/past-news/co-winners-of-the-2022-ernest-scott-prize-announced",
+      "normalizedUrl": "https://arts.unimelb.edu.au/news/past-news/co-winners-of-the-2022-ernest-scott-prize-announced",
+      "title": "Co-winners of the 2022 Ernest Scott Prize announced",
+      "wordCount": 1156,
+      "fingerprint": "3de8759679e8caf7"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/language-testing-research-centre",
+      "normalizedUrl": "https://arts.unimelb.edu.au/language-testing-research-centre",
+      "title": "Home \u2014 Language Testing Research Centre | Faculty of Arts",
+      "wordCount": 1512,
+      "fingerprint": "3e404078a4bc196d"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/asia-institute/our-people/professional",
+      "normalizedUrl": "https://arts.unimelb.edu.au/asia-institute/our-people/professional",
+      "title": "Professional staff",
+      "wordCount": 148,
+      "fingerprint": "413b9757de0176d2"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/school-of-culture-and-communication/graduate-researchers",
+      "normalizedUrl": "https://arts.unimelb.edu.au/school-of-culture-and-communication/graduate-researchers",
+      "title": "Meet graduate researchers - School of Culture and Communication",
+      "wordCount": 399,
+      "fingerprint": "420556b28d7ae5f8"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/asia-institute",
+      "normalizedUrl": "https://arts.unimelb.edu.au/asia-institute",
+      "title": "Home \u2014 Asia Institute | Faculty of Arts",
+      "wordCount": 2796,
+      "fingerprint": "43247990b3473b70"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/asia-institute/discipline-areas/arabic",
+      "normalizedUrl": "https://arts.unimelb.edu.au/asia-institute/discipline-areas/arabic",
+      "title": "Arabic Studies \u2014 Asia Institute | Faculty of Arts",
+      "wordCount": 818,
+      "fingerprint": "43f8c47cff1c89af"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/school-of-culture-and-communication/discipline-areas/screen-and-cultural-studies/screening-ideas/on-demand-content/wood-and-water-in-conversation-with-jonas-bak",
+      "normalizedUrl": "https://arts.unimelb.edu.au/school-of-culture-and-communication/discipline-areas/screen-and-cultural-studies/screening-ideas/on-demand-content/wood-and-water-in-conversation-with-jonas-bak",
+      "title": "'Wood and Water': capturing the elements",
+      "wordCount": 252,
+      "fingerprint": "4543368b930d03b4"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/asia-institute/discipline-areas/translation-studies2",
+      "normalizedUrl": "https://arts.unimelb.edu.au/asia-institute/discipline-areas/translation-studies2",
+      "title": "Translation and Interpreting Studies \u2014 Asia Institute | Faculty of Arts",
+      "wordCount": 671,
+      "fingerprint": "46d79dfc4a16d8da"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/public-humanities-initiative/unfolded",
+      "normalizedUrl": "https://arts.unimelb.edu.au/public-humanities-initiative/unfolded",
+      "title": "Unfolded",
+      "wordCount": 681,
+      "fingerprint": "48c9798c536b5a6f"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/peacebuilding",
+      "normalizedUrl": "https://arts.unimelb.edu.au/peacebuilding",
+      "title": "The Initiative for Peacebuilding",
+      "wordCount": 6416,
+      "fingerprint": "493f40aa93a9aac3"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/school-of-culture-and-communication/discipline-areas/media-and-communications",
+      "normalizedUrl": "https://arts.unimelb.edu.au/school-of-culture-and-communication/discipline-areas/media-and-communications",
+      "title": "Media and Communications",
+      "wordCount": 849,
+      "fingerprint": "49443b00384f8b11"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/news/episode-147-the-outsized-influence-of-the-military-in-pakistans-politics",
+      "normalizedUrl": "https://arts.unimelb.edu.au/news/episode-147-the-outsized-influence-of-the-military-in-pakistans-politics",
+      "title": "Episode 147: The outsized influence of the military in Pakistan\u2019s politics",
+      "wordCount": 215,
+      "fingerprint": "496bc6eba6ffdbc0"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/asia-institute/discipline-areas/japanese",
+      "normalizedUrl": "https://arts.unimelb.edu.au/asia-institute/discipline-areas/japanese",
+      "title": "Japanese Studies \u2014 Asia Institute | Faculty of Arts",
+      "wordCount": 1019,
+      "fingerprint": "4990486b6ba86707"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/contact-us",
+      "normalizedUrl": "https://arts.unimelb.edu.au/contact-us",
+      "title": "Contact us | Faculty of Arts",
+      "wordCount": 370,
+      "fingerprint": "4a99c311e47c9a2e"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/contact",
+      "normalizedUrl": "https://arts.unimelb.edu.au/contact",
+      "title": "Contact Us: email, phone, address and maps.",
+      "wordCount": 238,
+      "fingerprint": "4ab1ecfc8c8f765e"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/news/episode-149-the-geopolitics-of-undersea-cables-in-the-indo-pacific",
+      "normalizedUrl": "https://arts.unimelb.edu.au/news/episode-149-the-geopolitics-of-undersea-cables-in-the-indo-pacific",
+      "title": "Episode 149: The geopolitics of undersea cables in the Indo-Pacific",
+      "wordCount": 210,
+      "fingerprint": "4b80f734f8e549b3"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/school-of-culture-and-communication/our-research/research-projects",
+      "normalizedUrl": "https://arts.unimelb.edu.au/school-of-culture-and-communication/our-research/research-projects",
+      "title": "Research projects \u2014 School of Culture and Communication | Faculty of Arts",
+      "wordCount": 1512,
+      "fingerprint": "4c30359bf84d35ec"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/research/assets/case-studies/Australian-comics-tells-us-about-our-history-and-ourselves",
+      "normalizedUrl": "https://arts.unimelb.edu.au/research/assets/case-studies/Australian-comics-tells-us-about-our-history-and-ourselves",
+      "title": "Australian comics tells us about our history and ourselves",
+      "wordCount": 309,
+      "fingerprint": "4ccf596fbb468686"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/engage/alumni/arts-alumni-awards",
+      "normalizedUrl": "https://arts.unimelb.edu.au/engage/alumni/arts-alumni-awards",
+      "title": "Arts Alumni Awards",
+      "wordCount": 696,
+      "fingerprint": "4dd96f86dbfd5021"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/research-unit-in-public-cultures/research/communicative-cities-governance-and-communication",
+      "normalizedUrl": "https://arts.unimelb.edu.au/research-unit-in-public-cultures/research/communicative-cities-governance-and-communication",
+      "title": "Communicative Cities \u2014 Research Unit in Public Cultures | Faculty of Arts",
+      "wordCount": 635,
+      "fingerprint": "4f4c8d5c6f8dbecb"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/asia-institute/news-and-events/2024-huayu-enrichment-scholarship",
+      "normalizedUrl": "https://arts.unimelb.edu.au/asia-institute/news-and-events/2024-huayu-enrichment-scholarship",
+      "title": "2024 Huayu Enrichment Scholarship",
+      "wordCount": 115,
+      "fingerprint": "4fac2186cbf9b288"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/school-of-culture-and-communication/our-research/research-projects/new-tastemakers-and-australias-post-digital-literary-culture",
+      "normalizedUrl": "https://arts.unimelb.edu.au/school-of-culture-and-communication/our-research/research-projects/new-tastemakers-and-australias-post-digital-literary-culture",
+      "title": "New tastemakers and Australia's post-digital literary culture",
+      "wordCount": 296,
+      "fingerprint": "505131057eb09680"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/news/swiftposium",
+      "normalizedUrl": "https://arts.unimelb.edu.au/news/swiftposium",
+      "title": "Swiftposium spreads Swift Fever to global academic community",
+      "wordCount": 1156,
+      "fingerprint": "50c3cf4a36520862"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/news/past-news/dr-michelle-arrow-awarded-2020-ernest-scott-prize",
+      "normalizedUrl": "https://arts.unimelb.edu.au/news/past-news/dr-michelle-arrow-awarded-2020-ernest-scott-prize",
+      "title": "Professor Michelle Arrow awarded 2020 Ernest Scott Prize",
+      "wordCount": 507,
+      "fingerprint": "51ac0acc8bff2b2d"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/school-of-languages-and-linguistics/news/the-secret-life-of-language/episodes/episode-24-matts-chitchats-uncomfortable-words-and-the-vocabulary-of-desire-a-conversation-with-marco-scarcelli",
+      "normalizedUrl": "https://arts.unimelb.edu.au/school-of-languages-and-linguistics/news/the-secret-life-of-language/episodes/episode-24-matts-chitchats-uncomfortable-words-and-the-vocabulary-of-desire-a-conversation-with-marco-scarcelli",
+      "title": "Episode 24:\u00a0 Matt's Chitchats - Uncomfortable words and the vocabulary of desire \u2013 A Conversation with Marco Scarcelli",
+      "wordCount": 387,
+      "fingerprint": "51d825c2eaa9761b"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/school-of-culture-and-communication/discipline-areas/screen-and-cultural-studies",
+      "normalizedUrl": "https://arts.unimelb.edu.au/school-of-culture-and-communication/discipline-areas/screen-and-cultural-studies",
+      "title": "Screen and Cultural Studies",
+      "wordCount": 951,
+      "fingerprint": "520739f4db9d6f73"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/school-of-culture-and-communication/our-research/research-projects/ecological-theatre",
+      "normalizedUrl": "https://arts.unimelb.edu.au/school-of-culture-and-communication/our-research/research-projects/ecological-theatre",
+      "title": "Towards an Australian Ecological Theatre",
+      "wordCount": 547,
+      "fingerprint": "52af6e42546d2df8"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/research/research-centres-and-institutes",
+      "normalizedUrl": "https://arts.unimelb.edu.au/research/research-centres-and-institutes",
+      "title": "Research Centres and Institutes",
+      "wordCount": 236,
+      "fingerprint": "56d68a55eb26ae5f"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/news/professor-andrew-dodd-appointed-director-of-the-melbourne-public-humanities-initiative",
+      "normalizedUrl": "https://arts.unimelb.edu.au/news/professor-andrew-dodd-appointed-director-of-the-melbourne-public-humanities-initiative",
+      "title": "Professor Andrew Dodd appointed Director of the Melbourne Public Humanities Initiative",
+      "wordCount": 467,
+      "fingerprint": "574c5dfc0bb1c499"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/news/faculty-of-arts-subjects-place-in-top-20-for-qs-subject-rankings",
+      "normalizedUrl": "https://arts.unimelb.edu.au/news/faculty-of-arts-subjects-place-in-top-20-for-qs-subject-rankings",
+      "title": "Faculty of Arts subjects place in top 20 for QS subject rankings",
+      "wordCount": 381,
+      "fingerprint": "57f872a74542feea"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/school-of-culture-and-communication/discipline-areas/art-history-and-art-curatorship",
+      "normalizedUrl": "https://arts.unimelb.edu.au/school-of-culture-and-communication/discipline-areas/art-history-and-art-curatorship",
+      "title": "Art History and Art Curatorship",
+      "wordCount": 935,
+      "fingerprint": "5b52b66d2115f736"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/school-of-culture-and-communication/our-research/research-projects/new-beats",
+      "normalizedUrl": "https://arts.unimelb.edu.au/school-of-culture-and-communication/our-research/research-projects/new-beats",
+      "title": "New Beats: Mass redundancies, career changes and the future of Australian journalism",
+      "wordCount": 484,
+      "fingerprint": "5d13de1813dbacf3"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/school-of-languages-and-linguistics/news/the-secret-life-of-language/episodes/episode-25-matts-chitchats-italiana-nel-cuore-writing,-healing,-and-the-journey-beyond-academia",
+      "normalizedUrl": "https://arts.unimelb.edu.au/school-of-languages-and-linguistics/news/the-secret-life-of-language/episodes/episode-25-matts-chitchats-italiana-nel-cuore-writing,-healing,-and-the-journey-beyond-academia",
+      "title": "Episode 25:\u00a0 Matt's Chitchats - Italiana nel cuore: Writing, Healing, and the Journey Beyond Academia",
+      "wordCount": 315,
+      "fingerprint": "5d86eb9c3a2cdeb6"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/public-humanities-initiative/missperceived",
+      "normalizedUrl": "https://arts.unimelb.edu.au/public-humanities-initiative/missperceived",
+      "title": "MissPerceived",
+      "wordCount": 738,
+      "fingerprint": "5dd9087e32cd9bfd"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/news/past-news/episode-106-pachinko-korean-fates-and-fortunes-in-japan",
+      "normalizedUrl": "https://arts.unimelb.edu.au/news/past-news/episode-106-pachinko-korean-fates-and-fortunes-in-japan",
+      "title": "Episode 106: Pachinko: Korean fates and fortunes in Japan",
+      "wordCount": 141,
+      "fingerprint": "5efb5282442b4866"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/peacebuilding/news-events/news/joint-conference-on-four-years-of-taliban-rule-confronting-impunity-and-systematic-human-rights-violations",
+      "normalizedUrl": "https://arts.unimelb.edu.au/peacebuilding/news-events/news/joint-conference-on-four-years-of-taliban-rule-confronting-impunity-and-systematic-human-rights-violations",
+      "title": "Joint Conference on Four Years of Taliban Rule: Confronting Impunity and Systematic Human Rights Violations",
+      "wordCount": 199,
+      "fingerprint": "5f38fea1ff83e164"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/school-of-culture-and-communication/our-research/research-projects/community-publishing-in-regional-australia",
+      "normalizedUrl": "https://arts.unimelb.edu.au/school-of-culture-and-communication/our-research/research-projects/community-publishing-in-regional-australia",
+      "title": "Community Publishing in Regional Australia",
+      "wordCount": 471,
+      "fingerprint": "6004a3b19be95ea0"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/e/being-human-festival/previous-activities/petals-and-poets-a-turkish-cultural-workshop",
+      "normalizedUrl": "https://arts.unimelb.edu.au/e/being-human-festival/previous-activities/petals-and-poets-a-turkish-cultural-workshop",
+      "title": "Petals and poets: a Turkish cultural workshop",
+      "wordCount": 195,
+      "fingerprint": "604c3c3d5b3d0c87"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/news/past-news/2016-ernest-scott-prize-winner-announced-as-professor-stuart-macintyre-prize-%2413,000",
+      "normalizedUrl": "https://arts.unimelb.edu.au/news/past-news/2016-ernest-scott-prize-winner-announced-as-professor-stuart-macintyre-prize-%2413,000",
+      "title": "2016 Ernest Scott Prize Winner Announced as Professor Stuart Macintyre \u2013 Prize $13,000",
+      "wordCount": 344,
+      "fingerprint": "62472813044eb19c"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/news/dr-jane-carey-awarded-2025-ernest-scott-prize",
+      "normalizedUrl": "https://arts.unimelb.edu.au/news/dr-jane-carey-awarded-2025-ernest-scott-prize",
+      "title": "Dr Jane Carey awarded 2025 Ernest Scott Prize",
+      "wordCount": 922,
+      "fingerprint": "62eac25f35fd6585"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/news",
+      "normalizedUrl": "https://arts.unimelb.edu.au/news",
+      "title": "News | Faculty of Arts",
+      "wordCount": 119,
+      "fingerprint": "62fac09d4a50b2bf"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/asia-institute/news-and-events/episode-169-compound-capitalism-inside-southeast-asias-fraud-factories",
+      "normalizedUrl": "https://arts.unimelb.edu.au/asia-institute/news-and-events/episode-169-compound-capitalism-inside-southeast-asias-fraud-factories",
+      "title": "Episode 169: Compound Capitalism: Inside Southeast Asia's Fraud Factories",
+      "wordCount": 194,
+      "fingerprint": "6377ee53c8417505"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/school-of-culture-and-communication/discipline-areas/screen-and-cultural-studies/screening-ideas/on-demand-content/sleep-has-her-house-experimental-ecocinema-in-context",
+      "normalizedUrl": "https://arts.unimelb.edu.au/school-of-culture-and-communication/discipline-areas/screen-and-cultural-studies/screening-ideas/on-demand-content/sleep-has-her-house-experimental-ecocinema-in-context",
+      "title": "\u2018Sleep Has Her House\u2019: experimental ecocinema in context",
+      "wordCount": 451,
+      "fingerprint": "63fb970ffaa45224"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/centre-for-advancing-journalism",
+      "normalizedUrl": "https://arts.unimelb.edu.au/centre-for-advancing-journalism",
+      "title": "Centre for Advancing Journalism",
+      "wordCount": 1524,
+      "fingerprint": "641618d4a1dac011"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/school-of-culture-and-communication/our-research/research-projects/first-nations-media-australia-research",
+      "normalizedUrl": "https://arts.unimelb.edu.au/school-of-culture-and-communication/our-research/research-projects/first-nations-media-australia-research",
+      "title": "First Nation\u2019s Media Australia research",
+      "wordCount": 286,
+      "fingerprint": "6520f24c77ca7618"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/school-of-social-and-political-sciences/our-research/myanmar-research-network",
+      "normalizedUrl": "https://arts.unimelb.edu.au/school-of-social-and-political-sciences/our-research/myanmar-research-network",
+      "title": "Myanmar Research Network",
+      "wordCount": 4912,
+      "fingerprint": "663b30d0b917bb52"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/asia-institute/news-and-events/2025-huayu-enrichment-scholarship",
+      "normalizedUrl": "https://arts.unimelb.edu.au/asia-institute/news-and-events/2025-huayu-enrichment-scholarship",
+      "title": "2025 Huayu Enrichment Scholarship and Ministry of Education Taiwan Scholarship",
+      "wordCount": 108,
+      "fingerprint": "66c25f034a11ad4b"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/school-of-languages-and-linguistics/resources/horwood",
+      "normalizedUrl": "https://arts.unimelb.edu.au/school-of-languages-and-linguistics/resources/horwood",
+      "title": "Horwood Recording Studio \u2014 School of Languages and Linguistics | Faculty of Arts",
+      "wordCount": 346,
+      "fingerprint": "67b7abd0ea4cb825"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/asia-institute/news-and-events/episode-166-indonesia-under-prabowopromises,-protests,-and-power",
+      "normalizedUrl": "https://arts.unimelb.edu.au/asia-institute/news-and-events/episode-166-indonesia-under-prabowopromises,-protests,-and-power",
+      "title": "Episode 166: Indonesia under Prabowo\u2014promises, protests, and power",
+      "wordCount": 191,
+      "fingerprint": "681c0559d8590ac6"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/news/episode-153-is-indonesias-labor-movement-stuck-in-neutral",
+      "normalizedUrl": "https://arts.unimelb.edu.au/news/episode-153-is-indonesias-labor-movement-stuck-in-neutral",
+      "title": "Episode 153: Is Indonesia's labor movement stuck in neutral?",
+      "wordCount": 163,
+      "fingerprint": "683cf97d88d43a0d"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/news/episode-162-how-chinese-international-students-navigate-their-experience-in-australia",
+      "normalizedUrl": "https://arts.unimelb.edu.au/news/episode-162-how-chinese-international-students-navigate-their-experience-in-australia",
+      "title": "Episode 162: How Chinese international students navigate their experience in Australia",
+      "wordCount": 195,
+      "fingerprint": "68aca46b1bd5758a"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/enlightenment-romanticism-contemporary-culture/projects/critique",
+      "normalizedUrl": "https://arts.unimelb.edu.au/enlightenment-romanticism-contemporary-culture/projects/critique",
+      "title": "Critique, Creativity, Innovation \u2014 Enlightenment Romanticism Contemporary Culture | Faculty of Arts",
+      "wordCount": 606,
+      "fingerprint": "6a325e205d51cb38"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/engage/alumni/update-your-details",
+      "normalizedUrl": "https://arts.unimelb.edu.au/engage/alumni/update-your-details",
+      "title": "The University of Melbourne - Log in or Sign up",
+      "wordCount": 806,
+      "fingerprint": "6b507f7c3760fc1d"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/school-of-languages-and-linguistics/resources/vce-kits",
+      "normalizedUrl": "https://arts.unimelb.edu.au/school-of-languages-and-linguistics/resources/vce-kits",
+      "title": "VCE kits \u2014 School of Languages and Linguistics | Faculty of Arts",
+      "wordCount": 227,
+      "fingerprint": "6b60044b7ae21c7f"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/news/episode-141-taiwan-through-the-eyes-of-mainland-chinese-writers-and-filmmakers",
+      "normalizedUrl": "https://arts.unimelb.edu.au/news/episode-141-taiwan-through-the-eyes-of-mainland-chinese-writers-and-filmmakers",
+      "title": "Episode 141: Taiwan through the eyes of mainland Chinese writers and filmmakers",
+      "wordCount": 158,
+      "fingerprint": "6be2fab60d87274d"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/news/episode-157-the-korean-language-abroad-whos-learning-it-and-why",
+      "normalizedUrl": "https://arts.unimelb.edu.au/news/episode-157-the-korean-language-abroad-whos-learning-it-and-why",
+      "title": "Episode 157: The Korean language abroad: Who's learning it and why?",
+      "wordCount": 217,
+      "fingerprint": "6c37d62b79b224a5"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/school-of-social-and-political-sciences/our-research/global-network-on-justice-conflict-responsibility",
+      "normalizedUrl": "https://arts.unimelb.edu.au/school-of-social-and-political-sciences/our-research/global-network-on-justice-conflict-responsibility",
+      "title": "Global Network on Justice. Conflict. Responsibility \u2014 School of Social and Political Sciences | Faculty of Arts",
+      "wordCount": 355,
+      "fingerprint": "6df7943f486977d5"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/news/episode-150-how-china-safeguards-its-interests-amid-conflict-in-myanmar",
+      "normalizedUrl": "https://arts.unimelb.edu.au/news/episode-150-how-china-safeguards-its-interests-amid-conflict-in-myanmar",
+      "title": "Episode 150: How China safeguards its interests amid conflict in Myanmar",
+      "wordCount": 275,
+      "fingerprint": "6e8b9e9f0631e24e"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/public-humanities-initiative/great-books-bite-size",
+      "normalizedUrl": "https://arts.unimelb.edu.au/public-humanities-initiative/great-books-bite-size",
+      "title": "Great Books bite size",
+      "wordCount": 1226,
+      "fingerprint": "70e306b072cf2edc"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/news/episode-143-as-ethnic-tensions-rise,-is-there-any-real-prospect-of-an-inclusive-malaysia",
+      "normalizedUrl": "https://arts.unimelb.edu.au/news/episode-143-as-ethnic-tensions-rise,-is-there-any-real-prospect-of-an-inclusive-malaysia",
+      "title": "Episode 143: As ethnic tensions rise, is there any real prospect of an inclusive Malaysia?",
+      "wordCount": 177,
+      "fingerprint": "70ede2824ebba564"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/students/undergraduate/resources-and-support/language-placement-tests",
+      "normalizedUrl": "https://arts.unimelb.edu.au/students/undergraduate/resources-and-support/language-placement-tests",
+      "title": "Language placement tests",
+      "wordCount": 411,
+      "fingerprint": "70fda3c8b538b613"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/engage/podcasts",
+      "normalizedUrl": "https://arts.unimelb.edu.au/engage/podcasts",
+      "title": "Podcasts",
+      "wordCount": 429,
+      "fingerprint": "72df6df5d20bba4d"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/school-of-culture-and-communication/our-research/groups-and-resource-centre/visual-cultures-resource-centre",
+      "normalizedUrl": "https://arts.unimelb.edu.au/school-of-culture-and-communication/our-research/groups-and-resource-centre/visual-cultures-resource-centre",
+      "title": "Visual Cultures Resource Centre \u2014 School of Culture and Communication | Faculty of Arts",
+      "wordCount": 1722,
+      "fingerprint": "74423cdb8af5032a"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/asia-institute/discipline-areas/korean-studies",
+      "normalizedUrl": "https://arts.unimelb.edu.au/asia-institute/discipline-areas/korean-studies",
+      "title": "Korean Studies",
+      "wordCount": 944,
+      "fingerprint": "76a9a525e7ad820c"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/school-of-culture-and-communication/discipline-areas/screen-and-cultural-studies/screening-ideas/on-demand-content/au-search-9-avatar-image-hava,-maryam,-ayesha-womens-filmmaking-practices-in-afghanistan",
+      "normalizedUrl": "https://arts.unimelb.edu.au/school-of-culture-and-communication/discipline-areas/screen-and-cultural-studies/screening-ideas/on-demand-content/au-search-9-avatar-image-hava,-maryam,-ayesha-womens-filmmaking-practices-in-afghanistan",
+      "title": "'Hava, Maryam, Ayesha': women\u2019s filmmaking practices in Afghanistan",
+      "wordCount": 499,
+      "fingerprint": "781e586a34445ddd"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/school-of-culture-and-communication/discipline-areas/screen-and-cultural-studies/screening-ideas/on-demand-content/the-inner-scar-garrel,-nico,-and-the-zanzibar-era-revisited",
+      "normalizedUrl": "https://arts.unimelb.edu.au/school-of-culture-and-communication/discipline-areas/screen-and-cultural-studies/screening-ideas/on-demand-content/the-inner-scar-garrel,-nico,-and-the-zanzibar-era-revisited",
+      "title": "\u2018The Inner Scar\u2019: Garrel, Nico, and the Zanzibar era revisited",
+      "wordCount": 313,
+      "fingerprint": "799736f45d10a6e8"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/school-of-culture-and-communication/our-research/groups-and-resource-centre/history-memory-and-decolonial-futures",
+      "normalizedUrl": "https://arts.unimelb.edu.au/school-of-culture-and-communication/our-research/groups-and-resource-centre/history-memory-and-decolonial-futures",
+      "title": "History, Memory and Decolonial Futures Research Collective",
+      "wordCount": 1478,
+      "fingerprint": "7c890adfadeb712d"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/school-of-culture-and-communication",
+      "normalizedUrl": "https://arts.unimelb.edu.au/school-of-culture-and-communication",
+      "title": "Home \u2014 School of Culture and Communication | Faculty of Arts",
+      "wordCount": 1581,
+      "fingerprint": "7cc74edfc37eeaa8"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/school-of-culture-and-communication/discipline-areas/screen-and-cultural-studies/screening-ideas/on-demand-content/money-has-four-legs",
+      "normalizedUrl": "https://arts.unimelb.edu.au/school-of-culture-and-communication/discipline-areas/screen-and-cultural-studies/screening-ideas/on-demand-content/money-has-four-legs",
+      "title": "\u2018Money Has Four Legs\u2019: film and opposition in the Myanmar crisis",
+      "wordCount": 556,
+      "fingerprint": "7ea36f668fab11cc"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/school-of-languages-and-linguistics/news/the-secret-life-of-language/episodes/episode-16-universities-and-the-rise-of-ai-part-4-should-language-experts-fear-the-machines",
+      "normalizedUrl": "https://arts.unimelb.edu.au/school-of-languages-and-linguistics/news/the-secret-life-of-language/episodes/episode-16-universities-and-the-rise-of-ai-part-4-should-language-experts-fear-the-machines",
+      "title": "Episode 16: Universities and the rise of AI - Part 4: Should language experts fear the machines?",
+      "wordCount": 332,
+      "fingerprint": "7eb0ed079cd2cc44"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/school-of-languages-and-linguistics/news/the-secret-life-of-language/episodes/episode-19-choc-tops-and-cassata-part-2-carlo-and-giovanni-zecolla-saturday-nights-at-the-metropolitan-cinema",
+      "normalizedUrl": "https://arts.unimelb.edu.au/school-of-languages-and-linguistics/news/the-secret-life-of-language/episodes/episode-19-choc-tops-and-cassata-part-2-carlo-and-giovanni-zecolla-saturday-nights-at-the-metropolitan-cinema",
+      "title": "Episode 19: Choc-tops and Cassata - Part 2: Saturday Nights at the Metropolitan: Melbourne\u2019s Italian Cinema Experience",
+      "wordCount": 313,
+      "fingerprint": "7f20fc60f075db20"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/school-of-languages-and-linguistics/our-research/research-centres-hubs-and-units/research-hub-for-language-in-forensic-evidence",
+      "normalizedUrl": "https://arts.unimelb.edu.au/school-of-languages-and-linguistics/our-research/research-centres-hubs-and-units/research-hub-for-language-in-forensic-evidence",
+      "title": "Research Hub for Language in Forensic Evidence",
+      "wordCount": 8344,
+      "fingerprint": "80352b51c4f9076c"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/news/charlotte-macdonald-awarded-the-2026-ernest-scott-prize",
+      "normalizedUrl": "https://arts.unimelb.edu.au/news/charlotte-macdonald-awarded-the-2026-ernest-scott-prize",
+      "title": "Charlotte Macdonald awarded the 2026 Ernest Scott Prize",
+      "wordCount": 574,
+      "fingerprint": "809b6bc3c8207788"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/e/being-human-festival",
+      "normalizedUrl": "https://arts.unimelb.edu.au/e/being-human-festival",
+      "title": "Being Human Festival",
+      "wordCount": 495,
+      "fingerprint": "80d3232072108e62"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/school-of-culture-and-communication/our-people/honorary-staff",
+      "normalizedUrl": "https://arts.unimelb.edu.au/school-of-culture-and-communication/our-people/honorary-staff",
+      "title": "Honorary staff",
+      "wordCount": 568,
+      "fingerprint": "81a87ea78ae51903"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/news/past-news/boisbouvier-chair-in-australian-literature-alexis-wright",
+      "normalizedUrl": "https://arts.unimelb.edu.au/news/past-news/boisbouvier-chair-in-australian-literature-alexis-wright",
+      "title": "Boisbouvier Chair in Australian Literature",
+      "wordCount": 541,
+      "fingerprint": "833b22920dbd23d8"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/find-an-exprt",
+      "normalizedUrl": "https://arts.unimelb.edu.au/find-an-exprt",
+      "title": "Find an Expert : The University of Melbourne",
+      "wordCount": 728,
+      "fingerprint": "85794282de59cb84"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/built-with-a-ba",
+      "normalizedUrl": "https://arts.unimelb.edu.au/built-with-a-ba",
+      "title": "Built with a BA (Bachelor of Arts)",
+      "wordCount": 451,
+      "fingerprint": "87b9fb2ec6687f09"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/engage/alumni/arts-china-connect",
+      "normalizedUrl": "https://arts.unimelb.edu.au/engage/alumni/arts-china-connect",
+      "title": "Arts-China Connect",
+      "wordCount": 851,
+      "fingerprint": "88be5470a5ad0329"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/school-of-culture-and-communication/our-research/groups-and-resource-centre/coded-aesthetics",
+      "normalizedUrl": "https://arts.unimelb.edu.au/school-of-culture-and-communication/our-research/groups-and-resource-centre/coded-aesthetics",
+      "title": "CODED AESTHETICS",
+      "wordCount": 285,
+      "fingerprint": "89681f197af66ffc"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/research/digital-studio/projects/australian-womens-archives-program",
+      "normalizedUrl": "https://arts.unimelb.edu.au/research/digital-studio/projects/australian-womens-archives-program",
+      "title": "Australian Women\u2019s Register",
+      "wordCount": 327,
+      "fingerprint": "8a2b02411cca7588"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/e/being-human-festival/previous-activities/preschool-poetry",
+      "normalizedUrl": "https://arts.unimelb.edu.au/e/being-human-festival/previous-activities/preschool-poetry",
+      "title": "Preschool poetry with Maxine Beneba Clarke",
+      "wordCount": 213,
+      "fingerprint": "8a6504b7558d6dd4"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/school-of-culture-and-communication/our-people/academic-staff",
+      "normalizedUrl": "https://arts.unimelb.edu.au/school-of-culture-and-communication/our-people/academic-staff",
+      "title": "Academic staff",
+      "wordCount": 1908,
+      "fingerprint": "8b9a30f2c8d4ad25"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/national-centre-for-contemporary-islamic-studies",
+      "normalizedUrl": "https://arts.unimelb.edu.au/national-centre-for-contemporary-islamic-studies",
+      "title": "National Centre for Contemporary Islamic Studies",
+      "wordCount": 943,
+      "fingerprint": "8efbc81909acc9b6"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/news/episode-164-profit,-politics,-and-the-future-of-indonesias-rainforests",
+      "normalizedUrl": "https://arts.unimelb.edu.au/news/episode-164-profit,-politics,-and-the-future-of-indonesias-rainforests",
+      "title": "Episode 164: Profit, Politics, and the Future of Indonesia's Rainforests",
+      "wordCount": 207,
+      "fingerprint": "8f4846e140846070"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/school-of-languages-and-linguistics/news/past-news/phd-completion-seminar",
+      "normalizedUrl": "https://arts.unimelb.edu.au/school-of-languages-and-linguistics/news/past-news/phd-completion-seminar",
+      "title": "PhD Completion Seminar",
+      "wordCount": 110,
+      "fingerprint": "8ff9e5cc23ba615b"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/engage/partner-with-us",
+      "normalizedUrl": "https://arts.unimelb.edu.au/engage/partner-with-us",
+      "title": "Partner with us",
+      "wordCount": 563,
+      "fingerprint": "915ae6bc9eb20d68"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/school-of-languages-and-linguistics/news/the-secret-life-of-language/episodes/episode-13-universities-and-the-rise-of-ai-part-1-ethical-quandaries",
+      "normalizedUrl": "https://arts.unimelb.edu.au/school-of-languages-and-linguistics/news/the-secret-life-of-language/episodes/episode-13-universities-and-the-rise-of-ai-part-1-ethical-quandaries",
+      "title": "Episode 13: Universities and the rise of AI - Part 1: Ethical quandaries",
+      "wordCount": 297,
+      "fingerprint": "933cf3a24a8155ee"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/asia-institute/our-research/language-dynamics",
+      "normalizedUrl": "https://arts.unimelb.edu.au/asia-institute/our-research/language-dynamics",
+      "title": "Language Dynamics in the Asia Pacific \u2014 Asia Institute | Faculty of Arts",
+      "wordCount": 489,
+      "fingerprint": "93476a8b74d2bfd7"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/news/past-news/michael-belgrave-awarded-2018-ernest-scott-prize",
+      "normalizedUrl": "https://arts.unimelb.edu.au/news/past-news/michael-belgrave-awarded-2018-ernest-scott-prize",
+      "title": "Michael Belgrave awarded 2018 Ernest Scott Prize",
+      "wordCount": 309,
+      "fingerprint": "95935596c3e080d1"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/news/episode-156-troubled-waters-the-philippines-maritime-standoff-with-china",
+      "normalizedUrl": "https://arts.unimelb.edu.au/news/episode-156-troubled-waters-the-philippines-maritime-standoff-with-china",
+      "title": "Episode 156: Troubled Waters: The Philippines' Maritime Standoff with China",
+      "wordCount": 213,
+      "fingerprint": "973c27ba4bf48aff"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/asia-institute/discipline-areas/asian-studies",
+      "normalizedUrl": "https://arts.unimelb.edu.au/asia-institute/discipline-areas/asian-studies",
+      "title": "Asian Studies \u2014 Asia Institute | Faculty of Arts",
+      "wordCount": 783,
+      "fingerprint": "98e1840f9d75f655"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/school-of-languages-and-linguistics/news/the-secret-life-of-language/episodes/episode-18-choc-tops-and-cassata-part-1-how-multicultural-movies-saved-the-melbourne-cinema-scene",
+      "normalizedUrl": "https://arts.unimelb.edu.au/school-of-languages-and-linguistics/news/the-secret-life-of-language/episodes/episode-18-choc-tops-and-cassata-part-1-how-multicultural-movies-saved-the-melbourne-cinema-scene",
+      "title": "Episode 18: Choc-tops and Cassata - Part 1: How multicultural movies saved the Melbourne cinema scene",
+      "wordCount": 323,
+      "fingerprint": "997f9c9445ee3b96"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/school-of-culture-and-communication/discipline-areas/creative-writing",
+      "normalizedUrl": "https://arts.unimelb.edu.au/school-of-culture-and-communication/discipline-areas/creative-writing",
+      "title": "Creative Writing",
+      "wordCount": 795,
+      "fingerprint": "9b41512497c30c9e"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/school-of-languages-and-linguistics/news/past-news/vernacular-translators-in-quattrocento-italy",
+      "normalizedUrl": "https://arts.unimelb.edu.au/school-of-languages-and-linguistics/news/past-news/vernacular-translators-in-quattrocento-italy",
+      "title": "Vernacular Translators in Quattrocento Italy",
+      "wordCount": 80,
+      "fingerprint": "9babdda8d7586e0d"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/school-of-culture-and-communication/our-research/research-projects/the-future-cemetery",
+      "normalizedUrl": "https://arts.unimelb.edu.au/school-of-culture-and-communication/our-research/research-projects/the-future-cemetery",
+      "title": "The Future Cemetery",
+      "wordCount": 357,
+      "fingerprint": "9ca57595d3a359ae"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/research/assets/case-studies/the-future-cemetery",
+      "normalizedUrl": "https://arts.unimelb.edu.au/research/assets/case-studies/the-future-cemetery",
+      "title": "The future cemetery",
+      "wordCount": 368,
+      "fingerprint": "9ccb5ecc007ba3ff"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/public-humanities-initiative/the-wondering-poet",
+      "normalizedUrl": "https://arts.unimelb.edu.au/public-humanities-initiative/the-wondering-poet",
+      "title": "The Wondering Poet",
+      "wordCount": 932,
+      "fingerprint": "9d133f176d56bb7e"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/engage/alumni/notable-arts-alumni",
+      "normalizedUrl": "https://arts.unimelb.edu.au/engage/alumni/notable-arts-alumni",
+      "title": "Notable Arts alumni",
+      "wordCount": 178,
+      "fingerprint": "9d6acd6b679020da"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/news/episode-148-as-vietnam-scales-the-global-value-chain,-what-does-it-mean-for-its-workers",
+      "normalizedUrl": "https://arts.unimelb.edu.au/news/episode-148-as-vietnam-scales-the-global-value-chain,-what-does-it-mean-for-its-workers",
+      "title": "Episode 148: As Vietnam scales the global value chain, what does it mean for its workers?",
+      "wordCount": 280,
+      "fingerprint": "9f36bf1140da306e"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/news/episode-142-china-wants-to-remake-global-governance-is-the-world-ready-for-it",
+      "normalizedUrl": "https://arts.unimelb.edu.au/news/episode-142-china-wants-to-remake-global-governance-is-the-world-ready-for-it",
+      "title": "Episode 142: China wants to remake global governance \u2013 is the world ready for it?",
+      "wordCount": 202,
+      "fingerprint": "9f3eacb131834df0"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/research-unit-for-indigenous-language",
+      "normalizedUrl": "https://arts.unimelb.edu.au/research-unit-for-indigenous-language",
+      "title": "Home \u2014 Research Unit for Indigenous Language | Faculty of Arts",
+      "wordCount": 4046,
+      "fingerprint": "9f8da6be1cfba07d"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/school-of-culture-and-communication/discipline-areas/screen-and-cultural-studies/screening-ideas",
+      "normalizedUrl": "https://arts.unimelb.edu.au/school-of-culture-and-communication/discipline-areas/screen-and-cultural-studies/screening-ideas",
+      "title": "Screening Ideas",
+      "wordCount": 372,
+      "fingerprint": "a06ce4a896d02192"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/research/medical-humanities-lab",
+      "normalizedUrl": "https://arts.unimelb.edu.au/research/medical-humanities-lab",
+      "title": "Medical Humanities Research Lab",
+      "wordCount": 1465,
+      "fingerprint": "a08ba6e7187ed2f5"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/built-with-a-ba/nick-parkinson",
+      "normalizedUrl": "https://arts.unimelb.edu.au/built-with-a-ba/nick-parkinson",
+      "title": "Nick Parkinson",
+      "wordCount": 324,
+      "fingerprint": "a0dbaee163cd074b"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/news/past-news/meet-the-2021-ba-medal-winner-adam-moore",
+      "normalizedUrl": "https://arts.unimelb.edu.au/news/past-news/meet-the-2021-ba-medal-winner-adam-moore",
+      "title": "Meet the 2021 BA Medal winner Adam Moore",
+      "wordCount": 566,
+      "fingerprint": "a212a28fdba35590"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/news/episode-155-demography-and-deathcare-in-a-changing-east-asia",
+      "normalizedUrl": "https://arts.unimelb.edu.au/news/episode-155-demography-and-deathcare-in-a-changing-east-asia",
+      "title": "Episode 155: Demography and deathcare in a changing East Asia",
+      "wordCount": 234,
+      "fingerprint": "a3083ed4b6c11e98"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/news/episode-152-searching-for-work-life-balance-in-south-korea",
+      "normalizedUrl": "https://arts.unimelb.edu.au/news/episode-152-searching-for-work-life-balance-in-south-korea",
+      "title": "Episode 152: Searching for work life balance in South Korea",
+      "wordCount": 209,
+      "fingerprint": "a42d2f7bae729a5d"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/about",
+      "normalizedUrl": "https://arts.unimelb.edu.au/about",
+      "title": "About us | Faculty of Arts",
+      "wordCount": 851,
+      "fingerprint": "a4d6763217c9442e"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/research/deathtech",
+      "normalizedUrl": "https://arts.unimelb.edu.au/research/deathtech",
+      "title": "Home - DeathTech Research",
+      "wordCount": 4707,
+      "fingerprint": "a6b74a79b6e73341"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/school-of-languages-and-linguistics/news/past-news/contra-el-silence",
+      "normalizedUrl": "https://arts.unimelb.edu.au/school-of-languages-and-linguistics/news/past-news/contra-el-silence",
+      "title": "Voces contra el Silencio",
+      "wordCount": 168,
+      "fingerprint": "a710eec3970fd997"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/news/episode-146-irans-strategy-of-outsourcing-warfare-in-the-middle-east",
+      "normalizedUrl": "https://arts.unimelb.edu.au/news/episode-146-irans-strategy-of-outsourcing-warfare-in-the-middle-east",
+      "title": "Episode 146: Iran\u2019s strategy of outsourcing warfare in the Middle East",
+      "wordCount": 232,
+      "fingerprint": "a8608ef22829857c"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/scholarships",
+      "normalizedUrl": "https://arts.unimelb.edu.au/scholarships",
+      "title": "Scholarships and prizes | Faculty of Arts",
+      "wordCount": 527,
+      "fingerprint": "aa66cd94b46776d2"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/school-of-languages-and-linguistics/discipline-areas/english-as-a-second-language",
+      "normalizedUrl": "https://arts.unimelb.edu.au/school-of-languages-and-linguistics/discipline-areas/english-as-a-second-language",
+      "title": "English as a Second Language (ESL)",
+      "wordCount": 1086,
+      "fingerprint": "abf960bb8db20568"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/school-of-languages-and-linguistics/news/the-secret-life-of-language/episodes/episode-15-universities-and-the-rise-of-ai-part-3-risks-and-opportunities",
+      "normalizedUrl": "https://arts.unimelb.edu.au/school-of-languages-and-linguistics/news/the-secret-life-of-language/episodes/episode-15-universities-and-the-rise-of-ai-part-3-risks-and-opportunities",
+      "title": "Episode 15: Universities and the rise of AI - Part 3: Risks and opportunities",
+      "wordCount": 272,
+      "fingerprint": "acb5bea878e725d4"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/built-with-a-ba/thenu-herath",
+      "normalizedUrl": "https://arts.unimelb.edu.au/built-with-a-ba/thenu-herath",
+      "title": "Thenu Herath",
+      "wordCount": 328,
+      "fingerprint": "af2270f3346f3a06"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/school-of-social-and-political-sciences/our-research/critical-ethnography-lab",
+      "normalizedUrl": "https://arts.unimelb.edu.au/school-of-social-and-political-sciences/our-research/critical-ethnography-lab",
+      "title": "Critical Ethnography Lab",
+      "wordCount": 2022,
+      "fingerprint": "af6630a64155b46d"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/news/past-news/regional-pandemic-migrants-keeping-their-city-jobs-report",
+      "normalizedUrl": "https://arts.unimelb.edu.au/news/past-news/regional-pandemic-migrants-keeping-their-city-jobs-report",
+      "title": "Regional pandemic migrants keeping their city jobs: report",
+      "wordCount": 557,
+      "fingerprint": "b13ff50ee7204dcf"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/school-of-languages-and-linguistics/news/the-secret-life-of-language/episodes/episode-22-choc-tops-and-cassata-bonus-episode-the-castle-the-most-quintessential-australian-movie-with-an-italian-vibe",
+      "normalizedUrl": "https://arts.unimelb.edu.au/school-of-languages-and-linguistics/news/the-secret-life-of-language/episodes/episode-22-choc-tops-and-cassata-bonus-episode-the-castle-the-most-quintessential-australian-movie-with-an-italian-vibe",
+      "title": "Episode 22: Choc-tops and Cassata - Bonus Episode - The Castle: the most quintessential Australian movie with an Italian vibe?",
+      "wordCount": 346,
+      "fingerprint": "b1ce35d805b1e6f0"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/school-of-culture-and-communication/discipline-areas/journalism",
+      "normalizedUrl": "https://arts.unimelb.edu.au/school-of-culture-and-communication/discipline-areas/journalism",
+      "title": "Journalism",
+      "wordCount": 869,
+      "fingerprint": "b2380f9dbec8ba62"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/research/assets/case-studies/building-older-cald-peoples-digital-resilience-using-digital-resilience-ambassadors",
+      "normalizedUrl": "https://arts.unimelb.edu.au/research/assets/case-studies/building-older-cald-peoples-digital-resilience-using-digital-resilience-ambassadors",
+      "title": "Building older CALD people\u2019s digital resilience using digital resilience ambassadors",
+      "wordCount": 204,
+      "fingerprint": "b24a25c7b1a6f590"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/engage/make-a-gift",
+      "normalizedUrl": "https://arts.unimelb.edu.au/engage/make-a-gift",
+      "title": "Make a gift",
+      "wordCount": 140,
+      "fingerprint": "b2d37f9f32fba2fe"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/e/being-human-festival/previous-activities/contemplating-country-meditations",
+      "normalizedUrl": "https://arts.unimelb.edu.au/e/being-human-festival/previous-activities/contemplating-country-meditations",
+      "title": "The Old New: contemplating Country today",
+      "wordCount": 303,
+      "fingerprint": "b378b62bc27268e8"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/news/episode-158-the-chinese-civil-wars-lingering-shadow-over-modern-china",
+      "normalizedUrl": "https://arts.unimelb.edu.au/news/episode-158-the-chinese-civil-wars-lingering-shadow-over-modern-china",
+      "title": "Episode 158: The Chinese Civil War's lingering shadow over modern China",
+      "wordCount": 215,
+      "fingerprint": "b3d3be4bf3eb42b6"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/about/work-with-us",
+      "normalizedUrl": "https://arts.unimelb.edu.au/about/work-with-us",
+      "title": "Work with us",
+      "wordCount": 2521,
+      "fingerprint": "b4b9f579a7bab9e6"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/asia-institute/graduate-researchers",
+      "normalizedUrl": "https://arts.unimelb.edu.au/asia-institute/graduate-researchers",
+      "title": "Graduate researcher students - Asia Institute",
+      "wordCount": 253,
+      "fingerprint": "b6767549b8644791"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/asia-institute/news-and-events/episode-159-why-central-asia-is-key-to-unlocking-chinas-global-ambitions",
+      "normalizedUrl": "https://arts.unimelb.edu.au/asia-institute/news-and-events/episode-159-why-central-asia-is-key-to-unlocking-chinas-global-ambitions",
+      "title": "Episode 159: Why Central Asia is key to unlocking China's global ambitions",
+      "wordCount": 225,
+      "fingerprint": "b868b3ebf330044c"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/school-of-social-and-political-sciences/our-research/australian-welfare-and-work-lab",
+      "normalizedUrl": "https://arts.unimelb.edu.au/school-of-social-and-political-sciences/our-research/australian-welfare-and-work-lab",
+      "title": "Australian Welfare and Work Lab",
+      "wordCount": 4205,
+      "fingerprint": "b9d2fc09c5976f70"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/news/migration-status-limits-access-to-refuge-for-women-in-victoria",
+      "normalizedUrl": "https://arts.unimelb.edu.au/news/migration-status-limits-access-to-refuge-for-women-in-victoria",
+      "title": "Migration status limits access to refuge for women in Victoria",
+      "wordCount": 519,
+      "fingerprint": "baa8365153e144f9"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/research/assets/case-studies/evaluating-womens-mental-load-so-they-can-make-the-most-of-their-life",
+      "normalizedUrl": "https://arts.unimelb.edu.au/research/assets/case-studies/evaluating-womens-mental-load-so-they-can-make-the-most-of-their-life",
+      "title": "Evaluating women\u2019s mental load so they can make the most of their life",
+      "wordCount": 307,
+      "fingerprint": "bc3b9db3c8fb511b"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/news/episode-151-what-to-watch-for-in-india-during-narendra-modis-third-term-as-prime-minister",
+      "normalizedUrl": "https://arts.unimelb.edu.au/news/episode-151-what-to-watch-for-in-india-during-narendra-modis-third-term-as-prime-minister",
+      "title": "Episode 151: What to watch for in India during Narendra Modi's third term as prime minister",
+      "wordCount": 251,
+      "fingerprint": "bdcedbecb372667e"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/asia-institute/home/studying-at-asia-institute",
+      "normalizedUrl": "https://arts.unimelb.edu.au/asia-institute/home/studying-at-asia-institute",
+      "title": "Studying at Asia Institute \u2014 Asia Institute | Faculty of Arts",
+      "wordCount": 468,
+      "fingerprint": "be91e84e2e29f4ef"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/asia-institute/discipline-areas/chinese",
+      "normalizedUrl": "https://arts.unimelb.edu.au/asia-institute/discipline-areas/chinese",
+      "title": "Chinese Studies \u2014 Asia Institute | Faculty of Arts",
+      "wordCount": 1103,
+      "fingerprint": "bea5f6ed31556789"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/engage/alumni/alumni-benefits",
+      "normalizedUrl": "https://arts.unimelb.edu.au/engage/alumni/alumni-benefits",
+      "title": "Alumni benefits, discounts & perks | University of Melbourne",
+      "wordCount": 742,
+      "fingerprint": "bf622a6d48591d74"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/asia-institute/lote-accreditation",
+      "normalizedUrl": "https://arts.unimelb.edu.au/asia-institute/lote-accreditation",
+      "title": "Language Other Than English (LOTE) accreditation exams \u2014 Asia Institute | Faculty of Arts",
+      "wordCount": 163,
+      "fingerprint": "c0a9e48b8f4e4c44"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/school-of-languages-and-linguistics/discipline-areas/european-studies",
+      "normalizedUrl": "https://arts.unimelb.edu.au/school-of-languages-and-linguistics/discipline-areas/european-studies",
+      "title": "European Studies",
+      "wordCount": 265,
+      "fingerprint": "c1b90521abeee11a"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/asia-institute/news-and-events/episode-165-navigating-east-asian-names-in-a-western-world",
+      "normalizedUrl": "https://arts.unimelb.edu.au/asia-institute/news-and-events/episode-165-navigating-east-asian-names-in-a-western-world",
+      "title": "Episode 165: Navigating East Asian names in a Western world",
+      "wordCount": 165,
+      "fingerprint": "c40d413af4c24415"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/asia-institute/our-research/asian-governance-transformations",
+      "normalizedUrl": "https://arts.unimelb.edu.au/asia-institute/our-research/asian-governance-transformations",
+      "title": "Asian Governance Transformations \u2014 Asia Institute | Faculty of Arts",
+      "wordCount": 336,
+      "fingerprint": "c4cfe2a5c57f17f9"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/school-of-historical-and-philosophical-studies/our-research/metamelb",
+      "normalizedUrl": "https://arts.unimelb.edu.au/school-of-historical-and-philosophical-studies/our-research/metamelb",
+      "title": "MetaMelb: Interdisciplinary Metascience Research Group",
+      "wordCount": 4256,
+      "fingerprint": "c702bac3f5b3b83a"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/asia-institute/discipline-areas/islamic",
+      "normalizedUrl": "https://arts.unimelb.edu.au/asia-institute/discipline-areas/islamic",
+      "title": "Islamic Studies \u2014 Asia Institute | Faculty of Arts",
+      "wordCount": 870,
+      "fingerprint": "c850affe093e77c5"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/built-with-a-ba/zeina-zogheib",
+      "normalizedUrl": "https://arts.unimelb.edu.au/built-with-a-ba/zeina-zogheib",
+      "title": "Zeina Zogheib",
+      "wordCount": 286,
+      "fingerprint": "c88153697037bc55"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/students",
+      "normalizedUrl": "https://arts.unimelb.edu.au/students",
+      "title": "Current students | Faculty of Arts",
+      "wordCount": 747,
+      "fingerprint": "c8edac5bbae2082d"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/e/being-human-festival/previous-activities/world-of-the-book-a-curator-tour",
+      "normalizedUrl": "https://arts.unimelb.edu.au/e/being-human-festival/previous-activities/world-of-the-book-a-curator-tour",
+      "title": "World of the Book: a curator tour",
+      "wordCount": 321,
+      "fingerprint": "ca55955bbc236e95"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/school-of-culture-and-communication/our-research/research-projects/indigenous-storytelling-and-the-living-archive-of-aboriginal-knowledge",
+      "normalizedUrl": "https://arts.unimelb.edu.au/school-of-culture-and-communication/our-research/research-projects/indigenous-storytelling-and-the-living-archive-of-aboriginal-knowledge",
+      "title": "Indigenous Storytelling and the Living Archive of Aboriginal Knowledge",
+      "wordCount": 670,
+      "fingerprint": "cb08527d9ab86899"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/about/our-partners",
+      "normalizedUrl": "https://arts.unimelb.edu.au/about/our-partners",
+      "title": "Our partners",
+      "wordCount": 360,
+      "fingerprint": "ce325cf43c0d1a8c"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/news/joint-winners-of-the-2023-ernest-scott-prize-announced",
+      "normalizedUrl": "https://arts.unimelb.edu.au/news/joint-winners-of-the-2023-ernest-scott-prize-announced",
+      "title": "Joint winners of the 2023 Ernest Scott Prize announced",
+      "wordCount": 1434,
+      "fingerprint": "cf07f40f62646ad9"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/human-rights-and-animal-ethics-research-network",
+      "normalizedUrl": "https://arts.unimelb.edu.au/human-rights-and-animal-ethics-research-network",
+      "title": "Home \u2014 Human Rights and Animal Ethics Research Network | Faculty of Arts",
+      "wordCount": 3293,
+      "fingerprint": "d04699d406fda87a"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/public-humanities-initiative",
+      "normalizedUrl": "https://arts.unimelb.edu.au/public-humanities-initiative",
+      "title": "Melbourne Public Humanities Initiative",
+      "wordCount": 480,
+      "fingerprint": "d29596f5ac4dc9a6"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/e/being-human-festival/artworks-that-broke-the-mould",
+      "normalizedUrl": "https://arts.unimelb.edu.au/e/being-human-festival/artworks-that-broke-the-mould",
+      "title": "Artworks that broke the mould",
+      "wordCount": 794,
+      "fingerprint": "d3b191327ce0a988"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/asia-institute/our-research/islam-politics",
+      "normalizedUrl": "https://arts.unimelb.edu.au/asia-institute/our-research/islam-politics",
+      "title": "Islam and Politics in Contemporary Asia and the Middle East \u2014 Asia Institute | Faculty of Arts",
+      "wordCount": 371,
+      "fingerprint": "d4b21d8ddbd6c1b0"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/public-humanities-initiative/about",
+      "normalizedUrl": "https://arts.unimelb.edu.au/public-humanities-initiative/about",
+      "title": "About",
+      "wordCount": 766,
+      "fingerprint": "d63f35c86a1cd0ea"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/asia-institute/our-research/asian-civil-society",
+      "normalizedUrl": "https://arts.unimelb.edu.au/asia-institute/our-research/asian-civil-society",
+      "title": "Asian Civil Society \u2014 Asia Institute | Faculty of Arts",
+      "wordCount": 1039,
+      "fingerprint": "d65ec762ad1df7c9"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/school-of-languages-and-linguistics",
+      "normalizedUrl": "https://arts.unimelb.edu.au/school-of-languages-and-linguistics",
+      "title": "Home \u2014 School of Languages and Linguistics | Faculty of Arts",
+      "wordCount": 4114,
+      "fingerprint": "d82215a67d659caf"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/research/research-initiatives-and-groups",
+      "normalizedUrl": "https://arts.unimelb.edu.au/research/research-initiatives-and-groups",
+      "title": "Initiatives and Groups",
+      "wordCount": 1169,
+      "fingerprint": "d830afa273369a69"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/school-of-culture-and-communication/our-people/executive-staff",
+      "normalizedUrl": "https://arts.unimelb.edu.au/school-of-culture-and-communication/our-people/executive-staff",
+      "title": "Executive staff",
+      "wordCount": 196,
+      "fingerprint": "d85292cf059f7715"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/school-of-social-and-political-sciences/our-research/research-projects/migration-and-mobility-research-network-mmrn",
+      "normalizedUrl": "https://arts.unimelb.edu.au/school-of-social-and-political-sciences/our-research/research-projects/migration-and-mobility-research-network-mmrn",
+      "title": "404 : Page not found | Error",
+      "wordCount": 190,
+      "fingerprint": "d882bd6f0abc7a95"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/australian-institute-of-art-history",
+      "normalizedUrl": "https://arts.unimelb.edu.au/australian-institute-of-art-history",
+      "title": "Australian Institute of Art History (AIAH)",
+      "wordCount": 4028,
+      "fingerprint": "d8fcb0b3e945bcf4"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/public-humanities-initiative/tracie-d-hall-on-information-and-imagination",
+      "normalizedUrl": "https://arts.unimelb.edu.au/public-humanities-initiative/tracie-d-hall-on-information-and-imagination",
+      "title": "Tracie D Hall: on information and imagination",
+      "wordCount": 1423,
+      "fingerprint": "d9a604d5b5c1b174"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/news/past-news/dr-andonis-piperoglou-announced-as-the-inaugural-hellenic-senior-lecturer-in-global-diasporas",
+      "normalizedUrl": "https://arts.unimelb.edu.au/news/past-news/dr-andonis-piperoglou-announced-as-the-inaugural-hellenic-senior-lecturer-in-global-diasporas",
+      "title": "Dr Andonis Piperoglou announced as the inaugural Hellenic Senior Lecturer in Global Diasporas",
+      "wordCount": 355,
+      "fingerprint": "d9d1f8e8e3389fb2"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/school-of-languages-and-linguistics/news/the-secret-life-of-language/episodes/episode-21-choc-tops-and-cassata-part-4-from-vision-to-legacy-antonio-zeccola-and-italian-cinema-in-australia",
+      "normalizedUrl": "https://arts.unimelb.edu.au/school-of-languages-and-linguistics/news/the-secret-life-of-language/episodes/episode-21-choc-tops-and-cassata-part-4-from-vision-to-legacy-antonio-zeccola-and-italian-cinema-in-australia",
+      "title": "Episode 21: Choc-tops and Cassata - Part 4: From vision to legacy: Antonio Zeccola and Italian cinema in Australia",
+      "wordCount": 344,
+      "fingerprint": "db18df1245b85431"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/events",
+      "normalizedUrl": "https://arts.unimelb.edu.au/events",
+      "title": "Events | Faculty of Arts | Faculty of Arts",
+      "wordCount": 296,
+      "fingerprint": "dd07e5bb7378ff07"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/news/past-news/master-of-journalisms-petra-stock-wins-prestigious-quill-award",
+      "normalizedUrl": "https://arts.unimelb.edu.au/news/past-news/master-of-journalisms-petra-stock-wins-prestigious-quill-award",
+      "title": "Master of Journalism\u2019s Petra Stock wins prestigious Quill Award",
+      "wordCount": 615,
+      "fingerprint": "dd0c849967f637ac"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/school-of-social-and-political-sciences/discipline-areas/political-science",
+      "normalizedUrl": "https://arts.unimelb.edu.au/school-of-social-and-political-sciences/discipline-areas/political-science",
+      "title": "Political Science",
+      "wordCount": 1288,
+      "fingerprint": "dd9f3d37f0396a1b"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/school-of-languages-and-linguistics/discipline-areas/spanish-and-latin-american-studies",
+      "normalizedUrl": "https://arts.unimelb.edu.au/school-of-languages-and-linguistics/discipline-areas/spanish-and-latin-american-studies",
+      "title": "Spanish and Latin American Studies",
+      "wordCount": 1088,
+      "fingerprint": "de55800852172d5a"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/school-of-languages-and-linguistics/discipline-areas/german-studies",
+      "normalizedUrl": "https://arts.unimelb.edu.au/school-of-languages-and-linguistics/discipline-areas/german-studies",
+      "title": "German Studies",
+      "wordCount": 487,
+      "fingerprint": "e1d493e41ce8a5e7"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/news/past-news/co-winners-announced-for-2021-ernest-scott-prize",
+      "normalizedUrl": "https://arts.unimelb.edu.au/news/past-news/co-winners-announced-for-2021-ernest-scott-prize",
+      "title": "Co-winners announced for 2021 Ernest Scott Prize",
+      "wordCount": 605,
+      "fingerprint": "e1ecfbdcd3addf0e"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/school-of-social-and-political-sciences",
+      "normalizedUrl": "https://arts.unimelb.edu.au/school-of-social-and-political-sciences",
+      "title": "Home \u2014 School of Social and Political Sciences | Faculty of Arts",
+      "wordCount": 1842,
+      "fingerprint": "e281be5d590069d2"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/news/past-news/afghan-refugee-khalid-amiri-makes-a-fresh-start-at-melbourne",
+      "normalizedUrl": "https://arts.unimelb.edu.au/news/past-news/afghan-refugee-khalid-amiri-makes-a-fresh-start-at-melbourne",
+      "title": "Afghan refugee Khalid Amiri makes a fresh start at Melbourne",
+      "wordCount": 675,
+      "fingerprint": "e39dbf27e5aea14b"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/school-of-culture-and-communication/discipline-areas/english-and-theatre-studies",
+      "normalizedUrl": "https://arts.unimelb.edu.au/school-of-culture-and-communication/discipline-areas/english-and-theatre-studies",
+      "title": "English and Theatre Studies",
+      "wordCount": 952,
+      "fingerprint": "e4ed55b46c2b644f"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/school-of-social-and-political-sciences/our-research/gender-equity-initiative",
+      "normalizedUrl": "https://arts.unimelb.edu.au/school-of-social-and-political-sciences/our-research/gender-equity-initiative",
+      "title": "Gender Equity Initiative",
+      "wordCount": 3053,
+      "fingerprint": "e6bcdbdeb76022e8"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/school-of-culture-and-communication/discipline-areas/publishing-and-communications",
+      "normalizedUrl": "https://arts.unimelb.edu.au/school-of-culture-and-communication/discipline-areas/publishing-and-communications",
+      "title": "Publishing and Communications",
+      "wordCount": 563,
+      "fingerprint": "e6deb6393eec6b4d"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/school-of-languages-and-linguistics/news/the-secret-life-of-language/episodes/episode-20-choc-tops-and-cassata-part-3-cinematic-crossroads-italian-films-and-australian-screenwriting,-a-talk-with-jan-sardi",
+      "normalizedUrl": "https://arts.unimelb.edu.au/school-of-languages-and-linguistics/news/the-secret-life-of-language/episodes/episode-20-choc-tops-and-cassata-part-3-cinematic-crossroads-italian-films-and-australian-screenwriting,-a-talk-with-jan-sardi",
+      "title": "Episode 20: Choc-tops and Cassata - Part 3: Jan Sardi on Italian cinema and Australian screenwriting",
+      "wordCount": 327,
+      "fingerprint": "e7036b603543c2a0"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/centre-for-contemporary-chinese-studies/initiatives/global-china-knowledge-network",
+      "normalizedUrl": "https://arts.unimelb.edu.au/centre-for-contemporary-chinese-studies/initiatives/global-china-knowledge-network",
+      "title": "Global China Knowledge Network",
+      "wordCount": 630,
+      "fingerprint": "e7724b94f02f3de2"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/news/episode-144-how-will-indonesia-fare-under-new-president-prabowo-subianto",
+      "normalizedUrl": "https://arts.unimelb.edu.au/news/episode-144-how-will-indonesia-fare-under-new-president-prabowo-subianto",
+      "title": "Episode 144: How will Indonesia fare under new president Prabowo Subianto?",
+      "wordCount": 194,
+      "fingerprint": "e84ea3f13142ee83"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/policylink",
+      "normalizedUrl": "https://arts.unimelb.edu.au/policylink",
+      "title": "PolicyLink",
+      "wordCount": 319,
+      "fingerprint": "e88c7342d7eda0a7"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/e/being-human-festival/previous-activities/shakespeariana-in-melbourne",
+      "normalizedUrl": "https://arts.unimelb.edu.au/e/being-human-festival/previous-activities/shakespeariana-in-melbourne",
+      "title": "Shakespeariana in Melbourne: a self-guided walking tour",
+      "wordCount": 245,
+      "fingerprint": "e941a45bad163567"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/school-of-culture-and-communication/our-research/groups-and-resource-centre/critical-fashion-studies",
+      "normalizedUrl": "https://arts.unimelb.edu.au/school-of-culture-and-communication/our-research/groups-and-resource-centre/critical-fashion-studies",
+      "title": "Critical Fashion Studies",
+      "wordCount": 1154,
+      "fingerprint": "e9bfa99378d13519"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/public-humanities-initiative/tony-birch-on-storytelling",
+      "normalizedUrl": "https://arts.unimelb.edu.au/public-humanities-initiative/tony-birch-on-storytelling",
+      "title": "Tony Birch: on storytelling",
+      "wordCount": 1274,
+      "fingerprint": "ea1fc0988c1d3db2"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/e/being-human-festival/previous-activities/under-the-weather",
+      "normalizedUrl": "https://arts.unimelb.edu.au/e/being-human-festival/previous-activities/under-the-weather",
+      "title": "Under the Weather: an alternative forecast",
+      "wordCount": 530,
+      "fingerprint": "ea2aaf8d547505bc"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/research/assets/case-studies/translating-a-korean-thriller-into-english-and-then-onto-netflix",
+      "normalizedUrl": "https://arts.unimelb.edu.au/research/assets/case-studies/translating-a-korean-thriller-into-english-and-then-onto-netflix",
+      "title": "Translating a Korean thriller into English and then onto Netflix",
+      "wordCount": 154,
+      "fingerprint": "ec44aeccf0af14f2"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/study/graduate-research",
+      "normalizedUrl": "https://arts.unimelb.edu.au/study/graduate-research",
+      "title": "Study graduate research - Faculty of Arts",
+      "wordCount": 2692,
+      "fingerprint": "eef76d7f9ae16e50"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/school-of-culture-and-communication/discipline-areas/screen-and-cultural-studies/screening-ideas/on-demand-content/alis-wedding-reframing-asian-australia",
+      "normalizedUrl": "https://arts.unimelb.edu.au/school-of-culture-and-communication/discipline-areas/screen-and-cultural-studies/screening-ideas/on-demand-content/alis-wedding-reframing-asian-australia",
+      "title": "'Ali's Wedding': reframing Asian-Australia",
+      "wordCount": 201,
+      "fingerprint": "f0aef9efcda1290c"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/news/episode-145-what-chinas-ambitions-in-pakistan-mean-for-baloch-aspirations-and-identity",
+      "normalizedUrl": "https://arts.unimelb.edu.au/news/episode-145-what-chinas-ambitions-in-pakistan-mean-for-baloch-aspirations-and-identity",
+      "title": "Episode 145: What China's ambitions in Pakistan mean for Baloch aspirations and identity",
+      "wordCount": 208,
+      "fingerprint": "f2fe41fb321252c8"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/engage/alumni",
+      "normalizedUrl": "https://arts.unimelb.edu.au/engage/alumni",
+      "title": "Alumni and friends",
+      "wordCount": 162,
+      "fingerprint": "f5a7124c5e505f90"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/research/assets/case-studies/examining-singer-taylor-swifts-impact-on-culture-and-contemporary-life",
+      "normalizedUrl": "https://arts.unimelb.edu.au/research/assets/case-studies/examining-singer-taylor-swifts-impact-on-culture-and-contemporary-life",
+      "title": "Examining singer Taylor Swift\u2019s impact on culture and contemporary life",
+      "wordCount": 402,
+      "fingerprint": "f64ab347cf3070a1"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/school-of-social-and-political-sciences/discipline-areas/sociology-social-policy-and-social-theory",
+      "normalizedUrl": "https://arts.unimelb.edu.au/school-of-social-and-political-sciences/discipline-areas/sociology-social-policy-and-social-theory",
+      "title": "Sociology",
+      "wordCount": 809,
+      "fingerprint": "f74bbd2134710c1d"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/asia-institute/our-research/research-projects",
+      "normalizedUrl": "https://arts.unimelb.edu.au/asia-institute/our-research/research-projects",
+      "title": "Research projects \u2014 Asia Institute | Faculty of Arts",
+      "wordCount": 1104,
+      "fingerprint": "f7cfecf4a9edcd82"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/scholarships/external-prizes",
+      "normalizedUrl": "https://arts.unimelb.edu.au/scholarships/external-prizes",
+      "title": "External Prizes",
+      "wordCount": 263,
+      "fingerprint": "f7f404951c19335f"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/school-of-social-and-political-sciences/our-research/medicinal-psychedelics-research-network",
+      "normalizedUrl": "https://arts.unimelb.edu.au/school-of-social-and-political-sciences/our-research/medicinal-psychedelics-research-network",
+      "title": "Medicinal Psychedelics Research Network (MPRN)",
+      "wordCount": 1746,
+      "fingerprint": "f86c2dff489f6e2e"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/public-humanities-initiative/sarah-churchwell-on-translation",
+      "normalizedUrl": "https://arts.unimelb.edu.au/public-humanities-initiative/sarah-churchwell-on-translation",
+      "title": "Sarah Churchwell: on translation",
+      "wordCount": 1639,
+      "fingerprint": "f9a324c5dcb50898"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/school-of-languages-and-linguistics/discipline-areas/russian-studies",
+      "normalizedUrl": "https://arts.unimelb.edu.au/school-of-languages-and-linguistics/discipline-areas/russian-studies",
+      "title": "Russian Studies",
+      "wordCount": 404,
+      "fingerprint": "fa490e6cc3149640"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/school-of-culture-and-communication/discipline-areas/screen-and-cultural-studies/screening-ideas/on-demand-content/island-of-hungry-ghosts-trauma-and-narrative-therapy",
+      "normalizedUrl": "https://arts.unimelb.edu.au/school-of-culture-and-communication/discipline-areas/screen-and-cultural-studies/screening-ideas/on-demand-content/island-of-hungry-ghosts-trauma-and-narrative-therapy",
+      "title": "'Island of the Hungry Ghosts': trauma and narrative therapy",
+      "wordCount": 285,
+      "fingerprint": "faf6e63e707f1773"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/engage",
+      "normalizedUrl": "https://arts.unimelb.edu.au/engage",
+      "title": "Engage with us | Faculty of Arts",
+      "wordCount": 377,
+      "fingerprint": "fcecf00daf426796"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/research/assets/case-studies/taliban-rule-conference-leads-to-parliament-human-rights-motion",
+      "normalizedUrl": "https://arts.unimelb.edu.au/research/assets/case-studies/taliban-rule-conference-leads-to-parliament-human-rights-motion",
+      "title": "Taliban rule conference leads to Parliament human rights motion",
+      "wordCount": 210,
+      "fingerprint": "fd41d1d151a4f6f0"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/school-of-social-and-political-sciences/our-research/disability-diversity-inclusion",
+      "normalizedUrl": "https://arts.unimelb.edu.au/school-of-social-and-political-sciences/our-research/disability-diversity-inclusion",
+      "title": "Disability, Diversity and Inclusion Initiative",
+      "wordCount": 1494,
+      "fingerprint": "fd72f6969c1b1115"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/news/episode-160-the-risks-and-rewards-of-engaging-with-afghanistans-taliban-government2",
+      "normalizedUrl": "https://arts.unimelb.edu.au/news/episode-160-the-risks-and-rewards-of-engaging-with-afghanistans-taliban-government2",
+      "title": "Episode 160: The risks and rewards of engaging with Afghanistan's Taliban government",
+      "wordCount": 232,
+      "fingerprint": "fde9e0d5f678512f"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/school-of-languages-and-linguistics/discipline-areas/italian-studies",
+      "normalizedUrl": "https://arts.unimelb.edu.au/school-of-languages-and-linguistics/discipline-areas/italian-studies",
+      "title": "Italian Studies",
+      "wordCount": 643,
+      "fingerprint": "fe409faf74fb39c7"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/scholarships/prizes-and-scholarships/ernest-scott-prize2",
+      "normalizedUrl": "https://arts.unimelb.edu.au/scholarships/prizes-and-scholarships/ernest-scott-prize2",
+      "title": "Ernest Scott Prize",
+      "wordCount": 571,
+      "fingerprint": "fe799b81a33d3921"
+    },
+    {
+      "url": "https://arts.unimelb.edu.au/school-of-culture-and-communication/our-research/magpie",
+      "normalizedUrl": "https://arts.unimelb.edu.au/school-of-culture-and-communication/our-research/magpie",
+      "title": "Melbourne Academic Games, Play, and Interactive Entertainment (MAGPIE)",
+      "wordCount": 29,
+      "fingerprint": "fe9acda4504afdb2"
+    }
+  ]
+}

@@ -15,9 +15,9 @@
 | Engineering & IT (FEIT) | 19 | Career resources, ICMP, professional-skills series |
 | Biomedical Sciences (school · MDHS) | 17 | One "Your career" page + 16 redirects to study.unimelb |
 | Architecture, Building & Planning (MSD) | 13 | Industry mentoring + internship/vocational placement subjects |
-| Medicine, Dentistry & Health Sciences | 13 | Employability hub + mentoring programs + scholar profiles |
-| Science | 4 | Internship subjects + employability hub |
-| Fine Arts & Music | 4 | Ignite LAB + career mentoring + employability hub |
+| Medicine, Dentistry & Health Sciences | 13 | Employability students.unimelb.edu.au + mentoring programs + scholar profiles |
+| Science | 4 | Internship subjects + employability students.unimelb.edu.au |
+| Fine Arts & Music | 4 | Ignite LAB + career mentoring + employability students.unimelb.edu.au |
 | Business & Economics (FBE) | 2 | Two SSO-redirect stubs (no real content) |
 | **Total** | **141** | |
 
@@ -35,7 +35,7 @@ Unlike course-planning, careers content is **spread almost flat across the top f
 
 5. **Student ambassador & leadership programs** — a recurring enrichment-as-employability category. *Arts* "Arts Student Ambassadors", *FEIT* "Student Ambassador Leadership Program (SALP)", *ABP* "Student Ambassador & Leadership Program" + "Construction Ambassador Program", *Education* "Student Ambassador program", *MDHS* "Student Leadership" + "Student Advisory Council".
 
-6. **1:1 career consultations & practitioner-led services** — the transactional "book a careers appointment" layer. *Law* "1:1 Career Consultations" ("resume and cover letter review, job-searching strategies, key selection criteria review") and "Career Support for Graduate Researchers"; *FEIT* "Career resources" + "Professional Associations"; *Science* "Career Enrichment Program". This is the most hub-overlapping service type — the central Careers & Employability team runs the same offer.
+6. **1:1 career consultations & practitioner-led services** — the transactional "book a careers appointment" layer. *Law* "1:1 Career Consultations" ("resume and cover letter review, job-searching strategies, key selection criteria review") and "Career Support for Graduate Researchers"; *FEIT* "Career resources" + "Professional Associations"; *Science* "Career Enrichment Program". This is the most central-overlapping service type — the central Careers & Employability team runs the same offer.
 
 7. **Professional-skills / industry-readiness series** — short structured programs distinct from credit subjects. *FEIT* "Professional Skills Series" (appears four times across different URL paths — three redirects, one live); *FFAM* "Ignite LAB" (1,439w, indexed twice); *Law* "ELLIS Program" (Experiential Learning for Law International Students) with per-year "2023"/"2024" sub-pages.
 
@@ -43,9 +43,9 @@ Unlike course-planning, careers content is **spread almost flat across the top f
 
 A cross-cutting pattern worth flagging: **URL churn inflates this topic badly**. FEIT's "Intercultural Career Mentoring Program" exists at five different URLs and "Professional Skills Series" at four (mostly redirects); Arts indexes "Arts Student Ambassadors" twice and FFAM "Ignite LAB" twice. A meaningful share of the 141 is the same content under multiple paths, plus Biomedical's 16 redirect stubs and FBE's 2 login redirects.
 
-## Legitimate vs hub-overlapping
+## Legitimate vs central-overlapping
 
-| Faculty-owned (cannot be centralised) | Overlaps the hub (consolidation candidate) |
+| Faculty-owned (cannot be centralised) | Overlaps students.unimelb.edu.au (consolidation candidate) |
 |---|---|
 | Regulated career pathways (Law: barrister/admission; Education: PTT, registration) | The "Employability in X" landing page (7 near-identical copies) |
 | Credit-bearing internship/experiential subjects (Arts, Science, ABP) | 1:1 career consultations / resume & cover-letter advice |
@@ -53,13 +53,13 @@ A cross-cutting pattern worth flagging: **URL churn inflates this topic badly**.
 | Profession-bound professional bodies (FEIT "Professional Associations") | Student-ambassador & general career-mentoring boilerplate |
 | Faculty-run programs with their own brand (ELLIS, Ignite LAB, Job Ready) | Redirect/login stubs & duplicate-URL content (Biomedical, FBE, FEIT) |
 
-The balance tilts more toward **hub-overlap than course-planning did**. The discipline-bound core (regulated pathways, coded internship subjects, industry mentoring) is legitimately faculty-owned — but the repeated "Employability in X" pages, generic consultation/resume services, and ambassador boilerplate are the same offer restated 7–10 times, on top of substantial URL-churn and redirect noise.
+The balance tilts more toward **central-overlap than course-planning did**. The discipline-bound core (regulated pathways, coded internship subjects, industry mentoring) is legitimately faculty-owned — but the repeated "Employability in X" pages, generic consultation/resume services, and ambassador boilerplate are the same offer restated 7–10 times, on top of substantial URL-churn and redirect noise.
 
 ## Recommendation
-- **Hub owns:** the canonical Careers & Employability service — appointment booking, resume/cover-letter/selection-criteria advice, job-search strategy, and the generic "what employability means at Melbourne" framing. This is one offer; it should have one home.
+- **students.unimelb.edu.au owns:** the canonical Careers & Employability service — appointment booking, resume/cover-letter/selection-criteria advice, job-search strategy, and the generic "what employability means at Melbourne" framing. This is one offer; it should have one home.
 - **Faculty keeps:** regulated career pathways (Law, Education, MDHS), credit-bearing internship/experiential subjects (Arts, Science, ABP), and discipline-specific industry-mentoring programs with their own brands (ELLIS, Ignite LAB, ICMP, ABP Industry Mentoring).
-- **Collapse the template:** the seven "Employability in X" pages should become *one* hub page + a thin per-faculty stub that links to the discipline-specific subjects and mentoring only — not a full restatement of the central service.
-- **Add one hub gateway:** `students.unimelb.edu.au/careers/faculty-employability` — a directory linking to each faculty's internship subjects, mentoring, and regulated-pathway content, so discipline-specific careers material is discoverable from the centre.
+- **Collapse the template:** the seven "Employability in X" pages should become *one* students.unimelb.edu.au page + a thin per-faculty stub that links to the discipline-specific subjects and mentoring only — not a full restatement of the central service.
+- **Add one students.unimelb.edu.au gateway:** `students.unimelb.edu.au/careers/faculty-employability` — a directory linking to each faculty's internship subjects, mentoring, and regulated-pathway content, so discipline-specific careers material is discoverable from the centre.
 - **Highest-value fix:** kill the URL churn and redirect stubs (FEIT's 5×/4× duplicate programs, Biomedical's 16 redirect pages, FBE's 2 login stubs). This alone removes a large fraction of the 141 without losing any real content, and makes the legitimate split legible.
 
 ## Appendix — all careers-employability pages (141)

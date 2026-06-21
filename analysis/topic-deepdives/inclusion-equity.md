@@ -1,7 +1,7 @@
 # Topic Deep-Dive: Inclusion & Equity
 *Cross-faculty analysis from the full crawl. June 2026.*
 
-**49 inclusion-equity–tagged pages** sit across the faculty estate — one of the *smallest* topics in the audit, and the headline finding is that the tag is heavily inflated by false positives. Genuine inclusion/equity content (Indigenous student support, disability/equity support, diversity programs) numbers barely a dozen pages and is **faculty-owned but thin**; the rest is keyword-match noise — Law's GRD student bio pages and MSD's design-studio archives that happen to mention "community," "Indigenous" or "housing." The real equity *spine* (the central Student Equity & Disability Support service) lives at the hub, and faculties hold only discipline-flavoured satellites around it.
+**49 inclusion-equity–tagged pages** sit across the faculty estate — one of the *smallest* topics in the audit, and the headline finding is that the tag is heavily inflated by false positives. Genuine inclusion/equity content (Indigenous student support, disability/equity support, diversity programs) numbers barely a dozen pages and is **faculty-owned but thin**; the rest is keyword-match noise — Law's GRD student bio pages and MSD's design-studio archives that happen to mention "community," "Indigenous" or "housing." The real equity *spine* (the central Student Equity & Disability Support service) lives at students.unimelb.edu.au, and faculties hold only discipline-flavoured satellites around it.
 
 ## Distribution — who holds it
 
@@ -21,7 +21,7 @@ Law and ABP together hold **53%** of the tag, but almost none of it is real: Law
 
 ## Types of Inclusion & Equity content
 
-1. **Indigenous student support & success** — the single most legitimate category, and it appears once per faculty rather than once centrally. *Science* "Current Indigenous students" (1,161w, opens with a Country acknowledgement); *MDHS* "MDHS Indigenous Student Success" ("Wominjeka!…"); *FEIT* "Indigenous Student Experience"; *MBS* "Master of Indigenous Business Leadership." Each is bespoke to its discipline — none links to a common hub anchor.
+1. **Indigenous student support & success** — the single most legitimate category, and it appears once per faculty rather than once centrally. *Science* "Current Indigenous students" (1,161w, opens with a Country acknowledgement); *MDHS* "MDHS Indigenous Student Success" ("Wominjeka!…"); *FEIT* "Indigenous Student Experience"; *MBS* "Master of Indigenous Business Leadership." Each is bespoke to its discipline — none links to a common students.unimelb.edu.au anchor.
 
 2. **Disability & equity support (faculty front-doors to a central service)** — *Law* "Student Equity and Disability Support" (names the Associate Dean (Diversity & Inclusion) and Equal Opportunity Liaison Officers); *Arts* "Arts West building disability access." These are local restatements/entry points to what is centrally the Student Equity and Disability Support (SEDS) function.
 
@@ -35,23 +35,23 @@ Law and ABP together hold **53%** of the tag, but almost none of it is real: Law
 
 7. **Keyword-match noise (not inclusion content at all)** — *Law* GRD researcher bios (11 pages); *ABP/MSD* studio archives ("Studio H: Housing," "Bower Studio," "Five Mile Creek"); *FFAM* practical-music timetable link-farm. ~22 pages — nearly half the tag — are false positives.
 
-## Legitimate vs hub-overlapping
+## Legitimate vs central-overlapping
 
-| Faculty-owned (cannot be centralised) | Overlaps the hub (consolidation candidate) |
+| Faculty-owned (cannot be centralised) | Overlaps students.unimelb.edu.au (consolidation candidate) |
 |---|---|
 | Building accessibility (Arts West access) | Generic "student equity & disability support" framing (Law's page restates the central SEDS service) |
-| Equity-themed clinics/subjects (Law DHRC, Indigenous Advocacy, Stateless) | Indigenous-student-support landing pages (4 near-identical faculty versions of one hub concept) |
+| Equity-themed clinics/subjects (Law DHRC, Indigenous Advocacy, Stateless) | Indigenous-student-support landing pages (4 near-identical faculty versions of one students.unimelb.edu.au concept) |
 | Discipline-specific Indigenous programs (MBS Indigenous Business Leadership) | "Diversity & inclusion" general statements |
 | Faculty-run D&I events (FEIT case competition) | MDHS placement-compliance pages (belong to *placements*, not equity) |
 
 The balance tips the other way from most topics: outside the clinics and building-access pages, very little here is irreducibly faculty-specific. The Indigenous-support and equity/disability-support pages are **parallel reinventions of a central service**, and ~45% of the tag is noise — so the consolidation opportunity is unusually large relative to the page count.
 
 ## Recommendation
-- **Hub owns** the inclusion/equity spine: one authoritative Student Equity & Disability Support page and one Indigenous student support hub (Murrup Barak), as the single source of truth. Faculties should link to these, not paraphrase them.
+- **students.unimelb.edu.au owns** the inclusion/equity spine: one authoritative Student Equity & Disability Support page and one Indigenous student support students.unimelb.edu.au (Murrup Barak), as the single source of truth. Faculties should link to these, not paraphrase them.
 - **Faculties keep** only the irreducibly local: building accessibility (Arts West), equity-themed *subjects/clinics* (Law), faculty-run D&I events (FEIT), and discipline-specific Indigenous programs (MBS) — content that is curriculum or place, not service.
-- **Add one hub gateway:** `students.unimelb.edu.au/.../equity-and-inclusion` listing each faculty's Indigenous-support contact and equity liaison, so a student starting at the centre can reach their faculty's named officer (Law's Equal Opportunity Liaison model is the pattern to surface).
+- **Add one students.unimelb.edu.au gateway:** `students.unimelb.edu.au/.../equity-and-inclusion` listing each faculty's Indigenous-support contact and equity liaison, so a student starting at the centre can reach their faculty's named officer (Law's Equal Opportunity Liaison model is the pattern to surface).
 - **Fix the tag, not just the IA:** ~22 of 49 pages are false positives (GRD bios, MSD studios, music timetable) and the MDHS placement pages belong to *placements* — re-tagging is the highest-value, lowest-cost fix and would shrink the topic to its real ~13-page footprint.
-- **Single highest-value fix:** consolidate the four faculty "Indigenous student" pages behind one hub Indigenous-support anchor with faculty-specific contact blocks — it removes the most duplication and gives Indigenous students one reliable front door instead of four discoverable-by-luck ones.
+- **Single highest-value fix:** consolidate the four faculty "Indigenous student" pages behind one students.unimelb.edu.au Indigenous-support anchor with faculty-specific contact blocks — it removes the most duplication and gives Indigenous students one reliable front door instead of four discoverable-by-luck ones.
 
 ## Appendix — all inclusion-equity pages (49)
 

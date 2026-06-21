@@ -2,14 +2,14 @@
 
 *Cross-faculty analysis from the full crawl. June 2026.*
 
-**235 IT-systems–tagged pages** sit across the faculty estate, but the count is badly misleading: **183 of them (78%) are FEIT**, and most of those are not about IT at all — they are internships, scholarships, clubs, orientation and study-overseas pages swept in because they live under an "Engineering and Information Technology" faculty whose every URL says `eng.unimelb.edu.au`. Strip the noise and the *genuine* IT-and-systems signal is small, faculty-owned where it concerns physical facilities (computing labs, equipment loans, A/V suites), and almost entirely hub-overlapping where it concerns the transactional spine (Student IT helpdesk, software, the LMS, MyTimetable, the student portal/SSO).
+**235 IT-systems–tagged pages** sit across the faculty estate, but the count is badly misleading: **183 of them (78%) are FEIT**, and most of those are not about IT at all — they are internships, scholarships, clubs, orientation and study-overseas pages swept in because they live under an "Engineering and Information Technology" faculty whose every URL says `eng.unimelb.edu.au`. Strip the noise and the *genuine* IT-and-systems signal is small, faculty-owned where it concerns physical facilities (computing labs, equipment loans, A/V suites), and almost entirely central-overlapping where it concerns the transactional spine (Student IT helpdesk, software, the LMS, MyTimetable, the student portal/SSO).
 
 ## Distribution — who holds it
 
 | Unit | Pages | What dominates |
 |---|--:|---|
 | Engineering & IT (FEIT) | 183 | Mostly mis-tagged (internships, scholarships, clubs, orientation); thin genuine core (Student IT, software, ID cards) |
-| Arts | 11 | A/V loan equipment + video edit suites + hub course-admin pages cross-tagged in |
+| Arts | 11 | A/V loan equipment + video edit suites + students.unimelb.edu.au course-admin pages cross-tagged in |
 | Architecture, Building & Planning (MSD) | 10 | One deep "IT Support" page + studio archives + club/forms pages |
 | Business & Economics (FBE) | 8 | Computing spaces / facilities rules / virtual lab — each duplicated (BCom + faculty) |
 | Education | 5 | "Student Services and IT" (password/helpdesk) + placement-bound pages |
@@ -26,39 +26,39 @@ FEIT alone accounts for **78%** of the tag — the single most lopsided distribu
 
 1. **Student computing spaces, labs & facilities rules** — physical/virtual lab provision and the rules governing it. *FBE* "Student Computing Spaces", "FBE computing facilities rules", "FBE virtual lab" (each existing twice — once under `/bcom/` and once under `/services/`); *MBS* "Open Access Student Computing Spaces", "Virtual Lab". Genuinely faculty-owned because the rooms and machines are.
 
-2. **Faculty IT support / helpdesk pages** — discipline-specific support fronts. The richest is *ABP/MSD* "IT Support" (3,247w) — "Computer and software information for BDes and MSD students", including faculty-specific notes such as Adobe Creative Cloud licensing changes; *Education* "Student Services and IT" ("Forgot your password? … Student IT and eLearning Support … using university applications, accessing your email"). The MSD page is legitimately local; the Education page is mostly a restatement of the hub's Student IT service.
+2. **Faculty IT support / helpdesk pages** — discipline-specific support fronts. The richest is *ABP/MSD* "IT Support" (3,247w) — "Computer and software information for BDes and MSD students", including faculty-specific notes such as Adobe Creative Cloud licensing changes; *Education* "Student Services and IT" ("Forgot your password? … Student IT and eLearning Support … using university applications, accessing your email"). The MSD page is legitimately local; the Education page is mostly a restatement of students.unimelb.edu.au's Student IT service.
 
 3. **Software access & device requirements** — what to install, what hardware to bring. *FEIT* "General Software for UoM Students", "Technology requirements and available resources", "Calculator Policy". Software entitlements are a University-wide service; the calculator policy is the only genuinely faculty-specific item.
 
-4. **Student IT contact & live-chat channels** — how to reach support. *FEIT* "Student IT", "Student IT Contact", "Chat with Student IT". These point at the same central Student IT service the hub already owns; re-fronting it per faculty is pure overlap.
+4. **Student IT contact & live-chat channels** — how to reach support. *FEIT* "Student IT", "Student IT Contact", "Chat with Student IT". These point at the same central Student IT service students.unimelb.edu.au already owns; re-fronting it per faculty is pure overlap.
 
 5. **The LMS / Canvas & learning platforms** — course-delivery systems. *Law* "Legal Academic Skills LMS Community" ("automatically enrolled … it will appear on your Canvas dashboard … Log in to the LMS"). The LMS itself is central; the *community content* inside it is faculty-owned.
 
 6. **Equipment, instrument & A/V loans** — bookable kit tied to studio/performance disciplines. *FFAM* "Tech Support and Facilities" (3,501w — the largest IT-tagged page in the estate, covering equipment loans, technical staff, digital printing), "Instrument Loans"; *Arts* "Audio/Visual loan equipment", "Video edit suites" (×2), "Book a room and hire equipment". Strongly faculty-owned — the kit is physical and program-specific.
 
-7. **Core student systems: portal, SSO, timetable, census** — the transactional spine, cross-tagged in. *Biomedical* "Student portal" (a 302 redirect to SSO/SAML sign-in); *Arts*-surfaced hub pages "Class timetable" ("MyTimetable is the system you use to create and view your class schedule"), "Check your subject census dates", "Cross-institutional study". These are unambiguously hub assets that happen to carry the IT tag.
+7. **Core student systems: portal, SSO, timetable, census** — the transactional spine, cross-tagged in. *Biomedical* "Student portal" (a 302 redirect to SSO/SAML sign-in); *Arts*-surfaced students.unimelb.edu.au pages "Class timetable" ("MyTimetable is the system you use to create and view your class schedule"), "Check your subject census dates", "Cross-institutional study". These are unambiguously students.unimelb.edu.au assets that happen to carry the IT tag.
 
 8. **Building access & ID cards** — the physical-access system. *FEIT* "Building access and ID cards" (two variants, coursework vs graduate-researcher). Card/access systems are University-wide infrastructure with thin faculty-specific instructions.
 
 9. **Tagging noise (not genuinely IT)** — the dominant "type" by raw count. The FEIT bucket is overwhelmingly internships ("Self-sourced internships" 4,864w, "University-sourced internships", the internship FAQ), scholarships and Dean's Honours pages, student clubs, orientation, and study-overseas/international-research programs. They are IT-tagged only because they sit on the `eng.unimelb.edu.au` (Engineering *and IT*) domain — a classifier false-positive, not real IT content.
 
-## Legitimate vs hub-overlapping
+## Legitimate vs central-overlapping
 
-| Faculty-owned (cannot be centralised) | Overlaps the hub (consolidation candidate) |
+| Faculty-owned (cannot be centralised) | Overlaps students.unimelb.edu.au (consolidation candidate) |
 |---|---|
 | Computing labs / facilities rules (FBE, MBS) | Faculty "Student IT" / helpdesk / live-chat re-fronts (FEIT, Education) |
 | Faculty IT-support specifics — software licensing, studio kit (MSD, FFAM) | General software entitlements for all UoM students (FEIT) |
-| Equipment / instrument / A/V loans (FFAM, Arts) | Student portal / SSO, MyTimetable, census dates (cross-tagged hub pages) |
+| Equipment / instrument / A/V loans (FFAM, Arts) | Student portal / SSO, MyTimetable, census dates (cross-tagged students.unimelb.edu.au pages) |
 | LMS *community content* — e.g. Legal Academic Skills (Law) | Building access & ID-card system instructions |
 | Calculator policy, discipline device rules (FEIT) | Generic "accessing email / resetting password" restatements |
 
-The balance is unusual for this audit: the *legitimate* faculty-owned core is small but real (physical labs, loanable kit, a couple of genuinely local IT-support pages), while the bulk of the tag is either hub-overlapping restatements of the central Student IT spine **or** outright mis-classification. Very little net unique content sits here once the FEIT namespace artefact is removed.
+The balance is unusual for this audit: the *legitimate* faculty-owned core is small but real (physical labs, loanable kit, a couple of genuinely local IT-support pages), while the bulk of the tag is either central-overlapping restatements of the central Student IT spine **or** outright mis-classification. Very little net unique content sits here once the FEIT namespace artefact is removed.
 
 ## Recommendation
 
-- **Hub owns the IT spine outright:** Student IT helpdesk + live chat, software/device entitlements, password/account/email, the LMS (Canvas), MyTimetable, student portal/SSO, and building access/ID cards. These are single-source-of-truth services; faculties should link, never restate.
+- **students.unimelb.edu.au owns the IT spine outright:** Student IT helpdesk + live chat, software/device entitlements, password/account/email, the LMS (Canvas), MyTimetable, student portal/SSO, and building access/ID cards. These are single-source-of-truth services; faculties should link, never restate.
 - **Faculties keep only what is physically theirs:** computing labs and their rules, studio/A-V/instrument loan systems, and genuinely local IT-support notes (e.g. MSD's Adobe licensing, FFAM tech support). These cannot be centralised.
-- **Stop re-fronting Student IT:** retire the FEIT "Student IT / Student IT Contact / Chat with Student IT" trio and Education's helpdesk restatement in favour of one deep-link to the hub Student IT page.
+- **Stop re-fronting Student IT:** retire the FEIT "Student IT / Student IT Contact / Chat with Student IT" trio and Education's helpdesk restatement in favour of one deep-link to students.unimelb.edu.au Student IT page.
 - **De-duplicate within FBE:** the computing-spaces / rules / virtual-lab set exists twice (`/bcom/` and `/services/`); collapse to one canonical copy each.
 - **Highest-value fix — fix the tag, not the content:** the FEIT `eng.unimelb.edu.au` namespace is poisoning this topic (183 of 235 pages, ~78%, mostly non-IT). Re-classify the internship/scholarship/club/orientation pages to their true topics so the IT-systems inventory reflects the ~30–40 genuinely IT pages — without that, every metric on this topic is distorted.
 

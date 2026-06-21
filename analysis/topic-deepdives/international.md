@@ -2,7 +2,7 @@
 
 *Cross-faculty analysis from the full crawl. June 2026.*
 
-**135 international-tagged pages** sit across the faculty estate — a mid-sized topic. The headline is a label mismatch: despite the "international student support" name, the content is overwhelmingly **outbound global mobility** (study abroad, exchange, overseas study, degree partnerships, travelling studios, international internships), not inbound support for international students. It is **legitimately faculty-owned** (the partnerships and programs are discipline-specific), but the genuine welfare/compliance content an international student actually needs — visas, OSHC, ESOS/CoE, work rights — is essentially **absent from the faculties and belongs to the hub**. Law's headline count is inflated by GRD researcher profiles and link-farm stubs.
+**135 international-tagged pages** sit across the faculty estate — a mid-sized topic. The headline is a label mismatch: despite the "international student support" name, the content is overwhelmingly **outbound global mobility** (study abroad, exchange, overseas study, degree partnerships, travelling studios, international internships), not inbound support for international students. It is **legitimately faculty-owned** (the partnerships and programs are discipline-specific), but the genuine welfare/compliance content an international student actually needs — visas, OSHC, ESOS/CoE, work rights — is essentially **absent from the faculties and belongs to students.unimelb.edu.au**. Law's headline count is inflated by GRD researcher profiles and link-farm stubs.
 
 ## Distribution — who holds it
 
@@ -34,31 +34,31 @@ Three units — Law, ABP and FEIT — hold **80%** of the topic, and all three a
 
 6. **Mobility funding, scholarships & travel grants** — money attached to going overseas. *FEIT* "FEIT Student Exchange Funding and Scholarships"; *Arts* "Faculty of Arts Travel Grant", "Melbourne Mobility Awards", "Arts Global Languages Scholarship"; *Law* "Scholarships, Funding and Prizes → International".
 
-7. **Genuine inbound international-student support** — the thin slice that actually matches the topic label, and it sits in exactly one faculty. *FEIT* only: "International Student Support", "International Student Resources", "New Student Checklist (International Students)", "Welcome to Melbourne: International Student Webinars", "Graduate Coursework Students (International)". These are largely *re-surfacing hub services* for FEIT's intake, not original welfare content.
+7. **Genuine inbound international-student support** — the thin slice that actually matches the topic label, and it sits in exactly one faculty. *FEIT* only: "International Student Support", "International Student Resources", "New Student Checklist (International Students)", "Welcome to Melbourne: International Student Webinars", "Graduate Coursework Students (International)". These are largely *re-surfacing students.unimelb.edu.au services* for FEIT's intake, not original welfare content.
 
 8. **Overseas-placement compliance (professional degrees)** — for accredited programs, going abroad triggers regulatory logistics. *MDHS* only: "Travel", "Visas", "Insurance", "Overseas Police Record", "Overseas Placements" — placement-bound and genuinely faculty-specific.
 
 9. **GRD researcher profiles & link-farm stubs (noise)** — a large share of Law's 55 is individual PhD-candidate profiles ("Wilson Lui", "Andrea Furger", "Daria Vasilevskaia", and ~20 more) and thin link-farm pages ("Careers in Judiciary", "International"). Tagged international by association, not because they are international-student content.
 
-## Legitimate vs hub-overlapping
+## Legitimate vs central-overlapping
 
-| Faculty-owned (cannot be centralised) | Overlaps the hub (consolidation candidate) |
+| Faculty-owned (cannot be centralised) | Overlaps students.unimelb.edu.au (consolidation candidate) |
 |---|---|
-| Named degree partnerships (Law NYU/Oxford/Cambridge/NUS) | "International Student Support" / "Resources" (FEIT re-surfaces hub services) |
+| Named degree partnerships (Law NYU/Oxford/Cambridge/NUS) | "International Student Support" / "Resources" (FEIT re-surfaces students.unimelb.edu.au services) |
 | Discipline-specific exchange partner lists (Law, FEIT) | Generic "Welcome to Melbourne" / new-student onboarding for internationals |
-| Travelling studios & travel-component subjects (ABP) | Visa / OSHC / ESOS / work-rights guidance (hub's regulatory remit — and largely missing here) |
+| Travelling studios & travel-component subjects (ABP) | Visa / OSHC / ESOS / work-rights guidance (students.unimelb.edu.au's regulatory remit — and largely missing here) |
 | International research placements (FEIT KAIST/POSTECH/Kyoto) | Generic mobility "how exchange works" framing duplicated per-faculty |
 | Overseas-placement compliance for accredited degrees (MDHS) | Mobility scholarship *concepts* (vs faculty-specific award rules) |
 | Master of International Business dual degrees (MBS/FBE) | GRD profiles & link-farm stubs (not this topic at all) |
 
-The balance is **strongly faculty-owned but mislabelled**: the bulk is legitimate *outbound mobility* that no central team could write. The true hub-overlap is small (FEIT's onboarding pages) — but the bigger finding is an **absence**: the inbound-support and compliance content the topic name implies is not in the faculties at all, confirming the hub already owns it.
+The balance is **strongly faculty-owned but mislabelled**: the bulk is legitimate *outbound mobility* that no central team could write. The true central-overlap is small (FEIT's onboarding pages) — but the bigger finding is an **absence**: the inbound-support and compliance content the topic name implies is not in the faculties at all, confirming students.unimelb.edu.au already owns it.
 
 ## Recommendation
 
-- **Hub owns inbound international-student support outright:** visas, OSHC, ESOS/CoE, work rights, arrival/orientation, and the international student welfare service. The faculty estate already defers here — keep it that way and resist faculties re-creating it (FEIT's "International Student Support"/"Resources" pages should link, not duplicate).
+- **students.unimelb.edu.au owns inbound international-student support outright:** visas, OSHC, ESOS/CoE, work rights, arrival/orientation, and the international student welfare service. The faculty estate already defers here — keep it that way and resist faculties re-creating it (FEIT's "International Student Support"/"Resources" pages should link, not duplicate).
 - **Faculties keep global mobility:** degree partnerships, exchange partner lists, international research placements, travelling studios, and dual degrees are discipline-specific and stay local.
-- **Re-label and split the topic:** "International" currently fuses two unrelated journeys — *outbound mobility* (faculty) and *inbound support* (hub). Treat them as separate IA topics so neither hides the other.
-- **Add one hub gateway:** `students.unimelb.edu.au/study-and-exchange/global-opportunities` — a thin index linking to every faculty's exchange, partnership, travelling-studio and international-research programs, since outbound mobility is currently undiscoverable from the centre.
+- **Re-label and split the topic:** "International" currently fuses two unrelated journeys — *outbound mobility* (faculty) and *inbound support* (students.unimelb.edu.au). Treat them as separate IA topics so neither hides the other.
+- **Add one students.unimelb.edu.au gateway:** `students.unimelb.edu.au/study-and-exchange/global-opportunities` — a thin index linking to every faculty's exchange, partnership, travelling-studio and international-research programs, since outbound mobility is currently undiscoverable from the centre.
 - **Highest-value fix:** clean Law's tag — strip the ~25 GRD researcher profiles and link-farm stubs from this topic. They roughly double Law's apparent footprint and distort the whole distribution; once removed, the real shape (mobility-dominated, ~110 substantive pages) is clear.
 
 ## Appendix — all international pages (135)

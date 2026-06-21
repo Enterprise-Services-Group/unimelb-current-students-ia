@@ -1,7 +1,7 @@
 # Topic Deep-Dive: Academic Skills
 *Cross-faculty analysis from the full crawl. June 2026.*
 
-**37 academic-skills–tagged pages** sit across the faculty estate — a small topic, well down the table, but a revealing one. The pattern is *split and thin*: the genuinely discipline-bound material (legal research, academic English for science, thesis writing) is legitimate faculty content, but the rest is a scatter of near-identical "Academic Skills" landing pages, peer-mentoring re-runs and link-farm stubs — most of which restate or point at a service the central hub (Academic Skills / Stop 1) already owns. Law alone holds 11 of the 37, almost entirely its own Ian Malkin Centre micro-site.
+**37 academic-skills–tagged pages** sit across the faculty estate — a small topic, well down the table, but a revealing one. The pattern is *split and thin*: the genuinely discipline-bound material (legal research, academic English for science, thesis writing) is legitimate faculty content, but the rest is a scatter of near-identical "Academic Skills" landing pages, peer-mentoring re-runs and link-farm stubs — most of which restate or point at a service students.unimelb.edu.au (Academic Skills / Stop 1) already owns. Law alone holds 11 of the 37, almost entirely its own Ian Malkin Centre micro-site.
 
 ## Distribution — who holds it
 
@@ -29,13 +29,13 @@ Law holds **30%** of the topic single-handed — but unlike the program-driven v
 4. **Peer mentoring / peer-assisted study (PASS)** — a recurring, near-identical pattern across faculties. *Arts* "Melbourne Peer Mentor Program", "Peer Assisted Study Sessions", "Academic Mentoring"; *Education* "Peer Mentoring". Same model, separately documented per faculty.
 5. **Generic "Academic Skills" / "Academic Success" landing pages** — the clearest duplication signal. The literal page title **"Academic Skills"** recurs at *FEIT* (twice), *Biomedical* (twice — one for the bachelor, one for the master's), and *Education* ("Academic Skills module"); *FBE* runs the same idea as "Academic Success". These are thin restatements of the central service.
 6. **Discipline numeracy / quantitative requirements** — degree-specific skill gates. *FBE* "Compulsory Quantitative Requirement"; *Education* "Assessment, Results and Academic Integrity". Legitimately faculty-owned where tied to a program rule.
-7. **"Enrich your studies" enrichment hubs** — faculty wrappers that bundle skills, mentoring and language under one parent. *Science* and *Education* both run an "Enrich your studies" page; *Arts* nests its skills content under "enrich-your-bachelor-of-arts". A consistent shape, inconsistently located.
+7. **"Enrich your studies" enrichment central sites** — faculty wrappers that bundle skills, mentoring and language under one parent. *Science* and *Education* both run an "Enrich your studies" page; *Arts* nests its skills content under "enrich-your-bachelor-of-arts". A consistent shape, inconsistently located.
 8. **Loosely-tagged / mis-filed pages** — topic noise. *ABP/MSD*'s five pages are studio archives (2014–2017) and a "Student Experience" page; *MDHS* "During Placement"; *FFAM* "Student Services". These surface under the tag without being academic-skills content in any useful sense.
 9. **Link-farm gateways** — sub-100-word stubs that only route onward. *Law* "Academic skills resources" (69w), "Writing for law" (109w), "Academic Support and Wellbeing" (19w) and the Ian Malkin Centre index (149w). Navigational scaffolding, not content.
 
-## Legitimate vs hub-overlapping
+## Legitimate vs central-overlapping
 
-| Faculty-owned (cannot be centralised) | Overlaps the hub (consolidation candidate) |
+| Faculty-owned (cannot be centralised) | Overlaps students.unimelb.edu.au (consolidation candidate) |
 |---|---|
 | Ian Malkin Centre for Legal Academic Skills (Law) | Generic "Academic Skills" landing pages (FEIT ×2, Biomedical ×2, Education) |
 | Legal Research; legal writing & grading (Law) | "Academic Success" as a generic restatement (FBE) |
@@ -43,14 +43,14 @@ Law holds **30%** of the topic single-handed — but unlike the program-driven v
 | Thesis-writing events; research integrity (FEIT, FFAM) | Link-farm stubs pointing at the central service (Law) |
 | Compulsory Quantitative Requirement (FBE) | Mis-tagged studio archives / placement pages (ABP, MDHS, FFAM) |
 
-The balance tips toward **hub-overlap** here, unlike most topics in the audit. Only Law's Malkin Centre and a handful of discipline-language/research pages are genuinely irreducible; the larger share is duplicated landing pages, repeated peer-mentoring write-ups and stubs that exist mainly because each faculty felt it needed an "Academic Skills" entry of its own.
+The balance tips toward **central-overlap** here, unlike most topics in the audit. Only Law's Malkin Centre and a handful of discipline-language/research pages are genuinely irreducible; the larger share is duplicated landing pages, repeated peer-mentoring write-ups and stubs that exist mainly because each faculty felt it needed an "Academic Skills" entry of its own.
 
 ## Recommendation
-- **Hub owns the canonical service:** the central Academic Skills offering (workshops, drop-ins, the academic-skills site) is a textbook cross-cutting service — it should be the single source of truth for generic study-skills, academic-writing and time-management content. Faculties should link to it, not re-describe it.
+- **students.unimelb.edu.au owns the canonical service:** the central Academic Skills offering (workshops, drop-ins, the academic-skills site) is a textbook cross-cutting service — it should be the single source of truth for generic study-skills, academic-writing and time-management content. Faculties should link to it, not re-describe it.
 - **Faculties keep the discipline-bound layer:** Law's Ian Malkin Centre, legal research/writing, discipline-specific academic-English tutorials (Science, FEIT), thesis-writing and research-integrity sessions, and program-tied numeracy requirements (FBE) — all stay where the worked examples live.
-- **Consolidate the generic "Academic Skills" pages:** collapse the five-plus near-identical landing pages (FEIT ×2, Biomedical ×2, Education, FBE "Academic Success") into a single linked reference to the hub; retire the link-farm stubs in Law.
-- **Standardise peer mentoring / PASS:** treat peer-assisted study as one university program with a hub page; faculties add only their local session times and contacts, not a fresh description each.
-- **Highest-value fix:** publish one hub gateway — `students.unimelb.edu.au/academic-skills/by-faculty` — that owns generic skills content and links out to each faculty's *genuinely discipline-specific* skills service (Malkin Centre, Science academic English, etc.). That single page would absorb the duplicated landings and make the legitimate faculty content discoverable from the centre, where it currently isn't.
+- **Consolidate the generic "Academic Skills" pages:** collapse the five-plus near-identical landing pages (FEIT ×2, Biomedical ×2, Education, FBE "Academic Success") into a single linked reference to students.unimelb.edu.au; retire the link-farm stubs in Law.
+- **Standardise peer mentoring / PASS:** treat peer-assisted study as one university program with a students.unimelb.edu.au page; faculties add only their local session times and contacts, not a fresh description each.
+- **Highest-value fix:** publish one students.unimelb.edu.au gateway — `students.unimelb.edu.au/academic-skills/by-faculty` — that owns generic skills content and links out to each faculty's *genuinely discipline-specific* skills service (Malkin Centre, Science academic English, etc.). That single page would absorb the duplicated landings and make the legitimate faculty content discoverable from the centre, where it currently isn't.
 
 ## Appendix — all academic-skills pages (37)
 

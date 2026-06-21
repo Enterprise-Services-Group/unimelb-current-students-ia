@@ -27,7 +27,7 @@ The alumni site has **two separate "career tools" pages** — one under `/suppor
 
 ### What the current-student estate offers
 
-The central Careers hub at `students.unimelb.edu.au` (and its per-faculty equivalents) provides:
+The central Careers service at `students.unimelb.edu.au` (and its per-faculty equivalents) provides:
 - Career appointments, job boards, industry networking events
 - Faculty-specific career resources (fbe, law, engineering etc.)
 - Graduate recruiter events (open to current students)
@@ -38,7 +38,7 @@ The alumni site's mentoring structure exists in two places:
 - `/alumni/get-involved/volunteer/mentoring/faculty-specific-mentoring/` — 12 faculty-specific pages for **alumni who want to mentor students**
 - `/alumni/impact/become-a-mentor/business-and-economics-career-mentoring/faqs` — business-specific FAQ for mentors
 
-The current-student estate (and the central Careers hub) frames the same programs from the student perspective: "find a mentor." The alumni site frames it from the mentor perspective: "become a mentor." These are two ends of the same pipeline, but they are **not cross-linked**. A student looking for a mentor and an alumnus looking to mentor are searching independently rather than being matched through a unified discovery experience.
+The current-student estate (and the central Careers service) frames the same programs from the student perspective: "find a mentor." The alumni site frames it from the mentor perspective: "become a mentor." These are two ends of the same pipeline, but they are **not cross-linked**. A student looking for a mentor and an alumnus looking to mentor are searching independently rather than being matched through a unified discovery experience.
 
 ### Handoff clarity: Weak
 
@@ -47,7 +47,7 @@ There is no page on the alumni site that says "if you are a current student, go 
 ### Recommendation
 
 - Establish a single "Career lifecycle" framing with explicit transitions: current student → new graduate → established professional
-- The central Careers hub should link forward to the alumni career tools for post-graduation use
+- The central Careers service should link forward to the alumni career tools for post-graduation use
 - The alumni mentoring "become a mentor" pages should cross-link to the student-facing "find a mentor" discovery flow
 - Consolidate the two internal "career tools" pages on the alumni site into one
 
@@ -136,7 +136,7 @@ The alumni site does not provide a "what happens to your student community when 
 Build an explicit "graduation bridge" — a page or campaign that activates when a student is within 90 days of graduation, surfacing: alumni email transition, career tool continuation, community shift, library access retention. Neither site currently does this.
 
 ### Priority 2 — Careers cross-linking
-The central Careers hub should include a "Post-graduation" section that explicitly links to alumni career tools and names the transition. The alumni career pages should reference the Careers hub for current access context.
+The central Careers service should include a "Post-graduation" section that explicitly links to alumni career tools and names the transition. The alumni career pages should reference the Careers service for current access context.
 
 ### Priority 3 — Mentoring pipeline unification
 The student-facing "find a mentor" flow and the alumni-facing "become a mentor" flow should be presented as two ends of the same program with mutual discovery: students see "your mentors are alumni"; alumni see "your mentees are current students."

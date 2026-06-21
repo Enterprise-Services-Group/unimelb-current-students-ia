@@ -1,0 +1,101 @@
+{
+  "law.unimelb.edu.au": {
+    "name": "Law",
+    "homepage": {
+      "url": "https://law.unimelb.edu.au/",
+      "title": ""
+    },
+    "subpage/alumni": {
+      "url": "https://law.unimelb.edu.au/alumni",
+      "title": ""
+    }
+  },
+  "eng.unimelb.edu.au": {
+    "name": "FEIT (Engineering & IT)",
+    "homepage": {
+      "url": "https://eng.unimelb.edu.au/",
+      "title": ""
+    },
+    "subpage/alumni": {
+      "url": "https://eng.unimelb.edu.au/alumni",
+      "title": ""
+    }
+  },
+  "arts.unimelb.edu.au": {
+    "name": "Arts",
+    "homepage": {
+      "url": "https://arts.unimelb.edu.au/",
+      "title": ""
+    },
+    "subpage/alumni": {
+      "url": "https://arts.unimelb.edu.au/alumni",
+      "title": ""
+    }
+  },
+  "science.unimelb.edu.au": {
+    "name": "Science",
+    "homepage": {
+      "url": "https://science.unimelb.edu.au/",
+      "title": ""
+    },
+    "subpage/alumni": {
+      "url": "https://science.unimelb.edu.au/alumni",
+      "title": ""
+    }
+  },
+  "education.unimelb.edu.au": {
+    "name": "Education",
+    "homepage": {
+      "url": "https://education.unimelb.edu.au/",
+      "title": ""
+    },
+    "subpage/alumni": {
+      "url": "https://education.unimelb.edu.au/alumni",
+      "title": ""
+    }
+  },
+  "fbe.unimelb.edu.au": {
+    "name": "FBE (Business & Economics)",
+    "homepage": {
+      "url": "https://fbe.unimelb.edu.au/",
+      "title": ""
+    },
+    "subpage/alumni": {
+      "url": "https://fbe.unimelb.edu.au/alumni",
+      "title": ""
+    }
+  },
+  "finearts-music.unimelb.edu.au": {
+    "name": "FFAM (Fine Arts & Music)",
+    "homepage": {
+      "url": "https://finearts-music.unimelb.edu.au/",
+      "title": ""
+    },
+    "subpage/alumni": {
+      "url": "https://finearts-music.unimelb.edu.au/alumni",
+      "title": ""
+    }
+  },
+  "mdhs.unimelb.edu.au": {
+    "name": "MDHS (Medicine, Dentistry & HS)",
+    "homepage": {
+      "url": "https://mdhs.unimelb.edu.au/",
+      "title": ""
+    },
+    "subpage/alumni": {
+      "url": "https://mdhs.unimelb.edu.au/alumni",
+      "title": ""
+    }
+  },
+  "msd.unimelb.edu.au": {
+    "name": "MSD (Architecture, Building & Planning)",
+    "homepage": {
+      "url": "https://msd.unimelb.edu.au/",
+      "title": ""
+    },
+    "subpage/alumni": {
+      "url": "https://msd.unimelb.edu.au/alumni",
+      "title": ""
+    }
+  }
+}

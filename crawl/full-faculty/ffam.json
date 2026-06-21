@@ -1,0 +1,17 @@
+{
+  "domain": "finearts-music.unimelb.edu.au",
+  "slug": "ffam",
+  "pages_crawled": 1,
+  "urls_visited": 1,
+  "frontier_remaining": 0,
+  "pages": [
+    {
+      "url": "https://finearts-music.unimelb.edu.au/",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/",
+      "title": "Just a moment...",
+      "wordCount": 45,
+      "outboundLinks": [],
+      "fingerprint": "7c8436af4a3f39f5"
+    }
+  ]
+}

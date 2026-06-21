@@ -1,0 +1,1134 @@
+{
+  "domain": "fbe.unimelb.edu.au",
+  "slug": "fbe",
+  "pages_crawled": 161,
+  "pages": [
+    {
+      "url": "https://fbe.unimelb.edu.au/about",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/about",
+      "title": "About the Faculty of Business & Economics",
+      "wordCount": 571,
+      "fingerprint": "0023eb815eb39cf0"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/accounting/study-with-us/graduate-coursework",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/accounting/study-with-us/graduate-coursework",
+      "title": "Graduate coursework",
+      "wordCount": 382,
+      "fingerprint": "01a339bf6b43ef51"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/research/fbe-research-strategy",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/research/fbe-research-strategy",
+      "title": "Faculty of Business and Economics Research Strategy",
+      "wordCount": 215,
+      "fingerprint": "03859f781e7f4df5"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/newsroom?queries_tags_query=student&result_4979728_result_page=6",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/newsroom?queries_tags_query=student&result_4979728_result_page=6",
+      "title": "Newsroom",
+      "wordCount": 33,
+      "fingerprint": "06dbf38912ed33a0"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/research/facilities-and-resources",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/research/facilities-and-resources",
+      "title": "Facilities and resources",
+      "wordCount": 195,
+      "fingerprint": "0717da6670ed9b5d"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/alumni",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/alumni",
+      "title": "Alumni",
+      "wordCount": 183,
+      "fingerprint": "071e7f2ffb11e3eb"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/wcla",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/wcla",
+      "title": "WCLA",
+      "wordCount": 168,
+      "fingerprint": "0733d3dd14c67ee9"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/contact/media-contacts",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/contact/media-contacts",
+      "title": "Media Contact",
+      "wordCount": 162,
+      "fingerprint": "091502687d7233e1"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/managementmarketing/study-with-us/graduate-coursework",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/managementmarketing/study-with-us/graduate-coursework",
+      "title": "Graduate coursework",
+      "wordCount": 393,
+      "fingerprint": "0b46f9799896f5f6"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/research/lab/caliber",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/research/lab/caliber",
+      "title": "Collaborative AI Lab in Business & Economic Research (CALIBER)",
+      "wordCount": 468,
+      "fingerprint": "12a704ab1aef58b8"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/diversity-and-inclusion",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/diversity-and-inclusion",
+      "title": "Diversity and Inclusion",
+      "wordCount": 763,
+      "fingerprint": "15fe1895dd522752"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/newsroom?queries_tags_query=research&result_4979728_result_page=2",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/newsroom?queries_tags_query=research&result_4979728_result_page=2",
+      "title": "Newsroom",
+      "wordCount": 44,
+      "fingerprint": "161791eee2b2fd1c"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/accounting/study-with-us/undergraduate",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/accounting/study-with-us/undergraduate",
+      "title": "Undergraduate study",
+      "wordCount": 398,
+      "fingerprint": "16d28a694e4a619f"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/newsroom?result_4979728_result_page=12",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/newsroom?result_4979728_result_page=12",
+      "title": "Newsroom",
+      "wordCount": 36,
+      "fingerprint": "17711296781e2556"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/managementmarketing/about",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/managementmarketing/about",
+      "title": "About",
+      "wordCount": 513,
+      "fingerprint": "19110ddd8937abc4"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/research/lab/behavai/news-and-events",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/research/lab/behavai/news-and-events",
+      "title": "Events",
+      "wordCount": 83,
+      "fingerprint": "1cea1f8f275287d2"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/cmd/home",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/cmd/home",
+      "title": "Centre for Market Design",
+      "wordCount": 834,
+      "fingerprint": "1f10a0cf8517309b"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/study",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/study",
+      "title": "Study",
+      "wordCount": 317,
+      "fingerprint": "1f218e2ba6e4a30d"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/accounting/our-research",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/accounting/our-research",
+      "title": "Research and impact",
+      "wordCount": 356,
+      "fingerprint": "1fe1f47934993a65"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/study/phd",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/study/phd",
+      "title": "Graduate Research Programs in Business and Economics",
+      "wordCount": 484,
+      "fingerprint": "2030c91973a1aad4"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/accounting/events/archive",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/accounting/events/archive",
+      "title": "Archive",
+      "wordCount": 793,
+      "fingerprint": "259f837885c36a74"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/accounting/events/2023/accounting-workshop-on-experiments",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/accounting/events/2023/accounting-workshop-on-experiments",
+      "title": "Accounting Workshop on Experiments",
+      "wordCount": 531,
+      "fingerprint": "285cc7f07bf73471"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/research/lab/behavai/news-and-events/ghost-framing-theory-exploring-the-role-of-generative-ai-in-new-venture-legitimation2",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/research/lab/behavai/news-and-events/ghost-framing-theory-exploring-the-role-of-generative-ai-in-new-venture-legitimation2",
+      "title": "Ghost Framing Theory: Exploring the Role of Generative AI in New Venture Legitimation",
+      "wordCount": 212,
+      "fingerprint": "287ea095638bcf52"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/icrodsc",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/icrodsc",
+      "title": "International Centre for Research in Organisational Discourse, Strategy and Change",
+      "wordCount": 678,
+      "fingerprint": "2a68cd9f549433ea"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/research/lab/behavai/news-and-events/a-meta-analysis-of-customer-reactions-to-ai-agent-implementation2",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/research/lab/behavai/news-and-events/a-meta-analysis-of-customer-reactions-to-ai-agent-implementation2",
+      "title": "A Meta-Analysis of Customer Reactions to AI Agent Implementation",
+      "wordCount": 258,
+      "fingerprint": "2b4a22ebdc09a5d7"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/study/phd/students",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/study/phd/students",
+      "title": "Faculty of Business & Economics Graduate Research Students",
+      "wordCount": 434,
+      "fingerprint": "2c51aaea5f037f1e"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/research/lab/behavai/news-and-events/past-events",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/research/lab/behavai/news-and-events/past-events",
+      "title": "Past Events",
+      "wordCount": 224,
+      "fingerprint": "2c51ff6f9a1cc687"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/newsroom?result_4979728_result_page=7",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/newsroom?result_4979728_result_page=7",
+      "title": "Newsroom",
+      "wordCount": 49,
+      "fingerprint": "2f82d54b819ba7bc"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/accounting/events/2023/melbourne-accounting-research-seminar-donghui-wu",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/accounting/events/2023/melbourne-accounting-research-seminar-donghui-wu",
+      "title": "Melbourne Accounting Research Seminar - Donghui Wu",
+      "wordCount": 287,
+      "fingerprint": "314cab2cbab6b3a6"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/finance/about",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/finance/about",
+      "title": "About",
+      "wordCount": 206,
+      "fingerprint": "33a5beb1b5fa0f97"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/managementmarketing/mhrmu",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/managementmarketing/mhrmu",
+      "title": "Melbourne Human Resource Management Unit",
+      "wordCount": 584,
+      "fingerprint": "38018471345709f9"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/economics/econometrics",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/economics/econometrics",
+      "title": "Econometrics Research Unit",
+      "wordCount": 314,
+      "fingerprint": "3930e36dfaa537fe"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/accounting/events/2023/melbourne-accounting-research-seminar-wim-van-der-stede",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/accounting/events/2023/melbourne-accounting-research-seminar-wim-van-der-stede",
+      "title": "Melbourne Accounting Research Seminar - Wim Van der Stede",
+      "wordCount": 298,
+      "fingerprint": "3b267277931deb1d"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/newsroom?queries_tags_query=student",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/newsroom?queries_tags_query=student",
+      "title": "Newsroom",
+      "wordCount": 34,
+      "fingerprint": "3bd12cab91874016"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/economics/ACT",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/economics/ACT",
+      "title": "Centre for Actuarial Studies",
+      "wordCount": 476,
+      "fingerprint": "3dbba80ab0f5da9f"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/newsroom?result_4979728_result_page=4",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/newsroom?result_4979728_result_page=4",
+      "title": "Newsroom",
+      "wordCount": 42,
+      "fingerprint": "3eec08809dd3ea8a"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/about/at-a-glance",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/about/at-a-glance",
+      "title": "Accreditation and Rankings",
+      "wordCount": 199,
+      "fingerprint": "3f4721a746b63731"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/wcla/events",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/wcla/events",
+      "title": "Williams Centre for Learning Advancement Events",
+      "wordCount": 113,
+      "fingerprint": "42155098b6b9c329"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/newsroom?result_4979728_result_page=2",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/newsroom?result_4979728_result_page=2",
+      "title": "Newsroom",
+      "wordCount": 43,
+      "fingerprint": "4308bf2a87630cc0"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/research/lab/behavai?in_c=fbe_home",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/research/lab/behavai?in_c=fbe_home",
+      "title": "BehavAI",
+      "wordCount": 349,
+      "fingerprint": "45d158f74fc6531b"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/research/centres",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/research/centres",
+      "title": "Research locations",
+      "wordCount": 1106,
+      "fingerprint": "45d19f06b711bdbc"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/newsroom?queries_tags_query=student&result_4979728_result_page=4",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/newsroom?queries_tags_query=student&result_4979728_result_page=4",
+      "title": "Newsroom",
+      "wordCount": 57,
+      "fingerprint": "46bc5666d1ed5580"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/economics/study-with-us/specialisations",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/economics/study-with-us/specialisations",
+      "title": "Specialisations",
+      "wordCount": 1078,
+      "fingerprint": "4895af96b10d7a91"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/fbe-main-site/staff/management-and-marketing/human-enhancement-ai-lab/external-members/christian-bien/httpswww.linkedin.cominchristianbienoriginalsubdomainau",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/fbe-main-site/staff/management-and-marketing/human-enhancement-ai-lab/external-members/christian-bien/httpswww.linkedin.cominchristianbienoriginalsubdomainau",
+      "title": "Sign Up | LinkedIn",
+      "wordCount": 81,
+      "fingerprint": "48e10e1553bdb0b3"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/newsroom?result_4979728_result_page=3",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/newsroom?result_4979728_result_page=3",
+      "title": "Newsroom",
+      "wordCount": 79,
+      "fingerprint": "49d1449c1b877f31"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/research/partner-with-us",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/research/partner-with-us",
+      "title": "Partner with us",
+      "wordCount": 276,
+      "fingerprint": "4aedb60ffbf63de4"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/accounting/caip",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/accounting/caip",
+      "title": "Centre for Accounting & Industry Partnerships",
+      "wordCount": 3141,
+      "fingerprint": "4be61c0d0a6faa8b"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/economics/study-with-us/undergraduate-study",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/economics/study-with-us/undergraduate-study",
+      "title": "Undergraduate study",
+      "wordCount": 560,
+      "fingerprint": "4d462e420d6ebdc9"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/newsroom?result_4979728_result_page=8",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/newsroom?result_4979728_result_page=8",
+      "title": "Newsroom",
+      "wordCount": 57,
+      "fingerprint": "4e074ab891affbd3"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/managementmarketing",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/managementmarketing",
+      "title": "Department of Management and Marketing",
+      "wordCount": 649,
+      "fingerprint": "516a3c65dd3f9513"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/accounting/events/past-events",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/accounting/events/past-events",
+      "title": "Department of Accounting past events",
+      "wordCount": 224,
+      "fingerprint": "527b0fdd98a72dfb"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/accounting/faqs",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/accounting/faqs",
+      "title": "FAQs",
+      "wordCount": 1489,
+      "fingerprint": "57059e1e87ed453b"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/finance",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/finance",
+      "title": "Department of Finance",
+      "wordCount": 657,
+      "fingerprint": "576f35ce9a5448bf"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/research/our-research-at-a-glance/fbe-gender-lab",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/research/our-research-at-a-glance/fbe-gender-lab",
+      "title": "FBE Gender Lab: Progressing gender equity in the workplace",
+      "wordCount": 882,
+      "fingerprint": "5e534869ed0c55a2"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/accounting/events/2026/melbourne-accounting-research-seminar-karim-jamal",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/accounting/events/2026/melbourne-accounting-research-seminar-karim-jamal",
+      "title": "Melbourne Accounting Research Seminar - Karim Jamal",
+      "wordCount": 103,
+      "fingerprint": "5eaaa995adc7a83b"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/wcla/programs/brainstorming-and-consultations",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/wcla/programs/brainstorming-and-consultations",
+      "title": "Brainstorming and Consultations",
+      "wordCount": 259,
+      "fingerprint": "5f4e88ab2208e4e7"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/finance/events",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/finance/events",
+      "title": "Events",
+      "wordCount": 186,
+      "fingerprint": "602d8ce333abc266"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/newsroom?queries_tags_query=research&result_4979728_result_page=3",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/newsroom?queries_tags_query=research&result_4979728_result_page=3",
+      "title": "Newsroom",
+      "wordCount": 38,
+      "fingerprint": "60b812b7baf94e98"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/wcla/programs/melbourne-teaching-certificate-mtc-in-fbe",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/wcla/programs/melbourne-teaching-certificate-mtc-in-fbe",
+      "title": "Melbourne Teaching Certificate in FBE (MTC in FBE)",
+      "wordCount": 314,
+      "fingerprint": "62f611c4cb197e88"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/economics/bam",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/economics/bam",
+      "title": "Bayesian Analysis and Modeling Research Group",
+      "wordCount": 432,
+      "fingerprint": "63494f7b21d1e590"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/finance/our-research",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/finance/our-research",
+      "title": "For Researchers: Our research and impact",
+      "wordCount": 259,
+      "fingerprint": "644f7b3e78e2b071"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/research/lab/behavai/news-and-events/rethinking-assessment-in-the-age-of-chatgpt-grounding-artificial-intelligence-through-lacanian-psychoanalysis",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/research/lab/behavai/news-and-events/rethinking-assessment-in-the-age-of-chatgpt-grounding-artificial-intelligence-through-lacanian-psychoanalysis",
+      "title": "Rethinking Assessment in the Age of ChatGPT: Grounding Artificial Intelligence Through Lacanian Psychoanalysis",
+      "wordCount": 612,
+      "fingerprint": "64a54dd34af3991f"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/accounting/events",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/accounting/events",
+      "title": "Department of Accounting Events",
+      "wordCount": 86,
+      "fingerprint": "6581f3d5d3455308"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/about/join-fbe",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/about/join-fbe",
+      "title": "Join FBE",
+      "wordCount": 1432,
+      "fingerprint": "67a327b39fb4927e"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/cmd",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/cmd",
+      "title": "Centre for Market Design",
+      "wordCount": 834,
+      "fingerprint": "6917de4e422389aa"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/fbe-main-site/staff/management-and-marketing/human-enhancement-ai-lab/graduate-researchers/stephanie-kwarie/stephanie-kwarie",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/fbe-main-site/staff/management-and-marketing/human-enhancement-ai-lab/graduate-researchers/stephanie-kwarie/stephanie-kwarie",
+      "title": "Sign Up | LinkedIn",
+      "wordCount": 86,
+      "fingerprint": "6abf50667ba6a517"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/study/phd/research_fees",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/study/phd/research_fees",
+      "title": "Graduate Research Stipend and Fee Remission Scholarships",
+      "wordCount": 1206,
+      "fingerprint": "6d8c7cbd72f2e1e2"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/research/our-research-at-a-glance",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/research/our-research-at-a-glance",
+      "title": "Our research at a glance",
+      "wordCount": 1578,
+      "fingerprint": "6da5d7fb27955206"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/newsroom?queries_tags_query=student&result_4979728_result_page=5",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/newsroom?queries_tags_query=student&result_4979728_result_page=5",
+      "title": "Newsroom",
+      "wordCount": 55,
+      "fingerprint": "6e80e915e89775b1"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/accounting/events/2023/melbourne-accounting-research-seminar-adam-presslee",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/accounting/events/2023/melbourne-accounting-research-seminar-adam-presslee",
+      "title": "Melbourne Accounting Research Seminar - Adam Presslee",
+      "wordCount": 245,
+      "fingerprint": "700b39f68e17458e"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/research/lab/behavai",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/research/lab/behavai",
+      "title": "BehavAI",
+      "wordCount": 349,
+      "fingerprint": "705ed1c968e2bad2"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/accounting/events/2023/melbourne-accounting-research-seminar-kris-allee",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/accounting/events/2023/melbourne-accounting-research-seminar-kris-allee",
+      "title": "Melbourne Accounting Research Seminar - Kris Allee",
+      "wordCount": 231,
+      "fingerprint": "731b8846f7746e18"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/cabe",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/cabe",
+      "title": "Centre for Asian Business and Economics",
+      "wordCount": 1291,
+      "fingerprint": "73280ab32b2abc67"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/faces-of-fbe/students-and-alumni/christian-bien-master-of-entrepreneurship",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/faces-of-fbe/students-and-alumni/christian-bien-master-of-entrepreneurship",
+      "title": "Christian Bien | Master of Entrepreneurship",
+      "wordCount": 20,
+      "fingerprint": "736a32976b732cb1"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/newsroom?queries_tags_query=student&result_4979728_result_page=2",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/newsroom?queries_tags_query=student&result_4979728_result_page=2",
+      "title": "Newsroom",
+      "wordCount": 45,
+      "fingerprint": "7568ae1a97cc2ddf"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/study/phd/fbe-graduate-research-alumni-graduate-placements",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/study/phd/fbe-graduate-research-alumni-graduate-placements",
+      "title": "Alumni & Graduate Placements",
+      "wordCount": 432,
+      "fingerprint": "78789882d9e93031"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/about/vision-mission-values",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/about/vision-mission-values",
+      "title": "Vision, Mission and Values",
+      "wordCount": 265,
+      "fingerprint": "79f4c15d348e2749"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/newsroom?result_4979728_result_page=11",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/newsroom?result_4979728_result_page=11",
+      "title": "Newsroom",
+      "wordCount": 52,
+      "fingerprint": "7e07f14732a8393d"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/accounting/events/2023/melbourne-accounting-research-seminar-peeyush-taori",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/accounting/events/2023/melbourne-accounting-research-seminar-peeyush-taori",
+      "title": "Melbourne Accounting Research Seminar - Peeyush Taori",
+      "wordCount": 239,
+      "fingerprint": "7e2a3cdcdf2b748e"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/newsroom?result_4979728_result_page=10",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/newsroom?result_4979728_result_page=10",
+      "title": "Newsroom",
+      "wordCount": 16,
+      "fingerprint": "83db0eeb0ec2f80b"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/accounting/caip/aahof",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/accounting/caip/aahof",
+      "title": "Hall of Fame",
+      "wordCount": 336,
+      "fingerprint": "85703a47a9b1619d"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/accounting/events/2023/melbourne-accounting-research-seminar-hun-tong-tan",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/accounting/events/2023/melbourne-accounting-research-seminar-hun-tong-tan",
+      "title": "Melbourne Accounting Research Seminar - Hun Tong Tan",
+      "wordCount": 153,
+      "fingerprint": "85937324af5d931b"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/contact",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/contact",
+      "title": "Contact Faculty of Business and Economics",
+      "wordCount": 281,
+      "fingerprint": "85a18aa2200bc3a7"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/newsroom?queries_search_query=economics",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/newsroom?queries_search_query=economics",
+      "title": "Newsroom",
+      "wordCount": 36,
+      "fingerprint": "8625bee83642ba6e"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/cibl",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/cibl",
+      "title": "Dilin Duwa Centre for Indigenous Business Leadership",
+      "wordCount": 252,
+      "fingerprint": "87f414cc49ff826f"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/research/lab/behavai/people",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/research/lab/behavai/people",
+      "title": "People",
+      "wordCount": 215,
+      "fingerprint": "8cf415e9e1ce2450"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/research/lab/behavai/news-and-events/the-ai-eye-llms-vs-human-perception-in-visual-marketing2",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/research/lab/behavai/news-and-events/the-ai-eye-llms-vs-human-perception-in-visual-marketing2",
+      "title": "The AI Eye: LLMs vs Human Perception in Visual Marketing",
+      "wordCount": 209,
+      "fingerprint": "8d1282f020e35743"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/economics/ecotheory",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/economics/ecotheory",
+      "title": "Economic Theory and Experiments Unit",
+      "wordCount": 8056,
+      "fingerprint": "8f07ac2213deb226"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/newsroom?result_4979728_result_page=13",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/newsroom?result_4979728_result_page=13",
+      "title": "Newsroom",
+      "wordCount": 25,
+      "fingerprint": "8f6373b74b60940b"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/newsroom?queries_tags_query=management",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/newsroom?queries_tags_query=management",
+      "title": "Newsroom",
+      "wordCount": 22,
+      "fingerprint": "9090fb032f18e311"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/newsroom/search?queries_section_query=research",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/newsroom/search?queries_section_query=research",
+      "title": "Search the Newsroom",
+      "wordCount": 38,
+      "fingerprint": "947a646f2bdd0119"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/wcla/events/home-page/melbourne-teaching-certificate-in-fbe-mtc-in-fbe",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/wcla/events/home-page/melbourne-teaching-certificate-in-fbe-mtc-in-fbe",
+      "title": "Melbourne Teaching Certificate in FBE (MTC in FBE)",
+      "wordCount": 250,
+      "fingerprint": "94d4d30125960cc2"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/newsroom?result_4979728_result_page=9",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/newsroom?result_4979728_result_page=9",
+      "title": "Newsroom",
+      "wordCount": 46,
+      "fingerprint": "94da9a99f922a42e"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/economics/engage-with-us",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/economics/engage-with-us",
+      "title": "Engage with us",
+      "wordCount": 267,
+      "fingerprint": "95384ce10e21132d"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/managementmarketing/research",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/managementmarketing/research",
+      "title": "Research and impact",
+      "wordCount": 429,
+      "fingerprint": "956fdcaae08cad48"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/research/centres/gender-lab",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/research/centres/gender-lab",
+      "title": "Gender Lab",
+      "wordCount": 65,
+      "fingerprint": "95cc612fd79bb2b6"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/fbe-main-site/staff/management-and-marketing/human-enhancement-ai-lab/academic-members/hafizul-islam/hafizul-islam",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/fbe-main-site/staff/management-and-marketing/human-enhancement-ai-lab/academic-members/hafizul-islam/hafizul-islam",
+      "title": "Hafizul Islam",
+      "wordCount": 99,
+      "fingerprint": "96a0be822e2c54da"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/research/lab",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/research/lab",
+      "title": "FBE Research Labs",
+      "wordCount": 213,
+      "fingerprint": "984edc39a14a4470"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/fbe-main-site/staff/management-and-marketing/human-enhancement-ai-lab/graduate-researchers/zi-lin/zi-lin",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/fbe-main-site/staff/management-and-marketing/human-enhancement-ai-lab/graduate-researchers/zi-lin/zi-lin",
+      "title": "Sign Up | LinkedIn",
+      "wordCount": 81,
+      "fingerprint": "9b5ff0a0f4c14750"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/wcla/resources/blended-and-online-learning",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/wcla/resources/blended-and-online-learning",
+      "title": "Blended and Online Learning",
+      "wordCount": 177,
+      "fingerprint": "9b9ba5ab42810fce"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/fbe-main-site/staff/management-and-marketing/human-enhancement-ai-lab/external-members/taewoo-kim/taewoo-kim",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/fbe-main-site/staff/management-and-marketing/human-enhancement-ai-lab/external-members/taewoo-kim/taewoo-kim",
+      "title": "Sign Up | LinkedIn",
+      "wordCount": 86,
+      "fingerprint": "9d57dce60bb2bf5f"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/faces-of-fbe",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/faces-of-fbe",
+      "title": "Faces of Business and Economics",
+      "wordCount": 282,
+      "fingerprint": "9faf72353eeefd93"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/scholarships",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/scholarships",
+      "title": "Scholarships",
+      "wordCount": 116,
+      "fingerprint": "a117a7dacf813c0b"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/accounting",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/accounting",
+      "title": "Department of Accounting",
+      "wordCount": 672,
+      "fingerprint": "a7a9437a37647ae1"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/about/leadership",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/about/leadership",
+      "title": "Leadership Team",
+      "wordCount": 595,
+      "fingerprint": "a7b12972e3ac1b45"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/fbe-main-site/staff/management-and-marketing/human-enhancement-ai-lab/graduate-researchers/yuting-wang/yuting-wang",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/fbe-main-site/staff/management-and-marketing/human-enhancement-ai-lab/graduate-researchers/yuting-wang/yuting-wang",
+      "title": "Sign Up | LinkedIn",
+      "wordCount": 86,
+      "fingerprint": "a7e3c5048b95b1e0"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/newsroom?queries_tags_query=alumni&result_4979728_result_page=2",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/newsroom?queries_tags_query=alumni&result_4979728_result_page=2",
+      "title": "Newsroom",
+      "wordCount": 76,
+      "fingerprint": "ac092ab6fc967493"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/economics/study-with-us/graduate-coursework",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/economics/study-with-us/graduate-coursework",
+      "title": "Graduate coursework",
+      "wordCount": 425,
+      "fingerprint": "ae5ec4dea5972096"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/newsroom?result_4979728_result_page=1",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/newsroom?result_4979728_result_page=1",
+      "title": "Newsroom",
+      "wordCount": 58,
+      "fingerprint": "affce5bbdd7538dc"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/managementmarketing/study-with-us/undergraduate",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/managementmarketing/study-with-us/undergraduate",
+      "title": "Undergraduate study",
+      "wordCount": 423,
+      "fingerprint": "b10410807db858a8"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/finance/engage-with-us",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/finance/engage-with-us",
+      "title": "For business leaders: Engage with us",
+      "wordCount": 237,
+      "fingerprint": "b13c869cd44093dc"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/newsroom?queries_tags_query=alumni",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/newsroom?queries_tags_query=alumni",
+      "title": "Newsroom",
+      "wordCount": 39,
+      "fingerprint": "b6387e6249629405"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/newsroom?queries_tags_query=research",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/newsroom?queries_tags_query=research",
+      "title": "Newsroom",
+      "wordCount": 37,
+      "fingerprint": "b64e54604a15124b"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/accounting/our-people",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/accounting/our-people",
+      "title": "Department of Accounting | Our people",
+      "wordCount": 87,
+      "fingerprint": "b82a827f6c0b121a"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/newsroom?result_4979728_result_page=5",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/newsroom?result_4979728_result_page=5",
+      "title": "Newsroom",
+      "wordCount": 54,
+      "fingerprint": "b99327e7ed98c765"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/accounting/events/2023/melbourne-accounting-research-seminar-david-brown",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/accounting/events/2023/melbourne-accounting-research-seminar-david-brown",
+      "title": "Melbourne Accounting Research Seminar - David Brown",
+      "wordCount": 207,
+      "fingerprint": "baaee369edeff070"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/newsroom?queries_search_query=accounting",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/newsroom?queries_search_query=accounting",
+      "title": "Newsroom",
+      "wordCount": 41,
+      "fingerprint": "bc22a20bc9d2d901"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/about/our-departments",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/about/our-departments",
+      "title": "Our Departments",
+      "wordCount": 89,
+      "fingerprint": "bddb5d39027df1e1"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/students/bcom/orientation/breadth",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/students/bcom/orientation/breadth",
+      "title": "BCom - Breadth Subjects",
+      "wordCount": 200,
+      "fingerprint": "bff101dd40ee565d"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/accounting/accreditation",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/accounting/accreditation",
+      "title": "Accreditation",
+      "wordCount": 319,
+      "fingerprint": "c0526cabfaa1f883"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/fbe-main-site/staff/management-and-marketing/human-enhancement-ai-lab/external-members/davide-orazi/davide-orazi",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/fbe-main-site/staff/management-and-marketing/human-enhancement-ai-lab/external-members/davide-orazi/davide-orazi",
+      "title": "Sign Up | LinkedIn",
+      "wordCount": 86,
+      "fingerprint": "c10b5d62ef13c69d"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/accounting/about",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/accounting/about",
+      "title": "About accounting",
+      "wordCount": 299,
+      "fingerprint": "c29f7a5da15192a8"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/fbe-main-site/staff/management-and-marketing/human-enhancement-ai-lab/graduate-researchers/amir-hassanzadegan/amir-hassanzadegan",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/fbe-main-site/staff/management-and-marketing/human-enhancement-ai-lab/graduate-researchers/amir-hassanzadegan/amir-hassanzadegan",
+      "title": "Just a moment...",
+      "wordCount": 39,
+      "fingerprint": "c2af5e1a312956e5"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/",
+      "title": "Faculty of Business and Economics | The University of Melbourne",
+      "wordCount": 575,
+      "fingerprint": "c4ebf97738908fc7"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/research/lab/medal",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/research/lab/medal",
+      "title": "Melbourne Environmental Data Analytics Lab (MEDAL)",
+      "wordCount": 531,
+      "fingerprint": "c6054a158e814605"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/events",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/events",
+      "title": "Faculty of Business and Economics Events",
+      "wordCount": 283,
+      "fingerprint": "c6996eacf3c15fb8"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/managementmarketing/engage-with-us",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/managementmarketing/engage-with-us",
+      "title": "Engage with us",
+      "wordCount": 261,
+      "fingerprint": "c81636d74ce4977d"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/accounting/events/2023/cpa-australia-university-of-melbourne-annual-research-lecture",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/accounting/events/2023/cpa-australia-university-of-melbourne-annual-research-lecture",
+      "title": "CPA Australia-University of Melbourne Annual Research Lecture",
+      "wordCount": 588,
+      "fingerprint": "c866dbb0d8ca8699"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/economics/act",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/economics/act",
+      "title": "Centre for Actuarial Studies",
+      "wordCount": 476,
+      "fingerprint": "c87d398622d01df6"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/research/our-research-at-a-glance/fbe-hale-hub",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/research/our-research-at-a-glance/fbe-hale-hub",
+      "title": "FBE HALE Hub",
+      "wordCount": 895,
+      "fingerprint": "c94513cf1ed5345a"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/accounting/events/2023/melbourne-accounting-research-seminar-ivan-marinovic",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/accounting/events/2023/melbourne-accounting-research-seminar-ivan-marinovic",
+      "title": "Melbourne Accounting Research Seminar - Ivan Marinovic",
+      "wordCount": 204,
+      "fingerprint": "c99a0f4f287c85b6"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/accounting/engage-with-us",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/accounting/engage-with-us",
+      "title": "Engage with us",
+      "wordCount": 383,
+      "fingerprint": "c9b327b3bd0d1ac1"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/wcla/events/home-page/designplus-train-and-play",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/wcla/events/home-page/designplus-train-and-play",
+      "title": "DesignPlus Train & Play",
+      "wordCount": 344,
+      "fingerprint": "ca4bc70e4d029ad1"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/economics/research-and-impact",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/economics/research-and-impact",
+      "title": "Research and impact",
+      "wordCount": 471,
+      "fingerprint": "cb2d10f20040d25f"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/research/lab/behavai/news-and-events/multilevel-theorizing-about-impact-of-ai-mindfulness-on-creativity-in-organization-a-sensemaking-perspective2",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/research/lab/behavai/news-and-events/multilevel-theorizing-about-impact-of-ai-mindfulness-on-creativity-in-organization-a-sensemaking-perspective2",
+      "title": "Multilevel Theorizing About Impact of AI Mindfulness on Creativity in Organization: A Sensemaking Perspective",
+      "wordCount": 239,
+      "fingerprint": "ccb816a67aec6608"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/newsroom?result_4979728_result_page=6",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/newsroom?result_4979728_result_page=6",
+      "title": "Newsroom",
+      "wordCount": 44,
+      "fingerprint": "d0423c6bef68d276"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/economics/macrocentre",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/economics/macrocentre",
+      "title": "Macroeconomics Research Unit",
+      "wordCount": 375,
+      "fingerprint": "d2ad74adeecd4b74"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/newsroom/feeling-underqualified-can-be-a-superpower-or-a-potential-trap",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/newsroom/feeling-underqualified-can-be-a-superpower-or-a-potential-trap",
+      "title": "Feeling underqualified can be a superpower (or a potential trap)",
+      "wordCount": 840,
+      "fingerprint": "d52f6cd79df078cd"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/newsroom?queries_tags_query=student&result_4979728_result_page=3",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/newsroom?queries_tags_query=student&result_4979728_result_page=3",
+      "title": "Newsroom",
+      "wordCount": 45,
+      "fingerprint": "d9fe0b7b8a584c9e"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/research/lab/behavai/news-and-events/unlocking-the-potential-of-ai-for-research2",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/research/lab/behavai/news-and-events/unlocking-the-potential-of-ai-for-research2",
+      "title": "Unlocking the Potential of AI for Research",
+      "wordCount": 230,
+      "fingerprint": "db5df4e17a5163eb"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/research/centres/experimental-research-facility",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/research/centres/experimental-research-facility",
+      "title": "Experimental Research Facility",
+      "wordCount": 576,
+      "fingerprint": "db7d1b206375ff83"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/cosm",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/cosm",
+      "title": "Home",
+      "wordCount": 157,
+      "fingerprint": "dc98c00cabcd8e4b"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/research/lab/behavai/our-activities-and-output",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/research/lab/behavai/our-activities-and-output",
+      "title": "Our Research and Impact",
+      "wordCount": 477,
+      "fingerprint": "df7e4db516ca5e51"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/finance/our-people",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/finance/our-people",
+      "title": "Department of Finance | Our people",
+      "wordCount": 87,
+      "fingerprint": "dfa2a2af909e8452"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/managementmarketing/our-people",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/managementmarketing/our-people",
+      "title": "Our People",
+      "wordCount": 101,
+      "fingerprint": "e146f6e1d9221434"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/finance/accreditation",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/finance/accreditation",
+      "title": "Accreditation",
+      "wordCount": 311,
+      "fingerprint": "e3c7c21f2a2acc47"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/managementmarketing/study-with-us/graduate-research",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/managementmarketing/study-with-us/graduate-research",
+      "title": "Doctoral Programs",
+      "wordCount": 253,
+      "fingerprint": "e5432cabeab2b6bb"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/research/lab/behavai/news-and-events/ai-washing-the-asymmetric-effects-of-its-two-types-on-consumer-perceptions2",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/research/lab/behavai/news-and-events/ai-washing-the-asymmetric-effects-of-its-two-types-on-consumer-perceptions2",
+      "title": "AI-washing: The Asymmetric Effects of Its Two Types on Consumer Perceptions",
+      "wordCount": 210,
+      "fingerprint": "e85693a56e37a6e9"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/research",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/research",
+      "title": "Research",
+      "wordCount": 682,
+      "fingerprint": "e8ced0afbacb3243"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/economics",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/economics",
+      "title": "Department of Economics",
+      "wordCount": 636,
+      "fingerprint": "e922dc71a03c41eb"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/research/lab/behavai/news-and-events/zero-sum-mindsets-explain-aversion-to-new-technology2",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/research/lab/behavai/news-and-events/zero-sum-mindsets-explain-aversion-to-new-technology2",
+      "title": "Zero-Sum Mindsets Explain Aversion to New Technology",
+      "wordCount": 328,
+      "fingerprint": "ebc4c02d55826411"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/engage/partnerships",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/engage/partnerships",
+      "title": "Industry Partnerships",
+      "wordCount": 777,
+      "fingerprint": "ed50fdf1560220be"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/finance/study/undergraduate",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/finance/study/undergraduate",
+      "title": "Undergraduate study",
+      "wordCount": 707,
+      "fingerprint": "efe564ff9d2b7915"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/wcla/events/home-page/navigating-the-academic-journey-careers,-challenges,-and-growth-for-education-focused-academics",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/wcla/events/home-page/navigating-the-academic-journey-careers,-challenges,-and-growth-for-education-focused-academics",
+      "title": "Navigating the Academic Journey: Careers, Challenges, and Growth for Education-Focused Academics",
+      "wordCount": 366,
+      "fingerprint": "f0e830f32c961118"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/finance/study/graduate-coursework",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/finance/study/graduate-coursework",
+      "title": "Graduate coursework",
+      "wordCount": 426,
+      "fingerprint": "f55b04eaf79b2b39"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/economics/economics-experiments",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/economics/economics-experiments",
+      "title": "Experimental Economics Laboratory",
+      "wordCount": 2590,
+      "fingerprint": "f889e03650601949"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/study/phd/message-from-the-assistant-dean",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/study/phd/message-from-the-assistant-dean",
+      "title": "Message from the Assistant Dean",
+      "wordCount": 445,
+      "fingerprint": "f9b9143ac8dbe6fe"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/wcla/home-page/teaching-and-learning-development-grants",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/wcla/home-page/teaching-and-learning-development-grants",
+      "title": "Teaching and Learning Development Grants",
+      "wordCount": 175,
+      "fingerprint": "fae70b073208f78c"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/newsroom",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/newsroom",
+      "title": "Newsroom",
+      "wordCount": 58,
+      "fingerprint": "fce7382fe60b3369"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/study/commerce-as-breadth",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/study/commerce-as-breadth",
+      "title": "Commerce as Breadth",
+      "wordCount": 551,
+      "fingerprint": "fe830f18c533bbc5"
+    },
+    {
+      "url": "https://fbe.unimelb.edu.au/economics/our-people",
+      "normalizedUrl": "https://fbe.unimelb.edu.au/economics/our-people",
+      "title": "Our people",
+      "wordCount": 95,
+      "fingerprint": "febb8fcb173905e0"
+    }
+  ]
+}

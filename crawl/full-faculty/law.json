@@ -1,0 +1,1869 @@
+{
+  "domain": "law.unimelb.edu.au",
+  "slug": "law",
+  "pages_crawled": 266,
+  "pages": [
+    {
+      "url": "https://law.unimelb.edu.au/news/iljh/read-the-hubs-december-newsletter",
+      "normalizedUrl": "https://law.unimelb.edu.au/news/iljh/read-the-hubs-december-newsletter",
+      "title": "Read the Hub's December Newsletter",
+      "wordCount": 10,
+      "fingerprint": "00afa20c0096c34f"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/2023-baxt-lecture-02.11.23",
+      "normalizedUrl": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/2023-baxt-lecture-02.11.23",
+      "title": "2023 Baxt Lecture - 02.11.23",
+      "wordCount": 422,
+      "fingerprint": "0106842512ff9e0e"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/news/MLS/strengthening-ties-in-the-northern-territory-the-hub",
+      "normalizedUrl": "https://law.unimelb.edu.au/news/MLS/strengthening-ties-in-the-northern-territory-the-hub",
+      "title": "The Hub: Strengthening ties in Northern Territory:",
+      "wordCount": 863,
+      "fingerprint": "0158a510642ff46c"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/centres/mcle",
+      "normalizedUrl": "https://law.unimelb.edu.au/centres/mcle",
+      "title": "Melbourne Centre for Law and the Environment",
+      "wordCount": 3626,
+      "fingerprint": "0362b278590962ee"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/2023-peter-brett-memorial-lecture-17.08.23",
+      "normalizedUrl": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/2023-peter-brett-memorial-lecture-17.08.23",
+      "title": "2023 Peter Brett Memorial Lecture - 17.08.23",
+      "wordCount": 512,
+      "fingerprint": "03c763a3b59757aa"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/centres/cilis",
+      "normalizedUrl": "https://law.unimelb.edu.au/centres/cilis",
+      "title": "Centre for Indonesian Law, Islam and Society",
+      "wordCount": 1537,
+      "fingerprint": "04e9067445548fbd"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/iljh/study/grd-indigenous",
+      "normalizedUrl": "https://law.unimelb.edu.au/iljh/study/grd-indigenous",
+      "title": "Indigenous Students and Graduate Research Degrees",
+      "wordCount": 479,
+      "fingerprint": "0500db40c8540646"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/study/masters/specialist-legal-areas/international-economic-law",
+      "normalizedUrl": "https://law.unimelb.edu.au/study/masters/specialist-legal-areas/international-economic-law",
+      "title": "International Economic Law",
+      "wordCount": 326,
+      "fingerprint": "064c918bfe07c3fa"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/law-library/research-tools/legal-abbreviations",
+      "normalizedUrl": "https://law.unimelb.edu.au/law-library/research-tools/legal-abbreviations",
+      "title": "Legal Abbreviations",
+      "wordCount": 369,
+      "fingerprint": "06ad8fc6c761616a"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/news/iljh/statement-victoria-police-are-failing-their-duty-of-care-to-aboriginal-people-in-their-custody.",
+      "normalizedUrl": "https://law.unimelb.edu.au/news/iljh/statement-victoria-police-are-failing-their-duty-of-care-to-aboriginal-people-in-their-custody.",
+      "title": "Statement: Victoria Police are failing their duty of care to Aboriginal people in their custody.",
+      "wordCount": 1281,
+      "fingerprint": "075a3a2c1704af58"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/2023-flos-greig-lecture-in-law",
+      "normalizedUrl": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/2023-flos-greig-lecture-in-law",
+      "title": "2023 Flos Greig Lecture in Law - 02.08.23",
+      "wordCount": 365,
+      "fingerprint": "086984682d667544"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/news/alc/ep.2-of-asian-law-voices-is-out",
+      "normalizedUrl": "https://law.unimelb.edu.au/news/alc/ep.2-of-asian-law-voices-is-out",
+      "title": "Episode 2 of Asian Law Voices is out",
+      "wordCount": 211,
+      "fingerprint": "08e10d39bb896c4f"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/study/masters/specialist-legal-areas/environmental-law",
+      "normalizedUrl": "https://law.unimelb.edu.au/study/masters/specialist-legal-areas/environmental-law",
+      "title": "Environmental Law",
+      "wordCount": 308,
+      "fingerprint": "0a1f5885984d281d"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/news/MLS/thorough-investigation-must-take-place-when-victims-of-domestic-violence-die-by-suicide-new-research",
+      "normalizedUrl": "https://law.unimelb.edu.au/news/MLS/thorough-investigation-must-take-place-when-victims-of-domestic-violence-die-by-suicide-new-research",
+      "title": "Thorough investigation must take place when victims of domestic violence die by suicide: new research",
+      "wordCount": 528,
+      "fingerprint": "0a99f757a0158dc2"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/study/masters/specialist-legal-areas/digital-law-and-technological-innovation",
+      "normalizedUrl": "https://law.unimelb.edu.au/study/masters/specialist-legal-areas/digital-law-and-technological-innovation",
+      "title": "Digital Law and Technological Innovation",
+      "wordCount": 460,
+      "fingerprint": "0ab8c03ff28fb114"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/centres/iilah",
+      "normalizedUrl": "https://law.unimelb.edu.au/centres/iilah",
+      "title": "Institute for International Law and the Humanities",
+      "wordCount": 1099,
+      "fingerprint": "0ac018edfe2f1ea0"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/news/iljh/a-call-for-action-reckoning-and-reimagining-communique",
+      "normalizedUrl": "https://law.unimelb.edu.au/news/iljh/a-call-for-action-reckoning-and-reimagining-communique",
+      "title": "A Call For Action: Reckoning and Reimagining Communiqu\u00e9",
+      "wordCount": 364,
+      "fingerprint": "0cadfa41a4b47ae7"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/iljh/teaching",
+      "normalizedUrl": "https://law.unimelb.edu.au/iljh/teaching",
+      "title": "Teaching",
+      "wordCount": 992,
+      "fingerprint": "0e828f1aecd9c65a"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/study/masters/teachers/aus-visiting",
+      "normalizedUrl": "https://law.unimelb.edu.au/study/masters/teachers/aus-visiting",
+      "title": "Australian visiting teachers",
+      "wordCount": 1279,
+      "fingerprint": "0f39784e00fe1607"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/news/iljh/providing-an-indigenous-lens-to-legal-education",
+      "normalizedUrl": "https://law.unimelb.edu.au/news/iljh/providing-an-indigenous-lens-to-legal-education",
+      "title": "Book Launch: Legal Education Through an Indigenous Lens",
+      "wordCount": 124,
+      "fingerprint": "0f3cb3dfb3618f31"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/centres/mccl/news-and-events/past-events/past-events-2026/fiduciary-duty-and-corporate-externalities-rethinking-directors-climate-obligations",
+      "normalizedUrl": "https://law.unimelb.edu.au/centres/mccl/news-and-events/past-events/past-events-2026/fiduciary-duty-and-corporate-externalities-rethinking-directors-climate-obligations",
+      "title": "Fiduciary Duty and Corporate Externalities: Rethinking Directors\u2019 Climate Obligations",
+      "wordCount": 356,
+      "fingerprint": "0f8e94ad4c62f49a"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/rare-books-lecture-2022-02.03.2022",
+      "normalizedUrl": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/rare-books-lecture-2022-02.03.2022",
+      "title": "Rare Books Lecture 2022 - 02.03.2022",
+      "wordCount": 292,
+      "fingerprint": "11398012f8b0f32a"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/reimagining-the-relationship-and-reshaping-our-institutions-05.04.22",
+      "normalizedUrl": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/reimagining-the-relationship-and-reshaping-our-institutions-05.04.22",
+      "title": "Reimagining the Relationship and Reshaping Our Institutions - 05.04.22",
+      "wordCount": 279,
+      "fingerprint": "1141f91875b181a5"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/constitutional-government-during-a-pandemic-webinar-07.05.20",
+      "normalizedUrl": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/constitutional-government-during-a-pandemic-webinar-07.05.20",
+      "title": "Constitutional Government during a Pandemic Webinar - 07.05.20",
+      "wordCount": 147,
+      "fingerprint": "13c7766bd057239d"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/2024-alan-southey-memorial-lecture-27.03.24",
+      "normalizedUrl": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/2024-alan-southey-memorial-lecture-27.03.24",
+      "title": "2024 Allen Hope Southey Memorial Lecture - 27.03.24",
+      "wordCount": 552,
+      "fingerprint": "15d84fa2e17b54a3"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/law-library/collections/collection-development-policy",
+      "normalizedUrl": "https://law.unimelb.edu.au/law-library/collections/collection-development-policy",
+      "title": "Collection Development Policy",
+      "wordCount": 136,
+      "fingerprint": "16d240360b361540"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/2024-rare-books-lecture",
+      "normalizedUrl": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/2024-rare-books-lecture",
+      "title": "2024 Rare Books Lecture - 24.07.2024",
+      "wordCount": 313,
+      "fingerprint": "17189a5a2e2cdbab"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/iljh/about",
+      "normalizedUrl": "https://law.unimelb.edu.au/iljh/about",
+      "title": "About Us",
+      "wordCount": 5646,
+      "fingerprint": "1a4c51a45466bab3"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/company-and-securities-law-journal-webinar-launch",
+      "normalizedUrl": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/company-and-securities-law-journal-webinar-launch",
+      "title": "Company and Securities Law Journal Webinar Launch - 20.07.2021",
+      "wordCount": 218,
+      "fingerprint": "1a4d055578085039"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/james-merralls-visiting-fellowship-in-law-lecture-30.06.2021",
+      "normalizedUrl": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/james-merralls-visiting-fellowship-in-law-lecture-30.06.2021",
+      "title": "James Merralls Visiting Fellowship in Law Lecture - 30.06.2021",
+      "wordCount": 858,
+      "fingerprint": "1a82a52205aa97f2"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/faces-of-mls/students/azzaya-enkhjargal-master-of-laws-llm",
+      "normalizedUrl": "https://law.unimelb.edu.au/faces-of-mls/students/azzaya-enkhjargal-master-of-laws-llm",
+      "title": "Azzaya Enkhjargal | Master of Laws (LLM)",
+      "wordCount": 30,
+      "fingerprint": "1ae8eab75abc349d"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/iljh/resources/treaty",
+      "normalizedUrl": "https://law.unimelb.edu.au/iljh/resources/treaty",
+      "title": "Treaty",
+      "wordCount": 3694,
+      "fingerprint": "1b68187da6be90b0"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/research-programs",
+      "normalizedUrl": "https://law.unimelb.edu.au/research-programs",
+      "title": "Research Programs | Law School | University of Melbourne",
+      "wordCount": 515,
+      "fingerprint": "1cbbb8e845aef9d5"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/2024-sir-george-turner-lecture-13.08.2024",
+      "normalizedUrl": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/2024-sir-george-turner-lecture-13.08.2024",
+      "title": "2024 Sir George Turner Lecture - 13.08.2024",
+      "wordCount": 488,
+      "fingerprint": "1dd81f62edd04bb2"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/study/masters/specialist-legal-areas/construction-law2",
+      "normalizedUrl": "https://law.unimelb.edu.au/study/masters/specialist-legal-areas/construction-law2",
+      "title": "Construction Law",
+      "wordCount": 900,
+      "fingerprint": "1ddcc1814cf043e9"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/news/alc/podcast-series-asian-law-voices",
+      "normalizedUrl": "https://law.unimelb.edu.au/news/alc/podcast-series-asian-law-voices",
+      "title": "ALC and CILIS Launch 'Asian Law Voices' Podcast",
+      "wordCount": 162,
+      "fingerprint": "1e2747afa958982b"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/faces-of-mls/students/fatima-sison-juris-doctor",
+      "normalizedUrl": "https://law.unimelb.edu.au/faces-of-mls/students/fatima-sison-juris-doctor",
+      "title": "Fatima Sison | Juris Doctor",
+      "wordCount": 22,
+      "fingerprint": "1e7111635ce288cc"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/research/laws-impact/our-impact-stories/demystifying-responsible-and-safe-artifical-intelligence",
+      "normalizedUrl": "https://law.unimelb.edu.au/research/laws-impact/our-impact-stories/demystifying-responsible-and-safe-artifical-intelligence",
+      "title": "Demystifying responsible and safe artifical intelligence",
+      "wordCount": 502,
+      "fingerprint": "1f37638d6cf9a1a4"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/news/iljh/statement-from-the-racial-justice-centre-on-the-bondi-attacks",
+      "normalizedUrl": "https://law.unimelb.edu.au/news/iljh/statement-from-the-racial-justice-centre-on-the-bondi-attacks",
+      "title": "Statement: Bondi attacks",
+      "wordCount": 243,
+      "fingerprint": "1fa8c734ada0cd8f"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/2022-peter-brett-memorial-lecture",
+      "normalizedUrl": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/2022-peter-brett-memorial-lecture",
+      "title": "2022 Peter Brett Memorial Lecture - 6.10.2022",
+      "wordCount": 469,
+      "fingerprint": "20837fdc81aced3e"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/news/cilis/ibrahim-sjarief-assegaf-fellowships",
+      "normalizedUrl": "https://law.unimelb.edu.au/news/cilis/ibrahim-sjarief-assegaf-fellowships",
+      "title": "Ibrahim Sjarief Assegaf Fellowships",
+      "wordCount": 192,
+      "fingerprint": "209b6cc2028d2412"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/2024-sir-kenneth-bailey-memorial-lecture-19.09.24",
+      "normalizedUrl": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/2024-sir-kenneth-bailey-memorial-lecture-19.09.24",
+      "title": "2024 Sir Kenneth Bailey Memorial Lecture - 19.09.24",
+      "wordCount": 548,
+      "fingerprint": "20fc2bda838ad841"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/towards-a-reconciled-australia-webinar-03.06.20",
+      "normalizedUrl": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/towards-a-reconciled-australia-webinar-03.06.20",
+      "title": "Towards a Reconciled Australia Webinar - 03.06.20",
+      "wordCount": 135,
+      "fingerprint": "21242fd6bb70b799"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/news/MLS/historical-moment-first-peoples-assembly-ready-for-treaty",
+      "normalizedUrl": "https://law.unimelb.edu.au/news/MLS/historical-moment-first-peoples-assembly-ready-for-treaty",
+      "title": "'Historical moment': First Peoples' Assembly ready for treaty",
+      "wordCount": 832,
+      "fingerprint": "228aca8f493979f6"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/about/at-a-glance/global-outlook",
+      "normalizedUrl": "https://law.unimelb.edu.au/about/at-a-glance/global-outlook",
+      "title": "Global Outlook",
+      "wordCount": 422,
+      "fingerprint": "242eb23fb45edf74"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/2024-caldwell-lecture-09.04.24",
+      "normalizedUrl": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/2024-caldwell-lecture-09.04.24",
+      "title": "2024 Caldwell Lecture - 09.04.24",
+      "wordCount": 402,
+      "fingerprint": "25d49b2e7064d614"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/2025-sir-george-turner-lecture-05082025",
+      "normalizedUrl": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/2025-sir-george-turner-lecture-05082025",
+      "title": "2025 Sir George Turner Lecture - 05/08/2025",
+      "wordCount": 424,
+      "fingerprint": "26de343a1346f314"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/2023-seabrook-chambers-lecture-23.10.23",
+      "normalizedUrl": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/2023-seabrook-chambers-lecture-23.10.23",
+      "title": "2023 Seabrook Chambers Lecture - 23.10.23",
+      "wordCount": 390,
+      "fingerprint": "296ed89eaf61ecd6"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/research/for-researchers",
+      "normalizedUrl": "https://law.unimelb.edu.au/research/for-researchers",
+      "title": "Information for Researchers",
+      "wordCount": 241,
+      "fingerprint": "2a50aca1b6485a29"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/miegunyah-distinguished-visiting-fellow-public-lecture-1.09.2022",
+      "normalizedUrl": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/miegunyah-distinguished-visiting-fellow-public-lecture-1.09.2022",
+      "title": "Miegunyah Distinguished Visiting Fellow Public Lecture - 1.09.2022",
+      "wordCount": 822,
+      "fingerprint": "2bd0b4aa07c21741"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/flos-greig-lecture-18.09.2025",
+      "normalizedUrl": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/flos-greig-lecture-18.09.2025",
+      "title": "Flos Greig Lecture - 18.09.2025",
+      "wordCount": 477,
+      "fingerprint": "2fea60c979e7550f"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/news?result_4982708_result_page=4",
+      "normalizedUrl": "https://law.unimelb.edu.au/news?result_4982708_result_page=4",
+      "title": "News | Melbourne Law School | The University of Melbourne",
+      "wordCount": 31,
+      "fingerprint": "300bdbaed644d2a7"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/law-library/research-tools/deep-linking-information",
+      "normalizedUrl": "https://law.unimelb.edu.au/law-library/research-tools/deep-linking-information",
+      "title": "Deep Linking Information",
+      "wordCount": 676,
+      "fingerprint": "30578d27e77b55f0"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/2023-james-merralls-visiting-fellowship-in-law-lecture-22.11.23",
+      "normalizedUrl": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/2023-james-merralls-visiting-fellowship-in-law-lecture-22.11.23",
+      "title": "2023 James Merralls Visiting Fellowship in Law Lecture - 22.11.23",
+      "wordCount": 559,
+      "fingerprint": "3097bcafbba97c18"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/leading-through-crisis-webinar-12.05.20",
+      "normalizedUrl": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/leading-through-crisis-webinar-12.05.20",
+      "title": "Leading through crisis webinar - 12.05.20",
+      "wordCount": 198,
+      "fingerprint": "30a9ed70239b718a"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/2023-francis-gurry-lecture-on-intellectual-property-28.11.23",
+      "normalizedUrl": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/2023-francis-gurry-lecture-on-intellectual-property-28.11.23",
+      "title": "2023 Francis Gurry Lecture on Intellectual Property - 28.11.23",
+      "wordCount": 438,
+      "fingerprint": "32aca05b1a10ee35"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/alumni",
+      "normalizedUrl": "https://law.unimelb.edu.au/alumni",
+      "title": "Alumni and Giving",
+      "wordCount": 253,
+      "fingerprint": "36311baac3d8e0da"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/news?result_4982708_result_page=5",
+      "normalizedUrl": "https://law.unimelb.edu.au/news?result_4982708_result_page=5",
+      "title": "News | Melbourne Law School | The University of Melbourne",
+      "wordCount": 41,
+      "fingerprint": "380212ec8182c8c8"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/news?result_4982708_result_page=2",
+      "normalizedUrl": "https://law.unimelb.edu.au/news?result_4982708_result_page=2",
+      "title": "News | Melbourne Law School | The University of Melbourne",
+      "wordCount": 37,
+      "fingerprint": "38f924a270dbd4c2"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/news/iljh/hub-april-newsletter-read-here",
+      "normalizedUrl": "https://law.unimelb.edu.au/news/iljh/hub-april-newsletter-read-here",
+      "title": "Read the Hub's April Newsletter",
+      "wordCount": 22,
+      "fingerprint": "395900314e8fedc7"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/news/alc/alccilis-reading-group-semester-12026",
+      "normalizedUrl": "https://law.unimelb.edu.au/news/alc/alccilis-reading-group-semester-12026",
+      "title": "ALC/CILIS Reading Group Semester 1/2026: Creative Approaches to Asian Law",
+      "wordCount": 275,
+      "fingerprint": "396579b56183974d"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/study/masters/specialist-legal-areas/energy-and-resources-law",
+      "normalizedUrl": "https://law.unimelb.edu.au/study/masters/specialist-legal-areas/energy-and-resources-law",
+      "title": "Energy and Resources Law",
+      "wordCount": 322,
+      "fingerprint": "39f8708113bb0721"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/study/masters/specialist-legal-areas/international-tax",
+      "normalizedUrl": "https://law.unimelb.edu.au/study/masters/specialist-legal-areas/international-tax",
+      "title": "International Tax",
+      "wordCount": 328,
+      "fingerprint": "3a3e4d83658353ec"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/news/iljh/the-first-peoples-assembly-of-victoria-elections-are-underway-its-important-you-have-your-say",
+      "normalizedUrl": "https://law.unimelb.edu.au/news/iljh/the-first-peoples-assembly-of-victoria-elections-are-underway-its-important-you-have-your-say",
+      "title": "The First Peoples Assembly of Victoria Elections Are Underway - It\u2019s Important You Have Your Say",
+      "wordCount": 322,
+      "fingerprint": "3a519f414d655922"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/news/alc/the-latest-issue-volume-27-number-1-of-the-australian-journal-of-asian-law-is-now-available-on-line",
+      "normalizedUrl": "https://law.unimelb.edu.au/news/alc/the-latest-issue-volume-27-number-1-of-the-australian-journal-of-asian-law-is-now-available-on-line",
+      "title": "The latest issue of the Australian Journal of Asian Law is now available on-line",
+      "wordCount": 231,
+      "fingerprint": "3a5c13967666d6a4"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/law-library/services/recommend-a-purchase",
+      "normalizedUrl": "https://law.unimelb.edu.au/law-library/services/recommend-a-purchase",
+      "title": "Recommend a Purchase",
+      "wordCount": 198,
+      "fingerprint": "3b74dab1b420529c"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/news/iljh/read-the-hubs-october-newsletter",
+      "normalizedUrl": "https://law.unimelb.edu.au/news/iljh/read-the-hubs-october-newsletter",
+      "title": "Read the Hub's October Newsletter",
+      "wordCount": 10,
+      "fingerprint": "3bb3a6edf3eaab7a"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/news/adms/landmark-privacy-determination-puts-rent-tech-platforms-on-notice.-but-renters-remain-vulnerable",
+      "normalizedUrl": "https://law.unimelb.edu.au/news/adms/landmark-privacy-determination-puts-rent-tech-platforms-on-notice.-but-renters-remain-vulnerable",
+      "title": "Landmark privacy determination puts rent tech platforms on notice. But renters remain vulnerable",
+      "wordCount": 70,
+      "fingerprint": "3bf8bfdb138ecfca"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/centres/cccs/events/2026-events/democracy-in-decline-are-our-constitutional-protections-enough",
+      "normalizedUrl": "https://law.unimelb.edu.au/centres/cccs/events/2026-events/democracy-in-decline-are-our-constitutional-protections-enough",
+      "title": "Democracy in Decline: Are our constitutional protections enough",
+      "wordCount": 368,
+      "fingerprint": "3c19a015a4140ad6"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/students/masters",
+      "normalizedUrl": "https://law.unimelb.edu.au/students/masters",
+      "title": "MLM Students",
+      "wordCount": 817,
+      "fingerprint": "3d6d3191480a576b"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/news/iljh/the-hub-stands-against-harmful-youth-justice-reforms",
+      "normalizedUrl": "https://law.unimelb.edu.au/news/iljh/the-hub-stands-against-harmful-youth-justice-reforms",
+      "title": "The Hub Stands Against Harmful Youth Justice Reforms",
+      "wordCount": 262,
+      "fingerprint": "3d8105808f3489d2"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/iljh/research/recent-publications/submissions",
+      "normalizedUrl": "https://law.unimelb.edu.au/iljh/research/recent-publications/submissions",
+      "title": "Submissions",
+      "wordCount": 317,
+      "fingerprint": "3eb71b13e7f6e9ce"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/iljh/study/student-support",
+      "normalizedUrl": "https://law.unimelb.edu.au/iljh/study/student-support",
+      "title": "Student support",
+      "wordCount": 204,
+      "fingerprint": "40d4e8867e359d48"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/melbourne-centre-for-commercial-law-launch-28.11.2022",
+      "normalizedUrl": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/melbourne-centre-for-commercial-law-launch-28.11.2022",
+      "title": "Melbourne Centre for Commercial Law launch - 28.11.2022",
+      "wordCount": 438,
+      "fingerprint": "4110e50c5bacbc3f"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/study/masters/specialist-legal-areas/dispute-resolution",
+      "normalizedUrl": "https://law.unimelb.edu.au/study/masters/specialist-legal-areas/dispute-resolution",
+      "title": "Dispute Resolution",
+      "wordCount": 275,
+      "fingerprint": "4183fdb378f43f1e"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/2022-seabrook-chambers-lecture-13.10.22",
+      "normalizedUrl": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/2022-seabrook-chambers-lecture-13.10.22",
+      "title": "2022 Seabrook Chambers Public Lecture - 13.10.22",
+      "wordCount": 315,
+      "fingerprint": "444fd82e10d05e06"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/law-library/collections/rare-books-collection",
+      "normalizedUrl": "https://law.unimelb.edu.au/law-library/collections/rare-books-collection",
+      "title": "Rare Books Collection",
+      "wordCount": 410,
+      "fingerprint": "45b04f223c27bfac"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/2022-baxt-lecture-25.10.22",
+      "normalizedUrl": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/2022-baxt-lecture-25.10.22",
+      "title": "2022 Baxt Lecture - 25.10.22",
+      "wordCount": 388,
+      "fingerprint": "45db8f2d6e9b0358"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/2023-sir-george-turner-lecture",
+      "normalizedUrl": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/2023-sir-george-turner-lecture",
+      "title": "2023 Sir George Turner Lecture - 09.10.23",
+      "wordCount": 502,
+      "fingerprint": "45dc87f6861ee401"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/news/iljh/a-historic-apology-in-victoria",
+      "normalizedUrl": "https://law.unimelb.edu.au/news/iljh/a-historic-apology-in-victoria",
+      "title": "A Historic Apology in Victoria",
+      "wordCount": 639,
+      "fingerprint": "480aecc0653e9c0d"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/2021-francis-gurry-on-intellectual-property-20.10.2021",
+      "normalizedUrl": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/2021-francis-gurry-on-intellectual-property-20.10.2021",
+      "title": "2021 Francis Gurry Lecture on Intellectual Property - 20.10.2021",
+      "wordCount": 310,
+      "fingerprint": "4a17266557a56aae"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/about/mls-video-gallery",
+      "normalizedUrl": "https://law.unimelb.edu.au/about/mls-video-gallery",
+      "title": "MLS Video Gallery",
+      "wordCount": 5024,
+      "fingerprint": "4b01fa64055192ed"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/news/iljh/hub-awarded-a-citation-for-outstanding-contribution-to-learning-for-travelling-subject",
+      "normalizedUrl": "https://law.unimelb.edu.au/news/iljh/hub-awarded-a-citation-for-outstanding-contribution-to-learning-for-travelling-subject",
+      "title": "Hub awarded a Citation for Outstanding Contribution to Learning for travelling subject",
+      "wordCount": 235,
+      "fingerprint": "4b7d64baa0796ce7"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/research",
+      "normalizedUrl": "https://law.unimelb.edu.au/research",
+      "title": "Research",
+      "wordCount": 1184,
+      "fingerprint": "4b84bfdb3a261311"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/study/masters/specialist-legal-areas/private-law",
+      "normalizedUrl": "https://law.unimelb.edu.au/study/masters/specialist-legal-areas/private-law",
+      "title": "Private Law",
+      "wordCount": 242,
+      "fingerprint": "4cdd1336332a0256"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/law-library/research-skills",
+      "normalizedUrl": "https://law.unimelb.edu.au/law-library/research-skills",
+      "title": "Research Skills",
+      "wordCount": 254,
+      "fingerprint": "4da404b20327d98a"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/research/laws-impact/our-impact-stories",
+      "normalizedUrl": "https://law.unimelb.edu.au/research/laws-impact/our-impact-stories",
+      "title": "Our Impact Stories",
+      "wordCount": 327,
+      "fingerprint": "4efd742be29d4484"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/labour-law-enforcement-and-covid-19-webinar-14.05.20",
+      "normalizedUrl": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/labour-law-enforcement-and-covid-19-webinar-14.05.20",
+      "title": "Labour Law Enforcement and Covid-19 Webinar - 14.05.20",
+      "wordCount": 171,
+      "fingerprint": "4fc9de0a6baa0f00"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/events",
+      "normalizedUrl": "https://law.unimelb.edu.au/events",
+      "title": "Events | Melbourne Law School | University of Melbourne",
+      "wordCount": 515,
+      "fingerprint": "507033d96be8d68f"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/study/masters/subjects/overview-subjects/australian-legal-process-and-legal-institutions",
+      "normalizedUrl": "https://law.unimelb.edu.au/study/masters/subjects/overview-subjects/australian-legal-process-and-legal-institutions",
+      "title": "Australian Legal Process and Legal Institutions",
+      "wordCount": 668,
+      "fingerprint": "50de26097a76212b"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/students/admission-to-practice",
+      "normalizedUrl": "https://law.unimelb.edu.au/students/admission-to-practice",
+      "title": "Admission to Practice",
+      "wordCount": 473,
+      "fingerprint": "5276bb92342705a9"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/news/iljh/a-day-of-peace-making,-of-law-making,-of-healing-and-reconciling-statewide-treaty-bill-introduced-to-victorian-parliamentnd-reconciling",
+      "normalizedUrl": "https://law.unimelb.edu.au/news/iljh/a-day-of-peace-making,-of-law-making,-of-healing-and-reconciling-statewide-treaty-bill-introduced-to-victorian-parliamentnd-reconciling",
+      "title": "A day of peace making, of law making, of healing and reconciling: Statewide Treaty Bill Introduced to Victorian Parliament",
+      "wordCount": 457,
+      "fingerprint": "536ef04f7dea80f7"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/news/MLS/university-of-melbourne-ranks-among-worlds-best-for-subject-of-law",
+      "normalizedUrl": "https://law.unimelb.edu.au/news/MLS/university-of-melbourne-ranks-among-worlds-best-for-subject-of-law",
+      "title": "University of Melbourne Ranks Among World\u2019s Best for Subject of Law",
+      "wordCount": 473,
+      "fingerprint": "53b1c19ddfeb3e65"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/2025-allen-hope-southey-memorial-lecture-25.03.25",
+      "normalizedUrl": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/2025-allen-hope-southey-memorial-lecture-25.03.25",
+      "title": "2025 Allen Hope Southey Memorial Lecture - 25.03.25",
+      "wordCount": 485,
+      "fingerprint": "56a9f02234cd3616"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/iljh",
+      "normalizedUrl": "https://law.unimelb.edu.au/iljh",
+      "title": "Indigenous Law and Justice Hub",
+      "wordCount": 2863,
+      "fingerprint": "56e7a91678da4f3a"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/2021-baxt-lecture-16.11.2021",
+      "normalizedUrl": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/2021-baxt-lecture-16.11.2021",
+      "title": "2021 Baxt Lecture - 16.11.2021",
+      "wordCount": 326,
+      "fingerprint": "57309fd088eee60c"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/iljh/resources/videos",
+      "normalizedUrl": "https://law.unimelb.edu.au/iljh/resources/videos",
+      "title": "Videos",
+      "wordCount": 560,
+      "fingerprint": "58136428a64ad888"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/jim-carlton-integrity-lecture-2022-29.04.2022",
+      "normalizedUrl": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/jim-carlton-integrity-lecture-2022-29.04.2022",
+      "title": "Jim Carlton Integrity Lecture 2022 - 29.04.2022",
+      "wordCount": 452,
+      "fingerprint": "589d42ccd6374dba"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/iljh/naarm-law-students-on-voice",
+      "normalizedUrl": "https://law.unimelb.edu.au/iljh/naarm-law-students-on-voice",
+      "title": "Naarm Law Students On Voice",
+      "wordCount": 765,
+      "fingerprint": "59c3a452e6c2a443"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/news/MLS/new-isaf-fellowship-recognises-the-impact-of-a-late-indonesian-reformer",
+      "normalizedUrl": "https://law.unimelb.edu.au/news/MLS/new-isaf-fellowship-recognises-the-impact-of-a-late-indonesian-reformer",
+      "title": "New ISA Fellowship recognises the impact of a late Indonesian reformer",
+      "wordCount": 608,
+      "fingerprint": "5b9249d91499d601"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/news/iljh/2024-cohort-of-indigenous-law-and-justice-hub-travelling-subject-visit-new-zealand",
+      "normalizedUrl": "https://law.unimelb.edu.au/news/iljh/2024-cohort-of-indigenous-law-and-justice-hub-travelling-subject-visit-new-zealand",
+      "title": "Bringing the Melbourne Law School to Aotearoa: 2024 cohort of Indigenous Law and Justice Hub travelling subject visit New Zealand",
+      "wordCount": 788,
+      "fingerprint": "5bf549d65a592213"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/study/masters/subjects/overview-subjects/overview-of-intellectual-property",
+      "normalizedUrl": "https://law.unimelb.edu.au/study/masters/subjects/overview-subjects/overview-of-intellectual-property",
+      "title": "Overview of Intellectual Property",
+      "wordCount": 291,
+      "fingerprint": "61095aa6c80f73a9"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/law-library/using-the-library/discussion-rooms",
+      "normalizedUrl": "https://law.unimelb.edu.au/law-library/using-the-library/discussion-rooms",
+      "title": "Discussion Rooms & Study Areas",
+      "wordCount": 177,
+      "fingerprint": "622f42d6ffc62c44"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/news/alc/ibrahim-sjarief-assegaf-fellowships",
+      "normalizedUrl": "https://law.unimelb.edu.au/news/alc/ibrahim-sjarief-assegaf-fellowships",
+      "title": "Ibrahim Sjarief Assegaf Fellowships",
+      "wordCount": 192,
+      "fingerprint": "63041323d93ba718"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/law-library/collections/research-databases",
+      "normalizedUrl": "https://law.unimelb.edu.au/law-library/collections/research-databases",
+      "title": "Research Databases | Law | University of Melbourne",
+      "wordCount": 132,
+      "fingerprint": "63624620b011f1ce"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/covid-19-and-financial-wellbeing-webinar-21.05.20",
+      "normalizedUrl": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/covid-19-and-financial-wellbeing-webinar-21.05.20",
+      "title": "Covid-19 and Financial Wellbeing Webinar - 21.05.20",
+      "wordCount": 165,
+      "fingerprint": "6394d2911068244f"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/2023-jim-carlton-annual-integrity-lecture-19.04.23",
+      "normalizedUrl": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/2023-jim-carlton-annual-integrity-lecture-19.04.23",
+      "title": "2023 Jim Carlton Annual Integrity Lecture - 19.04.23",
+      "wordCount": 516,
+      "fingerprint": "63bcbaf20f04f5ca"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/centres",
+      "normalizedUrl": "https://law.unimelb.edu.au/centres",
+      "title": "Research Centres | Law | University of Melbourne",
+      "wordCount": 297,
+      "fingerprint": "63ce2f5b68c74530"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/2024-melbourne-university-law-review-lecture-02.05.24",
+      "normalizedUrl": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/2024-melbourne-university-law-review-lecture-02.05.24",
+      "title": "2024 Melbourne University Law Review Lecture - 02.05.24",
+      "wordCount": 425,
+      "fingerprint": "64b05a5f20dc7efd"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/economic-recovery-webinar-26.05.20",
+      "normalizedUrl": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/economic-recovery-webinar-26.05.20",
+      "title": "Economic Recovery Webinar - 26.05.20",
+      "wordCount": 130,
+      "fingerprint": "651c494cb868652d"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/study/masters/specialist-legal-areas/intellectual-property-law",
+      "normalizedUrl": "https://law.unimelb.edu.au/study/masters/specialist-legal-areas/intellectual-property-law",
+      "title": "Intellectual Property Law",
+      "wordCount": 506,
+      "fingerprint": "661151917d50819a"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/2024-seabrook-chambers-public-lecture-02.10.24",
+      "normalizedUrl": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/2024-seabrook-chambers-public-lecture-02.10.24",
+      "title": "2024 Seabrook Chambers Public Lecture - 02.10.24",
+      "wordCount": 362,
+      "fingerprint": "67cea88ed7134e12"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/news?result_4982708_result_page=3",
+      "normalizedUrl": "https://law.unimelb.edu.au/news?result_4982708_result_page=3",
+      "title": "News | Melbourne Law School | The University of Melbourne",
+      "wordCount": 48,
+      "fingerprint": "69e23f7b03ae2db7"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/news/MLS/jon-faine-returns-to-the-airwaves-in-new-podcast",
+      "normalizedUrl": "https://law.unimelb.edu.au/news/MLS/jon-faine-returns-to-the-airwaves-in-new-podcast",
+      "title": "Jon Faine returns to the airwaves in new podcast",
+      "wordCount": 400,
+      "fingerprint": "6a45c1f191f25c23"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/study/masters",
+      "normalizedUrl": "https://law.unimelb.edu.au/study/masters",
+      "title": "Masters | Melbourne Law School | University of Melbourne",
+      "wordCount": 1088,
+      "fingerprint": "6b250e2db2ef37f6"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/sir-kenneth-bailey-lecture-2020-11.3.2020",
+      "normalizedUrl": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/sir-kenneth-bailey-lecture-2020-11.3.2020",
+      "title": "Sir Kenneth Bailey Lecture 2020 - 11.3.2020",
+      "wordCount": 206,
+      "fingerprint": "6b340bc71e770387"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/about/history",
+      "normalizedUrl": "https://law.unimelb.edu.au/about/history",
+      "title": "History",
+      "wordCount": 1684,
+      "fingerprint": "6b5905ae50771275"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/study/masters/teachers/int-visiting",
+      "normalizedUrl": "https://law.unimelb.edu.au/study/masters/teachers/int-visiting",
+      "title": "International visiting teachers",
+      "wordCount": 1150,
+      "fingerprint": "6bb9230dd5c4fed7"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/iljh/research/mls-classroom-photo-mural-initiative",
+      "normalizedUrl": "https://law.unimelb.edu.au/iljh/research/mls-classroom-photo-mural-initiative",
+      "title": "Classroom Photo Mural Initiative",
+      "wordCount": 570,
+      "fingerprint": "6d0faa2e8fcc88dc"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/news/iljh/article-matter-of-precedent-are-all-questions-of-first-nations-sovereignty-really-non-justiciable-in-australian-courts",
+      "normalizedUrl": "https://law.unimelb.edu.au/news/iljh/article-matter-of-precedent-are-all-questions-of-first-nations-sovereignty-really-non-justiciable-in-australian-courts",
+      "title": "Article: High Court can hear cases on Aboriginal sovereignty, new findings show",
+      "wordCount": 431,
+      "fingerprint": "6f3ff0d660a2b5ea"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/centres/celrl/news-and-events/past-events/a-grand-strategy-for-social-justice-and-development-blas-ople-and-authoritarian-labour-regulation-in-the-philippines-a-legal-biography-approach",
+      "normalizedUrl": "https://law.unimelb.edu.au/centres/celrl/news-and-events/past-events/a-grand-strategy-for-social-justice-and-development-blas-ople-and-authoritarian-labour-regulation-in-the-philippines-a-legal-biography-approach",
+      "title": "A \u201cGrand Strategy for Social Justice and Development\u201d: Blas Ople and Authoritarian Labour Regulation in the Philippines (A Legal Biography Approach)",
+      "wordCount": 568,
+      "fingerprint": "70179ad811092b9b"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/students/jd/enrichment/mls-clinics/subjects/sustainability-business-clinic",
+      "normalizedUrl": "https://law.unimelb.edu.au/students/jd/enrichment/mls-clinics/subjects/sustainability-business-clinic",
+      "title": "Sustainability Business Clinic",
+      "wordCount": 1009,
+      "fingerprint": "715173d45a4cf690"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/centres/iilah/news-and-events/events-2026/silicon-valley-and-the-end-times-the-law,-politics-and-economy-of-apocalypse",
+      "normalizedUrl": "https://law.unimelb.edu.au/centres/iilah/news-and-events/events-2026/silicon-valley-and-the-end-times-the-law,-politics-and-economy-of-apocalypse",
+      "title": "Silicon Valley and the End-times: The Law, Politics and Economy of Apocalypse",
+      "wordCount": 937,
+      "fingerprint": "737bb2ebf487ffaf"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/law-library/contact-us",
+      "normalizedUrl": "https://law.unimelb.edu.au/law-library/contact-us",
+      "title": "Contact",
+      "wordCount": 205,
+      "fingerprint": "74087ac810341bac"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/news",
+      "normalizedUrl": "https://law.unimelb.edu.au/news",
+      "title": "News | Melbourne Law School | The University of Melbourne",
+      "wordCount": 16,
+      "fingerprint": "75bcad1dbc2eff2c"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/study/masters/specialist-legal-areas/risk-management-and-liability",
+      "normalizedUrl": "https://law.unimelb.edu.au/study/masters/specialist-legal-areas/risk-management-and-liability",
+      "title": "Risk Management and Liability",
+      "wordCount": 186,
+      "fingerprint": "75d5829866a49004"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/searching-for-our-shared-humanity-reflections-from-the-field-07.03.24",
+      "normalizedUrl": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/searching-for-our-shared-humanity-reflections-from-the-field-07.03.24",
+      "title": "Searching for Our Shared Humanity: Reflections from the Field - 07.03.24",
+      "wordCount": 460,
+      "fingerprint": "761d44ee9b1fa158"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/the-high-court-of-australia-and-civil-liberties-13.10.2021",
+      "normalizedUrl": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/the-high-court-of-australia-and-civil-liberties-13.10.2021",
+      "title": "The High Court of Australia and Civil Liberties - 13.10.2021",
+      "wordCount": 393,
+      "fingerprint": "767286f80b394d14"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/law-library/contact-us/",
+      "normalizedUrl": "https://law.unimelb.edu.au/law-library/contact-us/",
+      "title": "Contact",
+      "wordCount": 200,
+      "fingerprint": "76f285b66706dfaa"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/law-apps-awards-presentations-semester-2-20.10.2021",
+      "normalizedUrl": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/law-apps-awards-presentations-semester-2-20.10.2021",
+      "title": "Law Apps Awards Presentations Semester 2 - 20.10.2021",
+      "wordCount": 225,
+      "fingerprint": "78f3fbff5b5d2c68"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/study/masters/specialist-legal-areas/international-law",
+      "normalizedUrl": "https://law.unimelb.edu.au/study/masters/specialist-legal-areas/international-law",
+      "title": "International Law",
+      "wordCount": 374,
+      "fingerprint": "7aa808bc6ecec3cd"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/law-library/services/disability-services",
+      "normalizedUrl": "https://law.unimelb.edu.au/law-library/services/disability-services",
+      "title": "Disability Services",
+      "wordCount": 327,
+      "fingerprint": "7b0278fac7697e2c"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/iljh/about/reports2",
+      "normalizedUrl": "https://law.unimelb.edu.au/iljh/about/reports2",
+      "title": "Hub Reports",
+      "wordCount": 72,
+      "fingerprint": "7b1476e499ba65e5"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/news/iljh/indigenous-law-and-justice-hub-staff-win-unimelb-excellence-award-for-on-country-subject",
+      "normalizedUrl": "https://law.unimelb.edu.au/news/iljh/indigenous-law-and-justice-hub-staff-win-unimelb-excellence-award-for-on-country-subject",
+      "title": "Indigenous Law and Justice Hub win Teaching Excellence award for On Country subject",
+      "wordCount": 696,
+      "fingerprint": "7c1b96c0973ac72b"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/2025-melbourne-university-law-review-annual-lecture-02.04.25",
+      "normalizedUrl": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/2025-melbourne-university-law-review-annual-lecture-02.04.25",
+      "title": "2025 Melbourne University Law Review Annual Lecture - 02.04.25",
+      "wordCount": 338,
+      "fingerprint": "7e58522e87d5b7e8"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/legal-history-matters-book-launch-22.04.21",
+      "normalizedUrl": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/legal-history-matters-book-launch-22.04.21",
+      "title": "Legal History Matters - Book launch 22.04.21",
+      "wordCount": 214,
+      "fingerprint": "7e87deb3cc162c15"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/news/iljh/read-as-stolen-generations-survivors-pass-away-at-a-rapid-rate,-some-still-await-official-redress",
+      "normalizedUrl": "https://law.unimelb.edu.au/news/iljh/read-as-stolen-generations-survivors-pass-away-at-a-rapid-rate,-some-still-await-official-redress",
+      "title": "Read: As Stolen Generations survivors \u2018pass away at a rapid rate\u2019, some still await official redress",
+      "wordCount": 46,
+      "fingerprint": "7e97978e0898038a"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/news/MLS/professor-nicole-watson-appointed-as-director-of-indigenous-law-and-justice-hub",
+      "normalizedUrl": "https://law.unimelb.edu.au/news/MLS/professor-nicole-watson-appointed-as-director-of-indigenous-law-and-justice-hub",
+      "title": "Professor Nicole Watson appointed Director of Indigenous Law and Justice Hub",
+      "wordCount": 467,
+      "fingerprint": "800f32ddddf10370"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/centres/iilah/news-and-events/events-2026/indigenous-knowledge-for-an-inter-nations-law-indigenous-approaches-as-international-law",
+      "normalizedUrl": "https://law.unimelb.edu.au/centres/iilah/news-and-events/events-2026/indigenous-knowledge-for-an-inter-nations-law-indigenous-approaches-as-international-law",
+      "title": "Indigenous Knowledge for an Inter-Nations Law: Indigenous Approaches as International Law",
+      "wordCount": 421,
+      "fingerprint": "8182abf382bcbea1"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/about/at-a-glance",
+      "normalizedUrl": "https://law.unimelb.edu.au/about/at-a-glance",
+      "title": "Melbourne Law School at a Glance | University of Melbourne",
+      "wordCount": 981,
+      "fingerprint": "831209e453a66fe0"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/study/masters/specialist-legal-areas/construction-law",
+      "normalizedUrl": "https://law.unimelb.edu.au/study/masters/specialist-legal-areas/construction-law",
+      "title": "Construction Law",
+      "wordCount": 71,
+      "fingerprint": "851e4d9fb3876091"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/about",
+      "normalizedUrl": "https://law.unimelb.edu.au/about",
+      "title": "About MLS",
+      "wordCount": 251,
+      "fingerprint": "85e7a3a8750b7baf"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/study/graduate-research-degrees/doctor-of-laws",
+      "normalizedUrl": "https://law.unimelb.edu.au/study/graduate-research-degrees/doctor-of-laws",
+      "title": "Doctor of Laws (LLD)",
+      "wordCount": 832,
+      "fingerprint": "865c535e8fd79c39"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/the-role-of-the-ombudsman-a-new-age-of-human-rights",
+      "normalizedUrl": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/the-role-of-the-ombudsman-a-new-age-of-human-rights",
+      "title": "The Role of the Ombudsman: A New Age of Human Rights? 18.05.21",
+      "wordCount": 235,
+      "fingerprint": "88a602128cc8bbd0"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/faces-of-mls/students-and-alumni",
+      "normalizedUrl": "https://law.unimelb.edu.au/faces-of-mls/students-and-alumni",
+      "title": "Students and alumni",
+      "wordCount": 234,
+      "fingerprint": "8a855c4d12b8c047"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/centres/celrl/news-and-events/past-events/the-adjudication-of-collective-rights-the-right-to-strike-before-the-international-court-of-justice",
+      "normalizedUrl": "https://law.unimelb.edu.au/centres/celrl/news-and-events/past-events/the-adjudication-of-collective-rights-the-right-to-strike-before-the-international-court-of-justice",
+      "title": "The Adjudication of Collective Rights: The Right to Strike before the International Court of Justice",
+      "wordCount": 670,
+      "fingerprint": "8ba643e7040f5c0b"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/iljh/resources/external-links",
+      "normalizedUrl": "https://law.unimelb.edu.au/iljh/resources/external-links",
+      "title": "Further Resources",
+      "wordCount": 417,
+      "fingerprint": "8c8a7d53835c537b"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/study/graduate-research-degrees",
+      "normalizedUrl": "https://law.unimelb.edu.au/study/graduate-research-degrees",
+      "title": "Graduate Research Degrees",
+      "wordCount": 209,
+      "fingerprint": "8f93c08d35cc187a"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/2022-sir-kenneth-bailey-memorial-lecture-24.05.2022",
+      "normalizedUrl": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/2022-sir-kenneth-bailey-memorial-lecture-24.05.2022",
+      "title": "2022 Sir Kenneth Bailey Memorial Lecture - 24.05.2022",
+      "wordCount": 442,
+      "fingerprint": "90a729f49ac04c03"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/contact",
+      "normalizedUrl": "https://law.unimelb.edu.au/contact",
+      "title": "Contact us",
+      "wordCount": 431,
+      "fingerprint": "9237b312bfbc9f70"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/study/masters/specialist-legal-areas/communications-law",
+      "normalizedUrl": "https://law.unimelb.edu.au/study/masters/specialist-legal-areas/communications-law",
+      "title": "Communications Law",
+      "wordCount": 381,
+      "fingerprint": "948328f6f549edd7"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/centres/mls-hr-program/projects/human-rights-newsletter/newsletters",
+      "normalizedUrl": "https://law.unimelb.edu.au/centres/mls-hr-program/projects/human-rights-newsletter/newsletters",
+      "title": "Newsletters",
+      "wordCount": 169,
+      "fingerprint": "94c9b090bd54410b"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/study/masters/specialist-legal-areas/human-rights-law",
+      "normalizedUrl": "https://law.unimelb.edu.au/study/masters/specialist-legal-areas/human-rights-law",
+      "title": "Human Rights Law",
+      "wordCount": 303,
+      "fingerprint": "950646bec2d6370c"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/news/iljh/cald-statement",
+      "normalizedUrl": "https://law.unimelb.edu.au/news/iljh/cald-statement",
+      "title": "CALD Statement on Australian Law\u2019s Systemic Discrimination and Structural Bias Against First Nations Peoples",
+      "wordCount": 265,
+      "fingerprint": "977d9624bf6ba782"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/2025-peter-brett-memorial-lecture-09.04.25",
+      "normalizedUrl": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/2025-peter-brett-memorial-lecture-09.04.25",
+      "title": "2025 Peter Brett Memorial Lecture - 09.04.25",
+      "wordCount": 441,
+      "fingerprint": "9b7cf6132e9dbd0a"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/law-library/research-tools/reference-management",
+      "normalizedUrl": "https://law.unimelb.edu.au/law-library/research-tools/reference-management",
+      "title": "Reference Management",
+      "wordCount": 258,
+      "fingerprint": "9bf0c2cf954640dc"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/francis-gurry-lecture-on-intellectual-property-25.11.20",
+      "normalizedUrl": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/francis-gurry-lecture-on-intellectual-property-25.11.20",
+      "title": "Francis Gurry Lecture on Intellectual Property 25.11.20",
+      "wordCount": 169,
+      "fingerprint": "9c8da690a75b4614"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/mjil-special-issue-launch-national-encounters-with-the-international-court-of-justice-15.12.2021",
+      "normalizedUrl": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/mjil-special-issue-launch-national-encounters-with-the-international-court-of-justice-15.12.2021",
+      "title": "MJIL Special Issue Launch: National Encounters with the International Court of Justice - 15.12.2021",
+      "wordCount": 161,
+      "fingerprint": "9ca81ba63fdd49ac"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/students/jd",
+      "normalizedUrl": "https://law.unimelb.edu.au/students/jd",
+      "title": "JD Students",
+      "wordCount": 860,
+      "fingerprint": "9ccd1e8194289e9c"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/law-library/using-the-library/borrow-renew-and-return",
+      "normalizedUrl": "https://law.unimelb.edu.au/law-library/using-the-library/borrow-renew-and-return",
+      "title": "Borrow, Renew & Return",
+      "wordCount": 261,
+      "fingerprint": "9fc9605cba80a71d"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/centres/mccl/news-and-events/past-events/past-events-2026/international-legal-harmonisation-and-sustainable-development-the-role-of-unidroit",
+      "normalizedUrl": "https://law.unimelb.edu.au/centres/mccl/news-and-events/past-events/past-events-2026/international-legal-harmonisation-and-sustainable-development-the-role-of-unidroit",
+      "title": "International Legal Harmonisation and Sustainable Development: The role of UNIDROIT",
+      "wordCount": 316,
+      "fingerprint": "9fdfe75b960c3b15"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/law-library/research-tools/research-guides",
+      "normalizedUrl": "https://law.unimelb.edu.au/law-library/research-tools/research-guides",
+      "title": "Legal Research Subject Guides",
+      "wordCount": 504,
+      "fingerprint": "a006874a1c37eac4"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/iljh/resources/professional-development",
+      "normalizedUrl": "https://law.unimelb.edu.au/iljh/resources/professional-development",
+      "title": "Professional Development",
+      "wordCount": 228,
+      "fingerprint": "a0f5268c03d14d67"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/reviewing-twin-peaks-in-australia-and-abroad-27.01.2022",
+      "normalizedUrl": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/reviewing-twin-peaks-in-australia-and-abroad-27.01.2022",
+      "title": "(Re)viewing Twin Peaks in Australia and Abroad - 27.01.2022",
+      "wordCount": 374,
+      "fingerprint": "a0f81742baa46212"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/news/alc/2026-alc-graduate-student-workshop2",
+      "normalizedUrl": "https://law.unimelb.edu.au/news/alc/2026-alc-graduate-student-workshop2",
+      "title": "2026 ALC Graduate Student Workshop",
+      "wordCount": 315,
+      "fingerprint": "a24f553be85cf71e"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/news/iljh/urgent-united-nations-complaint-about-australias-youth-justice-policies",
+      "normalizedUrl": "https://law.unimelb.edu.au/news/iljh/urgent-united-nations-complaint-about-australias-youth-justice-policies",
+      "title": "Urgent United Nations complaint about Australia\u2019s youth justice policies",
+      "wordCount": 100,
+      "fingerprint": "a3583ed521a70367"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/news/iljh/happy-naidoc-from-afar-celebrate-with-our-new-self-guided-audio-tour",
+      "normalizedUrl": "https://law.unimelb.edu.au/news/iljh/happy-naidoc-from-afar-celebrate-with-our-new-self-guided-audio-tour",
+      "title": "Happy NAIDOC from afar: Celebrate with our new self-guided audio tour",
+      "wordCount": 300,
+      "fingerprint": "a47537a9f1ad9476"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/privacy-post-pandemic-webinar-19.05.20",
+      "normalizedUrl": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/privacy-post-pandemic-webinar-19.05.20",
+      "title": "Privacy Post-Pandemic Webinar - 19.05.20",
+      "wordCount": 194,
+      "fingerprint": "a873870b14c85508"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/centres/cilis/engagement/ibrahim-sjarief-assegaf-fellowships",
+      "normalizedUrl": "https://law.unimelb.edu.au/centres/cilis/engagement/ibrahim-sjarief-assegaf-fellowships",
+      "title": "Ibrahim Sjarief Assegaf Fellowships",
+      "wordCount": 556,
+      "fingerprint": "aa1633e988778516"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/law-library/research-tools/legal-citation-style-guides",
+      "normalizedUrl": "https://law.unimelb.edu.au/law-library/research-tools/legal-citation-style-guides",
+      "title": "Legal Citation Style Guides",
+      "wordCount": 770,
+      "fingerprint": "aa2a1941dce5f941"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/study/masters/specialist-legal-areas/banking-and-finance-law",
+      "normalizedUrl": "https://law.unimelb.edu.au/study/masters/specialist-legal-areas/banking-and-finance-law",
+      "title": "Banking and Finance Law",
+      "wordCount": 248,
+      "fingerprint": "abdf1e36dabf9f80"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/centres/iilah/news-and-events/events-2026/blue-bonds-protection-of-the-seas-and-oceans-through-financialization",
+      "normalizedUrl": "https://law.unimelb.edu.au/centres/iilah/news-and-events/events-2026/blue-bonds-protection-of-the-seas-and-oceans-through-financialization",
+      "title": "Blue Bonds: Protection of the seas and oceans through financialization?",
+      "wordCount": 309,
+      "fingerprint": "abf5c804a724956d"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/law-library/services/services-for-mls-staff",
+      "normalizedUrl": "https://law.unimelb.edu.au/law-library/services/services-for-mls-staff",
+      "title": "Services for MLS Staff",
+      "wordCount": 587,
+      "fingerprint": "ac7da0a49f767c63"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/news?result_4982708_result_page=7",
+      "normalizedUrl": "https://law.unimelb.edu.au/news?result_4982708_result_page=7",
+      "title": "News | Melbourne Law School | The University of Melbourne",
+      "wordCount": 8,
+      "fingerprint": "af6f5a928e4d527a"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/law-apps-awards-presentations-semester-1-26.05.2021",
+      "normalizedUrl": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/law-apps-awards-presentations-semester-1-26.05.2021",
+      "title": "Law Apps Awards Presentations Semester 1 - 26.05.2021",
+      "wordCount": 253,
+      "fingerprint": "b22a0280490dfc54"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/news/MLS/jean-alcorn-and-her-unique-path-into-law",
+      "normalizedUrl": "https://law.unimelb.edu.au/news/MLS/jean-alcorn-and-her-unique-path-into-law",
+      "title": "Jean Alcorn and her unique path into law",
+      "wordCount": 501,
+      "fingerprint": "b36429c5b9afd485"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/study/masters/specialist-legal-areas/government-law",
+      "normalizedUrl": "https://law.unimelb.edu.au/study/masters/specialist-legal-areas/government-law",
+      "title": "Government Law",
+      "wordCount": 357,
+      "fingerprint": "b36f20d86c5d5481"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/study/masters/specialist-legal-areas/corporate-law",
+      "normalizedUrl": "https://law.unimelb.edu.au/study/masters/specialist-legal-areas/corporate-law",
+      "title": "Corporate Law",
+      "wordCount": 425,
+      "fingerprint": "b3b961d431733169"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/faces-of-mls",
+      "normalizedUrl": "https://law.unimelb.edu.au/faces-of-mls",
+      "title": "Faces of Melbourne Law School",
+      "wordCount": 417,
+      "fingerprint": "b544de88678ff384"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/news/adms/watch-ai,-ethics-and-animals-with-prof-peter-singer",
+      "normalizedUrl": "https://law.unimelb.edu.au/news/adms/watch-ai,-ethics-and-animals-with-prof-peter-singer",
+      "title": "Watch: AI, Ethics and Animals with Prof Peter Singer",
+      "wordCount": 124,
+      "fingerprint": "b6079ff7d74cd663"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/james-merralls-fellowship-in-law-lecture-04.09.2025",
+      "normalizedUrl": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/james-merralls-fellowship-in-law-lecture-04.09.2025",
+      "title": "James Merralls Fellowship in Law lecture - 04.09.2025",
+      "wordCount": 498,
+      "fingerprint": "b652b4ee5c5c23b4"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/treaties-and-reconciliation-webinar-28.05.20",
+      "normalizedUrl": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/treaties-and-reconciliation-webinar-28.05.20",
+      "title": "Treaties and Reconciliation Webinar - 28.05.20",
+      "wordCount": 156,
+      "fingerprint": "b68f7ffd729e28ce"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/inaugural-flos-greig-lecture-in-law-19.08.2022",
+      "normalizedUrl": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/inaugural-flos-greig-lecture-in-law-19.08.2022",
+      "title": "Inaugural Flos Greig Lecture in Law - 19.08.2022",
+      "wordCount": 389,
+      "fingerprint": "b93e1a61d16950bb"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/study/graduate-research-degrees/ongoing-support-for-graduate-researchers",
+      "normalizedUrl": "https://law.unimelb.edu.au/study/graduate-research-degrees/ongoing-support-for-graduate-researchers",
+      "title": "Ongoing support for Graduate Researchers",
+      "wordCount": 651,
+      "fingerprint": "b9b413d456373dca"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/iljh/research/reckoning-and-reimagining",
+      "normalizedUrl": "https://law.unimelb.edu.au/iljh/research/reckoning-and-reimagining",
+      "title": "Reckoning and Reimagining",
+      "wordCount": 747,
+      "fingerprint": "bac8126066126e29"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/2024-flos-greig-public-lecture-22.08.2024",
+      "normalizedUrl": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/2024-flos-greig-public-lecture-22.08.2024",
+      "title": "2024 Flos Greig Public Lecture - 22.08.2024",
+      "wordCount": 574,
+      "fingerprint": "bbad7d53adbfb03d"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/2024-miegunyah-distinguished-visiting-fellow-lecture-3.12.24",
+      "normalizedUrl": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/2024-miegunyah-distinguished-visiting-fellow-lecture-3.12.24",
+      "title": "2024 Miegunyah Distinguished Visiting Fellow Lecture - 3.12.24",
+      "wordCount": 537,
+      "fingerprint": "bbef1b58ce88aee2"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/law-library/research-tools/australian-case-citator-comparison",
+      "normalizedUrl": "https://law.unimelb.edu.au/law-library/research-tools/australian-case-citator-comparison",
+      "title": "Australian Case Citator Comparison",
+      "wordCount": 229,
+      "fingerprint": "bc01b821737faa29"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/2025-miegunyah-distinguished-visiting-fellow-public-lecture",
+      "normalizedUrl": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/2025-miegunyah-distinguished-visiting-fellow-public-lecture",
+      "title": "2025 Miegunyah Distinguished Visiting Fellow Public Lecture - 30.7.20250",
+      "wordCount": 392,
+      "fingerprint": "bc31fd7c0c5b793a"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/2022-Francis-Gurry-Lecture-18.10.22",
+      "normalizedUrl": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/2022-Francis-Gurry-Lecture-18.10.22",
+      "title": "2022 Francis Gurry Lecture on Intellectual Property - 18.10.22",
+      "wordCount": 369,
+      "fingerprint": "bc6497c23a39d5ac"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/study/graduate-research-degrees/fees-and-scholarships",
+      "normalizedUrl": "https://law.unimelb.edu.au/study/graduate-research-degrees/fees-and-scholarships",
+      "title": "Fees and Scholarships",
+      "wordCount": 198,
+      "fingerprint": "bcf816fcb33d3fb6"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/in-conversation-with-the-hon-kenneth-hayne-ac-qc-and-ms-thea-stephenson-sexual-assault-in-the-legal-sector-12.05.21",
+      "normalizedUrl": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/in-conversation-with-the-hon-kenneth-hayne-ac-qc-and-ms-thea-stephenson-sexual-assault-in-the-legal-sector-12.05.21",
+      "title": "In Conversation with The Hon. Kenneth Hayne AC QC and Ms Thea Stephenson - 12.05.21",
+      "wordCount": 296,
+      "fingerprint": "bdb7044899d8e169"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/an-australian-international-commercial-court-a-quixotic-concept-or-a-necessity",
+      "normalizedUrl": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/an-australian-international-commercial-court-a-quixotic-concept-or-a-necessity",
+      "title": "An Australian International Commercial Court: A Quixotic Concept or a necessity? 27.10.20",
+      "wordCount": 234,
+      "fingerprint": "bea3ccdb69965eda"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/study/masters/specialist-legal-areas/employment-and-labour-relations-law",
+      "normalizedUrl": "https://law.unimelb.edu.au/study/masters/specialist-legal-areas/employment-and-labour-relations-law",
+      "title": "Employment and Labour Relations Law",
+      "wordCount": 382,
+      "fingerprint": "bec8d9643b44bcf9"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/news?result_4982708_result_page=6",
+      "normalizedUrl": "https://law.unimelb.edu.au/news?result_4982708_result_page=6",
+      "title": "News | Melbourne Law School | The University of Melbourne",
+      "wordCount": 55,
+      "fingerprint": "bf3b545df521d90e"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/study/masters/specialist-legal-areas/public-and-international-law",
+      "normalizedUrl": "https://law.unimelb.edu.au/study/masters/specialist-legal-areas/public-and-international-law",
+      "title": "Public and International Law",
+      "wordCount": 349,
+      "fingerprint": "c0a2bd355cd47723"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/the-ann-oconnell-distinguished-tax-lecture-22.07.2021",
+      "normalizedUrl": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/the-ann-oconnell-distinguished-tax-lecture-22.07.2021",
+      "title": "The Ann O'Connell Distinguished Tax Lecture - 22.07.2021",
+      "wordCount": 482,
+      "fingerprint": "c4ef1ec421e9f9e3"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/uluru-statement-from-the-heart-a-call-for-justice-15.11.2022",
+      "normalizedUrl": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/uluru-statement-from-the-heart-a-call-for-justice-15.11.2022",
+      "title": "Uluru Statement from the Heart: A Call for Justice - 15.11.2022",
+      "wordCount": 142,
+      "fingerprint": "c6048504b02b1aa4"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/study/masters/specialist-legal-areas/asian-law",
+      "normalizedUrl": "https://law.unimelb.edu.au/study/masters/specialist-legal-areas/asian-law",
+      "title": "Asian Law",
+      "wordCount": 260,
+      "fingerprint": "c905ca25fb7ed046"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/news?result_4982708_result_page=8",
+      "normalizedUrl": "https://law.unimelb.edu.au/news?result_4982708_result_page=8",
+      "title": "News | Melbourne Law School | The University of Melbourne",
+      "wordCount": 44,
+      "fingerprint": "ca1bb2ddf78fb380"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/2023-sir-kenneth-bailey-memorial-lecture-06.09.23",
+      "normalizedUrl": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/2023-sir-kenneth-bailey-memorial-lecture-06.09.23",
+      "title": "2023 Sir Kenneth Bailey Memorial Lecture - 06.09.23",
+      "wordCount": 404,
+      "fingerprint": "cabd37f79e22e7f5"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/research/for-researchers/office-for-research-law",
+      "normalizedUrl": "https://law.unimelb.edu.au/research/for-researchers/office-for-research-law",
+      "title": "Office for Research (Law)",
+      "wordCount": 966,
+      "fingerprint": "cb6390dddeef0f31"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/iljh/resources/reading-list",
+      "normalizedUrl": "https://law.unimelb.edu.au/iljh/resources/reading-list",
+      "title": "Recommended Reading List",
+      "wordCount": 2361,
+      "fingerprint": "cb78ed6f883c724c"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/news/MLS/high-court-can-hear-cases-on-aboriginal-sovereignty,-new-findings-show",
+      "normalizedUrl": "https://law.unimelb.edu.au/news/MLS/high-court-can-hear-cases-on-aboriginal-sovereignty,-new-findings-show",
+      "title": "High Court can hear cases on Aboriginal sovereignty, new findings show",
+      "wordCount": 633,
+      "fingerprint": "cbd76bd5c02311f7"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/law-library/services/services-for-the-public",
+      "normalizedUrl": "https://law.unimelb.edu.au/law-library/services/services-for-the-public",
+      "title": "Services for the Public",
+      "wordCount": 330,
+      "fingerprint": "cc8d6d2e6f33e67f"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/iljh/resources/reading-group",
+      "normalizedUrl": "https://law.unimelb.edu.au/iljh/resources/reading-group",
+      "title": "ILJH Reading Group",
+      "wordCount": 1587,
+      "fingerprint": "cd4f07f8cf077a4f"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/2025-jim-carlton-integrity-lecture-29.05.25",
+      "normalizedUrl": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/2025-jim-carlton-integrity-lecture-29.05.25",
+      "title": "2025 Jim Carlton Integrity Lecture - 29.05.25",
+      "wordCount": 431,
+      "fingerprint": "ceaa8cc8f6689ea4"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/2023-James-Merralls-lecture-07.03.203",
+      "normalizedUrl": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/2023-James-Merralls-lecture-07.03.203",
+      "title": "2023 James Merralls Fellowship in Law Lecture - 07.03.23",
+      "wordCount": 617,
+      "fingerprint": "cf2a7332c87cdc01"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/2023-harold-ford-memorial-lecture",
+      "normalizedUrl": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/2023-harold-ford-memorial-lecture",
+      "title": "2023 Harold Ford Memorial Lecture - 24.05.23",
+      "wordCount": 419,
+      "fingerprint": "cf955494b31eeb3a"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/study/masters/specialist-legal-areas/commercial-law",
+      "normalizedUrl": "https://law.unimelb.edu.au/study/masters/specialist-legal-areas/commercial-law",
+      "title": "Commercial Law",
+      "wordCount": 332,
+      "fingerprint": "d2299019445d33a3"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/black-lives-matter",
+      "normalizedUrl": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/black-lives-matter",
+      "title": "Black Lives Matter 16.07.20",
+      "wordCount": 164,
+      "fingerprint": "d2b4791849dd27cc"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/iljh/resources/white-noise-of-settler-law-justice-talks",
+      "normalizedUrl": "https://law.unimelb.edu.au/iljh/resources/white-noise-of-settler-law-justice-talks",
+      "title": "White Noise of settler law justice talks",
+      "wordCount": 374,
+      "fingerprint": "d41d34b1cdb47aa0"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/study/graduate-research-degrees/director-graduate-research-message",
+      "normalizedUrl": "https://law.unimelb.edu.au/study/graduate-research-degrees/director-graduate-research-message",
+      "title": "Director of Graduate Research Message",
+      "wordCount": 434,
+      "fingerprint": "d566cc470a5fc5ba"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/study/masters/specialist-legal-areas/law-and-development",
+      "normalizedUrl": "https://law.unimelb.edu.au/study/masters/specialist-legal-areas/law-and-development",
+      "title": "Law and Development",
+      "wordCount": 400,
+      "fingerprint": "d612b3a71dd61e46"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/news/iljh/new-look-at-the-indigenous-law-and-justice-hub",
+      "normalizedUrl": "https://law.unimelb.edu.au/news/iljh/new-look-at-the-indigenous-law-and-justice-hub",
+      "title": "New look at the Indigenous Law and Justice Hub",
+      "wordCount": 216,
+      "fingerprint": "d650a0132ffb85f8"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/gridlock-reforming-australias-institutions-to-unblock-policy-reform",
+      "normalizedUrl": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/gridlock-reforming-australias-institutions-to-unblock-policy-reform",
+      "title": "Gridlock: reforming Australia\u2019s institutions to unblock policy reform - 15.09.2021",
+      "wordCount": 238,
+      "fingerprint": "d68e66841356a5ce"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/2023-allen-hope-southey-memorial-lecture-16.11.23",
+      "normalizedUrl": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/2023-allen-hope-southey-memorial-lecture-16.11.23",
+      "title": "2023 Allen Hope Southey Memorial Lecture - 16.11.23",
+      "wordCount": 538,
+      "fingerprint": "d77fc3c3ae674f95"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/2022-sir-george-turner-public-lecture-29.06.2022",
+      "normalizedUrl": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/2022-sir-george-turner-public-lecture-29.06.2022",
+      "title": "2022 Sir George Turner Public Lecture - 29.06.2022",
+      "wordCount": 409,
+      "fingerprint": "d7b5606763b961b2"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/news/cilis/new-collaborative-research-project-with-unm",
+      "normalizedUrl": "https://law.unimelb.edu.au/news/cilis/new-collaborative-research-project-with-unm",
+      "title": "New Collaborative Research Project with UNM",
+      "wordCount": 279,
+      "fingerprint": "d8cc746ace3d7d9c"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/2024-jim-carlton-integrity-lecture-08.05.24",
+      "normalizedUrl": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/2024-jim-carlton-integrity-lecture-08.05.24",
+      "title": "2024 Jim Carlton Integrity Lecture (audio only) - 08.05.24",
+      "wordCount": 576,
+      "fingerprint": "d9da751413049040"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/news/iljh/coming-to-australia-hub-intern-taylor-shares-her-indigenous-student-abroad-experience",
+      "normalizedUrl": "https://law.unimelb.edu.au/news/iljh/coming-to-australia-hub-intern-taylor-shares-her-indigenous-student-abroad-experience",
+      "title": "Coming to Australia? Hub intern Taylor shares her Indigenous student abroad experience",
+      "wordCount": 645,
+      "fingerprint": "db2496ee6acd748e"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/childrens-rights-and-reconciliation-webinar-01.06.20",
+      "normalizedUrl": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/childrens-rights-and-reconciliation-webinar-01.06.20",
+      "title": "Children\u2019s Rights and Reconciliation Webinar - 01.06.20",
+      "wordCount": 146,
+      "fingerprint": "db3c96caed5cfc06"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/2023-law-rare-book-lecture-19.09.23",
+      "normalizedUrl": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/2023-law-rare-book-lecture-19.09.23",
+      "title": "2023 Law Rare Books Lecture - 19.09.23",
+      "wordCount": 514,
+      "fingerprint": "db6e61cb4ba4f4df"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/news/iljh/mumuk-cubillo",
+      "normalizedUrl": "https://law.unimelb.edu.au/news/iljh/mumuk-cubillo",
+      "title": "MUMUK CUBILLO",
+      "wordCount": 347,
+      "fingerprint": "dbf8dd274c56a645"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/alan-missen-oration2",
+      "normalizedUrl": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/alan-missen-oration2",
+      "title": "2024 Alan Missen Oration",
+      "wordCount": 517,
+      "fingerprint": "dcd64f6dd3b9e8e8"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/",
+      "normalizedUrl": "https://law.unimelb.edu.au/",
+      "title": "Melbourne Law School | The University of Melbourne",
+      "wordCount": 931,
+      "fingerprint": "dcfdff0b43d1da0d"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/untapped-the-australian-literary-heritage-project-launch-24.12.20",
+      "normalizedUrl": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/untapped-the-australian-literary-heritage-project-launch-24.12.20",
+      "title": "Untapped: the Australian Literary Heritage Project Launch 24.11.20",
+      "wordCount": 201,
+      "fingerprint": "ddb9448aed94d0fa"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/iljh/contact-us",
+      "normalizedUrl": "https://law.unimelb.edu.au/iljh/contact-us",
+      "title": "Contact Us",
+      "wordCount": 171,
+      "fingerprint": "e04f061ee6ddb0fe"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/news?result_4982708_result_page=9",
+      "normalizedUrl": "https://law.unimelb.edu.au/news?result_4982708_result_page=9",
+      "title": "News | Melbourne Law School | The University of Melbourne",
+      "wordCount": 15,
+      "fingerprint": "e2063c4e298188a2"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/study/masters/specialist-legal-areas/executive-management",
+      "normalizedUrl": "https://law.unimelb.edu.au/study/masters/specialist-legal-areas/executive-management",
+      "title": "Executive Management",
+      "wordCount": 233,
+      "fingerprint": "e2154372f984de2b"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/study/masters/specialist-legal-areas/tax",
+      "normalizedUrl": "https://law.unimelb.edu.au/study/masters/specialist-legal-areas/tax",
+      "title": "Tax",
+      "wordCount": 1012,
+      "fingerprint": "e22de92979766487"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/centres/mccl/research/research-programs/corporate-law-and-financial-regulation/engagement/past-events/2022/corporate-law-and-governance-in-the-21st-century/program-recordings",
+      "normalizedUrl": "https://law.unimelb.edu.au/centres/mccl/research/research-programs/corporate-law-and-financial-regulation/engagement/past-events/2022/corporate-law-and-governance-in-the-21st-century/program-recordings",
+      "title": "Program and Recordings",
+      "wordCount": 171,
+      "fingerprint": "e24d83815e78beee"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/displacement-and-protection-global-challenges",
+      "normalizedUrl": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/displacement-and-protection-global-challenges",
+      "title": "Displacement and Protection: Global Challenges - 21.04.23",
+      "wordCount": 212,
+      "fingerprint": "e32148303a4ae44e"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/news/cilis/nadirsyah-hosen-appointed-to-expert-advisory-board-of-peradi",
+      "normalizedUrl": "https://law.unimelb.edu.au/news/cilis/nadirsyah-hosen-appointed-to-expert-advisory-board-of-peradi",
+      "title": "Nadirsyah Hosen Appointed to Expert Advisory Board of PERADI",
+      "wordCount": 108,
+      "fingerprint": "e48412a9905684a3"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/news/MLS/reflecting-on-the-national-indigenous-legal-conference",
+      "normalizedUrl": "https://law.unimelb.edu.au/news/MLS/reflecting-on-the-national-indigenous-legal-conference",
+      "title": "Reflecting on the National Indigenous Legal Conference",
+      "wordCount": 762,
+      "fingerprint": "e4ec9956bf8fba5f"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/news/iljh/invasion-day-rally-hub-meet-up",
+      "normalizedUrl": "https://law.unimelb.edu.au/news/iljh/invasion-day-rally-hub-meet-up",
+      "title": "Invasion Day 2025 Rally Hub Meet Up",
+      "wordCount": 69,
+      "fingerprint": "e5d64be3b6dbf715"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/2024-james-merralls-fellowship-in-law-lecture",
+      "normalizedUrl": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/2024-james-merralls-fellowship-in-law-lecture",
+      "title": "2024 James Merralls Fellowship in Law Lecture - 5.09.24",
+      "wordCount": 492,
+      "fingerprint": "e78f5cb6b2046e4f"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/2024-baxt-lecture-12.11.24",
+      "normalizedUrl": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/2024-baxt-lecture-12.11.24",
+      "title": "2024 Baxt Lecture - 12.11.24",
+      "wordCount": 339,
+      "fingerprint": "e7a6414884ed98a1"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/study/masters/specialist-legal-areas/competition-and-consumer-law",
+      "normalizedUrl": "https://law.unimelb.edu.au/study/masters/specialist-legal-areas/competition-and-consumer-law",
+      "title": "Competition Law",
+      "wordCount": 301,
+      "fingerprint": "e7eb4ae101270bad"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/law-apps-awards-semester-1,-3.06.20",
+      "normalizedUrl": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/law-apps-awards-semester-1,-3.06.20",
+      "title": "Law Apps Awards - Semester 1, 3.06.20",
+      "wordCount": 247,
+      "fingerprint": "e7ed28c71e0af98c"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/2021-allen-hope-southey-memorial-lecture-25.08.2021",
+      "normalizedUrl": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/2021-allen-hope-southey-memorial-lecture-25.08.2021",
+      "title": "2021 Allen Hope Southey Memorial Lecture - 25.08.2021",
+      "wordCount": 696,
+      "fingerprint": "e9733809803b2b2d"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/2022-harold-ford-memorial-lecture-17.05.2022",
+      "normalizedUrl": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/2022-harold-ford-memorial-lecture-17.05.2022",
+      "title": "2022 Harold Ford Memorial Lecture - 17.05.2022",
+      "wordCount": 496,
+      "fingerprint": "eae8279807ba4322"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/research/research-activities",
+      "normalizedUrl": "https://law.unimelb.edu.au/research/research-activities",
+      "title": "Research Activities",
+      "wordCount": 190,
+      "fingerprint": "eb60fa1093a14529"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/iljh/study/jd-indigenous",
+      "normalizedUrl": "https://law.unimelb.edu.au/iljh/study/jd-indigenous",
+      "title": "Indigenous students and the JD Program",
+      "wordCount": 271,
+      "fingerprint": "ed8801213731e864"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/news/MLS/justice-professionals-gather-at-the-hub-for-practical-application-of-bugmy-principles",
+      "normalizedUrl": "https://law.unimelb.edu.au/news/MLS/justice-professionals-gather-at-the-hub-for-practical-application-of-bugmy-principles",
+      "title": "Justice professionals gather at The Hub for practical application of Bugmy principles",
+      "wordCount": 290,
+      "fingerprint": "ef2b0006baf6e675"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/study/masters/specialist-legal-areas/health-and-medical-law",
+      "normalizedUrl": "https://law.unimelb.edu.au/study/masters/specialist-legal-areas/health-and-medical-law",
+      "title": "Health and Medical Law",
+      "wordCount": 301,
+      "fingerprint": "ef80e8198d384707"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/law-apps-awards-semester-2,-2020",
+      "normalizedUrl": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/law-apps-awards-semester-2,-2020",
+      "title": "Law Apps Awards - Semester 2, 28.10.20",
+      "wordCount": 252,
+      "fingerprint": "f02907a7082f6cab"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/human-rights-in-the-time-of-covid-19-webinar-12.05.20",
+      "normalizedUrl": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/human-rights-in-the-time-of-covid-19-webinar-12.05.20",
+      "title": "Human Rights in the time of Covid-19 Webinar - 12.05.20",
+      "wordCount": 158,
+      "fingerprint": "f05c6e916559efed"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/study/masters/specialist-legal-areas/legal-leadership",
+      "normalizedUrl": "https://law.unimelb.edu.au/study/masters/specialist-legal-areas/legal-leadership",
+      "title": "Legal Leadership",
+      "wordCount": 130,
+      "fingerprint": "f1152e918c0ef416"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/centres/mccl/news-and-events/past-events/past-events-2026/robots,-artificial-intelligence-and-the-future-of-taxation",
+      "normalizedUrl": "https://law.unimelb.edu.au/centres/mccl/news-and-events/past-events/past-events-2026/robots,-artificial-intelligence-and-the-future-of-taxation",
+      "title": "Robots, Artificial Intelligence and the Future of Taxation",
+      "wordCount": 343,
+      "fingerprint": "f12c7dffd35427bb"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/2025-seabrook-chambers-public-lecture-27.03.25",
+      "normalizedUrl": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/2025-seabrook-chambers-public-lecture-27.03.25",
+      "title": "2025 Seabrook Chambers Public Lecture - 27.03.25",
+      "wordCount": 488,
+      "fingerprint": "f1f2514ea1696b40"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/2024-harold-ford-memorial-lecture-20.11.2024",
+      "normalizedUrl": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/2024-harold-ford-memorial-lecture-20.11.2024",
+      "title": "2024 Harold Ford Memorial Lecture - 20.11.2024",
+      "wordCount": 542,
+      "fingerprint": "f26918ded8d671e2"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/2021-harold-ford-memorial-lecture-5.10.2021",
+      "normalizedUrl": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/2021-harold-ford-memorial-lecture-5.10.2021",
+      "title": "2021 Harold Ford Memorial Lecture - 5.10.2021",
+      "wordCount": 526,
+      "fingerprint": "f3a54033a4f0c9d8"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/iljh/study/mlm-indigenous",
+      "normalizedUrl": "https://law.unimelb.edu.au/iljh/study/mlm-indigenous",
+      "title": "Indigenous Students and the Melbourne Law Masters",
+      "wordCount": 388,
+      "fingerprint": "f4563a99e079f999"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/study",
+      "normalizedUrl": "https://law.unimelb.edu.au/study",
+      "title": "Study",
+      "wordCount": 340,
+      "fingerprint": "f4eea4a05be377b6"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/news/iljh/professor-eddie-cubillo-recognised-with-prestigious-naidoc-education-award",
+      "normalizedUrl": "https://law.unimelb.edu.au/news/iljh/professor-eddie-cubillo-recognised-with-prestigious-naidoc-education-award",
+      "title": "Professor Eddie Cubillo recognised for his exceptional contribution to education at the 2025 NAIDOC awards",
+      "wordCount": 819,
+      "fingerprint": "f6b34f53916acd1d"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/law-library/collections/legal-history-resources-online",
+      "normalizedUrl": "https://law.unimelb.edu.au/law-library/collections/legal-history-resources-online",
+      "title": "Legal History Resources Online",
+      "wordCount": 463,
+      "fingerprint": "f854e990e026e948"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/news/iljh/victorian-treaty-authority-panel-announced",
+      "normalizedUrl": "https://law.unimelb.edu.au/news/iljh/victorian-treaty-authority-panel-announced",
+      "title": "Victorian Treaty Authority Panel Announced",
+      "wordCount": 652,
+      "fingerprint": "fa61b34b2a210729"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/faces-of-mls/students/soumik-chakraborty-master-of-laws-llm",
+      "normalizedUrl": "https://law.unimelb.edu.au/faces-of-mls/students/soumik-chakraborty-master-of-laws-llm",
+      "title": "Soumik Chakraborty | Master of Laws (LLM)",
+      "wordCount": 30,
+      "fingerprint": "fbaac707f7e1d55c"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/news/iljh/article-a-rejection-30-years-in-the-making-by-prof.-eddie-cubillo",
+      "normalizedUrl": "https://law.unimelb.edu.au/news/iljh/article-a-rejection-30-years-in-the-making-by-prof.-eddie-cubillo",
+      "title": "Article: A Rejection 30 Years in the Making by prof. eddie cubillo",
+      "wordCount": 39,
+      "fingerprint": "fbd7c053581ef10f"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/2024-francis-gurry-lecture-on-intellectual-property-19.11.2024",
+      "normalizedUrl": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/2024-francis-gurry-lecture-on-intellectual-property-19.11.2024",
+      "title": "2024 Francis Gurry Lecture on Intellectual Property - 19.11.2024",
+      "wordCount": 415,
+      "fingerprint": "fc25c32b8108f426"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/law-library",
+      "normalizedUrl": "https://law.unimelb.edu.au/law-library",
+      "title": "Law Library",
+      "wordCount": 868,
+      "fingerprint": "fcc5d0eba43fb3ae"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/news/iljh/we-will-tell-our-children-about-today,-victorian-treaty-with-indigenous-people-has-been-signed-into-law",
+      "normalizedUrl": "https://law.unimelb.edu.au/news/iljh/we-will-tell-our-children-about-today,-victorian-treaty-with-indigenous-people-has-been-signed-into-law",
+      "title": "\u201cWe will tell our children about today\u201d Victorian Treaty with Indigenous people signed into law",
+      "wordCount": 332,
+      "fingerprint": "fd31bfc49c1401b5"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/study/breadth",
+      "normalizedUrl": "https://law.unimelb.edu.au/study/breadth",
+      "title": "Law breadth",
+      "wordCount": 760,
+      "fingerprint": "fe4cdee3520d871f"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/2023-miegunyah-distinguished-visiting-fellowship-public-lecture",
+      "normalizedUrl": "https://law.unimelb.edu.au/about/mls-video-gallery/public-lectures-and-events/2023-miegunyah-distinguished-visiting-fellowship-public-lecture",
+      "title": "2023 Miegunyah Distinguished Visiting Fellowship Public Lecture - 27.07.23",
+      "wordCount": 457,
+      "fingerprint": "feafa3ef47f59fbd"
+    },
+    {
+      "url": "https://law.unimelb.edu.au/study/masters/teachers/mls",
+      "normalizedUrl": "https://law.unimelb.edu.au/study/masters/teachers/mls",
+      "title": "Melbourne Law School teachers",
+      "wordCount": 453,
+      "fingerprint": "fef98722e32656ec"
+    }
+  ]
+}

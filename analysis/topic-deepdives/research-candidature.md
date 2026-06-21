@@ -45,25 +45,25 @@ Law alone holds **36%** of the topic — but that is an artefact of one design c
 
 A cross-cutting pattern: the candidature lifecycle (Type 1) is the same journey everywhere because it is **driven by one central system** (the Candidature Management System and its online progress-review forms). What faculties legitimately add is the *discipline-specific* milestone detail (Type 2), the people (Type 3), the money (Type 4), and the practice-based output (Type 7).
 
-## Legitimate vs hub-overlapping
+## Legitimate vs central-overlapping
 
-| Faculty-owned (cannot be centralised) | Overlaps the hub (consolidation candidate) |
+| Faculty-owned (cannot be centralised) | Overlaps students.unimelb.edu.au (consolidation candidate) |
 |---|---|
 | Discipline-specific PhD/MPhil milestones (Law, FFAM) | Generic candidature lifecycle prose: commencement, progress reviews, variations, conversion, thesis submission (Arts, FEIT, FBE all restate it) |
-| Individual graduate-researcher profiles (Law, FEIT) | Generic "how progress review / milestone / thesis submission works" — owned by the Candidature Management System + Grad Research Hub |
+| Individual graduate-researcher profiles (Law, FEIT) | Generic "how progress review / milestone / thesis submission works" — owned by the Candidature Management System + Grad Research students.unimelb.edu.au |
 | Research studios & creative-practice output (MSD, FFAM) | Faculty restatements of University-wide HDR scholarship *policy* (vs faculty-specific schemes, which stay) |
 | Faculty-specific scholarships, grants & writing-up awards (FEIT, FBE, FFAM, Dental) | "Getting started / arrival checklist" boilerplate duplicated per faculty |
 | Research-project *subjects* embedded in coursework (Science, Biomedical, MBS) | Generic supervision and research-integrity advice (University-wide policy) |
 | Overseas/international research programs (FEIT) | |
 
-The balance tips **faculty-owned** — but for two different reasons than course-planning. About half the count is *legitimately* discipline-bound (milestones, studios, faculty-specific funding, research subjects). The other half is **not duplicated guidance so much as inflated structure**: ~70+ profile pages and a lifecycle spine that every faculty re-narrates around a single central system the hub already owns.
+The balance tips **faculty-owned** — but for two different reasons than course-planning. About half the count is *legitimately* discipline-bound (milestones, studios, faculty-specific funding, research subjects). The other half is **not duplicated guidance so much as inflated structure**: ~70+ profile pages and a lifecycle spine that every faculty re-narrates around a single central system students.unimelb.edu.au already owns.
 
 ## Recommendation
-- **Hub owns the candidature spine:** a single canonical "Managing your candidature" set — commencement, milestone/progress reviews, candidature variations, conversion/transfer, thesis submission — sourced from the Candidature Management System and the Graduate Research Hub. Faculties link to it rather than re-narrating it (Arts, FEIT and FBE currently each maintain their own copy).
-- **Faculties keep the discipline layer:** PhD/MPhil milestone *specifics*, research studios and creative-practice output, faculty-specific scholarships/grants/writing-up awards, and research-project subjects. These are exactly the content the hub cannot write.
-- **Add one hub gateway:** `students.unimelb.edu.au/.../graduate-research/faculty-requirements` — a thin index linking each faculty's discipline-specific milestone and supervision pages, so a candidate can get from the central spine to their school's requirements in one hop (today this only works in reverse).
+- **students.unimelb.edu.au owns the candidature spine:** a single canonical "Managing your candidature" set — commencement, milestone/progress reviews, candidature variations, conversion/transfer, thesis submission — sourced from the Candidature Management System and the Graduate Research students.unimelb.edu.au. Faculties link to it rather than re-narrating it (Arts, FEIT and FBE currently each maintain their own copy).
+- **Faculties keep the discipline layer:** PhD/MPhil milestone *specifics*, research studios and creative-practice output, faculty-specific scholarships/grants/writing-up awards, and research-project subjects. These are exactly the content students.unimelb.edu.au cannot write.
+- **Add one students.unimelb.edu.au gateway:** `students.unimelb.edu.au/.../graduate-research/faculty-requirements` — a thin index linking each faculty's discipline-specific milestone and supervision pages, so a candidate can get from the central spine to their school's requirements in one hop (today this only works in reverse).
 - **Treat graduate-researcher profiles as a directory, not pages:** ~70 individual Law bios (and FEIT's equivalent) belong in a filterable researcher directory / data-driven listing, not as 70 standalone tagged pages — this single change deflates the topic's count without losing any content.
-- **Highest-value fix:** consolidate the duplicated candidature lifecycle into one hub-owned spine and convert per-student bios to a directory. Together these remove the bulk of the non-discipline-specific page count while leaving every faculty's genuinely owned milestone, studio, and funding content untouched.
+- **Highest-value fix:** consolidate the duplicated candidature lifecycle into one centrally-owned spine and convert per-student bios to a directory. Together these remove the bulk of the non-discipline-specific page count while leaving every faculty's genuinely owned milestone, studio, and funding content untouched.
 
 ## Appendix — all research-candidature pages (241)
 

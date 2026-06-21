@@ -1,7 +1,7 @@
 # Topic Deep-Dive: Clubs & Events
 *Cross-faculty analysis from the full crawl. June 2026.*
 
-**104 clubs-events–tagged pages** sit across the faculty estate — a mid-sized topic, but one of the most clearly *faculty-owned* in the whole audit. Almost none of it is transactional: it's discipline-specific student community (engineering clubs, music ensembles, law mooting, design exhibitions) plus the local events, mentoring and ambassador programs faculties run themselves. The duplication is thin and concentrated in one place — the operational scaffolding around club administration (room bookings, event funding, "promote your event"), which the hub already provides centrally.
+**104 clubs-events–tagged pages** sit across the faculty estate — a mid-sized topic, but one of the most clearly *faculty-owned* in the whole audit. Almost none of it is transactional: it's discipline-specific student community (engineering clubs, music ensembles, law mooting, design exhibitions) plus the local events, mentoring and ambassador programs faculties run themselves. The duplication is thin and concentrated in one place — the operational scaffolding around club administration (room bookings, event funding, "promote your event"), which students.unimelb.edu.au already provides centrally.
 
 ## Distribution — who holds it
 
@@ -13,8 +13,8 @@
 | Fine Arts & Music | 9 | Conservatorium ensembles (Big Band, Symphonic, Chamber) |
 | Arts | 7 | Student Ambassadors + graduate-research enrichment |
 | Education | 7 | Mentoring (peer/career) + ambassador program |
-| MDHS | 7 | Faculty clubs, Chat Fest, the MDHS Student Hub |
-| Science | 5 | Clubs-and-societies hub page + signature events |
+| MDHS | 7 | Faculty clubs, Chat Fest, the MDHS Student students.unimelb.edu.au |
+| Science | 5 | Clubs-and-societies students.unimelb.edu.au page + signature events |
 | Biomedical Sciences (school · MDHS) | 5 | Student societies (UG + Master's) |
 | **Total** | **104** | |
 
@@ -28,7 +28,7 @@ FEIT alone holds **a third** of the topic — not because it has more clubs than
 
 3. **Competitions & signature flagship events** — recurring, branded events that are the faculty's own. *FEIT* "FEIT Hackathon Festival" (its single largest page, 2,177w) and the "Diversity & Inclusion Case Competition" (with its own how-it-works / eligibility / prizes sub-pages); *Law* "Mooting and Competitions"; *Science* "Agriculture Discovery Week"; *MDHS* "Chat Fest". Discipline-bound by definition.
 
-4. **Club-administration toolkits (the operational layer)** — guidance *for running* a club: booking, money, promotion. This is where the hub-overlap concentrates. *FEIT* "Information for committee members", "Event Funding and Invoicing", "Book a room for your event", "Promote an Upcoming Event"; *ABP/MSD* "Information for clubs" (which hard-codes a `abp-clubs@unimelb.edu.au` room-booking process). The *subject* (named clubs) is faculty-owned; the *process* (how to book a room, claim funding) is generic university machinery restated locally.
+4. **Club-administration toolkits (the operational layer)** — guidance *for running* a club: booking, money, promotion. This is where central-overlap concentrates. *FEIT* "Information for committee members", "Event Funding and Invoicing", "Book a room for your event", "Promote an Upcoming Event"; *ABP/MSD* "Information for clubs" (which hard-codes a `abp-clubs@unimelb.edu.au` room-booking process). The *subject* (named clubs) is faculty-owned; the *process* (how to book a room, claim funding) is generic university machinery restated locally.
 
 5. **Event calendars & listings** — *FEIT* runs a sprawling "FEIT Student Event Calendar" → "Upcoming events" tree, with individual scholarship-round and skills-series events tagged as "events". Notably, this calendar exists at **two parallel URL paths** (`/students/eng-and-it-calendar/...` and `/students/coursework/student-experience/orientation/.../eng-and-it-calendar/...`), so most calendar entries appear twice — a self-duplication inside a single faculty.
 
@@ -36,25 +36,25 @@ FEIT alone holds **a third** of the topic — not because it has more clubs than
 
 7. **Graduate-researcher community** — a distinct sub-stream for HDR students, separate from coursework student life. *Law* runs an entire set of graduate-researcher profile pages (Bongkot Napaumporn, Fia Hamid-Walker, Emma Finlay, etc.) plus the "MLS Graduate Researchers Association (GRA)"; *Arts* "Enriching your graduate research"; *Science* "Events for graduate researchers". The PhD community is socially separate, and faculties model it that way.
 
-8. **Student-life landing & enrichment hubs** — the faculty-level "front door" to all of the above. *MDHS* "MDHS Student Hub" and "Student Enrichment and Support"; *Law* "Student Life and Societies"; *Arts*/*Education* "Enrichment" / "Enrich your studies". These are legitimate faculty index pages, though several are thin link-farms (Arts "ArtsModules", "Manage your candidature" at <100w).
+8. **Student-life landing & enrichment central sites** — the faculty-level "front door" to all of the above. *MDHS* "MDHS Student students.unimelb.edu.au" and "Student Enrichment and Support"; *Law* "Student Life and Societies"; *Arts*/*Education* "Enrichment" / "Enrich your studies". These are legitimate faculty index pages, though several are thin link-farms (Arts "ArtsModules", "Manage your candidature" at <100w).
 
-## Legitimate vs hub-overlapping
+## Legitimate vs central-overlapping
 
-| Faculty-owned (cannot be centralised) | Overlaps the hub (consolidation candidate) |
+| Faculty-owned (cannot be centralised) | Overlaps students.unimelb.edu.au (consolidation candidate) |
 |---|---|
 | Named discipline clubs & societies (FEIT, MDHS, ABP, Science, Biomedical) | Generic club-admin process — room booking, event funding, committee guidance |
 | Conservatorium ensembles + audition/registration (FFAM) | "Promote your event" / newsletter mechanics |
 | Flagship competitions & events — Hackathon, Chat Fest, Mooting, Ag Discovery Week | Duplicate calendar trees (FEIT's two parallel paths) |
 | Faculty mentoring & ambassador programs (Education, Arts) | Duplicate ambassador/enrichment pages (Arts ×2, FEIT calendar entries ×2) |
-| Graduate-researcher community & profiles (Law, Arts, Science) | Thin enrichment link-farms re-pointing to material the hub holds |
+| Graduate-researcher community & profiles (Law, Arts, Science) | Thin enrichment link-farms re-pointing to material students.unimelb.edu.au holds |
 
 The balance tilts heavily toward **legitimate faculty ownership** — the clubs, ensembles, competitions and HDR community are discipline-bound and could not live centrally. The consolidation opportunity is narrow but real: the *administrative wrapper* around clubs (book a room, claim funding, promote an event) is generic, and the self-duplication (FEIT's twin calendar paths, Arts's doubled ambassador pages) is pure noise.
 
 ## Recommendation
-- **Hub owns** the generic club-administration spine — one canonical "running a club: book a room, claim funding, promote an event" page set under the central student hub, plus the university-wide UMSU/club-registration entry point. Faculties link to it instead of restating the process (FEIT and ABP both currently re-document it).
+- **students.unimelb.edu.au owns** the generic club-administration spine — one canonical "running a club: book a room, claim funding, promote an event" page set under the students.unimelb.edu.au, plus the university-wide UMSU/club-registration entry point. Faculties link to it instead of restating the process (FEIT and ABP both currently re-document it).
 - **Faculties keep** everything identity-bearing: named clubs and societies, ensembles, flagship competitions, mentoring/ambassador programs, and graduate-researcher community — this is 80%+ of the topic and is the point of a faculty student-life presence.
-- **Add one hub gateway:** `students.unimelb.edu.au/your-community/faculty-clubs-and-events` — a thin directory linking out to each faculty's clubs-and-societies and student-life landing page, so discipline community is discoverable from the centre (it currently isn't).
-- **Standardise the entry pattern:** every faculty exposes a single "Clubs & student life" page → (a) its named clubs/ensembles and (b) the hub's club-admin spine — consistent label and one canonical URL per faculty.
+- **Add one students.unimelb.edu.au gateway:** `students.unimelb.edu.au/your-community/faculty-clubs-and-events` — a thin directory linking out to each faculty's clubs-and-societies and student-life landing page, so discipline community is discoverable from the centre (it currently isn't).
+- **Standardise the entry pattern:** every faculty exposes a single "Clubs & student life" page → (a) its named clubs/ensembles and (b) students.unimelb.edu.au's club-admin spine — consistent label and one canonical URL per faculty.
 - **Highest-value fix:** kill the in-faculty duplication first — collapse FEIT's two parallel event-calendar trees into one path and de-duplicate the doubled Arts ambassador pages. It removes the largest block of redundant URLs in this topic with zero loss of unique content.
 
 ## Appendix — all clubs-events pages (104)
@@ -161,7 +161,7 @@ The balance tilts heavily toward **legitimate faculty ownership** — the clubs,
 ### MDHS — 7
 - **482w** — [Chat Fest](https://mdhs.unimelb.edu.au/study/current-students/student-enrichment/chat-fest)
 - **462w** — [Student Clubs and Societies](https://mdhs.unimelb.edu.au/study/current-students/student-enrichment/clubs-and-societies)
-- **327w** — [MDHS Student Hub](https://mdhs.unimelb.edu.au/study/current-students/student-enrichment/mdhs-student-hub)
+- **327w** — [MDHS Student students.unimelb.edu.au](https://mdhs.unimelb.edu.au/study/current-students/student-enrichment/mdhs-student-students.unimelb.edu.au)
 - **296w** — [Current Students](https://mdhs.unimelb.edu.au/study/current-students)
 - **294w** — [CPR and First Aid](https://mdhs.unimelb.edu.au/study/current-students/placements/students/requirements/course-specific-checks/first-aid-and-cpr)
 - **228w** — [Overseas Placements](https://mdhs.unimelb.edu.au/study/current-students/placements/students/overseas-placements)

@@ -2,7 +2,7 @@
 
 *Cross-faculty analysis from the full crawl. June 2026.*
 
-**125 graduation-tagged pages** sit across the faculty estate — a mid-sized topic, but the tag is a near-total misnomer. Almost none of it is about the graduation *ceremony* or the transactional spine of *completing* a degree (apply to graduate, eligibility, eStudent, the ceremony itself) — that material lives on the central hub and is barely tagged here. What the tag actually captures is the **end-of-degree lifecycle as faculties experience it**: research-candidature milestones and thesis submission, honours and Dean's-award recognition, graduate-research prizes and travel grants, and graduate-cohort enrichment. It is overwhelmingly **faculty-owned and discipline-bound**, dominated by a single faculty (Arts), with a thin layer of hub-overlapping orientation/enrolment restatements.
+**125 graduation-tagged pages** sit across the faculty estate — a mid-sized topic, but the tag is a near-total misnomer. Almost none of it is about the graduation *ceremony* or the transactional spine of *completing* a degree (apply to graduate, eligibility, eStudent, the ceremony itself) — that material lives on students.unimelb.edu.au and is barely tagged here. What the tag actually captures is the **end-of-degree lifecycle as faculties experience it**: research-candidature milestones and thesis submission, honours and Dean's-award recognition, graduate-research prizes and travel grants, and graduate-cohort enrichment. It is overwhelmingly **faculty-owned and discipline-bound**, dominated by a single faculty (Arts), with a thin layer of central-overlapping orientation/enrolment restatements.
 
 ## Distribution — who holds it
 
@@ -40,24 +40,24 @@ Arts alone holds **49%** of the topic — almost all of it the graduate-research
 
 A structural observation across all eight types: the topic is heavy with **link-farms, redirects and path-variant duplicates** (Arts especially — "Graduate Research Orientation" three times, `_nocache` and `plan-your-program2` mirrors, an `eStudent login` 404). The signal-to-noise is low and the genuinely-graduation content (types 1–3) is a minority of the 125.
 
-## Legitimate vs hub-overlapping
+## Legitimate vs central-overlapping
 
-| Faculty-owned (cannot be centralised) | Overlaps the hub (consolidation candidate) |
+| Faculty-owned (cannot be centralised) | Overlaps students.unimelb.edu.au (consolidation candidate) |
 |---|---|
 | Research-candidature milestones, thesis submission, conversion (Arts) | Generic graduate orientation / "getting started" (Arts, FEIT) |
 | Dean's Honours Awards lists by year (MSD, FBE) | Re-hosted enrolment / class-registration mechanics (FEIT, Arts) |
 | Graduate-research prizes, write-up & travel awards (FEIT, FFAM) | Path-variant & `_nocache` duplicates, redirects, link-farms |
-| Placement-conclusion for accredited degrees (MDHS) | The actual *graduation ceremony / apply-to-graduate* spine (hub-owned; barely present here) |
+| Placement-conclusion for accredited degrees (MDHS) | The actual *graduation ceremony / apply-to-graduate* spine (centrally-owned; barely present here) |
 | Discipline-specific progress reviews & supervision (FFAM) | Cross-tagged course-structure / sample-plan pages (MSD, Arts) |
 
-The balance tips clearly to **faculty-owned** — candidature lifecycle, honours, and research prizes are intrinsically discipline-bound. But the topic's defining feature is an *absence*: the transactional graduation spine that students most need (eligibility, apply-to-graduate, ceremony logistics, parchment/AHEGS) is a hub responsibility and is almost entirely missing from this tag, while a fog of duplicates and enrichment pages inflate the count.
+The balance tips clearly to **faculty-owned** — candidature lifecycle, honours, and research prizes are intrinsically discipline-bound. But the topic's defining feature is an *absence*: the transactional graduation spine that students most need (eligibility, apply-to-graduate, ceremony logistics, parchment/AHEGS) is a students.unimelb.edu.au responsibility and is almost entirely missing from this tag, while a fog of duplicates and enrichment pages inflate the count.
 
 ## Recommendation
 
-- **Hub owns the graduation spine outright:** eligibility to graduate, apply-to-graduate in eStudent, ceremony dates/logistics, parchments and the AHEGS/testamur. This is pure transactional cross-cutting service — it belongs at `students.unimelb.edu.au` as the single source of truth, and the crawl shows faculties are *not* duplicating it (good) but also not linking to it consistently.
+- **students.unimelb.edu.au owns the graduation spine outright:** eligibility to graduate, apply-to-graduate in eStudent, ceremony dates/logistics, parchments and the AHEGS/testamur. This is pure transactional cross-cutting service — it belongs at `students.unimelb.edu.au` as the single source of truth, and the crawl shows faculties are *not* duplicating it (good) but also not linking to it consistently.
 - **Faculties keep the discipline-bound completion content:** research-candidature milestones and thesis submission (Arts), Dean's Honours Awards and graduate-research prizes (MSD, FEIT, FBE), placement-conclusion for accredited degrees (MDHS), and progress reviews (FFAM).
 - **Split the tag — it conflates two journeys.** "Graduation/completion of a coursework degree" (ceremony, parchment) and "research-candidature lifecycle" (milestones → thesis → examination) are different journeys with different owners. The single `graduation` tag hides both; retag to separate *coursework completion* from *HDR candidature*.
-- **Add one hub gateway:** a "Graduating from your course" page that links out to (a) the central apply-to-graduate transaction and (b) each faculty's honours/awards and HDR-completion pages — so the end-of-degree journey is discoverable from the centre, which it currently is not.
+- **Add one students.unimelb.edu.au gateway:** a "Graduating from your course" page that links out to (a) the central apply-to-graduate transaction and (b) each faculty's honours/awards and HDR-completion pages — so the end-of-degree journey is discoverable from the centre, which it currently is not.
 - **Highest-value fix:** clean the Arts/FEIT noise. Roughly a third of the 125 are link-farms, redirects, or path-variant duplicates ("Graduate Research Orientation" ×3, `_nocache` mirrors, dead `eStudent login` links). Deduplicating and pruning these would shrink the topic to its real ~80 substantive pages and make the genuine completion content findable.
 
 ## Appendix — all graduation pages (125)

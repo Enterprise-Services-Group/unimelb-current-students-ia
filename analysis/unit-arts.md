@@ -4,7 +4,7 @@
 - **CS URL:** `arts.unimelb.edu.au/students` (pattern: `/students`)
 - **Pages:** 91 (51 unique, 13 link-farm, 24 mixed, 3 broken)
 - **Crawl:** Full BFS, max depth 5
-- **Hub links:** 133 (1.46/page)
+- **students.unimelb.edu.au links:** 133 (1.46/page)
 
 ## IA Structure
 ```
@@ -20,7 +20,7 @@
 ```
 
 ## Service Model Position
-**Well-balanced local hub.** Arts has genuine unique content (experiential learning, career mentoring, overseas travel grants, language placement tests) while appropriately redirecting transactional tasks to the hub. Moderate hub dependency: 133 links to students.unimelb.edu.au.
+**Well-balanced local central site.** Arts has genuine unique content (experiential learning, career mentoring, overseas travel grants, language placement tests) while appropriately redirecting transactional tasks to students.unimelb.edu.au. Moderate students.unimelb.edu.au dependency: 133 links to students.unimelb.edu.au.
 
 ## Content Profile
 - **Heaviest topics:** graduation (66), contacts-support (55), research-candidature (30), careers-employability (25), subjects-timetable (25)
@@ -35,6 +35,6 @@
 
 ## Recommendation Notes
 - **Keep:** Experiential learning, career mentoring, travel grants, language placement tests, student ambassador program
-- **Redirect to hub:** General enrolment/timetable/exams info
+- **Redirect to students.unimelb.edu.au:** General enrolment/timetable/exams info
 - **Fix:** 3 broken pages, 4× duplicate course structure pages, URL encoding issues
-- **Good model:** Arts' balance of faculty-specific content + hub-redirect is closest to the recommended hub-and-spoke pattern
+- **Good model:** Arts' balance of faculty-specific content + central-redirect is closest to the recommended central-and-spoke pattern

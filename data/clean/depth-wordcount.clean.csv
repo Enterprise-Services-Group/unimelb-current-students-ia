@@ -1,0 +1,13 @@
+unit_slug,faculty,pages,max_depth,mean_depth,content_pages,total_words_content,median_words_content
+law,Law,192,4,2.7,105,82679,565
+feit,FEIT,190,6,3.1,190,142648,538
+arts,Arts,89,5,2.2,72,47783,503
+science,Science,94,3,2.4,65,65773,941
+abp,ABP,250,4,3.0,104,85321,744
+fbe,FBE,36,4,2.6,34,21818,492
+education,Education,47,4,2.2,42,33967,592
+ffam,FFAM,36,2,1.2,31,23411,711
+mdhs,MDHS,112,6,3.6,107,46035,380
+mbs,FBE,61,4,2.7,61,49585,844
+biomedical,MDHS,42,3,2.2,28,19481,492
+dental,MDHS,4,1,0.8,4,3913,836

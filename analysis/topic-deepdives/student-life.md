@@ -8,7 +8,7 @@
 
 | Unit | Pages | What dominates |
 |---|--:|---|
-| Architecture, Building & Planning (MSD) | 60 | Studio archive + student-experience hub (clubs, mentoring, awards, exhibitions) |
+| Architecture, Building & Planning (MSD) | 60 | Studio archive + student-experience students.unimelb.edu.au (clubs, mentoring, awards, exhibitions) |
 | Law | 46 | JD enrichment: clinics + global degree-partnership pages |
 | Science | 38 | Student-staff reference committee member bios + volunteering/wellbeing |
 | Engineering & IT (FEIT) | 25 | Eng & IT Community, peer/ambassador programs, Community Awards winners |
@@ -31,27 +31,27 @@ ABP/MSD alone holds **28%** of the topic — but the bulk of that is the MSD stu
 4. **Faculty awards, recognition & celebrations** — *MSD* "Dean's Honours Awards" (2023, 2024); *FEIT* "Community Awards" (FAQs, nomination, and a winners page **per year, 2022–2025**); *MDHS* "Chancellor's Scholars" (with individual scholar bios — Garry Zhu, Emily Sun, Zahra Ataie).
 5. **Discipline-specific enrichment & experiential programs** — the line where "student life" blurs into curriculum. *Law*'s **MLS Clinics** (Tax, Public Interest, Climate Resilience, Indigenous Legal Advocacy, NDIS/Disability) and **global learning / degree partnerships** (Oxford, Cambridge, NYU, NUS, Peking…) — 30+ Law pages; *FFAM* "Ignite LAB"; *Arts* "The Social Impact Project"; *FEIT* cross-faculty "pathway" pages (Commerce, Design, Science, Biomedicine/Engineering).
 6. **Wellbeing & belonging events** — *Science* "Student wellbeing", "SWOT Vac Wellbeing Brunch"; *FEIT* "Wellbeing Series"; *MDHS* "Chat Fest" (international graduate-entry students). (The transactional wellbeing/health spine lives under its own topic; these are local community events.)
-7. **Indigenous student experience** — *FEIT* "Indigenous Student Experience"; *MDHS* "MDHS Indigenous Student Success". Faculty-tailored, but a clear hub-coordination candidate.
+7. **Indigenous student experience** — *FEIT* "Indigenous Student Experience"; *MDHS* "MDHS Indigenous Student Success". Faculty-tailored, but a clear central coordination candidate.
 8. **Orientation & "starting out" / first-semester guides** — *FBE* "BCom First Semester Guide" (a week-by-week SSO-gated walkthrough); *Law* "Orientation", "Student Cards and Law Students' Study Area"; *Education* "Introduction to Contemporary Australian Schooling (ICAS)".
 9. **Studio / exhibition archive (MSD-specific artefact)** — the largest single block: *MSD* "MSD Studios" briefs (Threshold, Five Mile Creek, Go East Young Wo(Man)…) and the 2014–2018 "MSD Studio Archive", plus "MSDx" student-exhibition resources. This is portfolio/subject material parked under student-experience, and is the main reason ABP's count is so high.
 
-## Legitimate vs hub-overlapping
+## Legitimate vs central-overlapping
 
-| Faculty-owned (cannot be centralised) | Overlaps the hub (consolidation candidate) |
+| Faculty-owned (cannot be centralised) | Overlaps students.unimelb.edu.au (consolidation candidate) |
 |---|---|
 | Clubs, societies & student associations (all faculties) | Generic "what is student life / get involved" framing pages |
-| Discipline enrichment — MLS Clinics, global partnerships, Ignite LAB | Indigenous student experience (hub should coordinate a standard) |
+| Discipline enrichment — MLS Clinics, global partnerships, Ignite LAB | Indigenous student experience (students.unimelb.edu.au should coordinate a standard) |
 | Faculty awards & recognition (Dean's Honours, Community Awards) | Wellbeing-event pages that restate the central wellbeing spine |
 | Student representation committees & councils | Orientation / "starting out" generic onboarding content |
 | MSD studio & exhibition archive (discipline artefact) | Ambassador/mentoring pages reduced to thin "register here" stubs |
 
-The balance is strongly **faculty-owned** — clubs, mentoring, awards and enrichment are intrinsically local and the genuine hub overlap is thin. The real problem here is not duplication of the hub but **internal bloat**: roster bios (Science) and archival studio briefs (MSD) swell the count without being reusable student-life guidance.
+The balance is strongly **faculty-owned** — clubs, mentoring, awards and enrichment are intrinsically local and the genuine students.unimelb.edu.au overlap is thin. The real problem here is not duplication of students.unimelb.edu.au but **internal bloat**: roster bios (Science) and archival studio briefs (MSD) swell the count without being reusable student-life guidance.
 
 ## Recommendation
-- **Hub owns:** the cross-cutting "Getting involved at Melbourne" gateway — university-wide clubs/UMSU, volunteering, and the canonical wellbeing/belonging spine — as the single front door students reach for first.
+- **students.unimelb.edu.au owns:** the cross-cutting "Getting involved at Melbourne" gateway — university-wide clubs/UMSU, volunteering, and the canonical wellbeing/belonging spine — as the single front door students reach for first.
 - **Faculties keep:** their clubs, peer-mentoring and ambassador programs, faculty awards, student-representation committees, and discipline-specific enrichment (Law clinics, global partnerships, Ignite LAB) — none of this can or should be centralised.
-- **Add one hub gateway page:** `students.unimelb.edu.au/student-life/faculty-communities` — a thin index linking each faculty's student-experience hub, so a student can find "what's on in my faculty" from the centre (today these are invisible from the hub).
-- **Set a standard, don't centralise:** Indigenous student experience and wellbeing events should follow a hub-defined template/label so they're consistent and discoverable, while faculties retain the local content.
+- **Add one students.unimelb.edu.au gateway page:** `students.unimelb.edu.au/student-life/faculty-communities` — a thin index linking each faculty's student-experience students.unimelb.edu.au, so a student can find "what's on in my faculty" from the centre (today these are invisible from students.unimelb.edu.au).
+- **Set a standard, don't centralise:** Indigenous student experience and wellbeing events should follow a centrally-defined template/label so they're consistent and discoverable, while faculties retain the local content.
 - **Highest-value fix:** stop tagging the MSD studio archive and the Science committee-member bio pages as "student life." Re-classify the studios as subject/portfolio content and collapse the committee roster behind its parent page — that alone removes ~60 low-value pages from this topic and makes the genuinely useful student-life content findable.
 
 ## Appendix — all student-life pages (214)
@@ -247,7 +247,7 @@ The balance is strongly **faculty-owned** — clubs, mentoring, awards and enric
 - **360w** · _mixed_ — [Mentoring Programs](https://mdhs.unimelb.edu.au/study/current-students/student-enrichment/mentoring-programs)
 - **358w** — [Student Placements](https://mdhs.unimelb.edu.au/study/current-students/placements)
 - **343w** — [Other checks by course](https://mdhs.unimelb.edu.au/study/current-students/placements/students/requirements/course-specific-checks/additional)
-- **327w** — [MDHS Student Hub](https://mdhs.unimelb.edu.au/study/current-students/student-enrichment/mdhs-student-hub)
+- **327w** — [MDHS Student students.unimelb.edu.au](https://mdhs.unimelb.edu.au/study/current-students/student-enrichment/mdhs-student-students.unimelb.edu.au)
 - **310w** — [Chancellor’s Scholars](https://mdhs.unimelb.edu.au/study/current-students/student-enrichment/mentoring-programs/chancellors-scholars)
 - **304w** — [Day one of Placement](https://mdhs.unimelb.edu.au/study/current-students/placements/org/dsp/day-one-of-placement)
 - **297w** — [During placement](https://mdhs.unimelb.edu.au/study/current-students/placements/org/department-of-social-work-resources/during-placement)

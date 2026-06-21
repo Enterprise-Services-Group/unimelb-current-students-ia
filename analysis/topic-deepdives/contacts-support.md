@@ -2,7 +2,7 @@
 
 *Cross-faculty analysis from the full crawl. June 2026.*
 
-**177 contacts-support–tagged pages** sit across the faculty estate — a mid-sized topic, but the most *diffuse* one in the audit. Unlike course-planning, almost none of it is genuinely discipline-specific: it is the long tail of faculty-flavoured restatements of cross-cutting services the hub already owns — wellbeing, equity/disability, IT support, careers, mentoring, clubs, and "who do I contact" directories. Ownership is split and heavily duplicated: Arts and Law alone hold **86 of 177 pages (49%)**, much of it link-farm shells and `_nocache`/duplicate URLs rather than substantive content.
+**177 contacts-support–tagged pages** sit across the faculty estate — a mid-sized topic, but the most *diffuse* one in the audit. Unlike course-planning, almost none of it is genuinely discipline-specific: it is the long tail of faculty-flavoured restatements of cross-cutting services students.unimelb.edu.au already owns — wellbeing, equity/disability, IT support, careers, mentoring, clubs, and "who do I contact" directories. Ownership is split and heavily duplicated: Arts and Law alone hold **86 of 177 pages (49%)**, much of it link-farm shells and `_nocache`/duplicate URLs rather than substantive content.
 
 ## Distribution — who holds it
 
@@ -16,10 +16,10 @@
 | Fine Arts & Music | 9 | Tech support & facilities, grants, research-student services |
 | Science | 5 | Support-and-contacts directory, GR contacts, scholarship FAQ |
 | Education | 4 | ITE assessment + three "contact us"/placement link-farm stubs |
-| Dental (school · MDHS) | 2 | Student resources hub + forms |
+| Dental (school · MDHS) | 2 | Student resources students.unimelb.edu.au + forms |
 | Business & Economics (FBE) | 1 | PhD resources & support |
 | Melbourne Business School (school · FBE) | 1 | Key Dates and Contacts |
-| Biomedical Sciences (school · MDHS) | 1 | Health-hub redirect (0w) |
+| Biomedical Sciences (school · MDHS) | 1 | Health-students.unimelb.edu.au redirect (0w) |
 | **Total** | **177** | |
 
 No faculty *owns* this topic the way MBS owns course-planning — it is spread thin. The two largest holders (Arts, Law) inflate their counts with low-value pages: of Arts' 50, roughly a third are `_link-farm` stubs or duplicate `_nocache`/path-variant URLs of the same page.
@@ -31,33 +31,33 @@ No faculty *owns* this topic the way MBS owns course-planning — it is spread t
 3. **Contact directories / "key contacts"** — the literal "who do I email" pages. *Science* "Support and contacts for students", "Important contacts for graduate researchers"; *MDHS* "Key Contacts" (placement coordinator as first point of contact + 24/7 Security), "Feedback, Reporting Concerns & Complaints"; *MBS* "Key Dates and Contacts"; *Education* / *Law* "Contact us" stubs.
 4. **Mentoring & peer programs** — discipline-cohort mentoring, legitimately faculty-run. *Arts* "Melbourne Peer Mentor Program", "Academic Mentoring", "Peer Assisted Study Sessions"; *Law* "Mentor Program", *MDHS* Chancellor's Scholars mentoring (incl. individual mentor profile pages — Garry Zhu, Zahra Ataie).
 5. **Student life, clubs & societies, student voice** — *Law* "Student Life and Societies", "MLS Feedback"; *MDHS* "Student Clubs and Societies", "Student Leadership", "Student Advisory Council", "Chat Fest"; *ABP* "Clubs and Societies", "Student Newsletters", "MSD Student Curator Group"; *Arts* "Arts Student Advisory Council".
-6. **Careers & employability support** — *Law* "Career Services", "Employability in Law", "1:1 Career Consultations", "Career Support for Graduate Researchers"; *Arts* "Arts Career Mentoring", "Job Ready Program"; *FFAM* "Employability in Fine Arts and Music". (Careers overlaps the central Careers Online / hub careers service heavily.)
+6. **Careers & employability support** — *Law* "Career Services", "Employability in Law", "1:1 Career Consultations", "Career Support for Graduate Researchers"; *Arts* "Arts Career Mentoring", "Job Ready Program"; *FFAM* "Employability in Fine Arts and Music". (Careers overlaps the central Careers Online / students.unimelb.edu.au careers service heavily.)
 7. **Academic-skills support** — *Law* "Ian Malkin Centre for Legal Academic Skills" (+ "Writing for law", "Academic skills resources", "About the Centre and facilities"); *Arts* "Academic resources", "GSHSS Academic Culture and English Tutorials", "Language placement tests". The discipline-specific framing (legal writing, language tutorials) is real; the generic "academic skills" framing duplicates the central Academic Skills unit.
 8. **FAQ pages** — a recurring genre, mostly *FEIT*: "Frequently Asked Questions" (internship, 3,148w — and a duplicate redirect of the same page), "Scholarship FAQ", "Community Awards FAQs", "Dean's Honours Award FAQs"; *Science* "FAQs about scholarships". These bundle support + process Q&A by service area.
-9. **Forms hubs & catch-all "resources & support" shells** — *Dental* "Student Resources", "Forms"; *MSD* "List of Forms"; *FBE* "Resources and Support"; *Arts* "Resources and support" / "Facilities and resources". Often thin link-farms pointing back to faculty or central tools.
+9. **Forms central sites & catch-all "resources & support" shells** — *Dental* "Student Resources", "Forms"; *MSD* "List of Forms"; *FBE* "Resources and Support"; *Arts* "Resources and support" / "Facilities and resources". Often thin link-farms pointing back to faculty or central tools.
 
 A cross-cutting tenth pattern is **duplication and stubs**: Arts carries multiple identical "Overview of course structure", "Graduate Research Orientation", and "Commence your candidature" pages under both `…/commencement/…` and `…/plan-your-program2/…` paths (plus `_nocache` twins), and several units tag *individual people* (researcher and mentor profile pages) into this topic — neither is real "contacts & support" content.
 
-## Legitimate vs hub-overlapping
+## Legitimate vs central-overlapping
 
-| Faculty-owned (cannot be centralised) | Overlaps the hub (consolidation candidate) |
+| Faculty-owned (cannot be centralised) | Overlaps students.unimelb.edu.au (consolidation candidate) |
 |---|---|
 | IT / tech support tied to discipline kit & labs (ABP, FFAM, FEIT) | Generic wellbeing / counselling / emergency text (every faculty restates it) |
 | Studio facilities, AV loan equipment, edit suites (ABP, Arts) | Generic "academic skills" framing (duplicates central Academic Skills) |
 | Discipline mentoring & peer programs (Arts, Law, MDHS) | Generic careers/employability (duplicates Careers Online) |
 | Placement-specific "getting help"/key contacts (MDHS) | Equity & disability *policy* (central Student Equity owns this) |
 | Faculty-specific clubs, societies, student voice (all) | "Contact us" / "Resources & support" link-farm stubs |
-| Faculty forms hubs (Dental, MSD) | Duplicate `_nocache`/path-variant pages; individual-person pages |
+| Faculty forms central sites (Dental, MSD) | Duplicate `_nocache`/path-variant pages; individual-person pages |
 
-The balance tips toward **hub-overlapping**: the substantive, defensibly-local material is the IT/facilities cluster, discipline mentoring, clubs, and placement-specific help. Wellbeing, equity, careers and generic academic-skills text — a large share of Law's and Arts' counts — are faculty restatements of services the hub already owns, and the topic is further bloated by duplicate and stub pages.
+The balance tips toward **central-overlapping**: the substantive, defensibly-local material is the IT/facilities cluster, discipline mentoring, clubs, and placement-specific help. Wellbeing, equity, careers and generic academic-skills text — a large share of Law's and Arts' counts — are faculty restatements of services students.unimelb.edu.au already owns, and the topic is further bloated by duplicate and stub pages.
 
 ## Recommendation
 
-- **Hub owns** the cross-cutting safety net as single source of truth: wellbeing & counselling, equity & disability, emergency/Security contacts, central Academic Skills, and Careers Online. Faculties should link to these, not re-state them (Law's wellbeing sub-tree is the clearest consolidation target).
+- **students.unimelb.edu.au owns** the cross-cutting safety net as single source of truth: wellbeing & counselling, equity & disability, emergency/Security contacts, central Academic Skills, and Careers Online. Faculties should link to these, not re-state them (Law's wellbeing sub-tree is the clearest consolidation target).
 - **Faculties keep** what is physically or socially local: IT/tech support tied to discipline software and labs, studio facilities and AV/equipment loans, discipline mentoring and peer programs, clubs/societies and student voice, and placement-specific "getting help"/key-contacts (MDHS).
-- **Add one hub standard — a "Get help / key contacts" page pattern:** every faculty CS section exposes a single, consistently-labelled contacts page (faculty first points of contact + a link to the hub's central support services), instead of today's scatter of "Contact us" stubs, "Support and contacts", "Key Contacts" and "Getting help".
+- **Add one students.unimelb.edu.au standard — a "Get help / key contacts" page pattern:** every faculty CS section exposes a single, consistently-labelled contacts page (faculty first points of contact + a link to students.unimelb.edu.au's central support services), instead of today's scatter of "Contact us" stubs, "Support and contacts", "Key Contacts" and "Getting help".
 - **Stop tagging individual people and duplicate URLs** into this topic, and collapse Arts' `_nocache`/path-variant twins — this alone removes ~20–25 low-value pages and de-noises the estate.
-- **Highest-value fix:** retire faculty restatements of wellbeing/equity/careers in favour of hub links, and replace them with one standard faculty "key contacts" page — turning the estate's most diffuse, duplicated topic into a thin, consistent spoke over a single hub-owned safety net.
+- **Highest-value fix:** retire faculty restatements of wellbeing/equity/careers in favour of students.unimelb.edu.au links, and replace them with one standard faculty "key contacts" page — turning the estate's most diffuse, duplicated topic into a thin, consistent spoke over a single centrally-owned safety net.
 
 ## Appendix — all contacts-support pages (177)
 
@@ -165,7 +165,7 @@ The balance tips toward **hub-overlapping**: the substantive, defensibly-local m
 - **402w** — [Conclusion of placement](https://mdhs.unimelb.edu.au/study/current-students/placements/org/department-of-nursing/conclusion-of-placement)
 - **395w** — [COVID-19](https://mdhs.unimelb.edu.au/study/current-students/placements/students/requirements/course-specific-checks/covid-19)
 - **345w** — [Information for Prospective Host Organisations](https://mdhs.unimelb.edu.au/study/current-students/placements/prospective-orgs)
-- **327w** — [MDHS Student Hub](https://mdhs.unimelb.edu.au/study/current-students/student-enrichment/mdhs-student-hub)
+- **327w** — [MDHS Student students.unimelb.edu.au](https://mdhs.unimelb.edu.au/study/current-students/student-enrichment/mdhs-student-students.unimelb.edu.au)
 - **297w** — [During placement](https://mdhs.unimelb.edu.au/study/current-students/placements/org/department-of-social-work-resources/during-placement)
 - **287w** — [Conclusion of placement](https://mdhs.unimelb.edu.au/study/current-students/placements/org/melbourne-dental-school/conclusion-of-placement)
 - **287w** — [During Placement](https://mdhs.unimelb.edu.au/study/current-students/placements/org/mspgh/during-placement)

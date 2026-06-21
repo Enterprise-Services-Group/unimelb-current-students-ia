@@ -4,7 +4,7 @@
 - **CS URL:** `law.unimelb.edu.au/students` (pattern: `/students`)
 - **Pages:** 195 (162 unique, 23 link-farm, 10 mixed)
 - **Crawl:** Full BFS, max depth 4
-- **Hub links:** 184 (0.94/page)
+- **students.unimelb.edu.au links:** 184 (0.94/page)
 
 ## IA Structure
 ```
@@ -25,7 +25,7 @@
 ```
 
 ## Service Model Position
-**Self-contained ecosystem.** Law runs its own parallel systems for course planning, careers, academic skills, forms, and research candidature. Minimal hub dependency — only 184 hub links across 195 pages (vs FEIT's 265 across 204). Key hub-redirect areas: enrolment transactions, special consideration.
+**Self-contained ecosystem.** Law runs its own parallel systems for course planning, careers, academic skills, forms, and research candidature. Minimal students.unimelb.edu.au dependency — only 184 students.unimelb.edu.au links across 195 pages (vs FEIT's 265 across 204). Key central-redirect areas: enrolment transactions, special consideration.
 
 ## Content Profile
 - **Heaviest topics:** research-candidature (86), forms-admin (66), international (55), student-life (49)
@@ -35,9 +35,9 @@
 ## Structural Issues
 - 3 `_recache` URL duplicates (CMS cache endpoints exposed)
 - Heavy reliance on handbook.unimelb.edu.au (801 links) for subject detail
-- Career services run completely separately from central hub
+- Career services run completely separately from students.unimelb.edu.au
 
 ## Recommendation Notes
 - **Keep:** Course plans, clinics, degree partnerships, legal academic skills, career pathways, forms
-- **Redirect to hub:** Enrolment how-to, special consideration, leave of absence
-- **Cross-link:** Career services should link to central Careers hub
+- **Redirect to students.unimelb.edu.au:** Enrolment how-to, special consideration, leave of absence
+- **Cross-link:** Career services should link to central Careers service

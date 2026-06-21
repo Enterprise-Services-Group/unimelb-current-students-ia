@@ -1,7 +1,7 @@
 # Topic Deep-Dive: Forms & Admin
 *Cross-faculty analysis from the full crawl. June 2026.*
 
-**212 forms-admin–tagged pages** sit across the faculty estate — a mid-sized topic, but the most *heterogeneous* one in the audit: it is less a single content type than the catch-all "administrative spine" of student life (accept-your-offer, enrol, apply for an extension, get a police check, hit a candidature milestone, fill in a form). The volume is **concentrated and lumpy** rather than evenly duplicated — MDHS's 36 near-identical pre-placement compliance pages and Law's 66 transactional/global-program pages alone are half the topic. Most of it is legitimately faculty-owned process, but a thick seam overlaps the hub's transactional core — and two pages in this very set are *already* hub-hosted (`students.unimelb.edu.au/course-admin/…`), proving the boundary is being crossed both ways.
+**212 forms-admin–tagged pages** sit across the faculty estate — a mid-sized topic, but the most *heterogeneous* one in the audit: it is less a single content type than the catch-all "administrative spine" of student life (accept-your-offer, enrol, apply for an extension, get a police check, hit a candidature milestone, fill in a form). The volume is **concentrated and lumpy** rather than evenly duplicated — MDHS's 36 near-identical pre-placement compliance pages and Law's 66 transactional/global-program pages alone are half the topic. Most of it is legitimately faculty-owned process, but a thick seam overlaps students.unimelb.edu.au's transactional core — and two pages in this very set are *already* centrally-hosted (`students.unimelb.edu.au/course-admin/…`), proving the boundary is being crossed both ways.
 
 ## Distribution — who holds it
 
@@ -10,9 +10,9 @@
 | Law | 66 | Offer/enrolment + JD/MLM subject listings + global degree-partnership programs + GRD milestones |
 | Medicine, Dentistry & Health Sciences | 36 | Pre-placement compliance checks (immunisation, police, WWCC, AHPRA) |
 | Biomedical Sciences (school · MDHS) | 34 | Planning/honours/research-project admin (shared with course-planning) |
-| Architecture, Building & Planning (MSD) | 26 | "List of Forms" hub + extension form + studio-archive admin |
-| Fine Arts & Music | 22 | Conservatorium forms hub (enrolment, ensemble, special-permission, approval) |
-| Arts | 16 | Graduate-research commencement/candidature admin + internships + hub re-hosts |
+| Architecture, Building & Planning (MSD) | 26 | "List of Forms" students.unimelb.edu.au + extension form + studio-archive admin |
+| Fine Arts & Music | 22 | Conservatorium forms index (enrolment, ensemble, special-permission, approval) |
+| Arts | 16 | Graduate-research commencement/candidature admin + internships + students.unimelb.edu.au re-hosts |
 | Education | 4 | Placement forms/policies + assessment penalties + WWCC |
 | Dental (school · MDHS) | 3 | Student-resources + a single "Forms" page + internal grants |
 | Science | 2 | Spillover (IT subject set, a redirect) |
@@ -21,23 +21,23 @@
 | Melbourne Business School (school · FBE) | 1 | Key Dates and Contacts |
 | **Total** | **212** | |
 
-Law and the two MDHS units (faculty + Biomedical school) hold **64%** of the topic. The long tail is striking: six units hold ten pages or fewer, yet most of those *are* the faculty's real forms hub — so the topic is simultaneously over-concentrated at the top and under-served at the bottom.
+Law and the two MDHS units (faculty + Biomedical school) hold **64%** of the topic. The long tail is striking: six units hold ten pages or fewer, yet most of those *are* the faculty's real forms index — so the topic is simultaneously over-concentrated at the top and under-served at the bottom.
 
 ## Types of Forms & Admin content
 
 1. **Pre-placement compliance checks** — the single largest cluster, and almost entirely MDHS. Each check is its own page on an identical "What is it? / What do I need? / How long?" template: *MDHS* "Working with Children Check", "Australian Police Check", "Overseas Police Record", "NDIS Worker Screening Check", "Mask Fit Testing", "Hepatitis B / MMR / Pertussis / TB / Varicella / Influenza", "AHPRA Registration", "CPR and First Aid", "Summary of checks", "Sonia". *Education* re-states two of these ("Working with Children Check", "Placement forms"). This is genuinely registration- and placement-bound content — but the *check definitions themselves* (what a WWCC or police check is) are generic and re-explained per faculty.
 
-2. **Faculty "list of forms" hubs** — a thin index page pointing to the actual web-forms (most of which are SSO-gated and crawl as `0w` redirects). *ABP/MSD* "List of Forms" + "Application for Extension" (+ the gated "Extension Application Form", "Travelling Studio application", "Peer Mentoring register"); *FFAM* "Conservatorium Subject Enrolment Forms", "Conservatorium Ensemble Enrolment & Participation Forms", "Conservatorium Special Permission Forms", "Assessment and Program Approval forms", "Fine Arts and Music Enrolment Assistance"; *Dental* "Forms". Every faculty has reinvented this index with a different label and location.
+2. **Faculty "list of forms" central sites** — a thin index page pointing to the actual web-forms (most of which are SSO-gated and crawl as `0w` redirects). *ABP/MSD* "List of Forms" + "Application for Extension" (+ the gated "Extension Application Form", "Travelling Studio application", "Peer Mentoring register"); *FFAM* "Conservatorium Subject Enrolment Forms", "Conservatorium Ensemble Enrolment & Participation Forms", "Conservatorium Special Permission Forms", "Assessment and Program Approval forms", "Fine Arts and Music Enrolment Assistance"; *Dental* "Forms". Every faculty has reinvented this index with a different label and location.
 
-3. **Accept-your-offer / commencement / get-started** — the front door of administrative enrolment, restated per faculty even though the canonical "Get Started at Melbourne" lives on the hub (and the faculty pages explicitly say so). *Law* "Accept Your Offer & Get Started | JD", "…| Masters"; *Arts* "Commencement form checklist" (×2, duplicated across `/commencement/` and `/plan-your-program2/`); *Biomedical* "Orientation" variants.
+3. **Accept-your-offer / commencement / get-started** — the front door of administrative enrolment, restated per faculty even though the canonical "Get Started at Melbourne" lives on students.unimelb.edu.au (and the faculty pages explicitly say so). *Law* "Accept Your Offer & Get Started | JD", "…| Masters"; *Arts* "Commencement form checklist" (×2, duplicated across `/commencement/` and `/plan-your-program2/`); *Biomedical* "Orientation" variants.
 
-4. **Enrolment & re-enrolment mechanics** — faculty restatements of a hub-owned process. *Law* "Enrolment and Re-Enrolment | JD", "…| Masters", "Subject delivery", "Acceleration Guidelines"; *ABP* "Enrolment"; *FFAM* "Enrolment for research students". The Law pages openly defer to the University's re-enrolment process, then add a few discipline-specific lines.
+4. **Enrolment & re-enrolment mechanics** — faculty restatements of a centrally-owned process. *Law* "Enrolment and Re-Enrolment | JD", "…| Masters", "Subject delivery", "Acceleration Guidelines"; *ABP* "Enrolment"; *FFAM* "Enrolment for research students". The Law pages openly defer to the University's re-enrolment process, then add a few discipline-specific lines.
 
 5. **Live subject / quota / waiver listings** — daily-updated enrolment data and the rules around it. *Law* "JD subjects" (2,103w, plus a `_recache` twin), "MLM subjects" (1,901w + twin), "Subject Prerequisite Waiver", "Legal Research" capstone application. These are real faculty data, but the duplicate `_recache` URLs inflate the count and signal a caching/crawl artefact, not extra content.
 
-6. **Assessment admin — extensions, special consideration, penalties** — the most obvious hub overlap. *Law* "Extensions", "Special consideration", "Registration for ongoing support"; *ABP* "Application for Extension"; *Education* "FoE Assessment Penalties"; *FFAM* "Assessment and Program Approval forms". Special consideration and extensions are a University-wide policy with a central application — every faculty version is a partial restatement.
+6. **Assessment admin — extensions, special consideration, penalties** — the most obvious students.unimelb.edu.au overlap. *Law* "Extensions", "Special consideration", "Registration for ongoing support"; *ABP* "Application for Extension"; *Education* "FoE Assessment Penalties"; *FFAM* "Assessment and Program Approval forms". Special consideration and extensions are a University-wide policy with a central application — every faculty version is a partial restatement.
 
-7. **Graduate-research candidature admin & milestones** — process bound to the research degree: commencement checklists, candidature variations, milestone reviews, supervision. *Law* "PhD (Law) Milestones" (2,912w), "MPhil (Law) Milestones", "Graduate Research Coordinators" (plus a large set of low-word GRD *student-profile* pages mis-swept into this topic); *Arts* "Candidature variations", "Commencement form checklist", "Manage your candidature". Discipline-specific milestone *requirements* are faculty-owned; the surrounding "how candidature works" framing is hub/Chancellery territory.
+7. **Graduate-research candidature admin & milestones** — process bound to the research degree: commencement checklists, candidature variations, milestone reviews, supervision. *Law* "PhD (Law) Milestones" (2,912w), "MPhil (Law) Milestones", "Graduate Research Coordinators" (plus a large set of low-word GRD *student-profile* pages mis-swept into this topic); *Arts* "Candidature variations", "Commencement form checklist", "Manage your candidature". Discipline-specific milestone *requirements* are faculty-owned; the surrounding "how candidature works" framing is students.unimelb.edu.au/Chancellery territory.
 
 8. **Conduct, policy & standalone-rule pages** — administrative rules that aren't forms but govern admin. *Law* "Professional Behaviour Guidelines" (3,169w — the single largest page), "Class Recording Policy"; *FEIT* "Calculator Policy". Where the rule is professional/disciplinary (Law conduct) it is faculty-owned; where it is generic (a calculator policy) it is a candidate for a central exam-rules page.
 
@@ -45,24 +45,24 @@ Law and the two MDHS units (faculty + Biomedical school) hold **64%** of the top
 
 A cross-cutting observation: a meaningful share of this topic is **noise rather than content** — `_recache` URL twins (Law JD/MLM subjects), `0w` SSO/redirect form-targets (ABP, Biomedical), and low-word `link-farm` index stubs and GRD student-profile pages (Law). Stripping those, the *substantive* forms-admin estate is closer to ~150 pages.
 
-## Legitimate vs hub-overlapping
+## Legitimate vs central-overlapping
 
-| Faculty-owned (cannot be centralised) | Overlaps the hub (consolidation candidate) |
+| Faculty-owned (cannot be centralised) | Overlaps students.unimelb.edu.au (consolidation candidate) |
 |---|---|
-| Faculty "list of forms" hubs + the discipline-specific forms themselves (ABP, FFAM, Dental) | "Accept your offer / get started" restatements (Law JD+Masters, Biomedical) |
+| Faculty "list of forms" central sites + the discipline-specific forms themselves (ABP, FFAM, Dental) | "Accept your offer / get started" restatements (Law JD+Masters, Biomedical) |
 | Discipline-specific GRD milestone *requirements* (Law PhD/MPhil milestones) | Enrolment & re-enrolment mechanics (Law, ABP) |
 | Conservatorium enrolment/ensemble/permission forms (FFAM) | Extensions & special consideration (Law, ABP, Education) |
 | Course-specific placement checks (AHPRA, course-specific) (MDHS) | Generic check *definitions* — what a WWCC / police check is (MDHS, Education) |
-| Professional/disciplinary conduct rules (Law) | Cross-institutional study & overloading (already hub-hosted, tagged via Arts) |
+| Professional/disciplinary conduct rules (Law) | Cross-institutional study & overloading (already centrally-hosted, tagged via Arts) |
 | Bespoke global-program & internship admin (Law partnerships, Arts/ABP internships) | Generic policy pages (FEIT Calculator Policy); candidature "how it works" framing |
 
-The balance tips further toward "overlap" than course-planning did. The genuinely faculty-owned material is real (forms hubs, discipline milestones, placement and conduct rules, global programmes) — but the transactional front-of-house (offer, enrolment, extensions, special consideration, the *definition* of a compliance check) is restated faculty-by-faculty against processes the hub already owns, and two pages in this set already live on the hub.
+The balance tips further toward "overlap" than course-planning did. The genuinely faculty-owned material is real (forms central sites, discipline milestones, placement and conduct rules, global programmes) — but the transactional front-of-house (offer, enrolment, extensions, special consideration, the *definition* of a compliance check) is restated faculty-by-faculty against processes students.unimelb.edu.au already owns, and two pages in this set already live on students.unimelb.edu.au.
 
 ## Recommendation
-- **Hub owns the transactional spine:** "Get Started / accept your offer", enrolment & re-enrolment, overloading, cross-institutional study, extensions and special consideration — as the single source of truth. Two such pages (`/course-admin/cross-institutional-study`, `/course-admin/…/overloading`) are *already* central; faculties should link to them, not re-author them.
-- **Hub owns generic check definitions; MDHS owns the course mapping.** Publish one canonical "what a WWCC / police check / immunisation evidence is" set centrally; let MDHS keep only the *course-specific* "which checks does my degree need" layer (AHPRA, course-specific checks, the Sonia tracker). This alone retires most of the 36-page compliance sprawl.
-- **Faculties keep their forms hub, discipline milestones, conduct rules and bespoke programmes** — but to a **standard "Forms & admin" page pattern** (consistent label, consistent location, links out to gated forms) so ABP, FFAM, Dental and Law stop each inventing their own.
-- **Add one hub gateway:** `students.unimelb.edu.au/admin/faculty-forms` — a thin index linking to every faculty's forms hub, so faculty-specific forms are discoverable from the centre (they currently aren't).
+- **students.unimelb.edu.au owns the transactional spine:** "Get Started / accept your offer", enrolment & re-enrolment, overloading, cross-institutional study, extensions and special consideration — as the single source of truth. Two such pages (`/course-admin/cross-institutional-study`, `/course-admin/…/overloading`) are *already* central; faculties should link to them, not re-author them.
+- **students.unimelb.edu.au owns generic check definitions; MDHS owns the course mapping.** Publish one canonical "what a WWCC / police check / immunisation evidence is" set centrally; let MDHS keep only the *course-specific* "which checks does my degree need" layer (AHPRA, course-specific checks, the Sonia tracker). This alone retires most of the 36-page compliance sprawl.
+- **Faculties keep their forms index, discipline milestones, conduct rules and bespoke programmes** — but to a **standard "Forms & admin" page pattern** (consistent label, consistent location, links out to gated forms) so ABP, FFAM, Dental and Law stop each inventing their own.
+- **Add one students.unimelb.edu.au gateway:** `students.unimelb.edu.au/admin/faculty-forms` — a thin index linking to every faculty's forms index, so faculty-specific forms are discoverable from the centre (they currently aren't).
 - **Highest-value fix:** clean and consolidate the compliance + transactional layer — collapse MDHS's per-check definition pages to a central reference, retire faculty restatements of offer/enrolment/extensions, and strip the `_recache` twins and `0w` form-target redirects. That removes the largest block of near-duplicate, high-maintenance pages in the topic while leaving every faculty's genuinely unique admin intact.
 
 ## Appendix — all forms-admin pages (212)

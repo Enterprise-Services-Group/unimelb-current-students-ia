@@ -1,0 +1,1848 @@
+{
+  "domain": "science.unimelb.edu.au",
+  "slug": "science",
+  "pages_crawled": 263,
+  "pages": [
+    {
+      "url": "https://science.unimelb.edu.au/research/life-and-people/genetics-and-genomics",
+      "normalizedUrl": "https://science.unimelb.edu.au/research/life-and-people/genetics-and-genomics",
+      "title": "Research in genetics and genomics | Faculty of Science",
+      "wordCount": 701,
+      "fingerprint": "004ee28df44b729e"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/engage/alumni",
+      "normalizedUrl": "https://science.unimelb.edu.au/engage/alumni",
+      "title": "Science Alumni",
+      "wordCount": 374,
+      "fingerprint": "00aa2447406d4a4c"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/students/course-guide-diploma-in-general-studies",
+      "normalizedUrl": "https://science.unimelb.edu.au/students/course-guide-diploma-in-general-studies",
+      "title": "Course guide: Diploma in General Studies",
+      "wordCount": 649,
+      "fingerprint": "0291024cacd6a386"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/about/news/what-makes-cities-liveable",
+      "normalizedUrl": "https://science.unimelb.edu.au/about/news/what-makes-cities-liveable",
+      "title": "What makes cities liveable?",
+      "wordCount": 264,
+      "fingerprint": "02cf2808cc189513"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/research/partnerships",
+      "normalizedUrl": "https://science.unimelb.edu.au/research/partnerships",
+      "title": "Research partnerships with the Faculty of Science",
+      "wordCount": 391,
+      "fingerprint": "03e5d991749f24dc"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/research/awards-grants-and-support/adriana-zanca",
+      "normalizedUrl": "https://science.unimelb.edu.au/research/awards-grants-and-support/adriana-zanca",
+      "title": "Adriana Zanca",
+      "wordCount": 417,
+      "fingerprint": "04591cfdbf18757f"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/students/student-life",
+      "normalizedUrl": "https://science.unimelb.edu.au/students/student-life",
+      "title": "Student life in the Faculty of Science",
+      "wordCount": 263,
+      "fingerprint": "048c8b7f41ebfd74"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/about/news/faculty-of-science-phd-student-takes-home-first-prize-at-the-university-of-melbourne-three-minute-thesis-grand-final.",
+      "normalizedUrl": "https://science.unimelb.edu.au/about/news/faculty-of-science-phd-student-takes-home-first-prize-at-the-university-of-melbourne-three-minute-thesis-grand-final.",
+      "title": "Faculty of Science PhD student takes home first prize at the University of Melbourne Three Minute Thesis Grand Final",
+      "wordCount": 283,
+      "fingerprint": "05d8951eed04f6fc"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/about/indigenous-research-engagement-inclusion/indigenous-research-and-teaching",
+      "normalizedUrl": "https://science.unimelb.edu.au/about/indigenous-research-engagement-inclusion/indigenous-research-and-teaching",
+      "title": "Indigenous research and teaching",
+      "wordCount": 347,
+      "fingerprint": "05e3999d0c4f4236"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/foodprint-melbourne",
+      "normalizedUrl": "https://science.unimelb.edu.au/foodprint-melbourne",
+      "title": "Foodprint Melbourne \u2013 planning a resilient city food system",
+      "wordCount": 321,
+      "fingerprint": "07098139dec701cb"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/about/contact-us",
+      "normalizedUrl": "https://science.unimelb.edu.au/about/contact-us",
+      "title": "Contact us",
+      "wordCount": 216,
+      "fingerprint": "07fc266e21555542"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/study/careers-in-science/maths-and-stats",
+      "normalizedUrl": "https://science.unimelb.edu.au/study/careers-in-science/maths-and-stats",
+      "title": "Careers in information technology, mathematics and data science",
+      "wordCount": 733,
+      "fingerprint": "09654fc57b3ff1e8"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/research/healthy-planet/sustainable-technology",
+      "normalizedUrl": "https://science.unimelb.edu.au/research/healthy-planet/sustainable-technology",
+      "title": "Research in sustainable technology | Faculty of Science",
+      "wordCount": 995,
+      "fingerprint": "0ad4c9bb65c555f8"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/study/meet-our-students",
+      "normalizedUrl": "https://science.unimelb.edu.au/study/meet-our-students",
+      "title": "Our students and alumni",
+      "wordCount": 206,
+      "fingerprint": "0af3b17016cbebdc"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/research/life-and-people/medicinal-chemistry-therapeutics-and-diagnostics",
+      "normalizedUrl": "https://science.unimelb.edu.au/research/life-and-people/medicinal-chemistry-therapeutics-and-diagnostics",
+      "title": "Research in medicinal chemistry, therapeutics and diagnostics | Faculty of Science",
+      "wordCount": 398,
+      "fingerprint": "0bb846b0f180ac30"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/students/current-students-news-events/celebrating-our-best-students-with-deans-honours3",
+      "normalizedUrl": "https://science.unimelb.edu.au/students/current-students-news-events/celebrating-our-best-students-with-deans-honours3",
+      "title": "The Dean's Honours List 2021: Celebrating the highest achieving students in Science",
+      "wordCount": 565,
+      "fingerprint": "0caa8e9b275a0e92"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/research/life-and-people/science-communication-and-education",
+      "normalizedUrl": "https://science.unimelb.edu.au/research/life-and-people/science-communication-and-education",
+      "title": "Research in science communication and education | Faculty of Science",
+      "wordCount": 266,
+      "fingerprint": "0e1b22c1d49fbc64"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/about/news/research-industry-collaboration-wins-grant-to-reduce-livestock-emissions",
+      "normalizedUrl": "https://science.unimelb.edu.au/about/news/research-industry-collaboration-wins-grant-to-reduce-livestock-emissions",
+      "title": "Research-industry collaboration wins grant to reduce livestock emissions",
+      "wordCount": 455,
+      "fingerprint": "0f70b2e96b7f213f"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/study/careers-in-science/biological-and-health-sciences",
+      "normalizedUrl": "https://science.unimelb.edu.au/study/careers-in-science/biological-and-health-sciences",
+      "title": "Biological and health sciences",
+      "wordCount": 517,
+      "fingerprint": "11f0512f8097bc64"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/engage/lets-talk-scicomm-podcast/ep/s14/episode-105-listen-to-this-if-you-want-to-kickstart-your-career",
+      "normalizedUrl": "https://science.unimelb.edu.au/engage/lets-talk-scicomm-podcast/ep/s14/episode-105-listen-to-this-if-you-want-to-kickstart-your-career",
+      "title": "Episode 105 - Listen To This If\u2026 You want to kickstart your career",
+      "wordCount": 1223,
+      "fingerprint": "1236e28a1b52907c"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/research/foundational-sciences/mathematical-physics",
+      "normalizedUrl": "https://science.unimelb.edu.au/research/foundational-sciences/mathematical-physics",
+      "title": "Research in mathematical physics | Faculty of Science",
+      "wordCount": 167,
+      "fingerprint": "123cff25c6835193"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/engage/lets-talk-scicomm-podcast/ep/s16/episode-122-listen-to-this-if..-your-family-doesnt-understand-what-you-do-at-work-or-uni",
+      "normalizedUrl": "https://science.unimelb.edu.au/engage/lets-talk-scicomm-podcast/ep/s16/episode-122-listen-to-this-if..-your-family-doesnt-understand-what-you-do-at-work-or-uni",
+      "title": "Episode 122 - Listen to This If\u2026.. Your family doesn\u2019t understand what you do at work or uni",
+      "wordCount": 1373,
+      "fingerprint": "1472dde129dcc450"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/research/life-and-people/food-sciences",
+      "normalizedUrl": "https://science.unimelb.edu.au/research/life-and-people/food-sciences",
+      "title": "Research in food sciences | Faculty of Science",
+      "wordCount": 389,
+      "fingerprint": "14aac906f63a9762"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/research/technology-and-data",
+      "normalizedUrl": "https://science.unimelb.edu.au/research/technology-and-data",
+      "title": "Research in technology and data | Faculty of Science",
+      "wordCount": 1099,
+      "fingerprint": "1531c07e29743c08"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/research/technology-and-data/quantum-technologies",
+      "normalizedUrl": "https://science.unimelb.edu.au/research/technology-and-data/quantum-technologies",
+      "title": "Research in quantum technologies | Faculty of Science",
+      "wordCount": 442,
+      "fingerprint": "15c16b1206813804"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/about/news/celebrating-science-student-leadership",
+      "normalizedUrl": "https://science.unimelb.edu.au/about/news/celebrating-science-student-leadership",
+      "title": "Celebrating Science Student Leadership",
+      "wordCount": 538,
+      "fingerprint": "164bd1ac1c7e66b3"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/students/course-guide-bachelor-of-science",
+      "normalizedUrl": "https://science.unimelb.edu.au/students/course-guide-bachelor-of-science",
+      "title": "Course guide: Bachelor of Science",
+      "wordCount": 955,
+      "fingerprint": "177b2f14452027ce"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/about/news/what-do-data-scientists-actually-do,-why-does-it-matter,-and-could-i-be-one",
+      "normalizedUrl": "https://science.unimelb.edu.au/about/news/what-do-data-scientists-actually-do,-why-does-it-matter,-and-could-i-be-one",
+      "title": "What do data scientists actually do, why does it matter, and could I be one?",
+      "wordCount": 1304,
+      "fingerprint": "19560d98bad3e8fa"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/engage/lets-talk-scicomm-podcast/ep/s15/episode-110-listen-to-this-if-youre-preparing-a-3mt-talk",
+      "normalizedUrl": "https://science.unimelb.edu.au/engage/lets-talk-scicomm-podcast/ep/s15/episode-110-listen-to-this-if-youre-preparing-a-3mt-talk",
+      "title": "Episode 110 - Listen To This If You\u2019re Preparing a 3MT talk",
+      "wordCount": 1180,
+      "fingerprint": "1ac8fd32eaf6566a"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/about/news/approaching-maths-with-curiosity-meet-mathematician,-associate-professor-marcy-robertson",
+      "normalizedUrl": "https://science.unimelb.edu.au/about/news/approaching-maths-with-curiosity-meet-mathematician,-associate-professor-marcy-robertson",
+      "title": "Approaching maths with curiosity: Meet Mathematician, Associate Professor Marcy Robertson",
+      "wordCount": 1008,
+      "fingerprint": "1b29ec69c6b40d8c"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/students/current-students-news-events/chancellors-prize-awarded-to-emily-roycroft",
+      "normalizedUrl": "https://science.unimelb.edu.au/students/current-students-news-events/chancellors-prize-awarded-to-emily-roycroft",
+      "title": "Chancellor\u2019s Prize awarded to Emily Roycroft",
+      "wordCount": 266,
+      "fingerprint": "1cd2bda5cbb5cff7"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/about/news/leading-astrophysicist-awarded-david-syme-research-prize/_recache",
+      "normalizedUrl": "https://science.unimelb.edu.au/about/news/leading-astrophysicist-awarded-david-syme-research-prize/_recache",
+      "title": "Leading astrophysicist awarded David Syme Research Prize",
+      "wordCount": 303,
+      "fingerprint": "1cd46776feac5550"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/about/contact-us/?in_c=scienceweb_contact_footer",
+      "normalizedUrl": "https://science.unimelb.edu.au/about/contact-us/?in_c=scienceweb_contact_footer",
+      "title": "Contact us",
+      "wordCount": 216,
+      "fingerprint": "1d33678d4e7726b1"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/study",
+      "normalizedUrl": "https://science.unimelb.edu.au/study",
+      "title": "Study in the Faculty of Science | The University of Melbourne",
+      "wordCount": 407,
+      "fingerprint": "1d349583da6aa44a"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/about",
+      "normalizedUrl": "https://science.unimelb.edu.au/about",
+      "title": "About the Faculty of Science, University of Melbourne",
+      "wordCount": 1043,
+      "fingerprint": "1d72c3f32f15a8f1"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/engage/lets-talk-scicomm-podcast/ep/s17/episode-129-interview-with-molecular-biologist-and-balloon-artist,-dr-chloe-lim",
+      "normalizedUrl": "https://science.unimelb.edu.au/engage/lets-talk-scicomm-podcast/ep/s17/episode-129-interview-with-molecular-biologist-and-balloon-artist,-dr-chloe-lim",
+      "title": "Episode 129 - Interview with molecular biologist and balloon artist, Dr Chloe Lim",
+      "wordCount": 6464,
+      "fingerprint": "1dae0f3a34fc21c6"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/about/news/electrifying-medicine-revolutionary-health-solutions-emerging-from-other-fields",
+      "normalizedUrl": "https://science.unimelb.edu.au/about/news/electrifying-medicine-revolutionary-health-solutions-emerging-from-other-fields",
+      "title": "Electrifying medicine: revolutionary health solutions emerging from other fields",
+      "wordCount": 175,
+      "fingerprint": "1ea6d3b91d48901b"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/about/news/model-citizens-how-mathematicians-are-helping-the-planet",
+      "normalizedUrl": "https://science.unimelb.edu.au/about/news/model-citizens-how-mathematicians-are-helping-the-planet",
+      "title": "Model citizens: how mathematicians are helping the planet",
+      "wordCount": 205,
+      "fingerprint": "1ea8c1706bc99b24"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/engage/lets-talk-scicomm-podcast",
+      "normalizedUrl": "https://science.unimelb.edu.au/engage/lets-talk-scicomm-podcast",
+      "title": "Let's Talk SciComm podcast",
+      "wordCount": 6283,
+      "fingerprint": "1eeb08ffc318a74a"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/about/news/university-begins-at-home-for-dookie-campus-agriculture-students",
+      "normalizedUrl": "https://science.unimelb.edu.au/about/news/university-begins-at-home-for-dookie-campus-agriculture-students",
+      "title": "University begins at home for Dookie campus agriculture students",
+      "wordCount": 540,
+      "fingerprint": "1faf463c012ae197"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/study/meet-our-students/agriculture-and-food",
+      "normalizedUrl": "https://science.unimelb.edu.au/study/meet-our-students/agriculture-and-food",
+      "title": "Agricultural, food and veterinary sciences: meet our students",
+      "wordCount": 850,
+      "fingerprint": "20720c12281e7de5"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/study/meet-our-students/international-students",
+      "normalizedUrl": "https://science.unimelb.edu.au/study/meet-our-students/international-students",
+      "title": "International students",
+      "wordCount": 300,
+      "fingerprint": "2080ee6651f954a0"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/engage/lets-talk-scicomm-podcast/ep/s18/episode-136-listen-to-this-if-you-need-to-prepare-for-question-time",
+      "normalizedUrl": "https://science.unimelb.edu.au/engage/lets-talk-scicomm-podcast/ep/s18/episode-136-listen-to-this-if-you-need-to-prepare-for-question-time",
+      "title": "Episode 136 - Listen To This If\u2026 You Need To Prepare for Question Time",
+      "wordCount": 1341,
+      "fingerprint": "20f8b7f7c9f6612a"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/research/life-and-people/indigenous-knowledges",
+      "normalizedUrl": "https://science.unimelb.edu.au/research/life-and-people/indigenous-knowledges",
+      "title": "Research in Indigenous knowledges | Faculty of Science",
+      "wordCount": 589,
+      "fingerprint": "21693dd9b7922b79"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/study/careers-in-science/chemistry",
+      "normalizedUrl": "https://science.unimelb.edu.au/study/careers-in-science/chemistry",
+      "title": "Careers in Chemistry",
+      "wordCount": 371,
+      "fingerprint": "2342ac7db4cc7eaf"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/about/indigenous-research-engagement-inclusion",
+      "normalizedUrl": "https://science.unimelb.edu.au/about/indigenous-research-engagement-inclusion",
+      "title": "Indigenous research, engagement and inclusion",
+      "wordCount": 982,
+      "fingerprint": "238990e9a270bdc3"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/about/news/national-student-safety-survey-launched",
+      "normalizedUrl": "https://science.unimelb.edu.au/about/news/national-student-safety-survey-launched",
+      "title": "National Student Safety Survey launched",
+      "wordCount": 237,
+      "fingerprint": "268142a36f4c0b42"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/about/news/university-of-melbourne-joins-international-research-consortium",
+      "normalizedUrl": "https://science.unimelb.edu.au/about/news/university-of-melbourne-joins-international-research-consortium",
+      "title": "University of Melbourne joins international research consortium",
+      "wordCount": 245,
+      "fingerprint": "27cff30de70f47ec"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/research/life-and-people",
+      "normalizedUrl": "https://science.unimelb.edu.au/research/life-and-people",
+      "title": "Research in life and people | Faculty of Science",
+      "wordCount": 1206,
+      "fingerprint": "2b8209c09a0c67d6"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/engage/science-for-schools/science-roadshow",
+      "normalizedUrl": "https://science.unimelb.edu.au/engage/science-for-schools/science-roadshow",
+      "title": "Science Roadshow| Organise a visit to your school",
+      "wordCount": 312,
+      "fingerprint": "301026f31c7fb46b"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/engage/lets-talk-scicomm-podcast/ep/s18/episode-133-interview-with-science-communicator-emma-donnelly",
+      "normalizedUrl": "https://science.unimelb.edu.au/engage/lets-talk-scicomm-podcast/ep/s18/episode-133-interview-with-science-communicator-emma-donnelly",
+      "title": "Episode 133 - Interview with science communicator Emma Donnelly",
+      "wordCount": 6133,
+      "fingerprint": "306a929f9da978ba"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/research/life-and-people/one-health",
+      "normalizedUrl": "https://science.unimelb.edu.au/research/life-and-people/one-health",
+      "title": "Research in One Health | Faculty of Science",
+      "wordCount": 432,
+      "fingerprint": "31801482aaf63f0d"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/research/research-prospectus",
+      "normalizedUrl": "https://science.unimelb.edu.au/research/research-prospectus",
+      "title": "Faculty of Science Research Prospectus",
+      "wordCount": 332,
+      "fingerprint": "336e6d395af9b947"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/festival/recordings",
+      "normalizedUrl": "https://science.unimelb.edu.au/festival/recordings",
+      "title": "Festival recordings | Science at Melbourne Festival",
+      "wordCount": 191,
+      "fingerprint": "351f3ae08f3b96d1"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/engage/lets-talk-scicomm-podcast/ep/s15/episode-111-interview-with-early-career-scientist-and-science-communicator-dr-kira-hughes",
+      "normalizedUrl": "https://science.unimelb.edu.au/engage/lets-talk-scicomm-podcast/ep/s15/episode-111-interview-with-early-career-scientist-and-science-communicator-dr-kira-hughes",
+      "title": "Episode 111 - Interview with early career scientist and science communicator Dr Kira Hughes",
+      "wordCount": 6442,
+      "fingerprint": "359d987fc6803a17"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/research/life-and-people/plant-biology",
+      "normalizedUrl": "https://science.unimelb.edu.au/research/life-and-people/plant-biology",
+      "title": "Research in plant biology | Faculty of Science",
+      "wordCount": 657,
+      "fingerprint": "36eaf97a36aa4e77"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/research/life-and-people/human-geography-and-archaeology",
+      "normalizedUrl": "https://science.unimelb.edu.au/research/life-and-people/human-geography-and-archaeology",
+      "title": "Research in human geography and archaeological science | Faculty of Science",
+      "wordCount": 663,
+      "fingerprint": "3790f408f07a170e"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/engage/lets-talk-scicomm-podcast/ep/s17/episode-126-listen-to-this-ifyou-need-to-write-a-100-word-lay-summary",
+      "normalizedUrl": "https://science.unimelb.edu.au/engage/lets-talk-scicomm-podcast/ep/s17/episode-126-listen-to-this-ifyou-need-to-write-a-100-word-lay-summary",
+      "title": "Episode 126 - Listen To This If\u2026You need to write a 100-word lay summary",
+      "wordCount": 1225,
+      "fingerprint": "37a20b2a39d57e86"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/research/life-and-people/human-health-and-disease",
+      "normalizedUrl": "https://science.unimelb.edu.au/research/life-and-people/human-health-and-disease",
+      "title": "Research in human health and disease | Faculty of Science",
+      "wordCount": 406,
+      "fingerprint": "37a8731c138e2ff0"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/students/current-students-news-events/swot-vac-breakfast-program",
+      "normalizedUrl": "https://science.unimelb.edu.au/students/current-students-news-events/swot-vac-breakfast-program",
+      "title": "SWOT Vac Breakfast Program",
+      "wordCount": 229,
+      "fingerprint": "389d92dfb6441f86"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/students",
+      "normalizedUrl": "https://science.unimelb.edu.au/students",
+      "title": "Current Students",
+      "wordCount": 1696,
+      "fingerprint": "38cc12ad8fa2d099"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/research/life-and-people/medical-physics",
+      "normalizedUrl": "https://science.unimelb.edu.au/research/life-and-people/medical-physics",
+      "title": "Research in medical physics | Faculty of Science",
+      "wordCount": 250,
+      "fingerprint": "3904752ebc3370d9"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/students/graduate-research",
+      "normalizedUrl": "https://science.unimelb.edu.au/students/graduate-research",
+      "title": "Course guide: Graduate research",
+      "wordCount": 833,
+      "fingerprint": "3a2e5abc6b2537e5"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/students/current-students-news-events/science-enrichment-planner-launched",
+      "normalizedUrl": "https://science.unimelb.edu.au/students/current-students-news-events/science-enrichment-planner-launched",
+      "title": "Science Enrichment Planner launched",
+      "wordCount": 169,
+      "fingerprint": "3a98051bdcc17fb7"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/festival/tours",
+      "normalizedUrl": "https://science.unimelb.edu.au/festival/tours",
+      "title": "Tours | Science at Melbourne Festival",
+      "wordCount": 278,
+      "fingerprint": "3b13769a1ff70e0a"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/engage/lets-talk-scicomm-podcast/ep/s16/episode-118-listen-to-this-if-youve-just-received-negative-feedback",
+      "normalizedUrl": "https://science.unimelb.edu.au/engage/lets-talk-scicomm-podcast/ep/s16/episode-118-listen-to-this-if-youve-just-received-negative-feedback",
+      "title": "Episode 118 - Listen To This If\u2026 You\u2019ve Just Received Negative Feedback",
+      "wordCount": 1217,
+      "fingerprint": "3ba015b1ac0ba440"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/students/course-guide-bachelor-of-agriculture",
+      "normalizedUrl": "https://science.unimelb.edu.au/students/course-guide-bachelor-of-agriculture",
+      "title": "Course guide: Bachelor of Agriculture",
+      "wordCount": 893,
+      "fingerprint": "3bbc9f81ee0acbb5"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/engage/alumni/mentoring-and-volunteering",
+      "normalizedUrl": "https://science.unimelb.edu.au/engage/alumni/mentoring-and-volunteering",
+      "title": "Mentoring and volunteering opportunities",
+      "wordCount": 423,
+      "fingerprint": "3bd767898fe58892"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/about/news/australia-and-the-pacific-islands-solidarity-in-a-time-of-climate-crisis/_nocache",
+      "normalizedUrl": "https://science.unimelb.edu.au/about/news/australia-and-the-pacific-islands-solidarity-in-a-time-of-climate-crisis/_nocache",
+      "title": "Australia and the Pacific Islands: Solidarity in a time of climate crisis",
+      "wordCount": 172,
+      "fingerprint": "3ea47f1a963d83cd"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/festival/recordings/a-healthy-planet",
+      "normalizedUrl": "https://science.unimelb.edu.au/festival/recordings/a-healthy-planet",
+      "title": "A healthy planet | Science at Melbourne Festival",
+      "wordCount": 1071,
+      "fingerprint": "3f08e5689faa111f"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/festival",
+      "normalizedUrl": "https://science.unimelb.edu.au/festival",
+      "title": "Science at Melbourne Festival | Faculty of Science",
+      "wordCount": 347,
+      "fingerprint": "4029385048ccc728"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/study/careers-in-science",
+      "normalizedUrl": "https://science.unimelb.edu.au/study/careers-in-science",
+      "title": "Careers in science",
+      "wordCount": 393,
+      "fingerprint": "407580117b43ac81"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/study/meet-our-students/biological-sciences",
+      "normalizedUrl": "https://science.unimelb.edu.au/study/meet-our-students/biological-sciences",
+      "title": "Biological sciences: meet our students",
+      "wordCount": 530,
+      "fingerprint": "423abbcfa891213c"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/engage/lets-talk-scicomm-podcast/ep/s15/episode-114-listen-to-this-if-you-ve-fallen-out-of-love-with-science-and-need-to-rekindle-your-curiosity",
+      "normalizedUrl": "https://science.unimelb.edu.au/engage/lets-talk-scicomm-podcast/ep/s15/episode-114-listen-to-this-if-you-ve-fallen-out-of-love-with-science-and-need-to-rekindle-your-curiosity",
+      "title": "Episode 114 - Listen To This If You've fallen out of love with science and need to rekindle your curiosity",
+      "wordCount": 1242,
+      "fingerprint": "42c9a6e1b34eabe3"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/about/news/you-are-what-you-eat-that-gut-feeling",
+      "normalizedUrl": "https://science.unimelb.edu.au/about/news/you-are-what-you-eat-that-gut-feeling",
+      "title": "You are what you eat: that gut feeling",
+      "wordCount": 217,
+      "fingerprint": "4319485e9c076242"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/research",
+      "normalizedUrl": "https://science.unimelb.edu.au/research",
+      "title": "Research in the Faculty of Science",
+      "wordCount": 1767,
+      "fingerprint": "4321f4d8e275153a"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/study/meet-our-students/profiles/cathy-mcauley",
+      "normalizedUrl": "https://science.unimelb.edu.au/study/meet-our-students/profiles/cathy-mcauley",
+      "title": "Cathy McAuley",
+      "wordCount": 562,
+      "fingerprint": "4328df0094e2d39e"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/students/scholarships/dookie-scholarship-applications",
+      "normalizedUrl": "https://science.unimelb.edu.au/students/scholarships/dookie-scholarship-applications",
+      "title": "Dookie scholarship applications",
+      "wordCount": 508,
+      "fingerprint": "44b027f07fd34d83"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/study/meet-our-students/geography",
+      "normalizedUrl": "https://science.unimelb.edu.au/study/meet-our-students/geography",
+      "title": "Geography: meet our Students and Alumni",
+      "wordCount": 140,
+      "fingerprint": "46dc8e680b71668c"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/study/meet-our-students/alumni",
+      "normalizedUrl": "https://science.unimelb.edu.au/study/meet-our-students/alumni",
+      "title": "Alumni",
+      "wordCount": 917,
+      "fingerprint": "4879202dbd140cac"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/research/healthy-planet/atmosphere-and-oceans",
+      "normalizedUrl": "https://science.unimelb.edu.au/research/healthy-planet/atmosphere-and-oceans",
+      "title": "Research in atmosphere and oceans | Faculty of Science",
+      "wordCount": 401,
+      "fingerprint": "49d52f718ef1ce5b"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/students/get-involved/news-and-events",
+      "normalizedUrl": "https://science.unimelb.edu.au/students/get-involved/news-and-events",
+      "title": "Current Students",
+      "wordCount": 1696,
+      "fingerprint": "4be2116f46274fa1"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/engage",
+      "normalizedUrl": "https://science.unimelb.edu.au/engage",
+      "title": "Engage with us",
+      "wordCount": 529,
+      "fingerprint": "4c1448a91f3e3747"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/about/news/arc-linkage-grant-for-diamond-based-microneedling-technology",
+      "normalizedUrl": "https://science.unimelb.edu.au/about/news/arc-linkage-grant-for-diamond-based-microneedling-technology",
+      "title": "ARC Linkage grant for diamond-based microneedling technology",
+      "wordCount": 200,
+      "fingerprint": "4e3e9d6dd488ba93"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/students/enrich-your-studies",
+      "normalizedUrl": "https://science.unimelb.edu.au/students/enrich-your-studies",
+      "title": "Enrich your studies",
+      "wordCount": 258,
+      "fingerprint": "4e491d7d569cc67d"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/engage/lets-talk-scicomm-podcast/ep/s17/episode-132-listen-to-this-if-networking-feels-scary-or-just-a-bit-icky",
+      "normalizedUrl": "https://science.unimelb.edu.au/engage/lets-talk-scicomm-podcast/ep/s17/episode-132-listen-to-this-if-networking-feels-scary-or-just-a-bit-icky",
+      "title": "Episode 132 - Listen To This If\u2026 Networking feels scary (or just a bit icky)",
+      "wordCount": 1387,
+      "fingerprint": "4f592b582e64e8f3"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/research/foundational-sciences/matter-and-energy",
+      "normalizedUrl": "https://science.unimelb.edu.au/research/foundational-sciences/matter-and-energy",
+      "title": "Research in matter and energy | Faculty of Science",
+      "wordCount": 689,
+      "fingerprint": "4fbdbbae24ec7163"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/students/current-indigenous-students",
+      "normalizedUrl": "https://science.unimelb.edu.au/students/current-indigenous-students",
+      "title": "Current Indigenous students",
+      "wordCount": 902,
+      "fingerprint": "5060ef3179c69172"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/about/news/the-final-countdown-experts-discuss-preparing-for-the-quantum-age",
+      "normalizedUrl": "https://science.unimelb.edu.au/about/news/the-final-countdown-experts-discuss-preparing-for-the-quantum-age",
+      "title": "The final countdown? Experts discuss preparing for the Quantum Age",
+      "wordCount": 284,
+      "fingerprint": "51c3ec213836f91e"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/engage/amgen-scholars",
+      "normalizedUrl": "https://science.unimelb.edu.au/engage/amgen-scholars",
+      "title": "Amgen Scholars Program",
+      "wordCount": 3866,
+      "fingerprint": "5419a53590b09e7e"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/about/news/young-scholars-grow-a-global-network-of-passionate-scientists",
+      "normalizedUrl": "https://science.unimelb.edu.au/about/news/young-scholars-grow-a-global-network-of-passionate-scientists",
+      "title": "Young scholars grow a global network of passionate scientists",
+      "wordCount": 699,
+      "fingerprint": "542b04a9eecef210"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/research/foundational-sciences/experimental-physics",
+      "normalizedUrl": "https://science.unimelb.edu.au/research/foundational-sciences/experimental-physics",
+      "title": "Research in experimental physics | Faculty of Science",
+      "wordCount": 420,
+      "fingerprint": "544e2ddecb925681"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/festival/masterclasses",
+      "normalizedUrl": "https://science.unimelb.edu.au/festival/masterclasses",
+      "title": "Masterclasses | Science at Melbourne Festival",
+      "wordCount": 406,
+      "fingerprint": "54e8a650116d2ff5"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/about/contact-us?in_c=scienceweb_contact_footer",
+      "normalizedUrl": "https://science.unimelb.edu.au/about/contact-us?in_c=scienceweb_contact_footer",
+      "title": "Contact us",
+      "wordCount": 216,
+      "fingerprint": "55bdd0a00e89a626"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/about/indigenous-research-engagement-inclusion/indigenous-students-in-science",
+      "normalizedUrl": "https://science.unimelb.edu.au/about/indigenous-research-engagement-inclusion/indigenous-students-in-science",
+      "title": "Indigenous students in Science",
+      "wordCount": 626,
+      "fingerprint": "56357714187738c6"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/engage/events",
+      "normalizedUrl": "https://science.unimelb.edu.au/engage/events",
+      "title": "Events in the Faculty of Science",
+      "wordCount": 532,
+      "fingerprint": "56d060ba5d9715fc"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/about/indigenous-research-engagement-inclusion/indigenous-inclusion-in-our-faculty",
+      "normalizedUrl": "https://science.unimelb.edu.au/about/indigenous-research-engagement-inclusion/indigenous-inclusion-in-our-faculty",
+      "title": "Indigenous inclusion in our Faculty",
+      "wordCount": 251,
+      "fingerprint": "579904365fbc41f2"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/about/our-locations",
+      "normalizedUrl": "https://science.unimelb.edu.au/about/our-locations",
+      "title": "Campuses of the Faculty of Science, University of Melbourne",
+      "wordCount": 232,
+      "fingerprint": "58f08894ba05a6b0"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/study/graduate-research-in-science",
+      "normalizedUrl": "https://science.unimelb.edu.au/study/graduate-research-in-science",
+      "title": "Graduate research in the Faculty of Science",
+      "wordCount": 592,
+      "fingerprint": "593e47cf46fd9ea3"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/research/foundational-sciences",
+      "normalizedUrl": "https://science.unimelb.edu.au/research/foundational-sciences",
+      "title": "Research in foundational sciences | Faculty of Science",
+      "wordCount": 835,
+      "fingerprint": "5a16f4c1041c1aac"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/research/foundational-sciences/complex-systems",
+      "normalizedUrl": "https://science.unimelb.edu.au/research/foundational-sciences/complex-systems",
+      "title": "Research in complex systems | Faculty of Science",
+      "wordCount": 780,
+      "fingerprint": "5cd16fc685fb8e23"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/research/healthy-planet/forest-sciences",
+      "normalizedUrl": "https://science.unimelb.edu.au/research/healthy-planet/forest-sciences",
+      "title": "Research in forest sciences | Faculty of Science",
+      "wordCount": 566,
+      "fingerprint": "5cd2f757e576d918"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/festival/recordings/celebrating-science",
+      "normalizedUrl": "https://science.unimelb.edu.au/festival/recordings/celebrating-science",
+      "title": "Celebrating science | Science at Melbourne Festival",
+      "wordCount": 671,
+      "fingerprint": "5d99865147acea7b"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/engage/science-for-schools",
+      "normalizedUrl": "https://science.unimelb.edu.au/engage/science-for-schools",
+      "title": "Science for schools \u2013 Faculty of Science, The University of Melbourne",
+      "wordCount": 503,
+      "fingerprint": "5e22dc0580d87e9e"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/research/technology-and-data/sensing-and-sensors",
+      "normalizedUrl": "https://science.unimelb.edu.au/research/technology-and-data/sensing-and-sensors",
+      "title": "Research in sensing and sensors | Faculty of Science",
+      "wordCount": 769,
+      "fingerprint": "60d4912e26b9f184"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/research/technology-and-data/satellites-and-space",
+      "normalizedUrl": "https://science.unimelb.edu.au/research/technology-and-data/satellites-and-space",
+      "title": "Research in satellites and space | Faculty of Science",
+      "wordCount": 291,
+      "fingerprint": "626b62fb8ec73ac9"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/students/current-students-news-events/the-science-student-leadership-awards",
+      "normalizedUrl": "https://science.unimelb.edu.au/students/current-students-news-events/the-science-student-leadership-awards",
+      "title": "The Science Student Leadership Awards",
+      "wordCount": 237,
+      "fingerprint": "6351f7a6a93982e3"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/about/news/global-veterinary-leader-appointed-head-of-melbourne-veterinary-school",
+      "normalizedUrl": "https://science.unimelb.edu.au/about/news/global-veterinary-leader-appointed-head-of-melbourne-veterinary-school",
+      "title": "Global veterinary leader appointed Head of Melbourne Veterinary School",
+      "wordCount": 359,
+      "fingerprint": "63eb53c618bb770b"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/engage/lets-talk-scicomm-podcast/ep/s16/episode-123-interview-with-dr.-tullio-rossi-about-ai-in-scicomm",
+      "normalizedUrl": "https://science.unimelb.edu.au/engage/lets-talk-scicomm-podcast/ep/s16/episode-123-interview-with-dr.-tullio-rossi-about-ai-in-scicomm",
+      "title": "Episode 123 - Interview with Dr. Tullio Rossi about AI in scicomm",
+      "wordCount": 5320,
+      "fingerprint": "654fdd4a98ec14ef"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/research/life-and-people/veterinary-medicine",
+      "normalizedUrl": "https://science.unimelb.edu.au/research/life-and-people/veterinary-medicine",
+      "title": "Research in veterinary medicine | Faculty of Science",
+      "wordCount": 468,
+      "fingerprint": "65feb9c04fda88d1"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/",
+      "normalizedUrl": "https://science.unimelb.edu.au/",
+      "title": "Faculty of Science - University of Melbourne",
+      "wordCount": 2179,
+      "fingerprint": "66c0007a2aeab7d3"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/research/healthy-planet/biodiversity-and-conservation-biology",
+      "normalizedUrl": "https://science.unimelb.edu.au/research/healthy-planet/biodiversity-and-conservation-biology",
+      "title": "Research in biodiversity and conservation biology | Faculty of Science",
+      "wordCount": 961,
+      "fingerprint": "67ddf606fef606cd"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/research/technology-and-data/biosecurity-cybersecurity-and-food-security",
+      "normalizedUrl": "https://science.unimelb.edu.au/research/technology-and-data/biosecurity-cybersecurity-and-food-security",
+      "title": "Research in biosecurity, cybersecurity and food security | Faculty of Science",
+      "wordCount": 683,
+      "fingerprint": "67efea7db5719f6f"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/students/course-guide-bachelor-of-science/breadth",
+      "normalizedUrl": "https://science.unimelb.edu.au/students/course-guide-bachelor-of-science/breadth",
+      "title": "Breadth subjects in the Bachelor of Science",
+      "wordCount": 577,
+      "fingerprint": "68996878bc5400d6"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/research/healthy-planet/agriculture",
+      "normalizedUrl": "https://science.unimelb.edu.au/research/healthy-planet/agriculture",
+      "title": "Research in agriculture | Faculty of Science",
+      "wordCount": 1181,
+      "fingerprint": "692a4e0ffb5f8e5d"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/engage/lets-talk-scicomm-podcast/ep/s14/episode-103-listen-to-this-if-youre-feeling-overwhelmed-by-a-big-task",
+      "normalizedUrl": "https://science.unimelb.edu.au/engage/lets-talk-scicomm-podcast/ep/s14/episode-103-listen-to-this-if-youre-feeling-overwhelmed-by-a-big-task",
+      "title": "Episode 103 - Listen To This If\u2026 You\u2019re feeling overwhelmed by a big task",
+      "wordCount": 1155,
+      "fingerprint": "6a3568b9e254ade0"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/engage/industry",
+      "normalizedUrl": "https://science.unimelb.edu.au/engage/industry",
+      "title": "Industry engagement",
+      "wordCount": 682,
+      "fingerprint": "6a8f0097345c1de4"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/study/meet-our-students/environment",
+      "normalizedUrl": "https://science.unimelb.edu.au/study/meet-our-students/environment",
+      "title": "Environment: meet our Students and Alumni",
+      "wordCount": 348,
+      "fingerprint": "6ac650b9aa9d1f2c"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/engage/lets-talk-scicomm-podcast/ep/s18/episode-138-listen-to-this-if-you-want-to-disagree-with-someone-effectively",
+      "normalizedUrl": "https://science.unimelb.edu.au/engage/lets-talk-scicomm-podcast/ep/s18/episode-138-listen-to-this-if-you-want-to-disagree-with-someone-effectively",
+      "title": "Episode 138 - Listen To This If\u2026 You Want to Disagree with Someone Effectively",
+      "wordCount": 1333,
+      "fingerprint": "6c03dc77f2d4a1af"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/engage/global-engagement/blended-bsc",
+      "normalizedUrl": "https://science.unimelb.edu.au/engage/global-engagement/blended-bsc",
+      "title": "Blended BSc",
+      "wordCount": 577,
+      "fingerprint": "6c53c9ae5e4e941f"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/research/healthy-planet/climate-and-climate-change",
+      "normalizedUrl": "https://science.unimelb.edu.au/research/healthy-planet/climate-and-climate-change",
+      "title": "Research in climate and climate change | Faculty of Science",
+      "wordCount": 850,
+      "fingerprint": "6c990249189964ce"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/engage/lets-talk-scicomm-podcast/ep/s17/episode-130-listen-to-this-if-youre-struggling-to-find-the-story-in-your-research",
+      "normalizedUrl": "https://science.unimelb.edu.au/engage/lets-talk-scicomm-podcast/ep/s17/episode-130-listen-to-this-if-youre-struggling-to-find-the-story-in-your-research",
+      "title": "Episode 130 - Listen To This If\u2026 you\u2019re struggling to find the story in your research",
+      "wordCount": 1315,
+      "fingerprint": "6e4781177840558f"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/study/careers-in-science/engineering",
+      "normalizedUrl": "https://science.unimelb.edu.au/study/careers-in-science/engineering",
+      "title": "Careers in Engineering",
+      "wordCount": 363,
+      "fingerprint": "6ec3f5be494655f5"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/research/life-and-people/molecular-and-cellular-biology",
+      "normalizedUrl": "https://science.unimelb.edu.au/research/life-and-people/molecular-and-cellular-biology",
+      "title": "Research in molecular and cellular biology | Faculty of Science",
+      "wordCount": 977,
+      "fingerprint": "6f7007d4d1ab052a"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/engage/lets-talk-scicomm-podcast/ep/s14/episode-104-listen-to-this-if-you-want-to-make-your-writing-more-conversational",
+      "normalizedUrl": "https://science.unimelb.edu.au/engage/lets-talk-scicomm-podcast/ep/s14/episode-104-listen-to-this-if-you-want-to-make-your-writing-more-conversational",
+      "title": "Episode 104 - Listen To This If\u2026 You want to make your writing more conversational",
+      "wordCount": 1164,
+      "fingerprint": "6ffbb20dc86f959b"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/about/news/how-to-think-like-a-spy-the-science-of-intelligence",
+      "normalizedUrl": "https://science.unimelb.edu.au/about/news/how-to-think-like-a-spy-the-science-of-intelligence",
+      "title": "How to think like a spy: the science of intelligence",
+      "wordCount": 200,
+      "fingerprint": "710809cc98e823a3"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/about/news/frogs-v-killer-fungus-winning-the-battle-but-losing-the-war",
+      "normalizedUrl": "https://science.unimelb.edu.au/about/news/frogs-v-killer-fungus-winning-the-battle-but-losing-the-war",
+      "title": "Frogs v killer fungus: Winning the battle but losing the war?",
+      "wordCount": 260,
+      "fingerprint": "712014e01208161a"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/engage/science-for-schools/stem-edge",
+      "normalizedUrl": "https://science.unimelb.edu.au/engage/science-for-schools/stem-edge",
+      "title": "STEM EDGE",
+      "wordCount": 449,
+      "fingerprint": "7295a9493cc97026"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/about/purpose-vision-values",
+      "normalizedUrl": "https://science.unimelb.edu.au/about/purpose-vision-values",
+      "title": "Our Purpose, Vision and Values",
+      "wordCount": 429,
+      "fingerprint": "729686adba13a678"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/study/meet-our-students/veterinary-science",
+      "normalizedUrl": "https://science.unimelb.edu.au/study/meet-our-students/veterinary-science",
+      "title": "Veterinary science",
+      "wordCount": 508,
+      "fingerprint": "7397d2829898cf37"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/study/careers-in-science/physical",
+      "normalizedUrl": "https://science.unimelb.edu.au/study/careers-in-science/physical",
+      "title": "Careers in physics",
+      "wordCount": 452,
+      "fingerprint": "74009fffe1565c43"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/engage/lets-talk-scicomm-podcast/ep/s16/episode-124-listen-to-this-if.-you-need-to-say-no-to-an-invitation",
+      "normalizedUrl": "https://science.unimelb.edu.au/engage/lets-talk-scicomm-podcast/ep/s16/episode-124-listen-to-this-if.-you-need-to-say-no-to-an-invitation",
+      "title": "Episode 124 - Listen To This If\u2026. You need to say no to an invitation",
+      "wordCount": 1576,
+      "fingerprint": "74072a7bccff3b15"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/engage/lets-talk-scicomm-podcast/ep/s15/episode-116-listen-to-this-ifyoure-trying-to-choose-a-phd-topic",
+      "normalizedUrl": "https://science.unimelb.edu.au/engage/lets-talk-scicomm-podcast/ep/s15/episode-116-listen-to-this-ifyoure-trying-to-choose-a-phd-topic",
+      "title": "Episode 116 - Listen To This If\u2026You\u2019re trying to choose a PhD topic",
+      "wordCount": 1305,
+      "fingerprint": "74f36a25b569c499"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/students/employability",
+      "normalizedUrl": "https://science.unimelb.edu.au/students/employability",
+      "title": "Employability in Science",
+      "wordCount": 1058,
+      "fingerprint": "757370bf92ec0935"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/engage/giving-to-science?in_c=scienceweb_support_footer",
+      "normalizedUrl": "https://science.unimelb.edu.au/engage/giving-to-science?in_c=scienceweb_support_footer",
+      "title": "Support Science",
+      "wordCount": 514,
+      "fingerprint": "75fd61666891066c"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/engage/lets-talk-scicomm-podcast/ep/s19/episode-141-interview-with-the-weekend-birder-host-and-creator-kirsty-costa",
+      "normalizedUrl": "https://science.unimelb.edu.au/engage/lets-talk-scicomm-podcast/ep/s19/episode-141-interview-with-the-weekend-birder-host-and-creator-kirsty-costa",
+      "title": "Episode 141 - Interview with The Weekend Birder host and creator Kirsty Costa",
+      "wordCount": 223,
+      "fingerprint": "765655422e962a9e"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/study/undergraduate-studies/bachelor-of-science-honours",
+      "normalizedUrl": "https://science.unimelb.edu.au/study/undergraduate-studies/bachelor-of-science-honours",
+      "title": "Bachelor of Science (Degree with Honours) - The University of Melbourne",
+      "wordCount": 478,
+      "fingerprint": "770e485902068664"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/engage/lets-talk-scicomm-podcast/ep/s17/episode-127-interview-with-cell-biologist-and-science-communicator-tina-katsaros",
+      "normalizedUrl": "https://science.unimelb.edu.au/engage/lets-talk-scicomm-podcast/ep/s17/episode-127-interview-with-cell-biologist-and-science-communicator-tina-katsaros",
+      "title": "Episode 127 - Interview with cell biologist and science communicator Tina Katsaros",
+      "wordCount": 6334,
+      "fingerprint": "78a892e06b95d480"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/engage/global-engagement/bachelor-of-science-advanced-honours",
+      "normalizedUrl": "https://science.unimelb.edu.au/engage/global-engagement/bachelor-of-science-advanced-honours",
+      "title": "Bachelor of Science Advanced (Honours) - The University of Melbourne",
+      "wordCount": 239,
+      "fingerprint": "7b09851d11aa2345"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/engage/industry/students",
+      "normalizedUrl": "https://science.unimelb.edu.au/engage/industry/students",
+      "title": "Engage with our students",
+      "wordCount": 265,
+      "fingerprint": "7c95ce84501128fd"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/engage/amgen-scholars/alumni/yohaann-ghosh",
+      "normalizedUrl": "https://science.unimelb.edu.au/engage/amgen-scholars/alumni/yohaann-ghosh",
+      "title": "Yohaann Ghosh",
+      "wordCount": 371,
+      "fingerprint": "83d526d39e470039"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/study/graduate-studies",
+      "normalizedUrl": "https://science.unimelb.edu.au/study/graduate-studies",
+      "title": "Graduate studies in science",
+      "wordCount": 257,
+      "fingerprint": "84196c246833895f"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/students/course-guide-graduate-coursework-degrees",
+      "normalizedUrl": "https://science.unimelb.edu.au/students/course-guide-graduate-coursework-degrees",
+      "title": "Course guide: Graduate coursework degrees",
+      "wordCount": 630,
+      "fingerprint": "846d90691e3f0cbb"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/engage/giving-to-science/?in_c=scienceweb_support_footer",
+      "normalizedUrl": "https://science.unimelb.edu.au/engage/giving-to-science/?in_c=scienceweb_support_footer",
+      "title": "Support Science",
+      "wordCount": 514,
+      "fingerprint": "854796da870bd879"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/about/news/horticulture-student-wins-$10,000-grant-to-install-garden-at-melbourne-international-flower-and-garden-show",
+      "normalizedUrl": "https://science.unimelb.edu.au/about/news/horticulture-student-wins-$10,000-grant-to-install-garden-at-melbourne-international-flower-and-garden-show",
+      "title": "Horticulture student wins $10,000 grant to install garden at Melbourne International Flower and Garden Show",
+      "wordCount": 371,
+      "fingerprint": "855c25399d653960"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/research/facilities",
+      "normalizedUrl": "https://science.unimelb.edu.au/research/facilities",
+      "title": "Research capabilities, facilities and services",
+      "wordCount": 331,
+      "fingerprint": "86b6588ca525ad52"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/research/healthy-planet/urban-greening",
+      "normalizedUrl": "https://science.unimelb.edu.au/research/healthy-planet/urban-greening",
+      "title": "Research in urban greening | Faculty of Science",
+      "wordCount": 267,
+      "fingerprint": "8829101f0b6eada9"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/students/current-students-news-events/celebrating-our-best-students-with-deans-honours2",
+      "normalizedUrl": "https://science.unimelb.edu.au/students/current-students-news-events/celebrating-our-best-students-with-deans-honours2",
+      "title": "Celebrating our best students with Dean\u2019s Honours",
+      "wordCount": 518,
+      "fingerprint": "88a8e474f6f37471"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/engage/lets-talk-scicomm-podcast/ep/s15/episode-112-listen-to-this-if-you-need-to-recover-your-confidence-after-giving-a-bad-talk",
+      "normalizedUrl": "https://science.unimelb.edu.au/engage/lets-talk-scicomm-podcast/ep/s15/episode-112-listen-to-this-if-you-need-to-recover-your-confidence-after-giving-a-bad-talk",
+      "title": "Episode 112 - Listen To This If You Need to Recover Your Confidence After Giving a Bad Talk",
+      "wordCount": 1324,
+      "fingerprint": "891d0fe70d45b354"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/engage/lets-talk-scicomm-podcast/ep/s15/episode-113-interview-with-communications-and-partnerships-manager,-troy-beer",
+      "normalizedUrl": "https://science.unimelb.edu.au/engage/lets-talk-scicomm-podcast/ep/s15/episode-113-interview-with-communications-and-partnerships-manager,-troy-beer",
+      "title": "Episode 113 - Interview with Communications and Partnerships Manager, Troy Beer",
+      "wordCount": 5299,
+      "fingerprint": "8b71680480589abe"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/engage/lets-talk-scicomm-podcast/ep/s16/episode-120-listen-to-this-if-you-need-a-killer-headline",
+      "normalizedUrl": "https://science.unimelb.edu.au/engage/lets-talk-scicomm-podcast/ep/s16/episode-120-listen-to-this-if-you-need-a-killer-headline",
+      "title": "Episode 120 - Listen to This If\u2026 You Need a Killer Headline",
+      "wordCount": 1352,
+      "fingerprint": "8c557e892fde1a98"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/research/healthy-planet/earth-science-and-physical-geography",
+      "normalizedUrl": "https://science.unimelb.edu.au/research/healthy-planet/earth-science-and-physical-geography",
+      "title": "Research in earth science and physical geography | Faculty of Science",
+      "wordCount": 801,
+      "fingerprint": "8d0974fdb9418f33"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/about/faculty-of-science-leadership-team",
+      "normalizedUrl": "https://science.unimelb.edu.au/about/faculty-of-science-leadership-team",
+      "title": "Our people",
+      "wordCount": 435,
+      "fingerprint": "8fadccb4e1160c24"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/engage/lets-talk-scicomm-podcast/ep/s14/episode-102-listen-to-this-if-your-powerpoint-slides-are-boring",
+      "normalizedUrl": "https://science.unimelb.edu.au/engage/lets-talk-scicomm-podcast/ep/s14/episode-102-listen-to-this-if-your-powerpoint-slides-are-boring",
+      "title": "Episode 102 - Listen To This If\u2026 Your powerpoint slides are BORING",
+      "wordCount": 1117,
+      "fingerprint": "8fd62e13f541ea49"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/engage/amgen-scholars/alumni/thomas-phu-minh-triet-nguyen",
+      "normalizedUrl": "https://science.unimelb.edu.au/engage/amgen-scholars/alumni/thomas-phu-minh-triet-nguyen",
+      "title": "Thomas (Phu Minh Triet) Nguyen",
+      "wordCount": 324,
+      "fingerprint": "90c05263702fc292"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/research/foundational-sciences/theoretical-physics",
+      "normalizedUrl": "https://science.unimelb.edu.au/research/foundational-sciences/theoretical-physics",
+      "title": "Research in theoretical physics | Faculty of Science",
+      "wordCount": 421,
+      "fingerprint": "91cc0f27404a5e45"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/engage/amgen-scholars/alumni/lavi-singh",
+      "normalizedUrl": "https://science.unimelb.edu.au/engage/amgen-scholars/alumni/lavi-singh",
+      "title": "Lavi Singh",
+      "wordCount": 131,
+      "fingerprint": "921638d7ac6ae63e"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/festival/recordings/life-and-people",
+      "normalizedUrl": "https://science.unimelb.edu.au/festival/recordings/life-and-people",
+      "title": "Life and people | Science at Melbourne Festival",
+      "wordCount": 798,
+      "fingerprint": "9231509763127d8c"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/students/current-students-news-events/graduate-research-conference-2024",
+      "normalizedUrl": "https://science.unimelb.edu.au/students/current-students-news-events/graduate-research-conference-2024",
+      "title": "Graduate Research Conference 2024",
+      "wordCount": 219,
+      "fingerprint": "9279aaa63f834275"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/engage/lets-talk-scicomm-podcast/ep/s15/episode-109-interview-with-mother-of-sharks-melissa-cristina-marquez",
+      "normalizedUrl": "https://science.unimelb.edu.au/engage/lets-talk-scicomm-podcast/ep/s15/episode-109-interview-with-mother-of-sharks-melissa-cristina-marquez",
+      "title": "Episode 109 - Interview with \u2018Mother of Sharks\u2019 Melissa Cristina M\u00e1rquez",
+      "wordCount": 6569,
+      "fingerprint": "94ee602ba6e24e27"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/about/news/animals-and-us-the-role-of-nature-in-society",
+      "normalizedUrl": "https://science.unimelb.edu.au/about/news/animals-and-us-the-role-of-nature-in-society",
+      "title": "Animals and us: The role of nature in society",
+      "wordCount": 204,
+      "fingerprint": "95bfdd5c36dc57e6"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/students/current-students-news-events/science-day-1-2025",
+      "normalizedUrl": "https://science.unimelb.edu.au/students/current-students-news-events/science-day-1-2025",
+      "title": "Science: Day 1 2025",
+      "wordCount": 292,
+      "fingerprint": "96567ad85c9ee7f4"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/study/meet-our-students/earth-sciences",
+      "normalizedUrl": "https://science.unimelb.edu.au/study/meet-our-students/earth-sciences",
+      "title": "Earth Sciences: meet our Students and Alumni",
+      "wordCount": 143,
+      "fingerprint": "98381370709ea151"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/about/news/chemist-wins-grimwade-prize-for-advancing-radiopharmaceutical-therapies",
+      "normalizedUrl": "https://science.unimelb.edu.au/about/news/chemist-wins-grimwade-prize-for-advancing-radiopharmaceutical-therapies",
+      "title": "Chemist wins Grimwade Prize for advancing radiopharmaceutical therapies",
+      "wordCount": 277,
+      "fingerprint": "9b3cb2ce0055b8a1"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/study/undergraduate-studies/science-prerequisites",
+      "normalizedUrl": "https://science.unimelb.edu.au/study/undergraduate-studies/science-prerequisites",
+      "title": "I want to do a Bachelor of Science, but don't meet the prerequisites. What can I do?",
+      "wordCount": 660,
+      "fingerprint": "9b79d2acd0910fca"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/research/awards-grants-and-support/zahra-islam",
+      "normalizedUrl": "https://science.unimelb.edu.au/research/awards-grants-and-support/zahra-islam",
+      "title": "Zahra Islam",
+      "wordCount": 443,
+      "fingerprint": "9fa20ba9a81cc964"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/research/technology-and-data/computational-modelling",
+      "normalizedUrl": "https://science.unimelb.edu.au/research/technology-and-data/computational-modelling",
+      "title": "Research in computational modelling | Faculty of Science",
+      "wordCount": 463,
+      "fingerprint": "a39823e19c750dd8"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/about/news",
+      "normalizedUrl": "https://science.unimelb.edu.au/about/news",
+      "title": "Faculty news and announcements",
+      "wordCount": 584,
+      "fingerprint": "a5b18e685ba8fb9c"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/research/healthy-planet",
+      "normalizedUrl": "https://science.unimelb.edu.au/research/healthy-planet",
+      "title": "Research in a healthy planet | Faculty of Science",
+      "wordCount": 1218,
+      "fingerprint": "a6a0032304750a16"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/engage/amgen-scholars/alumni/inoli-wadumesthrige-don",
+      "normalizedUrl": "https://science.unimelb.edu.au/engage/amgen-scholars/alumni/inoli-wadumesthrige-don",
+      "title": "Inoli Wadumesthrige Don",
+      "wordCount": 113,
+      "fingerprint": "a6bcb6d932314766"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/research/healthy-planet/pollution-and-air-quality",
+      "normalizedUrl": "https://science.unimelb.edu.au/research/healthy-planet/pollution-and-air-quality",
+      "title": "Research in pollution and air quality | Faculty of Science",
+      "wordCount": 379,
+      "fingerprint": "a7e3f94d8e41e334"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/study/undergraduate-studies",
+      "normalizedUrl": "https://science.unimelb.edu.au/study/undergraduate-studies",
+      "title": "Undergraduate studies in science",
+      "wordCount": 757,
+      "fingerprint": "a831124ef9abb57d"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/research/life-and-people/animal-health-and-disease",
+      "normalizedUrl": "https://science.unimelb.edu.au/research/life-and-people/animal-health-and-disease",
+      "title": "Research in animal health and disease | Faculty of Science",
+      "wordCount": 1009,
+      "fingerprint": "a858f12f67f7924f"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/engage/science-for-schools/misep",
+      "normalizedUrl": "https://science.unimelb.edu.au/engage/science-for-schools/misep",
+      "title": "Melbourne Indigenous STEM Education Program (MISEP)",
+      "wordCount": 1126,
+      "fingerprint": "aade96c7c946c0b1"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/engage/alumni/grow-your-network",
+      "normalizedUrl": "https://science.unimelb.edu.au/engage/alumni/grow-your-network",
+      "title": "Grow your network",
+      "wordCount": 157,
+      "fingerprint": "ab254f8fbcdc6f2c"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/study/meet-our-students/physics",
+      "normalizedUrl": "https://science.unimelb.edu.au/study/meet-our-students/physics",
+      "title": "Physics: Meet our Students and Alumni",
+      "wordCount": 179,
+      "fingerprint": "ab59c8f7b871c424"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/festival/recordings/foundational-sciences",
+      "normalizedUrl": "https://science.unimelb.edu.au/festival/recordings/foundational-sciences",
+      "title": "Foundational sciences | Science at Melbourne Festival",
+      "wordCount": 420,
+      "fingerprint": "ac53d34e5605917c"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/students/current-students-news-events/2025-international-student-expo",
+      "normalizedUrl": "https://science.unimelb.edu.au/students/current-students-news-events/2025-international-student-expo",
+      "title": "2025 International Student Expo",
+      "wordCount": 243,
+      "fingerprint": "add065f7bfdff5ef"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/foodprint-melbourne/home",
+      "normalizedUrl": "https://science.unimelb.edu.au/foodprint-melbourne/home",
+      "title": "Foodprint Melbourne \u2013 planning a resilient city food system",
+      "wordCount": 321,
+      "fingerprint": "aecb88b7b20d5d7b"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/engage/lets-talk-scicomm-podcast/ep/s17/episode-131-episode-with-bee-man-clancy-lester",
+      "normalizedUrl": "https://science.unimelb.edu.au/engage/lets-talk-scicomm-podcast/ep/s17/episode-131-episode-with-bee-man-clancy-lester",
+      "title": "Episode 131 - Episode with \u2018Bee Man\u2019 Clancy Lester",
+      "wordCount": 5964,
+      "fingerprint": "af364d9ffa9d77b0"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/news",
+      "normalizedUrl": "https://science.unimelb.edu.au/news",
+      "title": "Faculty news and announcements",
+      "wordCount": 73,
+      "fingerprint": "afa0a9764d06c18f"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/engage/lets-talk-scicomm-podcast/ep/s18/episode-140-listen-to-this-if-you-want-to-up-your-email-game",
+      "normalizedUrl": "https://science.unimelb.edu.au/engage/lets-talk-scicomm-podcast/ep/s18/episode-140-listen-to-this-if-you-want-to-up-your-email-game",
+      "title": "Episode 140 - Listen To This If\u2026 You Want to Up Your Email Game",
+      "wordCount": 1445,
+      "fingerprint": "b1818cae66b13558"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/about/news/dont-drink-the-water-or-breathe-the-air-pollution-and-solutions",
+      "normalizedUrl": "https://science.unimelb.edu.au/about/news/dont-drink-the-water-or-breathe-the-air-pollution-and-solutions",
+      "title": "Don\u2019t drink the water or breathe the air: pollution and solutions",
+      "wordCount": 196,
+      "fingerprint": "b18cdf7e47d9cc6f"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/festival/recordings/technology-and-data",
+      "normalizedUrl": "https://science.unimelb.edu.au/festival/recordings/technology-and-data",
+      "title": "Technology and data | Science at Melbourne Festival",
+      "wordCount": 266,
+      "fingerprint": "b27fcda7084f458e"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/research/foundational-sciences/astronomy-cosmology-and-astrophysics",
+      "normalizedUrl": "https://science.unimelb.edu.au/research/foundational-sciences/astronomy-cosmology-and-astrophysics",
+      "title": "Research in astronomy, cosmology and astrophysics | Faculty of Science",
+      "wordCount": 415,
+      "fingerprint": "b41dc1bba77d8a7f"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/study/undergraduate-studies/whats-studying-science-really-like",
+      "normalizedUrl": "https://science.unimelb.edu.au/study/undergraduate-studies/whats-studying-science-really-like",
+      "title": "What's studying science really like?",
+      "wordCount": 869,
+      "fingerprint": "b5665b17ee87e067"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/research/technology-and-data/machine-learning-and-ai",
+      "normalizedUrl": "https://science.unimelb.edu.au/research/technology-and-data/machine-learning-and-ai",
+      "title": "Research in machine learning and AI | Faculty of Science",
+      "wordCount": 336,
+      "fingerprint": "ba4cd94312052948"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/students/scholarships",
+      "normalizedUrl": "https://science.unimelb.edu.au/students/scholarships",
+      "title": "Awards, prizes and scholarships",
+      "wordCount": 352,
+      "fingerprint": "bb789920b3782d9f"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/about/news/ai-tool-spotlights-welfare-concerns-in-greyhound-racing-industry",
+      "normalizedUrl": "https://science.unimelb.edu.au/about/news/ai-tool-spotlights-welfare-concerns-in-greyhound-racing-industry",
+      "title": "AI tool spotlights welfare concerns in greyhound racing industry",
+      "wordCount": 986,
+      "fingerprint": "bc86ecd424e8acfc"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/about/always",
+      "normalizedUrl": "https://science.unimelb.edu.au/about/always",
+      "title": "Always",
+      "wordCount": 385,
+      "fingerprint": "bdd971d35b85690a"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/engage/lets-talk-scicomm-podcast/ep/s16/episode-119-interview-with-medical-entomologist-dr-veronique-paris",
+      "normalizedUrl": "https://science.unimelb.edu.au/engage/lets-talk-scicomm-podcast/ep/s16/episode-119-interview-with-medical-entomologist-dr-veronique-paris",
+      "title": "Episode 119 - Interview with medical entomologist Dr V\u00e9ronique Paris",
+      "wordCount": 5978,
+      "fingerprint": "be290879cef6dfe5"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/study/careers-in-science/geography",
+      "normalizedUrl": "https://science.unimelb.edu.au/study/careers-in-science/geography",
+      "title": "Careers in geography, earth and atmospheric sciences",
+      "wordCount": 572,
+      "fingerprint": "be48eb70dc147ccf"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/engage/giving-to-science/make-a-difference",
+      "normalizedUrl": "https://science.unimelb.edu.au/engage/giving-to-science/make-a-difference",
+      "title": "Make a difference",
+      "wordCount": 582,
+      "fingerprint": "be8d2795bfb69dde"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/engage/lets-talk-scicomm-podcast/ep/s18/episode-139-interview-with-scicomm-researcher-and-evolutionary-linguist-dr-hannah-little",
+      "normalizedUrl": "https://science.unimelb.edu.au/engage/lets-talk-scicomm-podcast/ep/s18/episode-139-interview-with-scicomm-researcher-and-evolutionary-linguist-dr-hannah-little",
+      "title": "Episode 139 - Interview with scicomm researcher and evolutionary linguist Dr Hannah Little",
+      "wordCount": 5546,
+      "fingerprint": "bea07d6471adaff9"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/engage/science-for-schools/science-experience",
+      "normalizedUrl": "https://science.unimelb.edu.au/engage/science-for-schools/science-experience",
+      "title": "The Science Experience",
+      "wordCount": 322,
+      "fingerprint": "c1688e3d8645e86c"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/research/foundational-sciences/pure-mathematics",
+      "normalizedUrl": "https://science.unimelb.edu.au/research/foundational-sciences/pure-mathematics",
+      "title": "Research in pure mathematics | Faculty of Science",
+      "wordCount": 218,
+      "fingerprint": "c21bb26f95068d68"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/engage/lets-talk-scicomm-podcast/ep/s14/episode-101-listen-to-this-if-you-want-to-start-a-new-habit",
+      "normalizedUrl": "https://science.unimelb.edu.au/engage/lets-talk-scicomm-podcast/ep/s14/episode-101-listen-to-this-if-you-want-to-start-a-new-habit",
+      "title": "Episode 101 - Listen To This If\u2026 You want to start a new habit",
+      "wordCount": 1298,
+      "fingerprint": "c2344d1c6ba52926"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/engage/lets-talk-scicomm-podcast/ep/s18/episode-137-interview-with-ecologist-and-author-prof-deb-bower",
+      "normalizedUrl": "https://science.unimelb.edu.au/engage/lets-talk-scicomm-podcast/ep/s18/episode-137-interview-with-ecologist-and-author-prof-deb-bower",
+      "title": "Episode 137 - Interview with ecologist and author Prof Deb Bower",
+      "wordCount": 5661,
+      "fingerprint": "c38ce81e735210b2"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/students/current-students-news-events/international-student-welcome-dinner",
+      "normalizedUrl": "https://science.unimelb.edu.au/students/current-students-news-events/international-student-welcome-dinner",
+      "title": "International Student Welcome Dinner 2024",
+      "wordCount": 217,
+      "fingerprint": "c48e73d1e70c5b39"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/research/life-and-people/biotechnology",
+      "normalizedUrl": "https://science.unimelb.edu.au/research/life-and-people/biotechnology",
+      "title": "Research in biotechnology | Faculty of Science",
+      "wordCount": 415,
+      "fingerprint": "c4a591b9e87b6e91"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/about/news/celebrating-21-years-of-the-bio21-institute",
+      "normalizedUrl": "https://science.unimelb.edu.au/about/news/celebrating-21-years-of-the-bio21-institute",
+      "title": "Celebrating 21 years of the Bio21 Institute",
+      "wordCount": 470,
+      "fingerprint": "c4c27f9dbf8aa07f"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/study/undergraduate-studies/choose-a-bachelor-of-science-major",
+      "normalizedUrl": "https://science.unimelb.edu.au/study/undergraduate-studies/choose-a-bachelor-of-science-major",
+      "title": "How do I choose a Bachelor of Science major?",
+      "wordCount": 872,
+      "fingerprint": "c50bbd64b0174c19"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/engage/science-at-melbourne-public-lectures",
+      "normalizedUrl": "https://science.unimelb.edu.au/engage/science-at-melbourne-public-lectures",
+      "title": "Science at Melbourne Conversations",
+      "wordCount": 491,
+      "fingerprint": "c5ab2b7911877bc5"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/study/careers-in-science/agricultural-and-food-sciences",
+      "normalizedUrl": "https://science.unimelb.edu.au/study/careers-in-science/agricultural-and-food-sciences",
+      "title": "Careers in agricultural and food sciences",
+      "wordCount": 459,
+      "fingerprint": "c62c932b7775533d"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/engage/science-at-melbourne-conversations",
+      "normalizedUrl": "https://science.unimelb.edu.au/engage/science-at-melbourne-conversations",
+      "title": "Science at Melbourne Conversations",
+      "wordCount": 491,
+      "fingerprint": "c67a9ea2206e0985"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/research/awards-grants-and-support/joshua-thia",
+      "normalizedUrl": "https://science.unimelb.edu.au/research/awards-grants-and-support/joshua-thia",
+      "title": "Joshua Thia",
+      "wordCount": 418,
+      "fingerprint": "c6f66d2001996c47"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/engage/lets-talk-scicomm-podcast/ep/s18/episode-135-interview-with-parasitologist,-writer-and-artist-dr-tommy-leung",
+      "normalizedUrl": "https://science.unimelb.edu.au/engage/lets-talk-scicomm-podcast/ep/s18/episode-135-interview-with-parasitologist,-writer-and-artist-dr-tommy-leung",
+      "title": "Episode 135 - Interview with parasitologist, writer and artist Dr Tommy Leung",
+      "wordCount": 6016,
+      "fingerprint": "c9ca64c40ccb6c90"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/students/graduate-research/contact",
+      "normalizedUrl": "https://science.unimelb.edu.au/students/graduate-research/contact",
+      "title": "Important contacts for graduate researchers",
+      "wordCount": 286,
+      "fingerprint": "ca831f8b277f577f"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/research/life-and-people/medical-technologies",
+      "normalizedUrl": "https://science.unimelb.edu.au/research/life-and-people/medical-technologies",
+      "title": "Research in medical technologies | Faculty of Science",
+      "wordCount": 317,
+      "fingerprint": "cb445c10eba1a08a"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/study/undergraduate-studies/science-and-maths-as-breadth",
+      "normalizedUrl": "https://science.unimelb.edu.au/study/undergraduate-studies/science-and-maths-as-breadth",
+      "title": "Science and maths as Breadth",
+      "wordCount": 588,
+      "fingerprint": "cbb446c3699d6b49"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/about/news/honouring-our-top-achieving-students",
+      "normalizedUrl": "https://science.unimelb.edu.au/about/news/honouring-our-top-achieving-students",
+      "title": "Honouring our top achieving students",
+      "wordCount": 544,
+      "fingerprint": "cc0b0ff625135969"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/students/current-students-news-events/the-deans-honours-list-2022-celebrating-the-highest-achieving-students-in-science",
+      "normalizedUrl": "https://science.unimelb.edu.au/students/current-students-news-events/the-deans-honours-list-2022-celebrating-the-highest-achieving-students-in-science",
+      "title": "The Dean's Honours List 2022: Celebrating the highest achieving students in Science",
+      "wordCount": 851,
+      "fingerprint": "cded60c0acb8eda2"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/students/current-students-news-events/science-students-societys-unimelb-ocamp-2022",
+      "normalizedUrl": "https://science.unimelb.edu.au/students/current-students-news-events/science-students-societys-unimelb-ocamp-2022",
+      "title": "Science Students\u2019 Society\u2019s UniMelb O\u2019Camp 2022",
+      "wordCount": 128,
+      "fingerprint": "cec50700af9ec400"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/about/news/student-awarded-2023-agrifutures-horizon-scholarship",
+      "normalizedUrl": "https://science.unimelb.edu.au/about/news/student-awarded-2023-agrifutures-horizon-scholarship",
+      "title": "Student awarded 2023 AgriFutures Horizon Scholarship",
+      "wordCount": 252,
+      "fingerprint": "cff25e07c2718b00"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/engage/lets-talk-scicomm-podcast/ep/s17/episode-128-listen-to-this-if-your-paper-or-grant-just-got-rejected",
+      "normalizedUrl": "https://science.unimelb.edu.au/engage/lets-talk-scicomm-podcast/ep/s17/episode-128-listen-to-this-if-your-paper-or-grant-just-got-rejected",
+      "title": "Episode 128 - Listen To This If Your Paper or Grant Just Got Rejected",
+      "wordCount": 1391,
+      "fingerprint": "d0d34aedeca194e8"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/about/news/training-partnership-with-tuvalu-builds-climate-resilience-in-the-pacific-region",
+      "normalizedUrl": "https://science.unimelb.edu.au/about/news/training-partnership-with-tuvalu-builds-climate-resilience-in-the-pacific-region",
+      "title": "Training partnership with Tuvalu builds climate resilience in the Pacific region",
+      "wordCount": 459,
+      "fingerprint": "d10d5f5711765684"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/research/awards-grants-and-support",
+      "normalizedUrl": "https://science.unimelb.edu.au/research/awards-grants-and-support",
+      "title": "Awards, grants and support",
+      "wordCount": 1022,
+      "fingerprint": "d14cc8790cd9a710"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/about/news/Undergraduate-students-get-a-taste-of-life-as-a-researcher-during-summer-program",
+      "normalizedUrl": "https://science.unimelb.edu.au/about/news/Undergraduate-students-get-a-taste-of-life-as-a-researcher-during-summer-program",
+      "title": "Undergraduate students get a taste of life as a researcher during summer program",
+      "wordCount": 517,
+      "fingerprint": "d3101ab227063ca4"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/study/meet-our-students/health-sciences",
+      "normalizedUrl": "https://science.unimelb.edu.au/study/meet-our-students/health-sciences",
+      "title": "Health Sciences: meet our Students and Alumni",
+      "wordCount": 311,
+      "fingerprint": "d38bdd3f3ba966c7"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/students/current-students-news-events/graduate-studies-in-chemistry-information-session",
+      "normalizedUrl": "https://science.unimelb.edu.au/students/current-students-news-events/graduate-studies-in-chemistry-information-session",
+      "title": "Graduate studies in Chemistry information session",
+      "wordCount": 117,
+      "fingerprint": "d3df5b6fa16733b9"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/about/our-schools",
+      "normalizedUrl": "https://science.unimelb.edu.au/about/our-schools",
+      "title": "Our schools",
+      "wordCount": 402,
+      "fingerprint": "d5240a0fcad6eb7d"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/engage/science-for-schools/rise",
+      "normalizedUrl": "https://science.unimelb.edu.au/engage/science-for-schools/rise",
+      "title": "Residential Indigenous Science Experience (RISE)",
+      "wordCount": 991,
+      "fingerprint": "d759c81822118eb6"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/about/news/young-scientists-achieve-remarkable-results-with-summer-scholarships",
+      "normalizedUrl": "https://science.unimelb.edu.au/about/news/young-scientists-achieve-remarkable-results-with-summer-scholarships",
+      "title": "Young scientists achieve remarkable results with summer scholarships",
+      "wordCount": 733,
+      "fingerprint": "d820f5a4982c3e63"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/engage/global-engagement",
+      "normalizedUrl": "https://science.unimelb.edu.au/engage/global-engagement",
+      "title": "The Faculty of Science's global vision",
+      "wordCount": 286,
+      "fingerprint": "db47ea658a7f3fed"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/about/news/farm-field-days-showcase-feed-additives-that-reduce-livestock-methane-emissions",
+      "normalizedUrl": "https://science.unimelb.edu.au/about/news/farm-field-days-showcase-feed-additives-that-reduce-livestock-methane-emissions",
+      "title": "Farm field days showcase feed additives that reduce livestock methane emissions",
+      "wordCount": 411,
+      "fingerprint": "dc1405012d4530c7"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/engage/lets-talk-scicomm-podcast/ep/s15/episode-115-interview-with-neuroscientist-and-author-dr-ariel-zeleznikow-johnston",
+      "normalizedUrl": "https://science.unimelb.edu.au/engage/lets-talk-scicomm-podcast/ep/s15/episode-115-interview-with-neuroscientist-and-author-dr-ariel-zeleznikow-johnston",
+      "title": "Episode 115 - Interview with neuroscientist and author Dr Ariel Zeleznikow-Johnston",
+      "wordCount": 6222,
+      "fingerprint": "dc2195038fb8c285"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/engage/lets-talk-scicomm-podcast/ep/s14/episode-106-listen-to-this-if-youre-searching-for-motivation",
+      "normalizedUrl": "https://science.unimelb.edu.au/engage/lets-talk-scicomm-podcast/ep/s14/episode-106-listen-to-this-if-youre-searching-for-motivation",
+      "title": "Episode 106 - Listen To This If\u2026 You\u2019re searching for motivation",
+      "wordCount": 1142,
+      "fingerprint": "dc3f8106099480dd"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/students/current-students-news-events/2021-arc-future-fellowships-announced",
+      "normalizedUrl": "https://science.unimelb.edu.au/students/current-students-news-events/2021-arc-future-fellowships-announced",
+      "title": "2021 ARC Future Fellowships announced",
+      "wordCount": 161,
+      "fingerprint": "dce3944165ea49f4"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/students/support",
+      "normalizedUrl": "https://science.unimelb.edu.au/students/support",
+      "title": "Support and contacts for students",
+      "wordCount": 752,
+      "fingerprint": "dcfcc2490c2e1ed8"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/about/news/philanthropy-drives-development-of-young-climate-action-leaders",
+      "normalizedUrl": "https://science.unimelb.edu.au/about/news/philanthropy-drives-development-of-young-climate-action-leaders",
+      "title": "Philanthropy drives development of young climate action leaders",
+      "wordCount": 397,
+      "fingerprint": "ddb1bda162ce9e21"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/about/our-history",
+      "normalizedUrl": "https://science.unimelb.edu.au/about/our-history",
+      "title": "History of Science at Melbourne",
+      "wordCount": 460,
+      "fingerprint": "ddfd1e74fa3c74ab"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/students/current-students-news-events/meet-proud-gunditjmara-woman-and-student-jerrika-pevitt",
+      "normalizedUrl": "https://science.unimelb.edu.au/students/current-students-news-events/meet-proud-gunditjmara-woman-and-student-jerrika-pevitt",
+      "title": "Meet proud Gunditjmara woman and Bachelor of Science student Jerrika Pevitt",
+      "wordCount": 318,
+      "fingerprint": "de3b78adef337499"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/engage/science-for-schools/year-10-work-experience",
+      "normalizedUrl": "https://science.unimelb.edu.au/engage/science-for-schools/year-10-work-experience",
+      "title": "Year 10 Work Experience",
+      "wordCount": 2037,
+      "fingerprint": "de8445613e2f18f8"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/students/scholarships/scholarships/open-scholarships",
+      "normalizedUrl": "https://science.unimelb.edu.au/students/scholarships/scholarships/open-scholarships",
+      "title": "Open scholarships",
+      "wordCount": 986,
+      "fingerprint": "df388dcd4f285dce"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/festival/recordings/indigenous-knowledges",
+      "normalizedUrl": "https://science.unimelb.edu.au/festival/recordings/indigenous-knowledges",
+      "title": "Indigenous knowledges | Science at Melbourne Festival",
+      "wordCount": 301,
+      "fingerprint": "df4d9f80860c410a"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/study/undergraduate-studies/help",
+      "normalizedUrl": "https://science.unimelb.edu.au/study/undergraduate-studies/help",
+      "title": "Where do I go if I need help?",
+      "wordCount": 970,
+      "fingerprint": "e0608f561ff720b6"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/festival/conversation",
+      "normalizedUrl": "https://science.unimelb.edu.au/festival/conversation",
+      "title": "Conversation | Science at Melbourne Festival",
+      "wordCount": 207,
+      "fingerprint": "e18e65afc1ed11d8"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/engage/lets-talk-scicomm-podcast/ep/s18/episode-134-listen-to-this-ifyou-get-invited-to-talk-with-a-journalist",
+      "normalizedUrl": "https://science.unimelb.edu.au/engage/lets-talk-scicomm-podcast/ep/s18/episode-134-listen-to-this-ifyou-get-invited-to-talk-with-a-journalist",
+      "title": "Episode 134 - Listen To This If\u2026You Get Invited To Talk With A Journalist",
+      "wordCount": 1434,
+      "fingerprint": "e1d2141352ce9058"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/research/foundational-sciences/chemistry",
+      "normalizedUrl": "https://science.unimelb.edu.au/research/foundational-sciences/chemistry",
+      "title": "Research in chemistry | Faculty of Science",
+      "wordCount": 990,
+      "fingerprint": "e23bd97b21f6ae1f"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/research/awards-grants-and-support/vera-korasidis",
+      "normalizedUrl": "https://science.unimelb.edu.au/research/awards-grants-and-support/vera-korasidis",
+      "title": "Vera Korasidis",
+      "wordCount": 367,
+      "fingerprint": "e3c7e8180eaf3934"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/study/careers-in-science/veterinary-science",
+      "normalizedUrl": "https://science.unimelb.edu.au/study/careers-in-science/veterinary-science",
+      "title": "Careers in veterinary sciences",
+      "wordCount": 390,
+      "fingerprint": "e3f79810751022bd"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/research/healthy-planet/ecology-and-evolution",
+      "normalizedUrl": "https://science.unimelb.edu.au/research/healthy-planet/ecology-and-evolution",
+      "title": "Research in ecology and evolution | Faculty of Science",
+      "wordCount": 1264,
+      "fingerprint": "e4a195da6016c998"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/research/foundational-sciences/applied-mathematics",
+      "normalizedUrl": "https://science.unimelb.edu.au/research/foundational-sciences/applied-mathematics",
+      "title": "Research in applied mathematics | Faculty of Science",
+      "wordCount": 245,
+      "fingerprint": "e59fc5b576a86f52"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/engage/science-for-schools/in2science-in-your-classroom",
+      "normalizedUrl": "https://science.unimelb.edu.au/engage/science-for-schools/in2science-in-your-classroom",
+      "title": "In2science program in your classroom",
+      "wordCount": 730,
+      "fingerprint": "e70820d7593d4a0b"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/research/technology-and-data/data-science",
+      "normalizedUrl": "https://science.unimelb.edu.au/research/technology-and-data/data-science",
+      "title": "Research in data science | Faculty of Science",
+      "wordCount": 424,
+      "fingerprint": "eccf7f7568c7da2d"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/study/meet-our-students/engineering",
+      "normalizedUrl": "https://science.unimelb.edu.au/study/meet-our-students/engineering",
+      "title": "Engineering: meet our Students and Alumni",
+      "wordCount": 207,
+      "fingerprint": "ee791eea225a0291"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/about/faculty-of-science-leadership-team/rose-bryant-smith",
+      "normalizedUrl": "https://science.unimelb.edu.au/about/faculty-of-science-leadership-team/rose-bryant-smith",
+      "title": "Rose Bryant-Smith",
+      "wordCount": 390,
+      "fingerprint": "f01da362dfbb2dc3"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/engage/lets-talk-scicomm-podcast/ep/s17/episode-125-interview-with-artist,-author-and-scientist-dr-james-ohanlon",
+      "normalizedUrl": "https://science.unimelb.edu.au/engage/lets-talk-scicomm-podcast/ep/s17/episode-125-interview-with-artist,-author-and-scientist-dr-james-ohanlon",
+      "title": "Episode 125 - Interview with artist, author and scientist Dr James O\u2019Hanlon",
+      "wordCount": 6214,
+      "fingerprint": "f0a93dddda3dcbbe"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/students/current-students-news-events/faculty-of-science-graduate-research-conference-2024",
+      "normalizedUrl": "https://science.unimelb.edu.au/students/current-students-news-events/faculty-of-science-graduate-research-conference-2024",
+      "title": "Faculty of Science Graduate Research Conference 2023",
+      "wordCount": 204,
+      "fingerprint": "f32d1a872992e6b3"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/research/foundational-sciences/probability-statistics-and-stochastic-processes",
+      "normalizedUrl": "https://science.unimelb.edu.au/research/foundational-sciences/probability-statistics-and-stochastic-processes",
+      "title": "Research in probability, statistics and stochastic processes | Faculty of Science",
+      "wordCount": 322,
+      "fingerprint": "f3eaf372fec65d7a"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/study/meet-our-students/phd-and-research",
+      "normalizedUrl": "https://science.unimelb.edu.au/study/meet-our-students/phd-and-research",
+      "title": "PhD and research",
+      "wordCount": 434,
+      "fingerprint": "f5d91eb56eb57a55"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/research/life-and-people/nutrition",
+      "normalizedUrl": "https://science.unimelb.edu.au/research/life-and-people/nutrition",
+      "title": "Research in nutrition | Faculty of Science",
+      "wordCount": 373,
+      "fingerprint": "f62a398ef6ec809d"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/study/meet-our-students/chemistry",
+      "normalizedUrl": "https://science.unimelb.edu.au/study/meet-our-students/chemistry",
+      "title": "Chemistry: meet our Students and Alumni",
+      "wordCount": 412,
+      "fingerprint": "f84d83ef1c3a62ed"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/study/undergraduate-studies/science-to-medicine",
+      "normalizedUrl": "https://science.unimelb.edu.au/study/undergraduate-studies/science-to-medicine",
+      "title": "How do I get from the Bachelor of Science to the Doctor of Medicine?",
+      "wordCount": 434,
+      "fingerprint": "fa04c228b08febb2"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/engage/giving-to-science",
+      "normalizedUrl": "https://science.unimelb.edu.au/engage/giving-to-science",
+      "title": "Support Science",
+      "wordCount": 514,
+      "fingerprint": "fa0b946cdf5c18fe"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/engage/lets-talk-scicomm-podcast/ep/s16/episode-121-interview-with-communications-advisor-rebecca-colless",
+      "normalizedUrl": "https://science.unimelb.edu.au/engage/lets-talk-scicomm-podcast/ep/s16/episode-121-interview-with-communications-advisor-rebecca-colless",
+      "title": "Episode 121 - Interview with Communications Advisor Rebecca Colless",
+      "wordCount": 5530,
+      "fingerprint": "fae8f8be6136364c"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/research/technology-and-data/advanced-materials",
+      "normalizedUrl": "https://science.unimelb.edu.au/research/technology-and-data/advanced-materials",
+      "title": "Research in advanced materials | Faculty of Science",
+      "wordCount": 613,
+      "fingerprint": "fca75b3740c609fb"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/research/technology-and-data/mathematical-biology",
+      "normalizedUrl": "https://science.unimelb.edu.au/research/technology-and-data/mathematical-biology",
+      "title": "Research in mathematical biology | Faculty of Science",
+      "wordCount": 390,
+      "fingerprint": "fda61d410404dbad"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/engage/lets-talk-scicomm-podcast/ep/s16/episode-117-interview-with-science-writer-and-performer-dr-phil-dooley",
+      "normalizedUrl": "https://science.unimelb.edu.au/engage/lets-talk-scicomm-podcast/ep/s16/episode-117-interview-with-science-writer-and-performer-dr-phil-dooley",
+      "title": "Episode 117 - Interview with science writer and performer Dr Phil Dooley",
+      "wordCount": 5076,
+      "fingerprint": "ff12dfd05bd47576"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/engage/amgen-scholars/alumni/the-huong-kevin-chau",
+      "normalizedUrl": "https://science.unimelb.edu.au/engage/amgen-scholars/alumni/the-huong-kevin-chau",
+      "title": "The Huong (Kevin) Chau",
+      "wordCount": 353,
+      "fingerprint": "ff1adf88ebc9e2f2"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/research/life-and-people/epidemiology",
+      "normalizedUrl": "https://science.unimelb.edu.au/research/life-and-people/epidemiology",
+      "title": "Research in epidemiology | Faculty of Science",
+      "wordCount": 422,
+      "fingerprint": "ff3612a4c4063aed"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/engage/lord-mayors-charitable-foundation",
+      "normalizedUrl": "https://science.unimelb.edu.au/engage/lord-mayors-charitable-foundation",
+      "title": "Philanthropic partnerships",
+      "wordCount": 309,
+      "fingerprint": "ffc788145191a455"
+    },
+    {
+      "url": "https://science.unimelb.edu.au/study/meet-our-students/mathematics-statistics-data",
+      "normalizedUrl": "https://science.unimelb.edu.au/study/meet-our-students/mathematics-statistics-data",
+      "title": "Mathematics, statistics and data science: meet our students",
+      "wordCount": 239,
+      "fingerprint": "ffeaa605c9b6e928"
+    }
+  ]
+}

@@ -1,0 +1,1841 @@
+{
+  "domain": "finearts-music.unimelb.edu.au",
+  "slug": "finearts-music",
+  "pages_crawled": 262,
+  "pages": [
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/university-of-melbourne-confers-honorary-doctorate-on-first-nations-theatre-practitioner-rachael-maza-am",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/university-of-melbourne-confers-honorary-doctorate-on-first-nations-theatre-practitioner-rachael-maza-am",
+      "title": "University of Melbourne confers Honorary Doctorate on First Nations theatre practitioner Rachael Maza AM",
+      "wordCount": 359,
+      "fingerprint": "010ac305f91c066e"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/study-with-us/discipline-areas/music-psychology-and-performance-science",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/study-with-us/discipline-areas/music-psychology-and-performance-science",
+      "title": "Explore the Music Psychology program at the Conservatorium",
+      "wordCount": 10678,
+      "fingerprint": "0188debe89a8abc4"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/a-copy-of-a-copy-hany-armanious-inspires-graphic-designers-to-embrace-replication",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/a-copy-of-a-copy-hany-armanious-inspires-graphic-designers-to-embrace-replication",
+      "title": "A Copy of a Copy: Hany Armanious inspires graphic designers to embrace replication",
+      "wordCount": 1025,
+      "fingerprint": "018b934a5d095594"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/new-exhibition-crepusculum-explores-and-questions-established-notions-of-light-and-dark",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/new-exhibition-crepusculum-explores-and-questions-established-notions-of-light-and-dark",
+      "title": "New exhibition Crepusculum explores and questions established notions of \u2018light\u2019 and \u2018dark\u2019",
+      "wordCount": 496,
+      "fingerprint": "033a83949f3ec102"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/the-art-of-us-celebrating-disability-art-in-all-its-forms",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/the-art-of-us-celebrating-disability-art-in-all-its-forms",
+      "title": "The Art of Us: Celebrating disability art in all its forms",
+      "wordCount": 292,
+      "fingerprint": "0424078ef53d40df"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/study-with-us/discipline-areas/composition",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/study-with-us/discipline-areas/composition",
+      "title": "Explore the acclaimed Composition program at the Conservatorium",
+      "wordCount": 2266,
+      "fingerprint": "04c72136b34873b2"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/new-partnership-brings-students-into-the-concert-hall-with-the-worlds-leading-musical-talent2",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/new-partnership-brings-students-into-the-concert-hall-with-the-worlds-leading-musical-talent2",
+      "title": "New partnership brings students into the concert hall with the world\u2019s leading musical talent",
+      "wordCount": 661,
+      "fingerprint": "0557a401d9524876"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/vca50-creative-development-grants-enabling-artists-to-innovate-and-inspire",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/vca50-creative-development-grants-enabling-artists-to-innovate-and-inspire",
+      "title": "VCA50 Creative Development Grants: Enabling artists to innovate and inspire",
+      "wordCount": 754,
+      "fingerprint": "06dcc65790b5b96e"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/master-of-dance-2022-university-melbourne",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/master-of-dance-2022-university-melbourne",
+      "title": "Master of Dance will launch at the University of Melbourne in 2022",
+      "wordCount": 343,
+      "fingerprint": "074d58aa218eb475"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/vca/academic-staff",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/vca/academic-staff",
+      "title": "Academic Staff | Faculty of Fine Arts & Music | Unimelb",
+      "wordCount": 1757,
+      "fingerprint": "0852a62994c9f060"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/university-of-melbourne-and-arts-centre-melbourne-strengthen-ties-through-new-partnership",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/university-of-melbourne-and-arts-centre-melbourne-strengthen-ties-through-new-partnership",
+      "title": "University of Melbourne and Arts Centre Melbourne strengthen ties through new partnership",
+      "wordCount": 492,
+      "fingerprint": "0a2f8b944ae161fe"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/looking-forward-director-dialogues-address-key-areas-of-focus-for-the-vca-in-its-50th-year",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/looking-forward-director-dialogues-address-key-areas-of-focus-for-the-vca-in-its-50th-year",
+      "title": "Looking forward: Director Dialogues address key areas of focus for the VCA in its 50th year",
+      "wordCount": 1240,
+      "fingerprint": "0b18211a2e0830e7"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/from-the-vca-to-rising-the-many-guises-of-scotty-so",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/from-the-vca-to-rising-the-many-guises-of-scotty-so",
+      "title": "From the VCA to RISING: The many guises of Scotty So",
+      "wordCount": 590,
+      "fingerprint": "0b78763a1ae22b7a"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/in-conversation-with-the-creators-of-paper-city",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/in-conversation-with-the-creators-of-paper-city",
+      "title": "In Conversation with the Creators of 'Paper City'",
+      "wordCount": 851,
+      "fingerprint": "0bf893ec281f6a47"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/meet-ngioka-bunda-heath-the-2022-hutchinson-fellow",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/meet-ngioka-bunda-heath-the-2022-hutchinson-fellow",
+      "title": "Meet Ngioka Bunda-Heath: 2022 Hutchinson Fellow",
+      "wordCount": 1485,
+      "fingerprint": "0bfecead10eada8b"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/melbourne-conservatorium-of-music-appoints-new-wind-symphony-conductor",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/melbourne-conservatorium-of-music-appoints-new-wind-symphony-conductor",
+      "title": "Melbourne Conservatorium of Music appoints new Wind Symphony conductor",
+      "wordCount": 380,
+      "fingerprint": "0c19c16c30818882"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/victorian-college-of-the-arts-welcomes-new-director",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/victorian-college-of-the-arts-welcomes-new-director",
+      "title": "Victorian College of the Arts welcomes new Director",
+      "wordCount": 423,
+      "fingerprint": "0ca5ee57a96edb05"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/from-melbourne-to-london-with-promiscuouscities",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/from-melbourne-to-london-with-promiscuouscities",
+      "title": "From Melbourne to London with promiscuous/cities",
+      "wordCount": 713,
+      "fingerprint": "0d1424d3e3816d0f"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/documentary-co-produced-by-vca-lecturers-premieres-at-melbourne-international-film-festival",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/documentary-co-produced-by-vca-lecturers-premieres-at-melbourne-international-film-festival",
+      "title": "Documentary co-produced by VCA lecturers premieres at Melbourne International Film Festival",
+      "wordCount": 333,
+      "fingerprint": "0d5e52ab18ce9027"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/phd-student-meta-cohen",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/phd-student-meta-cohen",
+      "title": "PhD student Meta Cohen plays at the intersection of queerness, theatricality and sound",
+      "wordCount": 1341,
+      "fingerprint": "0e564652de0307e3"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/choreographer-lucy-guerin-on-working-with-graduating-dancers-at-the-vca",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/choreographer-lucy-guerin-on-working-with-graduating-dancers-at-the-vca",
+      "title": "\u2018Embrace your own strange notions': Choreographer Lucy Guerin on working with third year dancers at the VCA",
+      "wordCount": 931,
+      "fingerprint": "10229d09fd03d60f"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/vca-graduates-short-films-stream-free-on-miff-play2",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/vca-graduates-short-films-stream-free-on-miff-play2",
+      "title": "VCA graduates\u2019 short films stream free on MIFF Play",
+      "wordCount": 490,
+      "fingerprint": "104f7c1c5c7e4a57"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/whichever-avenue-we-go-down,-were-supported-fully-hear-from-master-of-producing-students-lucinda-and-andy",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/whichever-avenue-we-go-down,-were-supported-fully-hear-from-master-of-producing-students-lucinda-and-andy",
+      "title": "'Whichever avenue we go down, we\u2019re supported fully': Hear from Master of Producing students Lucinda and Andy",
+      "wordCount": 1031,
+      "fingerprint": "10ce0d39bf752c38"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/pendulum-at-rising-festival",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/pendulum-at-rising-festival",
+      "title": "Rhythm, gravity and time: Lucy Guerin on the creation of 'Pendulum' for RISING Festival",
+      "wordCount": 1074,
+      "fingerprint": "11e252f2bc162ed2"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/destination-opera",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/destination-opera",
+      "title": "Destination Opera: Opera Studies students and alumni take to stages around the world",
+      "wordCount": 1093,
+      "fingerprint": "1254eb8dfbbf4e22"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/publications",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/publications",
+      "title": "Publications at the Faculty",
+      "wordCount": 147,
+      "fingerprint": "1346bf9a64a5ef1d"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/university-of-melbourne-remains-in-global-top-50-across-all-five-qs-subject-rankings",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/university-of-melbourne-remains-in-global-top-50-across-all-five-qs-subject-rankings",
+      "title": "University of Melbourne remains in global top 50 across all five QS subject rankings",
+      "wordCount": 421,
+      "fingerprint": "13811b30ade52516"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/theatrum-botanicum-the-choreography-of-ecology",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/theatrum-botanicum-the-choreography-of-ecology",
+      "title": "Theatrum Botanicum: the choreography of ecology",
+      "wordCount": 1022,
+      "fingerprint": "13c1ad226fb59503"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/naimo-omar",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/naimo-omar",
+      "title": "VCA graduating artist Naimo Omar is using art as a vehicle for change",
+      "wordCount": 617,
+      "fingerprint": "159b1f47c75aca30"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/university-of-melbourne-and-australian-chamber-orchestra-partnership-renewal-spotlights-the-value-of-music-and-education-at-every-level",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/university-of-melbourne-and-australian-chamber-orchestra-partnership-renewal-spotlights-the-value-of-music-and-education-at-every-level",
+      "title": "University of Melbourne and Australian Chamber Orchestra partnership renewal spotlights the value of music and education at every level",
+      "wordCount": 829,
+      "fingerprint": "15d4b9eb73b4c406"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/innovative-music-program-for-children-with-disabilities-seeks-new-cohort-for-2025",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/innovative-music-program-for-children-with-disabilities-seeks-new-cohort-for-2025",
+      "title": "Innovative music program for children with disabilities seeks new cohort for 2025",
+      "wordCount": 351,
+      "fingerprint": "16312bcbc9c6a8f3"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/study-with-us/discipline-areas/interactive-composition",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/study-with-us/discipline-areas/interactive-composition",
+      "title": "Interactive Composition music production courses at the Conservatorium",
+      "wordCount": 1804,
+      "fingerprint": "17739ea8e117f998"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/the-biggest-challenge-i-have-is-trusting-the-process-a-resolution-will-emerge-meet-astrid-mulder,-alum-of-graduate-certificate-in-visual-art-and-master-of-contemporary-art",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/the-biggest-challenge-i-have-is-trusting-the-process-a-resolution-will-emerge-meet-astrid-mulder,-alum-of-graduate-certificate-in-visual-art-and-master-of-contemporary-art",
+      "title": "'The biggest challenge I have is trusting the process \u2026 A resolution will emerge': Meet Astrid Mulder, alum of Graduate Certificate in Visual Art and Master of Contemporary Art",
+      "wordCount": 624,
+      "fingerprint": "17791f3151a69aa5"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/study-with-us/discipline-areas/indigenous-arts-and-culture",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/study-with-us/discipline-areas/indigenous-arts-and-culture",
+      "title": "Explore Indigenous Arts and Culture at the VCA",
+      "wordCount": 2522,
+      "fingerprint": "19b1ca5dd2a7d77a"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/multimedia-artwork-provides-unique-insights-into-bushfires",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/multimedia-artwork-provides-unique-insights-into-bushfires",
+      "title": "Flashover \u2014 Multimedia artwork provides unique insights into bushfires",
+      "wordCount": 516,
+      "fingerprint": "1d50226b12d7b9fc"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/the-grief-trilogy-vca-alum-liv-satchells-plays-explore-connection-in-the-face-of-loss",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/the-grief-trilogy-vca-alum-liv-satchells-plays-explore-connection-in-the-face-of-loss",
+      "title": "The Grief Trilogy: VCA alum Liv Satchell's plays explore connection in the face of loss",
+      "wordCount": 759,
+      "fingerprint": "1d8376a9287e5cdc"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/showcase/2025/2025-graduating-season",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/showcase/2025/2025-graduating-season",
+      "title": "2025 Graduating Season | Faculty of Fine Arts and Music",
+      "wordCount": 202,
+      "fingerprint": "1e5860c0ffc74eac"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/2023-paul-selzer-exhibition",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/2023-paul-selzer-exhibition",
+      "title": "The Paul Selzer Exhibition finds power in lifting the stone",
+      "wordCount": 631,
+      "fingerprint": "1eefd2faf188d78b"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/a-powerful-musical-experience-university-of-melbourne-orchestra-to-perform-mahler-2",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/a-powerful-musical-experience-university-of-melbourne-orchestra-to-perform-mahler-2",
+      "title": "A powerful musical experience: University of Melbourne Orchestra to perform Mahler 2",
+      "wordCount": 1148,
+      "fingerprint": "2024caa68ea4ae32"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/bridging-the-gap-creating-a-future-in-music-for-children-with-disabilities",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/bridging-the-gap-creating-a-future-in-music-for-children-with-disabilities",
+      "title": "Bridging the gap: Creating a future in music for children with disabilities",
+      "wordCount": 897,
+      "fingerprint": "224040c27cfc8dc8"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/there-is-an-immense-sense-of-fulfilment-that-comes-as-a-result-of-resonating-with-art-meet-vca-graduating-artist-baillie-jackson",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/there-is-an-immense-sense-of-fulfilment-that-comes-as-a-result-of-resonating-with-art-meet-vca-graduating-artist-baillie-jackson",
+      "title": "\u2018There is an immense sense of fulfilment that comes as a result of resonating with art\u2019: Meet VCA graduating artist Baillie Jackson",
+      "wordCount": 536,
+      "fingerprint": "237eb9691e474e54"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/university-of-melbourne-to-host-collaborate.-innovate.-create.-forum",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/university-of-melbourne-to-host-collaborate.-innovate.-create.-forum",
+      "title": "University of Melbourne to host Collaborate. Innovate. Create. forum",
+      "wordCount": 265,
+      "fingerprint": "23c653f028cad760"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/triennial-competition-opens-to-celebrate-talented-young-violinists",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/triennial-competition-opens-to-celebrate-talented-young-violinists",
+      "title": "Triennial competition opens to celebrate talented young violinists",
+      "wordCount": 437,
+      "fingerprint": "254911e0cd57f620"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/meet-cara-hagan-and-brenton-surgenor,-new-faces-of-the-master-of-dance-at-the-university-of-melbourne",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/meet-cara-hagan-and-brenton-surgenor,-new-faces-of-the-master-of-dance-at-the-university-of-melbourne",
+      "title": "Meet Cara Hagan and Brenton Surgenor, new faces of VCA Dance",
+      "wordCount": 1058,
+      "fingerprint": "26bd6ab377b137b6"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/online-music-teaching-Dr-Carol-Johnson",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/online-music-teaching-Dr-Carol-Johnson",
+      "title": "The art and science of teaching music online: Dr Carol Johnson at the Melbourne Conservatorium of Music",
+      "wordCount": 1098,
+      "fingerprint": "279a2ffb9866aab1"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/music,-animation,-and-dance-students-take-over-fed-squares-digital-faade-on-new-years-eve",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/music,-animation,-and-dance-students-take-over-fed-squares-digital-faade-on-new-years-eve",
+      "title": "Music, animation, and dance students take over Fed Square\u2019s digital fa\u00e7ade on New Year\u2019s Eve",
+      "wordCount": 866,
+      "fingerprint": "28a1c60392ed7ceb"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/restoration-honours-national-gallery-art-school-wwi-students",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/restoration-honours-national-gallery-art-school-wwi-students",
+      "title": "Restoration honours National Gallery Art School WWI students",
+      "wordCount": 464,
+      "fingerprint": "29cfc50caac400a6"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/vca-alum-team-up-for-netflix-teen-hit-series-surviving-summer",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/vca-alum-team-up-for-netflix-teen-hit-series-surviving-summer",
+      "title": "VCA alum team up for Netflix teen hit series 'Surviving Summer'",
+      "wordCount": 952,
+      "fingerprint": "2a8e5bd0fe49f181"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/paul-fletcher-on-his-lifelong-collaboration-with-nature",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/paul-fletcher-on-his-lifelong-collaboration-with-nature",
+      "title": "Art and ecology: Paul Fletcher on his lifelong collaboration with nature",
+      "wordCount": 739,
+      "fingerprint": "2b256c2d3dd216e8"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/faculty-of-fine-arts-and-music-alumni-receive-2025-kings-birthday-honours",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/faculty-of-fine-arts-and-music-alumni-receive-2025-kings-birthday-honours",
+      "title": "Faculty of Fine Arts and Music alumni receive 2025 King\u2019s Birthday Honours",
+      "wordCount": 69,
+      "fingerprint": "2bbd2cafd27198b7"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/executive-staff",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/executive-staff",
+      "title": "Faculty Executive & Leadership | Fine Arts & Music | UniMelb",
+      "wordCount": 228,
+      "fingerprint": "2d43027ee911bfe4"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/artists-exist-to-speak-the-truth-meet-vca-graduating-artist-ziyi-wei",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/artists-exist-to-speak-the-truth-meet-vca-graduating-artist-ziyi-wei",
+      "title": "\u2018Artists exist to speak the truth\u2019: Meet VCA graduating artist Ziyi Wei",
+      "wordCount": 544,
+      "fingerprint": "2db0a8e0c00a898a"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/yixuan-zhao",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/yixuan-zhao",
+      "title": "VCA graduating artist Yixuan Zhao explores the depths of beauty in new paintings",
+      "wordCount": 442,
+      "fingerprint": "2db9f97106222b69"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/study-with-us",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/study-with-us",
+      "title": "Study Fine Arts and Music at Australia's leading performing arts Faculty",
+      "wordCount": 339,
+      "fingerprint": "2e964130485fff1d"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/the-edges-of-sculpture-artist-nabilah-nordin-on-what-drives-her-playful-practice",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/the-edges-of-sculpture-artist-nabilah-nordin-on-what-drives-her-playful-practice",
+      "title": "The edges of sculpture: artist Nabilah Nordin on what drives her playful practice",
+      "wordCount": 1070,
+      "fingerprint": "2f48fb33d3ef8dd7"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/nicholas-currie-dont-look-in-the-dark-or-something-will-look-back-at-ya-paintings-by-a-ghost-fella",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/nicholas-currie-dont-look-in-the-dark-or-something-will-look-back-at-ya-paintings-by-a-ghost-fella",
+      "title": "Nicholas Currie: Don\u2019t look in the dark or something will look back at ya: Paintings by a ghost fella",
+      "wordCount": 671,
+      "fingerprint": "3083afb6fab87a14"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/kate-tempanys-great-barrier-reef-concerto",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/kate-tempanys-great-barrier-reef-concerto",
+      "title": "Rhythms of discovery: Kate Tempany\u2019s Great Barrier Reef Concerto",
+      "wordCount": 732,
+      "fingerprint": "30a0a7d8d41f78b7"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/study-with-us/discipline-areas/performance-teaching",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/study-with-us/discipline-areas/performance-teaching",
+      "title": "Explore Music Performance Teaching at the Conservatorium",
+      "wordCount": 604,
+      "fingerprint": "30da2621f79a45a5"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/campus-canteen-launches-at-southbank",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/campus-canteen-launches-at-southbank",
+      "title": "Campus Canteen launches at Southbank",
+      "wordCount": 277,
+      "fingerprint": "31f462928036c5c8"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/meet-amina-briggs",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/meet-amina-briggs",
+      "title": "'I fell in love with the art making process at university': Meet VCA graduate Amina Briggs",
+      "wordCount": 647,
+      "fingerprint": "31f92e4e7a6e2ed2"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/diploma-in-music-student-thien-pham-wins-james-morrison-jazz-scholarship",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/diploma-in-music-student-thien-pham-wins-james-morrison-jazz-scholarship",
+      "title": "Diploma in Music and Bachelor of Science student Thien Pham wins $10,000 James Morrison Jazz Scholarship",
+      "wordCount": 533,
+      "fingerprint": "335d464a886b551b"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/congratulations-to-leah-columbine-2022-recipient-of-the-mso-snare-drum-award",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/congratulations-to-leah-columbine-2022-recipient-of-the-mso-snare-drum-award",
+      "title": "Congratulations to Leah Columbine, 2022 recipient of the MSO Snare Drum Award",
+      "wordCount": 399,
+      "fingerprint": "33db6859da23a0be"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/melbourne-conservatorium-of-music-students-present-two-versions-of-the-opera-hansel-und-gretel",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/melbourne-conservatorium-of-music-students-present-two-versions-of-the-opera-hansel-und-gretel",
+      "title": "Melbourne Conservatorium of Music students present two versions of the opera H\u00e4nsel und Gretel",
+      "wordCount": 595,
+      "fingerprint": "3527ad8a06c2833a"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/inclusive-music-program-for-children-with-disability-wins-at-the-2025-melbourne-awards",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/inclusive-music-program-for-children-with-disability-wins-at-the-2025-melbourne-awards",
+      "title": "Inclusive music program for children with disability wins at the 2025 Melbourne Awards",
+      "wordCount": 395,
+      "fingerprint": "354eeb0be851701c"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/celebrating-ten-years-of-production-design-for-screen-at-the-vca",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/celebrating-ten-years-of-production-design-for-screen-at-the-vca",
+      "title": "Celebrating ten years of Production Design for Film and Television at the VCA",
+      "wordCount": 944,
+      "fingerprint": "35f88adc25cb152b"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/epic-opportunity-for-animation-students",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/epic-opportunity-for-animation-students",
+      "title": "Epic opportunity for animation students",
+      "wordCount": 588,
+      "fingerprint": "362526c9cd0def13"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/showcase/we-are-all-animals",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/showcase/we-are-all-animals",
+      "title": "we are all animals",
+      "wordCount": 2689,
+      "fingerprint": "37cc6edd4b684865"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/new-exhibition-sounds-of-clouds-explores-hidden-worlds-of-clouds",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/new-exhibition-sounds-of-clouds-explores-hidden-worlds-of-clouds",
+      "title": "New exhibition Sounds of Clouds explores hidden worlds of clouds",
+      "wordCount": 375,
+      "fingerprint": "37cdac17675cd88c"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/meet-chris-mead",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/meet-chris-mead",
+      "title": "Meet Chris Mead, Head of Theatre at the University of Melbourne",
+      "wordCount": 581,
+      "fingerprint": "3cd92d5180aa344e"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/vca-backstage-at-chunky-moves-yung-lung",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/vca-backstage-at-chunky-moves-yung-lung",
+      "title": "VCA dance graduates perform in Chunky Move show",
+      "wordCount": 536,
+      "fingerprint": "3e3675b764e3b11f"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/Moorina-Bonini-Melbourne-Now",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/Moorina-Bonini-Melbourne-Now",
+      "title": "'Gowidja (After)': Moorina Bonini's vision of an Indigenous future",
+      "wordCount": 554,
+      "fingerprint": "3f294e8799f0f7f8"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/professor-katrina-skewes-mcferran-appointed-director-of-the-research-development-unit",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/professor-katrina-skewes-mcferran-appointed-director-of-the-research-development-unit",
+      "title": "Professor Katrina Skewes McFerran appointed Director of the Research Development Unit",
+      "wordCount": 320,
+      "fingerprint": "44cf12adc1ccdc3c"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/new-exhibition-oscilloforms-explores-links-between-contemporary-art-and-its-historical-precursors2",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/new-exhibition-oscilloforms-explores-links-between-contemporary-art-and-its-historical-precursors2",
+      "title": "New exhibition 'Oscilloforms' explores links between contemporary art and its historical precursors",
+      "wordCount": 360,
+      "fingerprint": "45e2f7e36d5e463d"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/new-report-calls-for-cultural-change-in-australian-screen-industry",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/new-report-calls-for-cultural-change-in-australian-screen-industry",
+      "title": "New report calls for cultural change in Australian screen industry",
+      "wordCount": 346,
+      "fingerprint": "4666a4d82b7dc51b"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/miff",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/miff",
+      "title": "MIFFPlay and the VCA partner to showcase short films",
+      "wordCount": 441,
+      "fingerprint": "466ed57e12c26df1"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/new-exhibition-ritual-eternal-explores-the-outer-limits-of-perception-and-knowledge",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/new-exhibition-ritual-eternal-explores-the-outer-limits-of-perception-and-knowledge",
+      "title": "New exhibition Ritual Eternal explores the outer limits of perception and knowledge",
+      "wordCount": 398,
+      "fingerprint": "46fbf0f3b7d295c0"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/jazz-40",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/jazz-40",
+      "title": "Bells Make Me Sing: re-recording a Brian Brown classic to celebrate 40 years of Jazz and Improvisation",
+      "wordCount": 742,
+      "fingerprint": "485cb5445c9ebd6e"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/left-write-hook",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/left-write-hook",
+      "title": "Adult survivors take back their power in documentary film 'Left Write Hook'",
+      "wordCount": 229,
+      "fingerprint": "48c88ce100e5300a"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/compose-queer-bringing-queer-stories-into-the-mainstream-of-classical-music",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/compose-queer-bringing-queer-stories-into-the-mainstream-of-classical-music",
+      "title": "Compose Queer: Bringing queer stories into the mainstream of classical music",
+      "wordCount": 548,
+      "fingerprint": "4973bd2b686893cf"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/new-subject-teaching-students-to-hone-comedy-craft-is-no-joke",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/new-subject-teaching-students-to-hone-comedy-craft-is-no-joke",
+      "title": "New subject teaching students to hone comedy craft is no joke",
+      "wordCount": 785,
+      "fingerprint": "498b8864225fbd36"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/vale-shirley-mckechnie-ao-1926-2022",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/vale-shirley-mckechnie-ao-1926-2022",
+      "title": "Vale Shirley McKechnie AO (1926 - 2022)",
+      "wordCount": 512,
+      "fingerprint": "4bae03d6c7ece447"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/study-with-us/discipline-areas/dance",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/study-with-us/discipline-areas/dance",
+      "title": "Explore the renowned programs at VCA Dance",
+      "wordCount": 3149,
+      "fingerprint": "4be4e4eb5a4d760b"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/showcase/a-little-touch-of-chaos",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/showcase/a-little-touch-of-chaos",
+      "title": "A Little Touch of Chaos",
+      "wordCount": 6116,
+      "fingerprint": "4c658e6c0e9abaed"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/violinists-compete-for-dorcas-mcclean-scholarship",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/violinists-compete-for-dorcas-mcclean-scholarship",
+      "title": "Violinists compete for Dorcas McClean Scholarship, richest prize for violinists in Australia",
+      "wordCount": 325,
+      "fingerprint": "4d251f2168f8ee65"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/study-with-us/discipline-areas/music-theatre",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/study-with-us/discipline-areas/music-theatre",
+      "title": "Learn about the acclaimed Music Theatre program at the VCA",
+      "wordCount": 1914,
+      "fingerprint": "4d30fbc9f3264583"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/lengger-lanang-immortalising-a-vanishing-indonesian-dance-with-the-help-of-motion-capture-technology",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/lengger-lanang-immortalising-a-vanishing-indonesian-dance-with-the-help-of-motion-capture-technology",
+      "title": "Lengger Lanang: Immortalising a vanishing Indonesian dance with the help of motion capture technology",
+      "wordCount": 869,
+      "fingerprint": "4da87aa6502698cc"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/your-first-set-of-instincts-are-usually-the-best-ones-meet-vca-graduating-artist-zane-edwards",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/your-first-set-of-instincts-are-usually-the-best-ones-meet-vca-graduating-artist-zane-edwards",
+      "title": "\u2018Your first set of instincts are usually the best ones\u2019: Meet VCA graduating artist Zane Edwards",
+      "wordCount": 825,
+      "fingerprint": "4f8ed9ef3356ce28"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/study-with-us/breadth-listing",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/study-with-us/breadth-listing",
+      "title": "Breadth studies at the Faculty of Fine Arts and Music",
+      "wordCount": 5964,
+      "fingerprint": "4fd2586ed9a0f80a"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/goran-stolevskis-of-an-age-to-open-miff",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/goran-stolevskis-of-an-age-to-open-miff",
+      "title": "Goran Stolevski\u2019s 'Of an Age' to open MIFF",
+      "wordCount": 727,
+      "fingerprint": "4ff36596a6749837"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/artists-addressing-military-histories-and-indigenous-settler-relations-awarded-arc-discovery-grant",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/artists-addressing-military-histories-and-indigenous-settler-relations-awarded-arc-discovery-grant",
+      "title": "Artists addressing military histories and Indigenous-settler relations awarded ARC Discovery Grant",
+      "wordCount": 388,
+      "fingerprint": "50f4b5ef78531023"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/forge-your-own-path-sade-alleynes-vision-for-the-future-of-dance",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/forge-your-own-path-sade-alleynes-vision-for-the-future-of-dance",
+      "title": "Forge your own path: Sad\u00e9 Alleyne's vision for the future of dance",
+      "wordCount": 680,
+      "fingerprint": "5388f0a8d54b6b6d"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/vca-researchers-recipients-of-abc-top-5-arts-media-residency",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/vca-researchers-recipients-of-abc-top-5-arts-media-residency",
+      "title": "Victorian College of the Arts researchers recipients of ABC TOP 5 Arts Media Residency Program",
+      "wordCount": 436,
+      "fingerprint": "543c8329a43d548f"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/vca-art-grad-show-the-future-of-art-making-in-australia-on-display",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/vca-art-grad-show-the-future-of-art-making-in-australia-on-display",
+      "title": "VCA Art Grad Show: The future of art making in Australia on display",
+      "wordCount": 644,
+      "fingerprint": "566532b9ea29d42d"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/wilin",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/wilin",
+      "title": "Wilin Centre | Faculty of Fine Arts & Music",
+      "wordCount": 807,
+      "fingerprint": "5733f83937f81eca"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/vca-graduate-showcase-streamed-free-for-the-first-time-on-miff-play",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/vca-graduate-showcase-streamed-free-for-the-first-time-on-miff-play",
+      "title": "VCA graduate showcase streamed free for the first time on MIFF play",
+      "wordCount": 484,
+      "fingerprint": "58424321ab91ebe9"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/dorcas-2021-finalist",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/dorcas-2021-finalist",
+      "title": "Two Faculty violinists among Dorcas McClean award semi-finalists",
+      "wordCount": 469,
+      "fingerprint": "589d8175b957c750"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/i-didnt-know-theatre-for-young-people-could-be-so-radical-and-innovative-meet-vca-graduate-sophia-derkenne",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/i-didnt-know-theatre-for-young-people-could-be-so-radical-and-innovative-meet-vca-graduate-sophia-derkenne",
+      "title": "'I didn\u2019t know theatre for young people could be so radical and innovative': Meet VCA graduate Sophia Derkenne",
+      "wordCount": 1143,
+      "fingerprint": "58ba5185deef6f8c"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/vale-bernhard-sachs-a-mentor-who-lived-his-belief-in-art-and-artists",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/vale-bernhard-sachs-a-mentor-who-lived-his-belief-in-art-and-artists",
+      "title": "Vale Bernhard Sachs, a mentor who lived his belief in art and artists",
+      "wordCount": 704,
+      "fingerprint": "5a224a9d7cde6207"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/steven-rhall-wins-the-paul-selzer-exhibition",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/steven-rhall-wins-the-paul-selzer-exhibition",
+      "title": "Steven Rhall wins Paul Selzer Prize at the VCA",
+      "wordCount": 612,
+      "fingerprint": "5aa999781e5a6979"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/southbank-campus",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/southbank-campus",
+      "title": "Southbank campus",
+      "wordCount": 683,
+      "fingerprint": "5b8ec0dd30f3df51"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/one-night-only-exhibition-next-to-nothing-explores-the-limits-of-performance",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/one-night-only-exhibition-next-to-nothing-explores-the-limits-of-performance",
+      "title": "One-night-only exhibition Next to Nothing explores the limits of performance",
+      "wordCount": 376,
+      "fingerprint": "5c84daa162fa5fcb"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/vca-art-grad-show-2021",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/vca-art-grad-show-2021",
+      "title": "VCA Art Grad Show 2021 - Audiences Return",
+      "wordCount": 504,
+      "fingerprint": "5c9584419b50bbba"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/renowned-violinist-wilma-smith-receives-2025-sir-bernard-heinze-memorial-award",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/renowned-violinist-wilma-smith-receives-2025-sir-bernard-heinze-memorial-award",
+      "title": "Renowned violinist Wilma Smith receives 2025 Sir Bernard Heinze Memorial Award",
+      "wordCount": 711,
+      "fingerprint": "5cb5601aea7326d9"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/study-with-us/discipline-areas/music-performance",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/study-with-us/discipline-areas/music-performance",
+      "title": "Explore the Music Performance program at the Conservatorium",
+      "wordCount": 11233,
+      "fingerprint": "5d3cdc2c00fc21dc"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/meet-kat-henry",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/meet-kat-henry",
+      "title": "'Good art can re-wire our brains': Meet Dr Kat Henry, Theatre lecturer at the University of Melbourne",
+      "wordCount": 674,
+      "fingerprint": "5f4aba558938beac"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/professor-emma-redding-receives-mbe-for-services-to-dance",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/professor-emma-redding-receives-mbe-for-services-to-dance",
+      "title": "VCA Director Professor Emma Redding receives MBE for services to dance",
+      "wordCount": 355,
+      "fingerprint": "5fb4b247d42324c7"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/the-time-it-takes-giving-voice-to-those-who-stutter",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/the-time-it-takes-giving-voice-to-those-who-stutter",
+      "title": "The Time It Takes: giving voice to those who stutter",
+      "wordCount": 959,
+      "fingerprint": "605cf21b9b95f9c4"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/flipping-the-script-at-the-venice-biennale",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/flipping-the-script-at-the-venice-biennale",
+      "title": "Flipping the script at the Venice Biennale",
+      "wordCount": 678,
+      "fingerprint": "61d98c166930448e"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/vca-filmmakers-and-former-colleagues-set-sights-on-international-success-with-new-feature-film",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/vca-filmmakers-and-former-colleagues-set-sights-on-international-success-with-new-feature-film",
+      "title": "VCA filmmakers and former colleagues set sights on international success with new feature film",
+      "wordCount": 786,
+      "fingerprint": "620485accd7795bb"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/nina_sanadze_churchie_winner",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/nina_sanadze_churchie_winner",
+      "title": "VCA alum Nina Sanadze wins 'the churchie' $15,000 art prize",
+      "wordCount": 355,
+      "fingerprint": "62adeb8ac0ba79dc"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/tiriki-onus-ablaze-film-interview",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/tiriki-onus-ablaze-film-interview",
+      "title": "Ablaze: Tiriki Onus resurfaces vital Indigenous history through a film about his grandfather",
+      "wordCount": 1918,
+      "fingerprint": "648e343079ddeff6"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/careers-and-development",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/careers-and-development",
+      "title": "Careers & Professional Development | FFAM | UniMelb",
+      "wordCount": 171,
+      "fingerprint": "650ed935e0fb5679"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/palawa-and-wiradjuri-theatremaker-nicola-ingram-on-why-she-makes-theatre",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/palawa-and-wiradjuri-theatremaker-nicola-ingram-on-why-she-makes-theatre",
+      "title": "Palawa and Wiradjuri theatremaker Nicola Ingram on why she makes theatre",
+      "wordCount": 893,
+      "fingerprint": "659cc210f86ed1fa"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/recent-grad-danni-a.-esposito-making-waves-in-sound-design",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/recent-grad-danni-a.-esposito-making-waves-in-sound-design",
+      "title": "Recent grad Danni A. Esposito making waves in sound design",
+      "wordCount": 714,
+      "fingerprint": "65cdcba9431b9373"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/philip-hunter-fellowship",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/philip-hunter-fellowship",
+      "title": "The Philip Hunter Fellowship to support new play exploring pivotal moments in climate science history",
+      "wordCount": 469,
+      "fingerprint": "670ff30b88b895b4"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/meet-james-howard",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/meet-james-howard",
+      "title": "Meet James Howard, Jaadwa Musician and PhD Candidate",
+      "wordCount": 470,
+      "fingerprint": "673d564a759daee6"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/exhibit-combines-sound-art-and-ecology-at-venice-biennale",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/exhibit-combines-sound-art-and-ecology-at-venice-biennale",
+      "title": "Exhibit combines sound art and ecology at Venice Biennale",
+      "wordCount": 702,
+      "fingerprint": "67cda644967cb351"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/the-faculty-of-fine-arts-and-music-is-proud-to-present-the-magic-flute",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/the-faculty-of-fine-arts-and-music-is-proud-to-present-the-magic-flute",
+      "title": "The Faculty of Fine Arts and Music is proud to present \u2018The Magic Flute\u2019",
+      "wordCount": 467,
+      "fingerprint": "67d611218cfde553"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/unique-performance-co-created-by-vca-theatre-students-to-feature-at-alter-state-festival",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/unique-performance-co-created-by-vca-theatre-students-to-feature-at-alter-state-festival",
+      "title": "Unique performance co-created by VCA Theatre students to feature at Alter State festival",
+      "wordCount": 393,
+      "fingerprint": "68343e29e8c5c8e5"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/demi-kromidellis",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/demi-kromidellis",
+      "title": "VCA graduating artist Demi Kromidellis on exploring cultural heritage through photography",
+      "wordCount": 434,
+      "fingerprint": "694e94b809073e42"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/music-theatre-and-interactive-composition-present-mongrel-a-mind-bending-rabbit-hole-to-behold",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/music-theatre-and-interactive-composition-present-mongrel-a-mind-bending-rabbit-hole-to-behold",
+      "title": "Music Theatre and Interactive Composition present Mongrel: \u201ca mind-bending rabbit hole to behold\u201d",
+      "wordCount": 796,
+      "fingerprint": "699e495152a38c49"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/grace-murphy",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/grace-murphy",
+      "title": "\u2018A world without art would be a soulless one\u2019: Meet VCA graduating artist Grace Murphy",
+      "wordCount": 416,
+      "fingerprint": "6bd04173efce410c"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/faculty-of-fine-arts-and-music-alumni-and-staff-sweep-up-at-39th-annual-green-room-awards",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/faculty-of-fine-arts-and-music-alumni-and-staff-sweep-up-at-39th-annual-green-room-awards",
+      "title": "Fine Arts and Music alumni and staff sweep up at the 39th Annual Green Room Awards",
+      "wordCount": 766,
+      "fingerprint": "6c89b61a32e2ca24"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/vca",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/vca",
+      "title": "Victorian College of the Arts | About | UniMelb",
+      "wordCount": 22955,
+      "fingerprint": "6d0ee1fcc38d637d"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/amina-briggs-art-tram-envisions-a-better-future-for-first-nations-people",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/amina-briggs-art-tram-envisions-a-better-future-for-first-nations-people",
+      "title": "Amina Briggs' Art Tram envisions a better future for First Nations people",
+      "wordCount": 469,
+      "fingerprint": "6dd076cccbf69c5e"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/vca-alumni-chosen-for-the-coveted-impact-australia-screenwriting-program",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/vca-alumni-chosen-for-the-coveted-impact-australia-screenwriting-program",
+      "title": "VCA alumni chosen for the coveted Impact Australia screenwriting program",
+      "wordCount": 540,
+      "fingerprint": "6df69564916d7d50"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/conductor-nicolette-fraillon-am-awarded-2023-bernard-heinze-memorial-award",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/conductor-nicolette-fraillon-am-awarded-2023-bernard-heinze-memorial-award",
+      "title": "Conductor Nicolette Fraillon AM awarded 2023 Bernard Heinze Memorial Award",
+      "wordCount": 624,
+      "fingerprint": "6f61b99666add8d8"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/australian-canvas",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/australian-canvas",
+      "title": "\u2018Australian Canvas\u2019: Dr Nicholas Enrico Williams to deliver his final concert as Conductor of Wind Symphony at Melbourne Recital Centre",
+      "wordCount": 643,
+      "fingerprint": "7003d7f1258c700b"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/matt-laing-named-recipient-of-the-albert-h-maggs-composition-award",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/matt-laing-named-recipient-of-the-albert-h-maggs-composition-award",
+      "title": "Matt Laing named recipient of the Albert H Maggs Composition Award",
+      "wordCount": 242,
+      "fingerprint": "72bc99f88b5bdab0"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/research",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/research",
+      "title": "Research | Faculty of Fine Arts & Music | Unimelb",
+      "wordCount": 4899,
+      "fingerprint": "73207264016ca38c"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/remember-who-you-are-and-where-you-come-from-meet-vca-graduating-artist-nicholas-currie",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/remember-who-you-are-and-where-you-come-from-meet-vca-graduating-artist-nicholas-currie",
+      "title": "\u2018Remember who you are and where you come from\u2019: Meet VCA graduating artist Nicholas Currie",
+      "wordCount": 417,
+      "fingerprint": "7348dde6a72ebd69"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/new-exhibition-chronomingle-explores-the-interplay-of-time,-culture-and-storytelling",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/new-exhibition-chronomingle-explores-the-interplay-of-time,-culture-and-storytelling",
+      "title": "New exhibition Chronomingle explores the interplay of time, culture and storytelling",
+      "wordCount": 284,
+      "fingerprint": "73c4752625dd94b3"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/left-write-hook-program-reaches-new-milestone-with-latest-funding-announcement",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/left-write-hook-program-reaches-new-milestone-with-latest-funding-announcement",
+      "title": "Left Write Hook program reaches new milestone with latest funding announcement",
+      "wordCount": 327,
+      "fingerprint": "73e1da8230f866d0"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/its-not-you-its-me",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/its-not-you-its-me",
+      "title": "The Fiona and Sidney Myer Gallery\u2019s latest exhibition \u2018it\u2019s not you, it\u2019s me\u2019 reveals the power and vulnerability of self-portraiture",
+      "wordCount": 366,
+      "fingerprint": "74f72eade896aff0"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/vca50-creative-development-grants",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/vca50-creative-development-grants",
+      "title": "Rising stars: The VCA50 Creative Development Grants illuminate the path for emerging artists",
+      "wordCount": 663,
+      "fingerprint": "75e48be884722dc7"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/meet-amanda-hargreaves",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/meet-amanda-hargreaves",
+      "title": "Opera student Amanda Hargreaves on performing with Victorian Opera and falling in love with classical music",
+      "wordCount": 539,
+      "fingerprint": "769fde2ce4c3379e"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/mcm/academic-staff",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/mcm/academic-staff",
+      "title": "Academic staff at the Conservatorium",
+      "wordCount": 1248,
+      "fingerprint": "78e941850e73de0d"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/dindin-jingyi-wang-wins-dorcas-mcclean-travelling-scholarship",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/dindin-jingyi-wang-wins-dorcas-mcclean-travelling-scholarship",
+      "title": "Dindin Jingyi Wang wins 2025 Dorcas McClean Travelling Scholarship",
+      "wordCount": 496,
+      "fingerprint": "795303a7a585b4b6"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/meet-nicole-goode,-honours-visual-art-graduate",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/meet-nicole-goode,-honours-visual-art-graduate",
+      "title": "'Research for me starts with the body': Meet Honours (Visual Art) graduate Nicole Goode",
+      "wordCount": 809,
+      "fingerprint": "7aaeafc0d26b911b"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/study-with-us/discipline-areas/design-and-production",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/study-with-us/discipline-areas/design-and-production",
+      "title": "Explore the acclaimed Design and Production program at VCA",
+      "wordCount": 2519,
+      "fingerprint": "7c06e4bdd4b1ff92"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/",
+      "title": "Faculty of Fine Arts and Music \u2013 University of Melbourne",
+      "wordCount": 2126,
+      "fingerprint": "7c8436af4a3f39f5"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us",
+      "title": "About the Faculty of Fine Arts and Music",
+      "wordCount": 38140,
+      "fingerprint": "7f1b0ef6f21b1275"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/study-with-us/discipline-areas/musicology",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/study-with-us/discipline-areas/musicology",
+      "title": "Explore the Musicology program at the Conservatorium",
+      "wordCount": 909,
+      "fingerprint": "80f2117b194eb711"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/indigenous-mapping-workshop",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/indigenous-mapping-workshop",
+      "title": "National Indigenous Mapping Workshop to be hosted by the University of Melbourne\u2019s Wilin Centre",
+      "wordCount": 639,
+      "fingerprint": "815e9258df51b970"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/lloyd-newson-visits-the-vca",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/lloyd-newson-visits-the-vca",
+      "title": "If you're looking for inspiration, go out and find it: Inside Lloyd Newson's workshops at the VCA",
+      "wordCount": 561,
+      "fingerprint": "815f2a3c5dda79d0"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/emerging-visual-artists-debut-work-at-2024-vca-grad-show",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/emerging-visual-artists-debut-work-at-2024-vca-grad-show",
+      "title": "Emerging visual artists debut work at 2024 VCA Grad Show",
+      "wordCount": 443,
+      "fingerprint": "816118a34b7ee442"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/focus-on-new-associate-deans-in-the-faculty-of-fine-arts-and-music",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/focus-on-new-associate-deans-in-the-faculty-of-fine-arts-and-music",
+      "title": "Focus on new Associate Deans in the Faculty of Fine Arts and Music",
+      "wordCount": 704,
+      "fingerprint": "828b2fb7645e31d3"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/becoming-the-selfish-giant",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/becoming-the-selfish-giant",
+      "title": "Becoming the Selfish Giant | News | FFAM | UniMelb",
+      "wordCount": 620,
+      "fingerprint": "82ffc8ee74e0c69e"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/vca-graduates-showcase-short-films-on-miff-play",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/vca-graduates-showcase-short-films-on-miff-play",
+      "title": "VCA graduates showcase short films on MIFF Play",
+      "wordCount": 464,
+      "fingerprint": "85ce920a4c900ff6"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/students-from-university-of-melbourne-wind-symphony-showcase-talent-in-interstate-tour",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/students-from-university-of-melbourne-wind-symphony-showcase-talent-in-interstate-tour",
+      "title": "Students from University of Melbourne Wind Symphony showcase talent in interstate tour",
+      "wordCount": 473,
+      "fingerprint": "86700bdef5198620"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/vca-graduates-showcase-short-films-in-partnership-with-miff",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/vca-graduates-showcase-short-films-in-partnership-with-miff",
+      "title": "VCA graduates showcase short films in partnership with MIFF",
+      "wordCount": 515,
+      "fingerprint": "8741267e95377069"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/david-balfour-appointed-head-of-film-and-television",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/david-balfour-appointed-head-of-film-and-television",
+      "title": "David Balfour appointed Head of Film and Television",
+      "wordCount": 452,
+      "fingerprint": "875bdb99cbcc218e"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/left-write-hook-now-streaming-on-netflix",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/left-write-hook-now-streaming-on-netflix",
+      "title": "Left Write Hook now streaming on Netflix",
+      "wordCount": 275,
+      "fingerprint": "892dae7cdd631e9c"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/vca-graduate-and-john-truscott-prize-winner-ishan-vivekanantham-designs-the-lyrebirds-voice-for-victorian-opera",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/vca-graduate-and-john-truscott-prize-winner-ishan-vivekanantham-designs-the-lyrebirds-voice-for-victorian-opera",
+      "title": "VCA graduate and John Truscott Prize winner Ishan Vivekanantham designs \u2018The Lyrebird\u2019s Voice\u2019 for Victorian Opera",
+      "wordCount": 820,
+      "fingerprint": "898f42142476de8d"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/alumni-win-big-at-the-sydney-film-festival",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/alumni-win-big-at-the-sydney-film-festival",
+      "title": "VCA Film and Television Alum win Dendy Live Action Short Award",
+      "wordCount": 397,
+      "fingerprint": "8994dc869dac1fb9"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/musicologist-linda-barwick-receives-sir-bernard-heinze-memorial-award",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/musicologist-linda-barwick-receives-sir-bernard-heinze-memorial-award",
+      "title": "Musicologist Linda Barwick receives Sir Bernard Heinze Memorial Award",
+      "wordCount": 560,
+      "fingerprint": "8a797519cd767bea"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/piers-lane-ao-announced-as-recipient-of-2022-sir-bernard-heinze-memorial-award",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/piers-lane-ao-announced-as-recipient-of-2022-sir-bernard-heinze-memorial-award",
+      "title": "Piers Lane (AO) announced as recipient of 2022 Sir Bernard Heinze Memorial Award",
+      "wordCount": 495,
+      "fingerprint": "8b77f75d43882d98"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/study-with-us/discipline-areas/creative-arts-music-therapy",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/study-with-us/discipline-areas/creative-arts-music-therapy",
+      "title": "Explore the Music Therapy program at the Conservatorium",
+      "wordCount": 10911,
+      "fingerprint": "8bc73e45310ab178"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/ngioka-bunda-heath-awarded-hutchinson-indigenous-fellowship",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/ngioka-bunda-heath-awarded-hutchinson-indigenous-fellowship",
+      "title": "Ngioka Bunda-Heath awarded the 2021 Hutchinson Indigenous Fellowship and Residency",
+      "wordCount": 741,
+      "fingerprint": "8e58c2d174c5df66"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/wilin-reconciliation-2021",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/wilin-reconciliation-2021",
+      "title": "Lighting of the Wilin for Reconciliation Week 2021",
+      "wordCount": 2205,
+      "fingerprint": "8e8fc5ffd1146047"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/study-with-us/discipline-areas/writing",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/study-with-us/discipline-areas/writing",
+      "title": "Explore the world class Writing programs at the VCA",
+      "wordCount": 1295,
+      "fingerprint": "8f786e82d9fd88b3"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/getting-match-fit-vca-acting-students-bring-the-drama-of-sport-on-stage",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/getting-match-fit-vca-acting-students-bring-the-drama-of-sport-on-stage",
+      "title": "Getting match fit: VCA Acting students bring the drama of sport on stage",
+      "wordCount": 1250,
+      "fingerprint": "8fbc001e44aaf710"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/showcase/2025/2025-graduating-season/music",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/showcase/2025/2025-graduating-season/music",
+      "title": "Music",
+      "wordCount": 100,
+      "fingerprint": "91437b9769e985f3"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/enterprise-professor-natalie-king-on-curating-the-inaugural-timor-leste-pavilion-for-the-venice-biennale",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/enterprise-professor-natalie-king-on-curating-the-inaugural-timor-leste-pavilion-for-the-venice-biennale",
+      "title": "'A sense of joy and jubilation' \u2014 Enterprise Professor Natalie King reflects on the 2024 Venice Biennale",
+      "wordCount": 1904,
+      "fingerprint": "928a0a38948f59f4"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/practically-perfect-music-theatre-alum-stefanie-jones-lands-major-role-as-mary-poppins",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/practically-perfect-music-theatre-alum-stefanie-jones-lands-major-role-as-mary-poppins",
+      "title": "\u2018Practically perfect\u2019: Music Theatre alum Stefanie Jones lands major role as Mary Poppins",
+      "wordCount": 654,
+      "fingerprint": "92ed1467a664b039"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/the-emerging-voices-of-australian-film-largest-ever-selection-of-short-films-by-vca-graduates-to-stream-free-on-miff-play",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/the-emerging-voices-of-australian-film-largest-ever-selection-of-short-films-by-vca-graduates-to-stream-free-on-miff-play",
+      "title": "The emerging voices of Australian film: Largest ever selection of short films by VCA graduates to stream free on MIFF Play",
+      "wordCount": 792,
+      "fingerprint": "930854552b055745"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/university-of-melbourne-and-australian-chamber-orchestra-launch-life-changing-music-program-for-victorian-primary-school-students",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/university-of-melbourne-and-australian-chamber-orchestra-launch-life-changing-music-program-for-victorian-primary-school-students",
+      "title": "University of Melbourne and Australian Chamber Orchestra launch life-changing music program for Victorian primary school students",
+      "wordCount": 649,
+      "fingerprint": "934f9a8f8576662a"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/meet-elliott-gyger",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/meet-elliott-gyger",
+      "title": "Meet Elliott Gyger, Associate Director of Teaching and Learning at the Melbourne Conservatorium of Music",
+      "wordCount": 721,
+      "fingerprint": "936e426b07b7ff7c"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/showcase/2025/2025-graduating-season/exhibitions",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/showcase/2025/2025-graduating-season/exhibitions",
+      "title": "Exhibitions 2025 | Victorian College of the Arts",
+      "wordCount": 161,
+      "fingerprint": "95463afead978784"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/if-you-can-show-call-opera,-you-can-show-call-anything-meet-will-barker,-bachelor-of-fine-arts-production-graduate",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/if-you-can-show-call-opera,-you-can-show-call-anything-meet-will-barker,-bachelor-of-fine-arts-production-graduate",
+      "title": "'If you can show call opera, you can show call anything': Meet Will Barker, Bachelor of Fine Arts (Production) graduate",
+      "wordCount": 915,
+      "fingerprint": "95516579ac8966ff"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/familiar-songs-may-help-maximise-recovery-in-children-with-brain-injuries",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/familiar-songs-may-help-maximise-recovery-in-children-with-brain-injuries",
+      "title": "Familiar songs may help maximise recovery in children with brain injuries",
+      "wordCount": 459,
+      "fingerprint": "9564ea35a6ccd5b1"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/mcm",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/mcm",
+      "title": "The Melbourne Conservatorium of Music offers a comprehensive range of world-class music courses",
+      "wordCount": 10977,
+      "fingerprint": "9756b8145c2f63d7"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/vca-film-and-television-to-host-the-impact-australia-3-film-and-tv-writer-accelerator-program",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/vca-film-and-television-to-host-the-impact-australia-3-film-and-tv-writer-accelerator-program",
+      "title": "VCA Film and Television to host the \u2018Impact Australia 3\u2019 screen writer accelerator program",
+      "wordCount": 540,
+      "fingerprint": "9774e8f99326b4db"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/study-with-us/discipline-areas/jazz-and-improvisation",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/study-with-us/discipline-areas/jazz-and-improvisation",
+      "title": "Explore the Jazz and improvisation program at the Conservatorium",
+      "wordCount": 879,
+      "fingerprint": "97b625302a5bb924"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/vca-graduates-showcase-short-films-in-partnership-with-melbourne-international-film-festival",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/vca-graduates-showcase-short-films-in-partnership-with-melbourne-international-film-festival",
+      "title": "VCA graduates showcase short films in partnership with Melbourne International Film Festival",
+      "wordCount": 481,
+      "fingerprint": "97f21d36ca6988c0"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/meet-trombonist-joshua-dulfer",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/meet-trombonist-joshua-dulfer",
+      "title": "From Melbourne to Asia with the University of Melbourne Symphony Orchestra: Meet trombonist Joshua Dulfer",
+      "wordCount": 875,
+      "fingerprint": "9b5cce66ffc05207"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/unlocking-the-healing-power-of-music-associate-professor-jeanette-tamplin-on-revives-$4.2-million-funding-for-music-therapy-research",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/unlocking-the-healing-power-of-music-associate-professor-jeanette-tamplin-on-revives-$4.2-million-funding-for-music-therapy-research",
+      "title": "Unlocking the healing power of music: Jeanette Tamplin on Revive's $4.2 million funding for art and music therapy research",
+      "wordCount": 583,
+      "fingerprint": "9e1a988aa7b7efe2"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/hutchinson-indigenous-fellowship-supports-projects-exploring-truth-telling-and-celestial-knowledge",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/hutchinson-indigenous-fellowship-supports-projects-exploring-truth-telling-and-celestial-knowledge",
+      "title": "Hutchinson Indigenous Fellowship supports projects exploring truth-telling and celestial knowledge",
+      "wordCount": 577,
+      "fingerprint": "9e98bbc362c1bc36"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/everyday-objects-are-given-new-meaning-meet-vca-graduating-artist-rachel-rovira",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/everyday-objects-are-given-new-meaning-meet-vca-graduating-artist-rachel-rovira",
+      "title": "\u2018Everyday objects are given new meaning\u2019: Meet VCA graduating artist Rachel Rovira",
+      "wordCount": 556,
+      "fingerprint": "9ef6acacaf59ddb0"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/leanne-mcgowan-wins-dorcas-prize",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/leanne-mcgowan-wins-dorcas-prize",
+      "title": "Leanne McGowan wins Dorcas McClean Travelling Scholarship",
+      "wordCount": 447,
+      "fingerprint": "a0616fea9dc4ef9c"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/governance",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/governance",
+      "title": "Our Governance structure at the Faculty",
+      "wordCount": 449,
+      "fingerprint": "a1f98df78ad11b4a"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/in-conversation-with-bachelor-of-design-graduate-and-broadway-tarot-creator-ella-witchell",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/in-conversation-with-bachelor-of-design-graduate-and-broadway-tarot-creator-ella-witchell",
+      "title": "In conversation with Bachelor of Design graduate and Broadway Tarot creator Ella Witchell",
+      "wordCount": 849,
+      "fingerprint": "a22ed91f47313275"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/researching-the-arts-and-wellbeing",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/researching-the-arts-and-wellbeing",
+      "title": "Researching the arts and wellbeing: Challenges and opportunities",
+      "wordCount": 818,
+      "fingerprint": "a515b84d33b35b1f"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/bumper-crop-of-vca-alumni-films-screening-at-australias-premiere-film-festival",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/bumper-crop-of-vca-alumni-films-screening-at-australias-premiere-film-festival",
+      "title": "Bumper crop of VCA alumni films screening at Australia\u2019s premiere film festival",
+      "wordCount": 542,
+      "fingerprint": "a6075814c6b38c23"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/wilin-fanning-the-flame-for-20-years",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/wilin-fanning-the-flame-for-20-years",
+      "title": "Wilin: fanning the flame for 20 years",
+      "wordCount": 930,
+      "fingerprint": "a62523016d73aa72"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/art-illuminates-science-lionel-gell-art-in-science-initiative-inaugural-artworks-unveiled",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/art-illuminates-science-lionel-gell-art-in-science-initiative-inaugural-artworks-unveiled",
+      "title": "Art illuminates science: Lionel Gell Art in Science Initiative inaugural artworks unveiled",
+      "wordCount": 1157,
+      "fingerprint": "a6fe2f878d032288"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/music-psychology-student-wins-universitys-visualise-your-thesis-competition",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/music-psychology-student-wins-universitys-visualise-your-thesis-competition",
+      "title": "Music Psychology student wins University\u2019s Visualise Your Thesis competition",
+      "wordCount": 245,
+      "fingerprint": "a771d382ff862756"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/contemporary-dance-performance-home-to-captivate-at-shepparton-festival,-through-university-of-melbourne-goulburn-valley-partnership",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/contemporary-dance-performance-home-to-captivate-at-shepparton-festival,-through-university-of-melbourne-goulburn-valley-partnership",
+      "title": "Contemporary dance performance \u2018HOME\u2019 to captivate at Shepparton Festival, through University of Melbourne Goulburn Valley partnership",
+      "wordCount": 563,
+      "fingerprint": "a9a4afae84e2a747"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/study-with-us/discipline-areas/acting-and-theatre",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/study-with-us/discipline-areas/acting-and-theatre",
+      "title": "Explore the world-class Acting and Theatre program of the VCA",
+      "wordCount": 4821,
+      "fingerprint": "aaad47a66e236125"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/vale-celeste-chandler",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/vale-celeste-chandler",
+      "title": "Vale Celeste Chandler",
+      "wordCount": 601,
+      "fingerprint": "ab5c7ef891cabc84"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/dobell-award-continues-to-support-music-theatre-students",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/dobell-award-continues-to-support-music-theatre-students",
+      "title": "Dobell Award continues to support Music Theatre students",
+      "wordCount": 296,
+      "fingerprint": "acbbd814199c51aa"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/congratulations-to-our-alumni-participant-in-impact-2",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/congratulations-to-our-alumni-participant-in-impact-2",
+      "title": "Congratulations to our alumni participant in Impact 2",
+      "wordCount": 407,
+      "fingerprint": "b00f6218590f9360"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/study-with-us/discipline-areas/ethnomusicology",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/study-with-us/discipline-areas/ethnomusicology",
+      "title": "Explore the acclaimed Ethnomusicology program at the Conservatorium",
+      "wordCount": 10801,
+      "fingerprint": "b0a4a704dcf32470"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/events",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/events",
+      "title": "Events at the Faculty of Fine Arts and Music",
+      "wordCount": 393,
+      "fingerprint": "b11eeb5ce5f29a81"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/new-paraorchestra-for-young-musicians-with-disability-seeks-members-for-first-cohort",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/new-paraorchestra-for-young-musicians-with-disability-seeks-members-for-first-cohort",
+      "title": "New \u2018ParaOrchestra\u2019 for young musicians with disability seeks members for first cohort",
+      "wordCount": 361,
+      "fingerprint": "b15a2d674c35227e"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/meet-timothy-kan",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/meet-timothy-kan",
+      "title": "From Melbourne to Asia with the University of Melbourne Symphony Orchestra: Meet pianist, Timothy Kan",
+      "wordCount": 827,
+      "fingerprint": "b173c786c11d38d8"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/the-paul-selzer-exhibition",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/the-paul-selzer-exhibition",
+      "title": "The Paul Selzer Exhibition: Supporting graduates of the VCA",
+      "wordCount": 1179,
+      "fingerprint": "b1e98c7eab20c0c9"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/meet-maki-morita",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/meet-maki-morita",
+      "title": "VCA graduate Maki Morita on the power of community, creativity and theatre",
+      "wordCount": 549,
+      "fingerprint": "b3a13d47248352a0"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/melbourne-conservatorium-of-music-students-to-perform-with-melissa-aldana-at-the-melbourne-international-jazz-festival",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/melbourne-conservatorium-of-music-students-to-perform-with-melissa-aldana-at-the-melbourne-international-jazz-festival",
+      "title": "Melbourne Conservatorium of Music students to perform with Melissa Aldana at the Melbourne International Jazz Festival",
+      "wordCount": 587,
+      "fingerprint": "b4ee7cae184ce537"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/meet-amy-sole",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/meet-amy-sole",
+      "title": "'We need your voice, not the voice you think the world needs': Meet VCA grad Amy Sole",
+      "wordCount": 618,
+      "fingerprint": "b51656c7d9a20711"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/new-art-installation-showcases-work-of-four-first-nations-students",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/new-art-installation-showcases-work-of-four-first-nations-students",
+      "title": "New art installation showcases work of four First Nations students",
+      "wordCount": 309,
+      "fingerprint": "b5312e12fc34f36b"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/university-of-melbourne-upskills-film-students-using-the-latest-hollywood-technology",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/university-of-melbourne-upskills-film-students-using-the-latest-hollywood-technology",
+      "title": "University of Melbourne upskills film students using the latest Hollywood technology",
+      "wordCount": 418,
+      "fingerprint": "b66dc739555831a2"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/podcast-professor-sally-smart,-the-power-of-artists-is-extraordinary",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/podcast-professor-sally-smart,-the-power-of-artists-is-extraordinary",
+      "title": "Podcast: Professor Sally Smart, \u201cThe power of artists is extraordinary\u201d",
+      "wordCount": 2135,
+      "fingerprint": "b73922cbc701f668"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/university-of-melbourne-to-host-inaugural-music-theatre-futures-conference",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/university-of-melbourne-to-host-inaugural-music-theatre-futures-conference",
+      "title": "University of Melbourne to host inaugural Music Theatre Futures conference",
+      "wordCount": 458,
+      "fingerprint": "b7493bc23472cbc3"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/40th-green-room-awards",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/40th-green-room-awards",
+      "title": "The Faculty of Fine Arts and Music celebrates the success of alumni and staff at the 40th Annual Green Room Awards",
+      "wordCount": 630,
+      "fingerprint": "bbd81dfe6e98232d"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/meet-alkisti-pitsaki",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/meet-alkisti-pitsaki",
+      "title": "Art, identity, and 'in time': Meet Alkisti Pitsaki, Theatre graduate",
+      "wordCount": 773,
+      "fingerprint": "bc8232366e41f5f3"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/i-wanted-to-stand-out-from-the-crowd-meet-master-of-producing-graduate-mario-biancacci",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/i-wanted-to-stand-out-from-the-crowd-meet-master-of-producing-graduate-mario-biancacci",
+      "title": "'I wanted to stand out from the crowd': Meet Master of Producing graduate Mario Biancacci",
+      "wordCount": 990,
+      "fingerprint": "bd748b7d26c7bab3"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/sign-up",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/sign-up",
+      "title": "Sign up",
+      "wordCount": 99,
+      "fingerprint": "bd8a153289f258f3"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/professor-natalie-king-oam-interview",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/professor-natalie-king-oam-interview",
+      "title": "The power of mentoring: an interview with curator Professor Natalie King OAM",
+      "wordCount": 991,
+      "fingerprint": "bf413186c6705243"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/study-with-us/discipline-areas",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/study-with-us/discipline-areas",
+      "title": "Discipline Areas at the Faculty of Fine Arts and Music",
+      "wordCount": 663,
+      "fingerprint": "c0eb521f767394a4"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/john-davis-receives-prestigious-sir-bernard-heinze-memorial-award",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/john-davis-receives-prestigious-sir-bernard-heinze-memorial-award",
+      "title": "John Davis receives prestigious Sir Bernard Heinze Memorial Award",
+      "wordCount": 619,
+      "fingerprint": "c1176d4454dc8f25"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/enterprise-professor-natalie-king-on-curating-paradise-camp-for-the-venice-biennale",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/enterprise-professor-natalie-king-on-curating-paradise-camp-for-the-venice-biennale",
+      "title": "Enterprise Professor Natalie King on curating 'Paradise Camp' for the Venice Biennale",
+      "wordCount": 872,
+      "fingerprint": "c26c27b72e98ce4a"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/deaf-storytellers-share-knowledge-and-challenge-audism-in-what-i-wish-id-told-you",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/deaf-storytellers-share-knowledge-and-challenge-audism-in-what-i-wish-id-told-you",
+      "title": "Deaf storytellers share knowledge and challenge audism in What I Wish I'd Told You",
+      "wordCount": 1292,
+      "fingerprint": "c540a83af88acc96"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/anna-bao-en-sing-balancing-music-and-medicine",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/anna-bao-en-sing-balancing-music-and-medicine",
+      "title": "Anna Bao En Sing: Balancing Music and Medicine",
+      "wordCount": 627,
+      "fingerprint": "c5ce0e3a2e44b7d3"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/vca-alum-ari-wegner-nominated-for-an-oscar",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/vca-alum-ari-wegner-nominated-for-an-oscar",
+      "title": "VCA alum, Ari Wegner makes Oscars history with her nomination for Best Cinematography",
+      "wordCount": 359,
+      "fingerprint": "c7d6b1b080f22363"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/the-majlis-travelling-fellowship-supporting-the-next-generation-of-artists",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/the-majlis-travelling-fellowship-supporting-the-next-generation-of-artists",
+      "title": "The Majlis Travelling Fellowship: Supporting the next generation of artists",
+      "wordCount": 778,
+      "fingerprint": "c98ae76c045407ce"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/celebrating-kate-daw",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/celebrating-kate-daw",
+      "title": "Celebrating Kate Daw | News | Faculty of Fine Arts & Music",
+      "wordCount": 497,
+      "fingerprint": "cab6c8ede4e91bca"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/study-with-us/discipline-areas/film-and-television",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/study-with-us/discipline-areas/film-and-television",
+      "title": "Film and Television courses at the VCA's acclaimed film school",
+      "wordCount": 6884,
+      "fingerprint": "cb46ef71defd344f"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/frederickiernaninterview",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/frederickiernaninterview",
+      "title": "Is our thinking about emotions wrong? Dr Frederic Kiernan, University of Melbourne",
+      "wordCount": 1113,
+      "fingerprint": "cb7b7ce4842897b2"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/im-here,-im-proud-and-i-know-what-im-doing",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/im-here,-im-proud-and-i-know-what-im-doing",
+      "title": "\u201cI'm here, I'm proud and I know what I'm doing\u201d: Third-year student and Mununjali man Nicholas Currie on his journey into painting, and his relationship with the Wilin Centre",
+      "wordCount": 652,
+      "fingerprint": "d0a3b5475ea19e77"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/melbourne-conservatorium-of-music-appoints-sophie-rowell-as-associate-professor-in-violin",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/melbourne-conservatorium-of-music-appoints-sophie-rowell-as-associate-professor-in-violin",
+      "title": "Melbourne Conservatorium of Music appoints Sophie Rowell as Associate Professor in Violin",
+      "wordCount": 428,
+      "fingerprint": "d11f92810105549d"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/showcase/tales-from-the-arabian-nights",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/showcase/tales-from-the-arabian-nights",
+      "title": "Tales from the Arabian Nights",
+      "wordCount": 3580,
+      "fingerprint": "d29421d60e1902b4"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/behind-the-curtain-associate-professor-richard-roberts-on-reimaging-one-of-australias-most-iconic-ballets,-don-quixote,-for-the-stage",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/behind-the-curtain-associate-professor-richard-roberts-on-reimaging-one-of-australias-most-iconic-ballets,-don-quixote,-for-the-stage",
+      "title": "Behind the curtain: Associate Professor Richard Roberts on reimagining one of Australia\u2019s most iconic ballets, Don Quixote, for the stage",
+      "wordCount": 1202,
+      "fingerprint": "d39336fdfba7d689"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/top-50-placing-for-university-of-melbourne-in-eight-times-higher-education-subject-areas",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/top-50-placing-for-university-of-melbourne-in-eight-times-higher-education-subject-areas",
+      "title": "Top 50 placing for University of Melbourne in eight Times Higher Education subject areas",
+      "wordCount": 306,
+      "fingerprint": "d666bc05bfea401a"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/australia-council",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/australia-council",
+      "title": "VCA's Kate Just, Prue Lang awarded 2022 Australia Council for the Arts funding",
+      "wordCount": 394,
+      "fingerprint": "d7362f99cc9909c2"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/expressing-trauma-through-creative-arts-and-boxing",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/expressing-trauma-through-creative-arts-and-boxing",
+      "title": "Expressing trauma through creative arts - and boxing",
+      "wordCount": 1035,
+      "fingerprint": "d8b05af865e03549"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/new-intercultural-music-composition-captures-the-fragility-and-wonder-of-unique-melbourne-grasslands",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/new-intercultural-music-composition-captures-the-fragility-and-wonder-of-unique-melbourne-grasslands",
+      "title": "New intercultural music composition captures the fragility and wonder of unique Melbourne grasslands",
+      "wordCount": 566,
+      "fingerprint": "d9f6e128eae309ef"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/david-arden-on-sharing-his-song-lines",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/david-arden-on-sharing-his-song-lines",
+      "title": "David Arden on sharing his song lines and latest project \u2018MEERTA\u2019",
+      "wordCount": 948,
+      "fingerprint": "da4b6a20d71c2093"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/renowned-human-rights-educator-visits-university-of-melbourne",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/renowned-human-rights-educator-visits-university-of-melbourne",
+      "title": "'We are all artists' \u2014 Renowned human rights educator visits University of Melbourne",
+      "wordCount": 829,
+      "fingerprint": "dadb2406d3f40e85"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/VCAImpactScreenwriters",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/VCAImpactScreenwriters",
+      "title": "VCA Film and TV to host the Impact Australia 2 screenwriter accelerator program",
+      "wordCount": 785,
+      "fingerprint": "dc3ddc6f266cfccb"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/hannah-shin-wins-top-prize-at-the-lev-vlassenko-piano-competition",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/hannah-shin-wins-top-prize-at-the-lev-vlassenko-piano-competition",
+      "title": "Conservatorium Graduate wins Lev Vlassenko Piano Competition",
+      "wordCount": 419,
+      "fingerprint": "dcfc0454d232f337"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/contact-us",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/contact-us",
+      "title": "Contact information for the Faculty of Fine Arts and Music",
+      "wordCount": 611,
+      "fingerprint": "dd4e9f35d0fe52fb"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/showcase/2025/2025-graduating-season/stage",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/showcase/2025/2025-graduating-season/stage",
+      "title": "Stage 2025 | Victorian College of the Arts",
+      "wordCount": 464,
+      "fingerprint": "de7a1ef1df0176d7"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/indigenous-songwriting-project-brings-kimberley-languages-to-life-through-music",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/indigenous-songwriting-project-brings-kimberley-languages-to-life-through-music",
+      "title": "Indigenous songwriting project brings Kimberley languages to life through music",
+      "wordCount": 637,
+      "fingerprint": "de7bb6f8c2a3268f"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/wellbeing-experts-highlight-the-power-of-arts-and-culture-to-improve-health-and-wellbeing-for-all",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/wellbeing-experts-highlight-the-power-of-arts-and-culture-to-improve-health-and-wellbeing-for-all",
+      "title": "Wellbeing experts highlight the power of arts and culture to improve health and wellbeing for all",
+      "wordCount": 417,
+      "fingerprint": "de976b79eadfc260"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/melbourne-conservatorium-of-music-appoints-two-world-class-pianists",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/melbourne-conservatorium-of-music-appoints-two-world-class-pianists",
+      "title": "Melbourne Conservatorium of Music appoints two world-class pianists",
+      "wordCount": 600,
+      "fingerprint": "df8ad87a5639270b"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/a-fragment-of-something-much-bigger-new-exhibition-showcases-paintings-by-paul-maymuru",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/a-fragment-of-something-much-bigger-new-exhibition-showcases-paintings-by-paul-maymuru",
+      "title": "'A fragment of something much bigger' \u2014 new exhibition showcases paintings by Paul Maymuru",
+      "wordCount": 501,
+      "fingerprint": "e06ccbd3895bff7d"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/the-faculty-of-fine-arts-and-music-joins-epic-games-unreal-academic-partner-program",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/the-faculty-of-fine-arts-and-music-joins-epic-games-unreal-academic-partner-program",
+      "title": "Faculty of Fine Arts and Music joins Epic Games\u2019 Unreal Academic Partner Program",
+      "wordCount": 331,
+      "fingerprint": "e787393e2d94a695"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/dance-science-pioneer-professor-emma-redding-appointed-vca-director",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/dance-science-pioneer-professor-emma-redding-appointed-vca-director",
+      "title": "Dance science pioneer Professor Emma Redding appointed VCA Director",
+      "wordCount": 484,
+      "fingerprint": "e7c829152567a8f3"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/study-with-us/discipline-areas/visual-art",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/study-with-us/discipline-areas/visual-art",
+      "title": "Explore the renowned Visual Arts program at the VCA",
+      "wordCount": 7457,
+      "fingerprint": "e964f6afa0c88991"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/arthur-jafa-unrest-seminal-works-that-speak-to-the-heart-of-21st-century-experience-showing-at-the-fiona-and-sidney-myer-gallery",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/arthur-jafa-unrest-seminal-works-that-speak-to-the-heart-of-21st-century-experience-showing-at-the-fiona-and-sidney-myer-gallery",
+      "title": "Arthur Jafa \u2013 Unrest: \u201cSeminal works that speak to the heart of 21st century experience\u201d showing at the Fiona and Sidney Myer Gallery",
+      "wordCount": 879,
+      "fingerprint": "eac0c1d9ea17e441"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/dr-evelyn-araluen-corr-wins-prestigious-literary-prize",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/dr-evelyn-araluen-corr-wins-prestigious-literary-prize",
+      "title": "Dr Evelyn Araluen Corr wins prestigious literary prize",
+      "wordCount": 325,
+      "fingerprint": "eb1a46c2251f603b"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/showcase",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/showcase",
+      "title": "Showcase | Faculty of Fine Arts and Music",
+      "wordCount": 4459,
+      "fingerprint": "ebc345e610b5f74f"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/meet-mr-vic-naidoc-2023,-brodie-murray",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/meet-mr-vic-naidoc-2023,-brodie-murray",
+      "title": "Meet Mr Vic NAIDOC 2023",
+      "wordCount": 399,
+      "fingerprint": "ec1bf13f5a5b57b0"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/diversity-action-plan",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/diversity-action-plan",
+      "title": "Diversity, Equity, and Inclusion Action Plan",
+      "wordCount": 747,
+      "fingerprint": "ed5e5f838d2cc192"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/vca-film-and-television-students-make-fast-films-in-new-collaboration",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/vca-film-and-television-students-make-fast-films-in-new-collaboration",
+      "title": "VCA Film and Television students make 'Fast Films' in new collaboration",
+      "wordCount": 728,
+      "fingerprint": "edbc9136d353a523"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/alumni",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/alumni",
+      "title": "VCA and Conservatorium Alumni",
+      "wordCount": 5799,
+      "fingerprint": "ee568d1655d8d048"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/university-of-melbourne-confers-honorary-doctorate-on-music-education-leader-professor-andre-de-quadros",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/university-of-melbourne-confers-honorary-doctorate-on-music-education-leader-professor-andre-de-quadros",
+      "title": "University of Melbourne confers Honorary Doctorate on music education leader Professor Andr\u00e9 de Quadros",
+      "wordCount": 353,
+      "fingerprint": "ee5d04b8e3d8a19a"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news",
+      "title": "Latest News | Faculty of Fine Arts and Music",
+      "wordCount": 37594,
+      "fingerprint": "efcbb1d57650457f"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/four-productions-showcase-student-work-across-acting,-dance,-music-theatre-and-design-and-production-programs",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/four-productions-showcase-student-work-across-acting,-dance,-music-theatre-and-design-and-production-programs",
+      "title": "Four productions showcase student work across Acting, Dance, Music Theatre and Design and Production programs",
+      "wordCount": 761,
+      "fingerprint": "f01b561a9a99ccd5"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/creative-industries-forum-in-delhi-strengthens-cross-cultural-collaboration",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/creative-industries-forum-in-delhi-strengthens-cross-cultural-collaboration",
+      "title": "Creative industries forum in Delhi strengthens cross-cultural collaboration",
+      "wordCount": 590,
+      "fingerprint": "f08cdab0e52a66d5"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/Students_bring_Skyrim_theme_to_life",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/Students_bring_Skyrim_theme_to_life",
+      "title": "Bethesda Games invite University of Melbourne Symphony Orchestra to perform Skyrim theme for 10th anniversary",
+      "wordCount": 350,
+      "fingerprint": "f0c6663c4eaba96c"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/riverdance-at-30-how-riverdance-shaped-irish-dance,-and-reflected-a-multicultural-australia",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/riverdance-at-30-how-riverdance-shaped-irish-dance,-and-reflected-a-multicultural-australia",
+      "title": "Riverdance at 30: How Riverdance shaped Irish dance, and reflected a multicultural Australia",
+      "wordCount": 807,
+      "fingerprint": "f1f07d1501b435cd"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/theres-always-an-opportunity-somewhere-meet-vca-alum-jacob-boehme",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/theres-always-an-opportunity-somewhere-meet-vca-alum-jacob-boehme",
+      "title": "\u2018There\u2019s always an opportunity somewhere\u2019: Meet VCA alum Jacob Boehme",
+      "wordCount": 586,
+      "fingerprint": "f35ad969504a7eab"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/soprano-stacey-alleaume-on-nerves,-wardrobe-malfunctions-and-international-success",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/soprano-stacey-alleaume-on-nerves,-wardrobe-malfunctions-and-international-success",
+      "title": "Soprano Stacey Alleaume on nerves, wardrobe malfunctions and international success",
+      "wordCount": 930,
+      "fingerprint": "f484069a28605939"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/its-in-unexpected-places-that-you-will-find-exactly-what-youre-looking-for-meet-vca-graduating-artist-tess-rogers",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/its-in-unexpected-places-that-you-will-find-exactly-what-youre-looking-for-meet-vca-graduating-artist-tess-rogers",
+      "title": "\u2018It\u2019s in unexpected places that you will find exactly what you\u2019re looking for\u2019: Meet VCA graduating artist Tess Rogers",
+      "wordCount": 504,
+      "fingerprint": "f695d8ea75aa8bec"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/georgia-banks-on-falling-in-love-with-ai",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/georgia-banks-on-falling-in-love-with-ai",
+      "title": "Artist Georgia Banks on falling in love with AI and immortalising herself in the cloud",
+      "wordCount": 621,
+      "fingerprint": "f69aeb8afcdb82f5"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/Prague-Quadrennial",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/Prague-Quadrennial",
+      "title": "\u201cThe Olympics of stage design\u201d: first ever Indigenous led show to represent Australia at the Prague Quadrennial",
+      "wordCount": 604,
+      "fingerprint": "fa0a3d75534133fb"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/floribunda-capturing-an-entire-world-through-flowers",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/floribunda-capturing-an-entire-world-through-flowers",
+      "title": "Floribunda: Capturing an entire world through flowers",
+      "wordCount": 826,
+      "fingerprint": "fa2fee019864e8ed"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/joining-the-band-how-new-music-technologies-are-helping-students-with-disability-access-music-education",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/joining-the-band-how-new-music-technologies-are-helping-students-with-disability-access-music-education",
+      "title": "Joining the band: How new music technologies are helping students with disability access music education",
+      "wordCount": 676,
+      "fingerprint": "fadd394082fe7c4e"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/showcase/2025/2025-graduating-season/screen",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/showcase/2025/2025-graduating-season/screen",
+      "title": "Film & Television Graduate Season 2025 | Victorian College of the Arts",
+      "wordCount": 207,
+      "fingerprint": "fd7ab72fe5745fb6"
+    },
+    {
+      "url": "https://finearts-music.unimelb.edu.au/about-us/news/meet-honours-coordinator-dane-mitchell-young-artists-should-have-a-right-to-invent-the-world,-rather-than-just-receive-it",
+      "normalizedUrl": "https://finearts-music.unimelb.edu.au/about-us/news/meet-honours-coordinator-dane-mitchell-young-artists-should-have-a-right-to-invent-the-world,-rather-than-just-receive-it",
+      "title": "'Young artists should have a right to invent the world, rather than just receive it': Meet Honours coordinator Dane Mitchell",
+      "wordCount": 888,
+      "fingerprint": "fe90e177f1230dfa"
+    }
+  ]
+}

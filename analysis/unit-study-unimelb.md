@@ -63,29 +63,29 @@ The `/find` section (course browser) and `/student-life` together account for **
 | wellbeing-health | 17 | Mental health/wellbeing reassurance content for prospective students |
 | fees-finance | 13 | Cross-tagged with current-students fees topic (overlap zone) |
 
-The `graduation` tag count of 121 is an artefact of the **Graduate Degree Package** pages — the University's signature undergraduate-to-postgraduate pathway product. These pages describe how to progress from a bachelor's to a master's, and the tagger fires on "graduate" language throughout. They are genuinely prospective-audience content, but they reference `students.unimelb.edu.au` heavily (average 8–24 links per page) because the enrolment mechanics once a student is accepted live on the hub.
+The `graduation` tag count of 121 is an artefact of the **Graduate Degree Package** pages — the University's signature undergraduate-to-postgraduate pathway product. These pages describe how to progress from a bachelor's to a master's, and the tagger fires on "graduate" language throughout. They are genuinely prospective-audience content, but they reference `students.unimelb.edu.au` heavily (average 8–24 links per page) because the enrolment mechanics once a student is accepted live on students.unimelb.edu.au.
 
 ---
 
 ## Cross-site overlap findings
 
-**21% of study.unimelb pages (62 of 300) link out to `students.unimelb.edu.au`**, generating 273 outbound links total to the current-students hub. This is the primary structural finding: the prospective site is **actively sending prospective visitors into the enrolled-student system** rather than hand-holding them through an enrolment transition.
+**21% of study.unimelb pages (62 of 300) link out to `students.unimelb.edu.au`**, generating 273 outbound links total to the current-students students.unimelb.edu.au. This is the primary structural finding: the prospective site is **actively sending prospective visitors into the enrolled-student system** rather than hand-holding them through an enrolment transition.
 
 ### Overlap zone 1: Fees and finance (13 pages)
 
 study.unimelb has full fee schedule pages:
 - `/how-to-apply/fees` — fee overview for all student types
-- `/how-to-apply/undergraduate-study/domestic-applications/fees-and-payments` (4 links → students hub)
-- `/how-to-apply/graduate-coursework-study/domestic-applications/fees-and-payments` (4 links → students hub)
+- `/how-to-apply/undergraduate-study/domestic-applications/fees-and-payments` (4 links → students students.unimelb.edu.au)
+- `/how-to-apply/graduate-coursework-study/domestic-applications/fees-and-payments` (4 links → students students.unimelb.edu.au)
 - HECS-HELP and FEE-HELP explanations
 
-The current-students estate (via the hub and individual faculties) also carries fees content. The split makes partial sense: study.unimelb covers "what will it cost me as an applicant", while the hub covers "how do I pay my invoice as an enrolled student". But the boundary is not marked to users — someone who has enrolled but wants to check their fees will land on study.unimelb from Google and may not realise they're on the prospective site.
+The current-students estate (via students.unimelb.edu.au and individual faculties) also carries fees content. The split makes partial sense: study.unimelb covers "what will it cost me as an applicant", while students.unimelb.edu.au covers "how do I pay my invoice as an enrolled student". But the boundary is not marked to users — someone who has enrolled but wants to check their fees will land on study.unimelb from Google and may not realise they're on the prospective site.
 
 **Overlap verdict:** Partially intentional split; audience handoff is not clearly marked.
 
 ### Overlap zone 2: Scholarships (32 pages + 43 study-scholarships pages = ~75 pages)
 
-study.unimelb has a large scholarships surface — the equity schemes (Access Melbourne, Narrm Scholarship), the general scholarship search, and fee-based scholarship information. The existing current-students analysis found **141 scholarship pages across 9 faculty CS sections** and **zero** on the central hub.
+study.unimelb has a large scholarships surface — the equity schemes (Access Melbourne, Narrm Scholarship), the general scholarship search, and fee-based scholarship information. The existing current-students analysis found **141 scholarship pages across 9 faculty CS sections** and **zero** on students.unimelb.edu.au.
 
 The three-way situation:
 - `scholarships.unimelb.edu.au` exists as a dedicated subdomain (167 outbound links from study.unimelb point here)
@@ -107,9 +107,9 @@ The study.unimelb careers content serves a **different lifecycle stage** — it'
 
 ### Overlap zone 4: International students (55 pages)
 
-study.unimelb has extensive international content (second-largest single-tagged topic): visa applications, OSHC, Moving Guide (8 links to students hub), agent finder, English language requirements, country-specific entry requirements, international exchange and study abroad applications.
+study.unimelb has extensive international content (second-largest single-tagged topic): visa applications, OSHC, Moving Guide (8 links to students students.unimelb.edu.au), agent finder, English language requirements, country-specific entry requirements, international exchange and study abroad applications.
 
-The current-students estate has scattered international content (particularly for outbound mobility). The inbound international applicant journey lives almost entirely on study.unimelb, and the "I've arrived" handoff point is the Moving Guide → `students.unimelb.edu.au`. The Moving Guide itself (1,400+ words) links to 8 hub pages but does so within a prospective-site context, which may disorient a newly-arrived student who expected to find it on the enrolled-student platform.
+The current-students estate has scattered international content (particularly for outbound mobility). The inbound international applicant journey lives almost entirely on study.unimelb, and the "I've arrived" handoff point is the Moving Guide → `students.unimelb.edu.au`. The Moving Guide itself (1,400+ words) links to 8 students.unimelb.edu.au pages but does so within a prospective-site context, which may disorient a newly-arrived student who expected to find it on the enrolled-student platform.
 
 **Overlap verdict:** Structural boundary problem — the pre-arrival → post-arrival transition sits awkwardly on the prospective site.
 
@@ -117,7 +117,7 @@ The current-students estate has scattered international content (particularly fo
 
 The `/study-with-us/guaranteed-undergraduate-to-graduate-study-pathways/graduate-degree-packages/` section is a standout overlap zone. These pages explain guaranteed progression pathways from bachelor's to master's for enrolled students who want to plan ahead. They average **12–24 links per page to students.unimelb.edu.au**, have high word counts (2,000–4,700 words), and are tagged with both `study-course-info` and `graduation`.
 
-These pages are **used by both prospective students** (considering whether to commit to a Melbourne bachelor's) **and enrolled students** (planning their progression mid-degree). The enrolled-student audience has no equivalent content on the current-students estate — it would naturally look for this on the faculty CS pages or hub, but it lives on study.unimelb.
+These pages are **used by both prospective students** (considering whether to commit to a Melbourne bachelor's) **and enrolled students** (planning their progression mid-degree). The enrolled-student audience has no equivalent content on the current-students estate — it would naturally look for this on the faculty CS pages or students.unimelb.edu.au, but it lives on study.unimelb.
 
 **Overlap verdict:** Genuine dual-audience content with no counterpart in the enrolled estate.
 
@@ -146,10 +146,10 @@ These content types exist only on study.unimelb and are correctly prospective-au
 |---|---|---|
 | Glossary \| Future students | 6,294 | 44 links to students.unimelb — defines University terms for prospective students but also describes enrolled-student systems |
 | Frequently asked questions \| Future students | 4,812 | 16 links to students.unimelb — FAQ covers both pre- and post-enrolment questions on single page |
-| Graduate Degree Packages: Engineering | 4,714 | 8 links to students hub — dual-audience page: pathway planning for enrolled and prospective |
+| Graduate Degree Packages: Engineering | 4,714 | 8 links to students students.unimelb.edu.au — dual-audience page: pathway planning for enrolled and prospective |
 | Accommodation FAQs | 4,356 | Questions about UniLodge/colleges from applicants + newly arrived students |
-| Transferring courses | 1,542 | 12 links to students hub — describes process for enrolled students transferring between degrees |
-| High school student's guide to university | 1,211 | 12 links to students hub — introduction to enrolled-student systems aimed at pre-enrolment readers |
+| Transferring courses | 1,542 | 12 links to students students.unimelb.edu.au — describes process for enrolled students transferring between degrees |
+| High school student's guide to university | 1,211 | 12 links to students students.unimelb.edu.au — introduction to enrolled-student systems aimed at pre-enrolment readers |
 
 The Glossary page is particularly revealing: it defines terms like "Academic Advising", "Census Date", "Subject Coordinator", "MyUniMelb" — systems that only matter once enrolled. Its 44 outbound links to students.unimelb suggest it is **de facto a guide to being enrolled, housed on a prospective-student site**.
 
@@ -161,7 +161,7 @@ The Glossary page is particularly revealing: it defines terms like "Academic Adv
 |---|--:|---|
 | `www.unimelb.edu.au` | 576 | Tight coupling to main UoM site (about, news, research) |
 | `about.unimelb.edu.au` | 448 | University facts, rankings, sustainability |
-| `students.unimelb.edu.au` | 273 | Hub-bound: enrolled-student actions |
+| `students.unimelb.edu.au` | 273 | Central-bound: enrolled-student actions |
 | `forms.your.unimelb.edu.au` | 255 | Form submissions (applications, enquiries) |
 | `scholarships.unimelb.edu.au` | 167 | Dedicated scholarships subdomain |
 | Social platforms (Facebook, LinkedIn, Instagram, TikTok, Twitter) | 471 | Heavy social presence |
@@ -169,7 +169,7 @@ The Glossary page is particularly revealing: it defines terms like "Academic Adv
 | `handbook.unimelb.edu.au` | 25 | Cross-links to course handbook |
 | `murrupbarak.unimelb.edu.au` | 26 | Indigenous student support |
 
-The 273 links to `students.unimelb.edu.au` confirm that study.unimelb is already **using the hub as its post-enrolment handoff point**, but the handoff is uncoordinated: individual pages link to individual hub pages without an explicit "You've enrolled — here's where to go next" transition experience.
+The 273 links to `students.unimelb.edu.au` confirm that study.unimelb is already **using students.unimelb.edu.au as its post-enrolment handoff point**, but the handoff is uncoordinated: individual pages link to individual students.unimelb.edu.au pages without an explicit "You've enrolled — here's where to go next" transition experience.
 
 ---
 

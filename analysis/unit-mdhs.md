@@ -8,7 +8,7 @@
 
 ## IA Structure
 ```
-mdhs.unimelb.edu.au/study/current-students (thin faculty hub — 4 cards)
+mdhs.unimelb.edu.au/study/current-students (thin faculty central page — 4 cards)
   /student-fitness-to-practice
   /student-enrichment
   /placements
@@ -26,18 +26,18 @@ mspgh.unimelb.edu.au (likely has its own CS — not probed)
 ```
 
 ## Service Model Position
-**Most fragmented CS architecture.** MDHS is the only faculty where multiple schools run their own full CS sections on separate subdomains with different URL patterns. The faculty hub itself is thin — 4 resource cards. A Biomedicine student navigates 3+ different CS experiences (hub, MDHS faculty, Biomedical Sciences school, potentially Dental or MSPGH).
+**Most fragmented CS architecture.** MDHS is the only faculty where multiple schools run their own full CS sections on separate subdomains with different URL patterns. The faculty central page itself is thin — 4 resource cards. A Biomedicine student navigates 3+ different CS experiences (students.unimelb.edu.au, MDHS faculty, Biomedical Sciences school, potentially Dental or MSPGH).
 
 ## Content Profile
-- **Faculty hub:** Student Fitness to Practice (mandatory clinical standards — genuinely unique), Student Enrichment, Placements, Employability, Scholarships
+- **Faculty students.unimelb.edu.au:** Student Fitness to Practice (mandatory clinical standards — genuinely unique), Student Enrichment, Placements, Employability, Scholarships
 - **Biomedical Sciences:** BBiomed planning, Master of Biomedical Science, University Health Hub, Quota Subjects, BIOM30003 research project
 - **Dental School:** Student Resources page (content dynamic — not captured)
 - **Unique faculty content:** Fitness to Practice, clinical placements, MDHS-specific employability, school-level course planning
-- **Hub-redirect areas:** General enrolment, fees, exams — faculty sends to hub for these
+- **Central-redirect areas:** General enrolment, fees, exams — faculty sends to students.unimelb.edu.au for these
 
 ## Structural Issues
 - **Most fragmented faculty** — 3+ school subdomains with separate CS sections, different URL patterns
-- Faculty hub's "School Resources" section is misleading: Medical School and Psychological Sciences links point circularly back to the thin faculty hub
+- Faculty students.unimelb.edu.au's "School Resources" section is misleading: Medical School and Psychological Sciences links point circularly back to the thin faculty central page
 - Biomedical Sciences "Bachelor of Science" link is circular
 - Dental School page exists but content was not captured by web_extract (likely dynamic/JS-rendered)
 - 3 different URL patterns across faculty + schools: `/study/current-students`, `/study/current-student-information`, `/study/student-resources`
@@ -47,5 +47,5 @@ mspgh.unimelb.edu.au (likely has its own CS — not probed)
 - **Keep:** Fitness to Practice, clinical placements, MDHS employability, school-level course planning (BBiomed, etc.), quota subjects
 - **Fix:** Circular links (Medical School, Psychological Sciences, BSc link on Biomedical page)
 - **Standardise URLs:** All MDHS CS should live under a single pattern — ideally `mdhs.unimelb.edu.au/students` with school-specific sections
-- **Add:** "Where to go" sidebar on faculty hub and all school CS pages
+- **Add:** "Where to go" sidebar on faculty central page and all school CS pages
 - **Highest priority for consolidation** — MDHS fragmentation is the worst in the university

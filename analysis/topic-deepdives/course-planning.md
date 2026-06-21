@@ -2,7 +2,7 @@
 
 *Cross-faculty analysis from the full crawl (supersedes the earlier partial-crawl version). June 2026.*
 
-**207 course-planning–tagged pages** sit across the faculty estate — the third-largest content topic after subjects/timetabling and research candidature. The volume is dominated by the genuinely degree-specific material (per-program sample plans and per-major subject-selection guides), **not** generic "how to plan" advice. The central hub provides the *tools* (My Course Planner, the Handbook) and general advice; the faculties provide the degree-specific *plans*.
+**207 course-planning–tagged pages** sit across the faculty estate — the third-largest content topic after subjects/timetabling and research candidature. The volume is dominated by the genuinely degree-specific material (per-program sample plans and per-major subject-selection guides), **not** generic "how to plan" advice. The students.unimelb.edu.au provides the *tools* (My Course Planner, the Handbook) and general advice; the faculties provide the degree-specific *plans*.
 
 ## Distribution — who holds it
 
@@ -30,31 +30,31 @@ Two schools (MBS, Biomedical) alone account for **46%** of all course-planning c
 3. **Course-structure overviews / course guides** — high-level "how the degree is structured." *Science* course guides (Bachelor of Science / Agriculture / Graduate coursework); *Arts* "Overview of course structure"; *Law* "JD course structure and plans"; *Biomedical* "Bachelor of Biomedicine at-a-glance".
 4. **Breadth, electives, concurrent diplomas & enrichment** — broadening options. *Biomedical* "Breadth" / "Concurrent Diplomas" / "Study Abroad & Exchange"; *Arts* & *Law* "Diploma in Languages" / "Concurrent Diploma with the JD".
 5. **Prerequisites, requisites & quota subjects** — enrolment rules. *Science* "Quota subjects" (1,774w); *Law* "Prerequisites and Recommended Requirements".
-6. **Faculty-specific enrolment, timetabling & load planning** — distinct from the hub's generic enrolment. *Law* "Enrolment & Re-Enrolment | JD", "Time Commitment and Timetabling", "Acceleration Guidelines"; *Education* "Student Timetabling", "Subject Enrolment"; *MBS* "Enrolment and Timetabling"; *FFAM* "Conservatorium Subject Enrolment Forms".
+6. **Faculty-specific enrolment, timetabling & load planning** — distinct from students.unimelb.edu.au's generic enrolment. *Law* "Enrolment & Re-Enrolment | JD", "Time Commitment and Timetabling", "Acceleration Guidelines"; *Education* "Student Timetabling", "Subject Enrolment"; *MBS* "Enrolment and Timetabling"; *FFAM* "Conservatorium Subject Enrolment Forms".
 7. **Honours planning** — a category in its own right at *FBE* (most of its course-planning pages): "What is Honours?", "Honours Entry & Application", "Bachelor of Commerce (Honours)", "Honours Convenors". Also *Biomedical* "Deans' Honours List".
 8. **Research-project / thesis planning** — *Science* "Research Project Subjects", "Master of Science research projects", "Research Project Topic Areas"; *Law* "Minor Thesis option"; *Biomedical* "UROP".
 9. **Professional-registration-bound planning** — for accredited degrees, planning is tied to placement/registration. *Education* "Early Childhood and Primary / Primary / Secondary", "Placement Allocation Process", "LANTITE"; *MDHS* "AHPRA Registration", "Clinical/Professional Psychology".
 
 A cross-cutting tenth pattern: several faculties **re-surface the central tool** — *FEIT*'s top two pages are literally "My Course Planner" and "Faculty Course Planning Resources" — and most carry a generic **course-planning advice/advising** page (Law "JD course planning and advice", Biomedical "Course Planning").
 
-## Legitimate vs hub-overlapping
+## Legitimate vs central-overlapping
 
-| Faculty-owned (cannot be centralised) | Overlaps the hub (consolidation candidates) |
+| Faculty-owned (cannot be centralised) | Overlaps students.unimelb.edu.au (consolidation candidates) |
 |---|---|
 | Sample course plans per degree (MBS, ABP) | Generic "how to plan your course" advice |
 | Per-major subject-selection guides (Science, Biomedical) | Re-hosted "My Course Planner" (FEIT) |
-| Honours pathways (FBE) | Faculty restatements of enrolment mechanics the hub owns |
+| Honours pathways (FBE) | Faculty restatements of enrolment mechanics students.unimelb.edu.au owns |
 | Research-project / thesis planning (Science, Law) | Handbook-derived content already canonical centrally |
 | Registration-bound planning (Education, MDHS) | |
 
 Most course-planning content is **legitimately faculty-owned** — it's degree-specific and discipline-bound. The duplication is the thinner top layer: generic planning advice, re-hosted tools, and enrolment-mechanics restatements.
 
-## Recommendation (course-planning under hub-and-spoke)
-- **Hub owns:** My Course Planner, the Handbook, and general "how to plan / enrol / take breadth" advice (single source of truth).
+## Recommendation (course-planning under central-and-spoke)
+- **students.unimelb.edu.au owns:** My Course Planner, the Handbook, and general "how to plan / enrol / take breadth" advice (single source of truth).
 - **Faculty owns:** degree-specific sample plans, major subject-selection guides, honours, research-project and registration-bound planning.
-- **Add one hub gateway:** `students.unimelb.edu.au/your-course/faculty-course-planning` — a thin page linking to every faculty's sample plans and course guides, so degree-specific planning is discoverable from the centre (it currently isn't).
+- **Add one students.unimelb.edu.au gateway:** `students.unimelb.edu.au/your-course/faculty-course-planning` — a thin page linking to every faculty's sample plans and course guides, so degree-specific planning is discoverable from the centre (it currently isn't).
 - **Stop re-hosting the tool:** faculties should link to My Course Planner, not reproduce it.
-- **Standardise the entry pattern:** each faculty exposes a "Plan your course" page → links to (a) its degree sample plans and (b) the hub planner — consistent label and location across faculties.
+- **Standardise the entry pattern:** each faculty exposes a "Plan your course" page → links to (a) its degree sample plans and (b) students.unimelb.edu.au planner — consistent label and location across faculties.
 
 ## Appendix — all course-planning pages by faculty
 

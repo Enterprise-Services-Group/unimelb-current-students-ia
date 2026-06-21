@@ -1,7 +1,7 @@
 # Topic Deep-Dive: Placements & Work-Integrated Learning
 *Cross-faculty analysis from the full crawl. June 2026.*
 
-**206 placements/WIL-tagged pages** sit across the faculty estate — a mid-sized topic, but the single most lopsided one in the audit: nearly half (96 pages) is held by **one faculty, MDHS**, and the central hub holds almost none. This is overwhelmingly **faculty-owned and legitimately so** — placements are bound to professional accreditation, host-organisation relationships, and named credit-bearing subjects, none of which can be centralised. The duplication that exists is *intra*-faculty (URL-migration churn within FEIT, repeated before/during/conclusion templates within MDHS), not hub overlap.
+**206 placements/WIL-tagged pages** sit across the faculty estate — a mid-sized topic, but the single most lopsided one in the audit: nearly half (96 pages) is held by **one faculty, MDHS**, and students.unimelb.edu.au holds almost none. This is overwhelmingly **faculty-owned and legitimately so** — placements are bound to professional accreditation, host-organisation relationships, and named credit-bearing subjects, none of which can be centralised. The duplication that exists is *intra*-faculty (URL-migration churn within FEIT, repeated before/during/conclusion templates within MDHS), not students.unimelb.edu.au overlap.
 
 ## Distribution — who holds it
 
@@ -32,7 +32,7 @@ MDHS alone holds **47%** of the topic — and almost all of it is the clinical-p
 
 5. **Initial Teacher Education professional experience** — the placement machinery for a registration-bound degree. *Education*: "Placement Allocation Process", "Placement structure", "Professional Conduct", "Unsatisfactory performance", "Health and safety", "Attendance Hurdles", "Permission to Teach (PTT) Information", "Initial Teacher Education Assessment (ITEA)", "Placement seminars", plus the 5,447-word "FAQs". Placement *is* the spine of the M.Teach.
 
-6. **Host-organisation & partnership content** — pages aimed at the employer/host, not the student. *MDHS* "Information for current host organisations", "Information for Prospective Host Organisations", "Why should your organisation place students?", "How is the placement arranged?"; *Arts* "Invitation to host an intern"; *ABP* "Information for hosts | ABPL90434". A distinct audience the hub does not serve.
+6. **Host-organisation & partnership content** — pages aimed at the employer/host, not the student. *MDHS* "Information for current host organisations", "Information for Prospective Host Organisations", "Why should your organisation place students?", "How is the placement arranged?"; *Arts* "Invitation to host an intern"; *ABP* "Information for hosts | ABPL90434". A distinct audience students.unimelb.edu.au does not serve.
 
 7. **Global, partner & interstate placement programs** — placements done elsewhere or with another institution. *Law* "Degree Partnerships", "NUS Master of Laws (LLM)", "Global and interstate subjects", "International Legal Internship", "British Institute of International and Comparative Law Internship", "Non-partner programs"; *MDHS* "Overseas Placements".
 
@@ -42,26 +42,26 @@ MDHS alone holds **47%** of the topic — and almost all of it is the clinical-p
 
 A cross-cutting note on noise: FEIT's 17 pages collapse to ~9 unique once the `progress-your-career` → `student-experience` URL migration and its redirects are de-duplicated, and several MDHS entries are 404/redirect stubs ("DDS3 Year Level Coordinator"). The *real* placements footprint is tighter than 206 — the inflation is migration churn, not genuine content.
 
-## Legitimate vs hub-overlapping
+## Legitimate vs central-overlapping
 
-| Faculty-owned (cannot be centralised) | Overlaps the hub (consolidation candidate) |
+| Faculty-owned (cannot be centralised) | Overlaps students.unimelb.edu.au (consolidation candidate) |
 |---|---|
 | MDHS clinical compliance spine — immunisation, checks, Sonia | Generic "what is WIL / experiential learning" framing (Arts intro) |
-| Per-department placement lifecycle guides (MDHS) | Generic insurance / travel / visa statements the hub could own once |
+| Per-department placement lifecycle guides (MDHS) | Generic insurance / travel / visa statements students.unimelb.edu.au could own once |
 | Credit-bearing internship subjects (FEIT, Arts, ABP, Science) | "Obligations, rights & responsibilities" boilerplate restating University policy |
 | Live-client clinics & legal internships (Law) | Student fitness/conduct pages that cite central policy (MPF13…) |
 | ITE professional experience (Education) | — |
 | Host-organisation content (MDHS, Arts, ABP) | — |
 | Global / partner placement programs (Law, MDHS) | — |
 
-The balance tips harder toward "faculty-owned" than any other topic in the audit. Almost everything here is bound to a named subject, a host relationship, or a professional-registration requirement. The only true hub overlap is a thin layer of generic framing (what WIL is) and University-wide policy restatements (insurance, IP, conduct) that each faculty re-expresses locally.
+The balance tips harder toward "faculty-owned" than any other topic in the audit. Almost everything here is bound to a named subject, a host relationship, or a professional-registration requirement. The only true students.unimelb.edu.au overlap is a thin layer of generic framing (what WIL is) and University-wide policy restatements (insurance, IP, conduct) that each faculty re-expresses locally.
 
 ## Recommendation
-- **Hub owns very little — by design.** It should own only the cross-cutting wrappers: one canonical statement each on placement **insurance, travel/visas, and intellectual-property/rights**, plus a single "What is Work-Integrated Learning at Melbourne?" explainer. Faculties link to these rather than restating University policy.
+- **students.unimelb.edu.au owns very little — by design.** It should own only the cross-cutting wrappers: one canonical statement each on placement **insurance, travel/visas, and intellectual-property/rights**, plus a single "What is Work-Integrated Learning at Melbourne?" explainer. Faculties link to these rather than restating University policy.
 - **Faculties keep everything discipline-bound:** compliance gates (MDHS), credit-bearing internship subjects, clinics, ITE professional experience, and all host-organisation content. None of this can or should move to the centre.
-- **Add one hub gateway:** `students.unimelb.edu.au/your-course/work-integrated-learning` — a thin directory routing students to each faculty's placement/internship landing page (MDHS Student Placements, FEIT Internships, Arts Experiential Learning, Education professional experience, Law clinics). WIL is currently invisible from the centre; a student cannot discover their faculty's offering from the hub.
-- **Set a placement-page standard** so every faculty's WIL hub exposes the same shape: (a) is it credit-bearing, (b) eligibility, (c) how to apply / get allocated, (d) compliance / pre-requisites, (e) host info. MDHS and Education already approximate this; FEIT / Arts / ABP are inconsistent.
-- **Single highest-value fix:** clean up FEIT's internship URL migration (the `progress-your-career` → `student-experience` redirect chain and duplicate FAQ) and prune MDHS's 404/stub pages — then publish the hub WIL gateway above. The content is sound; **discoverability and migration hygiene** are the gap, not duplication.
+- **Add one students.unimelb.edu.au gateway:** `students.unimelb.edu.au/your-course/work-integrated-learning` — a thin directory routing students to each faculty's placement/internship landing page (MDHS Student Placements, FEIT Internships, Arts Experiential Learning, Education professional experience, Law clinics). WIL is currently invisible from the centre; a student cannot discover their faculty's offering from students.unimelb.edu.au.
+- **Set a placement-page standard** so every faculty's WIL students.unimelb.edu.au exposes the same shape: (a) is it credit-bearing, (b) eligibility, (c) how to apply / get allocated, (d) compliance / pre-requisites, (e) host info. MDHS and Education already approximate this; FEIT / Arts / ABP are inconsistent.
+- **Single highest-value fix:** clean up FEIT's internship URL migration (the `progress-your-career` → `student-experience` redirect chain and duplicate FAQ) and prune MDHS's 404/stub pages — then publish students.unimelb.edu.au WIL gateway above. The content is sound; **discoverability and migration hygiene** are the gap, not duplication.
 
 ## Appendix — all placements-WIL pages (206)
 

@@ -1,0 +1,2667 @@
+{
+  "domain": "education.unimelb.edu.au",
+  "slug": "education",
+  "pages_crawled": 380,
+  "pages": [
+    {
+      "url": "https://education.unimelb.edu.au/aerc/research/projects/access-for-all-evaluation",
+      "normalizedUrl": "https://education.unimelb.edu.au/aerc/research/projects/access-for-all-evaluation",
+      "title": "Access for All Evaluation",
+      "wordCount": 300,
+      "fingerprint": "004272274f83e4c0"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/study/scholarships/opportunities/research-students",
+      "normalizedUrl": "https://education.unimelb.edu.au/study/scholarships/opportunities/research-students",
+      "title": "Research Students",
+      "wordCount": 276,
+      "fingerprint": "026d8dfcd68e85c1"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/iccr",
+      "normalizedUrl": "https://education.unimelb.edu.au/iccr",
+      "title": "International Community for Classroom Research (ICCR) Hub",
+      "wordCount": 56,
+      "fingerprint": "03a41c9c1e776347"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/study/graduate-research/current-students/thesisexamination/avoiding-plagiarism",
+      "normalizedUrl": "https://education.unimelb.edu.au/study/graduate-research/current-students/thesisexamination/avoiding-plagiarism",
+      "title": "Research Integrity in my Thesis | University of Melbourne",
+      "wordCount": 531,
+      "fingerprint": "03c5a46bc9bd5af1"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/study/graduate-research/current-students/contact-us/mgse-gr-administrators-and-coordinators",
+      "normalizedUrl": "https://education.unimelb.edu.au/study/graduate-research/current-students/contact-us/mgse-gr-administrators-and-coordinators",
+      "title": "FoE GR Administrators and Coordinators",
+      "wordCount": 118,
+      "fingerprint": "04e08793936f879d"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/iccr/assets/events/david-clarke-memorial-lecture-2020",
+      "normalizedUrl": "https://education.unimelb.edu.au/iccr/assets/events/david-clarke-memorial-lecture-2020",
+      "title": "Inaugural David Clarke Memorial Lecture delivered by Alan Schoenfeld",
+      "wordCount": 318,
+      "fingerprint": "052e70a7fa685852"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/aerc/events/combining-paired-comparisons-of-item-difficulty-with-item-response-data-to-increase-item-calibration-precision-in-small-sample-contexts",
+      "normalizedUrl": "https://education.unimelb.edu.au/aerc/events/combining-paired-comparisons-of-item-difficulty-with-item-response-data-to-increase-item-calibration-precision-in-small-sample-contexts",
+      "title": "AERC Hosts: Conversation with Dr Nathan Zoanetti: \"Combining paired comparisons of item difficulty with item response data to increase item calibration precision in small sample contexts\"",
+      "wordCount": 275,
+      "fingerprint": "0536988d347dded4"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/melbourne-metrics/our-research",
+      "normalizedUrl": "https://education.unimelb.edu.au/melbourne-metrics/our-research",
+      "title": "Our research",
+      "wordCount": 283,
+      "fingerprint": "05d107915ecc4010"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/study/graduate-research/current-students/student-support-services/student-services-directory",
+      "normalizedUrl": "https://education.unimelb.edu.au/study/graduate-research/current-students/student-support-services/student-services-directory",
+      "title": "Student services directory : University of Melbourne",
+      "wordCount": 553,
+      "fingerprint": "06eed06333ed9ad9"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/mgse-industry-reports/report-7-seeing-ourselves-at-school",
+      "normalizedUrl": "https://education.unimelb.edu.au/mgse-industry-reports/report-7-seeing-ourselves-at-school",
+      "title": "Report #7- Seeing Ourselves at School",
+      "wordCount": 1044,
+      "fingerprint": "079c2542049d7f7a"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/faces-of-education/alumni2/sayna-sadigi-alumni-master-of-teaching-secondary?in_c=foe_related_profiles",
+      "normalizedUrl": "https://education.unimelb.edu.au/faces-of-education/alumni2/sayna-sadigi-alumni-master-of-teaching-secondary?in_c=foe_related_profiles",
+      "title": "Sayna Sadigi | Master of Teaching (Secondary)",
+      "wordCount": 34,
+      "fingerprint": "081f0d8bde1cd236"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/news-and-events/research/australian-research-council-grant-success-for-professor-sandra-milligan-and-team",
+      "normalizedUrl": "https://education.unimelb.edu.au/news-and-events/research/australian-research-council-grant-success-for-professor-sandra-milligan-and-team",
+      "title": "Australian Research Council grant success for Professor Sandra Milligan and team",
+      "wordCount": 321,
+      "fingerprint": "09c9eb2f71ba92e8"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/melbourne-metrics/our-research/graduate-certificate-of-education-learning-difficulties",
+      "normalizedUrl": "https://education.unimelb.edu.au/melbourne-metrics/our-research/graduate-certificate-of-education-learning-difficulties",
+      "title": "Capability framework for the Graduate Certificate of Education (Learning Difficulties)",
+      "wordCount": 391,
+      "fingerprint": "09ea728ec7211936"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/research",
+      "normalizedUrl": "https://education.unimelb.edu.au/research",
+      "title": "Research | Faculty of Education",
+      "wordCount": 820,
+      "fingerprint": "09feef8fac4f4dbd"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/study/careers-in-teaching-expo",
+      "normalizedUrl": "https://education.unimelb.edu.au/study/careers-in-teaching-expo",
+      "title": "Careers in Teaching Expo",
+      "wordCount": 375,
+      "fingerprint": "0bcda2bd2a9bf6f5"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/aerc/events/AERC-Hosts-Professor-Jason-Lodge-Entangled-evidence-Distributed-cognition-and-the-crisis-of-assessment-validity",
+      "normalizedUrl": "https://education.unimelb.edu.au/aerc/events/AERC-Hosts-Professor-Jason-Lodge-Entangled-evidence-Distributed-cognition-and-the-crisis-of-assessment-validity",
+      "title": "AERC Hosts: Professor Jason Lodge \"Entangled evidence: Distributed cognition and the crisis of assessment validity\"",
+      "wordCount": 331,
+      "fingerprint": "0c538aa3e5beaac5"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/talking-teaching/previous-episodes/season-9/episode-1-creative-lesson-planningpractical-strategies-to-enhance-learning-and-empower-teachers",
+      "normalizedUrl": "https://education.unimelb.edu.au/talking-teaching/previous-episodes/season-9/episode-1-creative-lesson-planningpractical-strategies-to-enhance-learning-and-empower-teachers",
+      "title": "Episode 1: Creative Lesson Planning\u2014practical strategies to enhance learning and empower teachers",
+      "wordCount": 200,
+      "fingerprint": "0c965f6d7f28232c"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/talking-teaching/previous-episodes/season-1/talking-teaching-what-does-it-take-to-be-a-good-principal/episode-6-transcript",
+      "normalizedUrl": "https://education.unimelb.edu.au/talking-teaching/previous-episodes/season-1/talking-teaching-what-does-it-take-to-be-a-good-principal/episode-6-transcript",
+      "title": "Episode 6 transcript",
+      "wordCount": 5025,
+      "fingerprint": "0d734e3fd60eaf72"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/life-patterns/about/news-and-updates/new-report-young-adults-perceptions-of-the-future-of-work",
+      "normalizedUrl": "https://education.unimelb.edu.au/life-patterns/about/news-and-updates/new-report-young-adults-perceptions-of-the-future-of-work",
+      "title": "New report: young adults' perceptions of the future of work",
+      "wordCount": 194,
+      "fingerprint": "0dd73ca013e61757"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/talking-teaching/previous-episodes/season-1/eddie-woo",
+      "normalizedUrl": "https://education.unimelb.edu.au/talking-teaching/previous-episodes/season-1/eddie-woo",
+      "title": "Talking Teaching: Eddie Woo",
+      "wordCount": 245,
+      "fingerprint": "0eabaf3e1b57a3db"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/study/scholarships/featured-opps/learning-intervention-graduate-scholarship",
+      "normalizedUrl": "https://education.unimelb.edu.au/study/scholarships/featured-opps/learning-intervention-graduate-scholarship",
+      "title": "Learning Intervention Graduate Scholarship",
+      "wordCount": 59,
+      "fingerprint": "0f0daf361ae564e7"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/study/scholarships/featured-opps/lochrie-indigenous-australian-education-scholarship",
+      "normalizedUrl": "https://education.unimelb.edu.au/study/scholarships/featured-opps/lochrie-indigenous-australian-education-scholarship",
+      "title": "Lochrie Indigenous Australian Education Scholarship",
+      "wordCount": 59,
+      "fingerprint": "0f38a94a413689ec"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/aerc/events/AERC-Hosts-AProf-Joshua-McGrane-Can-GenAI-make-the-constructed-response-grade",
+      "normalizedUrl": "https://education.unimelb.edu.au/aerc/events/AERC-Hosts-AProf-Joshua-McGrane-Can-GenAI-make-the-constructed-response-grade",
+      "title": "AERC Hosts: A/Prof Joshua McGrane 'Can GenAI make the (constructed response) grade?'",
+      "wordCount": 316,
+      "fingerprint": "0f4bce8c02d62fc7"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/study/graduate-research/current-students/reviewscandidature-variations/pre-confirmation",
+      "normalizedUrl": "https://education.unimelb.edu.au/study/graduate-research/current-students/reviewscandidature-variations/pre-confirmation",
+      "title": "Pre-Confirmation | University of Melbourne",
+      "wordCount": 1294,
+      "fingerprint": "0f7ac019cece905f"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/faces-of-education",
+      "normalizedUrl": "https://education.unimelb.edu.au/faces-of-education",
+      "title": "Faces of Education",
+      "wordCount": 317,
+      "fingerprint": "0f9f35763bad4934"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/talking-teaching/previous-episodes/season-5",
+      "normalizedUrl": "https://education.unimelb.edu.au/talking-teaching/previous-episodes/season-5",
+      "title": "Season 5",
+      "wordCount": 217,
+      "fingerprint": "0faffa25382f0685"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/aerc/news/new-publication-by-aerc-researchers",
+      "normalizedUrl": "https://education.unimelb.edu.au/aerc/news/new-publication-by-aerc-researchers",
+      "title": "New publication by AERC's A/Prof Joshua McGrane",
+      "wordCount": 137,
+      "fingerprint": "103fba66d99390df"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/aerc/research/projects/early-childhood-language-and-literacy-practice-project",
+      "normalizedUrl": "https://education.unimelb.edu.au/aerc/research/projects/early-childhood-language-and-literacy-practice-project",
+      "title": "Early Childhood Language and Literacy Practice Project",
+      "wordCount": 123,
+      "fingerprint": "10b1ca5dab404048"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/study/graduate-research/current-students/information-for-current-graduate-researchers/graduate-researcher-committee",
+      "normalizedUrl": "https://education.unimelb.edu.au/study/graduate-research/current-students/information-for-current-graduate-researchers/graduate-researcher-committee",
+      "title": "GR-Unimelb-Ed \u2013 Graduate Researcher Community @ Unimelb Education",
+      "wordCount": 326,
+      "fingerprint": "11441b540a2697f5"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/talking-teaching/previous-episodes/season-8",
+      "normalizedUrl": "https://education.unimelb.edu.au/talking-teaching/previous-episodes/season-8",
+      "title": "Season 8",
+      "wordCount": 1051,
+      "fingerprint": "11c616063b5e3626"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/talking-teaching/previous-episodes/season-9/episode-5-wellbeing-literacy-teachers-and-students-using-language-to-enhance-wellbeing",
+      "normalizedUrl": "https://education.unimelb.edu.au/talking-teaching/previous-episodes/season-9/episode-5-wellbeing-literacy-teachers-and-students-using-language-to-enhance-wellbeing",
+      "title": "Episode 5: Wellbeing Literacy - Teachers and students using language to enhance wellbeing",
+      "wordCount": 648,
+      "fingerprint": "122503c4b59805d0"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/melbourne-metrics/home/transforming-assessment-design",
+      "normalizedUrl": "https://education.unimelb.edu.au/melbourne-metrics/home/transforming-assessment-design",
+      "title": "Transforming Assessment Design",
+      "wordCount": 494,
+      "fingerprint": "13109b3f647302fb"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/study/graduate-research/current-students/student-support-services/library",
+      "normalizedUrl": "https://education.unimelb.edu.au/study/graduate-research/current-students/student-support-services/library",
+      "title": "Library",
+      "wordCount": 1751,
+      "fingerprint": "14260da2e913d6bd"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/news-and-events/news/2025/farewell-professor-lorraine-graham",
+      "normalizedUrl": "https://education.unimelb.edu.au/news-and-events/news/2025/farewell-professor-lorraine-graham",
+      "title": "Farewell Professor Lorraine Graham, Foundation Professor of Learning Intervention",
+      "wordCount": 428,
+      "fingerprint": "14d14745a085bb69"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/aerc/news/new-publication-by-aercs-mckenzie-postdoctoral-fellow-dr-samantha-kaye-johnston",
+      "normalizedUrl": "https://education.unimelb.edu.au/aerc/news/new-publication-by-aercs-mckenzie-postdoctoral-fellow-dr-samantha-kaye-johnston",
+      "title": "New publication by AERC researchers",
+      "wordCount": 140,
+      "fingerprint": "14e6f77c51d48708"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/bmx-for-life/research",
+      "normalizedUrl": "https://education.unimelb.edu.au/bmx-for-life/research",
+      "title": "Research",
+      "wordCount": 21,
+      "fingerprint": "14fc68392fe68c62"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/study/graduate-research/current-students/thesisexamination/my-thesis-in-the-library",
+      "normalizedUrl": "https://education.unimelb.edu.au/study/graduate-research/current-students/thesisexamination/my-thesis-in-the-library",
+      "title": "My thesis in the library | University of Melbourne",
+      "wordCount": 2800,
+      "fingerprint": "15d5aa9d5729bbdc"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/study/graduate-research/future-students",
+      "normalizedUrl": "https://education.unimelb.edu.au/study/graduate-research/future-students",
+      "title": "Future Students",
+      "wordCount": 954,
+      "fingerprint": "164498f6799ee82b"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/news-and-events/news/2025/australian-research-council-grant-success-for-professor-sandra-milligan-and-team",
+      "normalizedUrl": "https://education.unimelb.edu.au/news-and-events/news/2025/australian-research-council-grant-success-for-professor-sandra-milligan-and-team",
+      "title": "Australian Research Council grant success for Professor Sandra Milligan and team",
+      "wordCount": 321,
+      "fingerprint": "16b48eb3422adcd1"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/talking-teaching/previous-episodes/season-2/talking-teaching-larissa-mclean-davies-and-penny-jones",
+      "normalizedUrl": "https://education.unimelb.edu.au/talking-teaching/previous-episodes/season-2/talking-teaching-larissa-mclean-davies-and-penny-jones",
+      "title": "How educators can boost student interest in reading",
+      "wordCount": 250,
+      "fingerprint": "172adefcd5266f87"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/study/graduate-research/current-students/contact-us/ask-unimelb",
+      "normalizedUrl": "https://education.unimelb.edu.au/study/graduate-research/current-students/contact-us/ask-unimelb",
+      "title": "ask.unimelb: Home",
+      "wordCount": 111,
+      "fingerprint": "18c0fc334b4694b9"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/aerc/research/projects/ngarrngga-evaluation-of-first-nations-in-education",
+      "normalizedUrl": "https://education.unimelb.edu.au/aerc/research/projects/ngarrngga-evaluation-of-first-nations-in-education",
+      "title": "Ngarrngga: Evaluation of First Nations in Education",
+      "wordCount": 176,
+      "fingerprint": "1a43a63f128bf8d7"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/aerc/news/event-wrap-up-aerc-hosts-sarah-hughes-and-ellen-barrow",
+      "normalizedUrl": "https://education.unimelb.edu.au/aerc/news/event-wrap-up-aerc-hosts-sarah-hughes-and-ellen-barrow",
+      "title": "Event Wrap-Up: AERC Hosts Sarah Hughes & Ellen Barrow",
+      "wordCount": 200,
+      "fingerprint": "1c4e62e539d52dfd"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/news-and-events/deans-lecture-series/david-clarke-memorial-lectures",
+      "normalizedUrl": "https://education.unimelb.edu.au/news-and-events/deans-lecture-series/david-clarke-memorial-lectures",
+      "title": "David Clarke Memorial Lectures",
+      "wordCount": 718,
+      "fingerprint": "1c7ea5a7744ffc32"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/aerc/news/dr.-ghislain-arbour-unveils-new-framework-for-evaluation-research-at-aes-annual-conference",
+      "normalizedUrl": "https://education.unimelb.edu.au/aerc/news/dr.-ghislain-arbour-unveils-new-framework-for-evaluation-research-at-aes-annual-conference",
+      "title": "Dr. Ghislain Arbour unveils new framework for evaluation research at AES Annual Conference",
+      "wordCount": 167,
+      "fingerprint": "1e4deea19236a823"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/study/financial-support",
+      "normalizedUrl": "https://education.unimelb.edu.au/study/financial-support",
+      "title": "Financial Support | Faculty of Education",
+      "wordCount": 242,
+      "fingerprint": "1f6a8e1e4e239577"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/aerc/research/projects/dream-gap-measurement-tool",
+      "normalizedUrl": "https://education.unimelb.edu.au/aerc/research/projects/dream-gap-measurement-tool",
+      "title": "Dream Gap Measurement Tool",
+      "wordCount": 205,
+      "fingerprint": "204c1ff9eabc8650"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/faces-of-education/courses/research-courses",
+      "normalizedUrl": "https://education.unimelb.edu.au/faces-of-education/courses/research-courses",
+      "title": "Research Courses",
+      "wordCount": 106,
+      "fingerprint": "2368a67dadc7c899"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/news-and-events/news/2024/a-celebration-of-research-excellence-at-the-2024-faculty-of-education-research-conference",
+      "normalizedUrl": "https://education.unimelb.edu.au/news-and-events/news/2024/a-celebration-of-research-excellence-at-the-2024-faculty-of-education-research-conference",
+      "title": "A Celebration of Research Excellence at the 2024 Faculty of Education Research Conference",
+      "wordCount": 249,
+      "fingerprint": "242612ebc0e47a32"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/news-and-events/news/2024/university-of-melbourne-and-o.p.-jindal-global-university-launch-dual-degree-program-in-applied-positive-psychology",
+      "normalizedUrl": "https://education.unimelb.edu.au/news-and-events/news/2024/university-of-melbourne-and-o.p.-jindal-global-university-launch-dual-degree-program-in-applied-positive-psychology",
+      "title": "University of Melbourne and O.P. Jindal Global University Launch Dual Degree Program in Applied Positive Psychology",
+      "wordCount": 299,
+      "fingerprint": "251a2274d360d1d4"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/news-and-events/news/2026/university-of-melbourne-researchers-to-help-shape-australias-first-national-media-literacy-strategy",
+      "normalizedUrl": "https://education.unimelb.edu.au/news-and-events/news/2026/university-of-melbourne-researchers-to-help-shape-australias-first-national-media-literacy-strategy",
+      "title": "University of Melbourne researchers to help shape Australia\u2019s first National Media Literacy Strategy",
+      "wordCount": 548,
+      "fingerprint": "2531c9ec4a61d2b2"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/industry-reports/industry-report-6-keeping-it-human",
+      "normalizedUrl": "https://education.unimelb.edu.au/industry-reports/industry-report-6-keeping-it-human",
+      "title": "Report #6 - Keeping it human",
+      "wordCount": 966,
+      "fingerprint": "26122632077a405f"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/aerc/research/projects/health-promoting-institution-implementation-guide-and-framework",
+      "normalizedUrl": "https://education.unimelb.edu.au/aerc/research/projects/health-promoting-institution-implementation-guide-and-framework",
+      "title": "Health Promoting Institution Implementation Guide and Framework",
+      "wordCount": 114,
+      "fingerprint": "26ba67b3b7debf5f"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/talking-teaching/previous-episodes/season-9/episode-3-navigating-ai-in-mathematics-educationinsights-for-all-educators",
+      "normalizedUrl": "https://education.unimelb.edu.au/talking-teaching/previous-episodes/season-9/episode-3-navigating-ai-in-mathematics-educationinsights-for-all-educators",
+      "title": "Episode 3: Navigating AI in Mathematics Education\u2014Insights for all educators",
+      "wordCount": 269,
+      "fingerprint": "2736433cedfe74c9"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/about",
+      "normalizedUrl": "https://education.unimelb.edu.au/about",
+      "title": "About | Faculty of Education",
+      "wordCount": 318,
+      "fingerprint": "278d9f2a32d0d899"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/aerc/events/AERC-Hosts-AProf-Carlo-Perrotta-Whack-the-prompt-in-there-and-see-what-it-says-Educational-Encounters-with-Communicative-AI",
+      "normalizedUrl": "https://education.unimelb.edu.au/aerc/events/AERC-Hosts-AProf-Carlo-Perrotta-Whack-the-prompt-in-there-and-see-what-it-says-Educational-Encounters-with-Communicative-AI",
+      "title": "AERC Hosts: A/Prof Carlo Perrotta 'Whack the prompt in there and see what it says': Educational Encounters with Communicative AI",
+      "wordCount": 348,
+      "fingerprint": "280fa26e21d13412"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/talking-teaching/previous-episodes/season-8/episode-6-the-importance-of-play-in-early-childhood-learning",
+      "normalizedUrl": "https://education.unimelb.edu.au/talking-teaching/previous-episodes/season-8/episode-6-the-importance-of-play-in-early-childhood-learning",
+      "title": "Episode 6: The Importance of Play in Early Childhood Learning",
+      "wordCount": 259,
+      "fingerprint": "28aabd5a73583e0a"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/aerc/research/projects/melbourne-dental-school-construct-map-development",
+      "normalizedUrl": "https://education.unimelb.edu.au/aerc/research/projects/melbourne-dental-school-construct-map-development",
+      "title": "Melbourne Dental School Construct Map Development",
+      "wordCount": 192,
+      "fingerprint": "28c0692e0fc6a3c1"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/melbourne-metrics/our-research/australian-learner-competency-credential",
+      "normalizedUrl": "https://education.unimelb.edu.au/melbourne-metrics/our-research/australian-learner-competency-credential",
+      "title": "Australian Learner Competency Credential",
+      "wordCount": 1292,
+      "fingerprint": "28c1f64fa1bbecda"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/about/specialist-areas/arts-education",
+      "normalizedUrl": "https://education.unimelb.edu.au/about/specialist-areas/arts-education",
+      "title": "Arts education",
+      "wordCount": 1660,
+      "fingerprint": "28dadcc38fdf5d84"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/news-and-events/news/2026/what-if-distraction-is-exactly-what-climate-engagement-needs",
+      "normalizedUrl": "https://education.unimelb.edu.au/news-and-events/news/2026/what-if-distraction-is-exactly-what-climate-engagement-needs",
+      "title": "What if distraction is exactly what climate engagement needs?",
+      "wordCount": 902,
+      "fingerprint": "2933a9b583d83450"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/aerc/events/aerc-hosts-todd-nelson-equity-in-education-a-us-too-responsibility",
+      "normalizedUrl": "https://education.unimelb.edu.au/aerc/events/aerc-hosts-todd-nelson-equity-in-education-a-us-too-responsibility",
+      "title": "AERC Hosts: Todd Nelson \"Equity in Education: An Us-Too Responsibility\".",
+      "wordCount": 374,
+      "fingerprint": "29846d7559734f20"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/aerc/news/ace-delegation-visit-to-the-assessment-and-evaluation-research-centre-aerc",
+      "normalizedUrl": "https://education.unimelb.edu.au/aerc/news/ace-delegation-visit-to-the-assessment-and-evaluation-research-centre-aerc",
+      "title": "ACE Delegation Visit to the Assessment and Evaluation Research Centre (AERC)",
+      "wordCount": 319,
+      "fingerprint": "298987da719e7194"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/study/graduate-research?in_c=mega",
+      "normalizedUrl": "https://education.unimelb.edu.au/study/graduate-research?in_c=mega",
+      "title": "Graduate Research at FoE",
+      "wordCount": 285,
+      "fingerprint": "299d933ffc0c4048"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/yrc",
+      "normalizedUrl": "https://education.unimelb.edu.au/yrc",
+      "title": "Youth Research Collective | Faculty of Education",
+      "wordCount": 3931,
+      "fingerprint": "2a84463f31f2df95"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/faces-of-education/alumni2/sonia-pranatha-master-of-education-research?in_c=foe_related_profiles",
+      "normalizedUrl": "https://education.unimelb.edu.au/faces-of-education/alumni2/sonia-pranatha-master-of-education-research?in_c=foe_related_profiles",
+      "title": "Sonia Pranatha | Master of Education (Research)",
+      "wordCount": 9,
+      "fingerprint": "2af6ed439a113e53"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/aerc/events/aerc-hosts-conversation-with-dr-nathan-zoanetti-combining-paired-comparisons-of-item-difficulty-with-item-response-data-to-increase-item-calibration-precision-in-small-sample-contexts",
+      "normalizedUrl": "https://education.unimelb.edu.au/aerc/events/aerc-hosts-conversation-with-dr-nathan-zoanetti-combining-paired-comparisons-of-item-difficulty-with-item-response-data-to-increase-item-calibration-precision-in-small-sample-contexts",
+      "title": "AERC Hosts: Dr Emma Carter Discussion on \u201cInsights from the Leaders in Teaching project in Rwanda\u201d",
+      "wordCount": 419,
+      "fingerprint": "2af8a33f46b49901"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/talking-teaching/season-8/episode-6-the-importance-of-play-in-early-childhood-learning",
+      "normalizedUrl": "https://education.unimelb.edu.au/talking-teaching/season-8/episode-6-the-importance-of-play-in-early-childhood-learning",
+      "title": "Episode 6: The Importance of Play in Early Childhood Learning",
+      "wordCount": 259,
+      "fingerprint": "2afdc42de4ee8b14"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/REEaCh/assets/the-edge-study",
+      "normalizedUrl": "https://education.unimelb.edu.au/REEaCh/assets/the-edge-study",
+      "title": "The EDGE Study",
+      "wordCount": 525,
+      "fingerprint": "2b14246bdb3f67e1"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/talking-teaching/previous-episodes/season-1/talking-teaching-what-does-it-take-to-be-a-good-principal",
+      "normalizedUrl": "https://education.unimelb.edu.au/talking-teaching/previous-episodes/season-1/talking-teaching-what-does-it-take-to-be-a-good-principal",
+      "title": "Talking Teaching: What does it take to be a good principal?",
+      "wordCount": 303,
+      "fingerprint": "2d8d1c4e9cb497a3"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/news-and-events/news/2026/university-of-melbourne-researchers-to-help-improve-autism-assessment-and-diagnosis-experiences",
+      "normalizedUrl": "https://education.unimelb.edu.au/news-and-events/news/2026/university-of-melbourne-researchers-to-help-improve-autism-assessment-and-diagnosis-experiences",
+      "title": "University of Melbourne researchers to help improve autism assessment and diagnosis experiences",
+      "wordCount": 379,
+      "fingerprint": "2dd2473b6c6ad5bb"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/cws/publications",
+      "normalizedUrl": "https://education.unimelb.edu.au/cws/publications",
+      "title": "Publications",
+      "wordCount": 319,
+      "fingerprint": "2de7554d075a3c8c"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/talking-teaching/season-7/further-reading",
+      "normalizedUrl": "https://education.unimelb.edu.au/talking-teaching/season-7/further-reading",
+      "title": "Further reading",
+      "wordCount": 442,
+      "fingerprint": "2e2b914c505036c6"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/faces-of-education/current-students/aby-benney-education-breadth/_nocache",
+      "normalizedUrl": "https://education.unimelb.edu.au/faces-of-education/current-students/aby-benney-education-breadth/_nocache",
+      "title": "Aby Benny | Education breadth",
+      "wordCount": 10,
+      "fingerprint": "2e6dfaa63acf2c7d"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/aerc/research/projects/dash!-dynamic-active-safe-healthy",
+      "normalizedUrl": "https://education.unimelb.edu.au/aerc/research/projects/dash!-dynamic-active-safe-healthy",
+      "title": "DASH! (Dynamic Active Safe Healthy)",
+      "wordCount": 233,
+      "fingerprint": "2e81bc3d674bb739"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/aerc/news/aerc-staff-winning-multiple-awards",
+      "normalizedUrl": "https://education.unimelb.edu.au/aerc/news/aerc-staff-winning-multiple-awards",
+      "title": "AERC staff winning multiple faculty awards",
+      "wordCount": 312,
+      "fingerprint": "2efad2f0997eb3c9"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/study/graduate-research/current-students/policy/intellectual-property-policy",
+      "normalizedUrl": "https://education.unimelb.edu.au/study/graduate-research/current-students/policy/intellectual-property-policy",
+      "title": "Intellectual Property Policy",
+      "wordCount": 6104,
+      "fingerprint": "2f6aa177efc1e2a3"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/news-and-events/events/2024/sharing-best-practice-university-of-melbourne-learning-intervention",
+      "normalizedUrl": "https://education.unimelb.edu.au/news-and-events/events/2024/sharing-best-practice-university-of-melbourne-learning-intervention",
+      "title": "Sharing Best Practice - Learning Intervention",
+      "wordCount": 200,
+      "fingerprint": "306ff68d2d659d88"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/talking-teaching/previous-episodes/season-1/john-hattie-peggy-brookins-halts-teachers-noel-creece-and-wesley-imms",
+      "normalizedUrl": "https://education.unimelb.edu.au/talking-teaching/previous-episodes/season-1/john-hattie-peggy-brookins-halts-teachers-noel-creece-and-wesley-imms",
+      "title": "Talking Teaching: John Hattie, Peggy Brookins, HALTS teachers, Noel Creece and Wesley Imms",
+      "wordCount": 329,
+      "fingerprint": "30aa617bec0979d5"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/study/graduate-research/current-students/student-support-services/housing-support",
+      "normalizedUrl": "https://education.unimelb.edu.au/study/graduate-research/current-students/student-support-services/housing-support",
+      "title": "Student Accommodation | University of Melbourne",
+      "wordCount": 1043,
+      "fingerprint": "30cbe193b3f7dc4d"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/about/sustainability",
+      "normalizedUrl": "https://education.unimelb.edu.au/about/sustainability",
+      "title": "Sustainability",
+      "wordCount": 1018,
+      "fingerprint": "31425c232818be7e"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/study/scholarships/opportunities",
+      "normalizedUrl": "https://education.unimelb.edu.au/study/scholarships/opportunities",
+      "title": "Find a scholarship, prize or award",
+      "wordCount": 242,
+      "fingerprint": "3171755bbd8c7ece"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/aerc/events/AERC-Hosts-Dr-Cagla-Sanri-Thriving-relationships-Conceptualisation,-assessment,-and-applications-in-relationship-education",
+      "normalizedUrl": "https://education.unimelb.edu.au/aerc/events/AERC-Hosts-Dr-Cagla-Sanri-Thriving-relationships-Conceptualisation,-assessment,-and-applications-in-relationship-education",
+      "title": "AERC Hosts: Dr \u00c7a\u011fla Sanri \"Thriving relationships: Conceptualisation, assessment, and applications in relationship education\"",
+      "wordCount": 403,
+      "fingerprint": "326feb2f6bb73795"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/study/graduate-research/current-students/thesisexamination/thesis-with-publication",
+      "normalizedUrl": "https://education.unimelb.edu.au/study/graduate-research/current-students/thesisexamination/thesis-with-publication",
+      "title": "Incorporating your published work in your thesis | University of Melbourne",
+      "wordCount": 3367,
+      "fingerprint": "332cee24e82772e0"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/melbourne-metrics/home/new-metrics-international-schools-program",
+      "normalizedUrl": "https://education.unimelb.edu.au/melbourne-metrics/home/new-metrics-international-schools-program",
+      "title": "New Metrics International Schools Program",
+      "wordCount": 2353,
+      "fingerprint": "334782ffc9cfa6e3"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/melbourne-metrics/about/the-power-of-ruby",
+      "normalizedUrl": "https://education.unimelb.edu.au/melbourne-metrics/about/the-power-of-ruby",
+      "title": "Ruby: A powerful assessment platform",
+      "wordCount": 310,
+      "fingerprint": "3363b78e4d8fa5fe"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/life-patterns/reports-and-publications/conference-presentations",
+      "normalizedUrl": "https://education.unimelb.edu.au/life-patterns/reports-and-publications/conference-presentations",
+      "title": "Conference Presentations",
+      "wordCount": 848,
+      "fingerprint": "342d2bbc74a98746"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/study/graduate-research/current-students/student-support-services/learning-management-systems",
+      "normalizedUrl": "https://education.unimelb.edu.au/study/graduate-research/current-students/student-support-services/learning-management-systems",
+      "title": "Learning Management System",
+      "wordCount": 68,
+      "fingerprint": "34e3f50f0c49b984"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/bmx-for-life/research/co-designing-inclusive-bmx-spaces-for-riders-with-disability",
+      "normalizedUrl": "https://education.unimelb.edu.au/bmx-for-life/research/co-designing-inclusive-bmx-spaces-for-riders-with-disability",
+      "title": "Co-designing inclusive BMX spaces for riders with disability",
+      "wordCount": 1285,
+      "fingerprint": "352d7565713ebc9b"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/aerc/research/projects/community-based-research-scheme",
+      "normalizedUrl": "https://education.unimelb.edu.au/aerc/research/projects/community-based-research-scheme",
+      "title": "Community-Based Research Scheme",
+      "wordCount": 1606,
+      "fingerprint": "358445bb121b563b"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/aerc/research/projects/no-limits-evaluation",
+      "normalizedUrl": "https://education.unimelb.edu.au/aerc/research/projects/no-limits-evaluation",
+      "title": "No Limits Evaluation",
+      "wordCount": 88,
+      "fingerprint": "37abc488b29465b5"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/aerc/research/projects/ngarrngga-early-learning-needs-assessment",
+      "normalizedUrl": "https://education.unimelb.edu.au/aerc/research/projects/ngarrngga-early-learning-needs-assessment",
+      "title": "Ngarrngga Early Learning Needs Assessment",
+      "wordCount": 162,
+      "fingerprint": "38d110279f6cb541"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/faces-of-education/current-students/amy-skene-master-of-teaching-secondary",
+      "normalizedUrl": "https://education.unimelb.edu.au/faces-of-education/current-students/amy-skene-master-of-teaching-secondary",
+      "title": "Amy Skene | Master of Teaching (Secondary)",
+      "wordCount": 34,
+      "fingerprint": "38fcabfdf7c09d3f"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/cws/alumni",
+      "normalizedUrl": "https://education.unimelb.edu.au/cws/alumni",
+      "title": "Alumni",
+      "wordCount": 361,
+      "fingerprint": "3997789e6bd301ea"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/news-and-events/2026-student-and-alumni-awards",
+      "normalizedUrl": "https://education.unimelb.edu.au/news-and-events/2026-student-and-alumni-awards",
+      "title": "2026 Student and Alumni Awards",
+      "wordCount": 363,
+      "fingerprint": "39dea1788ceede15"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/aerc/events/AERC-Hosts-Dr.-Ilana-Finefter-Rosenbluh-Teaching-Assessment-in-an-Era-of-Student-Voice-and-AI-Challenges-and-Opportunities",
+      "normalizedUrl": "https://education.unimelb.edu.au/aerc/events/AERC-Hosts-Dr.-Ilana-Finefter-Rosenbluh-Teaching-Assessment-in-an-Era-of-Student-Voice-and-AI-Challenges-and-Opportunities",
+      "title": "AERC Hosts: Dr. Ilana Finefter-Rosenbluh \"Teaching Assessment in an Era of Student Voice and AI: Challenges and Opportunities\"",
+      "wordCount": 401,
+      "fingerprint": "3a04f8a7117f8223"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/aerc/news/dr-kelsey-deane-partners-with-brave-foundation-and-the-centre-of-research-excellence-in-stillbirth-on-national-project-to-improve-pregnancy-outcomes",
+      "normalizedUrl": "https://education.unimelb.edu.au/aerc/news/dr-kelsey-deane-partners-with-brave-foundation-and-the-centre-of-research-excellence-in-stillbirth-on-national-project-to-improve-pregnancy-outcomes",
+      "title": "Dr Kelsey Deane partners with Brave Foundation and the Centre of Research Excellence in Stillbirth on National Project to Improve Pregnancy Outcomes",
+      "wordCount": 375,
+      "fingerprint": "3c650bada665c8ae"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/study/graduate-research/current-students/student-support-services/safer-community-program",
+      "normalizedUrl": "https://education.unimelb.edu.au/study/graduate-research/current-students/student-support-services/safer-community-program",
+      "title": "Safer Community Program | University of Melbourne",
+      "wordCount": 399,
+      "fingerprint": "3d6f7e9d8270cd2c"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/aerc/events/pisa-vet-assessment-why,-what-and-how-to-continue",
+      "normalizedUrl": "https://education.unimelb.edu.au/aerc/events/pisa-vet-assessment-why,-what-and-how-to-continue",
+      "title": "AERC Hosts: PISA-VET assessment: why, what and how (to continue)?",
+      "wordCount": 875,
+      "fingerprint": "3d979e08a23b41c1"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/news-and-events/deans-lecture-series/HOPE-lecture",
+      "normalizedUrl": "https://education.unimelb.edu.au/news-and-events/deans-lecture-series/HOPE-lecture",
+      "title": "HOPE Lecture",
+      "wordCount": 614,
+      "fingerprint": "3fb7c29bbf6e60f1"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/faces-of-education/alumni2/athena-kavaleris",
+      "normalizedUrl": "https://education.unimelb.edu.au/faces-of-education/alumni2/athena-kavaleris",
+      "title": "Athena Kavaleris | Master of Teaching",
+      "wordCount": 34,
+      "fingerprint": "406964db8fc554c8"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/study/graduate-research/current-students/scholarships/my-graduate-research-scholarship",
+      "normalizedUrl": "https://education.unimelb.edu.au/study/graduate-research/current-students/scholarships/my-graduate-research-scholarship",
+      "title": "Graduate Research Scholarships | University of Melbourne",
+      "wordCount": 1346,
+      "fingerprint": "40a9bb527fbdbebe"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/study/scholarships/featured-opps/vice-chancellors-international-program-scholarship",
+      "normalizedUrl": "https://education.unimelb.edu.au/study/scholarships/featured-opps/vice-chancellors-international-program-scholarship",
+      "title": "Vice-Chancellor's International Program Scholarship",
+      "wordCount": 60,
+      "fingerprint": "40ead52630f05cb6"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/talking-teaching/season-8/episode-8-fostering-motivation-and-wellbeing-in-education",
+      "normalizedUrl": "https://education.unimelb.edu.au/talking-teaching/season-8/episode-8-fostering-motivation-and-wellbeing-in-education",
+      "title": "Episode 8: Fostering Motivation and Wellbeing in Education",
+      "wordCount": 271,
+      "fingerprint": "42ca8d3fcb4d72af"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/aerc/research/projects/Tracking-AI-in-Education-TRAINE",
+      "normalizedUrl": "https://education.unimelb.edu.au/aerc/research/projects/Tracking-AI-in-Education-TRAINE",
+      "title": "Tracking AI in Education (TRAINE)",
+      "wordCount": 325,
+      "fingerprint": "434e8e5b2ea96b08"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/study/graduate-research/current-students/reviewscandidature-variations/progress-review",
+      "normalizedUrl": "https://education.unimelb.edu.au/study/graduate-research/current-students/reviewscandidature-variations/progress-review",
+      "title": "Reviewing my progress | University of Melbourne",
+      "wordCount": 1536,
+      "fingerprint": "43948d5df5417b97"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/talking-teaching/previous-episodes/season-1/Talking-Teaching-Jo-Boaler,-Michaela-Epstein-and-Michelle-Fry-on-Maths-Education,-and-the-Saudi-education-reforms/episode-5-transcript",
+      "normalizedUrl": "https://education.unimelb.edu.au/talking-teaching/previous-episodes/season-1/Talking-Teaching-Jo-Boaler,-Michaela-Epstein-and-Michelle-Fry-on-Maths-Education,-and-the-Saudi-education-reforms/episode-5-transcript",
+      "title": "Episode 5 transcript",
+      "wordCount": 6000,
+      "fingerprint": "44304561b90b63e2"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/study/graduate-research/current-students/student-support-services/researcher-development-unit",
+      "normalizedUrl": "https://education.unimelb.edu.au/study/graduate-research/current-students/student-support-services/researcher-development-unit",
+      "title": "Researcher Development Unit | Research Support | Melbourne",
+      "wordCount": 254,
+      "fingerprint": "44f927f2cd695a45"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/melbourne-metrics/home",
+      "normalizedUrl": "https://education.unimelb.edu.au/melbourne-metrics/home",
+      "title": "Melbourne Metrics | Faculty of Education",
+      "wordCount": 48,
+      "fingerprint": "450818a2f44be195"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/news-and-events/news/2026/indigenous-women-leaders-call-for-structural-change-for-iwd26",
+      "normalizedUrl": "https://education.unimelb.edu.au/news-and-events/news/2026/indigenous-women-leaders-call-for-structural-change-for-iwd26",
+      "title": "Indigenous women leaders call for structural change for IWD26",
+      "wordCount": 600,
+      "fingerprint": "45604ad3e5b54234"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/study/graduate-research",
+      "normalizedUrl": "https://education.unimelb.edu.au/study/graduate-research",
+      "title": "Graduate Research at FoE",
+      "wordCount": 285,
+      "fingerprint": "4577c88a19a846cf"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/melbourne-metrics/about/watch-read-listen",
+      "normalizedUrl": "https://education.unimelb.edu.au/melbourne-metrics/about/watch-read-listen",
+      "title": "Watch Read Listen",
+      "wordCount": 125,
+      "fingerprint": "4579624cf7fdb1bd"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/aerc/events/AERC-Hosts-AProf-Kane-Meissel-An-overview-of-the-Our-Voices-study",
+      "normalizedUrl": "https://education.unimelb.edu.au/aerc/events/AERC-Hosts-AProf-Kane-Meissel-An-overview-of-the-Our-Voices-study",
+      "title": "AERC Hosts: A/Prof Kane Meissel 'An overview of the \u2018Our Voices\u2019 study'",
+      "wordCount": 374,
+      "fingerprint": "4691cb8993e741b4"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/talking-teaching",
+      "normalizedUrl": "https://education.unimelb.edu.au/talking-teaching",
+      "title": "Talking Teaching Podcast",
+      "wordCount": 254,
+      "fingerprint": "46997f9433e18994"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/aerc/news/aerc-represented-at-university-without-walls-wellbeing-lecture",
+      "normalizedUrl": "https://education.unimelb.edu.au/aerc/news/aerc-represented-at-university-without-walls-wellbeing-lecture",
+      "title": "AERC represented at \u201cUniversity Without Walls\u201d wellbeing lecture",
+      "wordCount": 168,
+      "fingerprint": "484af5b1fe285fa1"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/aerc/news/2025-aare-conference-keynote-recording-available-skills-and-strategies-for-successful-ai-integration-in-educational-settings",
+      "normalizedUrl": "https://education.unimelb.edu.au/aerc/news/2025-aare-conference-keynote-recording-available-skills-and-strategies-for-successful-ai-integration-in-educational-settings",
+      "title": "2025 AARE Conference Keynote recording available: Skills and Strategies for Successful AI Integration in Educational Settings",
+      "wordCount": 114,
+      "fingerprint": "49ebba679559bdde"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/life-patterns/the-research-team",
+      "normalizedUrl": "https://education.unimelb.edu.au/life-patterns/the-research-team",
+      "title": "Research Team",
+      "wordCount": 1245,
+      "fingerprint": "4aef3c9e94107ce8"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/aerc/research/projects/AI-EXCAfL-Artificial-Intelligence-for-Enhanced-Cross-disciplinary-Assessment-for-Learning",
+      "normalizedUrl": "https://education.unimelb.edu.au/aerc/research/projects/AI-EXCAfL-Artificial-Intelligence-for-Enhanced-Cross-disciplinary-Assessment-for-Learning",
+      "title": "AI-EXCAfL - Artificial Intelligence for Enhanced Cross-disciplinary Assessment for Learning",
+      "wordCount": 393,
+      "fingerprint": "4cf9318ec31a45bb"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/melbourne-metrics/home/partnerships/join-us",
+      "normalizedUrl": "https://education.unimelb.edu.au/melbourne-metrics/home/partnerships/join-us",
+      "title": "Join us",
+      "wordCount": 1080,
+      "fingerprint": "4d21383a1bf59df6"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/about/specialist-areas",
+      "normalizedUrl": "https://education.unimelb.edu.au/about/specialist-areas",
+      "title": "Specialist Areas | Faculty of Education",
+      "wordCount": 195,
+      "fingerprint": "4d50e8b9d1068bf9"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/aerc",
+      "normalizedUrl": "https://education.unimelb.edu.au/aerc",
+      "title": "Assessment & Evaluation Research Centre",
+      "wordCount": 5837,
+      "fingerprint": "4e68b93bf765473e"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/news-and-events/events/2025/working-for-survivance-indigenous-lea-dership,-social-movem-ents-and-social-change",
+      "normalizedUrl": "https://education.unimelb.edu.au/news-and-events/events/2025/working-for-survivance-indigenous-lea-dership,-social-movem-ents-and-social-change",
+      "title": "Working for Survivance: Indigenous Lea dership, Social Movem ents and Social Change",
+      "wordCount": 502,
+      "fingerprint": "4f106a8397b762ef"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/news-and-events/news/2026/teaching-sovereignty-in-crisis-times-professor-linda-tuhiwai-smith-opens-the-2026-deans-lecture-series",
+      "normalizedUrl": "https://education.unimelb.edu.au/news-and-events/news/2026/teaching-sovereignty-in-crisis-times-professor-linda-tuhiwai-smith-opens-the-2026-deans-lecture-series",
+      "title": "Teaching sovereignty in crisis times: Professor Linda Tuhiwai Smith opens the 2026 Dean\u2019s Lecture series",
+      "wordCount": 802,
+      "fingerprint": "4f44b5d1f1c2d57b"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/community/support-us",
+      "normalizedUrl": "https://education.unimelb.edu.au/community/support-us",
+      "title": "Support the Future of Education",
+      "wordCount": 434,
+      "fingerprint": "4ff90f2148f96f0f"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/study/graduate-research/current-students/reviewscandidature-variations/study-away",
+      "normalizedUrl": "https://education.unimelb.edu.au/study/graduate-research/current-students/reviewscandidature-variations/study-away",
+      "title": "Study Away | University of Melbourne",
+      "wordCount": 1658,
+      "fingerprint": "50364376830cacc8"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/aerc/news/New-publication-by-AERC-researchers",
+      "normalizedUrl": "https://education.unimelb.edu.au/aerc/news/New-publication-by-AERC-researchers",
+      "title": "New publication by AERC researchers",
+      "wordCount": 163,
+      "fingerprint": "507c0434a0f3f94e"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/study/graduate-research/current-students/contact-us/it-support",
+      "normalizedUrl": "https://education.unimelb.edu.au/study/graduate-research/current-students/contact-us/it-support",
+      "title": "Student IT @ UniMelb",
+      "wordCount": 48,
+      "fingerprint": "509506693b60b804"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/study/graduate-research/current-students/thesisexamination/examination",
+      "normalizedUrl": "https://education.unimelb.edu.au/study/graduate-research/current-students/thesisexamination/examination",
+      "title": "Examination Overview | University of Melbourne",
+      "wordCount": 3084,
+      "fingerprint": "516dbfdfd040992d"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/talking-teaching/previous-episodes",
+      "normalizedUrl": "https://education.unimelb.edu.au/talking-teaching/previous-episodes",
+      "title": "Previous episodes",
+      "wordCount": 87,
+      "fingerprint": "51bf6c3cb3900edc"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/melbourne-metrics/our-research/matching-for-success",
+      "normalizedUrl": "https://education.unimelb.edu.au/melbourne-metrics/our-research/matching-for-success",
+      "title": "Matching for Success | Melbourne Metrics",
+      "wordCount": 505,
+      "fingerprint": "51c0e559e33753f5"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/cws/assets/cpp-news/unlock-the-power-of-language-to-enhance-wellbeing",
+      "normalizedUrl": "https://education.unimelb.edu.au/cws/assets/cpp-news/unlock-the-power-of-language-to-enhance-wellbeing",
+      "title": "Unlock the Power of Language to Enhance Wellbeing",
+      "wordCount": 140,
+      "fingerprint": "5395992d2e09db7b"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/news-and-events/deans-lecture-series",
+      "normalizedUrl": "https://education.unimelb.edu.au/news-and-events/deans-lecture-series",
+      "title": "Dean's Lecture Series",
+      "wordCount": 483,
+      "fingerprint": "53c2e6245371b7cb"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/talking-teaching/season-9/episode-5-wellbeing-literacy-teachers-and-students-using-language-to-enhance-wellbeing",
+      "normalizedUrl": "https://education.unimelb.edu.au/talking-teaching/season-9/episode-5-wellbeing-literacy-teachers-and-students-using-language-to-enhance-wellbeing",
+      "title": "Episode 5: Wellbeing Literacy - Teachers and students using language to enhance wellbeing",
+      "wordCount": 648,
+      "fingerprint": "544c9d35d8fd3163"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/research/research-locations/research-hubs/science-outreach",
+      "normalizedUrl": "https://education.unimelb.edu.au/research/research-locations/research-hubs/science-outreach",
+      "title": "Science Outreach",
+      "wordCount": 395,
+      "fingerprint": "54c16afba7785ffa"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/aerc/news/professor-therese-n.-hopfenbeck-appointed-chair-of-oecd-pisa-2029-questionnaire-expert-group-on-ai-and-media-literacy",
+      "normalizedUrl": "https://education.unimelb.edu.au/aerc/news/professor-therese-n.-hopfenbeck-appointed-chair-of-oecd-pisa-2029-questionnaire-expert-group-on-ai-and-media-literacy",
+      "title": "Professor Therese N. Hopfenbeck appointed Chair of OECD PISA 2029 Questionnaire Expert Group",
+      "wordCount": 296,
+      "fingerprint": "54c84e28677ab5f3"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/aerc/events/aerc-seminar-getting-published-with-integrity-t.n-hopfenbeck",
+      "normalizedUrl": "https://education.unimelb.edu.au/aerc/events/aerc-seminar-getting-published-with-integrity-t.n-hopfenbeck",
+      "title": "AERC Seminar: Getting Published with Integrity - Professor Therese N. Hopfenbeck",
+      "wordCount": 427,
+      "fingerprint": "54cd1711a1645fd0"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/talking-teaching/season-9/episode-1-creative-lesson-planningpractical-strategies-to-enhance-learning-and-empower-teachers",
+      "normalizedUrl": "https://education.unimelb.edu.au/talking-teaching/season-9/episode-1-creative-lesson-planningpractical-strategies-to-enhance-learning-and-empower-teachers",
+      "title": "Episode 1: Creative Lesson Planning\u2014practical strategies to enhance learning and empower teachers",
+      "wordCount": 200,
+      "fingerprint": "557a2d157eca917b"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/talking-teaching/previous-episodes/season-2/talking-teaching-challenging-look-at-teaching-teachers/talking-teaching-challenging-look-at-teaching-teachers-transcript",
+      "normalizedUrl": "https://education.unimelb.edu.au/talking-teaching/previous-episodes/season-2/talking-teaching-challenging-look-at-teaching-teachers/talking-teaching-challenging-look-at-teaching-teachers-transcript",
+      "title": "How educators can boost children\u2019s interest in reading \u2013 Transcript",
+      "wordCount": 5428,
+      "fingerprint": "55806cf016c5daa6"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/life-patterns/about/news-and-updates/msge-award",
+      "normalizedUrl": "https://education.unimelb.edu.au/life-patterns/about/news-and-updates/msge-award",
+      "title": "MGSE Awards 2021",
+      "wordCount": 62,
+      "fingerprint": "55a59d8905dea926"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/melbourne-metrics/about/news-and-awards",
+      "normalizedUrl": "https://education.unimelb.edu.au/melbourne-metrics/about/news-and-awards",
+      "title": "News and Awards",
+      "wordCount": 620,
+      "fingerprint": "56c16d7a553afd96"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/news-and-events/news/2026/royal-university-of-bhutan-vice-chancellor-visits-faculty-of-education-with-a-shared-vision",
+      "normalizedUrl": "https://education.unimelb.edu.au/news-and-events/news/2026/royal-university-of-bhutan-vice-chancellor-visits-faculty-of-education-with-a-shared-vision",
+      "title": "Royal University of Bhutan Vice Chancellor visits Faculty of Education with a shared vision",
+      "wordCount": 660,
+      "fingerprint": "5770e525dc1e43b5"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/aerc/news/AProf-Catherine-McClellan-announced-as-Keynote-Speaker-for-the-4th-ICEISS",
+      "normalizedUrl": "https://education.unimelb.edu.au/aerc/news/AProf-Catherine-McClellan-announced-as-Keynote-Speaker-for-the-4th-ICEISS",
+      "title": "A/Prof Catherine McClellan announced as Keynote Speaker for the 4th ICEISS",
+      "wordCount": 155,
+      "fingerprint": "597194d2f863862f"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/talking-teaching/previous-episodes/season-1/Talking-Teaching-Jo-Boaler,-Michaela-Epstein-and-Michelle-Fry-on-Maths-Education,-and-the-Saudi-education-reforms",
+      "normalizedUrl": "https://education.unimelb.edu.au/talking-teaching/previous-episodes/season-1/Talking-Teaching-Jo-Boaler,-Michaela-Epstein-and-Michelle-Fry-on-Maths-Education,-and-the-Saudi-education-reforms",
+      "title": "Talking Teaching: Jo Boaler, Michaela Epstein and Michelle Fry on Maths Education, and the Saudi Arabian education reforms",
+      "wordCount": 310,
+      "fingerprint": "59c4af9304ce8d1e"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/news-and-events/events/2023/plurilingual-pedagogies-in-australian-schooling",
+      "normalizedUrl": "https://education.unimelb.edu.au/news-and-events/events/2023/plurilingual-pedagogies-in-australian-schooling",
+      "title": "Plurilingual Pedagogies in Australian Schooling",
+      "wordCount": 236,
+      "fingerprint": "5a81ecfaeb7f19dc"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/aerc/news/interview-feature-prof-therese-n.-hopfenbeck-on-how-to-navigate-challenges-of-educational-ai",
+      "normalizedUrl": "https://education.unimelb.edu.au/aerc/news/interview-feature-prof-therese-n.-hopfenbeck-on-how-to-navigate-challenges-of-educational-ai",
+      "title": "Interview Feature: Prof Therese N. Hopfenbeck on how to navigate challenges of educational AI",
+      "wordCount": 53,
+      "fingerprint": "5b2478eb46879201"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/study/graduate-research/current-students/contact-us",
+      "normalizedUrl": "https://education.unimelb.edu.au/study/graduate-research/current-students/contact-us",
+      "title": "Contact Us",
+      "wordCount": 72,
+      "fingerprint": "5b8d273e02519fdc"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/study/graduate-research/current-students",
+      "normalizedUrl": "https://education.unimelb.edu.au/study/graduate-research/current-students",
+      "title": "Current Students",
+      "wordCount": 419,
+      "fingerprint": "5bdc3e5d17a05fb0"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/melbourne-metrics/our-research/matching-for-success/partners",
+      "normalizedUrl": "https://education.unimelb.edu.au/melbourne-metrics/our-research/matching-for-success/partners",
+      "title": "Partners",
+      "wordCount": 242,
+      "fingerprint": "5c3fde0ca03ca779"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/faces-of-education/current-students/amy-skene-master-of-teaching-secondary?in_c=foe_related_profiles",
+      "normalizedUrl": "https://education.unimelb.edu.au/faces-of-education/current-students/amy-skene-master-of-teaching-secondary?in_c=foe_related_profiles",
+      "title": "Amy Skene | Master of Teaching (Secondary)",
+      "wordCount": 34,
+      "fingerprint": "5d07b8bdf82c5ecd"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/aerc/news/graduate-researcher-laura-e.-smith-nominated-as-the-2025-sippa-student-impact-award-recipient",
+      "normalizedUrl": "https://education.unimelb.edu.au/aerc/news/graduate-researcher-laura-e.-smith-nominated-as-the-2025-sippa-student-impact-award-recipient",
+      "title": "Graduate Researcher Laura E. Smith named 2025 SIPPA Student Impact Award recipient",
+      "wordCount": 175,
+      "fingerprint": "5e38c78b142bf509"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/faces-of-education/staff",
+      "normalizedUrl": "https://education.unimelb.edu.au/faces-of-education/staff",
+      "title": "Staff | Faculty of Education",
+      "wordCount": 172,
+      "fingerprint": "5ea5430fd0474d04"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/talking-teaching/season-9/episode-2-the-purpose-of-educationin-conversation-with-professor-gert-biesta",
+      "normalizedUrl": "https://education.unimelb.edu.au/talking-teaching/season-9/episode-2-the-purpose-of-educationin-conversation-with-professor-gert-biesta",
+      "title": "Episode 2: The Purpose of Education\u2014In Conversation with Professor Gert Biesta",
+      "wordCount": 261,
+      "fingerprint": "5fbafffeafd2fc39"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/aerc/research/projects/evaluation-of-the-vichealth-local-government-partnership",
+      "normalizedUrl": "https://education.unimelb.edu.au/aerc/research/projects/evaluation-of-the-vichealth-local-government-partnership",
+      "title": "Evaluation of the VicHealth Local Government Partnership",
+      "wordCount": 160,
+      "fingerprint": "6000ee6f9f020307"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/faces-of-education/alumni",
+      "normalizedUrl": "https://education.unimelb.edu.au/faces-of-education/alumni",
+      "title": "Alumni Profiles | Faculty of Education",
+      "wordCount": 366,
+      "fingerprint": "600f4bade3b30c96"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/talking-teaching/previous-episodes/season-8/episode-7-rethinking-technologys-role-in-students-mental-health",
+      "normalizedUrl": "https://education.unimelb.edu.au/talking-teaching/previous-episodes/season-8/episode-7-rethinking-technologys-role-in-students-mental-health",
+      "title": "Episode 7: Rethinking Technology\u2019s Role in Students\u2019 Mental Health",
+      "wordCount": 414,
+      "fingerprint": "60c7e6e21a08989e"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/study/graduate-research/current-students/reviewscandidature-variations/study-abroad-and-exchange",
+      "normalizedUrl": "https://education.unimelb.edu.au/study/graduate-research/current-students/reviewscandidature-variations/study-abroad-and-exchange",
+      "title": "Visit Melbourne on Exchange or Study Abroad",
+      "wordCount": 369,
+      "fingerprint": "61aaf39354cc2bc1"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/faces-of-education/current-students/natasha-bui-student-breadth",
+      "normalizedUrl": "https://education.unimelb.edu.au/faces-of-education/current-students/natasha-bui-student-breadth",
+      "title": "Natasha Bui | Student | Breadth in Education",
+      "wordCount": 7,
+      "fingerprint": "61c24f6e7f8f74b4"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/life-patterns/about/news-and-updates/new-podcast-professor-johanna-wyn-on-talking-teaching-podcast",
+      "normalizedUrl": "https://education.unimelb.edu.au/life-patterns/about/news-and-updates/new-podcast-professor-johanna-wyn-on-talking-teaching-podcast",
+      "title": "New podcast: Professor Johanna Wyn on Talking Teaching podcast",
+      "wordCount": 3117,
+      "fingerprint": "62f96d082793fb4e"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/talking-teaching/previous-episodes/season-1/talking-teaching-gonski-2-0",
+      "normalizedUrl": "https://education.unimelb.edu.au/talking-teaching/previous-episodes/season-1/talking-teaching-gonski-2-0",
+      "title": "Talking Teaching: Gonski 2.0",
+      "wordCount": 155,
+      "fingerprint": "64094a823525ff6a"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/aerc/news/Dr.-Samantha-Kaye-Johnston-Presents-From-Personalisation-to-Critical-Thinking-Introducing-the-CCDA-Principle-for-AI-in-Education,-UNESCO-2025",
+      "normalizedUrl": "https://education.unimelb.edu.au/aerc/news/Dr.-Samantha-Kaye-Johnston-Presents-From-Personalisation-to-Critical-Thinking-Introducing-the-CCDA-Principle-for-AI-in-Education,-UNESCO-2025",
+      "title": "Dr. Samantha-Kaye Johnston Presents \"From Personalisation to Critical Thinking: Introducing the CCDA Principle for AI in Education\", UNESCO 2025",
+      "wordCount": 170,
+      "fingerprint": "650b415caeea3267"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/talking-teaching/season-2/further-reading",
+      "normalizedUrl": "https://education.unimelb.edu.au/talking-teaching/season-2/further-reading",
+      "title": "Further reading",
+      "wordCount": 144,
+      "fingerprint": "6597f4df9d5fc95a"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/study/graduate-research/current-students/thesisexamination/thesis-prizes",
+      "normalizedUrl": "https://education.unimelb.edu.au/study/graduate-research/current-students/thesisexamination/thesis-prizes",
+      "title": "The Chancellor's Prize | University of Melbourne",
+      "wordCount": 235,
+      "fingerprint": "66074658b4db2f1d"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/study/graduate-research/current-students/reviewscandidature-variations/confirmation",
+      "normalizedUrl": "https://education.unimelb.edu.au/study/graduate-research/current-students/reviewscandidature-variations/confirmation",
+      "title": "Confirmation | University of Melbourne",
+      "wordCount": 2280,
+      "fingerprint": "66b525d85436ead3"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/ngarrngga",
+      "normalizedUrl": "https://education.unimelb.edu.au/ngarrngga",
+      "title": "Ngarrngga project",
+      "wordCount": 381,
+      "fingerprint": "685e5c0d44cdbab5"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/talking-teaching/previous-episodes/season-2/episode-4-what-the-rest-of-the-world-is-noticing-about-our-most-effective-teachers/episode-4-what-the-rest-of-the-world-is-noticing-about-our-most-effective-teachers-transcript",
+      "normalizedUrl": "https://education.unimelb.edu.au/talking-teaching/previous-episodes/season-2/episode-4-what-the-rest-of-the-world-is-noticing-about-our-most-effective-teachers/episode-4-what-the-rest-of-the-world-is-noticing-about-our-most-effective-teachers-transcript",
+      "title": "Episode 4: What the rest of the world is noticing about our most effective teachers Transcript",
+      "wordCount": 5742,
+      "fingerprint": "688c2ac96f9d33e1"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/study/graduate-research/current-students/reviewscandidature-variations/at-risk",
+      "normalizedUrl": "https://education.unimelb.edu.au/study/graduate-research/current-students/reviewscandidature-variations/at-risk",
+      "title": "At risk of unsatisfactory progress | University of Melbourne",
+      "wordCount": 1223,
+      "fingerprint": "691bd586b43463f0"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/talking-teaching/season-9/episode-7-john-hattie-on-50-years-of-evidence,-impact-and-belonging",
+      "normalizedUrl": "https://education.unimelb.edu.au/talking-teaching/season-9/episode-7-john-hattie-on-50-years-of-evidence,-impact-and-belonging",
+      "title": "Episode 7: John Hattie on 50 Years of Evidence, Impact and Belonging",
+      "wordCount": 274,
+      "fingerprint": "6a753032f980b19f"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/melbourne-metrics/our-research/matching-for-success/events-assessfest",
+      "normalizedUrl": "https://education.unimelb.edu.au/melbourne-metrics/our-research/matching-for-success/events-assessfest",
+      "title": "Events: AssessFest",
+      "wordCount": 372,
+      "fingerprint": "6a8d3afb0be93c6d"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/study/scholarships",
+      "normalizedUrl": "https://education.unimelb.edu.au/study/scholarships",
+      "title": "Scholarships | Faculty of Education",
+      "wordCount": 280,
+      "fingerprint": "6b60e174e18b840d"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/educational-philosophy",
+      "normalizedUrl": "https://education.unimelb.edu.au/educational-philosophy",
+      "title": "Educational Philosophy Research Hub",
+      "wordCount": 493,
+      "fingerprint": "6c5d93c6f3ffc3a8"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/aerc/research/projects/Initial-Teacher-Education-Assessment-iTEA",
+      "normalizedUrl": "https://education.unimelb.edu.au/aerc/research/projects/Initial-Teacher-Education-Assessment-iTEA",
+      "title": "Initial Teacher Education Assessment (iTEA)",
+      "wordCount": 202,
+      "fingerprint": "6db86d5180ebbfa0"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/aerc/news/aerc-scholars-showcase-research-at-aera-2026",
+      "normalizedUrl": "https://education.unimelb.edu.au/aerc/news/aerc-scholars-showcase-research-at-aera-2026",
+      "title": "AERC scholars showcase research at AERA 2026",
+      "wordCount": 291,
+      "fingerprint": "6dce6c8e7438afb0"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/faces-of-education/current-students/airlie-brett-master-of-teaching-secondary?in_c=foe_related_profiles",
+      "normalizedUrl": "https://education.unimelb.edu.au/faces-of-education/current-students/airlie-brett-master-of-teaching-secondary?in_c=foe_related_profiles",
+      "title": "Airlie Brett | Master of Teaching (Secondary)",
+      "wordCount": 34,
+      "fingerprint": "6df3ad6161712f26"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/talking-teaching/previous-episodes/season-4",
+      "normalizedUrl": "https://education.unimelb.edu.au/talking-teaching/previous-episodes/season-4",
+      "title": "Season 4",
+      "wordCount": 484,
+      "fingerprint": "6efb9bb0210a3421"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/melbourne-metrics/our-research/cultivating-agency-in-learning",
+      "normalizedUrl": "https://education.unimelb.edu.au/melbourne-metrics/our-research/cultivating-agency-in-learning",
+      "title": "Cultivating Agency in Learning",
+      "wordCount": 229,
+      "fingerprint": "6f16782a3d120bd5"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/news-and-events/events/2023/students,-staff-and-the-future-of-higher-education-symposium",
+      "normalizedUrl": "https://education.unimelb.edu.au/news-and-events/events/2023/students,-staff-and-the-future-of-higher-education-symposium",
+      "title": "Students, staff and the future of higher education symposium",
+      "wordCount": 525,
+      "fingerprint": "6fb6fa8a3472b9ef"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/",
+      "normalizedUrl": "https://education.unimelb.edu.au/",
+      "title": "Faculty of Education | The University of Melbourne",
+      "wordCount": 1920,
+      "fingerprint": "6fdd200415ceaaf8"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/global-childhood-research-hub",
+      "normalizedUrl": "https://education.unimelb.edu.au/global-childhood-research-hub",
+      "title": "Global Childhoods Research Hub",
+      "wordCount": 19,
+      "fingerprint": "6ff9d4dd9c72e1c3"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/talking-teaching/previous-episodes/season-1/talking-teaching-katherine-henderson-dr-geoff-masters-and-david-baker",
+      "normalizedUrl": "https://education.unimelb.edu.au/talking-teaching/previous-episodes/season-1/talking-teaching-katherine-henderson-dr-geoff-masters-and-david-baker",
+      "title": "Talking teaching: Katherine Henderson, Dr Geoff Masters and David Baker.",
+      "wordCount": 314,
+      "fingerprint": "71411d4314caff3d"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/aerc/events/AERC-Hosts-Dr.-Samantha-Kaye-Johnston-On-Whose-Terms-Engaging-Teachers-in-Critical-Evaluation-of-Data-Policies-in-AI-Enabled-EdTech",
+      "normalizedUrl": "https://education.unimelb.edu.au/aerc/events/AERC-Hosts-Dr.-Samantha-Kaye-Johnston-On-Whose-Terms-Engaging-Teachers-in-Critical-Evaluation-of-Data-Policies-in-AI-Enabled-EdTech",
+      "title": "AERC Hosts: Dr. Samantha-Kaye Johnston \"On Whose Terms? Engaging Teachers in Critical Evaluation of Data Policies in AI-Enabled EdTech\"",
+      "wordCount": 424,
+      "fingerprint": "72bcb00ca24ee356"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/melbourne-metrics/our-research/micro-certification-of-life-skills-in-the-alternative-learning-system-of-the-philippines",
+      "normalizedUrl": "https://education.unimelb.edu.au/melbourne-metrics/our-research/micro-certification-of-life-skills-in-the-alternative-learning-system-of-the-philippines",
+      "title": "Micro-certification of Life Skills in the Alternative Learning System of the Philippines",
+      "wordCount": 520,
+      "fingerprint": "73555ab957d99dd1"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/study/graduate-research/current-students/student-support-services/student-card",
+      "normalizedUrl": "https://education.unimelb.edu.au/study/graduate-research/current-students/student-support-services/student-card",
+      "title": "Student card | Current Students | The University of Melbourne",
+      "wordCount": 1221,
+      "fingerprint": "7544f0b2f8c67b0c"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/cws/people",
+      "normalizedUrl": "https://education.unimelb.edu.au/cws/people",
+      "title": "People | Centre for Wellbeing Science",
+      "wordCount": 290,
+      "fingerprint": "75f3dfc6329857a8"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/research/research-locations",
+      "normalizedUrl": "https://education.unimelb.edu.au/research/research-locations",
+      "title": "Research Centres, Academic Groups and Hubs",
+      "wordCount": 925,
+      "fingerprint": "7783f9d480fd6df7"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/aerc/news/New-publication-by-AERCs-Dr-Zhonghua-Zhang",
+      "normalizedUrl": "https://education.unimelb.edu.au/aerc/news/New-publication-by-AERCs-Dr-Zhonghua-Zhang",
+      "title": "New publication by AERC's Dr Zhonghua Zhang",
+      "wordCount": 151,
+      "fingerprint": "7a8f48e1a590f3b7"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/study/graduate-research/current-students/international-students/renewing-your-student-visa",
+      "normalizedUrl": "https://education.unimelb.edu.au/study/graduate-research/current-students/international-students/renewing-your-student-visa",
+      "title": "Extend your student visa",
+      "wordCount": 518,
+      "fingerprint": "7be05f33e12c8175"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/faces-of-education/alumni2/katherine-dixon-master-of-teaching-secondary?in_c=foe_related_profiles",
+      "normalizedUrl": "https://education.unimelb.edu.au/faces-of-education/alumni2/katherine-dixon-master-of-teaching-secondary?in_c=foe_related_profiles",
+      "title": "Katherine Dixon | Master of Teaching (Secondary)",
+      "wordCount": 34,
+      "fingerprint": "7da78ddf05f174ff"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/aerc/research/projects/maths-online-moi-and-fdoi-evaluation",
+      "normalizedUrl": "https://education.unimelb.edu.au/aerc/research/projects/maths-online-moi-and-fdoi-evaluation",
+      "title": "Maths Online MOI and FDOI Evaluation",
+      "wordCount": 103,
+      "fingerprint": "7e21d3125f129d9e"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/aerc/news/reminder-aerc-director-prof-therese-n.-hopfenbeck-as-keynote-speaker-at-2025-aare-conference",
+      "normalizedUrl": "https://education.unimelb.edu.au/aerc/news/reminder-aerc-director-prof-therese-n.-hopfenbeck-as-keynote-speaker-at-2025-aare-conference",
+      "title": "Skills and Strategies for Successful AI Integration in Educational Settings: AERC Director Prof Therese N. Hopfenbeck as Keynote Speaker at 2025 AARE Conference",
+      "wordCount": 211,
+      "fingerprint": "7f41d0bf6957f58e"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/cws",
+      "normalizedUrl": "https://education.unimelb.edu.au/cws",
+      "title": "Centre for Wellbeing Science | Education",
+      "wordCount": 1386,
+      "fingerprint": "7f7c44ac45032b32"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/study/scholarships/honours-board",
+      "normalizedUrl": "https://education.unimelb.edu.au/study/scholarships/honours-board",
+      "title": "Honours Board",
+      "wordCount": 1225,
+      "fingerprint": "7fe0ed8ac092281c"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/life-patterns/about/news-and-updates",
+      "normalizedUrl": "https://education.unimelb.edu.au/life-patterns/about/news-and-updates",
+      "title": "News and updates",
+      "wordCount": 436,
+      "fingerprint": "7ff07243ace34b9b"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/melbourne-metrics/home/swans",
+      "normalizedUrl": "https://education.unimelb.edu.au/melbourne-metrics/home/swans",
+      "title": "Students with Additional Learning Needs",
+      "wordCount": 462,
+      "fingerprint": "80e3d3722c30c376"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/research/projects/the-innovative-learning-environments-and-teacher-change-iletc-project",
+      "normalizedUrl": "https://education.unimelb.edu.au/research/projects/the-innovative-learning-environments-and-teacher-change-iletc-project",
+      "title": "The Innovative Learning Environments and Teacher Change (ILETC) project",
+      "wordCount": 363,
+      "fingerprint": "80f0ba06fd444e65"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/study/graduate-research/current-students/reviewscandidature-variations/leave-of-absence",
+      "normalizedUrl": "https://education.unimelb.edu.au/study/graduate-research/current-students/reviewscandidature-variations/leave-of-absence",
+      "title": "Taking leave | University of Melbourne",
+      "wordCount": 2804,
+      "fingerprint": "81acd4226424b771"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/aerc/news/Prof-Siv-Therese-Maseidvag-Gamlem-named-Honorary-Fellow-of-AERC",
+      "normalizedUrl": "https://education.unimelb.edu.au/aerc/news/Prof-Siv-Therese-Maseidvag-Gamlem-named-Honorary-Fellow-of-AERC",
+      "title": "Prof Siv Therese M\u00e5seidv\u00e5g Gamlem named Honorary Fellow of AERC",
+      "wordCount": 130,
+      "fingerprint": "849e250c78a9810b"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/melbourne-metrics/home/partnerships",
+      "normalizedUrl": "https://education.unimelb.edu.au/melbourne-metrics/home/partnerships",
+      "title": "School and Network Partnerships",
+      "wordCount": 2063,
+      "fingerprint": "8546998e4786801b"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/contact-us",
+      "normalizedUrl": "https://education.unimelb.edu.au/contact-us",
+      "title": "Contact Us | Faculty of Education",
+      "wordCount": 170,
+      "fingerprint": "866e53634fd65750"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/life-patterns/reports-and-publications/media",
+      "normalizedUrl": "https://education.unimelb.edu.au/life-patterns/reports-and-publications/media",
+      "title": "Media",
+      "wordCount": 951,
+      "fingerprint": "86a31fe1efb729fc"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/news-and-events/news/2026/a-bold-partnership-to-tackle-one-of-educations-persistent-challenges",
+      "normalizedUrl": "https://education.unimelb.edu.au/news-and-events/news/2026/a-bold-partnership-to-tackle-one-of-educations-persistent-challenges",
+      "title": "A bold partnership to tackle one of education\u2019s most persistent challenges",
+      "wordCount": 578,
+      "fingerprint": "86ae1af9e817d444"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/aerc/news/aprof-catherine-mcclellan-delivers-keynote-address-at-icieed-2025",
+      "normalizedUrl": "https://education.unimelb.edu.au/aerc/news/aprof-catherine-mcclellan-delivers-keynote-address-at-icieed-2025",
+      "title": "A/Prof Catherine McClellan Delivers Keynote Address at iCIEEd 2025",
+      "wordCount": 161,
+      "fingerprint": "86f092dc7232236b"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/news-and-events",
+      "normalizedUrl": "https://education.unimelb.edu.au/news-and-events",
+      "title": "News & Events | Faculty of Education",
+      "wordCount": 148,
+      "fingerprint": "87759f9a0f0e74bb"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/study/graduate-research/current-students/information-for-current-graduate-researchers/foe-gr-library-support-guide",
+      "normalizedUrl": "https://education.unimelb.edu.au/study/graduate-research/current-students/information-for-current-graduate-researchers/foe-gr-library-support-guide",
+      "title": "Support for FoE Graduate Researchers - Library support for FoE Graduate Researchers - Library Guides at University of Melbourne",
+      "wordCount": 705,
+      "fingerprint": "87bb2c8da90c4878"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/study",
+      "normalizedUrl": "https://education.unimelb.edu.au/study",
+      "title": "Study | Faculty of Education",
+      "wordCount": 329,
+      "fingerprint": "8874832409b23c08"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/aerc/news/eduhk-delegation-visits-aerc-foe-to-explore-research-and-graduate-collaboration",
+      "normalizedUrl": "https://education.unimelb.edu.au/aerc/news/eduhk-delegation-visits-aerc-foe-to-explore-research-and-graduate-collaboration",
+      "title": "EdUHK delegation visits FoE to explore research and graduate collaboration",
+      "wordCount": 198,
+      "fingerprint": "888c241560df1145"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/bmx-for-life",
+      "normalizedUrl": "https://education.unimelb.edu.au/bmx-for-life",
+      "title": "BMX for Life",
+      "wordCount": 21,
+      "fingerprint": "892670623dea79ea"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/news-and-events/news/2025/dean-awarded-bloch-distinguished-career-award-in-early-childhood-education",
+      "normalizedUrl": "https://education.unimelb.edu.au/news-and-events/news/2025/dean-awarded-bloch-distinguished-career-award-in-early-childhood-education",
+      "title": "Dean awarded Bloch Distinguished Career Award in early childhood education",
+      "wordCount": 739,
+      "fingerprint": "8949062202623804"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/news-and-events/events/2023/swisp-lab-young-people-in-anthropogenic-times",
+      "normalizedUrl": "https://education.unimelb.edu.au/news-and-events/events/2023/swisp-lab-young-people-in-anthropogenic-times",
+      "title": "SWISP Lab: Young People in Anthropogenic Times",
+      "wordCount": 694,
+      "fingerprint": "89873c154dc20c85"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/study/graduate-research/current-students/policy/graduate-research-training-policy",
+      "normalizedUrl": "https://education.unimelb.edu.au/study/graduate-research/current-students/policy/graduate-research-training-policy",
+      "title": "Graduate Research Training Policy",
+      "wordCount": 10080,
+      "fingerprint": "8be84da7b0e724fa"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/faces-of-education/current-students/aby-benney-education-breadth",
+      "normalizedUrl": "https://education.unimelb.edu.au/faces-of-education/current-students/aby-benney-education-breadth",
+      "title": "Aby Benny | Education breadth",
+      "wordCount": 10,
+      "fingerprint": "8cf7f07c23dc37f6"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/talking-teaching/previous-episodes/season-1/talking-teaching-gonski-2-0/episode-4-transcript",
+      "normalizedUrl": "https://education.unimelb.edu.au/talking-teaching/previous-episodes/season-1/talking-teaching-gonski-2-0/episode-4-transcript",
+      "title": "Episode 4 transcript",
+      "wordCount": 5004,
+      "fingerprint": "8e455933357aeb8b"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/faces-of-education/staff2/dr-harry-aristidis?in_c=foe_related_profiles",
+      "normalizedUrl": "https://education.unimelb.edu.au/faces-of-education/staff2/dr-harry-aristidis?in_c=foe_related_profiles",
+      "title": "Dr Harry Galatis",
+      "wordCount": 651,
+      "fingerprint": "8e4e211f50c95a92"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/aerc/news/New-book-chapter-by-AERCs-AProf-Joshua-McGrane",
+      "normalizedUrl": "https://education.unimelb.edu.au/aerc/news/New-book-chapter-by-AERCs-AProf-Joshua-McGrane",
+      "title": "New book chapter by AERC's A/Prof Joshua McGrane",
+      "wordCount": 215,
+      "fingerprint": "9050304a7e6967e9"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/life-patterns/about/news-and-updates/recruitment-come-join-the-life-patterns-team",
+      "normalizedUrl": "https://education.unimelb.edu.au/life-patterns/about/news-and-updates/recruitment-come-join-the-life-patterns-team",
+      "title": "Recruitment: Come join the Life Patterns team",
+      "wordCount": 124,
+      "fingerprint": "9143627685bd326d"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/stesh",
+      "normalizedUrl": "https://education.unimelb.edu.au/stesh",
+      "title": "Social Transformation and Education Research Hub",
+      "wordCount": 883,
+      "fingerprint": "9180eab97915c867"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/talking-teaching/previous-episodes/season-8/episode-9-a-new-approach-to-measuring-student-success-with-melbourne-metrics",
+      "normalizedUrl": "https://education.unimelb.edu.au/talking-teaching/previous-episodes/season-8/episode-9-a-new-approach-to-measuring-student-success-with-melbourne-metrics",
+      "title": "Episode 9: A New Approach to Measuring Student Success with Melbourne Metrics",
+      "wordCount": 250,
+      "fingerprint": "9586bc73f4ca4414"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/aerc/news/New-publication-from-AERC-researcher",
+      "normalizedUrl": "https://education.unimelb.edu.au/aerc/news/New-publication-from-AERC-researcher",
+      "title": "New publication from AERC researcher",
+      "wordCount": 160,
+      "fingerprint": "95d862421fdc3b1f"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/news-and-events/events/2024/yolu-education-pathways-to-excellence-djambatj-dhukarr-2024-and-beyond",
+      "normalizedUrl": "https://education.unimelb.edu.au/news-and-events/events/2024/yolu-education-pathways-to-excellence-djambatj-dhukarr-2024-and-beyond",
+      "title": "Yol\u014bu education pathways to excellence: Djambatj Dhukarr 2024 and beyond",
+      "wordCount": 231,
+      "fingerprint": "9691cb767313be01"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/aerc/research/projects/provision-of-robust-measures-of-teacher-practice",
+      "normalizedUrl": "https://education.unimelb.edu.au/aerc/research/projects/provision-of-robust-measures-of-teacher-practice",
+      "title": "Provision of Robust Measures of Teacher Practice",
+      "wordCount": 180,
+      "fingerprint": "96a2a3d2d985b1fa"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/aerc/research/projects/Evaluation-of-the-HomeGround-Apartments-Integrated-Services-Model",
+      "normalizedUrl": "https://education.unimelb.edu.au/aerc/research/projects/Evaluation-of-the-HomeGround-Apartments-Integrated-Services-Model",
+      "title": "Evaluation of the HomeGround Apartments Integrated Services Model",
+      "wordCount": 380,
+      "fingerprint": "96d928f19ae2bd45"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/talking-teaching/season-1/further-reading",
+      "normalizedUrl": "https://education.unimelb.edu.au/talking-teaching/season-1/further-reading",
+      "title": "Further reading",
+      "wordCount": 281,
+      "fingerprint": "974c0d88927549e6"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/aerc/news/the-patrick-griffin-prize-in-education",
+      "normalizedUrl": "https://education.unimelb.edu.au/aerc/news/the-patrick-griffin-prize-in-education",
+      "title": "The Patrick Griffin Prize in Education",
+      "wordCount": 393,
+      "fingerprint": "975488c59bd058e1"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/aerc/news/new-publication-by-aerc-researchers2",
+      "normalizedUrl": "https://education.unimelb.edu.au/aerc/news/new-publication-by-aerc-researchers2",
+      "title": "New publication by AERC researchers",
+      "wordCount": 138,
+      "fingerprint": "992d6672588c7501"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/life-patterns/about/news-and-updates/recruitment-phd",
+      "normalizedUrl": "https://education.unimelb.edu.au/life-patterns/about/news-and-updates/recruitment-phd",
+      "title": "Recruitment: Apply for a PhD scholarship with Life Patterns",
+      "wordCount": 171,
+      "fingerprint": "9970298962bdd079"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/research/books",
+      "normalizedUrl": "https://education.unimelb.edu.au/research/books",
+      "title": "Books",
+      "wordCount": 25,
+      "fingerprint": "99a0d44a9645afd5"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/study/graduate-research/current-students/reviewscandidature-variations/late-submission",
+      "normalizedUrl": "https://education.unimelb.edu.au/study/graduate-research/current-students/reviewscandidature-variations/late-submission",
+      "title": "Late Submission | University of Melbourne",
+      "wordCount": 1203,
+      "fingerprint": "99c469048250bedc"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/melbourne-metrics/our-research/matching-for-success/research",
+      "normalizedUrl": "https://education.unimelb.edu.au/melbourne-metrics/our-research/matching-for-success/research",
+      "title": "Research",
+      "wordCount": 1012,
+      "fingerprint": "9a2588d1457620c0"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/life-patterns/reports-and-publications/research-articles",
+      "normalizedUrl": "https://education.unimelb.edu.au/life-patterns/reports-and-publications/research-articles",
+      "title": "Research Articles",
+      "wordCount": 1047,
+      "fingerprint": "9aceeed6be8a5e4b"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/melbourne-metrics/our-research/sace-learner-profile",
+      "normalizedUrl": "https://education.unimelb.edu.au/melbourne-metrics/our-research/sace-learner-profile",
+      "title": "SACE Learner Profile",
+      "wordCount": 311,
+      "fingerprint": "9c632d4ec5980f56"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/aerc/news/aerc-hosts-honorary-fellow-professor-siv-m.-gamlem",
+      "normalizedUrl": "https://education.unimelb.edu.au/aerc/news/aerc-hosts-honorary-fellow-professor-siv-m.-gamlem",
+      "title": "AERC hosts Honorary Fellow Professor Siv M. Gamlem",
+      "wordCount": 165,
+      "fingerprint": "9d640e8353199140"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/news-and-events/news/2025/reframing-reading-as-a-radical-countercultural-act",
+      "normalizedUrl": "https://education.unimelb.edu.au/news-and-events/news/2025/reframing-reading-as-a-radical-countercultural-act",
+      "title": "Reframing reading as a radical countercultural act",
+      "wordCount": 824,
+      "fingerprint": "9de85e0d83be42e5"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/life-patterns/reports-and-publications/participant-reports",
+      "normalizedUrl": "https://education.unimelb.edu.au/life-patterns/reports-and-publications/participant-reports",
+      "title": "Participant Reports",
+      "wordCount": 202,
+      "fingerprint": "9e8735e7fe4e326b"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/research/academic-groups/learning-intervention",
+      "normalizedUrl": "https://education.unimelb.edu.au/research/academic-groups/learning-intervention",
+      "title": "Learning Intervention at Melbourne",
+      "wordCount": 408,
+      "fingerprint": "9ebbc48dcf1c7798"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/about/specialist-areas/hopes",
+      "normalizedUrl": "https://education.unimelb.edu.au/about/specialist-areas/hopes",
+      "title": "Health, Outdoor, Physical Education and Sport (HOPES)",
+      "wordCount": 328,
+      "fingerprint": "a14c38fff402981d"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/aerc/research/projects/blue-edge-program-evaluation",
+      "normalizedUrl": "https://education.unimelb.edu.au/aerc/research/projects/blue-edge-program-evaluation",
+      "title": "Blue EDGE Program Evaluation",
+      "wordCount": 272,
+      "fingerprint": "a2a02a05a3a7d332"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/life-patterns/reports-and-publications/research-reports",
+      "normalizedUrl": "https://education.unimelb.edu.au/life-patterns/reports-and-publications/research-reports",
+      "title": "Research Reports",
+      "wordCount": 823,
+      "fingerprint": "a2c7eed64b777c98"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/news-and-events/news/2026/researchers-from-university-of-melbournes-faculty-of-education-awarded-over-$1.1m-in-arc-linkage-grants",
+      "normalizedUrl": "https://education.unimelb.edu.au/news-and-events/news/2026/researchers-from-university-of-melbournes-faculty-of-education-awarded-over-$1.1m-in-arc-linkage-grants",
+      "title": "Researchers from University of Melbourne's Faculty of Education awarded over $1.1M in ARC Linkage Grants",
+      "wordCount": 429,
+      "fingerprint": "a2e7e6dfa81ce378"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/news-and-events/news/2024/Faculty-of-Education-signs-agreement-with-Ciji-Education-Group,-in-Cixi-City-China",
+      "normalizedUrl": "https://education.unimelb.edu.au/news-and-events/news/2024/Faculty-of-Education-signs-agreement-with-Ciji-Education-Group,-in-Cixi-City-China",
+      "title": "Faculty of Education signs agreement with Ciji Education Group, in Cixi City China",
+      "wordCount": 304,
+      "fingerprint": "a402a909e0b67279"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/cws/assets/cpp-news/bio-dash-for-schools-on-acer",
+      "normalizedUrl": "https://education.unimelb.edu.au/cws/assets/cpp-news/bio-dash-for-schools-on-acer",
+      "title": "Bio-Dash for Schools on ACER Wellbeing Program Guide",
+      "wordCount": 79,
+      "fingerprint": "a452919b697e79cf"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/melbourne-assessment/our-research/australian-learner-competency-credential",
+      "normalizedUrl": "https://education.unimelb.edu.au/melbourne-assessment/our-research/australian-learner-competency-credential",
+      "title": "Australian Learner Competency Credential",
+      "wordCount": 1292,
+      "fingerprint": "a53c03f1e8ba5f47"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/news-and-events/events/2025/professional-learning-opportunity-65,000-years-a-short-history-of-australian-art",
+      "normalizedUrl": "https://education.unimelb.edu.au/news-and-events/events/2025/professional-learning-opportunity-65,000-years-a-short-history-of-australian-art",
+      "title": "Professional learning opportunity - 65,000 Years: A Short History of Australian Art",
+      "wordCount": 273,
+      "fingerprint": "a57b3bb35edccc6d"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/study/graduate-research/current-students/policy/enrolment-and-timetabling-policy",
+      "normalizedUrl": "https://education.unimelb.edu.au/study/graduate-research/current-students/policy/enrolment-and-timetabling-policy",
+      "title": "Enrolment and Timetabling Policy",
+      "wordCount": 6249,
+      "fingerprint": "a679103d0006bf45"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/study/graduate-research/current-students/reviewscandidature-variations/lapsed-candidature",
+      "normalizedUrl": "https://education.unimelb.edu.au/study/graduate-research/current-students/reviewscandidature-variations/lapsed-candidature",
+      "title": "Lapse candidature | University of Melbourne",
+      "wordCount": 1379,
+      "fingerprint": "a79de2925451dfa9"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/aerc/events/AERC-Hosts-Sarah-Hughes-and-Ellen-Barrow-Evolving-High-Stakes-English-Language-Tests-Engaging-Stakeholders-in-Research-and-Development",
+      "normalizedUrl": "https://education.unimelb.edu.au/aerc/events/AERC-Hosts-Sarah-Hughes-and-Ellen-Barrow-Evolving-High-Stakes-English-Language-Tests-Engaging-Stakeholders-in-Research-and-Development",
+      "title": "AERC Hosts: Sarah Hughes & Ellen Barrow \"Evolving High Stakes English Language Tests: Engaging Stakeholders in Research and Development\"",
+      "wordCount": 370,
+      "fingerprint": "a7a11196a4331731"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/study/graduate-research/current-students/policy/appropriate-workplace-behaviour-policy",
+      "normalizedUrl": "https://education.unimelb.edu.au/study/graduate-research/current-students/policy/appropriate-workplace-behaviour-policy",
+      "title": "Appropriate Workplace Behaviour Policy",
+      "wordCount": 8590,
+      "fingerprint": "a9e9d48932678023"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/iccr/assets/events/david-clarke-memorial-lecture-2022-Feb",
+      "normalizedUrl": "https://education.unimelb.edu.au/iccr/assets/events/david-clarke-memorial-lecture-2022-Feb",
+      "title": "Second David Clarke Memorial Lecture delivered by Anna Sfard",
+      "wordCount": 433,
+      "fingerprint": "aa5dbcdfe9a7f683"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/aerc/events/AERC-Hosts-Dr-Keiko-Bostwick-What-are-the-Priorities-Research-and-Evaluation-Design-in-Indigenous-Education-Projects",
+      "normalizedUrl": "https://education.unimelb.edu.au/aerc/events/AERC-Hosts-Dr-Keiko-Bostwick-What-are-the-Priorities-Research-and-Evaluation-Design-in-Indigenous-Education-Projects",
+      "title": "AERC Hosts: Dr Keiko Bostwick 'What are the Priorities? Research and Evaluation Design in Indigenous Education Projects'",
+      "wordCount": 328,
+      "fingerprint": "aa719e25fe8eb019"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/news-and-events/events/2023/careers-in-teaching-expo-2023",
+      "normalizedUrl": "https://education.unimelb.edu.au/news-and-events/events/2023/careers-in-teaching-expo-2023",
+      "title": "Careers in Teaching Expo 2023",
+      "wordCount": 84,
+      "fingerprint": "aa914b7289c3ad02"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/news-and-events/news/2024/faculty-of-education-advances-stem-education-and-climate-resilience-initiatives-in-india",
+      "normalizedUrl": "https://education.unimelb.edu.au/news-and-events/news/2024/faculty-of-education-advances-stem-education-and-climate-resilience-initiatives-in-india",
+      "title": "Faculty of Education Advances STEM Education and Climate Resilience Initiatives in India",
+      "wordCount": 514,
+      "fingerprint": "aaaea3d0339a0834"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/life-patterns/about/news-and-updates/new-report-confidence-in-political-institutions-and-civic-engagement",
+      "normalizedUrl": "https://education.unimelb.edu.au/life-patterns/about/news-and-updates/new-report-confidence-in-political-institutions-and-civic-engagement",
+      "title": "New report: Confidence in political institutions and civic engagement",
+      "wordCount": 347,
+      "fingerprint": "abc7b28a604d1006"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/faces-of-education/current-students/isabelle-napier",
+      "normalizedUrl": "https://education.unimelb.edu.au/faces-of-education/current-students/isabelle-napier",
+      "title": "Isabelle Napier | Master of Teaching",
+      "wordCount": 32,
+      "fingerprint": "acef95c3bdf5a52f"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/talking-teaching/previous-episodes/season-3",
+      "normalizedUrl": "https://education.unimelb.edu.au/talking-teaching/previous-episodes/season-3",
+      "title": "Season 3",
+      "wordCount": 627,
+      "fingerprint": "ada39bc4b1dcfeb9"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/aerc/events/aerc-hosts-prof.-david-andrich-rasch-meta-meters-of-growth",
+      "normalizedUrl": "https://education.unimelb.edu.au/aerc/events/aerc-hosts-prof.-david-andrich-rasch-meta-meters-of-growth",
+      "title": "AERC Hosts: Prof. David Andrich \"Rasch meta-meters of growth in reading and mathematics attainment tests\".",
+      "wordCount": 693,
+      "fingerprint": "ade97266ba029cc2"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/talking-teaching/previous-episodes/season-1/talking-teaching-professor-glyn-davis",
+      "normalizedUrl": "https://education.unimelb.edu.au/talking-teaching/previous-episodes/season-1/talking-teaching-professor-glyn-davis",
+      "title": "Talking Teaching: Professor Glyn Davis",
+      "wordCount": 225,
+      "fingerprint": "ade9c8adf695936e"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/melbourne-metrics/our-research/new-metrics",
+      "normalizedUrl": "https://education.unimelb.edu.au/melbourne-metrics/our-research/new-metrics",
+      "title": "New Metrics | Melbourne Metrics",
+      "wordCount": 951,
+      "fingerprint": "ae44f78a08840279"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/aerc/teaching/assessment,-data-and-evaluation-as-specialisation",
+      "normalizedUrl": "https://education.unimelb.edu.au/aerc/teaching/assessment,-data-and-evaluation-as-specialisation",
+      "title": "Assessment, Data and Evaluation \u2014 The University of Melbourne Handbook",
+      "wordCount": 211,
+      "fingerprint": "af9d798000711be7"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/news-and-events/news/2025/ailead-2025-sustaining-partnerships-inspiring-change-in-educational-leadership",
+      "normalizedUrl": "https://education.unimelb.edu.au/news-and-events/news/2025/ailead-2025-sustaining-partnerships-inspiring-change-in-educational-leadership",
+      "title": "AILEAD 2025 Sustaining partnerships, inspiring change in educational leadership",
+      "wordCount": 553,
+      "fingerprint": "b01eceb2049116ec"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/faces-of-education/alumni2/dianne-liddell-master-of-education-research",
+      "normalizedUrl": "https://education.unimelb.edu.au/faces-of-education/alumni2/dianne-liddell-master-of-education-research",
+      "title": "Dianne Liddell | Master of Education (Research)",
+      "wordCount": 9,
+      "fingerprint": "b075622943c0e896"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/talking-teaching/season-9/episode-8-indigenous-wisdom-for-teaching-and-nourishing-children",
+      "normalizedUrl": "https://education.unimelb.edu.au/talking-teaching/season-9/episode-8-indigenous-wisdom-for-teaching-and-nourishing-children",
+      "title": "Episode 8: Indigenous Wisdom for Teaching and Nourishing Children",
+      "wordCount": 235,
+      "fingerprint": "b0a131e5ed364ca5"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/study/graduate-research/current-students/thesisexamination/writing-my-thesis",
+      "normalizedUrl": "https://education.unimelb.edu.au/study/graduate-research/current-students/thesisexamination/writing-my-thesis",
+      "title": "Writing my thesis | University of Melbourne",
+      "wordCount": 2124,
+      "fingerprint": "b0e3d4e50f12fd0f"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/study/graduate-research/current-students/student-support-services/counselling",
+      "normalizedUrl": "https://education.unimelb.edu.au/study/graduate-research/current-students/student-support-services/counselling",
+      "title": "Counselling and Psychological Services",
+      "wordCount": 286,
+      "fingerprint": "b1cd72a4e49714e2"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/faces-of-education/current-students/janneke-koenen-student-master-of-teaching",
+      "normalizedUrl": "https://education.unimelb.edu.au/faces-of-education/current-students/janneke-koenen-student-master-of-teaching",
+      "title": "Janneke Koenen | Student | Master of Teaching",
+      "wordCount": 30,
+      "fingerprint": "b287f6d84ab3287f"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/faces-of-education/current-students/aby-benney-education-breadth?in_c=foe_related_profiles",
+      "normalizedUrl": "https://education.unimelb.edu.au/faces-of-education/current-students/aby-benney-education-breadth?in_c=foe_related_profiles",
+      "title": "Aby Benny | Education breadth",
+      "wordCount": 10,
+      "fingerprint": "b3b900bfa09e6b92"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/study/graduate-research/current-students/student-support-services/financial-aid",
+      "normalizedUrl": "https://education.unimelb.edu.au/study/graduate-research/current-students/student-support-services/financial-aid",
+      "title": "Support and wellbeing | Current students | The University of Melbourne",
+      "wordCount": 397,
+      "fingerprint": "b57d54a8365f841e"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/melbourne-metrics/about/news-and-awards/award-news-listing/new-metrics-research-practice-partnership-wins-2025-acel-leadership-award",
+      "normalizedUrl": "https://education.unimelb.edu.au/melbourne-metrics/about/news-and-awards/award-news-listing/new-metrics-research-practice-partnership-wins-2025-acel-leadership-award",
+      "title": "New Metrics Research-Practice Partnership wins 2025 ACEL Leadership Award",
+      "wordCount": 277,
+      "fingerprint": "b6fa35dddf0dc55f"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/talking-teaching/season-9/episode-3-navigating-ai-in-mathematics-educationinsights-for-all-educators",
+      "normalizedUrl": "https://education.unimelb.edu.au/talking-teaching/season-9/episode-3-navigating-ai-in-mathematics-educationinsights-for-all-educators",
+      "title": "Episode 3: Navigating AI in Mathematics Education\u2014Insights for all educators",
+      "wordCount": 253,
+      "fingerprint": "b709d1f6089a9e05"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/digital-wellbeing-communities-research-hub",
+      "normalizedUrl": "https://education.unimelb.edu.au/digital-wellbeing-communities-research-hub",
+      "title": "Digital Wellbeing Communities Research Hub",
+      "wordCount": 653,
+      "fingerprint": "b71c423f8d24315c"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/news-and-events/events/2024/what-might-be-beyond-the-atar",
+      "normalizedUrl": "https://education.unimelb.edu.au/news-and-events/events/2024/what-might-be-beyond-the-atar",
+      "title": "What Might be Beyond the ATAR?",
+      "wordCount": 367,
+      "fingerprint": "b7d9e4e766b1ba30"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/research/research-locations/research-hubs/native-plant-garden",
+      "normalizedUrl": "https://education.unimelb.edu.au/research/research-locations/research-hubs/native-plant-garden",
+      "title": "Native Plant Garden",
+      "wordCount": 546,
+      "fingerprint": "b85985a1914ade81"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/industry-reports/report-8-fuelling-great-teaching",
+      "normalizedUrl": "https://education.unimelb.edu.au/industry-reports/report-8-fuelling-great-teaching",
+      "title": "Report #8 - Fuelling Great Teaching",
+      "wordCount": 897,
+      "fingerprint": "b8f026ed56f9de4c"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/aerc/research/projects/Chinese-university-students-self-regulated-learning-of-English-through-digital-apps",
+      "normalizedUrl": "https://education.unimelb.edu.au/aerc/research/projects/Chinese-university-students-self-regulated-learning-of-English-through-digital-apps",
+      "title": "Chinese university students\u2019 self-regulated learning of English through digital apps",
+      "wordCount": 323,
+      "fingerprint": "b90627147a4bfb3a"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/talking-teaching/previous-episodes/season-1/eddie-woo/episode-2-transcript",
+      "normalizedUrl": "https://education.unimelb.edu.au/talking-teaching/previous-episodes/season-1/eddie-woo/episode-2-transcript",
+      "title": "Episode 2 transcript",
+      "wordCount": 7067,
+      "fingerprint": "b92498940414d5b4"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/news-and-events/deans-lecture-series/miegunyah-distinguished-visiting-fellowship-lecture",
+      "normalizedUrl": "https://education.unimelb.edu.au/news-and-events/deans-lecture-series/miegunyah-distinguished-visiting-fellowship-lecture",
+      "title": "Miegunyah Distinguished Visiting Fellowship Lecture",
+      "wordCount": 280,
+      "fingerprint": "b93bf4a2b6d504db"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/faces-of-education/current-students/dana-khairina-arkan-master-of-teaching-secondary-student",
+      "normalizedUrl": "https://education.unimelb.edu.au/faces-of-education/current-students/dana-khairina-arkan-master-of-teaching-secondary-student",
+      "title": "Dana Khairina Arkan | Student | Master of Teaching (Secondary)",
+      "wordCount": 34,
+      "fingerprint": "babee29614abb4de"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/study/graduate-research/current-students/scholarships/terms-and-conditions",
+      "normalizedUrl": "https://education.unimelb.edu.au/study/graduate-research/current-students/scholarships/terms-and-conditions",
+      "title": "Graduate Research Scholarship terms and conditions | University of Melbourne",
+      "wordCount": 2219,
+      "fingerprint": "bb0fe7a48e0c2146"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/faces-of-education/alumni2/henry-jenkins-alumni-master-of-teaching-primary?in_c=foe_related_profiles",
+      "normalizedUrl": "https://education.unimelb.edu.au/faces-of-education/alumni2/henry-jenkins-alumni-master-of-teaching-primary?in_c=foe_related_profiles",
+      "title": "Henry Jenkins | Master of Teaching",
+      "wordCount": 32,
+      "fingerprint": "bd0c1ebf80a47c7c"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/aerc/events/AERC-Hosts-Dr-Louise-Couceiro-Insights-from-the-University-of-Oxford-Towards-equity-focused-EdTech",
+      "normalizedUrl": "https://education.unimelb.edu.au/aerc/events/AERC-Hosts-Dr-Louise-Couceiro-Insights-from-the-University-of-Oxford-Towards-equity-focused-EdTech",
+      "title": "AERC Hosts: Dr Louise Couceiro \"Insights from the University of Oxford: Towards equity-focused EdTech\"",
+      "wordCount": 372,
+      "fingerprint": "bd588c399a5e0101"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/news-and-events/news/2025/from-rankings-to-readiness-rethinking-success-metrics-for-the-next-generation",
+      "normalizedUrl": "https://education.unimelb.edu.au/news-and-events/news/2025/from-rankings-to-readiness-rethinking-success-metrics-for-the-next-generation",
+      "title": "From rankings to readiness: Rethinking success metrics for the next generation",
+      "wordCount": 738,
+      "fingerprint": "be53e102fa2a2e95"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/news-and-events/news/2026/a-university-without-walls-what-ukraine-teaches-us-about-resilience,-wellbeing,-and-the-future-of-education",
+      "normalizedUrl": "https://education.unimelb.edu.au/news-and-events/news/2026/a-university-without-walls-what-ukraine-teaches-us-about-resilience,-wellbeing,-and-the-future-of-education",
+      "title": "A university without walls: what Ukraine teaches us about resilience, wellbeing, and the future of education",
+      "wordCount": 591,
+      "fingerprint": "be7fe87d86af3109"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/aerc/events/AERC-Hosts-Dr-Thorben-Jansen-Writing-with-Generative-AI-Studying-AI-Supported-Writing-Processes-and-Products-in-PISA-2025",
+      "normalizedUrl": "https://education.unimelb.edu.au/aerc/events/AERC-Hosts-Dr-Thorben-Jansen-Writing-with-Generative-AI-Studying-AI-Supported-Writing-Processes-and-Products-in-PISA-2025",
+      "title": "AERC Hosts: Dr Thorben Jansen \"Writing with Generative AI: Studying AI-Supported Writing Processes and Products in PISA 2025\"",
+      "wordCount": 423,
+      "fingerprint": "bf9cf06556a7ea03"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/faces-of-education/alumni2/katherine-dixon-master-of-teaching-secondary",
+      "normalizedUrl": "https://education.unimelb.edu.au/faces-of-education/alumni2/katherine-dixon-master-of-teaching-secondary",
+      "title": "Katherine Dixon | Master of Teaching (Secondary)",
+      "wordCount": 34,
+      "fingerprint": "c1359514bacb8d0f"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/talking-teaching/previous-episodes/season-1",
+      "normalizedUrl": "https://education.unimelb.edu.au/talking-teaching/previous-episodes/season-1",
+      "title": "Season 1",
+      "wordCount": 1058,
+      "fingerprint": "c1b2ef1d7122218f"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/news-and-events/news/2026/qs-world-university-rankings-by-subject-university-of-melbourne-ranked-15-in-the-world-for-education",
+      "normalizedUrl": "https://education.unimelb.edu.au/news-and-events/news/2026/qs-world-university-rankings-by-subject-university-of-melbourne-ranked-15-in-the-world-for-education",
+      "title": "QS World University Rankings by Subject: University of Melbourne ranked 15 in the world for Education",
+      "wordCount": 290,
+      "fingerprint": "c266dc66eb47db42"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/life-patterns/reports-and-publications/book-chapters",
+      "normalizedUrl": "https://education.unimelb.edu.au/life-patterns/reports-and-publications/book-chapters",
+      "title": "Book Chapters",
+      "wordCount": 1305,
+      "fingerprint": "c30b6018faec4fd1"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/industry-reports",
+      "normalizedUrl": "https://education.unimelb.edu.au/industry-reports",
+      "title": "Industry Reports",
+      "wordCount": 348,
+      "fingerprint": "c3a603060c5f8c09"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/REEaCh",
+      "normalizedUrl": "https://education.unimelb.edu.au/REEaCh",
+      "title": "Research in Effective Education in Early Childhood (REEaCh)",
+      "wordCount": 1405,
+      "fingerprint": "c40565bacf9be14d"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/melbourne-metrics/our-research/big-picture",
+      "normalizedUrl": "https://education.unimelb.edu.au/melbourne-metrics/our-research/big-picture",
+      "title": "International Big Picture Learning Credential",
+      "wordCount": 335,
+      "fingerprint": "c4df2dc06f8f9bd5"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/faces-of-education/alumni2/skylah-sutherland-bachelor-of-teaching-primary?in_c=foe_related_profiles",
+      "normalizedUrl": "https://education.unimelb.edu.au/faces-of-education/alumni2/skylah-sutherland-bachelor-of-teaching-primary?in_c=foe_related_profiles",
+      "title": "Skylah Sutherland | Bachelor of Teaching (Primary)",
+      "wordCount": 32,
+      "fingerprint": "c4fa8743aec7f25e"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/talking-teaching/previous-episodes/season-9/episode-8-indigenous-wisdom-for-teaching-and-nourishing-children",
+      "normalizedUrl": "https://education.unimelb.edu.au/talking-teaching/previous-episodes/season-9/episode-8-indigenous-wisdom-for-teaching-and-nourishing-children",
+      "title": "Episode 8: Indigenous Wisdom for Teaching and Nourishing Children",
+      "wordCount": 235,
+      "fingerprint": "c65411751f34ebe9"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/talking-teaching/previous-episodes/season-7/further-reading",
+      "normalizedUrl": "https://education.unimelb.edu.au/talking-teaching/previous-episodes/season-7/further-reading",
+      "title": "Further reading",
+      "wordCount": 442,
+      "fingerprint": "c690d75a3bc0fe93"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/talking-teaching/previous-episodes/season-9/episode-4-expanding-how-we-learn-with-professor-guy-claxton",
+      "normalizedUrl": "https://education.unimelb.edu.au/talking-teaching/previous-episodes/season-9/episode-4-expanding-how-we-learn-with-professor-guy-claxton",
+      "title": "Episode 4: Expanding How We Learn with Professor Guy Claxton",
+      "wordCount": 299,
+      "fingerprint": "c74a7784c1b6a41b"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/industry-reports/report-4-defying-deficit",
+      "normalizedUrl": "https://education.unimelb.edu.au/industry-reports/report-4-defying-deficit",
+      "title": "Report #4 - Defying Deficit",
+      "wordCount": 1296,
+      "fingerprint": "c8e61c66aa287f64"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/study/scholarships/featured-opps/education-deans-global-excellence-scholarship",
+      "normalizedUrl": "https://education.unimelb.edu.au/study/scholarships/featured-opps/education-deans-global-excellence-scholarship",
+      "title": "Education Dean's Global Excellence Scholarship",
+      "wordCount": 57,
+      "fingerprint": "ca786705d0641f7e"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/melbourne-metrics/our-research/mgse-graduate-teacher-profile",
+      "normalizedUrl": "https://education.unimelb.edu.au/melbourne-metrics/our-research/mgse-graduate-teacher-profile",
+      "title": "Graduate Teacher Profile",
+      "wordCount": 330,
+      "fingerprint": "cb427874351ee1c8"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/talking-teaching/previous-episodes/season-9/episode-2-the-purpose-of-educationin-conversation-with-professor-gert-biesta",
+      "normalizedUrl": "https://education.unimelb.edu.au/talking-teaching/previous-episodes/season-9/episode-2-the-purpose-of-educationin-conversation-with-professor-gert-biesta",
+      "title": "Episode 2: The Purpose of Education\u2014In Conversation with Professor Gert Biesta",
+      "wordCount": 261,
+      "fingerprint": "cb5f2e3a922a6a05"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/study/graduate-research/current-students/policy/research-integrity-and-misconduct-policy",
+      "normalizedUrl": "https://education.unimelb.edu.au/study/graduate-research/current-students/policy/research-integrity-and-misconduct-policy",
+      "title": "Research Integrity and Misconduct Policy",
+      "wordCount": 4649,
+      "fingerprint": "cb70f0c2b7401067"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/melbourne-metrics/about/news-and-awards/award-news-listing/melbourne-metrics-at-hong-kong-academy-to-drive-change-in-access",
+      "normalizedUrl": "https://education.unimelb.edu.au/melbourne-metrics/about/news-and-awards/award-news-listing/melbourne-metrics-at-hong-kong-academy-to-drive-change-in-access",
+      "title": "Melbourne Metrics at Hong Kong Academy to drive change in access",
+      "wordCount": 208,
+      "fingerprint": "cbe1ee00da4335ec"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/aerc/events/deans-lecture-lessons-learned-from-pisa-1999-2024",
+      "normalizedUrl": "https://education.unimelb.edu.au/aerc/events/deans-lecture-lessons-learned-from-pisa-1999-2024",
+      "title": "Dean's Lecture Series:",
+      "wordCount": 458,
+      "fingerprint": "cd2e4672e559900c"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/talking-teaching/previous-episodes/season-6",
+      "normalizedUrl": "https://education.unimelb.edu.au/talking-teaching/previous-episodes/season-6",
+      "title": "Season 6",
+      "wordCount": 171,
+      "fingerprint": "cd6dcd04e370d7da"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/aerc/events/aercs-annual-lecture-2027",
+      "normalizedUrl": "https://education.unimelb.edu.au/aerc/events/aercs-annual-lecture-2027",
+      "title": "AERC's Annual Lecture 2027",
+      "wordCount": 124,
+      "fingerprint": "d04ad35702995181"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/news-and-events/news/2026/new-national-data-shows-universities-must-rethink-the-student-experience",
+      "normalizedUrl": "https://education.unimelb.edu.au/news-and-events/news/2026/new-national-data-shows-universities-must-rethink-the-student-experience",
+      "title": "New national data shows universities must rethink the student experience",
+      "wordCount": 667,
+      "fingerprint": "d07c0986f89883dc"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/life-patterns/about/news-and-updates/new-article-parenting-during-covid-19-lockdown",
+      "normalizedUrl": "https://education.unimelb.edu.au/life-patterns/about/news-and-updates/new-article-parenting-during-covid-19-lockdown",
+      "title": "New article: Parenting during COVID-19 lockdown",
+      "wordCount": 124,
+      "fingerprint": "d09da0e7f4072459"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/aerc/research/projects/evaluation-of-queensland-certificate-of-education-qce",
+      "normalizedUrl": "https://education.unimelb.edu.au/aerc/research/projects/evaluation-of-queensland-certificate-of-education-qce",
+      "title": "Evaluation of Queensland Certificate of Education (QCE)",
+      "wordCount": 210,
+      "fingerprint": "d15efe95fef485f8"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/news-and-events/news/2026/university-of-melbourne-appoints-professor-gert-biesta-as-the-faculty-of-educations-professorial-chair",
+      "normalizedUrl": "https://education.unimelb.edu.au/news-and-events/news/2026/university-of-melbourne-appoints-professor-gert-biesta-as-the-faculty-of-educations-professorial-chair",
+      "title": "University of Melbourne appoints Professor Gert Biesta as the Faculty of Education\u2019s Professorial Chair",
+      "wordCount": 559,
+      "fingerprint": "d1aaf0edcef7e876"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/about/sustainability/news/Faculty-of-Education-Signs-MOU-with-Maldives-National-University-to-Advance-Education-and-Research",
+      "normalizedUrl": "https://education.unimelb.edu.au/about/sustainability/news/Faculty-of-Education-Signs-MOU-with-Maldives-National-University-to-Advance-Education-and-Research",
+      "title": "Faculty of Education Signs MOU with Maldives National University to Advance Education and Research",
+      "wordCount": 372,
+      "fingerprint": "d301d3a7f363d1b1"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/talking-teaching/previous-episodes/season-1/further-reading",
+      "normalizedUrl": "https://education.unimelb.edu.au/talking-teaching/previous-episodes/season-1/further-reading",
+      "title": "Further reading",
+      "wordCount": 281,
+      "fingerprint": "d3423f209fc3de67"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/aerc/events/aerc-hosts-making-space-for-accessible-assessment-student-experience-of-assessment-for-learning",
+      "normalizedUrl": "https://education.unimelb.edu.au/aerc/events/aerc-hosts-making-space-for-accessible-assessment-student-experience-of-assessment-for-learning",
+      "title": "AERC Hosts: Making Space for Accessible Assessment: Student experience of Assessment for Learning",
+      "wordCount": 443,
+      "fingerprint": "d34448ed0d2a5017"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/talking-teaching/previous-episodes/season-8/episode-8-fostering-motivation-and-wellbeing-in-education",
+      "normalizedUrl": "https://education.unimelb.edu.au/talking-teaching/previous-episodes/season-8/episode-8-fostering-motivation-and-wellbeing-in-education",
+      "title": "Episode 8: Fostering Motivation and Wellbeing in Education",
+      "wordCount": 271,
+      "fingerprint": "d34c8db571e4e289"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/talking-teaching/previous-episodes/season-9/episode-7-john-hattie-on-50-years-of-evidence,-impact-and-belonging",
+      "normalizedUrl": "https://education.unimelb.edu.au/talking-teaching/previous-episodes/season-9/episode-7-john-hattie-on-50-years-of-evidence,-impact-and-belonging",
+      "title": "Episode 7: John Hattie on 50 Years of Evidence, Impact and Belonging",
+      "wordCount": 274,
+      "fingerprint": "d3dc60d2e8402f9c"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/aerc/news/new-publication-by-aercs-dr-catherine-mcclellan",
+      "normalizedUrl": "https://education.unimelb.edu.au/aerc/news/new-publication-by-aercs-dr-catherine-mcclellan",
+      "title": "New publication by AERC's Dr. Catherine McClellan",
+      "wordCount": 116,
+      "fingerprint": "d3f240b9f4227109"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/faces-of-education/current-students/natasha-bui-student-breadth?in_c=foe_related_profiles",
+      "normalizedUrl": "https://education.unimelb.edu.au/faces-of-education/current-students/natasha-bui-student-breadth?in_c=foe_related_profiles",
+      "title": "Natasha Bui | Student | Breadth in Education",
+      "wordCount": 7,
+      "fingerprint": "d43fc27d44b0d038"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/life-patterns/reports-and-publications/books",
+      "normalizedUrl": "https://education.unimelb.edu.au/life-patterns/reports-and-publications/books",
+      "title": "Books",
+      "wordCount": 1712,
+      "fingerprint": "d4a73a857c0cfca2"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/talking-teaching/previous-episodes/season-1/talking-teaching-professor-glyn-davis/episode-7-transcript",
+      "normalizedUrl": "https://education.unimelb.edu.au/talking-teaching/previous-episodes/season-1/talking-teaching-professor-glyn-davis/episode-7-transcript",
+      "title": "Episode 7 transcript",
+      "wordCount": 6314,
+      "fingerprint": "d50e937eee9048e4"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/study/graduate-research/current-students/policy/student-conduct-policy",
+      "normalizedUrl": "https://education.unimelb.edu.au/study/graduate-research/current-students/policy/student-conduct-policy",
+      "title": "Student Conduct Policy",
+      "wordCount": 8683,
+      "fingerprint": "d5247456322c4078"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/news-and-events/news/2024/celebrating-research-excellence-with-mckenzie-postdoctoral-fellows-dr.-sam-stiegler-and-dr.-emma-carter",
+      "normalizedUrl": "https://education.unimelb.edu.au/news-and-events/news/2024/celebrating-research-excellence-with-mckenzie-postdoctoral-fellows-dr.-sam-stiegler-and-dr.-emma-carter",
+      "title": "Celebrating Research Excellence with McKenzie Postdoctoral Fellows Dr. Sam Stiegler and Dr. Emma Carter",
+      "wordCount": 685,
+      "fingerprint": "d5c95b8e7aded96c"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/study/graduate-research/current-students/student-support-services/university-of-melbourne-student-union-umsu",
+      "normalizedUrl": "https://education.unimelb.edu.au/study/graduate-research/current-students/student-support-services/university-of-melbourne-student-union-umsu",
+      "title": "Home",
+      "wordCount": 3720,
+      "fingerprint": "d75cab761141d96c"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/study/graduate-research/current-students/reviewscandidature-variations/unsatisfactory-progress",
+      "normalizedUrl": "https://education.unimelb.edu.au/study/graduate-research/current-students/reviewscandidature-variations/unsatisfactory-progress",
+      "title": "Unsatisfactory progress | University of Melbourne",
+      "wordCount": 2450,
+      "fingerprint": "d7fb297b2ed69523"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/faces-of-education/courses/master-of-education",
+      "normalizedUrl": "https://education.unimelb.edu.au/faces-of-education/courses/master-of-education",
+      "title": "Master of Education",
+      "wordCount": 167,
+      "fingerprint": "d959666dc627fa07"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/talking-teaching/previous-episodes/season-9",
+      "normalizedUrl": "https://education.unimelb.edu.au/talking-teaching/previous-episodes/season-9",
+      "title": "Season 9",
+      "wordCount": 895,
+      "fingerprint": "d9833a63c568e2ca"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/aerc/news/New-publication-by-AERC-Director-Prof-Therese-Hopfenbeck",
+      "normalizedUrl": "https://education.unimelb.edu.au/aerc/news/New-publication-by-AERC-Director-Prof-Therese-Hopfenbeck",
+      "title": "New publication by AERC Director Prof Therese Hopfenbeck",
+      "wordCount": 134,
+      "fingerprint": "d9dd275670db8d25"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/aerc/news/Professor-Therese-N.-Hopfenbeck-as-Distinguished-Panel-Forum-member-at-Chinese-Society-of-Education-Annual-Conference",
+      "normalizedUrl": "https://education.unimelb.edu.au/aerc/news/Professor-Therese-N.-Hopfenbeck-as-Distinguished-Panel-Forum-member-at-Chinese-Society-of-Education-Annual-Conference",
+      "title": "Professor Therese N. Hopfenbeck as Distinguished Panel Forum member at Chinese Society of Education Annual Conference",
+      "wordCount": 131,
+      "fingerprint": "daca38a075c46c28"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/study/graduate-research/current-students/scholarships/scholarships",
+      "normalizedUrl": "https://education.unimelb.edu.au/study/graduate-research/current-students/scholarships/scholarships",
+      "title": "Research Students",
+      "wordCount": 276,
+      "fingerprint": "db6e2d1339361ee2"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/talking-teaching/previous-episodes/season-2/episode-4-what-the-rest-of-the-world-is-noticing-about-our-most-effective-teachers",
+      "normalizedUrl": "https://education.unimelb.edu.au/talking-teaching/previous-episodes/season-2/episode-4-what-the-rest-of-the-world-is-noticing-about-our-most-effective-teachers",
+      "title": "Episode 4: What the rest of the world is noticing about our most effective teachers",
+      "wordCount": 182,
+      "fingerprint": "db7ed0eab260f2e8"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/aerc/research/projects/An-evaluation-of-the-Superpowers-Program-on-Philippine-kindergarteners",
+      "normalizedUrl": "https://education.unimelb.edu.au/aerc/research/projects/An-evaluation-of-the-Superpowers-Program-on-Philippine-kindergarteners",
+      "title": "An evaluation of the Superpowers Program on Philippine kindergarteners",
+      "wordCount": 451,
+      "fingerprint": "dbc28920e4b3f162"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/cws/research",
+      "normalizedUrl": "https://education.unimelb.edu.au/cws/research",
+      "title": "Research | Centre for Wellbeing Science",
+      "wordCount": 211,
+      "fingerprint": "dbc460b82430a64e"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/faces-of-education/students",
+      "normalizedUrl": "https://education.unimelb.edu.au/faces-of-education/students",
+      "title": "Current Students",
+      "wordCount": 520,
+      "fingerprint": "de1220f1a26d6142"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/news-and-events/news/2026/from-melbourne-to-india-applied-learning-toolkit-bridges-classrooms-across-continents",
+      "normalizedUrl": "https://education.unimelb.edu.au/news-and-events/news/2026/from-melbourne-to-india-applied-learning-toolkit-bridges-classrooms-across-continents",
+      "title": "From Melbourne to India: Applied learning toolkit bridges classrooms across continents",
+      "wordCount": 686,
+      "fingerprint": "de3ac3d584137c00"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/cws/study",
+      "normalizedUrl": "https://education.unimelb.edu.au/cws/study",
+      "title": "Study",
+      "wordCount": 561,
+      "fingerprint": "de3ebaf84b2a1b49"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/faces-of-education/staff2/dr-harry-aristidis",
+      "normalizedUrl": "https://education.unimelb.edu.au/faces-of-education/staff2/dr-harry-aristidis",
+      "title": "Dr Harry Galatis",
+      "wordCount": 651,
+      "fingerprint": "df2a29333c3a4085"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/news-and-events/events/2023/creativity,-science-of-learning,-and-artificial-intelligence-what-would-maxine-greene-do",
+      "normalizedUrl": "https://education.unimelb.edu.au/news-and-events/events/2023/creativity,-science-of-learning,-and-artificial-intelligence-what-would-maxine-greene-do",
+      "title": "Creativity, Science of learning, and Artificial Intelligence: What would Maxine Greene do?",
+      "wordCount": 280,
+      "fingerprint": "e0c554efca4973a5"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/aerc/news/prof-therese-n.-hopenbeck-as-keynote-speaker-at-2025-aare-annual-conference",
+      "normalizedUrl": "https://education.unimelb.edu.au/aerc/news/prof-therese-n.-hopenbeck-as-keynote-speaker-at-2025-aare-annual-conference",
+      "title": "Professor Therese N. Hopfenbeck announced as Keynote Speaker for 2025 AARE Annual Conference",
+      "wordCount": 101,
+      "fingerprint": "e120f27cecd40feb"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/life-patterns/reports-and-publications",
+      "normalizedUrl": "https://education.unimelb.edu.au/life-patterns/reports-and-publications",
+      "title": "Reports & Publications",
+      "wordCount": 160,
+      "fingerprint": "e1d238e570adfaf2"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/talking-teaching/previous-episodes/season-2/further-reading",
+      "normalizedUrl": "https://education.unimelb.edu.au/talking-teaching/previous-episodes/season-2/further-reading",
+      "title": "Further reading",
+      "wordCount": 144,
+      "fingerprint": "e1d2f80b07592b97"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/melbourne-metrics/about",
+      "normalizedUrl": "https://education.unimelb.edu.au/melbourne-metrics/about",
+      "title": "About",
+      "wordCount": 230,
+      "fingerprint": "e2c618f992eb4198"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/iccr/assets/events/third-david-clarke-memorial-lecture",
+      "normalizedUrl": "https://education.unimelb.edu.au/iccr/assets/events/third-david-clarke-memorial-lecture",
+      "title": "Third David Clarke Memorial Lecture to be delivered by Yoshinori Shimizu",
+      "wordCount": 487,
+      "fingerprint": "e2d8bde0f67871bf"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/talking-teaching/previous-episodes/season-2",
+      "normalizedUrl": "https://education.unimelb.edu.au/talking-teaching/previous-episodes/season-2",
+      "title": "Season 2",
+      "wordCount": 1036,
+      "fingerprint": "e44d19e6fe2f0cee"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/talking-teaching/previous-episodes/season-7",
+      "normalizedUrl": "https://education.unimelb.edu.au/talking-teaching/previous-episodes/season-7",
+      "title": "Season 7",
+      "wordCount": 764,
+      "fingerprint": "e47bd0a61a7da2fd"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/cws/research/research-streams/wellbeing-literacy",
+      "normalizedUrl": "https://education.unimelb.edu.au/cws/research/research-streams/wellbeing-literacy",
+      "title": "Wellbeing Literacy",
+      "wordCount": 287,
+      "fingerprint": "e4a83ba1e6dae7d0"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/talking-teaching/previous-episodes/season-1/talking-teaching-katherine-henderson-dr-geoff-masters-and-david-baker/episode-3-transcript",
+      "normalizedUrl": "https://education.unimelb.edu.au/talking-teaching/previous-episodes/season-1/talking-teaching-katherine-henderson-dr-geoff-masters-and-david-baker/episode-3-transcript",
+      "title": "Episode 3 transcript",
+      "wordCount": 5439,
+      "fingerprint": "e4b53da31d1bb441"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/talking-teaching/previous-episodes/season-1/john-hattie-peggy-brookins-halts-teachers-noel-creece-and-wesley-imms/episode-1-transcript",
+      "normalizedUrl": "https://education.unimelb.edu.au/talking-teaching/previous-episodes/season-1/john-hattie-peggy-brookins-halts-teachers-noel-creece-and-wesley-imms/episode-1-transcript",
+      "title": "Episode 1 transcript",
+      "wordCount": 6305,
+      "fingerprint": "e53c4a401d7fbe55"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/study/breadth",
+      "normalizedUrl": "https://education.unimelb.edu.au/study/breadth",
+      "title": "Breadth",
+      "wordCount": 811,
+      "fingerprint": "e5835d0f97974d58"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/aerc/teaching/graduate-certificate-in-evaluation",
+      "normalizedUrl": "https://education.unimelb.edu.au/aerc/teaching/graduate-certificate-in-evaluation",
+      "title": "Graduate Certificate in Evaluation - The University of Melbourne",
+      "wordCount": 236,
+      "fingerprint": "e5c98c549061daa2"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/study/graduate-research/current-students/policy/student-academic-integrity-policy",
+      "normalizedUrl": "https://education.unimelb.edu.au/study/graduate-research/current-students/policy/student-academic-integrity-policy",
+      "title": "Student Academic Integrity Policy",
+      "wordCount": 7901,
+      "fingerprint": "e5ce4ae8bd3471ce"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/talking-teaching/previous-episodes/season-2/talking-teaching-challenging-look-at-teaching-teachers",
+      "normalizedUrl": "https://education.unimelb.edu.au/talking-teaching/previous-episodes/season-2/talking-teaching-challenging-look-at-teaching-teachers",
+      "title": "How educators can boost student interest in reading",
+      "wordCount": 160,
+      "fingerprint": "e660571dc537226f"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/faces-of-education/current-students/janneke-koenen-student-master-of-teaching?in_c=foe_related_profiles",
+      "normalizedUrl": "https://education.unimelb.edu.au/faces-of-education/current-students/janneke-koenen-student-master-of-teaching?in_c=foe_related_profiles",
+      "title": "Janneke Koenen | Student | Master of Teaching",
+      "wordCount": 30,
+      "fingerprint": "e78c51be361766f9"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/study/graduate-research/current-students/thesisexamination/submitting-my-thesis",
+      "normalizedUrl": "https://education.unimelb.edu.au/study/graduate-research/current-students/thesisexamination/submitting-my-thesis",
+      "title": "Submitting my thesis | University of Melbourne",
+      "wordCount": 1481,
+      "fingerprint": "e95c1afa7e79b0e2"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/life-patterns",
+      "normalizedUrl": "https://education.unimelb.edu.au/life-patterns",
+      "title": "Life Patterns | Faculty of Education",
+      "wordCount": 2274,
+      "fingerprint": "e99f69d0aff8c293"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/industry-reports/report-7-seeing-ourselves-at-school",
+      "normalizedUrl": "https://education.unimelb.edu.au/industry-reports/report-7-seeing-ourselves-at-school",
+      "title": "Report #7- Seeing Ourselves at School",
+      "wordCount": 1044,
+      "fingerprint": "ea05428f7d958621"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/melbourne-metrics",
+      "normalizedUrl": "https://education.unimelb.edu.au/melbourne-metrics",
+      "title": "Melbourne Metrics | Faculty of Education",
+      "wordCount": 48,
+      "fingerprint": "eb358490316fd44b"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/study/graduate-research/current-students/contact-us/stop-1",
+      "normalizedUrl": "https://education.unimelb.edu.au/study/graduate-research/current-students/contact-us/stop-1",
+      "title": "Stop 1 | Current students | The University of Melbourne",
+      "wordCount": 460,
+      "fingerprint": "ed36224a95fc5512"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/study/graduate-research/current-students/international-students/request-a-confirmation-of-marking-of-thesis-cmt",
+      "normalizedUrl": "https://education.unimelb.edu.au/study/graduate-research/current-students/international-students/request-a-confirmation-of-marking-of-thesis-cmt",
+      "title": "Request for a Confirmation of Marking of Thesis (CMT) Letter",
+      "wordCount": 241,
+      "fingerprint": "ed9f2159e3553049"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/study/graduate-research/current-students/student-support-services/academic-skills",
+      "normalizedUrl": "https://education.unimelb.edu.au/study/graduate-research/current-students/student-support-services/academic-skills",
+      "title": "Graduate researcher modules",
+      "wordCount": 263,
+      "fingerprint": "ee2a16728d353b63"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/news-and-events/news/2026/transforming-the-future-of-leadership-development-through-virtual-reality-and-artificial-intelligence",
+      "normalizedUrl": "https://education.unimelb.edu.au/news-and-events/news/2026/transforming-the-future-of-leadership-development-through-virtual-reality-and-artificial-intelligence",
+      "title": "Transforming the future of leadership development through Virtual Reality and Artificial Intelligence",
+      "wordCount": 997,
+      "fingerprint": "ee9ccacc1b6507c2"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/about/specialist-areas/maths-education",
+      "normalizedUrl": "https://education.unimelb.edu.au/about/specialist-areas/maths-education",
+      "title": "Mathematics, Science and Technology Education Group",
+      "wordCount": 1432,
+      "fingerprint": "eeae967655e403a7"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/aerc/research/projects/assessment-curriculum-and-technology-research-centre-actrc,-a-collaboration-with-the-university-of-the-philippines",
+      "normalizedUrl": "https://education.unimelb.edu.au/aerc/research/projects/assessment-curriculum-and-technology-research-centre-actrc,-a-collaboration-with-the-university-of-the-philippines",
+      "title": "Assessment Curriculum and Technology Research Centre (ACTRC), a collaboration with the University of the Philippines",
+      "wordCount": 297,
+      "fingerprint": "ef5b9ba1f23840e5"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/talking-teaching/season-8/episode-7-rethinking-technologys-role-in-students-mental-health",
+      "normalizedUrl": "https://education.unimelb.edu.au/talking-teaching/season-8/episode-7-rethinking-technologys-role-in-students-mental-health",
+      "title": "Episode 7: Rethinking Technology\u2019s Role in Students\u2019 Mental Health",
+      "wordCount": 414,
+      "fingerprint": "efa4367d380775cc"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/talking-teaching/previous-episodes/season-2/talking-teaching-larissa-mclean-davies-and-penny-jones/how-educators-can-boost-childrens-interest-in-reading-transcript",
+      "normalizedUrl": "https://education.unimelb.edu.au/talking-teaching/previous-episodes/season-2/talking-teaching-larissa-mclean-davies-and-penny-jones/how-educators-can-boost-childrens-interest-in-reading-transcript",
+      "title": "How educators can boost children\u2019s interest in reading \u2013 Transcript",
+      "wordCount": 5861,
+      "fingerprint": "f0bc32d52c2f9759"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/news-and-events/deans-lecture-series/jack-keating-memorial-lectures",
+      "normalizedUrl": "https://education.unimelb.edu.au/news-and-events/deans-lecture-series/jack-keating-memorial-lectures",
+      "title": "Jack Keating Memorial Lectures",
+      "wordCount": 432,
+      "fingerprint": "f0cc734428b54518"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/study/graduate-research/current-students/reviewscandidature-variations/making-changes",
+      "normalizedUrl": "https://education.unimelb.edu.au/study/graduate-research/current-students/reviewscandidature-variations/making-changes",
+      "title": "Making Changes | University of Melbourne",
+      "wordCount": 162,
+      "fingerprint": "f10e9aa6bb504795"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/study/graduate-research/current-students/student-support-services/melbourne-statistical-consulting-platform",
+      "normalizedUrl": "https://education.unimelb.edu.au/study/graduate-research/current-students/student-support-services/melbourne-statistical-consulting-platform",
+      "title": "Consulting to graduate researchers and staff",
+      "wordCount": 728,
+      "fingerprint": "f1469d96e0d747e7"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/aerc/research/projects/Understanding-Relationships-Between-Structural-and-Process-Quality-in-Secondary-Education-in-the-Philippines",
+      "normalizedUrl": "https://education.unimelb.edu.au/aerc/research/projects/Understanding-Relationships-Between-Structural-and-Process-Quality-in-Secondary-Education-in-the-Philippines",
+      "title": "Understanding Relationships Between Structural and Process Quality in Secondary Education in the Philippines",
+      "wordCount": 613,
+      "fingerprint": "f1963d005d196425"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/melbourne-metrics/home/deep-learning-assessment-community",
+      "normalizedUrl": "https://education.unimelb.edu.au/melbourne-metrics/home/deep-learning-assessment-community",
+      "title": "Deep Learning Assessment Community",
+      "wordCount": 734,
+      "fingerprint": "f1a27ecf8562c15b"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/study/graduate-research/current-students/international-students/overseas-student-health-cover",
+      "normalizedUrl": "https://education.unimelb.edu.au/study/graduate-research/current-students/international-students/overseas-student-health-cover",
+      "title": "Arrange your Overseas Student Health Cover (OSHC)",
+      "wordCount": 1073,
+      "fingerprint": "f1d1de37e79b914c"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/study/graduate-research/current-students/policy/student-traveltransport-policy",
+      "normalizedUrl": "https://education.unimelb.edu.au/study/graduate-research/current-students/policy/student-traveltransport-policy",
+      "title": "Student Travel and Transport Policy",
+      "wordCount": 2344,
+      "fingerprint": "f2009806da0ded13"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/iccr/assets/events/fourth-david-clarke-memorial-lecture",
+      "normalizedUrl": "https://education.unimelb.edu.au/iccr/assets/events/fourth-david-clarke-memorial-lecture",
+      "title": "Fourth David Clarke Memorial Lecture delivered by Jodie Hunter",
+      "wordCount": 370,
+      "fingerprint": "f2313c1615b99a8c"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/research/research-degrees",
+      "normalizedUrl": "https://education.unimelb.edu.au/research/research-degrees",
+      "title": "Research Degrees | Faculty of Education",
+      "wordCount": 281,
+      "fingerprint": "f2429cdb3baa3a61"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/about/specialist-areas/humanities-and-social-science-education",
+      "normalizedUrl": "https://education.unimelb.edu.au/about/specialist-areas/humanities-and-social-science-education",
+      "title": "Humanities and Social Science Education",
+      "wordCount": 1212,
+      "fingerprint": "f4471378fb826fb5"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/industry-reports/report-5-career-changers",
+      "normalizedUrl": "https://education.unimelb.edu.au/industry-reports/report-5-career-changers",
+      "title": "Report #5 - Career Changers",
+      "wordCount": 1044,
+      "fingerprint": "f55efe79869d3d3e"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/aerc/teaching/master-of-evaluation",
+      "normalizedUrl": "https://education.unimelb.edu.au/aerc/teaching/master-of-evaluation",
+      "title": "Master of Evaluation - The University of Melbourne",
+      "wordCount": 272,
+      "fingerprint": "f65476a61ad28587"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/talking-teaching/season-9/episode-4-expanding-how-we-learn-with-professor-guy-claxton",
+      "normalizedUrl": "https://education.unimelb.edu.au/talking-teaching/season-9/episode-4-expanding-how-we-learn-with-professor-guy-claxton",
+      "title": "Episode 4: Expanding How We Learn with Professor Guy Claxton",
+      "wordCount": 299,
+      "fingerprint": "f85bc4716247fbe8"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/aerc/events/aerc-seminar-teachers-feedback-to-students-in-the-past,-present-and-future.",
+      "normalizedUrl": "https://education.unimelb.edu.au/aerc/events/aerc-seminar-teachers-feedback-to-students-in-the-past,-present-and-future.",
+      "title": "AERC Seminar: Teacher's feedback to students in the past, present and future.",
+      "wordCount": 662,
+      "fingerprint": "f8f63f817bb4d4a2"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/faces-of-education/courses/master-of-teaching",
+      "normalizedUrl": "https://education.unimelb.edu.au/faces-of-education/courses/master-of-teaching",
+      "title": "Master of Teaching",
+      "wordCount": 534,
+      "fingerprint": "f94ded46f88fd86e"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/news-and-events/archive-news-and-events",
+      "normalizedUrl": "https://education.unimelb.edu.au/news-and-events/archive-news-and-events",
+      "title": "Archive News & Events",
+      "wordCount": 756,
+      "fingerprint": "f9d46ce389885018"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/news-and-events/news/2026/scale-program-welcomes-singapore-school-leaders-to-melbourne",
+      "normalizedUrl": "https://education.unimelb.edu.au/news-and-events/news/2026/scale-program-welcomes-singapore-school-leaders-to-melbourne",
+      "title": "SCALE Program welcomes Singapore school leaders to Melbourne",
+      "wordCount": 750,
+      "fingerprint": "fa8605d5a19fb944"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/study/graduate-research/current-students/policy/authorship-policy",
+      "normalizedUrl": "https://education.unimelb.edu.au/study/graduate-research/current-students/policy/authorship-policy",
+      "title": "",
+      "wordCount": 6,
+      "fingerprint": "fbd67f177ff5835d"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/study/graduate-research/current-students/student-support-services/graduate-student-association-gsa",
+      "normalizedUrl": "https://education.unimelb.edu.au/study/graduate-research/current-students/student-support-services/graduate-student-association-gsa",
+      "title": "University of Melbourne Graduate Student Association",
+      "wordCount": 409,
+      "fingerprint": "fcdd9736518d6867"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/talking-teaching/season-8/episode-9-a-new-approach-to-measuring-student-success-with-melbourne-metrics",
+      "normalizedUrl": "https://education.unimelb.edu.au/talking-teaching/season-8/episode-9-a-new-approach-to-measuring-student-success-with-melbourne-metrics",
+      "title": "Episode 9: A New Approach to Measuring Student Success with Melbourne Metrics",
+      "wordCount": 250,
+      "fingerprint": "fd630654029cdf8c"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/aerc/news/new-publications-by-aercs-senior-lecturer-dr-ghislain-arbour",
+      "normalizedUrl": "https://education.unimelb.edu.au/aerc/news/new-publications-by-aercs-senior-lecturer-dr-ghislain-arbour",
+      "title": "New publication by AERC's Senior Lecturer Dr Ghislain Arbour",
+      "wordCount": 108,
+      "fingerprint": "fe32b64798a57295"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/aerc/events/aerc-hosts-alina-a-von-davier-human-centered-ai-and-trust-building-in-language-learning-and-testing-systems",
+      "normalizedUrl": "https://education.unimelb.edu.au/aerc/events/aerc-hosts-alina-a-von-davier-human-centered-ai-and-trust-building-in-language-learning-and-testing-systems",
+      "title": "AERC Hosts: Alina von Davier \"Human-Centered AI and Trust Building in Language Learning and Testing Systems\"",
+      "wordCount": 509,
+      "fingerprint": "fe3c6a23cc3d75ef"
+    },
+    {
+      "url": "https://education.unimelb.edu.au/life-patterns/about/news-and-updates/new-report-families-during-covid-lockdown",
+      "normalizedUrl": "https://education.unimelb.edu.au/life-patterns/about/news-and-updates/new-report-families-during-covid-lockdown",
+      "title": "New report: Life satisfaction during the 2020 pandemic in Australia",
+      "wordCount": 192,
+      "fingerprint": "fe6771ac3ad7ed9e"
+    }
+  ]
+}

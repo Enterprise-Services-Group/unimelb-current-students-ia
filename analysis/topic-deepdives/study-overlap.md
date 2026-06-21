@@ -1,6 +1,6 @@
 # Topic Deep-Dive: study.unimelb × current-students overlap zones
 
-*Analysis based on: 300-page BFS crawl of study.unimelb.edu.au (June 2026) + 1,161-page faculty current-students crawl (June 2026). Cross-referenced with students.unimelb.edu.au hub data.*
+*Analysis based on: 300-page BFS crawl of study.unimelb.edu.au (June 2026) + 1,161-page faculty current-students crawl (June 2026). Cross-referenced with students.unimelb.edu.au students.unimelb.edu.au data.*
 
 ---
 
@@ -18,13 +18,13 @@ This document maps every topic area where content exists on both `study.unimelb.
 |---|--:|---|
 | study.unimelb | 13 | Tuition fee schedules by level/type, HECS/FEE-HELP explainers, living cost estimates, fee estimator tool |
 | Faculty CS (enrolled) | ~12 (scattered across faculties) | Faculty-specific fee variations, invoice payment, HELP debt |
-| students.unimelb.edu.au hub | ~5 | HECS/FEE-HELP basics, fees FAQ |
+| students.unimelb.edu.au students.unimelb.edu.au | ~5 | HECS/FEE-HELP basics, fees FAQ |
 
 **Are they serving the same user need?** Partially. study.unimelb fees content answers "what will I pay?" before enrolment. The enrolled estate answers "how do I pay my current invoice?" and "what is my HELP debt?" These are adjacent needs but distinct tasks.
 
 **The actual problem:** The boundary is not signalled. The page `/how-to-apply/undergraduate-study/domestic-applications/fees-and-payments` lives on study.unimelb but contains payment process information that enrolled students search for. Its 4 links to students.unimelb suggest it half-acknowledges this but doesn't cleanly hand off. An enrolled student who Googles "University of Melbourne tuition fees" will routinely land on study.unimelb — a prospective-student context — without any "if you're already enrolled, go here instead" signpost.
 
-**Where should the handoff be?** The fee schedule (what courses cost) belongs on study.unimelb and in the Handbook. The payment mechanics (when invoices are issued, how to pay, HELP debt management) belong exclusively on the hub. study.unimelb fee pages that currently describe payment process should link directly to `students.unimelb.edu.au/your-finances` and stop at "here are the fees; once enrolled, manage payments here."
+**Where should the handoff be?** The fee schedule (what courses cost) belongs on study.unimelb and in the Handbook. The payment mechanics (when invoices are issued, how to pay, HELP debt management) belong exclusively on students.unimelb.edu.au. study.unimelb fee pages that currently describe payment process should link directly to `students.unimelb.edu.au/your-finances` and stop at "here are the fees; once enrolled, manage payments here."
 
 ---
 
@@ -35,9 +35,9 @@ This document maps every topic area where content exists on both `study.unimelb.
 | study.unimelb | ~75 (43 study-scholarships + 32 scholarships cross-tag) | Scholarship search, equity schemes (Access Melbourne, Narrm), scholarship application guides, Narrm Scholar profiles |
 | Faculty CS (enrolled) | 141 pages across 9 faculties | Named donor awards, application rounds, T&Cs, Dean's Honours Lists, winner galleries |
 | `scholarships.unimelb.edu.au` | Active subdomain (central system) | Award database, application engine — linked from study.unimelb (167 links) |
-| students.unimelb.edu.au hub | 0 pages | Nothing |
+| students.unimelb.edu.au students.unimelb.edu.au | 0 pages | Nothing |
 
-**Are they serving the same user need?** No — but they should be connected. study.unimelb serves discovery (what scholarships exist, am I eligible, how do I apply before I enrol). Faculty CS serves post-enrolment scholarship management (my named award, when is the next round, Dean's Honours). `scholarships.unimelb.edu.au` sits in between and is the only candidate for a unified through-thread, but it's not surfaced from the hub at all.
+**Are they serving the same user need?** No — but they should be connected. study.unimelb serves discovery (what scholarships exist, am I eligible, how do I apply before I enrol). Faculty CS serves post-enrolment scholarship management (my named award, when is the next round, Dean's Honours). `scholarships.unimelb.edu.au` sits in between and is the only candidate for a unified through-thread, but it's not surfaced from students.unimelb.edu.au at all.
 
 **The critical missing link:** An enrolled student returning to find new scholarships or check on their Narrm Scholarship status has nowhere to go in the enrolled-student system. study.unimelb's equity scheme pages (Narrm Scholarship Program, Access Melbourne) link to `students.unimelb.edu.au` for ongoing support but the enrolled site has no corresponding scholarship discovery or management section.
 
@@ -67,13 +67,13 @@ This document maps every topic area where content exists on both `study.unimelb.
 |---|--:|---|
 | study.unimelb | 55 (international) + 66 (study-international) | Visa applications, OSHC, Moving Guide, agent directory, ELR, country-specific requirements, exchange/study-abroad applications |
 | Faculty CS (enrolled) | Scattered — ~15 pages across 4 faculties | Outbound exchange, study abroad, international student support |
-| students.unimelb.edu.au hub | Some | Visa compliance (ESOS), OSHC renewal, international student support |
+| students.unimelb.edu.au students.unimelb.edu.au | Some | Visa compliance (ESOS), OSHC renewal, international student support |
 
 **Are they serving the same user need?** The international topic has the **clearest lifecycle split** of any overlap zone, but the boundary is blurry at the moment of arrival:
 
 - **Pre-enrolment (study.unimelb):** choosing to come, visa application, OSHC purchase, English requirements, agent, country-specific processes
-- **Pre-arrival to arrival (study.unimelb + hub gap):** Moving Guide, what to bring, how to settle in, banking, transport
-- **Post-arrival enrolled (hub + faculties):** OSHC renewal, visa compliance, ESOS obligations, outbound exchange
+- **Pre-arrival to arrival (study.unimelb + students.unimelb.edu.au gap):** Moving Guide, what to bring, how to settle in, banking, transport
+- **Post-arrival enrolled (students.unimelb.edu.au + faculties):** OSHC renewal, visa compliance, ESOS obligations, outbound exchange
 
 The **Moving Guide** (`/support/moving-support/moving-guide` — 8 links to students.unimelb) is the clearest boundary-blurring page. It is a post-offer, pre-arrival guide that explains registered university accommodation, campus orientation, and first-week tasks — but it lives on the prospective site. Newly arrived international students who need it will find it via study.unimelb rather than through the enrolled-student portal.
 
@@ -91,13 +91,13 @@ Currently the handoff is a link within body copy on a prospective-context page. 
 |---|--:|---|
 | study.unimelb | 14+ pages | Guaranteed undergraduate-to-postgraduate pathways, entry requirements, duration, fee info, by discipline (Engineering, Law, IT, ABPD, Health, Teaching, etc.) |
 | Faculty CS (enrolled) | ~0 dedicated pages (scattered references) | None have a dedicated section on how enrolled students can activate their guaranteed pathway |
-| students.unimelb.edu.au hub | 0 | Nothing |
+| students.unimelb.edu.au students.unimelb.edu.au | 0 | Nothing |
 
 **This is the most significant structural gap found in this analysis.** The Graduate Degree Package pages on study.unimelb average 2,000–4,700 words and contain 8–24 links each to `students.unimelb.edu.au`. They describe — in detail — what an enrolled student must do to activate their guaranteed progression to a master's degree: maintain a certain GPA, apply by a certain date, contact a specific person.
 
-An enrolled student in Year 2 or Year 3 of their bachelor's, planning their graduate pathway, will search for this information. Google will typically return the study.unimelb Graduate Degree Package page — which is framed for prospective students ("choose Melbourne because of this pathway") rather than enrolled students ("here's how to activate the pathway you signed up for"). The hub has no equivalent, and the faculty CS sections do not have dedicated pathway-management pages.
+An enrolled student in Year 2 or Year 3 of their bachelor's, planning their graduate pathway, will search for this information. Google will typically return the study.unimelb Graduate Degree Package page — which is framed for prospective students ("choose Melbourne because of this pathway") rather than enrolled students ("here's how to activate the pathway you signed up for"). students.unimelb.edu.au has no equivalent, and the faculty CS sections do not have dedicated pathway-management pages.
 
-**Where should the handoff be?** Each Graduate Degree Package page on study.unimelb should include a clear section: "You're already enrolled — here's how to confirm your pathway" with links to the relevant faculty CS section and/or the hub's course variation process. The enrolled-student estate should have a mirror of this content framed for managing the progression rather than choosing it.
+**Where should the handoff be?** Each Graduate Degree Package page on study.unimelb should include a clear section: "You're already enrolled — here's how to confirm your pathway" with links to the relevant faculty CS section and/or students.unimelb.edu.au's course variation process. The enrolled-student estate should have a mirror of this content framed for managing the progression rather than choosing it.
 
 ---
 
@@ -107,11 +107,11 @@ An enrolled student in Year 2 or Year 3 of their bachelor's, planning their grad
 |---|--:|---|
 | study.unimelb | 47 student-life + 109 study-campus-life | Meet-our-students profiles (51 pages), Melbourne lifestyle, events, sports, clubs overview, accommodation |
 | Faculty CS (enrolled) | ~40 pages across multiple faculties | Faculty-specific clubs, mentoring, maker spaces, ambassador programs |
-| students.unimelb.edu.au hub | Heavy | UMSU, clubs & societies, events, student support |
+| students.unimelb.edu.au students.unimelb.edu.au | Heavy | UMSU, clubs & societies, events, student support |
 
 **Are they serving the same user need?** Study.unimelb student-life content serves a single need: **reassurance before committing** ("Will I belong here?"). The 51 student profiles are editorial, not transactional. The enrolled estate's student-life content is operational — how to join a club, book a room, find a mentor.
 
-**Low overlap risk**, but one flag: study.unimelb's student-life landing page has 6 links to students.unimelb, suggesting it uses the hub as the "once you're enrolled, participate here" pointer. This works but is implicit — a "life as an enrolled student" section could make it explicit.
+**Low overlap risk**, but one flag: study.unimelb's student-life landing page has 6 links to students.unimelb, suggesting it uses students.unimelb.edu.au as the "once you're enrolled, participate here" pointer. This works but is implicit — a "life as an enrolled student" section could make it explicit.
 
 ---
 
@@ -129,7 +129,7 @@ An enrolled student in Year 2 or Year 3 of their bachelor's, planning their grad
 
 ### Does study.unimelb link to faculty current-students sections?
 
-**Rarely.** A scan of outbound hosts found no significant volume of direct links to `eng.unimelb.edu.au/students`, `fbe.unimelb.edu.au/students`, etc. study.unimelb routes to the central hub (`students.unimelb.edu.au`) but not to the 13 faculty CS sections. This means **the prospective site does not acknowledge that post-enrolment, students will move to faculty-specific sections** — a significant gap for students who want to understand what their faculty's current-student experience looks like before committing.
+**Rarely.** A scan of outbound hosts found no significant volume of direct links to `eng.unimelb.edu.au/students`, `fbe.unimelb.edu.au/students`, etc. study.unimelb routes to students.unimelb.edu.au (`students.unimelb.edu.au`) but not to the 13 faculty CS sections. This means **the prospective site does not acknowledge that post-enrolment, students will move to faculty-specific sections** — a significant gap for students who want to understand what their faculty's current-student experience looks like before committing.
 
 ### Does study.unimelb link to the Handbook?
 
@@ -160,7 +160,7 @@ A section at `/study-with-us/you-have-an-offer` or similar that explicitly trans
 - "You've received an offer — congratulations. Here's what happens next."
 - Enrolment checklist (currently scattered across study.unimelb and students.unimelb)
 - Explicit instruction: "From now on, your study information lives at students.unimelb.edu.au. Bookmark it."
-- Direct links to: My Enrolled Courses (Handbook), My Finances (hub), My Faculty (faculty CS section), Student Support (hub)
+- Direct links to: My Enrolled Courses (Handbook), My Finances (students.unimelb.edu.au), My Faculty (faculty CS section), Student Support (students.unimelb.edu.au)
 
 **2. Add audience-disambiguation banners to crossover pages**
 
@@ -174,7 +174,7 @@ The Glossary, FAQ, Graduate Degree Packages, High School Guide, and Transferring
 
 **4. Faculty CS handback from study.unimelb**
 
-Graduate Degree Package pages should link directly to the relevant faculty CS section's course-planning pages — not just to the central hub. This would give prospective students a preview of their faculty's enrolled experience and create a direct link from funnel-entry to lifecycle management.
+Graduate Degree Package pages should link directly to the relevant faculty CS section's course-planning pages — not just to students.unimelb.edu.au. This would give prospective students a preview of their faculty's enrolled experience and create a direct link from funnel-entry to lifecycle management.
 
 **5. International student pre-arrival transition**
 
@@ -187,7 +187,7 @@ Move or duplicate the Moving Guide as a post-offer page on `students.unimelb.edu
 | Overlap zone | Pages (study) | Pages (enrolled) | Verdict |
 |---|--:|--:|---|
 | Fees / finance | 13 | ~17 | Mostly different stages; signal boundary better |
-| Scholarships | ~75 | 141 (faculty) | Connected only via `scholarships.unimelb.edu.au`; hub gap |
+| Scholarships | ~75 | 141 (faculty) | Connected only via `scholarships.unimelb.edu.au`; students.unimelb.edu.au gap |
 | Careers | 37 | ~80 | Different lifecycle needs; add through-link from prospective |
 | International | 66–121 | ~15 | Pre-arrival gap; Moving Guide needs dual presence |
 | Graduate Degree Packages | 14+ | ~0 | **Enrolled students have no equivalent content; biggest gap** |

@@ -1,0 +1,13 @@
+unit_slug,faculty,pages,content_pages,hub_per_page_raw,template_sidebar_const,autonomy_adj,broken_redirect,dups_collapsed,redirect_rate,topic_hhi
+dental,MDHS,4,4,1,2,0,0,0,0.0,0.5
+mdhs,MDHS,112,107,1.1,0,1.1,0,0,0.0,0.452
+mbs,FBE,61,61,2.57,3,0.11,0,0,0.0,0.383
+abp,ABP,250,104,20.8,21,0.3,0,0,0.0,0.207
+fbe,FBE,36,34,1.06,0,1.06,2,0,0.056,0.196
+biomedical,MDHS,42,28,0.62,0,0.62,0,0,0.0,0.134
+science,Science,94,65,1.23,0,1.23,0,0,0.0,0.125
+feit,FEIT,190,190,1.32,0,1.32,0,14,0.0,0.124
+education,Education,47,42,2.02,0,2.02,0,0,0.0,0.124
+ffam,FFAM,36,31,1.36,0,1.36,0,1,0.0,0.115
+arts,Arts,89,72,7.01,4,3.15,3,2,0.034,0.1
+law,Law,192,105,0.96,0,0.96,0,3,0.0,0.087

@@ -1,229 +1,453 @@
-<!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<title>Current Students Web Estate — DEAG Findings & Decision Pack</title>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Current students web estate</title>
 <style>
-@font-face{font-family:'Fraunces';src:url('deag-assets/fonts/Fraunces.ttf') format('truetype');font-weight:100 900;font-style:normal}
+@font-face{font-family:'Fraunces';src:url('deag-assets/fonts/Fraunces.ttf') format('truetype');font-weight:100 900}
 @font-face{font-family:'Fraunces';src:url('deag-assets/fonts/Fraunces-Italic.ttf') format('truetype');font-weight:100 900;font-style:italic}
-@font-face{font-family:'Source Sans 3';src:url('deag-assets/fonts/SourceSans3.ttf') format('truetype');font-weight:200 900;font-style:normal}
+@font-face{font-family:'Source Sans 3';src:url('deag-assets/fonts/SourceSans3.ttf') format('truetype');font-weight:200 900}
 @font-face{font-family:'Source Sans 3';src:url('deag-assets/fonts/SourceSans3-Italic.ttf') format('truetype');font-weight:200 900;font-style:italic}
 @font-face{font-family:'Source Code Pro';src:url('deag-assets/fonts/SourceCodePro.ttf') format('truetype');font-weight:200 900}
-
-:root{
-  --navy:#000F46; --navy2:#000B34; --cyan:#46C8F0; --cyan-h:#2F95B7;
-  --light:#F4F4F4; --tint:#F3F3F6; --border:#DDDDE7; --ink:#1c1c28; --muted:#5b5b6b;
-}
+:root{--navy:#000F46;--navy2:#000B34;--cyan:#46C8F0;--cyanh:#2F95B7;--light:#F4F4F4;--tint:#F3F3F6;--border:#DDDDE7;--ink:#1c1c28;--muted:#5b5b6b}
 *{box-sizing:border-box}
 html{-webkit-print-color-adjust:exact;print-color-adjust:exact}
-body{font-family:'Source Sans 3',sans-serif;color:var(--ink);font-size:10.5pt;line-height:1.5;margin:0}
-h1,h2,h3,h4{font-family:'Fraunces',serif;color:var(--navy);font-weight:600;line-height:1.15;letter-spacing:-0.007em;margin:0 0 .4em}
-h2{font-size:18pt;margin-top:1.4em;padding-bottom:.25em;border-bottom:2px solid var(--cyan)}
-h3{font-size:13pt;margin-top:1.1em;color:var(--navy2)}
-p{margin:0 0 .7em}
-strong{font-weight:700;color:var(--navy2)}
-a{color:var(--cyan-h);text-decoration:none}
-code,.mono{font-family:'Source Code Pro',monospace;font-size:9pt;background:var(--light);padding:0 3px;border-radius:2px}
-small{color:var(--muted)}
-
-@page{size:A4;margin:16mm 15mm 18mm}
-.page-break{break-before:page}
-
-/* Cover */
-.cover{background:var(--navy);color:#fff;min-height:calc(297mm - 0px);
-  margin:-16mm -15mm 0;padding:26mm 22mm;break-after:page;position:relative;display:flex;flex-direction:column}
-.cover img.logo{width:62mm;margin-bottom:auto}
-.cover .eyebrow{font-family:'Source Code Pro',monospace;color:var(--cyan);font-size:10pt;letter-spacing:.16em;text-transform:uppercase;margin-bottom:14px}
-.cover h1{color:#fff;font-size:40pt;line-height:1.05;max-width:16em;margin:0 0 18px}
-.cover .sub{font-size:14pt;color:#c9cde4;max-width:30em}
-.cover .rule{width:64px;height:5px;background:var(--cyan);margin:22px 0}
-.cover .meta{margin-top:30px;font-size:11pt;color:#aab0d4}
-.cover .aoc{margin-top:auto;font-style:italic;font-size:9pt;color:#8f96c2;max-width:40em;padding-top:26px}
-
-/* Decision box */
-.decision{background:var(--tint);border-left:5px solid var(--cyan);padding:16px 20px;margin:0 0 14px}
-.decision h2{border:0;margin:.1em 0 .5em;padding:0;font-size:15pt}
-.decision ol{margin:.3em 0 0;padding-left:1.2em}
-.decision li{margin:.3em 0}
-
-/* Tables */
-table{width:100%;border-collapse:collapse;margin:.6em 0 1em;font-size:9.4pt}
-th,td{text-align:left;padding:6px 9px;border:1px solid var(--border);vertical-align:top}
+body{font-family:'Source Sans 3',sans-serif;color:var(--ink);font-size:10.3pt;line-height:1.5;margin:0}
+@page{size:A4;margin:16mm 15mm 17mm}
+h1,h2,h3,h4{font-family:'Fraunces',serif;color:var(--navy);font-weight:600;line-height:1.16;letter-spacing:-0.006em}
+h1{font-size:19pt;margin:0 0 .5em;padding-top:.2em;page-break-before:always;border-top:3px solid var(--cyan);padding-top:10px}
+h2{font-size:14pt;margin:1.25em 0 .4em;padding-bottom:.18em;border-bottom:2px solid var(--cyan)}
+h3{font-size:11.5pt;color:var(--navy2);margin:1em 0 .35em}
+h4{font-size:10.5pt;color:var(--navy2);margin:.9em 0 .3em}
+p{margin:0 0 .6em}
+strong{color:var(--navy2)}
+a{color:var(--cyanh);text-decoration:none}
+ul,ol{margin:.3em 0 .8em;padding-left:1.3em}
+li{margin:.2em 0}
+code{font-family:'Source Code Pro',monospace;font-size:8.6pt;background:var(--light);padding:0 3px;border-radius:2px}
+table{width:100%;border-collapse:collapse;margin:.55em 0 1.1em;font-size:9pt}
+th,td{border:1px solid var(--border);padding:5px 8px;text-align:left;vertical-align:top}
 thead th{background:var(--navy);color:#fff;font-weight:600}
 tbody tr:nth-child(even){background:var(--light)}
-td.num,th.num{text-align:right;font-variant-numeric:tabular-nums}
-tr{break-inside:avoid}
-.total td{font-weight:700;background:#e9ecf6;border-top:2px solid var(--navy)}
-
-/* Findings */
-.finding{margin:.5em 0 .9em}
-.finding .t{font-family:'Fraunces',serif;font-weight:600;color:var(--navy);font-size:11.5pt}
-.tag{display:inline-block;background:var(--navy);color:#fff;font-size:8pt;font-family:'Source Code Pro',monospace;
-  padding:1px 7px;border-radius:2px;margin-right:8px;vertical-align:1px}
-ul.tight{margin:.2em 0 .8em;padding-left:1.1em}
-ul.tight li{margin:.2em 0}
-.lede{font-size:11.5pt;color:var(--navy2)}
-.section-num{font-family:'Source Code Pro',monospace;color:var(--cyan-h);font-weight:600}
-.rec{background:#eafaff;border:1px solid var(--cyan);padding:10px 14px;margin:.6em 0}
-footer.note{margin-top:18px;padding-top:8px;border-top:1px solid var(--border);font-size:8.5pt;color:var(--muted)}
-</style>
-</head>
-<body>
-
+blockquote{background:var(--tint);border-left:5px solid var(--cyan);margin:.8em 0;padding:9px 15px;color:var(--navy2)}
+hr{border:0;border-top:1px solid var(--border);margin:1.2em 0}
+em{color:var(--muted)}
+.cover{background:var(--navy);color:#fff;min-height:262mm;margin:-16mm -15mm 0;padding:24mm 22mm;break-after:page;display:flex;flex-direction:column}
+.cover img{width:58mm;margin-bottom:auto}
+.cover .eyebrow{font-family:'Source Code Pro',monospace;color:var(--cyan);font-size:10pt;letter-spacing:.15em;text-transform:uppercase;margin-bottom:13px}
+.cover h1.t{color:#fff;font-size:38pt;line-height:1.05;max-width:15em;margin:0 0 16px;border:0;padding:0;page-break-before:auto}
+.cover .rule{width:60px;height:5px;background:var(--cyan);margin:18px 0}
+.cover .sub{font-size:13pt;color:#c9cde4;max-width:32em}
+.cover .meta{margin-top:24px;font-size:10.5pt;color:#aab0d4}
+.cover .aoc{margin-top:auto;font-style:italic;font-size:9pt;color:#8f96c2;max-width:40em;padding-top:22px}
+/* first real heading after cover shouldn't force a second blank page */
+.body > h1:first-child{page-break-before:avoid}
+</style></head><body>
 <section class="cover">
-  <img class="logo" src="deag-assets/logos/onDark.svg" alt="University of Melbourne">
+  <img src="deag-assets/logos/onDark.svg" alt="University of Melbourne">
   <div class="eyebrow">Digital Experience Advisory Group</div>
-  <h1>Current students web estate</h1>
+  <h1 class="t">Current students web estate</h1>
   <div class="rule"></div>
-  <div class="sub">Findings &amp; decision pack — a full-evidence review of how current-students content is delivered across the hub, the faculties and their schools.</div>
-  <div class="meta">June 2026 &nbsp;·&nbsp; Prepared for DEAG &nbsp;·&nbsp; Evidence base: 1,173 pages crawled</div>
+  <div class="sub">Findings & decision pack — a full-evidence review of how current-students content is delivered across the central site, the faculties and their schools.</div>
+  <div class="meta">University of Melbourne &nbsp;·&nbsp; June 2026</div>
   <div class="aoc">The University of Melbourne acknowledges the Traditional Owners of the unceded land on which we work, learn and live, and pays respect to their Elders, past and present, and to Indigenous Australians today.</div>
 </section>
-
-<div class="decision">
-  <h2>Decision at a glance</h2>
-  <p style="margin-bottom:.5em">A full crawl of the current-students estate — <strong>1,173 pages</strong> across the central hub, <strong>9 faculty</strong> sections and <strong>3 school</strong> sections — finds the estate is <strong>85% unique, discipline-specific content</strong>, not duplication. The service model is <strong>structurally sound but the seams are broken</strong>: six URL conventions, careers siloed across 9 faculties with zero cross-linking, the hub missing services students need (placements, course planning), school sites splintering the experience, and ~50 broken pages.</p>
-  <p style="margin:0"><strong>DEAG is asked to endorse three things:</strong></p>
-  <ol>
-    <li><strong>Direction</strong> — a <em>hub-and-spoke</em> model (hub owns the transactional spine + fills its gaps; faculties keep their discipline estates under shared standards). Not full centralisation; not status quo.</li>
-    <li><strong>No-regrets actions now</strong> — standard URL, a "where do I go for X" component, fix the broken links, connect careers. No structural decision needed.</li>
-    <li><strong>A standards mandate + a scoped Phase 2</strong> — so the seams get fixed and stay fixed.</li>
-  </ol>
-</div>
-
-<h2><span class="section-num">01</span> &nbsp;Purpose &amp; scope</h2>
-<p>The student web experience is delivered jointly by the central hub (<span class="mono">students.unimelb.edu.au</span>) and current-students sections run independently by each faculty — and, in some cases, individual schools. DEAG asked whether that <strong>service model is still working</strong>, where content <strong>overlaps or has gaps</strong>, and what should change.</p>
-<p>This pack answers from <strong>direct evidence</strong>: every reachable current-students page across the estate was crawled, classified and topic-tagged.</p>
-<p><strong>In scope:</strong> the central hub + all 9 faculty current-students sections + the 3 schools that run their own (Melbourne Business School, Biomedical Sciences, Melbourne Dental School). <strong>Out of scope:</strong> authenticated systems (my.unimelb, Canvas/LMS, SIS), prospective-student and staff content.</p>
-
-<h2><span class="section-num">02</span> &nbsp;Method (and its limits)</h2>
-<p>A browser-based crawler walked each section breadth-first, capturing for every page its content, word count, in-section structure, outbound links (where it sends students), a unique/duplicative classification, and topic tags. <strong>1,173 pages</strong> were captured.</p>
-<p><small><strong>Limitations, stated honestly.</strong> ABP/MSD hit a 250-page ceiling owing to a large self-referencing studio archive (~700 further pages of one repeating type — counted as one content class, not omitted findings). The hub was mapped at IA + section-landing level, not leaf-by-leaf. Classification is automated (indicative, not hand-audited). Cloudflare actively blocked conventional crawling — itself a finding for any future automated audit.</small></p>
-
-<h2 class="page-break"><span class="section-num">03</span> &nbsp;What we found</h2>
-
-<div class="finding"><div class="t">1 &nbsp;The estate is large, and overwhelmingly <em>unique</em></div>
-<p><strong>997 of 1,173 pages (85%) are unique, substantive content.</strong> Only ~4% are pure link-farms and ~7% mixed. The dominant content is exactly what cannot live centrally: subjects &amp; timetabling (324 pages), research candidature (243), forms &amp; admin (213), course planning (208), <strong>placements &amp; WIL (207)</strong>. This is the most important finding — the faculty estate is real content, not redundant signposting. <strong>"Just centralise it" is not a credible option.</strong></p></div>
-
-<div class="finding"><div class="t">2 &nbsp;Every faculty hosts a real estate; the "link directory" picture was wrong</div>
-<p>Earlier sampling suggested some faculties (ABP, FBE) were thin link directories. The full crawl disproves it: ABP runs <strong>240 unique pages</strong>; FFAM a substantive 37-page section; MDHS <strong>104 unique pages</strong> of clinical-placement compliance. What faculties <em>do</em> delegate is transactional admin (enrolment, fees, exams → hub). The duplication problem is <strong>smaller and thinner</strong> than feared; the <em>seam</em> problem is bigger.</p></div>
-
-<div class="finding"><div class="t">3 &nbsp;Six URL conventions for one idea</div>
-<p>"Information for current students" lives at six addresses: <span class="mono">/students</span> · <span class="mono">/current-students</span> · <span class="mono">/study/current-students</span> · <span class="mono">/study/student-resources</span> · <span class="mono">/study/current-student-information</span> · (and the hub). A student cannot guess their faculty's URL, and <span class="mono">fbe…/current-students</span> is a dead 404 where one would expect the page.</p></div>
-
-<div class="finding"><div class="t">4 &nbsp;Careers is the clearest failure: parallel everywhere, connected nowhere</div>
-<p><strong>8 of 9 faculties plus MBS run their own careers/employability content</strong> in parallel with the central Careers hub — and hub and faculty careers pages <strong>do not cross-link in either direction.</strong> A student using the hub's career checklist may never discover their faculty's mentoring program, and vice-versa. This is the highest-value, lowest-cost fix in the estate.</p></div>
-
-<div class="finding"><div class="t">5 &nbsp;The hub has real gaps where every faculty has built</div>
-<p>The hub covers the transactional spine well but has <strong>no presence</strong> in services every faculty provides: <strong>placements &amp; WIL</strong> (207 faculty pages; hub ≈ 0), degree-specific course planning, discipline academic skills, faculty forms (213 pages), and program regulatory pathways (LANTITE for teaching; Fitness-to-Practice / AHPRA for health). These gaps are <em>why</em> faculties build parallel sites.</p></div>
-
-<div class="finding"><div class="t">6 &nbsp;School-level fragmentation multiplies the experience</div>
-<p>Three schools run their own current-students sites <em>beneath</em> their faculty: <strong>MBS (61 pages</strong>, plus its own "Career Elevation" service), <strong>Biomedical Sciences (42)</strong>, <strong>Dental (4)</strong>. A Biomedicine student can traverse <strong>three</strong> different "home" experiences — the hub, the MDHS faculty section, and the Biomedical school site — each with a different URL and template.</p></div>
-
-<div class="finding"><div class="t">7 &nbsp;Quality debt is visible and fixable</div>
-<p>~<strong>50 pages are broken or misrouting</strong>, concentrated in Biomedical Sciences (18 — including 16 "major" pages with duplicate CMS slugs bouncing students to the <em>prospective</em> catalogue), FEIT (17), ABP (6), MDHS (3), Arts (3), FBE (2). The Dental site depends on case-sensitive paths (<span class="mono">/Forms</span> works, <span class="mono">/forms</span> 404s) and splits its own forms across two external form hosts.</p></div>
-
-<div class="finding"><div class="t">8 &nbsp;No page tells students "what's where"</div>
-<p>Not one faculty section carries a consistent "for X go to the hub; for Y stay here" signpost. Students learn the split by trial and error, and faculty pages routinely re-explain hub services (special consideration, leave of absence) that the hub owns definitively.</p></div>
-
-<div class="finding"><div class="t">9 &nbsp;The topic evidence sharpens the consolidation target — and flags a data-quality clean-up</div>
-<p>A topic-by-topic crawl (18 topics, full estate) pinpoints where consolidation pays. The <strong>transactional spine</strong> (enrolment, exams &amp; results, special consideration, fees, library — 227 pages) has <strong>only 6 pages on the hub domain</strong>; the rest are faculty restatements of content the hub already owns — the single clearest target. <strong>Scholarships</strong> (faculties hold 141 pages of generic process scaffolding while a central catalogue already exists) and the duplicated "Employability in X" and "Wellbeing + Ambassadors" landing pages are next.</p>
-<p>The same pass shows the topic page-counts are <strong>inflated by content-quality artifacts</strong> — ABP/MSD's ~700-page design-studio archive, FEIT nesting its whole estate under <span class="mono">/orientation</span> and <span class="mono">/students/it</span> paths, and ~70 Law researcher-profile pages. A meaningful share of the apparent "volume" is archival bloat and URL/CMS hygiene to fix at source, independent of the unification decision. (Full topic breakdown: Appendix B.)</p></div>
-
-<h2><span class="section-num">04</span> &nbsp;The service-model verdict</h2>
-<p class="lede">The hub-and-faculty division of labour is the right one — but it is being run without the connective tissue that makes it work.</p>
-<p>The hub is the correct owner of the transactional spine; faculties are the correct owners of placements, course plans, discipline skills and forms. What's missing is everything <em>between</em> them: consistent addressing, mutual signposting, a hub presence for placements and course planning, connected careers, consolidated school sites, and enforced standards. The fix is therefore <strong>not</strong> re-drawing ownership — it is <strong>engineering the seams</strong>.</p>
-
-<h2><span class="section-num">05</span> &nbsp;Discussion points for DEAG</h2>
-<ul class="tight">
-<li><strong>Autonomy vs consistency.</strong> Faculties have invested years in useful content. Standards must be <em>mandated</em> (URL chaos proves advisory guidance failed) without gutting ownership. How much standardisation, with what authority?</li>
-<li><strong>The 85%-unique reality.</strong> It takes "lift-and-shift to the hub" off the table. Does DEAG accept the goal is a <em>connected federation</em>, not a single site?</li>
-<li><strong>School-level sites (MBS, Biomedical, Dental).</strong> Tolerate, standardise, or consolidate into their faculty?</li>
-<li><strong>The careers silo.</strong> The clearest single win — who owns the hub↔faculty bridge, and will faculties embed the central tools?</li>
-<li><strong>Hub gaps.</strong> Filling placements / course-planning means the central team owns <em>new</em> content. Capacity to own it, or thin "connector" pages into faculty content?</li>
-<li><strong>Governance teeth.</strong> Standards as policy with audit and consequences, or another advisory guideline?</li>
-<li><strong>Personalisation as an accelerator.</strong> If Optimizely + Tealium (CDP) are in the stack, a <em>personalised hub</em> could surface the right faculty content to a known student without moving pages — potentially leapfrogging migration. <strong>Needs confirming.</strong></li>
+<div class="body">
+<h3 id="for-the-digital-experience-advisory-group-deag--june-2026">For the Digital Experience Advisory Group (DEAG) · June 2026</h3>
+<hr />
+<blockquote>
+<h2 id="decision-at-a-glance">Decision at a glance</h2>
+<p>A full crawl of the University's current-students web estate — <strong>1,173 pages</strong> across students.unimelb.edu.au, <strong>9 faculty</strong> sections and <strong>3 school</strong> sections — finds the estate is <strong>85% unique, discipline-specific content</strong>, not duplication. The service model is <strong>structurally sound but the seams are broken</strong>: six different URL conventions, careers content siloed across 9 faculties with zero cross-linking, students.unimelb.edu.au missing whole services that students need (placements, course planning), school-level sites splintering the experience, and ~50 broken pages.</p>
+<p><strong>DEAG is asked to endorse three things:</strong></p>
+<ol type="1">
+<li><strong>Direction</strong> — a <em>central-and-spoke</em> model (students.unimelb.edu.au owns the transactional spine + fills its gaps; faculties keep their discipline-specific estates under shared standards). <strong>Not</strong> full centralisation; <strong>not</strong> status quo.</li>
+<li><strong>No-regrets actions now</strong> — standard URL, a "where do I go for X" component, fix the broken links, and connect careers. These need no structural decision and can start immediately.</li>
+<li><strong>A standards mandate + a scoped Phase 2</strong> — so the seams actually get fixed and stay fixed.</li>
+</ol>
+</blockquote>
+<hr />
+<h2 id="1-purpose--scope">1. Purpose &amp; scope</h2>
+<p>The student web experience is delivered jointly by students.unimelb.edu.au (<code>students.unimelb.edu.au</code>) and current-students sections run independently by each faculty (and, in some cases, individual schools). DEAG asked whether that <strong>service model is still working</strong>, where content <strong>overlaps or has gaps</strong>, and what — if anything — should change.</p>
+<p>This pack answers those questions from <strong>direct evidence</strong>: every reachable current-students page across the estate was crawled, classified and topic-tagged. It then sets out the options and the decision we recommend DEAG take.</p>
+<p><strong>In scope:</strong> students.unimelb.edu.au + the current-students sections of all 9 faculties + the 3 schools that run their own (Melbourne Business School, Biomedical Sciences, Melbourne Dental School). <strong>Out of scope:</strong> authenticated systems (my.unimelb, Canvas/LMS, SIS, Stop 1 service desk), prospective-student content, and staff content.</p>
+<h2 id="2-method-and-its-limits">2. Method (and its limits)</h2>
+<p>A browser-based crawler walked each current-students section breadth-first, capturing for every page its content, word count, in-section structure, outbound links (where it sends students), a unique/duplicative classification, and topic tags. <strong>1,173 pages</strong> were captured.</p>
+<p><em>Limitations, stated honestly:</em> ABP/MSD hit a 250-page ceiling because of a large self-referencing studio archive (~700 further pages of one repeating type — counted as a single content class, not omitted findings). The students.unimelb.edu.au was mapped at IA + section-landing level, not leaf-by-leaf. Classification is automated (a page is "unique" if it carries substantive original prose, "link-farm" if it mostly routes elsewhere) and is indicative, not hand-audited. Cloudflare actively blocked conventional/headless crawling — a finding in itself for any future automated audit.</p>
+<h2 id="3-what-we-found">3. What we found</h2>
+<h3 id="finding-1--the-estate-is-large-and-overwhelmingly-unique">Finding 1 — The estate is large, and overwhelmingly <em>unique</em></h3>
+<p><strong>997 of 1,173 pages (85%) are unique, substantive content.</strong> Only ~4% are pure link-farms and ~7% are mixed. The dominant content is exactly what <em>can't</em> live centrally: <strong>placements &amp; WIL (186 pages)</strong>, subjects &amp; timetabling (174), course planning (107), research candidature (96). This is the single most important finding: <strong>the faculty estate is real content, not redundant signposting.</strong> "Just centralise it" is not a credible option.</p>
+<h3 id="finding-2--every-faculty-hosts-a-real-estate-the-link-directory-picture-was-wrong">Finding 2 — Every faculty hosts a real estate; the "link directory" picture was wrong</h3>
+<p>Earlier sampling suggested some faculties (ABP, FBE) were thin link directories. The full crawl disproves it: ABP runs <strong>240 unique pages</strong> (sample course plans, studios, mentoring); FFAM runs a substantive 37-page section (ensembles, facilities, forms); MDHS runs <strong>104 unique pages</strong> of clinical-placement compliance. What faculties <em>do</em> delegate is <strong>transactional admin</strong> — they correctly send students to students.unimelb.edu.au for enrolment, fees, exams. The duplication problem is <strong>smaller and thinner</strong> than feared; the <em>seam</em> problem is bigger.</p>
+<h3 id="finding-3--six-url-conventions-for-one-idea">Finding 3 — Six URL conventions for one idea</h3>
+<p>"Information for current students" lives at six different addresses: <code>/students</code> · <code>/current-students</code> · <code>/study/current-students</code> · <code>/study/student-resources</code> · <code>/study/current-student-information</code> · (and students.unimelb.edu.au). A student cannot guess their faculty's URL.</p>
+<h3 id="finding-4--careers-is-the-clearest-failure-parallel-everywhere-connected-nowhere">Finding 4 — Careers is the clearest failure: parallel everywhere, connected nowhere</h3>
+<p><strong>8 of 9 faculties plus MBS run their own careers/employability content</strong> (mentoring, internships, industry programs) in parallel with the central Careers service — and the central and faculty careers pages <strong>do not cross-link in either direction.</strong> A student using the central career checklist may never discover their faculty's mentoring program, and vice-versa. This is the highest-value, lowest-cost fix in the estate.</p>
+<h3 id="finding-5--studentsunimelbeduau-has-real-gaps-where-every-faculty-has-built">Finding 5 — students.unimelb.edu.au has real gaps where every faculty has built</h3>
+<p>students.unimelb.edu.au covers the transactional spine well but has <strong>no presence</strong> in services every faculty provides: <strong>placements &amp; WIL</strong> (186 faculty pages; central ≈ 0), <strong>degree-specific course planning</strong>, <strong>discipline academic skills</strong> (legal writing, lab reports, studio practice), <strong>faculty forms</strong> (no central forms index), and <strong>program regulatory pathways</strong> (LANTITE for teaching, Fitness-to-Practice / AHPRA for health). These gaps are <em>why</em> faculties build parallel sites.</p>
+<h3 id="finding-6--school-level-fragmentation-multiplies-the-experience">Finding 6 — School-level fragmentation multiplies the experience</h3>
+<p>Three schools run their own current-students sites <em>beneath</em> their faculty: <strong>MBS (61 pages</strong>, plus its own "Career Elevation" service), <strong>Biomedical Sciences (42)</strong>, <strong>Dental (4)</strong>. A Biomedicine student can traverse <strong>three</strong> different "home" experiences — students.unimelb.edu.au, the MDHS faculty section, and the Biomedical school site — each with a different URL pattern and template.</p>
+<h3 id="finding-7--quality-debt-is-visible-and-fixable">Finding 7 — Quality debt is visible and fixable</h3>
+<p>~<strong>50 pages are broken or misrouting</strong>, concentrated in: Biomedical Sciences (18 — including 16 "major" pages with duplicate CMS slugs bouncing students to the <em>prospective</em> catalogue), FEIT (17 duplicate/broken URLs), ABP (6), MDHS (3), Arts (3), FBE (2). The Dental site even depends on case-sensitive paths (<code>/Forms</code> works, <code>/forms</code> 404s) and splits its own forms across two external form hosts.</p>
+<h3 id="finding-8--no-page-tells-students-whats-where">Finding 8 — No page tells students "what's where"</h3>
+<p>Not one faculty section carries a consistent "for X go to students.unimelb.edu.au; for Y stay here" signpost. Students learn the split by trial and error, and faculty pages routinely re-explain students.unimelb.edu.au services (special consideration, leave of absence) that students.unimelb.edu.au owns definitively.</p>
+<h3 id="finding-9--the-topic-evidence-sharpens-the-consolidation-target-counts-now-corrected">Finding 9 — The topic evidence sharpens the consolidation target (counts now corrected)</h3>
+<p>A topic-by-topic crawl (18 topics) pinpoints where consolidation pays. The <strong>transactional spine</strong> (enrolment, exams &amp; results, special consideration, fees, library — ~105 content pages) has <strong>only ~6 on the central domain</strong>; the rest are faculty restatements of content students.unimelb.edu.au already owns — the single clearest target. <strong>Scholarships</strong> (faculties hold ~100 pages of generic process scaffolding while a central catalogue already exists) and the duplicated "Employability in X" / "Wellbeing + Ambassadors" landing pages are next. The raw topic counts were heavily <strong>inflated by content-quality artefacts</strong> — ABP/MSD's ~700-page studio archive, FEIT nesting its estate under <code>/orientation</code>, ~70 Law researcher bios, and a bare-"IT" tag mis-classifying FEIT content. These have now been <strong>corrected in a cleaned dataset</strong> (e.g. IT-systems 235→14, orientation 289→76, subjects &amp; timetabling 319→174), so Appendix B reports the corrected content counts. The hygiene issues themselves (the archive, URL/CMS debt) remain to fix at source, independent of the unification decision.</p>
+<h3 id="finding-10--current-students-are-a-7-tenant-inside-outward-facing-faculty-estates">Finding 10 — Current students are a ~7% tenant inside outward-facing faculty estates</h3>
+<p>A follow-up crawl of the <strong>full faculty domains</strong> (all 9 marketing sites, <strong>2,363 pages</strong> — the denominator the current-students slice never had) shows current-student content is only <strong>~7% sign-posted</strong> of each faculty's actual web presence. The rest is research, news, <em>about</em>, prospective <em>study</em> and industry/engagement — content built for prospective students, media and donors. Two facts sharpen the decision: <strong>(1) there is no shared faculty IA to centralise into</strong> — the dominant section differs in every faculty (Engineering is 76% a magazine, Fine Arts &amp; Music 86% "about us", Education led by a research centre); <strong>(2) most "faculty student content" is entangled with non-student content</strong> — Law and FEIT explicitly section only 9 and 18 student pages despite ~195/204 being student-relevant, so it is not a portable estate. A current student's tasks will always sit <em>inside</em> an outward-facing site; the job is to make that thin layer findable and consistent, not to relocate it. <em>(Evidence: <code>analysis/full-faculty-context.md</code>.)</em></p>
+<h2 id="4-the-service-model-verdict">4. The service-model verdict</h2>
+<p><strong>The central-and-faculty division of labour is the right one — but it is being run without the connective tissue that makes it work.</strong> students.unimelb.edu.au is the correct owner of the transactional spine; faculties are the correct owners of placements, course plans, discipline skills and forms. What's missing is everything <em>between</em> them: consistent addressing, mutual signposting, a students.unimelb.edu.au presence for placements/course-planning, connected careers, consolidated school sites, and enforced standards. The fix is therefore <strong>not</strong> re-drawing ownership (centralise/decentralise) — it is <strong>engineering the seams</strong>.</p>
+<h2 id="5-discussion-points-for-deag">5. Discussion points for DEAG</h2>
+<ol type="1">
+<li><strong>Autonomy vs consistency.</strong> Faculties have invested years in genuinely useful content. Standards must be <em>mandated</em> (the URL chaos proves advisory guidance has failed) without gutting faculty ownership. How much standardisation will DEAG require, and with what authority?</li>
+<li><strong>The 85%-unique reality.</strong> It takes "lift-and-shift to students.unimelb.edu.au" off the table. Does DEAG accept that the goal is a <em>connected federation</em>, not a single site?</li>
+<li><strong>School-level sites (MBS, Biomedical, Dental).</strong> Tolerate, standardise, or consolidate into their faculty? MBS in particular is effectively a second business-school experience under FBE.</li>
+<li><strong>The careers silo.</strong> The clearest single win — but who owns students.unimelb.edu.au↔︎faculty careers bridge, and will faculties agree to embed the central tools?</li>
+<li><strong>students.unimelb.edu.au gaps.</strong> Filling placements / course-planning gateways means the central team owns <em>new</em> content. Is there capacity, or should these be thin "connector" pages that point into faculty content?</li>
+<li><strong>Governance teeth.</strong> What mandate will DEAG actually back — standards as policy, with audit and consequences, or another advisory guideline?</li>
+<li><strong>Personalisation as an accelerator.</strong> If Optimizely + Tealium (CDP) are in the University's martech stack, a <em>personalised students.unimelb.edu.au</em> could surface the right faculty content to a known student without moving any pages — potentially leapfrogging migration. <strong>This needs confirming</strong> (see decision ask).</li>
+</ol>
+<h2 id="6-options-recalibrated-to-the-evidence">6. Options (recalibrated to the evidence)</h2>
+<table>
+<thead>
+<tr>
+<th>Option</th>
+<th>What it is</th>
+<th>Verdict against the evidence</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>A. Full centralisation</strong></td>
+<td>Move faculty CS content to students.unimelb.edu.au</td>
+<td><strong>Reject.</strong> 997 unique, discipline-specific pages (clinical compliance, studios, legal skills) cannot be owned or maintained centrally.</td>
+</tr>
+<tr>
+<td><strong>B. Status quo + light governance</strong></td>
+<td>Keep everything, add advisory standards</td>
+<td><strong>Insufficient.</strong> Advisory standards already failed (6 URL conventions). Doesn't fix careers, gaps or school sites.</td>
+</tr>
+<tr>
+<td><strong>C. Central-and-spoke with standards <em>(recommended)</em></strong></td>
+<td>students.unimelb.edu.au owns the transactional spine <strong>and fills its gaps</strong> (placements, course-planning, careers bridge); faculties keep discipline content under a mandated template, URL and signposting standard; school sites consolidated</td>
+<td><strong>Best fit.</strong> Matches the 85%-unique reality, fixes the seams, preserves faculty investment, achievable in ~12 months.</td>
+</tr>
+<tr>
+<td><strong>D. Central-and-spoke + CDP personalisation</strong></td>
+<td>Option C <strong>plus</strong> a personalised students.unimelb.edu.au (Optimizely/Tealium) that surfaces a student's faculty content automatically</td>
+<td><strong>Strongest <em>if</em> the martech exists.</strong> Adds a modern, personalised front door with no extra migration. Contingent on stack + data.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Recommendation: adopt C now, and upgrade to D if Optimizely/Tealium are confirmed.</strong></p>
+<h2 id="7-the-decision-asked-of-deag">7. The decision asked of DEAG</h2>
+<ul>
+<li><strong>Decision 1 — Endorse the direction (C/D), ruling out full centralisation and status quo.</strong></li>
+<li><strong>Decision 2 — Approve the no-regrets actions to begin immediately</strong> (Section 8). These deliver visible improvement inside a quarter and need no structural change.</li>
+<li><strong>Decision 3 — Mandate a standards baseline and commission a scoped Phase 2</strong> (students.unimelb.edu.au gap-fill + school-site consolidation policy + governance with audit). Confirm whether Optimizely/Tealium are available to determine C vs D.</li>
 </ul>
-
-<h2 class="page-break"><span class="section-num">06</span> &nbsp;Options (recalibrated to the evidence)</h2>
+<h2 id="8-no-regrets-actions-start-now-regardless-of-the-above">8. No-regrets actions (start now, regardless of the above)</h2>
 <table>
-<thead><tr><th style="width:20%">Option</th><th style="width:38%">What it is</th><th>Verdict against the evidence</th></tr></thead>
+<thead>
+<tr>
+<th>Action</th>
+<th>Why</th>
+<th>Effort</th>
+</tr>
+</thead>
 <tbody>
-<tr><td><strong>A. Full centralisation</strong></td><td>Move faculty CS content to the hub</td><td><strong>Reject.</strong> 997 unique, discipline-specific pages (clinical compliance, studios, legal skills) cannot be owned or maintained centrally.</td></tr>
-<tr><td><strong>B. Status quo + light governance</strong></td><td>Keep everything, add advisory standards</td><td><strong>Insufficient.</strong> Advisory standards already failed (6 URL conventions). Doesn't fix careers, gaps or school sites.</td></tr>
-<tr style="background:#eafaff"><td><strong>C. Hub-and-spoke with standards <span style="color:var(--cyan-h)">(recommended)</span></strong></td><td>Hub owns the transactional spine <em>and fills its gaps</em> (placements, course-planning, careers bridge); faculties keep discipline content under a mandated template, URL &amp; signposting standard; school sites consolidated</td><td><strong>Best fit.</strong> Matches the 85%-unique reality, fixes the seams, preserves faculty investment, achievable in ~12 months.</td></tr>
-<tr><td><strong>D. Hub-and-spoke + CDP personalisation</strong></td><td>Option C <em>plus</em> a personalised hub (Optimizely/Tealium) surfacing a student's faculty content automatically</td><td><strong>Strongest <em>if</em> the martech exists.</strong> Modern personalised front door, no extra migration. Contingent on stack + data.</td></tr>
+<tr>
+<td><strong>Standardise the URL</strong> to <code>faculty.unimelb.edu.au/students</code> + 301-redirect the five variants</td>
+<td>Discoverability; kills the 404 trap</td>
+<td>Low</td>
+</tr>
+<tr>
+<td><strong>Ship a "Where do I go for X?" component</strong> on every faculty CS page</td>
+<td>Directly fixes Finding 8 — the single highest-impact student fix</td>
+<td>Low–Med</td>
+</tr>
+<tr>
+<td><strong>Fix the ~50 broken/misrouting pages</strong> (Biomedical 18, FEIT 17 first)</td>
+<td>Removes the worst quality debt; stops routing students to the wrong catalogue</td>
+<td>Low</td>
+</tr>
+<tr>
+<td><strong>Cross-link careers</strong> both ways (students.unimelb.edu.au ↔︎ every faculty)</td>
+<td>Fixes the clearest failure in the estate</td>
+<td>Low</td>
+</tr>
+<tr>
+<td><strong>Publish the standard CS template</strong> (key contacts · course planning · placements · faculty life · forms · "where to go")</td>
+<td>Baseline every faculty/school section can adopt</td>
+<td>Med</td>
+</tr>
 </tbody>
 </table>
-<div class="rec"><strong>Recommendation:</strong> adopt <strong>C</strong> now, and upgrade to <strong>D</strong> if Optimizely/Tealium are confirmed.</div>
-
-<h2><span class="section-num">07</span> &nbsp;The decision asked of DEAG</h2>
-<ul class="tight">
-<li><strong>Decision 1 — Endorse the direction (C/D)</strong>, ruling out full centralisation and status quo.</li>
-<li><strong>Decision 2 — Approve the no-regrets actions to begin immediately</strong> (below). Visible improvement within a quarter; no structural change.</li>
-<li><strong>Decision 3 — Mandate a standards baseline and commission a scoped Phase 2</strong> (hub gap-fill + school-site consolidation policy + governance with audit). Confirm whether Optimizely/Tealium are available to determine C vs D.</li>
-</ul>
-
-<h2><span class="section-num">08</span> &nbsp;No-regrets actions (start now, regardless)</h2>
+<h2 id="appendix-a--measured-evidence-per-unit">Appendix A — Measured evidence (per unit)</h2>
 <table>
-<thead><tr><th style="width:42%">Action</th><th>Why</th><th style="width:14%">Effort</th></tr></thead>
+<thead>
+<tr>
+<th>Unit</th>
+<th>Level</th>
+<th style="text-align: right;">Pages</th>
+<th style="text-align: right;">Unique</th>
+<th style="text-align: right;">Mixed</th>
+<th style="text-align: right;">Link-farm</th>
+<th style="text-align: right;">Broken</th>
+<th>CS URL pattern</th>
+</tr>
+</thead>
 <tbody>
-<tr><td><strong>Standardise the URL</strong> to <span class="mono">faculty…/students</span> + 301-redirect the five variants</td><td>Discoverability; kills the 404 trap</td><td>Low</td></tr>
-<tr><td><strong>Ship a "Where do I go for X?" component</strong> on every faculty CS page</td><td>Directly fixes Finding 8 — highest-impact student fix</td><td>Low–Med</td></tr>
-<tr><td><strong>Fix the ~50 broken/misrouting pages</strong> (Biomedical 18, FEIT 17 first)</td><td>Removes worst quality debt; stops mis-routing students</td><td>Low</td></tr>
-<tr><td><strong>Cross-link careers</strong> both ways (hub ↔ every faculty)</td><td>Fixes the clearest failure in the estate</td><td>Low</td></tr>
-<tr><td><strong>Publish the standard CS template</strong> (contacts · course planning · placements · faculty life · forms · "where to go")</td><td>Baseline every faculty/school section can adopt</td><td>Med</td></tr>
+<tr>
+<td>Law</td>
+<td>Faculty</td>
+<td style="text-align: right;">195</td>
+<td style="text-align: right;">162</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">23</td>
+<td style="text-align: right;">0</td>
+<td><code>/students</code></td>
+</tr>
+<tr>
+<td>FEIT</td>
+<td>Faculty</td>
+<td style="text-align: right;">204</td>
+<td style="text-align: right;">174</td>
+<td style="text-align: right;">13</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">17</td>
+<td><code>/students</code></td>
+</tr>
+<tr>
+<td>Arts</td>
+<td>Faculty</td>
+<td style="text-align: right;">91</td>
+<td style="text-align: right;">51</td>
+<td style="text-align: right;">24</td>
+<td style="text-align: right;">13</td>
+<td style="text-align: right;">3</td>
+<td><code>/students</code></td>
+</tr>
+<tr>
+<td>Science</td>
+<td>Faculty</td>
+<td style="text-align: right;">94</td>
+<td style="text-align: right;">91</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1</td>
+<td><code>/students</code></td>
+</tr>
+<tr>
+<td>ABP / MSD</td>
+<td>Faculty</td>
+<td style="text-align: right;">250*</td>
+<td style="text-align: right;">240</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">6</td>
+<td><code>/current-students</code></td>
+</tr>
+<tr>
+<td>FBE</td>
+<td>Faculty</td>
+<td style="text-align: right;">36</td>
+<td style="text-align: right;">31</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">2</td>
+<td><code>/students</code></td>
+</tr>
+<tr>
+<td>Education</td>
+<td>Faculty</td>
+<td style="text-align: right;">47</td>
+<td style="text-align: right;">32</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">0</td>
+<td><code>/study/current-students</code></td>
+</tr>
+<tr>
+<td>FFAM</td>
+<td>Faculty</td>
+<td style="text-align: right;">37</td>
+<td style="text-align: right;">28</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">0</td>
+<td><code>/current-students</code></td>
+</tr>
+<tr>
+<td>MDHS</td>
+<td>Faculty</td>
+<td style="text-align: right;">112</td>
+<td style="text-align: right;">104</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">3</td>
+<td><code>/study/current-students</code></td>
+</tr>
+<tr>
+<td><strong>MBS</strong></td>
+<td>School (FBE)</td>
+<td style="text-align: right;">61</td>
+<td style="text-align: right;">60</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td><code>/students</code></td>
+</tr>
+<tr>
+<td><strong>Biomedical Sci.</strong></td>
+<td>School (MDHS)</td>
+<td style="text-align: right;">42</td>
+<td style="text-align: right;">21</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">18</td>
+<td><code>/study/current-student-information</code></td>
+</tr>
+<tr>
+<td><strong>Dental</strong></td>
+<td>School (MDHS)</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td><code>/study/student-resources</code></td>
+</tr>
+<tr>
+<td><strong>Total</strong></td>
+<td></td>
+<td style="text-align: right;"><strong>1,173</strong></td>
+<td style="text-align: right;"><strong>997 (85%)</strong></td>
+<td style="text-align: right;"><strong>79</strong></td>
+<td style="text-align: right;"><strong>47</strong></td>
+<td style="text-align: right;"><strong>50</strong></td>
+<td><strong>6 conventions</strong></td>
+</tr>
 </tbody>
 </table>
-
-<h2 class="page-break"><span class="section-num">A</span> &nbsp;Appendix — measured evidence (per unit)</h2>
+<p>* ABP capped at 250; a further ~700 studio-archive pages of one repeating type were not individually crawled.</p>
+<h2 id="appendix-b--topic-evidence-18-topics">Appendix B — Topic evidence (18 topics)</h2>
+<p><em>Page counts are <strong>cleaned content totals</strong> from the corrected dataset (<code>data/clean/</code>) — profile/archive pages, namespace artefacts and over-broad tags removed. The raw → cleaned moves are in <code>data/clean/topic-false-positive-rates.csv</code>.</em></p>
 <table>
-<thead><tr><th>Unit</th><th>Level</th><th class="num">Pages</th><th class="num">Unique</th><th class="num">Mixed</th><th class="num">Link-farm</th><th class="num">Broken</th><th>CS URL pattern</th></tr></thead>
+<thead>
+<tr>
+<th>Topic</th>
+<th style="text-align: right;">Pages</th>
+<th>Verdict</th>
+<th>What the evidence shows</th>
+</tr>
+</thead>
 <tbody>
-<tr><td>Law</td><td>Faculty</td><td class="num">195</td><td class="num">162</td><td class="num">10</td><td class="num">23</td><td class="num">0</td><td><span class="mono">/students</span></td></tr>
-<tr><td>FEIT</td><td>Faculty</td><td class="num">204</td><td class="num">174</td><td class="num">13</td><td class="num">0</td><td class="num">17</td><td><span class="mono">/students</span></td></tr>
-<tr><td>Arts</td><td>Faculty</td><td class="num">91</td><td class="num">51</td><td class="num">24</td><td class="num">13</td><td class="num">3</td><td><span class="mono">/students</span></td></tr>
-<tr><td>Science</td><td>Faculty</td><td class="num">94</td><td class="num">91</td><td class="num">2</td><td class="num">0</td><td class="num">1</td><td><span class="mono">/students</span></td></tr>
-<tr><td>ABP / MSD</td><td>Faculty</td><td class="num">250*</td><td class="num">240</td><td class="num">4</td><td class="num">0</td><td class="num">6</td><td><span class="mono">/current-students</span></td></tr>
-<tr><td>FBE</td><td>Faculty</td><td class="num">36</td><td class="num">31</td><td class="num">3</td><td class="num">0</td><td class="num">2</td><td><span class="mono">/students</span></td></tr>
-<tr><td>Education</td><td>Faculty</td><td class="num">47</td><td class="num">32</td><td class="num">10</td><td class="num">5</td><td class="num">0</td><td><span class="mono">/study/current-students</span></td></tr>
-<tr><td>FFAM</td><td>Faculty</td><td class="num">37</td><td class="num">28</td><td class="num">4</td><td class="num">5</td><td class="num">0</td><td><span class="mono">/current-students</span></td></tr>
-<tr><td>MDHS</td><td>Faculty</td><td class="num">112</td><td class="num">104</td><td class="num">4</td><td class="num">1</td><td class="num">3</td><td><span class="mono">/study/current-students</span></td></tr>
-<tr><td>MBS</td><td>School (FBE)</td><td class="num">61</td><td class="num">60</td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td><span class="mono">/students</span></td></tr>
-<tr><td>Biomedical Sci.</td><td>School (MDHS)</td><td class="num">42</td><td class="num">21</td><td class="num">3</td><td class="num">0</td><td class="num">18</td><td><span class="mono">/study/current-student-information</span></td></tr>
-<tr><td>Dental</td><td>School (MDHS)</td><td class="num">4</td><td class="num">3</td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td><span class="mono">/study/student-resources</span></td></tr>
-<tr class="total"><td>Total</td><td></td><td class="num">1,173</td><td class="num">997</td><td class="num">79</td><td class="num">47</td><td class="num">50</td><td>6 conventions</td></tr>
+<tr>
+<td>Subjects &amp; timetabling</td>
+<td style="text-align: right;">174</td>
+<td>mixed</td>
+<td>Studio archive (~140 pages) now excluded; the remainder is a thin central-owned timetabling spine echoed by faculties.</td>
+</tr>
+<tr>
+<td>Orientation</td>
+<td style="text-align: right;">76</td>
+<td>faculty layer</td>
+<td>FEIT's <code>/orientation</code> path-nesting removed (FEIT ~48); genuine orientation is a thin faculty welcome layer.</td>
+</tr>
+<tr>
+<td>Research candidature</td>
+<td style="text-align: right;">96</td>
+<td>faculty-owned</td>
+<td>Legit (milestones, studios, funding); ~70 Law researcher bios now excluded; faculties own the candidature lifecycle spine.</td>
+</tr>
+<tr>
+<td>IT &amp; systems</td>
+<td style="text-align: right;">14</td>
+<td>central-owned</td>
+<td>Mis-classified FEIT content removed; the genuine IT estate is ~14 — central owns the Student IT / LMS / portal spine.</td>
+</tr>
+<tr>
+<td><strong>Transactional admin</strong> (enrol · exams · special-con · fees · library)</td>
+<td style="text-align: right;">~105</td>
+<td><strong>central-owned</strong></td>
+<td><strong>Only ~6 on the central domain</strong>; the rest are faculty restatements — the clearest consolidation target.</td>
+</tr>
+<tr>
+<td>Student life</td>
+<td style="text-align: right;">68</td>
+<td>faculty-owned</td>
+<td>Largely legit (clubs, mentoring, awards); Science committee-member bios now excluded.</td>
+</tr>
+<tr>
+<td>Forms &amp; admin</td>
+<td style="text-align: right;">23</td>
+<td>mixed</td>
+<td>Over-broad "form/admin" matches removed; genuine forms pages are few but scattered, with no central index.</td>
+</tr>
+<tr>
+<td>Course planning</td>
+<td style="text-align: right;">107</td>
+<td>faculty-owned</td>
+<td>Degree-specific plans; MBS + Biomedical ≈ 46%; thin central-overlap.</td>
+</tr>
+<tr>
+<td>Placements &amp; WIL</td>
+<td style="text-align: right;">186</td>
+<td>faculty-owned</td>
+<td>MDHS 47% (clinical compliance); near-zero central overlap; the gap is discoverability, not duplication.</td>
+</tr>
+<tr>
+<td>Contacts &amp; support</td>
+<td style="text-align: right;">26</td>
+<td>mixed</td>
+<td>Over-broad "contact/help/support" matches removed; genuine pages are mostly restatements of central wellbeing/careers.</td>
+</tr>
+<tr>
+<td>Careers &amp; employability</td>
+<td style="text-align: right;">63</td>
+<td>mixed</td>
+<td>Legit core (pathways, internships, mentoring) + a duplicated "Employability in X" layer.</td>
+</tr>
+<tr>
+<td>Scholarships</td>
+<td style="text-align: right;">100</td>
+<td>consolidate</td>
+<td>Central holds zero; mostly generic process scaffolding → fold into central <code>scholarships.unimelb.edu.au</code>.</td>
+</tr>
+<tr>
+<td>International</td>
+<td style="text-align: right;">74</td>
+<td>mislabelled</td>
+<td>~80% is outbound mobility; genuine inbound support (visas/OSHC) is absent and central-owned.</td>
+</tr>
+<tr>
+<td>Graduation</td>
+<td style="text-align: right;">0</td>
+<td>misnomer</td>
+<td>Almost entirely HDR candidature + honours, not ceremonies (re-tagged to research candidature); the apply-to-graduate ceremony spine is missing.</td>
+</tr>
+<tr>
+<td>Clubs &amp; events</td>
+<td style="text-align: right;">46</td>
+<td>faculty-owned</td>
+<td>Community content; only the generic club-admin wrapper overlaps the central site.</td>
+</tr>
+<tr>
+<td>Wellbeing &amp; health</td>
+<td style="text-align: right;">37</td>
+<td>mixed</td>
+<td>Half is MDHS clinical compliance; 6 near-duplicate "Wellbeing + Ambassadors" landings to collapse.</td>
+</tr>
+<tr>
+<td>Inclusion &amp; equity</td>
+<td style="text-align: right;">18</td>
+<td>consolidate</td>
+<td>~18 real pages parallel-reinvent the central service.</td>
+</tr>
+<tr>
+<td>Academic skills</td>
+<td style="text-align: right;">40</td>
+<td>central-overlap</td>
+<td>Discipline skills are legit; generic landings duplicate the central service.</td>
+</tr>
 </tbody>
 </table>
-<p><small>* ABP capped at 250; a further ~700 studio-archive pages of one repeating type were not individually crawled. "Unique" = page carries substantive original prose; "link-farm" = mostly routes elsewhere; "mixed" = unique prose + heavy redirection.</small></p>
+<p><em>Evidence base: <code>crawl/pages/*.json</code> (1,173 records) + cleaned dataset <code>data/clean/</code>, <code>analysis/</code>, <code>data/</code>. Full corpus available on request.</em></p>
 
-<h2 class="page-break"><span class="section-num">B</span> &nbsp;Appendix — topic evidence (18 topics)</h2>
-<p><small>Page counts are topic-tag totals (deduped) and are inflated by classifier artifacts (noted in the "Verdict" column); the per-topic deep-dive notes correct for this. Full notes + page lists: <span class="mono">analysis/topic-deepdives/</span>.</small></p>
-<table>
-<thead><tr><th>Topic</th><th class="num">Pages</th><th>Verdict</th><th>What the evidence shows</th></tr></thead>
-<tbody>
-<tr><td>Subjects &amp; timetabling</td><td class="num">319</td><td>mixed</td><td>64% is ABP/MSD's design-studio archive; the rest a thin hub-owned timetabling spine echoed by faculties.</td></tr>
-<tr><td>Orientation</td><td class="num">289</td><td>inflated</td><td>FEIT holds 71% via <span class="mono">/orientation</span> path-nesting; genuine orientation is a thin faculty welcome layer.</td></tr>
-<tr><td>Research candidature</td><td class="num">241</td><td>faculty-owned</td><td>Legit (milestones, studios, funding); +~70 Law researcher bios; hub-own the candidature lifecycle spine.</td></tr>
-<tr><td>IT &amp; systems</td><td class="num">235</td><td>artefact tag</td><td>78% mis-classified FEIT content; hub owns the Student IT / LMS / portal spine.</td></tr>
-<tr><td><strong>Transactional admin</strong> (enrol · exams · special-con · fees · library)</td><td class="num">227</td><td><strong>hub-owned</strong></td><td><strong>Only 6 of 227 pages on the hub domain</strong>; rest are faculty restatements — the clearest consolidation target.</td></tr>
-<tr><td>Student life</td><td class="num">214</td><td>faculty-owned</td><td>Largely legit (clubs, mentoring, awards); ~⅓ is MSD/Science roster bloat.</td></tr>
-<tr><td>Forms &amp; admin</td><td class="num">212</td><td>mixed</td><td>Law + MDHS heavy (compliance); offer/enrolment/special-con admin overlaps the hub.</td></tr>
-<tr><td>Course planning</td><td class="num">207</td><td>faculty-owned</td><td>Degree-specific plans; MBS + Biomedical = 46%; thin hub-overlap (generic advice, re-hosted planner).</td></tr>
-<tr><td>Placements &amp; WIL</td><td class="num">206</td><td>faculty-owned</td><td>MDHS 47% (clinical compliance); near-zero hub overlap; the gap is discoverability, not duplication.</td></tr>
-<tr><td>Contacts &amp; support</td><td class="num">177</td><td>mixed</td><td>~half is Arts + Law restatements of hub wellbeing/equity/careers + stub pages.</td></tr>
-<tr><td>Careers &amp; employability</td><td class="num">141</td><td>mixed</td><td>Legit core (pathways, internships, mentoring) + a duplicated "Employability in X" layer.</td></tr>
-<tr><td>Scholarships</td><td class="num">141</td><td>consolidate</td><td>Hub holds zero; mostly generic process scaffolding → fold into central <span class="mono">scholarships.unimelb.edu.au</span>.</td></tr>
-<tr><td>International</td><td class="num">135</td><td>mislabelled</td><td>~80% is outbound mobility; genuine inbound support (visas/OSHC) is absent and hub-owned.</td></tr>
-<tr><td>Graduation</td><td class="num">125</td><td>misnomer</td><td>HDR candidature lifecycle + honours, not ceremonies; the apply-to-graduate spine is missing.</td></tr>
-<tr><td>Clubs &amp; events</td><td class="num">104</td><td>faculty-owned</td><td>Community content; only the generic club-admin wrapper overlaps the hub.</td></tr>
-<tr><td>Wellbeing &amp; health</td><td class="num">87</td><td>mixed</td><td>Half is MDHS clinical compliance; 6 near-duplicate "Wellbeing + Ambassadors" landings to collapse.</td></tr>
-<tr><td>Inclusion &amp; equity</td><td class="num">49</td><td>consolidate</td><td>Noise-heavy; ~13 real pages parallel-reinvent the central service.</td></tr>
-<tr><td>Academic skills</td><td class="num">37</td><td>hub-overlap</td><td>Discipline skills are legit; generic landings duplicate the central service.</td></tr>
-</tbody>
-</table>
-
-<footer class="note">Evidence base: <span class="mono">crawl/pages/*.json</span> (1,173 records), <span class="mono">analysis/</span>, <span class="mono">data/</span>. Prepared for the Digital Experience Advisory Group, University of Melbourne · June 2026.</footer>
-
-</body>
-</html>
+</div></body></html>

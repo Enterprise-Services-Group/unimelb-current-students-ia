@@ -1,11 +1,11 @@
 # Service-Model Matrix — Who Provides What
 
-*Evidence from crawl of 9 faculty CS sections + central hub (584 fully crawled pages + ~200 IA-captured). June 2026.*
+*Evidence from crawl of 9 faculty CS sections + students.unimelb.edu.au (584 fully crawled pages + ~200 IA-captured). June 2026.*
 
 **Legend:**
-- **H** = Hub provides (students.unimelb.edu.au is the primary/definitive source)
+- **H** = students.unimelb.edu.au provides (students.unimelb.edu.au is the primary/definitive source)
 - **F** = Faculty provides (faculty CS section is the primary source)
-- **B** = Both provide (faculty and hub both have content — potential duplication)
+- **B** = Both provide (faculty and students.unimelb.edu.au both have content — potential duplication)
 - **—** = Not applicable / not observed
 - **S** = School-level provides (below faculty, on school subdomain — fragmentation risk)
 
@@ -13,7 +13,7 @@
 
 ## Service Category × Faculty Matrix
 
-| Service | Hub | Law | FEIT | Arts | Science | ABP | FBE | Education | FFAM | MDHS |
+| Service | students.unimelb.edu.au | Law | FEIT | Arts | Science | ABP | FBE | Education | FFAM | MDHS |
 |---------|-----|-----|------|-------|---------|-----|-----|-----------|------|------|
 | **Enrolment & course admin** | H | B | B | B | B | H→ | H→ | B | F | H→ |
 | **Exams, assessment & results** | H | B | F | H→ | H→ | H→ | H→ | B | F | H→ |
@@ -39,8 +39,8 @@
 
 ## Key Patterns in the Matrix
 
-### 1. The Hub is definitive for transactional admin
-Enrolment, fees, key dates, graduation, special consideration, results — the hub is the single source of truth. Faculties that provide parallel content for these (FEIT, Law, Arts) are duplicating.
+### 1. The students.unimelb.edu.au is definitive for transactional admin
+Enrolment, fees, key dates, graduation, special consideration, results — students.unimelb.edu.au is the single source of truth. Faculties that provide parallel content for these (FEIT, Law, Arts) are duplicating.
 
 ### 2. Faculty-specific content is concentrated in 4 areas
 Every faculty runs its own content for:
@@ -62,43 +62,43 @@ Four different URL patterns for the same "Current Students" concept:
 - `/study/current-students` — Education, MDHS
 - No consistent pattern for school-level CS
 
-### 5. Hub dependency varies dramatically
-- **FEIT, Law, Science** — low hub dependency, self-contained ecosystems
-- **ABP, FBE** — high hub dependency, mostly a link directory
-- **FFAM** — lowest hub dependency, entirely self-contained for conservatorium needs
-- **Education** — mixed: unique program content + heavy hub redirect for transactions
+### 5. students.unimelb.edu.au dependency varies dramatically
+- **FEIT, Law, Science** — low students.unimelb.edu.au dependency, self-contained ecosystems
+- **ABP, FBE** — high students.unimelb.edu.au dependency, mostly a link directory
+- **FFAM** — lowest students.unimelb.edu.au dependency, entirely self-contained for conservatorium needs
+- **Education** — mixed: unique program content + heavy students.unimelb.edu.au redirect for transactions
 
 ### 6. Careers & employability is the most duplicated service
-Every faculty runs career content (mentoring, internships, career pathways) in parallel with the central careers hub. MBS has its own branded career service (mbs.unimelb.edu.au/career). This is the clearest case for unification.
+Every faculty runs career content (mentoring, internships, career pathways) in parallel with the central Careers service. MBS has its own branded career service (mbs.unimelb.edu.au/career). This is the clearest case for unification.
 
 ### 7. Forms are faculty-specific and legitimate
 Every faculty has its own forms (placement applications, ensemble registration, special permission, clinic enrolment). These cannot be centralized — they're operational requirements of each discipline.
 
 ### 8. MDHS is the most fragmented
-Content scattered across faculty hub + 3+ school subdomains with different URL patterns. A Biomedicine student potentially navigates 3 different CS experiences (hub, MDHS faculty, Biomedical Sciences school).
+Content scattered across faculty central page + 3+ school subdomains with different URL patterns. A Biomedicine student potentially navigates 3 different CS experiences (students.unimelb.edu.au, MDHS faculty, Biomedical Sciences school).
 
 ---
 
 ## Duplication Heatmap
 
-| Service | Faculties duplicating hub | Duplication severity |
+| Service | Faculties duplicating students.unimelb.edu.au | Duplication severity |
 |---------|--------------------------|---------------------|
 | Careers & employability | 8/9 | 🔴 High — every faculty runs career content |
 | Course planning | 9/9 + schools | 🔴 High — but mostly legitimate (degree-specific) |
 | Student life & clubs | 8/9 | 🟡 Medium — faculty newsletters, events, clubs |
 | Academic skills | 5/9 | 🟡 Medium — faculty-specific tutoring |
-| Scholarships | 7/9 | 🟡 Medium — faculty prizes vs hub search |
+| Scholarships | 7/9 | 🟡 Medium — faculty prizes vs students.unimelb.edu.au search |
 | Health & wellbeing | 6/9 | 🟡 Medium — faculty wellbeing pages |
-| Enrolment & course admin | 4/9 | 🟢 Low — mostly hub-redirect |
-| Exams & assessment | 3/9 | 🟢 Low — mostly hub-redirect |
+| Enrolment & course admin | 4/9 | 🟢 Low — mostly central-redirect |
+| Exams & assessment | 3/9 | 🟢 Low — mostly central-redirect |
 | Placements & WIL | 7/9 | 🟢 Low — legitimate faculty-specific |
 
 ---
 
-## What the Hub Does NOT Cover (Genuine Gaps)
+## What the students.unimelb.edu.au Does NOT Cover (Genuine Gaps)
 
-These services exist **only** on faculty sites — the hub has no equivalent:
-1. **Course plans / sample course plans** — every faculty, no hub equivalent
+These services exist **only** on faculty sites — students.unimelb.edu.au has no equivalent:
+1. **Course plans / sample course plans** — every faculty, no students.unimelb.edu.au equivalent
 2. **Placement/practicum management** — clinical, teaching, legal, engineering
 3. **Discipline-specific academic skills** — legal writing, lab skills, performance
 4. **Faculty forms** — ensemble registration, clinic enrolment, placement applications

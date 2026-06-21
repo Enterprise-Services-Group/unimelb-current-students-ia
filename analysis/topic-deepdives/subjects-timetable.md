@@ -1,7 +1,7 @@
 # Topic Deep-Dive: Subjects & Timetabling
 *Cross-faculty analysis from the full crawl. June 2026.*
 
-**319 subjects-timetable–tagged pages** make this the single largest content topic in the audit. But the volume is wildly skewed: one school (ABP/MSD) holds **64%** of it, almost entirely as design-studio subject pages and studio archives going back to 2008. Strip those out and the topic is small and split — a thin layer of genuinely transactional hub content (MyTimetable, census dates, overloading) mis-attributed to faculties, plus legitimately discipline-specific subject catalogues (clinics, studios, internships, quota subjects). The duplication problem here is *archival bloat*, not cross-faculty redundancy.
+**319 subjects-timetable–tagged pages** make this the single largest content topic in the audit. But the volume is wildly skewed: one school (ABP/MSD) holds **64%** of it, almost entirely as design-studio subject pages and studio archives going back to 2008. Strip those out and the topic is small and split — a thin layer of genuinely transactional students.unimelb.edu.au content (MyTimetable, census dates, overloading) mis-attributed to faculties, plus legitimately discipline-specific subject catalogues (clinics, studios, internships, quota subjects). The duplication problem here is *archival bloat*, not cross-faculty redundancy.
 
 ## Distribution — who holds it
 
@@ -10,7 +10,7 @@
 | Architecture, Building & Planning (MSD) | 204 | Design studios + travelling-studio archives (2008–2026) |
 | Law | 30 | Daily-rebuilt subject listings, MLS clinic subjects, subject delivery |
 | Education | 25 | Placement-bound subjects, extensions/assessment, timetabling |
-| Arts | 21 | Experiential-learning/internship subjects + re-hosted hub pages |
+| Arts | 21 | Experiential-learning/internship subjects + re-hosted students.unimelb.edu.au pages |
 | Science | 15 | First-year subject sets, internship & research-project subjects, quota |
 | MDHS | 7 | Placement subjects (during/conclusion of placement) |
 | Engineering & IT (FEIT) | 6 | Internship subjects, MyTimetable/class-registration re-hosts |
@@ -26,7 +26,7 @@ ABP/MSD alone is bigger than every other unit combined. The count is inflated by
 
 1. **Design-studio subject pages & studio archives** — the dominant category by raw count, and effectively unique to one school. *MSD* runs ~150+ pages under `subject-information/msd-studios` and `travelling-studios` — current offerings ("Open Studio: Worlding", "Threshold", "Wasteocene") plus a deep year-by-year archive ("Semester 1 2017 Thesis 5", "2009 Past Studios"). Discipline-specific and pedagogically real, but the historical archive drives most of the volume.
 
-2. **The hub transactional spine (re-surfaced through faculties)** — the genuinely cross-cutting, transactional pages every student needs, owned by the hub but crawled under faculty tags because faculties link to them. Hub-domain pages caught here: **"Class timetable"** ("MyTimetable is the system you use to create and view your class schedule"), **"Check your subject census dates"** ("Every subject offered by the University has a census date"), **"Overloading"** ("enrol in more subjects than the standard amount… you will need to apply to overload"), **"Cross-institutional study"**. *Arts* surfaces all four; *FEIT* re-hosts MyTimetable as "Graduate Coursework Students (Domestic/International)".
+2. **students.unimelb.edu.au transactional spine (re-surfaced through faculties)** — the genuinely cross-cutting, transactional pages every student needs, owned by students.unimelb.edu.au but crawled under faculty tags because faculties link to them. central domain pages caught here: **"Class timetable"** ("MyTimetable is the system you use to create and view your class schedule"), **"Check your subject census dates"** ("Every subject offered by the University has a census date"), **"Overloading"** ("enrol in more subjects than the standard amount… you will need to apply to overload"), **"Cross-institutional study"**. *Arts* surfaces all four; *FEIT* re-hosts MyTimetable as "Graduate Coursework Students (Domestic/International)".
 
 3. **Subject catalogues / "what subjects can I take" listings** — discipline-scoped lists of available subjects. *Law* "JD subjects" (2,103w) and "MLM subjects" (1,901w) are daily-rebuilt listings ("This page is updated daily… considered indicative at the time of last update") — Handbook-derived data restated locally. *Science* "First year subject sets" and the per-discipline "starting in the Bachelor of Science" guides.
 
@@ -40,25 +40,25 @@ ABP/MSD alone is bigger than every other unit combined. The count is inflated by
 
 8. **Subject enrolment mechanics & requirements** — enrolling in / selecting subjects. *Education* "Course Enrolment", "Subject Enrolment", "Permission to Teach"; *FBE* "Compulsory Quantitative Requirement", "Summer & Winter Intensives"; *MBS* "Subject Selection and Advanced Standing"; *Biomedical* "Plan your First Year Subjects".
 
-## Legitimate vs hub-overlapping
+## Legitimate vs central-overlapping
 
-| Faculty-owned (cannot be centralised) | Overlaps the hub (consolidation candidate) |
+| Faculty-owned (cannot be centralised) | Overlaps students.unimelb.edu.au (consolidation candidate) |
 |---|---|
 | Design-studio offerings & catalogues (MSD) | Re-hosted MyTimetable / class timetable (FEIT, Arts) |
 | Clinic & internship subjects (Law, Arts, Science, FEIT) | Census-date / overloading restatements |
-| Quota-subject rules (per discipline) | Cross-institutional study (Law restates the hub page verbatim) |
+| Quota-subject rules (per discipline) | Cross-institutional study (Law restates students.unimelb.edu.au page verbatim) |
 | Performance/room-booking timetables (FFAM) | Subject-level assessment/extension/special-consideration policy (Education) |
 | Daily subject listings tied to a degree (Law JD/MLM) | Generic "how to enrol in subjects" advice |
 | Subject delivery & acceleration rules (Law, Education) | Studio *archives* (internal record-keeping, not current-student need) |
 
-The balance is unusual for this estate: most of the *raw volume* is legitimately faculty-owned (studios, clinics, catalogues), but it is heavily padded by MSD's historical archive, while the small set of pages students most need — the timetabling/census/overloading spine — is hub-owned and merely echoed by faculties. The redundancy is vertical (faculty restates hub) and archival (MSD keeps everything), not horizontal duplication across faculties.
+The balance is unusual for this estate: most of the *raw volume* is legitimately faculty-owned (studios, clinics, catalogues), but it is heavily padded by MSD's historical archive, while the small set of pages students most need — the timetabling/census/overloading spine — is centrally-owned and merely echoed by faculties. The redundancy is vertical (faculty restates students.unimelb.edu.au) and archival (MSD keeps everything), not horizontal duplication across faculties.
 
 ## Recommendation
-- **Hub owns the transactional spine, unambiguously:** MyTimetable/class timetable, census dates, overloading, and cross-institutional study are single-source-of-truth hub pages. Faculties should *link*, never restate — retire Law's verbatim cross-institutional copy and FEIT's MyTimetable re-hosts.
+- **students.unimelb.edu.au owns the transactional spine, unambiguously:** MyTimetable/class timetable, census dates, overloading, and cross-institutional study are single-source-of-truth students.unimelb.edu.au pages. Faculties should *link*, never restate — retire Law's verbatim cross-institutional copy and FEIT's MyTimetable re-hosts.
 - **Faculties keep the discipline-specific catalogue:** studios, clinics, internship/experiential subjects, performance timetables, and quota rules are genuinely theirs and cannot be centralised.
 - **De-archive MSD:** move the studio archive (2008–2018 "Past Studios" / "Studio Archive" pages — well over half of ABP's 204) out of the current-students estate into a separate showcase/archive. This single move shrinks the topic's footprint by roughly a third and stops the audit being dominated by one school's record-keeping.
-- **Add one hub gateway + standard:** a hub "Subjects & timetabling" page that links every faculty's subject catalogue and the MyTimetable tool, plus a standard that subject-level assessment/extension/special-consideration content (Education's cluster) defers to the central policy page rather than re-authoring it.
-- **Highest-value fix:** **separate the live timetabling spine from archival subject bloat.** Students need MyTimetable, census dates and overloading to be one obvious hub destination; the 130+ MSD archive pages should not sit in the same content class as the page that tells someone when their fees lock in.
+- **Add one students.unimelb.edu.au gateway + standard:** a students.unimelb.edu.au "Subjects & timetabling" page that links every faculty's subject catalogue and the MyTimetable tool, plus a standard that subject-level assessment/extension/special-consideration content (Education's cluster) defers to the central policy page rather than re-authoring it.
+- **Highest-value fix:** **separate the live timetabling spine from archival subject bloat.** Students need MyTimetable, census dates and overloading to be one obvious students.unimelb.edu.au destination; the 130+ MSD archive pages should not sit in the same content class as the page that tells someone when their fees lock in.
 
 ## Appendix — all subjects-timetable pages (319)
 

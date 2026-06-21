@@ -1,0 +1,14 @@
+# macOS
+.DS_Store
+
+# graphify working/cache output (regenerable, not a deliverable)
+graphify-out/
+
+# raw full-domain crawl dumps — keep the processed crawl/full-faculty/*.json only
+crawl/full-faculty/raw_*/
+
+# Office lock/temp files
+~$*
+
+# misc temp
+*.bak

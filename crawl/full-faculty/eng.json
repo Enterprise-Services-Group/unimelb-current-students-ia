@@ -1,0 +1,1680 @@
+{
+  "domain": "eng.unimelb.edu.au",
+  "slug": "eng",
+  "pages_crawled": 239,
+  "pages": [
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/rebel-girls-highlights-inspiring-stories-of-women-in-stem",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/rebel-girls-highlights-inspiring-stories-of-women-in-stem",
+      "title": "\u2018Rebel Girls\u2019 highlights inspiring stories of women in STEM",
+      "wordCount": 353,
+      "fingerprint": "001d78e4d7423211"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/bpmeducation",
+      "normalizedUrl": "https://eng.unimelb.edu.au/bpmeducation",
+      "title": "Business Process Management professional education",
+      "wordCount": 27,
+      "fingerprint": "01206ef465c28170"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/good-news-for-renewables",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/good-news-for-renewables",
+      "title": "Good news for renewables: southern Australia\u2019s offshore winds will stay strong even as the climate changes",
+      "wordCount": 823,
+      "fingerprint": "01b9c433f725af17"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/engage-with-us/giving",
+      "normalizedUrl": "https://eng.unimelb.edu.au/engage-with-us/giving",
+      "title": "Support us",
+      "wordCount": 284,
+      "fingerprint": "020ca801c1139e4a"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/sustainable-resources?in_c=homepage-browse",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/sustainable-resources?in_c=homepage-browse",
+      "title": "Sustainable resources",
+      "wordCount": 70,
+      "fingerprint": "03b17a19a0ea2e4b"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/infrastructure?in_c=homepage-browse",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/infrastructure?in_c=homepage-browse",
+      "title": "Infrastructure - Faculty of Engineering and Information Technology",
+      "wordCount": 70,
+      "fingerprint": "03d1304258f6074f"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/seven-feit-projects-among-recipients-of-2026-arc-discovery-scheme",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/seven-feit-projects-among-recipients-of-2026-arc-discovery-scheme",
+      "title": "Seven FEIT projects among recipients of 2026 ARC Discovery Scheme",
+      "wordCount": 676,
+      "fingerprint": "048289b2b42970d7"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/students-preserve-memories-in-gemstones-with-echogems",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/students-preserve-memories-in-gemstones-with-echogems",
+      "title": "Students preserve memories in gemstones with EchoGems",
+      "wordCount": 694,
+      "fingerprint": "04aace8f127ca895"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/collaborations/how-the-study-of-cheese-microstructures-helps-develop-better-dairy",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/collaborations/how-the-study-of-cheese-microstructures-helps-develop-better-dairy",
+      "title": "How the study of cheese microstructures helps develop better dairy",
+      "wordCount": 604,
+      "fingerprint": "0550f974b01715c6"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/industry/food-and-agribusiness",
+      "normalizedUrl": "https://eng.unimelb.edu.au/industry/food-and-agribusiness",
+      "title": "Food and Agribusiness, Faculty of Engineering and Information Technology, The University of Melbourne",
+      "wordCount": 1827,
+      "fingerprint": "062553c81078a3f9"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/defence",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/defence",
+      "title": "Defence",
+      "wordCount": 736,
+      "fingerprint": "069357c87c3e99b6"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/new-medtech-innovation-masters-seeks-diverse-talent-pool",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/new-medtech-innovation-masters-seeks-diverse-talent-pool",
+      "title": "New MedTech Innovation Masters seeks diverse talent pool",
+      "wordCount": 459,
+      "fingerprint": "072f3749d355956a"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium",
+      "title": "Ingenium - Faculty of Engineering and Information Technology",
+      "wordCount": 1445,
+      "fingerprint": "093e003ad4fb3b52"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/graduate-stories?in_c=homepage-browse",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/graduate-stories?in_c=homepage-browse",
+      "title": "Graduate stories",
+      "wordCount": 599,
+      "fingerprint": "0a55a5ac0b74f244"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/water-security?in_c=homepage-browse",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/water-security?in_c=homepage-browse",
+      "title": "Water security",
+      "wordCount": 70,
+      "fingerprint": "0ccdadabc25edf9c"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/victoria-has-made-public-transport-free",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/victoria-has-made-public-transport-free",
+      "title": "Victoria has made public transport free \u2013 NSW hasn\u2019t. Has there been any difference in uptake?",
+      "wordCount": 918,
+      "fingerprint": "0cea59201a494d7d"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/students/scholarships-prizes-and-awards",
+      "normalizedUrl": "https://eng.unimelb.edu.au/students/scholarships-prizes-and-awards",
+      "title": "Scholarships, Prizes and Awards - FEIT",
+      "wordCount": 358,
+      "fingerprint": "0d05bf20a168a121"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/professor-graeme-clark-one-of-the-cochlear-implant-pioneers-receiving-the-2026-merkin-prize-in-biomedical-technology",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/professor-graeme-clark-one-of-the-cochlear-implant-pioneers-receiving-the-2026-merkin-prize-in-biomedical-technology",
+      "title": "Professor Graeme Clark one of the cochlear implant pioneers receiving the 2026 Merkin Prize in Biomedical Technology",
+      "wordCount": 436,
+      "fingerprint": "0d18f4b8d7f7230d"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/defence/nation-needs-new-collaborative-approaches-to-counter-mass-influence-activities",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/defence/nation-needs-new-collaborative-approaches-to-counter-mass-influence-activities",
+      "title": "Nation needs new collaborative approaches to counter mass influence activities",
+      "wordCount": 726,
+      "fingerprint": "0e25a7e6c14ced24"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/industry/water",
+      "normalizedUrl": "https://eng.unimelb.edu.au/industry/water",
+      "title": "Water, agriculture and environment program | FEIT",
+      "wordCount": 3092,
+      "fingerprint": "0e4dbc86d3e5cc38"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/meta-has-a-new-plan-to-keep-kids-safe-online,-but-its-a-missed-opportunity-for-tech-giants-to-work-together",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/meta-has-a-new-plan-to-keep-kids-safe-online,-but-its-a-missed-opportunity-for-tech-giants-to-work-together",
+      "title": "Meta has a new plan to keep kids safe online, but it\u2019s a missed opportunity for tech giants to work together",
+      "wordCount": 544,
+      "fingerprint": "10077b8ae739eb74"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/virtual-reality-and-ai-chatbots-reshape-engineering-education",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/virtual-reality-and-ai-chatbots-reshape-engineering-education",
+      "title": "Virtual reality and AI chatbots reshape engineering education",
+      "wordCount": 565,
+      "fingerprint": "101a4d3e2306762e"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/university-of-melbourne-and-spinifex-offshore-wind-farm-collaborate",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/university-of-melbourne-and-spinifex-offshore-wind-farm-collaborate",
+      "title": "University of Melbourne and Spinifex Offshore Wind Farm collaborate",
+      "wordCount": 482,
+      "fingerprint": "13aecf67438f705d"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/what-makes-a-good-search-engine-these-4-models-can-help-you-use-search-in-the-age-of-ai",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/what-makes-a-good-search-engine-these-4-models-can-help-you-use-search-in-the-age-of-ai",
+      "title": "What makes a good search engine? These 4 models can help you use search in the age of AI",
+      "wordCount": 1061,
+      "fingerprint": "14874ad04701149b"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/graduate-stories/telstra-student-project-participant-and-scholarship-recipient-meg-evenden-lands-a-role-within-telstra-as-a-cyber-analyst",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/graduate-stories/telstra-student-project-participant-and-scholarship-recipient-meg-evenden-lands-a-role-within-telstra-as-a-cyber-analyst",
+      "title": "Telstra Student Project Participant and Scholarship Recipient, Meg Evenden Lands a Role Within Telstra as a Cyber Analyst",
+      "wordCount": 853,
+      "fingerprint": "157b29630c22766b"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/students/coursework/study-resources/building-access-and-id-cards",
+      "normalizedUrl": "https://eng.unimelb.edu.au/students/coursework/study-resources/building-access-and-id-cards",
+      "title": "Building access and ID cards \u2013 Coursework Students \u2013 Current Students - Faculty of Engineering and Information Technology",
+      "wordCount": 727,
+      "fingerprint": "1584fc56d19e2bee"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/students/eng-and-it-calendar/upcoming-events/round-4-scholarships",
+      "normalizedUrl": "https://eng.unimelb.edu.au/students/eng-and-it-calendar/upcoming-events/round-4-scholarships",
+      "title": "Round 4 Scholarships",
+      "wordCount": 257,
+      "fingerprint": "16b83c50f36df36f"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/university-spin-out-apromore-acquired-by-tech-giant-salesforce",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/university-spin-out-apromore-acquired-by-tech-giant-salesforce",
+      "title": "University spin-out Apromore acquired by tech giant Salesforce",
+      "wordCount": 437,
+      "fingerprint": "16ea6fa22ecdc92d"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/industry/defence/capabilities/medical-countermeasures",
+      "normalizedUrl": "https://eng.unimelb.edu.au/industry/defence/capabilities/medical-countermeasures",
+      "title": "CBRN countermeasures and surveillance",
+      "wordCount": 511,
+      "fingerprint": "176e76d57aa280de"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/indigenous-engineering-winter-school-inspires-high-school-students",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/indigenous-engineering-winter-school-inspires-high-school-students",
+      "title": "Indigenous Engineering Winter School inspires high school students",
+      "wordCount": 442,
+      "fingerprint": "17fbeb9b7b676473"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/study/professional-development",
+      "normalizedUrl": "https://eng.unimelb.edu.au/study/professional-development",
+      "title": "Professional development | Faculty of Engineering and Information Technology",
+      "wordCount": 301,
+      "fingerprint": "18016de8daaa43e6"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/whats-behind-the-high-rate-of-suicide-in-australias-construction-industry",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/whats-behind-the-high-rate-of-suicide-in-australias-construction-industry",
+      "title": "What\u2019s behind the high rate of suicide in Australia\u2019s construction industry?",
+      "wordCount": 1003,
+      "fingerprint": "18202a406aa96083"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/engage-with-us/indigenous/stem-on-barwon",
+      "normalizedUrl": "https://eng.unimelb.edu.au/engage-with-us/indigenous/stem-on-barwon",
+      "title": "STEM on Barwon-Darling | FEIT",
+      "wordCount": 659,
+      "fingerprint": "1a16eb387387f1d3"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/food-agribusiness?in_c=homepage-browse",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/food-agribusiness?in_c=homepage-browse",
+      "title": "Food and agribusiness",
+      "wordCount": 847,
+      "fingerprint": "1a897d3649a711d9"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/health-technologies",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/health-technologies",
+      "title": "Health technologies",
+      "wordCount": 1366,
+      "fingerprint": "1ad624b6dcb1fc87"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/university-researcher-awarded-$1.5m-to-advance-ai-in-mathematics",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/university-researcher-awarded-$1.5m-to-advance-ai-in-mathematics",
+      "title": "University researcher awarded $1.5m to advance AI in mathematics",
+      "wordCount": 265,
+      "fingerprint": "1b48bf00a4963392"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/the-hong-kong-high-rise-fire-shows-how-difficult-it-is-to-evacuate-in-an-emergency",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/the-hong-kong-high-rise-fire-shows-how-difficult-it-is-to-evacuate-in-an-emergency",
+      "title": "The Hong Kong high-rise fire shows how difficult it is to evacuate in an emergency",
+      "wordCount": 921,
+      "fingerprint": "1cda16d1180e6ebb"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/trip-to-seattlecementswotjobalukstudents-engineering-plans",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/trip-to-seattlecementswotjobalukstudents-engineering-plans",
+      "title": "Trip to Seattle\u202fcements\u202fWotjobaluk\u202fstudent\u2019s engineering plans",
+      "wordCount": 513,
+      "fingerprint": "1ce5e5d31807da10"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/energy",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/energy",
+      "title": "Energy",
+      "wordCount": 1399,
+      "fingerprint": "1e96488cdaeebee7"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/teaching-and-learning",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/teaching-and-learning",
+      "title": "Teaching and learning",
+      "wordCount": 1420,
+      "fingerprint": "2006294828a200ef"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/home/events/unimelb-in-brisbane",
+      "normalizedUrl": "https://eng.unimelb.edu.au/home/events/unimelb-in-brisbane",
+      "title": "UniMelb in Brisbane",
+      "wordCount": 201,
+      "fingerprint": "23ecae91d38242f3"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/health-technologies?in_c=homepage-browse",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/health-technologies?in_c=homepage-browse",
+      "title": "Health technologies",
+      "wordCount": 90,
+      "fingerprint": "2439256ebcf4fc4e"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/industry/defence/capabilities",
+      "normalizedUrl": "https://eng.unimelb.edu.au/industry/defence/capabilities",
+      "title": "Capabilities",
+      "wordCount": 115,
+      "fingerprint": "246a54cf4e75d3f3"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/defence/making-waves-on-the-quiet-how-submarines-can-avoid-detection",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/defence/making-waves-on-the-quiet-how-submarines-can-avoid-detection",
+      "title": "Making waves on the quiet: how submarines can avoid detection",
+      "wordCount": 718,
+      "fingerprint": "24bea8b4fa35cda4"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/defence/how-philosophy-can-help-intelligence-agencies",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/defence/how-philosophy-can-help-intelligence-agencies",
+      "title": "How philosophy can help intelligence agencies",
+      "wordCount": 841,
+      "fingerprint": "24fad92a55d9ae7e"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/new-predictive-models-aim-to-reduce-overcrowding-in-the-ed",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/new-predictive-models-aim-to-reduce-overcrowding-in-the-ed",
+      "title": "New predictive models aim to reduce overcrowding in the ED",
+      "wordCount": 486,
+      "fingerprint": "257f2b7daa4ed115"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/engage-with-us/indigenous",
+      "normalizedUrl": "https://eng.unimelb.edu.au/engage-with-us/indigenous",
+      "title": "Indigenous Engineering and Information Technology",
+      "wordCount": 376,
+      "fingerprint": "259195db2931a57a"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/two-innovative-cross-disciplinary-projects-awarded-inaugural-abp-feit-research-collaboration-grants",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/two-innovative-cross-disciplinary-projects-awarded-inaugural-abp-feit-research-collaboration-grants",
+      "title": "Two innovative cross-disciplinary projects awarded inaugural ABP-FEIT research collaboration grants",
+      "wordCount": 584,
+      "fingerprint": "25d8555cf4512c1b"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/students/clubs",
+      "normalizedUrl": "https://eng.unimelb.edu.au/students/clubs",
+      "title": "Student Clubs and Societies",
+      "wordCount": 257,
+      "fingerprint": "261391e40fffffb9"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/can-performing-arts-create-better-scientists",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/can-performing-arts-create-better-scientists",
+      "title": "Can performing arts create better scientists?",
+      "wordCount": 623,
+      "fingerprint": "265bad3192317aee"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/australian-research-team-explores-geothermal-energy-at-mexican-airport",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/australian-research-team-explores-geothermal-energy-at-mexican-airport",
+      "title": "Australian research team explores geothermal energy at Mexican airport",
+      "wordCount": 926,
+      "fingerprint": "26a42d05201629a2"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/home/events/unimelb-in-sydney",
+      "normalizedUrl": "https://eng.unimelb.edu.au/home/events/unimelb-in-sydney",
+      "title": "UniMelb in Sydney",
+      "wordCount": 200,
+      "fingerprint": "27a543e22ef16979"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/research-informs-pioneering-disability-education-centre-in-indonesia",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/research-informs-pioneering-disability-education-centre-in-indonesia",
+      "title": "Research informs pioneering disability education centre in Indonesia",
+      "wordCount": 459,
+      "fingerprint": "287e5aca07af2a6f"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/what-is-a-smart-city-and-why-should-we-care",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/what-is-a-smart-city-and-why-should-we-care",
+      "title": "What is a \u2018smart city\u2019 and why should we care?",
+      "wordCount": 1024,
+      "fingerprint": "29bdad27fa7d8a68"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/engineers-keep-cool-on-jet-engines,-thanks-to-frontier-supercomputerengineers-keep-cool-on-jet-engines,-thanks-to-frontier-supercomputer",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/engineers-keep-cool-on-jet-engines,-thanks-to-frontier-supercomputerengineers-keep-cool-on-jet-engines,-thanks-to-frontier-supercomputer",
+      "title": "Engineers keep cool on jet engines, thanks to Frontier supercomputer",
+      "wordCount": 646,
+      "fingerprint": "29e9a0e2fac21e51"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/australian-researchers-unlock-path-to-scaling-gas-made-from-waste",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/australian-researchers-unlock-path-to-scaling-gas-made-from-waste",
+      "title": "Australian researchers unlock path to scaling gas made from waste",
+      "wordCount": 495,
+      "fingerprint": "2a1c346d016272cb"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/about/departments/school-of-chemical-and-biomedical-engineering",
+      "normalizedUrl": "https://eng.unimelb.edu.au/about/departments/school-of-chemical-and-biomedical-engineering",
+      "title": "School of Chemical and Biomedical Engineering",
+      "wordCount": 257,
+      "fingerprint": "300493cfe83471e3"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/two-feit-projects-focused-on-knowledge-exchange-and-teaching-outcomes-win-engagement-australia-2023-excellence-awards",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/two-feit-projects-focused-on-knowledge-exchange-and-teaching-outcomes-win-engagement-australia-2023-excellence-awards",
+      "title": "Two FEIT projects focused on knowledge exchange and teaching outcomes win Engagement Australia 2023 Excellence Awards",
+      "wordCount": 434,
+      "fingerprint": "3094d5ab1db5b7e4"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/defence/research-network-in-undersea-decision-superiority-holds-victorian-event-to-launch-second-round-of-funding",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/defence/research-network-in-undersea-decision-superiority-holds-victorian-event-to-launch-second-round-of-funding",
+      "title": "Research Network in Undersea Decision Superiority launches second round of funding",
+      "wordCount": 322,
+      "fingerprint": "30f6422b0f4c655a"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/australia-now-has-access-to-anthropics-claude-mythos",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/australia-now-has-access-to-anthropics-claude-mythos",
+      "title": "Australia now has access to Anthropic\u2019s Claude Mythos. It may improve cyber safety \u2013 but not for everyone",
+      "wordCount": 890,
+      "fingerprint": "3135598d5828d16c"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/food-agribusiness/chemical-engineering-needs-a-reset",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/food-agribusiness/chemical-engineering-needs-a-reset",
+      "title": "Chemical engineering needs a reset",
+      "wordCount": 895,
+      "fingerprint": "31f0074ad190c89f"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/study/professional-development/itc-infrared-thermography-category-1",
+      "normalizedUrl": "https://eng.unimelb.edu.au/study/professional-development/itc-infrared-thermography-category-1",
+      "title": "ITC Infrared Thermography 1",
+      "wordCount": 1009,
+      "fingerprint": "3222aba5ae4f1b5e"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/biosystems-design-subject-brings-industry-and-students-together-to-design-and-develop-medical-technology",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/biosystems-design-subject-brings-industry-and-students-together-to-design-and-develop-medical-technology",
+      "title": "Biosystems Design subject brings industry and students together to design and develop medical technology",
+      "wordCount": 757,
+      "fingerprint": "32dad303bac6ec7c"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/pre-eminent-engineer-andrew-whittaker-honoured-by-university",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/pre-eminent-engineer-andrew-whittaker-honoured-by-university",
+      "title": "Pre-eminent engineer Andrew Whittaker honoured by University",
+      "wordCount": 402,
+      "fingerprint": "33136d1f599d6acd"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/how-do-scientists-estimate-crowd-sizes-at-public-events-and-why-are-they-often-disputed",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/how-do-scientists-estimate-crowd-sizes-at-public-events-and-why-are-they-often-disputed",
+      "title": "How do scientists estimate crowd sizes at public events \u2013 and why are they often disputed?",
+      "wordCount": 1015,
+      "fingerprint": "33341e2374e09625"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/steering-agentic-ai-in-australian-organisations",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/steering-agentic-ai-in-australian-organisations",
+      "title": "Steering agentic AI in Australian organisations",
+      "wordCount": 302,
+      "fingerprint": "33cd127edc834d26"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/students",
+      "normalizedUrl": "https://eng.unimelb.edu.au/students",
+      "title": "Current students",
+      "wordCount": 548,
+      "fingerprint": "34bb22897236740c"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/engage-with-us",
+      "normalizedUrl": "https://eng.unimelb.edu.au/engage-with-us",
+      "title": "Engage with us - Faculty of Engineering and Information Technology",
+      "wordCount": 278,
+      "fingerprint": "354e9d3b5fab6157"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/research-stories/world-class-research/real-world-impact",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/research-stories/world-class-research/real-world-impact",
+      "title": "Real world impact",
+      "wordCount": 1219,
+      "fingerprint": "354f9eb6eb2bd119"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/defence/defence-enterprise-showcased-at-pacific-2019-international-maritime-exposition",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/defence/defence-enterprise-showcased-at-pacific-2019-international-maritime-exposition",
+      "title": "The University of Melbourne Defence Enterprise was showcased at the PACIFIC 2019 International Maritime Exposition in Sydney last month",
+      "wordCount": 252,
+      "fingerprint": "374937fdcbed967d"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/cybersecurity-researchers-honoured-with-prestigious-global-award",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/cybersecurity-researchers-honoured-with-prestigious-global-award",
+      "title": "Cybersecurity researchers honoured with global award",
+      "wordCount": 273,
+      "fingerprint": "378607ceaad87aac"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/defence/crowd-power-makes-sense-of-the-unfathomable",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/defence/crowd-power-makes-sense-of-the-unfathomable",
+      "title": "Crowd power makes sense of the unfathomable",
+      "wordCount": 1182,
+      "fingerprint": "394c22c4347b5420"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/diving-deep-pays-dividends-for-it-masters-alumna",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/diving-deep-pays-dividends-for-it-masters-alumna",
+      "title": "Diving deep pays dividends for IT Masters alumna",
+      "wordCount": 713,
+      "fingerprint": "3a48b780f5e4fbd4"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/transforming-agriculture-with-innovative-soil-monitoring",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/transforming-agriculture-with-innovative-soil-monitoring",
+      "title": "Transforming agriculture with innovative soil monitoring",
+      "wordCount": 534,
+      "fingerprint": "3c2a2b4168abf93a"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/industry/water/research/precision-agriculture-and-remote-sensing",
+      "normalizedUrl": "https://eng.unimelb.edu.au/industry/water/research/precision-agriculture-and-remote-sensing",
+      "title": "Precision agriculture and remote sensing",
+      "wordCount": 290,
+      "fingerprint": "3cdda11bbf431d17"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/cybersecurity",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/cybersecurity",
+      "title": "Cybersecurity",
+      "wordCount": 1340,
+      "fingerprint": "3d31ee0287d38ce4"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/green-tram-tracks-cut-heat-and-beautify-cities",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/green-tram-tracks-cut-heat-and-beautify-cities",
+      "title": "Green tram tracks cut heat and beautify cities. Why isn\u2019t Australia doing it?",
+      "wordCount": 976,
+      "fingerprint": "3dad2867785b10cd"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/engineers-cushion-landslide-barriers-for-global-impact",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/engineers-cushion-landslide-barriers-for-global-impact",
+      "title": "Engineers cushion landslide barriers for global impact",
+      "wordCount": 701,
+      "fingerprint": "41147e04f2435fbb"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/six-university-of-melbourne-academics-recognised-as-victorian-young-tall-poppies",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/six-university-of-melbourne-academics-recognised-as-victorian-young-tall-poppies",
+      "title": "Six University of Melbourne academics recognised as \u2018Victorian Young Tall Poppies\u2019",
+      "wordCount": 255,
+      "fingerprint": "41abce5d74a3dfa7"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/students/coursework/study-resources/extensions-and-special-consideration",
+      "normalizedUrl": "https://eng.unimelb.edu.au/students/coursework/study-resources/extensions-and-special-consideration",
+      "title": "Extensions and Special consideration",
+      "wordCount": 1127,
+      "fingerprint": "4304e10ec6ccff3a"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/engage-with-us/indigenous/ignite",
+      "normalizedUrl": "https://eng.unimelb.edu.au/engage-with-us/indigenous/ignite",
+      "title": "Indigenous Global Network for Innovation, Technology and Engineering \u2013 IGNITE",
+      "wordCount": 869,
+      "fingerprint": "441ffb4c5eac117b"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/revolutionising-the-potential-of-generative-ai-in-education-and-beyond",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/revolutionising-the-potential-of-generative-ai-in-education-and-beyond",
+      "title": "Revolutionising the potential of generative AI in education and beyond",
+      "wordCount": 260,
+      "fingerprint": "4437253ea2b1fccc"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/food-agribusiness",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/food-agribusiness",
+      "title": "Food and agribusiness",
+      "wordCount": 847,
+      "fingerprint": "476a108c215b1151"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/cybersecurity/digital-engineering-for-australias-industrial-future",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/cybersecurity/digital-engineering-for-australias-industrial-future",
+      "title": "Digital engineering for Australia\u2019s industrial future",
+      "wordCount": 552,
+      "fingerprint": "479eaecba832984d"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/industry-collaboration-gives-two-graduates-a-chance-to-work-in-robotic-surgery",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/industry-collaboration-gives-two-graduates-a-chance-to-work-in-robotic-surgery",
+      "title": "Medical robotics internship opens doors for two biomedical engineering graduates",
+      "wordCount": 632,
+      "fingerprint": "47a0b16db130a6b0"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/building-bridges-to-parliament",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/building-bridges-to-parliament",
+      "title": "Building Bridges to Parliament",
+      "wordCount": 277,
+      "fingerprint": "484849c95e3c84d7"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/about/contact-us",
+      "normalizedUrl": "https://eng.unimelb.edu.au/about/contact-us",
+      "title": "Contact Us | Faculty of Engineering and Information Technology",
+      "wordCount": 164,
+      "fingerprint": "49b01a6319527e63"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/trump-has-fired-a-major-cyber-security-investigations-body",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/trump-has-fired-a-major-cyber-security-investigations-body",
+      "title": "Trump has fired a major cyber security investigations body",
+      "wordCount": 929,
+      "fingerprint": "4a556da739164b07"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/chemical-engineering-education-needs-a-new-paradigm-for-the-digital-and-sustainable-future",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/chemical-engineering-education-needs-a-new-paradigm-for-the-digital-and-sustainable-future",
+      "title": "Chemical engineering education needs a new paradigm for the digital and sustainable future",
+      "wordCount": 313,
+      "fingerprint": "4af2fdea2131c556"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/food-sector-innovator-receives-atse-award",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/food-sector-innovator-receives-atse-award",
+      "title": "Food sector innovator receives ATSE award",
+      "wordCount": 259,
+      "fingerprint": "4d9b5c70ef1eeb11"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/international-research-team-collaborates-on-biofabricating-skeletal-muscle",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/international-research-team-collaborates-on-biofabricating-skeletal-muscle",
+      "title": "International research team collaborates on biofabricating skeletal muscle",
+      "wordCount": 591,
+      "fingerprint": "5168974a75b37653"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/what-is-crowdstrike-falcon-and-what-does-it-do-is-my-computer-safe",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/what-is-crowdstrike-falcon-and-what-does-it-do-is-my-computer-safe",
+      "title": "What is CrowdStrike Falcon and what does it do? Is my computer safe?",
+      "wordCount": 854,
+      "fingerprint": "51e02e96222089d9"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/can-ai-enhance-engineering-education",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/can-ai-enhance-engineering-education",
+      "title": "Can AI enhance engineering education?",
+      "wordCount": 310,
+      "fingerprint": "525226fe94930860"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/university-of-melbourne-researchers-help-boost-sovereign-autonomous-capability",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/university-of-melbourne-researchers-help-boost-sovereign-autonomous-capability",
+      "title": "University of Melbourne researchers help boost sovereign autonomous capability",
+      "wordCount": 460,
+      "fingerprint": "536e8a69a7c99a62"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/energy/new-report-impacts-of-evs-on-australian-urban-and-rural-grids",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/energy/new-report-impacts-of-evs-on-australian-urban-and-rural-grids",
+      "title": "Impacts of EVs on Australian Urban and Rural Grids",
+      "wordCount": 592,
+      "fingerprint": "54da0b971142bb3a"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/students/eng-and-it-calendar/upcoming-events/lens-stevens-scholarship",
+      "normalizedUrl": "https://eng.unimelb.edu.au/students/eng-and-it-calendar/upcoming-events/lens-stevens-scholarship",
+      "title": "Lens Stevens Scholarship",
+      "wordCount": 158,
+      "fingerprint": "551172981ed69a59"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/defence?in_c=homepage-browse",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/defence?in_c=homepage-browse",
+      "title": "Defence",
+      "wordCount": 736,
+      "fingerprint": "5593198dbca9079a"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/telstra-innovation-hackathon-nurtures-tech-talent",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/telstra-innovation-hackathon-nurtures-tech-talent",
+      "title": "Telstra Innovation Hackathon nurtures tech talent",
+      "wordCount": 339,
+      "fingerprint": "55bb10b898afbb1e"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/turning-solar-panel-waste-into-sustainable-building-materials",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/turning-solar-panel-waste-into-sustainable-building-materials",
+      "title": "Turning solar panel waste into sustainable building materials",
+      "wordCount": 397,
+      "fingerprint": "580da00c49181bb0"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/energy?in_c=homepage-browse",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/energy?in_c=homepage-browse",
+      "title": "Energy",
+      "wordCount": 70,
+      "fingerprint": "583cc2e31885e8b4"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/dr-helena-wang-receives-2025-icheme-nicklin-medal",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/dr-helena-wang-receives-2025-icheme-nicklin-medal",
+      "title": "Dr Helena Wang receives 2025 IChemE Nicklin Medal",
+      "wordCount": 147,
+      "fingerprint": "59036a8bf76c1ef6"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/cyber-crime-and-real-world-crime-are-converging-in-a-dangerous-new-way-heres-how-to-stay-safe",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/cyber-crime-and-real-world-crime-are-converging-in-a-dangerous-new-way-heres-how-to-stay-safe",
+      "title": "Cyber crime and real-world crime are converging in a dangerous new way \u2013 here\u2019s how to stay safe",
+      "wordCount": 905,
+      "fingerprint": "592c3b0865b041e2"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/indian-delegation-explores-australian-dairy-and-agricultural-innovations",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/indian-delegation-explores-australian-dairy-and-agricultural-innovations",
+      "title": "Indian delegation explores Australian dairy and agricultural innovations",
+      "wordCount": 379,
+      "fingerprint": "5bce41696167c24d"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/students-tackle-womens-iud-challenge-with-innovative-ultrasound-solution",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/students-tackle-womens-iud-challenge-with-innovative-ultrasound-solution",
+      "title": "Students tackle women's IUD challenge with innovative ultrasound solution",
+      "wordCount": 517,
+      "fingerprint": "5c743f7f08c1b89b"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/graduate-stories/assistive-technology-a-biomedical-engineering-career-path",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/graduate-stories/assistive-technology-a-biomedical-engineering-career-path",
+      "title": "Assistive technology: a biomedical engineering career path",
+      "wordCount": 504,
+      "fingerprint": "5ccb2e600cc42b4f"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/six-feit-academics-receive-arc-discovery-early-career-researcher-awards",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/six-feit-academics-receive-arc-discovery-early-career-researcher-awards",
+      "title": "Six FEIT academics receive ARC Discovery Early Career Researcher Awards",
+      "wordCount": 238,
+      "fingerprint": "5de05ee24905a598"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/land-water-loss-the-leading-cause-of-sea-level-rise-in-21st-century",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/land-water-loss-the-leading-cause-of-sea-level-rise-in-21st-century",
+      "title": "Land water loss the leading cause of sea level rise in 21st century",
+      "wordCount": 451,
+      "fingerprint": "5e75aa582878bbc5"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/melbourne-software-engineer-helps-shape-the-future-of-ai-assisted-coding",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/melbourne-software-engineer-helps-shape-the-future-of-ai-assisted-coding",
+      "title": "Melbourne software engineer helps shape the future of AI-assisted coding",
+      "wordCount": 406,
+      "fingerprint": "5f16f74f0658bc48"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/energy/creating-the-catalysts-for-more-efficient-energy-harvesting",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/energy/creating-the-catalysts-for-more-efficient-energy-harvesting",
+      "title": "Creating the catalysts for more efficient energy harvesting",
+      "wordCount": 708,
+      "fingerprint": "5f3702ccfbb57dc0"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/students/eng-and-it-calendar/upcoming-events/2026/international-skills-series/intercultural-career-mentoring-program",
+      "normalizedUrl": "https://eng.unimelb.edu.au/students/eng-and-it-calendar/upcoming-events/2026/international-skills-series/intercultural-career-mentoring-program",
+      "title": "Intercultural Career Mentoring Program",
+      "wordCount": 149,
+      "fingerprint": "606ea8095114d910"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/stem-on-barwon-program-helps-unlock-career-possibilities-for-bourke-and-brewarrina-students",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/stem-on-barwon-program-helps-unlock-career-possibilities-for-bourke-and-brewarrina-students",
+      "title": "STEM on Barwon program helps unlock career possibilities for Bourke and Brewarrina students",
+      "wordCount": 364,
+      "fingerprint": "65517ec154179f01"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/peter-singers-fresh-take-on-animal-liberation-a-book-that-changed-the-world,-but-not-enough",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/peter-singers-fresh-take-on-animal-liberation-a-book-that-changed-the-world,-but-not-enough",
+      "title": "Peter Singer\u2019s fresh take on Animal Liberation - a book that changed the world, but not enough",
+      "wordCount": 2196,
+      "fingerprint": "656c3bb163762c76"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/openai-says-deepseek-inappropriately-copied-chatgpt",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/openai-says-deepseek-inappropriately-copied-chatgpt",
+      "title": "OpenAI says DeepSeek \u2018inappropriately\u2019 copied ChatGPT \u2013 but it\u2019s facing copyright claims too",
+      "wordCount": 1033,
+      "fingerprint": "65f89e03a1cd5290"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/food-agribusiness/could-crop-waste-be-farmings-aladdins-cave",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/food-agribusiness/could-crop-waste-be-farmings-aladdins-cave",
+      "title": "Could crop waste be farming\u2019s Aladdin\u2019s cave?",
+      "wordCount": 896,
+      "fingerprint": "67feaca2ccfc26b9"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/university-of-melbourne-researchers-join-global-research-project-to-tackle-deadly-plant-pathogen",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/university-of-melbourne-researchers-join-global-research-project-to-tackle-deadly-plant-pathogen",
+      "title": "University of Melbourne researchers join global research project to tackle deadly plant pathogen",
+      "wordCount": 448,
+      "fingerprint": "68c0f7f932d8bb61"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/quantum-drug-developers-nab-mega-time-on-us-supercomputer-frontier",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/quantum-drug-developers-nab-mega-time-on-us-supercomputer-frontier",
+      "title": "Quantum drug developers nab \u2018mega\u2019 time on US supercomputer \u2018Frontier\u2019",
+      "wordCount": 435,
+      "fingerprint": "69a3660249b1af1c"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/the-creator-space",
+      "normalizedUrl": "https://eng.unimelb.edu.au/the-creator-space",
+      "title": "The Creator Space",
+      "wordCount": 244,
+      "fingerprint": "69c2f49003627a41"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/energy/is-free-public-transport-a-good-idea-it-depends-on-who-gets-on-board",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/energy/is-free-public-transport-a-good-idea-it-depends-on-who-gets-on-board",
+      "title": "Is free public transport a good idea? It depends on who gets on board",
+      "wordCount": 945,
+      "fingerprint": "6fdddd55367f29a3"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/graduate-stories/from-biomedical-student-to-graduate-engineer",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/graduate-stories/from-biomedical-student-to-graduate-engineer",
+      "title": "From biomedical student to Graduate Engineer",
+      "wordCount": 728,
+      "fingerprint": "70486a9ca3ac633e"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/transport?in_c=homepage-browse",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/transport?in_c=homepage-browse",
+      "title": "Transport",
+      "wordCount": 70,
+      "fingerprint": "71527c1829ef97b0"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/research/ai-data?in_c=homepage-browse",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/research/ai-data?in_c=homepage-browse",
+      "title": "AI and data",
+      "wordCount": 70,
+      "fingerprint": "7216776eeaf2a19d"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/industry/defence-technologies/capabilities/medical-countermeasures/case-studies/epifx-and-epidefend",
+      "normalizedUrl": "https://eng.unimelb.edu.au/industry/defence-technologies/capabilities/medical-countermeasures/case-studies/epifx-and-epidefend",
+      "title": "Case study: EpiFx and EpiDefend",
+      "wordCount": 766,
+      "fingerprint": "743fa14eb46d03c9"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/phd-candidate-chee-xiang-chen-wins-best-oral-presentation",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/phd-candidate-chee-xiang-chen-wins-best-oral-presentation",
+      "title": "PhD candidate Chee Xiang Chen wins Best Oral Presentation",
+      "wordCount": 226,
+      "fingerprint": "752d736d16dc89b5"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/industry",
+      "normalizedUrl": "https://eng.unimelb.edu.au/industry",
+      "title": "Partnerships",
+      "wordCount": 491,
+      "fingerprint": "75b9832ff9886d88"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/moving-house-3-surprising-ways-your-new-neighbourhood-can-affect-health-and-happiness",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/moving-house-3-surprising-ways-your-new-neighbourhood-can-affect-health-and-happiness",
+      "title": "Moving house? 3 surprising ways your new neighbourhood can affect health and happiness",
+      "wordCount": 983,
+      "fingerprint": "78b10e1194ca9428"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/students/coursework/career-resources",
+      "normalizedUrl": "https://eng.unimelb.edu.au/students/coursework/career-resources",
+      "title": "Career resources",
+      "wordCount": 319,
+      "fingerprint": "78fbd1a04629c2a5"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/students/indigenous-student-experience",
+      "normalizedUrl": "https://eng.unimelb.edu.au/students/indigenous-student-experience",
+      "title": "Indigenous Student Experience",
+      "wordCount": 455,
+      "fingerprint": "7a458af13ede2fec"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/celebrating-16-years-of-high-flying-start-up-apromore",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/celebrating-16-years-of-high-flying-start-up-apromore",
+      "title": "Celebrating 16 years of high-flying start-up Apromore",
+      "wordCount": 516,
+      "fingerprint": "7aa0da2d8ee8d77d"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/professor-sally-gras-named-redmond-barry-distinguished-professor",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/professor-sally-gras-named-redmond-barry-distinguished-professor",
+      "title": "Professor Sally Gras named Redmond Barry Distinguished Professor",
+      "wordCount": 247,
+      "fingerprint": "7bf26d40b64dcfc2"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/new-partnership-to-accelerate-indonesias-renewable-energy-transition",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/new-partnership-to-accelerate-indonesias-renewable-energy-transition",
+      "title": "New partnership to accelerate Indonesia\u2019s renewable energy transition",
+      "wordCount": 602,
+      "fingerprint": "7d010ad0c5554a5b"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/industry/water/news/monitoring-crop-growth-from-the-skies-above",
+      "normalizedUrl": "https://eng.unimelb.edu.au/industry/water/news/monitoring-crop-growth-from-the-skies-above",
+      "title": "Monitoring crop growth from the skies above",
+      "wordCount": 596,
+      "fingerprint": "7e2f8a25e09a833e"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/professor-graeme-clark-honoured-in-pause-awards-hall-of-fame",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/professor-graeme-clark-honoured-in-pause-awards-hall-of-fame",
+      "title": "Professor Graeme Clark honoured in Pause Awards \u201cHall of Fame\u201d",
+      "wordCount": 344,
+      "fingerprint": "7fd239ab45e56c51"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/feit-researchers-recognised-for-their-work-in-computer-vision-and-anomaly-detection",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/feit-researchers-recognised-for-their-work-in-computer-vision-and-anomaly-detection",
+      "title": "FEIT researchers recognised for their work in computer vision and anomaly detection",
+      "wordCount": 295,
+      "fingerprint": "8114e92e590627b9"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/new-headquarters-for-cremorne-digital-hub-spurs-victorias-tech-future",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/new-headquarters-for-cremorne-digital-hub-spurs-victorias-tech-future",
+      "title": "New headquarters for Cremorne Digital Hub spurs Victoria\u2019s tech future",
+      "wordCount": 571,
+      "fingerprint": "8178300147e0eab1"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/collaborations",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/collaborations",
+      "title": "Collaborations",
+      "wordCount": 1352,
+      "fingerprint": "86753f2ce511bbb5"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/mric/news/?external-uuid=b54b5868-a885-40f0-8a80-fe084da53e70",
+      "normalizedUrl": "https://eng.unimelb.edu.au/mric/news/?external-uuid=b54b5868-a885-40f0-8a80-fe084da53e70",
+      "title": "Contact MRIC",
+      "wordCount": 84,
+      "fingerprint": "884bd6f52f46625a"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/bought-a-new-ev",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/bought-a-new-ev",
+      "title": "Bought a new EV? Here\u2019s a quick guide to driving and charging",
+      "wordCount": 944,
+      "fingerprint": "888872761641f123"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/community-groups-and-educators-unite-to-inspire-brewarrina-youth",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/community-groups-and-educators-unite-to-inspire-brewarrina-youth",
+      "title": "Community groups and educators unite to inspire Brewarrina youth",
+      "wordCount": 352,
+      "fingerprint": "88f1b6630f9db09b"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/study/your-specialisations-in-feit",
+      "normalizedUrl": "https://eng.unimelb.edu.au/study/your-specialisations-in-feit",
+      "title": "Specialisations in Engineering and Information Technology",
+      "wordCount": 795,
+      "fingerprint": "89b4bd3742003bde"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/industry/defence/capabilities/medical-countermeasures/case-studies/epifx-and-epidefend",
+      "normalizedUrl": "https://eng.unimelb.edu.au/industry/defence/capabilities/medical-countermeasures/case-studies/epifx-and-epidefend",
+      "title": "Case study: EpiFx and EpiDefend",
+      "wordCount": 766,
+      "fingerprint": "8a4c7c0ee3d55703"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/industry/water/research/precision-agriculture-and-remote-sensing/irrigation-network-automation",
+      "normalizedUrl": "https://eng.unimelb.edu.au/industry/water/research/precision-agriculture-and-remote-sensing/irrigation-network-automation",
+      "title": "Irrigation network automation improves efficiency and water productivity",
+      "wordCount": 436,
+      "fingerprint": "8a511b4f8077680f"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/innovators-hit-the-mark-with-navi-medical-technologies",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/innovators-hit-the-mark-with-navi-medical-technologies",
+      "title": "Innovators hit the mark with Navi Medical Technologies",
+      "wordCount": 758,
+      "fingerprint": "8aa8ef7e82f92678"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/arc-linkage-project-funds-six-projects-with-feit-researchers",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/arc-linkage-project-funds-six-projects-with-feit-researchers",
+      "title": "ARC Linkage Project funds six projects with FEIT researchers",
+      "wordCount": 773,
+      "fingerprint": "8d328edf6b18692e"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/technology-and-society",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/technology-and-society",
+      "title": "Technology and society",
+      "wordCount": 1353,
+      "fingerprint": "8d68f87294f7b0c3"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/astronauts-or-aliens-women.-technology.-science-fiction.",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/astronauts-or-aliens-women.-technology.-science-fiction.",
+      "title": "Astronauts or Aliens? Women. Technology. Science Fiction.",
+      "wordCount": 391,
+      "fingerprint": "8e1970f422df6ae5"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/leak-of-us-military-plans-on-signal-is-a-classic-case-of-shadow-it.-it-shows-why-security-systems-need-to-be-easy-to-use",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/leak-of-us-military-plans-on-signal-is-a-classic-case-of-shadow-it.-it-shows-why-security-systems-need-to-be-easy-to-use",
+      "title": "Leak of US military plans on Signal is a classic case of \u2018shadow IT\u2019. It shows why security systems need to be easy to use",
+      "wordCount": 1031,
+      "fingerprint": "8f5428b2cfbd9b46"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/industry/defence/capabilities/information-and-influence/recognising-tracking-countering-disinformation",
+      "normalizedUrl": "https://eng.unimelb.edu.au/industry/defence/capabilities/information-and-influence/recognising-tracking-countering-disinformation",
+      "title": "Recognising, tracking and countering disinformation",
+      "wordCount": 364,
+      "fingerprint": "94289fca807f7382"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/water-security",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/water-security",
+      "title": "Water security",
+      "wordCount": 1290,
+      "fingerprint": "957c16ecbb1ccb1c"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/crashes-involving-animals-spike-in-winter.-heres-how-to-avoid-them",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/crashes-involving-animals-spike-in-winter.-heres-how-to-avoid-them",
+      "title": "Crashes involving animals spike in winter. Here\u2019s how to avoid them",
+      "wordCount": 786,
+      "fingerprint": "959c390718f9d629"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/university-of-melbourne-alumna-secures-$850,000-for-sustainable-protein-production",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/university-of-melbourne-alumna-secures-$850,000-for-sustainable-protein-production",
+      "title": "University of Melbourne alumna secures $850,000 for sustainable protein production",
+      "wordCount": 357,
+      "fingerprint": "95f61411161ee424"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/students/coursework",
+      "normalizedUrl": "https://eng.unimelb.edu.au/students/coursework",
+      "title": "Coursework students | Faculty of Engineering and Information Technology",
+      "wordCount": 517,
+      "fingerprint": "96442d8447a27910"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/industry/defence/news-and-events/making-sense-of-disinformation",
+      "normalizedUrl": "https://eng.unimelb.edu.au/industry/defence/news-and-events/making-sense-of-disinformation",
+      "title": "Making sense of disinformation",
+      "wordCount": 892,
+      "fingerprint": "96d4a435ae8d8dd2"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/technology-and-society?in_c=homepage-browse",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/technology-and-society?in_c=homepage-browse",
+      "title": "Technology and society",
+      "wordCount": 93,
+      "fingerprint": "9710b42c0a6789b3"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/highlights-from-the-semester-2-endeavour-exhibition",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/highlights-from-the-semester-2-endeavour-exhibition",
+      "title": "Highlights from the Semester 2 Endeavour Exhibition",
+      "wordCount": 870,
+      "fingerprint": "98585fe93744bb7b"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/new-partnership-to-advance-ai-driven-digital-media-technology",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/new-partnership-to-advance-ai-driven-digital-media-technology",
+      "title": "New partnership to advance AI-driven digital media technology",
+      "wordCount": 473,
+      "fingerprint": "9863b5feece0be67"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/dr-lucy-sparrow-awarded-a-chancellors-prize-for-best-thesis",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/dr-lucy-sparrow-awarded-a-chancellors-prize-for-best-thesis",
+      "title": "Dr Lucy Sparrow awarded a Chancellor\u2019s Prize for Best Thesis",
+      "wordCount": 283,
+      "fingerprint": "98745701a569ccb2"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/new-arc-training-centre-to-drive-sensing-technologies-for-health-impact",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/new-arc-training-centre-to-drive-sensing-technologies-for-health-impact",
+      "title": "New ARC Training Centre to drive sensing technologies for health impact",
+      "wordCount": 437,
+      "fingerprint": "987cb26b0fe8064a"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/online-spaces-are-rife-with-toxicity.-well-designed-ai-tools-can-help-clean-them-up",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/online-spaces-are-rife-with-toxicity.-well-designed-ai-tools-can-help-clean-them-up",
+      "title": "Online spaces are rife with toxicity. Well-designed AI tools can help clean them up",
+      "wordCount": 633,
+      "fingerprint": "98f4a9e6e71d9af5"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/energy/why-the-mallee-offers-fertile-ground-for-innovation",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/energy/why-the-mallee-offers-fertile-ground-for-innovation",
+      "title": "Why the Mallee offers fertile ground for innovation",
+      "wordCount": 899,
+      "fingerprint": "99702fd01157caf3"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/energy/new-funding-for-hydrogen-technology-cluster-in-the-mallee",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/energy/new-funding-for-hydrogen-technology-cluster-in-the-mallee",
+      "title": "New funding for hydrogen technology cluster in the Mallee",
+      "wordCount": 549,
+      "fingerprint": "99787aa81b87f2b8"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/crowdstrike-crash-showed-us-how-invasive-cyber-security-software-is.-is-there-a-better-way",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/crowdstrike-crash-showed-us-how-invasive-cyber-security-software-is.-is-there-a-better-way",
+      "title": "CrowdStrike crash showed us how invasive cyber security software is. Is there a better way?",
+      "wordCount": 987,
+      "fingerprint": "9a6e98963ba28f4c"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/graduate-stories",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/graduate-stories",
+      "title": "Graduate stories",
+      "wordCount": 599,
+      "fingerprint": "9b528b58be2f5321"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/defence/why-your-support-for-women-in-stem-is-so-important",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/defence/why-your-support-for-women-in-stem-is-so-important",
+      "title": "Why your support for Women in STEM is so important",
+      "wordCount": 477,
+      "fingerprint": "9d3923404ecfab42"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/study",
+      "normalizedUrl": "https://eng.unimelb.edu.au/study",
+      "title": "Study at the Faculty of Engineering and Information Technology",
+      "wordCount": 261,
+      "fingerprint": "9d3e9fbc0589a8c2"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/australian-team-shortlisted-for-nobel-of-high-performance-computing",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/australian-team-shortlisted-for-nobel-of-high-performance-computing",
+      "title": "Australian team shortlisted for \u2018Nobel\u2019 of high-performance computing",
+      "wordCount": 614,
+      "fingerprint": "9e74609de4b05ff8"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/an-ai-lab-says-chinese-backed-bots-are-running-cyber-espionage-attacks.-experts-have-questions",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/an-ai-lab-says-chinese-backed-bots-are-running-cyber-espionage-attacks.-experts-have-questions",
+      "title": "An AI lab says Chinese-backed bots are running cyber espionage attacks. Experts have questions",
+      "wordCount": 821,
+      "fingerprint": "9e87a8c03e917a71"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/xiangyi-tackles-challenge-of-sustainable-construction-with-hempcrete",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/xiangyi-tackles-challenge-of-sustainable-construction-with-hempcrete",
+      "title": "Xiangyi tackles challenge of sustainable construction with \u2018hempcrete\u2019",
+      "wordCount": 546,
+      "fingerprint": "9f054a5c26e81508"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/infrastructure",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/infrastructure",
+      "title": "Infrastructure - Faculty of Engineering and Information Technology",
+      "wordCount": 1426,
+      "fingerprint": "9f656f362c607a54"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/students/research",
+      "normalizedUrl": "https://eng.unimelb.edu.au/students/research",
+      "title": "Graduate Researchers - Current Students - Faculty of Engineering and Information Technology",
+      "wordCount": 153,
+      "fingerprint": "9fbb83200c93e0f2"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/ed-sheeran-caught-the-train-to-melbourne-to-protect-the-climate",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/ed-sheeran-caught-the-train-to-melbourne-to-protect-the-climate",
+      "title": "Ed Sheeran caught the train to Melbourne to protect the climate. But what about his thousands of fans?",
+      "wordCount": 1055,
+      "fingerprint": "a15b494ce38434ff"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/is-it-ok-to-leave-device-chargers-plugged-in-all-the-time",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/is-it-ok-to-leave-device-chargers-plugged-in-all-the-time",
+      "title": "Is it OK to leave device chargers plugged in all the time?",
+      "wordCount": 709,
+      "fingerprint": "a1617239b34dfcbb"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/how-is-antarctica-melting,-exactly-crucial-details-are-beginning-to-come-into-focus",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/how-is-antarctica-melting,-exactly-crucial-details-are-beginning-to-come-into-focus",
+      "title": "How is Antarctica melting, exactly? Crucial details are beginning to come into focus",
+      "wordCount": 1045,
+      "fingerprint": "a20805bcabe33a2e"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/distrust-in-ai-is-on-the-rise-but-along-with-healthy-scepticism-comes-the-risk-of-harm",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/distrust-in-ai-is-on-the-rise-but-along-with-healthy-scepticism-comes-the-risk-of-harm",
+      "title": "Distrust in AI is on the rise \u2013 but along with healthy scepticism comes the risk of harm",
+      "wordCount": 962,
+      "fingerprint": "a2a93b4f16fd003b"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/bridging-innovation-and-sustainability-at-feits-hackathon-festival-2023",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/bridging-innovation-and-sustainability-at-feits-hackathon-festival-2023",
+      "title": "Bridging innovation and sustainability at FEIT's Hackathon Festival 2023",
+      "wordCount": 445,
+      "fingerprint": "a56cb458739c26f8"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/feit-alumnus-dr-sam-skinner-named-2024-young-water-professional-of-the-year",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/feit-alumnus-dr-sam-skinner-named-2024-young-water-professional-of-the-year",
+      "title": "FEIT alumnus Dr Sam Skinner named \u20182024 Young Water Professional of the Year\u2019",
+      "wordCount": 358,
+      "fingerprint": "a6289192c6d8e972"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/teaching-and-learning?in_c=homepage-browse",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/teaching-and-learning?in_c=homepage-browse",
+      "title": "Teaching and learning",
+      "wordCount": 101,
+      "fingerprint": "a6cc87bd325fd978"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/study/professional-development/itc-infrared-thermography-category-2",
+      "normalizedUrl": "https://eng.unimelb.edu.au/study/professional-development/itc-infrared-thermography-category-2",
+      "title": "ITC Infrared Thermography 2",
+      "wordCount": 320,
+      "fingerprint": "a76be2fab3645d40"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/mric",
+      "normalizedUrl": "https://eng.unimelb.edu.au/mric",
+      "title": "Mallee Regional Innovation Centre",
+      "wordCount": 289,
+      "fingerprint": "a7d0e344e21ecfe1"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/",
+      "normalizedUrl": "https://eng.unimelb.edu.au/",
+      "title": "Home | Faculty of Engineering and Information Technology",
+      "wordCount": 800,
+      "fingerprint": "aa8db9d952730aa0"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/fluid-researchers-to-spearhead-4d-measurement-device-for-cleaner-energy",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/fluid-researchers-to-spearhead-4d-measurement-device-for-cleaner-energy",
+      "title": "Fluid researchers to spearhead 4D measurement device for cleaner energy",
+      "wordCount": 363,
+      "fingerprint": "ac9056cd883111c6"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/ukraine-expert-visits-university-through-ukraine-australia-research-fund",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/ukraine-expert-visits-university-through-ukraine-australia-research-fund",
+      "title": "Ukraine expert visits University through Ukraine-Australia Research Fund",
+      "wordCount": 529,
+      "fingerprint": "ae663223d74fc97d"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/mric/news/ministerial-visit-spotlights-horticultural-innovation",
+      "normalizedUrl": "https://eng.unimelb.edu.au/mric/news/ministerial-visit-spotlights-horticultural-innovation",
+      "title": "Ministerial visit spotlights horticultural innovation",
+      "wordCount": 619,
+      "fingerprint": "aeb9f75feaaa3793"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/students/eng-and-it-calendar/upcoming-events/2026/industry-series/feit-industry-series-aurecon-presentation-internships-and-graduate-roles-for-summer-20262027",
+      "normalizedUrl": "https://eng.unimelb.edu.au/students/eng-and-it-calendar/upcoming-events/2026/industry-series/feit-industry-series-aurecon-presentation-internships-and-graduate-roles-for-summer-20262027",
+      "title": "Aurecon Presentation Internship Program 2026/27 summer",
+      "wordCount": 263,
+      "fingerprint": "af030292c4030762"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/feit-members-recognised-with-three-engineering-education-awards",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/feit-members-recognised-with-three-engineering-education-awards",
+      "title": "Faculty members recognised with three Engineering Education Awards",
+      "wordCount": 316,
+      "fingerprint": "b093059f3280e081"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/collaborations/new-research-hub-funding-to-optimise-dairy-innovation-in-australian-industry",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/collaborations/new-research-hub-funding-to-optimise-dairy-innovation-in-australian-industry",
+      "title": "New research hub funding to optimise dairy innovation in Australian industry",
+      "wordCount": 394,
+      "fingerprint": "b10aa121f522fad3"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/students/eng-and-it-community",
+      "normalizedUrl": "https://eng.unimelb.edu.au/students/eng-and-it-community",
+      "title": "Engineering and IT Community",
+      "wordCount": 1057,
+      "fingerprint": "b37b2d43463ed976"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/airwallex-launches-latitude-37-to-accelerate-young-australian-ai-founders",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/airwallex-launches-latitude-37-to-accelerate-young-australian-ai-founders",
+      "title": "Airwallex launches \u2018Latitude 37\u2019 to accelerate young Australian AI founders",
+      "wordCount": 454,
+      "fingerprint": "b640cc971ba0aecf"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/three-feit-projects-secure-arc-linkage-project-funding",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/three-feit-projects-secure-arc-linkage-project-funding",
+      "title": "Three FEIT projects secure ARC Linkage Project funding",
+      "wordCount": 464,
+      "fingerprint": "b9e77cf5593e31be"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/new-partnership-to-help-unlock-the-australian-global-energy-transition",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/new-partnership-to-help-unlock-the-australian-global-energy-transition",
+      "title": "New partnership to help unlock the Australian global energy transition",
+      "wordCount": 317,
+      "fingerprint": "ba0f2eaa567585f3"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/cybersecurity?in_c=homepage-browse",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/cybersecurity?in_c=homepage-browse",
+      "title": "Cybersecurity",
+      "wordCount": 1340,
+      "fingerprint": "badab9e3e2f83849"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/murray-basin-plan-evaluation",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/murray-basin-plan-evaluation",
+      "title": "The Murray\u2013Darling Basin Plan Evaluation is out. The next step is to fix the land, not just the flows",
+      "wordCount": 994,
+      "fingerprint": "bedd0252ccef8479"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/industry/defence",
+      "normalizedUrl": "https://eng.unimelb.edu.au/industry/defence",
+      "title": "Defence and National Security",
+      "wordCount": 335,
+      "fingerprint": "c015a1420776b55c"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/staff-awards-and-achievements?in_c=homepage-browse",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/staff-awards-and-achievements?in_c=homepage-browse",
+      "title": "Staff awards and achievements",
+      "wordCount": 92,
+      "fingerprint": "c1037891bf348187"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/tech-companies-proposed-new-safety-codes-wont-protect-all-kids-online",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/tech-companies-proposed-new-safety-codes-wont-protect-all-kids-online",
+      "title": "Tech companies\u2019 proposed new safety codes won\u2019t protect all kids online",
+      "wordCount": 939,
+      "fingerprint": "c41dd98f8cb91080"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/ai-data/new-data-security-technology-recognised-by-eureka-prize",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/ai-data/new-data-security-technology-recognised-by-eureka-prize",
+      "title": "New data security technology recognised by Eureka Prize",
+      "wordCount": 476,
+      "fingerprint": "c6f2a94b90224a7a"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/airwallex-extends-university-partnership-with-$2m-donation",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/airwallex-extends-university-partnership-with-$2m-donation",
+      "title": "Airwallex extends University partnership with $2m donation",
+      "wordCount": 821,
+      "fingerprint": "cbfcd24d8904782c"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/university-teams-up-with-ocean-winds-to-identify-offshore-wind-energy-opportunities-within-australia",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/university-teams-up-with-ocean-winds-to-identify-offshore-wind-energy-opportunities-within-australia",
+      "title": "University teams up with Ocean Winds to identify offshore wind energy opportunities within Australia",
+      "wordCount": 609,
+      "fingerprint": "cdb5e6ec3f6c34d4"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/multiple-sectors-set-their-sights-on-breakthrough-ar-display-technology",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/multiple-sectors-set-their-sights-on-breakthrough-ar-display-technology",
+      "title": "Multiple sectors set their sights on breakthrough AR display technology",
+      "wordCount": 403,
+      "fingerprint": "cf0f2530c432a4d5"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/mric/contact-us/subscribe",
+      "normalizedUrl": "https://eng.unimelb.edu.au/mric/contact-us/subscribe",
+      "title": "Mallee Regional Innovation Centre newsletter",
+      "wordCount": 126,
+      "fingerprint": "cfd24ad90ada063f"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/mric/home",
+      "normalizedUrl": "https://eng.unimelb.edu.au/mric/home",
+      "title": "Mallee Regional Innovation Centre",
+      "wordCount": 289,
+      "fingerprint": "d418f72e5650be17"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/harnessing-ai-for-positive-impact-at-feits-hackathon-festival-2024",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/harnessing-ai-for-positive-impact-at-feits-hackathon-festival-2024",
+      "title": "Harnessing AI for positive impact at FEIT\u2019S Hackathon Festival 2024",
+      "wordCount": 606,
+      "fingerprint": "d5073fad51c13d37"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/study/professional-development/engineering-design-thinking-toolkit-for-innovation",
+      "normalizedUrl": "https://eng.unimelb.edu.au/study/professional-development/engineering-design-thinking-toolkit-for-innovation",
+      "title": "Engineering Design Thinking Toolkit for Innovation",
+      "wordCount": 955,
+      "fingerprint": "d6d2d1763f35d7ff"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/we-cant-keep-relying-on-the-adf-to-respond-to-natural-disasters-how-to-rebuild-our-emergency-volunteer-workforce",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/we-cant-keep-relying-on-the-adf-to-respond-to-natural-disasters-how-to-rebuild-our-emergency-volunteer-workforce",
+      "title": "We can\u2019t keep relying on the ADF to respond to natural disasters \u2013 how to rebuild our emergency volunteer workforce",
+      "wordCount": 850,
+      "fingerprint": "da2164598e21a74e"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/food-agribusiness/could-microalgae-be-the-next-food-trend",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/food-agribusiness/could-microalgae-be-the-next-food-trend",
+      "title": "Could microalgae be the next food trend?",
+      "wordCount": 731,
+      "fingerprint": "db335b3b38f2b999"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/optus-data-breach-what-can-customers-do-and-how-can-we-create-a-safer-data-future",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/optus-data-breach-what-can-customers-do-and-how-can-we-create-a-safer-data-future",
+      "title": "Optus data breach: what can customers do and how can we create a safer data future?",
+      "wordCount": 1101,
+      "fingerprint": "dba24c5cd2000b1f"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/engage-with-us/indigenous/return-to-country-program",
+      "normalizedUrl": "https://eng.unimelb.edu.au/engage-with-us/indigenous/return-to-country-program",
+      "title": "Return to Country",
+      "wordCount": 935,
+      "fingerprint": "dbae6c204945143c"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/new-insights-into-brain-stimulation-therapy-effectiveness",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/new-insights-into-brain-stimulation-therapy-effectiveness",
+      "title": "New insights into brain stimulation therapy effectiveness",
+      "wordCount": 598,
+      "fingerprint": "dbb267648d6d61da"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/researchers-make-a-splash-with-charging-discovery",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/researchers-make-a-splash-with-charging-discovery",
+      "title": "Researchers make a splash with charging discovery",
+      "wordCount": 877,
+      "fingerprint": "dea50a14cc5decba"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/do-we-need-a-martyns-law-for-venue-security-in-australia",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/do-we-need-a-martyns-law-for-venue-security-in-australia",
+      "title": "Do we need a Martyn\u2019s Law for venue security in Australia?",
+      "wordCount": 968,
+      "fingerprint": "e06e99a8d322d58e"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/defence/would-you-trust-an-ai-operative-in-the-field",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/defence/would-you-trust-an-ai-operative-in-the-field",
+      "title": "Would you trust an AI Operative in the field?",
+      "wordCount": 1113,
+      "fingerprint": "e103da7f7815a7d8"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/global-geospatial-forum-highlights-sustainability-and-awards-new-leadership-medal",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/global-geospatial-forum-highlights-sustainability-and-awards-new-leadership-medal",
+      "title": "Global geospatial forum highlights sustainability and awards new leadership medal",
+      "wordCount": 500,
+      "fingerprint": "e31240ed29e0ff1e"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/defence/research-of-scale-melbourne-defence-enterprise-building-future-capability",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/defence/research-of-scale-melbourne-defence-enterprise-building-future-capability",
+      "title": "Research of scale: Melbourne Defence Enterprise building future capability",
+      "wordCount": 761,
+      "fingerprint": "e322227e25782deb"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/research/ai-data",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/research/ai-data",
+      "title": "AI and data",
+      "wordCount": 1432,
+      "fingerprint": "e34eddd3816073de"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/university-of-melbourne-partners-with-corio-generation-to-drive-education-and-research-in-offshore-wind-energy",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/university-of-melbourne-partners-with-corio-generation-to-drive-education-and-research-in-offshore-wind-energy",
+      "title": "University of Melbourne partners with Corio Generation to drive education and research in offshore wind energy",
+      "wordCount": 524,
+      "fingerprint": "e384d4801f2eef6e"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/industry/food-and-agribusiness/research/dairy-innovation",
+      "normalizedUrl": "https://eng.unimelb.edu.au/industry/food-and-agribusiness/research/dairy-innovation",
+      "title": "Dairy innovation",
+      "wordCount": 481,
+      "fingerprint": "e546a744c403ddbc"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/bionic-limb-project-builds-skills-for-biomedical-engineering-students",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/bionic-limb-project-builds-skills-for-biomedical-engineering-students",
+      "title": "Bionic limb project builds skills for biomedical engineering students",
+      "wordCount": 653,
+      "fingerprint": "e6ecb3196a84ff2e"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/a-phd-is-an-apprenticeship-in-research",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/a-phd-is-an-apprenticeship-in-research",
+      "title": "A PhD is an apprenticeship in research \u2013 we can\u2019t let AI take that\u00a0away",
+      "wordCount": 813,
+      "fingerprint": "e7c4be1ce92c90ee"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/a-new-alliance-to-advance-research-on-geotechnics-and-geohazards",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/a-new-alliance-to-advance-research-on-geotechnics-and-geohazards",
+      "title": "A new alliance to advance research on geotechnics and geohazards",
+      "wordCount": 392,
+      "fingerprint": "e7d46d23d4493035"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/endeavour-exhibition-celebrates-students-engineering-the-future",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/endeavour-exhibition-celebrates-students-engineering-the-future",
+      "title": "Endeavour Exhibition celebrates students engineering the future",
+      "wordCount": 557,
+      "fingerprint": "e920e4d32cd6506e"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/sustainable-resources",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/sustainable-resources",
+      "title": "Sustainable resources",
+      "wordCount": 1321,
+      "fingerprint": "ea3930ab371990b6"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/awards-and-success-for-feit-staff-at-aaee2025-in-brisbane",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/awards-and-success-for-feit-staff-at-aaee2025-in-brisbane",
+      "title": "Awards and success for FEIT staff at AAEE2025 in Brisbane",
+      "wordCount": 196,
+      "fingerprint": "ea4d8c4ef280c5a2"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/collaborations?in_c=homepage-browse",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/collaborations?in_c=homepage-browse",
+      "title": "Collaborations",
+      "wordCount": 103,
+      "fingerprint": "ead5f5eccec7c7af"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/we-analysed-14-million-reddit-posts-to-reveal-a-striking-shift-in-how-we-talk-about-mental-health",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/we-analysed-14-million-reddit-posts-to-reveal-a-striking-shift-in-how-we-talk-about-mental-health",
+      "title": "We analysed 14 million Reddit posts to reveal a striking shift in how we talk about mental health",
+      "wordCount": 894,
+      "fingerprint": "eb216dd33ff320f6"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/students/eng-and-it-calendar/upcoming-events/round-3-scholarships",
+      "normalizedUrl": "https://eng.unimelb.edu.au/students/eng-and-it-calendar/upcoming-events/round-3-scholarships",
+      "title": "Round 3 Scholarships",
+      "wordCount": 218,
+      "fingerprint": "ebe66d1e8bfbb0e7"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/digital-lab-helps-shape-smarter-planning-in-saudi-arabia",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/digital-lab-helps-shape-smarter-planning-in-saudi-arabia",
+      "title": "Digital Lab helps shape smarter planning in Saudi Arabia",
+      "wordCount": 434,
+      "fingerprint": "ec5e7ff85ed5e9c5"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/about",
+      "normalizedUrl": "https://eng.unimelb.edu.au/about",
+      "title": "About Faculty of Engineering and Information Technology, The University of Melbourne",
+      "wordCount": 312,
+      "fingerprint": "ed012c434f7f6a4f"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/industry/artificial-intelligence",
+      "normalizedUrl": "https://eng.unimelb.edu.au/industry/artificial-intelligence",
+      "title": "Artificial Intelligence - Industry - Faculty of Engineering and Information Technology",
+      "wordCount": 1979,
+      "fingerprint": "edc8e6102dd35b39"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/beyond-qantas-data-leak,-australian-finance-companies-are-also-at-risk-of-offshore-hacks",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/beyond-qantas-data-leak,-australian-finance-companies-are-also-at-risk-of-offshore-hacks",
+      "title": "Beyond Qantas\u2019 data leak, Australian finance companies are also at risk of offshore hacks",
+      "wordCount": 885,
+      "fingerprint": "effb3b6e6afa2e1b"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/cybersecurity-experts-appointed-to-malaysias-national-cyber-strategy-taskforce",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/cybersecurity-experts-appointed-to-malaysias-national-cyber-strategy-taskforce",
+      "title": "Cybersecurity experts appointed to Malaysia's national cyber strategy taskforce",
+      "wordCount": 311,
+      "fingerprint": "f003fb48780e355a"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/transport",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/transport",
+      "title": "Transport",
+      "wordCount": 1512,
+      "fingerprint": "f3e5b08cdad4ecc5"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/crowd-safety-summit-2025-unites-global-experts-in-seoul",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/crowd-safety-summit-2025-unites-global-experts-in-seoul",
+      "title": "Crowd Safety Summit 2025 unites global experts in Seoul",
+      "wordCount": 348,
+      "fingerprint": "f446b90986911bc7"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/industry/water/news/climate-proofing-the-urban-water-supply",
+      "normalizedUrl": "https://eng.unimelb.edu.au/industry/water/news/climate-proofing-the-urban-water-supply",
+      "title": "Climate-proofing the urban water supply",
+      "wordCount": 1138,
+      "fingerprint": "f64cabd369317286"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/faculty-achieves-australian-first-with-top-well-rating-for-healthier-workspaces",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/faculty-achieves-australian-first-with-top-well-rating-for-healthier-workspaces",
+      "title": "Faculty achieves Australian first with top WELL rating for healthier workspaces",
+      "wordCount": 401,
+      "fingerprint": "f663a40e24f71794"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/world-medal-honours-beacon-of-engineering-education",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/world-medal-honours-beacon-of-engineering-education",
+      "title": "World Medal honours beacon of engineering education",
+      "wordCount": 562,
+      "fingerprint": "f6d40af4bd419bd2"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/energy/dr-taha-australias-most-innovative",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/energy/dr-taha-australias-most-innovative",
+      "title": "Dr Mohammad Taha named one of Australia\u2019s 30 most innovative by Engineers Australia",
+      "wordCount": 346,
+      "fingerprint": "f725f2cee966e4cc"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/students/eng-and-it-calendar/upcoming-events/ian-alexander-scholarship-round-2",
+      "normalizedUrl": "https://eng.unimelb.edu.au/students/eng-and-it-calendar/upcoming-events/ian-alexander-scholarship-round-2",
+      "title": "Ian Alexander Scholarship Round 2",
+      "wordCount": 126,
+      "fingerprint": "fb2a32cf3b144029"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/staff-awards-and-achievements",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/staff-awards-and-achievements",
+      "title": "Staff awards and achievements",
+      "wordCount": 1390,
+      "fingerprint": "fd017ecaec13607b"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/defence/making-sense-of-disinformation",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/defence/making-sense-of-disinformation",
+      "title": "Making sense of disinformation",
+      "wordCount": 892,
+      "fingerprint": "fd53557fac2fbb0f"
+    },
+    {
+      "url": "https://eng.unimelb.edu.au/ingenium/professor-jason-monty-appointed-head-of-school-for-emi",
+      "normalizedUrl": "https://eng.unimelb.edu.au/ingenium/professor-jason-monty-appointed-head-of-school-for-emi",
+      "title": "Professor Jason Monty appointed Head of School for EMI",
+      "wordCount": 216,
+      "fingerprint": "ff98e19655e6ff05"
+    }
+  ]
+}

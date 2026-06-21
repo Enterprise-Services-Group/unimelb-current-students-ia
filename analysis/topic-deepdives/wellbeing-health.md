@@ -9,7 +9,7 @@
 |---|--:|---|
 | Medicine, Dentistry & Health Sciences | 44 | Placement immunisations, screening checks, fitness-to-practice |
 | Law | 15 | Wellbeing landing + special consideration/extensions + GRD profiles |
-| Biomedical Sciences (school · MDHS) | 9 | Redirects to the central course/health hub (near-empty) |
+| Biomedical Sciences (school · MDHS) | 9 | Redirects to the central course/health students.unimelb.edu.au (near-empty) |
 | Engineering & IT (FEIT) | 3 | Pastoral "Health and Wellbeing Resources" + wellbeing series |
 | Science | 3 | Pastoral "Student wellbeing" + Q-fever vaccination + an event |
 | Architecture, Building & Planning (MSD) | 3 | Grievances + studio-archive false positives |
@@ -34,9 +34,9 @@ MDHS alone holds **51%** of the topic — but it is not pastoral wellbeing conte
 8. **Quiet / wellbeing physical spaces** — facility-bound and legitimately local: FFAM "Quiet spaces at the Southbank Campus". *FFAM.*
 9. **Topic noise — false positives & redirects** — worth flagging because it inflates the count: ABP studio-archive pages ("Studio 9", "Semester 2 2017 Studio 30") and MSD "Student Feedback, Complaints and Grievances"; Biomedical's nine entries are almost all `study.unimelb.edu.au` major redirects plus a 0-word "University Health Hub" stub that redirects to MDHS Contact; Law GRD researcher profiles (Grace Chaw, Lydie Schmidt) caught by the "academic-support-and-wellbeing" path. *ABP, Biomedical, Law.*
 
-## Legitimate vs hub-overlapping
+## Legitimate vs central-overlapping
 
-| Faculty-owned (cannot be centralised) | Overlaps the hub (consolidation candidate) |
+| Faculty-owned (cannot be centralised) | Overlaps students.unimelb.edu.au (consolidation candidate) |
 |---|---|
 | Placement immunisation/infection records (MDHS) | Pastoral "Wellbeing" landing pages (FEIT, Science, FBE, MBS, Law, Education) |
 | Pre-placement screening & background checks (MDHS) | Restatements of special consideration / extensions (Law, Education — policy MPF1326) |
@@ -44,14 +44,14 @@ MDHS alone holds **51%** of the topic — but it is not pastoral wellbeing conte
 | Wellbeing ambassadors & peer events (FBE, MBS, FEIT, Science) | Biomedical "University Health Hub" stub + major redirects |
 | Quiet/wellbeing physical spaces (FFAM) | Duplicate disability-access URLs (Arts) |
 
-The balance is lopsided but in an unusual way: the **majority of pages are legitimately faculty-owned** because MDHS's compliance estate dominates the count. Among the *pastoral* wellbeing pages — the content students actually mean by "wellbeing" — almost everything overlaps the hub: six faculties each maintain a thin landing page pointing at the same central counselling, crisis and Safer Community services.
+The balance is lopsided but in an unusual way: the **majority of pages are legitimately faculty-owned** because MDHS's compliance estate dominates the count. Among the *pastoral* wellbeing pages — the content students actually mean by "wellbeing" — almost everything overlaps students.unimelb.edu.au: six faculties each maintain a thin landing page pointing at the same central counselling, crisis and Safer Community services.
 
 ## Recommendation
-- **Hub owns the pastoral spine:** counselling, crisis/Safer Community, Student Equity & Disability Support, mental-health resources, and the special-consideration/extensions process (already governed centrally by MPF1326) live once on `students.unimelb.edu.au` as the single source of truth.
+- **students.unimelb.edu.au owns the pastoral spine:** counselling, crisis/Safer Community, Student Equity & Disability Support, mental-health resources, and the special-consideration/extensions process (already governed centrally by MPF1326) live once on `students.unimelb.edu.au` as the single source of truth.
 - **Faculties keep two things only:** (a) peer/ambassador activity and local wellbeing events (FBE, MBS, FEIT, Science), and (b) physical spaces (FFAM quiet spaces, Arts West access) — these are genuinely local and cannot be centralised.
 - **MDHS retains its compliance estate entirely** — immunisations, screening checks, fitness-to-practice — but it should be **re-tagged out of "wellbeing"** into a placement/clinical-compliance topic; lumping AHPRA and Hepatitis-B evidence rules under "wellbeing" mis-describes 44 of the 87 pages.
-- **Add one hub gateway** — `students.unimelb.edu.au/health-and-wellbeing` as the canonical entry — and reduce each faculty "Wellbeing" landing page to a thin signpost (local events + a link to the hub), rather than re-stating central services.
-- **Single highest-value fix:** collapse the six near-duplicate pastoral "Wellbeing" landing pages into links to one authoritative hub page, and kill the dead Biomedical "University Health Hub" stub. This removes the topic's only real duplication while leaving every genuinely faculty-owned page (the MDHS compliance estate, peer programs, physical spaces) untouched.
+- **Add one students.unimelb.edu.au gateway** — `students.unimelb.edu.au/health-and-wellbeing` as the canonical entry — and reduce each faculty "Wellbeing" landing page to a thin signpost (local events + a link to students.unimelb.edu.au), rather than re-stating central services.
+- **Single highest-value fix:** collapse the six near-duplicate pastoral "Wellbeing" landing pages into links to one authoritative students.unimelb.edu.au page, and kill the dead Biomedical "University Health Hub" stub. This removes the topic's only real duplication while leaving every genuinely faculty-owned page (the MDHS compliance estate, peer programs, physical spaces) untouched.
 
 ## Appendix — all wellbeing-health pages (87)
 
@@ -88,7 +88,7 @@ The balance is lopsided but in an unusual way: the **majority of pages are legit
 - **343w** — [Other checks by course](https://mdhs.unimelb.edu.au/study/current-students/placements/students/requirements/course-specific-checks/additional)
 - **337w** — [Department of Speech Pathology](https://mdhs.unimelb.edu.au/study/current-students/placements/org/dsp)
 - **329w** — [Examples of Concerns](https://mdhs.unimelb.edu.au/study/current-students/student-fitness-to-practice/examples-of-concerns)
-- **327w** — [MDHS Student Hub](https://mdhs.unimelb.edu.au/study/current-students/student-enrichment/mdhs-student-hub)
+- **327w** — [MDHS Student students.unimelb.edu.au](https://mdhs.unimelb.edu.au/study/current-students/student-enrichment/mdhs-student-students.unimelb.edu.au)
 - **296w** — [Current Students](https://mdhs.unimelb.edu.au/study/current-students)
 - **294w** — [CPR and First Aid](https://mdhs.unimelb.edu.au/study/current-students/placements/students/requirements/course-specific-checks/first-aid-and-cpr)
 - **287w** — [Conclusion of placement](https://mdhs.unimelb.edu.au/study/current-students/placements/org/melbourne-dental-school/conclusion-of-placement)

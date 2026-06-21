@@ -1,0 +1,39 @@
+{
+  "law": {
+    "domain": "law.unimelb.edu.au",
+    "pages": 266
+  },
+  "eng": {
+    "domain": "eng.unimelb.edu.au",
+    "pages": 239
+  },
+  "arts": {
+    "domain": "arts.unimelb.edu.au",
+    "pages": 259
+  },
+  "science": {
+    "domain": "science.unimelb.edu.au",
+    "pages": 263
+  },
+  "education": {
+    "domain": "education.unimelb.edu.au",
+    "pages": 380
+  },
+  "fbe": {
+    "domain": "fbe.unimelb.edu.au",
+    "pages": 161
+  },
+  "finearts-music": {
+    "domain": "finearts-music.unimelb.edu.au",
+    "pages": 262
+  },
+  "mdhs": {
+    "domain": "mdhs.unimelb.edu.au",
+    "pages": 313
+  },
+  "msd": {
+    "domain": "msd.unimelb.edu.au",
+    "pages": 220
+  },
+  "total_pages": 2363
+}

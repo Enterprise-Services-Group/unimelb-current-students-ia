@@ -205,9 +205,9 @@ sdc.addShape(pres.shapes.RECTANGLE,{x:7.35,y:1.4,w:5.37,h:5.3,fill:{color:C.tint
 sdc.addShape(pres.shapes.RECTANGLE,{x:7.35,y:1.4,w:0.1,h:5.3,fill:{color:C.cyan}});
 sdc.addText("WHAT THE DATA SHOWS",{x:7.68,y:1.62,w:4.9,h:0.3,fontFace:MONO,fontSize:11,bold:true,color:C.cyandk,charSpacing:2,margin:0});
 [
-  "Course planning: hub has My Course Planner; every faculty runs discipline-specific degree plans (heavy in the 1,150 CS pages). Two sources serving the same need — no connecting link between them.",
-  "Placements & WIL: 207 pages on faculty sites; hub has none. Students on clinical, practicum, studio or internship placements have no central entry point — they must find their faculty page first.",
-  "Employability: hub Careers (11 pages) + 8 faculty services (141 pages) + study.unimelb (37 pages) + alumni mentoring (20 pages). Four presences in the estate, zero cross-links between them.",
+  "Course planning: hub has My Course Planner; FEIT re-hosts it verbatim on its own site. Every faculty also runs its own degree plans across the 1,150 CS pages. Same tool, same content, no connecting link between any of them.",
+  "Placements & WIL: 206 pages across all faculties (MDHS alone holds 96, nearly all clinical compliance); hub has none. No central WIL gateway — students cannot discover faculty placement offerings from the centre.",
+  "Employability: 7 faculties each run a near-identical 'Employability in X' page restating the same central careers service. Faculty-owned core — regulated pathways, internship subjects, teacher registration — is sound; the template duplication is the problem.",
   "Student life: hub covers UMSU/GSA (20 pages); faculties run their own enrichment programs; alumni.unimelb has 21 community pages. Three framings of campus experience with no connecting web path.",
   "Scholarships: 141 faculty pages + hub's generic 'Find a scholarship' link. scholarships.unimelb.edu.au is the dedicated entry point; none of the faculty CS pages link to it.",
 ].forEach((a,i)=>{

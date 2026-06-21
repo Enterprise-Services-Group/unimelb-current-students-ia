@@ -4,7 +4,7 @@
 - **CS URL:** `science.unimelb.edu.au/students` (pattern: `/students`)
 - **Pages:** 94 (91 unique, 0 link-farm, 2 mixed, 1 broken)
 - **Crawl:** Full BFS, max depth 3
-- **Hub links:** 116 (1.23/page)
+- **students.unimelb.edu.au links:** 116 (1.23/page)
 
 ## IA Structure
 ```
@@ -23,7 +23,7 @@
 ```
 
 ## Service Model Position
-**Content-rich, well-structured.** Science is the only faculty with 0 link-farm pages and 91/94 unique. The CS section is wide-and-shallow (max depth 3) — mostly landing pages that hold real content rather than linking elsewhere. Moderate hub dependency.
+**Content-rich, well-structured.** Science is the only faculty with 0 link-farm pages and 91/94 unique. The CS section is wide-and-shallow (max depth 3) — mostly landing pages that hold real content rather than linking elsewhere. Moderate students.unimelb.edu.au dependency.
 
 ## Content Profile
 - **Heaviest topics:** student-life (38), course-planning (26), subjects-timetable (15), scholarships (13)
@@ -37,5 +37,5 @@
 
 ## Recommendation Notes
 - **Keep:** Course guides, first-year subject sets, quota subjects, research project subjects, Dean's Honours List, Science scholarships, SSRC, volunteering
-- **Redirect to hub:** General enrolment, fees, exams — but Science already does this well
+- **Redirect to students.unimelb.edu.au:** General enrolment, fees, exams — but Science already does this well
 - **Good model:** Science's wide-and-shallow IA with substantive landing pages is a strong template. Close to the recommended pattern already.

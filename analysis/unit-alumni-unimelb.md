@@ -62,9 +62,9 @@ The bulk of content lives at depth 3, which is notably deep for a pure marketing
 ## Section IA Structure
 
 ```
-/alumni                           ← Home (community hub)
+/alumni                           ← Home (community students.unimelb.edu.au)
   /support-resources              ← Career support, contact, welcome-new-alumni
-  /benefits                       ← Benefits hub
+  /benefits                       ← Benefits students.unimelb.edu.au
     /professional-development     ← Online journals, language, career tools, PD courses
     /lifestyle                    ← Arts, travel, dining, health, financial
     /university-access            ← Library, sports centre, alumni email
@@ -92,11 +92,13 @@ The bulk of content lives at depth 3, which is notably deep for a pure marketing
 The alumni site shares topic territory with the current-student estate (`students.unimelb.edu.au`) in five zones:
 
 ### 1. Careers (38 pages — largest overlap)
-Career support is the single largest theme on the alumni site after baseline community identity. The alumni careers section mirrors the structure of the central Careers hub:
+Career support is the single largest theme on the alumni site after baseline community identity. The alumni careers section mirrors the structure of the central Careers service:
 - `/alumni/support-resources/career-support` and `/career-support/career-tools` mirror `students.unimelb.edu.au/careers`
 - `/alumni/benefits/professional-development/career-tools` (separate from `/support-resources/career-support/career-tools`) creates an internal duplication
 - Career story articles frame alumni as career success narratives — an aspirational register that current students can also consume (and likely are directed to from careers pages)
-- Faculty-specific mentoring programs exist under `/get-involved/volunteer/mentoring/faculty-specific-mentoring/` for every faculty — identical scope to what Careers hub recommends for career mentoring
+- Faculty-specific mentoring programs exist under `/get-involved/volunteer/mentoring/faculty-specific-mentoring/` for every faculty — identical scope to what Careers service recommends for career mentoring
+
+> **Counting note (avoid double-counting).** Alumni careers volume is **38 pages, not 58.** The 20 `alumni-careers-mentoring` pages are a **strict subset** of the 38 `careers-employability` pages (100% tag overlap; union = 38, verified against `crawl/pages/alumni-unimelb.json`) — not an additional 20. Of those mentoring pages, the 12 faculty-specific ones sit at IA depth 5, and they are **all 12 of the alumni corpus's depth-5 pages (12 of 12)** — the depth-≥5 denominator here is the **116-page alumni corpus**, not any cross-corpus page set. Downstream synthesis should treat alumni careers as 38 and not merge this depth count with cross-site depth tallies.
 
 ### 2. Community / Student Life (21 pages)
 The alumni site uses "community," "network," "peer," and "connect" language extensively — the same vocabulary used on `students.unimelb.edu.au` for student groups and clubs. The boundary is temporal (student = current; alumni = former), but it is **not spatially distinct**: a prospective student browsing alumni community pages would encounter nearly identical community-framing language to what they'd see on the current-students site.
@@ -152,7 +154,7 @@ The alumni site's welcome page (`/alumni/support-resources/welcome-new-alumni`, 
 
 The alumni site has a coherent identity in its giving, benefits, and council/awards sections — these are genuinely alumni-only. But its career support and community connection language is functionally identical to current-student language, and the two estates do not cross-link. This creates two problems:
 
-1. **For recent graduates:** Career support resources feel duplicated (alumni careers tools vs. central Careers hub), and it is unclear which to use and when.
-2. **For the University's IA:** Career content is being authored independently in three places — the central Careers hub, faculty-level careers pages, and the alumni careers section — with no shared vocabulary, no cross-referencing, and no explicit sequencing for users moving through their career lifecycle.
+1. **For recent graduates:** Career support resources feel duplicated (alumni careers tools vs. central Careers service), and it is unclear which to use and when.
+2. **For the University's IA:** Career content is being authored independently in three places — the central Careers service, faculty-level careers pages, and the alumni careers section — with no shared vocabulary, no cross-referencing, and no explicit sequencing for users moving through their career lifecycle.
 
 The alumni site works well as a community and benefits portal. It works less well as a career continuity service, because it does not connect to the student-facing career infrastructure it is meant to extend.

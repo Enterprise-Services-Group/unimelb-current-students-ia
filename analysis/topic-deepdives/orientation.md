@@ -32,24 +32,24 @@
 7. **Peer mentoring & first-cohort community** — the social side of starting out. *FEIT* "Peer Connect Program", "Student Ambassador Leadership Program"; *MSD* "MSD Peer Mentoring Program"; *Biomedical* "Student Societies".
 8. **FEIT estate swept in by URL path (noise)** — not orientation at all, but tagged because of `/orientation/` parentage: scholarship rounds and terms, Dean's Honours lists, clubs/societies, self-sourced & international internships, study-overseas research programs, skills series. This is the bulk of the 204 and the single biggest data-quality issue in the topic.
 
-## Legitimate vs hub-overlapping
+## Legitimate vs central-overlapping
 
-| Faculty-owned (cannot be centralised) | Overlaps the hub (consolidation candidate) |
+| Faculty-owned (cannot be centralised) | Overlaps students.unimelb.edu.au (consolidation candidate) |
 |---|---|
 | Per-degree orientation event landings (dates, venues, cohort) — Law, Science, Arts, Biomedical, FBE | Generic "what is Orientation week" / University-wide welcome framing |
-| Faculty "accept your offer and get started" checklists | Pre-arrival IT/software/systems setup (FEIT) — University-wide, owned by the hub |
+| Faculty "accept your offer and get started" checklists | Pre-arrival IT/software/systems setup (FEIT) — University-wide, owned by students.unimelb.edu.au |
 | Graduate-research commencement & induction (Arts, FEIT) | "Welcome to Melbourne" international webinars / Melbourne Talks |
-| Discipline peer-mentoring & society intros | "New student checklist" generic steps the hub already owns |
+| Discipline peer-mentoring & society intros | "New student checklist" generic steps students.unimelb.edu.au already owns |
 | Placement induction (MDHS) — belongs to placements, not orientation | |
 
-The balance is the inverse of most topics: the *genuinely* orientation-specific content (the dated welcome event per degree) is small and rightly faculty-owned, while a large share of what is *tagged* orientation — IT setup, welcome webinars, generic checklists — is University-wide and should sit on the hub. The MDHS placement pages and FEIT's swept-in estate are simply mis-tagged.
+The balance is the inverse of most topics: the *genuinely* orientation-specific content (the dated welcome event per degree) is small and rightly faculty-owned, while a large share of what is *tagged* orientation — IT setup, welcome webinars, generic checklists — is University-wide and should sit on students.unimelb.edu.au. The MDHS placement pages and FEIT's swept-in estate are simply mis-tagged.
 
 ## Recommendation
-- **Hub owns the welcome spine:** a single canonical "Orientation" hub page — University-wide Orientation week dates, the pre-arrival checklist, IT/software/systems setup, and "Welcome to Melbourne" international onboarding — so faculties stop each restating it (FEIT's whole `before-orientation` IT tree is hub material).
+- **students.unimelb.edu.au owns the welcome spine:** a single canonical "Orientation" students.unimelb.edu.au page — University-wide Orientation week dates, the pre-arrival checklist, IT/software/systems setup, and "Welcome to Melbourne" international onboarding — so faculties stop each restating it (FEIT's whole `before-orientation` IT tree is students.unimelb.edu.au material).
 - **Faculties keep the dated event:** each faculty owns one "[Degree] Orientation" page with its cohort's date/venue/schedule and a peer-mentoring link — this is the only part that cannot be centralised, and it is exactly what students need from a faculty.
-- **Add one hub gateway:** `students.unimelb.edu.au/new-students/orientation` linking to every faculty's orientation-event page, so a commencing student finds their faculty's welcome from the centre (currently each faculty publishes in isolation).
+- **Add one students.unimelb.edu.au gateway:** `students.unimelb.edu.au/new-students/orientation` linking to every faculty's orientation-event page, so a commencing student finds their faculty's welcome from the centre (currently each faculty publishes in isolation).
 - **Fix the tagging — the highest-value action:** FEIT's `/student-experience/orientation/` URL tree should not parent scholarships, clubs, and internships; re-home them so the orientation topic stops absorbing ~160 unrelated pages, and re-tag MDHS "before placement" pages under placements, not orientation.
-- **Standardise the entry pattern:** retire faculty "accept your offer and get started" checklist duplicates in favour of linking the hub checklist, keeping only genuinely faculty-specific commencement steps (e.g. Law JD enrolment, Arts HDR commencement forms).
+- **Standardise the entry pattern:** retire faculty "accept your offer and get started" checklist duplicates in favour of linking students.unimelb.edu.au checklist, keeping only genuinely faculty-specific commencement steps (e.g. Law JD enrolment, Arts HDR commencement forms).
 
 ## Appendix — all orientation pages (289)
 

@@ -44,19 +44,22 @@ em{color:var(--muted)}
   <div class="eyebrow">Current Students IA · Unification Strategy</div>
   <h1 class="t">Unification recommendations</h1>
   <div class="rule"></div>
-  <div class="sub">Hub-and-spoke strategy and options for the current-students web estate — grounded in the full 1,173-page crawl.</div>
+  <div class="sub">Central-and-spoke strategy and options for the current-students web estate — grounded in the full 1,173-page crawl.</div>
   <div class="meta">University of Melbourne &nbsp;·&nbsp; June 2026</div>
   <div class="aoc">The University of Melbourne acknowledges the Traditional Owners of the unceded land on which we work, learn and live, and pays respect to their Elders, past and present, and to Indigenous Australians today.</div>
 </section>
 <div class="body">
-<p><em>Evidence-based recommendations from the full crawl of all 12 current-students sections (9 faculties + 3 schools) + the central hub — 1,173 pages. June 2026.</em></p>
+<p><em>Evidence-based recommendations from the full crawl of all 12 current-students sections (9 faculties + 3 schools) + students.unimelb.edu.au — 1,173 pages. June 2026.</em></p>
 <hr />
 <h2 id="executive-summary">Executive Summary</h2>
-<p>The University of Melbourne runs a fragmented current-students ecosystem: <strong>9 faculty CS sections + 3 school CS sections (MBS, Biomedical Sciences, Dental) + the central hub — 1,173 pages crawled (1,161 after de-duplication).</strong> The decisive finding from the full crawl is that <strong>85% of pages (997) carry substantive, unique content</strong> — only ~4% are pure link-farms, ~7% mixed, ~4% broken/redirect. Every faculty hosts a substantial, genuinely discipline-specific estate; even faculties earlier assumed to be thin "link directories" are content-rich (ABP runs 240 unique pages; MDHS 104). What faculties delegate to the hub is <strong>transactional admin, not their discipline content.</strong> The central hub covers transactional admin comprehensively but has no presence in course planning, placements, or discipline-specific skills.</p>
+<p>The University of Melbourne runs a fragmented current-students ecosystem: <strong>9 faculty CS sections + 3 school CS sections (MBS, Biomedical Sciences, Dental) + students.unimelb.edu.au — 1,173 pages crawled (1,161 after de-duplication).</strong> The decisive finding from the full crawl is that <strong>85% of pages (997) carry substantive, unique content</strong> — only ~4% are pure link-farms, ~7% mixed, ~4% broken/redirect. Every faculty hosts a substantial, genuinely discipline-specific estate; even faculties earlier assumed to be thin "link directories" are content-rich (ABP runs 240 unique pages; MDHS 104). What faculties delegate to students.unimelb.edu.au is <strong>transactional admin, not their discipline content.</strong> students.unimelb.edu.au covers transactional admin comprehensively but has no presence in course planning, placements, or discipline-specific skills.</p>
 <p>This document presents <strong>four options</strong> for addressing the fragmentation, with detailed trade-offs for each, and a recommendation. The options are not binary — each can be tuned along dimensions of centralisation depth, personalisation, and implementation speed.</p>
-<p><strong>Recommended approach:</strong> Hub-and-spoke with clear boundaries. The hub owns transactional and cross-cutting services. Faculties retain discipline-specific content under a standardised template. Total migration over 12 months in three phases.</p>
+<p><strong>Recommended approach:</strong> Central-and-spoke with clear boundaries. students.unimelb.edu.au owns transactional and cross-cutting services. Faculties retain discipline-specific content under a standardised template. Total migration over 12 months in three phases.</p>
 <blockquote>
-<p><strong>Evidence update (full crawl).</strong> The option tables below were first drafted on a partial crawl (4 faculties). The completed crawl of all 12 units confirms the <em>direction</em> (hub-and-spoke) but revises the <em>figures</em>: the unique, discipline-specific estate is far larger (~997 pages, 85%) and the removable duplication is thinner than the "~200 duplicative / ~400–450 unique" estimates in the tables below imply. Read the per-option page counts as indicative. The strategic implication is <em>stronger</em>, not weaker — full centralisation is even less viable, and the prize is connecting the seams (signposting, careers cross-linking, URL standardisation) and trimming a thin duplicative layer, not relocating ~1,000 pages of unique faculty content. Measured split: see Evidence Base (and the DEAG findings pack).</p>
+<p><strong>Evidence update (full crawl).</strong> The option tables below were first drafted on a partial crawl (4 faculties). The completed crawl of all 12 units confirms the <em>direction</em> (central-and-spoke) but revises the <em>figures</em>: the unique, discipline-specific estate is far larger (~997 pages, 85%) and the removable duplication is thinner than the "~200 duplicative / ~400–450 unique" estimates in the tables below imply. Read the per-option page counts as indicative. The strategic implication is <em>stronger</em>, not weaker — full centralisation is even less viable, and the prize is connecting the seams (signposting, careers cross-linking, URL standardisation) and trimming a thin duplicative layer, not relocating ~1,000 pages of unique faculty content. Measured split: see Evidence Base (and the DEAG findings pack).</p>
+</blockquote>
+<blockquote>
+<p><strong>Context update (full faculty domains).</strong> A subsequent full-domain crawl of all 9 faculty marketing sites (2,363 pages) supplies the denominator the current-students slice never had: current-student content is only <strong>~7% sign-posted</strong> of each faculty's actual web estate — the rest is research, news, about, and prospective <code>/study/</code>. Two facts sharpen the recommendation. (1) <strong>There is no shared faculty IA to centralise into</strong> — the dominant section differs in every faculty (eng is 76% a magazine; FFAM 86% "about-us"; education is research-centre-led). (2) <strong>Most "faculty student content" is entangled with non-student content</strong> (Law/FEIT explicitly section only 9/18 student pages despite ~195/204 tagged), so it is not a portable estate. Both make full centralisation <em>less</em> viable and the standardised template + URL convention the primary levers. Evidence: <a href="../analysis/full-faculty-context.md"><code>analysis/full-faculty-context.md</code></a>.</p>
 </blockquote>
 <hr />
 <h2 id="the-decision-four-options">The Decision: Four Options</h2>
@@ -66,7 +69,7 @@ em{color:var(--muted)}
 <p>All current-students content moves to <code>students.unimelb.edu.au</code>. Faculty CS sections become redirects or thin gateway pages. Faculty sites no longer host current-students content.</p>
 <p>This option has <strong>three sub-variants</strong> depending on how content is handled:</p>
 <h3 id="variant-a1-full-consolidation">Variant A1: Full Consolidation</h3>
-<p>Move every existing faculty CS page to the hub, organised under <code>/your-faculty/&lt;slug&gt;/</code>.</p>
+<p>Move every existing faculty CS page to students.unimelb.edu.au, organised under <code>/your-faculty/&lt;slug&gt;/</code>.</p>
 <table>
 <thead>
 <tr>
@@ -76,15 +79,15 @@ em{color:var(--muted)}
 </thead>
 <tbody>
 <tr>
-<td><strong>Pages created on hub</strong></td>
+<td><strong>Pages created on students.unimelb.edu.au</strong></td>
 <td>~600-700 (all faculty CS pages, re-hosted)</td>
 </tr>
 <tr>
 <td><strong>Pages removed from faculties</strong></td>
-<td>~600-700 (redirected to hub equivalents)</td>
+<td>~600-700 (redirected to students.unimelb.edu.au equivalents)</td>
 </tr>
 <tr>
-<td><strong>Hub IA impact</strong></td>
+<td><strong>students.unimelb.edu.au IA impact</strong></td>
 <td>Adds a <code>/your-faculty/</code> section with 9 sub-sections mirroring current faculty IA</td>
 </tr>
 <tr>
@@ -97,31 +100,31 @@ em{color:var(--muted)}
 </tr>
 <tr>
 <td><strong>Central team burden</strong></td>
-<td>Medium — central team manages the hub platform, templates, and governance. Faculty web officers retain authorship of their section's pages via distributed CMS permissions. Requires a RACI and governance framework to define who can publish what.</td>
+<td>Medium — central team manages students.unimelb.edu.au platform, templates, and governance. Faculty web officers retain authorship of their section's pages via distributed CMS permissions. Requires a RACI and governance framework to define who can publish what.</td>
 </tr>
 </tbody>
 </table>
 <p><strong>What this fixes:</strong></p>
 <ul>
 <li>Students have one place to search: <code>students.unimelb.edu.au</code></li>
-<li>No URL convention problem (everything is on the hub)</li>
+<li>No URL convention problem (everything is on students.unimelb.edu.au)</li>
 <li>Search across all CS content becomes possible (single domain)</li>
 </ul>
 <p><strong>What this requires:</strong></p>
 <ul>
-<li>A <strong>distributed authorship model</strong> — faculty web officers retain control of their section's pages on the hub. This requires CMS permissions, a RACI matrix defining who can create, edit, approve, and publish, and workflow governance.</li>
-<li>600 pages of redirect mapping — every old faculty URL needs a 301 redirect to its new hub location</li>
-<li>Hub IA becomes deep — students still navigate to "their faculty" section, which replicates the current problem at a different URL</li>
+<li>A <strong>distributed authorship model</strong> — faculty web officers retain control of their section's pages on students.unimelb.edu.au. This requires CMS permissions, a RACI matrix defining who can create, edit, approve, and publish, and workflow governance.</li>
+<li>600 pages of redirect mapping — every old faculty URL needs a 301 redirect to its new students.unimelb.edu.au location</li>
+<li>students.unimelb.edu.au IA becomes deep — students still navigate to "their faculty" section, which replicates the current problem at a different URL</li>
 <li>The central team's role shifts from "do everything" to "manage the platform and enforce governance"</li>
 </ul>
 <p><strong>Decision criteria for choosing A1:</strong></p>
 <ul>
 <li>You believe a single URL namespace is the overriding priority</li>
 <li>You're willing to invest in the distributed authorship model (RACI, CMS permissions, workflow governance)</li>
-<li>Faculties are willing to author their content on the hub rather than on their own domains</li>
+<li>Faculties are willing to author their content on students.unimelb.edu.au rather than on their own domains</li>
 </ul>
 <h3 id="variant-a2-harmonise-then-centralize">Variant A2: Harmonise-Then-Centralize</h3>
-<p>First, standardise faculty CS content to remove duplication. Then, migrate only what remains to the hub. Duplicative content is deleted, not moved.</p>
+<p>First, standardise faculty CS content to remove duplication. Then, migrate only what remains to students.unimelb.edu.au. Duplicative content is deleted, not moved.</p>
 <table>
 <thead>
 <tr>
@@ -132,14 +135,14 @@ em{color:var(--muted)}
 <tbody>
 <tr>
 <td><strong>Step 1 — Harmonisation</strong></td>
-<td>All 9 faculties adopt the standardised CS template and remove hub-duplicative pages (enrolment, fees, exams, graduation, health, key dates). Estimated ~200 pages removed across faculties. Remaining: ~400-450 pages of genuinely unique content.</td>
+<td>All 9 faculties adopt the standardised CS template and remove central-duplicative pages (enrolment, fees, exams, graduation, health, key dates). Estimated ~200 pages removed across faculties. Remaining: ~400-450 pages of genuinely unique content.</td>
 </tr>
 <tr>
 <td><strong>Step 2 — Centralisation</strong></td>
-<td>Move the ~400-450 remaining unique pages to the hub under <code>/your-faculty/&lt;slug&gt;/</code>.</td>
+<td>Move the ~400-450 remaining unique pages to students.unimelb.edu.au under <code>/your-faculty/&lt;slug&gt;/</code>.</td>
 </tr>
 <tr>
-<td><strong>Pages created on hub</strong></td>
+<td><strong>Pages created on students.unimelb.edu.au</strong></td>
 <td>~400-450 (only unique content)</td>
 </tr>
 <tr>
@@ -158,9 +161,9 @@ em{color:var(--muted)}
 </table>
 <p><strong>What this fixes (beyond A1):</strong></p>
 <ul>
-<li>Duplication is eliminated before migration, so the hub doesn't inherit redundant content</li>
+<li>Duplication is eliminated before migration, so students.unimelb.edu.au doesn't inherit redundant content</li>
 <li>The standardised template means all faculty content follows the same structure</li>
-<li>Hub search is cleaner — no duplicate results for the same service</li>
+<li>students.unimelb.edu.au search is cleaner — no duplicate results for the same service</li>
 </ul>
 <p><strong>What this requires (beyond A1):</strong></p>
 <ul>
@@ -171,11 +174,11 @@ em{color:var(--muted)}
 <p><strong>Decision criteria for choosing A2:</strong></p>
 <ul>
 <li>You want the benefits of a single namespace but recognise that 200 pages of duplication shouldn't be migrated</li>
-<li>You're willing to invest in a two-phase process (harmonise, then centralise) — the upfront work pays off in a cleaner hub</li>
+<li>You're willing to invest in a two-phase process (harmonise, then centralise) — the upfront work pays off in a cleaner students.unimelb.edu.au</li>
 <li>The standardisation work of Phase 1 is independently valuable regardless of whether Phase 2 proceeds</li>
 </ul>
-<h3 id="variant-a3-harmonised-hub-with-cdp-personalisation">Variant A3: Harmonised Hub with CDP Personalisation</h3>
-<p>First, harmonise faculty CS content (same as A2 Step 1). Then, instead of migrating pages to the hub, use <strong>Optimizely and Tealium CDP</strong> to personalise the hub experience based on known student attributes. If the university knows a student's faculty and program (via SSO or Tealium audience segments), the hub dynamically surfaces the right faculty-specific content alongside hub-wide services — without moving any pages.</p>
+<h3 id="variant-a3-harmonised-central-site-with-cdp-personalisation">Variant A3: Harmonised central site with CDP Personalisation</h3>
+<p>First, harmonise faculty CS content (same as A2 Step 1). Then, instead of migrating pages to students.unimelb.edu.au, use <strong>Optimizely and Tealium CDP</strong> to personalise students.unimelb.edu.au experience based on known student attributes. If the university knows a student's faculty and program (via SSO or Tealium audience segments), students.unimelb.edu.au dynamically surfaces the right faculty-specific content alongside central services — without moving any pages.</p>
 <table>
 <thead>
 <tr>
@@ -186,18 +189,18 @@ em{color:var(--muted)}
 <tbody>
 <tr>
 <td><strong>Step 1 — Harmonisation</strong></td>
-<td>Same as A2: all 9 faculties adopt the standardised CS template and remove hub-duplicative pages. ~200 pages removed.</td>
+<td>Same as A2: all 9 faculties adopt the standardised CS template and remove central-duplicative pages. ~200 pages removed.</td>
 </tr>
 <tr>
 <td><strong>Step 2 — CDP Personalisation</strong></td>
-<td>Deploy Optimizely for experience targeting and Tealium CDP for audience segmentation. When a student logs in or self-identifies their faculty, the hub personalises: course planning links point to their faculty's course plans, career links surface their faculty's mentoring program, placement info shows their discipline's WIL options.</td>
+<td>Deploy Optimizely for experience targeting and Tealium CDP for audience segmentation. When a student logs in or self-identifies their faculty, students.unimelb.edu.au personalises: course planning links point to their faculty's course plans, career links surface their faculty's mentoring program, placement info shows their discipline's WIL options.</td>
 </tr>
 <tr>
 <td><strong>Technical model</strong></td>
-<td>Hub remains the entry point. Tealium CDP holds student-faculty mappings and audience segments. Optimizely serves personalised content widgets (faculty-specific links, contacts, news) within the hub's existing pages. Content stays on faculty sites — the hub links intelligently.</td>
+<td>students.unimelb.edu.au remains the entry point. Tealium CDP holds student-faculty mappings and audience segments. Optimizely serves personalised content widgets (faculty-specific links, contacts, news) within students.unimelb.edu.au's existing pages. Content stays on faculty sites — students.unimelb.edu.au links intelligently.</td>
 </tr>
 <tr>
-<td><strong>Pages created on hub</strong></td>
+<td><strong>Pages created on students.unimelb.edu.au</strong></td>
 <td>~20-30 (personalisation widgets, faculty content connectors, audience logic)</td>
 </tr>
 <tr>
@@ -214,7 +217,7 @@ em{color:var(--muted)}
 </tr>
 <tr>
 <td><strong>Central team burden</strong></td>
-<td>Medium — ~14 hub gateway pages + CDP/Optimizely configuration. Faculties maintain their own content.</td>
+<td>Medium — ~14 students.unimelb.edu.au gateway pages + CDP/Optimizely configuration. Faculties maintain their own content.</td>
 </tr>
 </tbody>
 </table>
@@ -222,7 +225,7 @@ em{color:var(--muted)}
 <ul>
 <li>Students get a personalised single entry point without content migration</li>
 <li>Duplication is eliminated (Step 1 harmonisation)</li>
-<li>The hub feels like it knows the student — "You're in the Bachelor of Science. Here are your course guides. Here's your faculty's career mentor program. Here's where to book lab time."</li>
+<li>students.unimelb.edu.au feels like it knows the student — "You're in the Bachelor of Science. Here are your course guides. Here's your faculty's career mentor program. Here's where to book lab time."</li>
 <li>Faculties retain full ownership of their discipline-specific content</li>
 <li>No API federation needed — CDP + Optimizely handle the personalisation layer</li>
 </ul>
@@ -230,7 +233,7 @@ em{color:var(--muted)}
 <ul>
 <li>Optimizely and Tealium CDP already in use or procured at UoM</li>
 <li>Student-faculty mappings available in the CDP (via SSO attributes or SIS data feed)</li>
-<li>Optimizely configured for the hub's pages (audience-based widget visibility)</li>
+<li>Optimizely configured for students.unimelb.edu.au's pages (audience-based widget visibility)</li>
 <li>Content governance to keep faculty links current in the CDP-driven widgets</li>
 <li>A personalisation strategy: what surfaces for whom, and what the fallback experience is for unknown/anonymous visitors</li>
 </ul>
@@ -257,7 +260,7 @@ em{color:var(--muted)}
 </tr>
 <tr>
 <td><strong>A2: Harmonise-then-centralise</strong></td>
-<td>You want a clean hub but recognise duplication must be killed first; same distributed authorship as A1</td>
+<td>You want a clean students.unimelb.edu.au but recognise duplication must be killed first; same distributed authorship as A1</td>
 </tr>
 <tr>
 <td><strong>A3: CDP Personalisation</strong></td>
@@ -282,15 +285,15 @@ em{color:var(--muted)}
 </tr>
 <tr>
 <td><strong>What stays</strong></td>
-<td>Faculty CS sections remain on faculty domains. Hub remains as-is. Content ownership unchanged.</td>
+<td>Faculty CS sections remain on faculty domains. students.unimelb.edu.au remains as-is. Content ownership unchanged.</td>
 </tr>
 <tr>
 <td><strong>Pages created</strong></td>
-<td>~10-15 (hub gateway pages for course planning, placements, faculty programs)</td>
+<td>~10-15 (students.unimelb.edu.au gateway pages for course planning, placements, faculty programs)</td>
 </tr>
 <tr>
 <td><strong>Pages removed</strong></td>
-<td>~200 (duplicative pages on faculty sites — replaced with hub links)</td>
+<td>~200 (duplicative pages on faculty sites — replaced with students.unimelb.edu.au links)</td>
 </tr>
 <tr>
 <td><strong>Pages moved</strong></td>
@@ -311,7 +314,7 @@ em{color:var(--muted)}
 <li>URL inconsistency (all faculties move to <code>/students</code>)</li>
 <li>No "where to go" guidance (standardised sidebar added to every faculty CS page)</li>
 <li>Broken links (all identified issues fixed)</li>
-<li>Career silos (mandatory cross-linking between hub and faculty careers)</li>
+<li>Career silos (mandatory cross-linking between students.unimelb.edu.au and faculty careers)</li>
 </ul>
 <p><strong>What this doesn't fix:</strong></p>
 <ul>
@@ -339,8 +342,8 @@ em{color:var(--muted)}
 <li>You're willing to accept that duplication won't be eliminated, only signposted</li>
 </ul>
 <hr />
-<h2 id="option-c-hub-and-spoke-with-clear-boundaries-recommended">Option C: Hub-and-Spoke with Clear Boundaries (RECOMMENDED)</h2>
-<p>The hub becomes the definitive source for all transactional and cross-cutting services. Faculties retain genuinely discipline-specific content but adopt a standardised template. Content is split by service type, not by organizational unit.</p>
+<h2 id="option-c-central-and-spoke-with-clear-boundaries-recommended">Option C: Central-and-spoke with Clear Boundaries (RECOMMENDED)</h2>
+<p>students.unimelb.edu.au becomes the definitive source for all transactional and cross-cutting services. Faculties retain genuinely discipline-specific content but adopt a standardised template. Content is split by service type, not by organizational unit.</p>
 <table>
 <thead>
 <tr>
@@ -350,7 +353,7 @@ em{color:var(--muted)}
 </thead>
 <tbody>
 <tr>
-<td><strong>Hub owns</strong></td>
+<td><strong>students.unimelb.edu.au owns</strong></td>
 <td>Enrolment, fees, exams, graduation, special consideration, leave of absence, key dates, health &amp; wellbeing, careers platform, student life framework, IT, international support, study overseas</td>
 </tr>
 <tr>
@@ -359,10 +362,10 @@ em{color:var(--muted)}
 </tr>
 <tr>
 <td><strong>Both share</strong></td>
-<td>Course planning (hub: general + My Course Planner; faculty: degree-specific plans), careers (hub: platform + tools; faculty: discipline mentoring + pathways), academic skills (hub: PASS + general; faculty: discipline-specific)</td>
+<td>Course planning (students.unimelb.edu.au: general + My Course Planner; faculty: degree-specific plans), careers (students.unimelb.edu.au: platform + tools; faculty: discipline mentoring + pathways), academic skills (students.unimelb.edu.au: PASS + general; faculty: discipline-specific)</td>
 </tr>
 <tr>
-<td><strong>Pages created on hub</strong></td>
+<td><strong>Pages created on students.unimelb.edu.au</strong></td>
 <td>~14 (course planning gateway, placements gateway, careers-faculty bridge, 9 faculty landing pages, academic skills by discipline, "where to go" tool)</td>
 </tr>
 <tr>
@@ -383,21 +386,21 @@ em{color:var(--muted)}
 </tr>
 <tr>
 <td><strong>Central team burden</strong></td>
-<td>Medium — ~14 new hub pages + quarterly audits. Faculty content owners maintain their own pages.</td>
+<td>Medium — ~14 new students.unimelb.edu.au pages + quarterly audits. Faculty content owners maintain their own pages.</td>
 </tr>
 </tbody>
 </table>
 <p><strong>What this fixes:</strong></p>
 <ul>
 <li>Single source of truth per service — no more "which page is the right one?"</li>
-<li>Students navigate the hub for transactional needs, faculty for discipline-specific needs — with explicit signposting</li>
+<li>Students navigate students.unimelb.edu.au for transactional needs, faculty for discipline-specific needs — with explicit signposting</li>
 <li>Careers cross-linking breaks the silos</li>
 <li>URL conventions are standardised</li>
 <li>Duplication is removed at the source (pages deleted, not just linked past)</li>
 </ul>
 <p><strong>What this doesn't fix:</strong></p>
 <ul>
-<li>Students still visit two domains (hub + faculty) for different needs — but now they know which is which</li>
+<li>Students still visit two domains (students.unimelb.edu.au + faculty) for different needs — but now they know which is which</li>
 <li>Requires faculty content owners to delete pages and maintain their remaining content to standard</li>
 <li>The boundary between "general career advice" and "discipline-specific mentoring" needs judgment calls per faculty</li>
 </ul>
@@ -410,8 +413,8 @@ em{color:var(--muted)}
 </ul>
 <p><strong>Why this option is recommended:</strong></p>
 <ol type="1">
-<li><p><strong>It matches the evidence.</strong> The full crawl shows ~85% of faculty pages (≈997) are genuinely unique, discipline-specific content; the duplicative layer is thin (the ~50 pure link-farm pages plus faculty restatements of hub transactional content — on the order of 120–180 pages). Consolidating that thin layer is high-impact and low-risk; the ~950+ unique pages must stay with faculties. The measured split makes full centralisation untenable and hub-and-spoke the only fit.</p></li>
-<li><p><strong>It's realistic.</strong> Full centralisation (Option A) requires either migrating 600 pages of faculty content to a central team that can't maintain it (A1/A2), or building a federated personalisation platform across 3+ CMS platforms (A3). Hub-and-spoke works with the existing infrastructure.</p></li>
+<li><p><strong>It matches the evidence.</strong> The full crawl shows ~85% of faculty pages (≈997) are genuinely unique, discipline-specific content; the duplicative layer is thin (the ~50 pure link-farm pages plus faculty restatements of students.unimelb.edu.au transactional content — on the order of 120–180 pages). Consolidating that thin layer is high-impact and low-risk; the ~950+ unique pages must stay with faculties. The measured split makes full centralisation untenable and central-and-spoke the only fit.</p></li>
+<li><p><strong>It's realistic.</strong> Full centralisation (Option A) requires either migrating 600 pages of faculty content to a central team that can't maintain it (A1/A2), or building a federated personalisation platform across 3+ CMS platforms (A3). Central-and-spoke works with the existing infrastructure.</p></li>
 <li><p><strong>It preserves what works.</strong> The four fully-crawled faculties (Law, FEIT, Arts, Science) have invested years in building genuinely useful faculty-specific content. Option C preserves this investment while removing the duplication that confuses students.</p></li>
 <li><p><strong>It has a clear migration path.</strong> Three phases over 12 months: quick wins first (URLs, sidebars, broken links), then content consolidation, then template standardisation. Each phase delivers independent value.</p></li>
 </ol>
@@ -481,7 +484,7 @@ em{color:var(--muted)}
 <th style="text-align: center;">A2: Harmonise-Centralise</th>
 <th style="text-align: center;">A3: CDP Personalisation</th>
 <th style="text-align: center;">B: Federated Standards</th>
-<th style="text-align: center;">C: Hub-and-Spoke</th>
+<th style="text-align: center;">C: Central-and-spoke</th>
 <th style="text-align: center;">D: Minimal Fixes</th>
 </tr>
 </thead>
@@ -501,13 +504,13 @@ em{color:var(--muted)}
 <td style="text-align: center;">Yes</td>
 <td style="text-align: center;">Yes (personalised)</td>
 <td style="text-align: center;">No</td>
-<td style="text-align: center;">Partial (hub for transactions)</td>
+<td style="text-align: center;">Partial (students.unimelb.edu.au for transactions)</td>
 <td style="text-align: center;">No</td>
 </tr>
 <tr>
 <td><strong>Faculty authorship retained?</strong></td>
-<td style="text-align: center;">Yes (distributed authorship on hub)</td>
-<td style="text-align: center;">Yes (distributed authorship on hub)</td>
+<td style="text-align: center;">Yes (distributed authorship on students.unimelb.edu.au)</td>
+<td style="text-align: center;">Yes (distributed authorship on students.unimelb.edu.au)</td>
 <td style="text-align: center;">Yes (content stays on faculty sites)</td>
 <td style="text-align: center;">Yes</td>
 <td style="text-align: center;">Partial (discipline content stays on faculty sites)</td>
@@ -579,10 +582,10 @@ em{color:var(--muted)}
 </tbody>
 </table>
 <hr />
-<h2 id="4a-recommended-model-in-detail-hub-and-spoke">4a. Recommended Model in Detail: Hub-and-Spoke</h2>
+<h2 id="4a-recommended-model-in-detail-central-and-spoke">4a. Recommended Model in Detail: Central-and-spoke</h2>
 <h3 id="the-model">The model</h3>
 <pre><code>┌─────────────────────────────────────────────────────┐
-│           students.unimelb.edu.au (HUB)              │
+│           students.unimelb.edu.au (students.unimelb.edu.au)              │
 │  ┌──────────┐ ┌──────────┐ ┌──────────┐ ┌────────┐ │
 │  │Course    │ │Support &amp; │ │Student   │ │Careers │ │
 │  │Admin     │ │Wellbeing │ │Life      │ │        │ │
@@ -594,7 +597,7 @@ em{color:var(--muted)}
 │  NEW: Faculty career programs gateway               │
 └─────────────────────────────────────────────────────┘
          ↑                    ↑
-         │ &quot;For X, go to hub&quot; │ &quot;For Y, see your faculty&quot;
+         │ &quot;For X, go to students.unimelb.edu.au&quot; │ &quot;For Y, see your faculty&quot;
          │                    │
 ┌────────┴────────────────────┴───────────────────────┐
 │           Faculty CS pages (standardised)            │
@@ -605,7 +608,7 @@ em{color:var(--muted)}
 │                                                     │
 │  REMOVED: enrolment, fees, exams, graduation,       │
 │  special consideration, key dates, health, careers  │
-│  (→ redirect to hub with &quot;For X, go to...&quot; notice)  │
+│  (→ redirect to students.unimelb.edu.au with &quot;For X, go to...&quot; notice)  │
 └─────────────────────────────────────────────────────┘</code></pre>
 <h3 id="service-boundaries">Service boundaries</h3>
 <table>
@@ -619,63 +622,63 @@ em{color:var(--muted)}
 <tbody>
 <tr>
 <td>Enrolment, re-enrolment, course withdrawal</td>
-<td><strong>Hub only</strong></td>
+<td><strong>students.unimelb.edu.au only</strong></td>
 <td>Single source of truth</td>
 </tr>
 <tr>
 <td>Fees, census dates</td>
-<td><strong>Hub only</strong></td>
+<td><strong>students.unimelb.edu.au only</strong></td>
 <td>University-wide</td>
 </tr>
 <tr>
 <td>Exams, results, academic progress</td>
-<td><strong>Hub only</strong></td>
+<td><strong>students.unimelb.edu.au only</strong></td>
 <td>University-wide</td>
 </tr>
 <tr>
 <td>Graduation</td>
-<td><strong>Hub only</strong></td>
+<td><strong>students.unimelb.edu.au only</strong></td>
 <td>University-wide</td>
 </tr>
 <tr>
 <td>Special consideration</td>
-<td><strong>Hub only</strong></td>
+<td><strong>students.unimelb.edu.au only</strong></td>
 <td>University-wide process</td>
 </tr>
 <tr>
 <td>Leave of absence</td>
-<td><strong>Hub only</strong></td>
+<td><strong>students.unimelb.edu.au only</strong></td>
 <td>University-wide process</td>
 </tr>
 <tr>
 <td>Key dates</td>
-<td><strong>Hub only</strong></td>
-<td>Hub is definitive</td>
+<td><strong>students.unimelb.edu.au only</strong></td>
+<td>students.unimelb.edu.au is definitive</td>
 </tr>
 <tr>
 <td>Timetable (MyTimetable)</td>
-<td><strong>Hub</strong> + faculty context</td>
-<td>Hub: tool. Faculty: timetable quirks</td>
+<td><strong>students.unimelb.edu.au</strong> + faculty context</td>
+<td>students.unimelb.edu.au: tool. Faculty: timetable quirks</td>
 </tr>
 <tr>
 <td>Course planning</td>
-<td><strong>Hub (general) + Faculty (specific)</strong></td>
-<td>Hub: My Course Planner + advice. Faculty: sample plans, degree guides</td>
+<td><strong>students.unimelb.edu.au (general) + Faculty (specific)</strong></td>
+<td>students.unimelb.edu.au: My Course Planner + advice. Faculty: sample plans, degree guides</td>
 </tr>
 <tr>
 <td>Health &amp; wellbeing</td>
-<td><strong>Hub only</strong></td>
+<td><strong>students.unimelb.edu.au only</strong></td>
 <td>CAPS, medical, SEDS — central services</td>
 </tr>
 <tr>
 <td>Academic skills</td>
-<td><strong>Hub (general) + Faculty (discipline)</strong></td>
-<td>Hub: PASS. Faculty: legal writing, lab skills</td>
+<td><strong>students.unimelb.edu.au (general) + Faculty (discipline)</strong></td>
+<td>students.unimelb.edu.au: PASS. Faculty: legal writing, lab skills</td>
 </tr>
 <tr>
 <td>Careers &amp; employability</td>
-<td><strong>Hub (platform) + Faculty (pathways)</strong></td>
-<td>Hub: tools + jobs. Faculty: mentoring + industry</td>
+<td><strong>students.unimelb.edu.au (platform) + Faculty (pathways)</strong></td>
+<td>students.unimelb.edu.au: tools + jobs. Faculty: mentoring + industry</td>
 </tr>
 <tr>
 <td>Placements &amp; WIL</td>
@@ -684,13 +687,13 @@ em{color:var(--muted)}
 </tr>
 <tr>
 <td>Scholarships</td>
-<td><strong>Hub (search) + Faculty (awards)</strong></td>
-<td>Hub: search engine. Faculty: prizes</td>
+<td><strong>students.unimelb.edu.au (search) + Faculty (awards)</strong></td>
+<td>students.unimelb.edu.au: search engine. Faculty: prizes</td>
 </tr>
 <tr>
 <td>Student life &amp; clubs</td>
-<td><strong>Hub (framework) + Faculty (local)</strong></td>
-<td>Hub: UMSU/GSA/Melbourne Plus. Faculty: local events</td>
+<td><strong>students.unimelb.edu.au (framework) + Faculty (local)</strong></td>
+<td>students.unimelb.edu.au: UMSU/GSA/Melbourne Plus. Faculty: local events</td>
 </tr>
 <tr>
 <td>Forms</td>
@@ -699,23 +702,23 @@ em{color:var(--muted)}
 </tr>
 <tr>
 <td>IT &amp; systems</td>
-<td><strong>Hub only</strong></td>
+<td><strong>students.unimelb.edu.au only</strong></td>
 <td>University-wide</td>
 </tr>
 <tr>
 <td>International support</td>
-<td><strong>Hub only</strong></td>
+<td><strong>students.unimelb.edu.au only</strong></td>
 <td>Visas, OSHC — university-wide</td>
 </tr>
 <tr>
 <td>Study overseas</td>
-<td><strong>Hub only</strong></td>
+<td><strong>students.unimelb.edu.au only</strong></td>
 <td>Central exchange program</td>
 </tr>
 <tr>
 <td>Indigenous students</td>
-<td><strong>Hub (Murrup Barak) + Faculty (local)</strong></td>
-<td>Hub is primary</td>
+<td><strong>students.unimelb.edu.au (Murrup Barak) + Faculty (local)</strong></td>
+<td>students.unimelb.edu.au is primary</td>
 </tr>
 </tbody>
 </table>
@@ -727,31 +730,31 @@ em{color:var(--muted)}
 <li><p><strong>Add "Where do I go for X?" component.</strong> Every faculty CS page must include a standardised sidebar mapping common needs to the correct system. This alone would substantially reduce student confusion and is the single highest-impact quick win.</p></li>
 <li><p><strong>Consolidate school-level CS sections.</strong> Biomedical Sciences, Dental School, and MBS CS sections must either redirect to their faculty CS page or follow the same template and URL convention as the faculty. No separate CS ecosystems at the school level.</p></li>
 <li><p><strong>Fix broken links.</strong> FEIT (17 broken/duplicate URLs), Arts (3 broken pages), FBE (<code>/current-students</code> → 404), and MDHS (circular school resource links) — fix regardless.</p></li>
-<li><p><strong>Cross-link careers content.</strong> Every faculty careers page must prominently link to the central Careers hub, and the hub must link to every faculty's career programs. The current complete separation is the clearest failure in the ecosystem.</p></li>
+<li><p><strong>Cross-link careers content.</strong> Every faculty careers page must prominently link to the central Careers students.unimelb.edu.au, and students.unimelb.edu.au must link to every faculty's career programs. The current complete separation is the clearest failure in the ecosystem.</p></li>
 </ol>
 <hr />
 <h2 id="4d-key-topic-treatment">4d. Key-Topic Treatment</h2>
 <h3 id="course-planning">Course Planning</h3>
 <ul>
-<li><strong>Hub:</strong> Add <code>/your-course/faculty-course-planning</code> — a single page linking to every faculty's sample plans and degree guides. Retain My Course Planner and general advice.</li>
+<li><strong>students.unimelb.edu.au:</strong> Add <code>/your-course/faculty-course-planning</code> — a single page linking to every faculty's sample plans and degree guides. Retain My Course Planner and general advice.</li>
 <li><strong>Faculty:</strong> Retain sample course plans, degree guides, major selection advice. Standardise: each faculty produces a Course Planning page with subsections per degree program.</li>
-<li><strong>Remove:</strong> General "how to plan your course" advice on faculty pages — redirect to hub.</li>
+<li><strong>Remove:</strong> General "how to plan your course" advice on faculty pages — redirect to students.unimelb.edu.au.</li>
 </ul>
 <h3 id="careers--employability">Careers &amp; Employability</h3>
 <ul>
-<li><strong>Hub:</strong> Becomes the primary careers platform (Careers Online, Smart Resume, Career Checklist, general workshops). Add <code>/careers/faculty-career-programs</code> linking to every faculty's discipline-specific programs.</li>
-<li><strong>Faculty:</strong> Retain discipline-specific mentoring, industry connections, career pathway pages. <strong>Must</strong> embed or prominently link to hub careers tools.</li>
-<li><strong>MBS Career Elevation:</strong> Integrate with (not compete with) the central Careers hub. At minimum, cross-link.</li>
+<li><strong>students.unimelb.edu.au:</strong> Becomes the primary careers platform (Careers Online, Smart Resume, Career Checklist, general workshops). Add <code>/careers/faculty-career-programs</code> linking to every faculty's discipline-specific programs.</li>
+<li><strong>Faculty:</strong> Retain discipline-specific mentoring, industry connections, career pathway pages. <strong>Must</strong> embed or prominently link to students.unimelb.edu.au careers tools.</li>
+<li><strong>MBS Career Elevation:</strong> Integrate with (not compete with) the central Careers students.unimelb.edu.au. At minimum, cross-link.</li>
 </ul>
 <h3 id="placements--wil">Placements &amp; WIL</h3>
 <ul>
-<li><strong>Hub:</strong> Create <code>/your-course/placements-and-wil</code> — a landing page explaining WIL and linking to each faculty's placement program. The hub currently has zero placement content.</li>
+<li><strong>students.unimelb.edu.au:</strong> Create <code>/your-course/placements-and-wil</code> — a landing page explaining WIL and linking to each faculty's placement program. students.unimelb.edu.au currently has zero placement content.</li>
 <li><strong>Faculty:</strong> Retain full ownership of placement management. Standardise structure: Overview → Eligibility → How to Apply → Contacts.</li>
 </ul>
 <h3 id="student-life--wellbeing">Student Life &amp; Wellbeing</h3>
 <ul>
-<li><strong>Hub:</strong> Retain primary ownership of health, counselling, SEDS, food, transport, clubs (via UMSU/GSA).</li>
-<li><strong>Faculty:</strong> Retain faculty-specific events, newsletters, clubs. Faculty wellbeing pages should redirect to hub, with faculty-specific contacts only (e.g., "FEIT wellbeing officer: [contact]").</li>
+<li><strong>students.unimelb.edu.au:</strong> Retain primary ownership of health, counselling, SEDS, food, transport, clubs (via UMSU/GSA).</li>
+<li><strong>Faculty:</strong> Retain faculty-specific events, newsletters, clubs. Faculty wellbeing pages should redirect to students.unimelb.edu.au, with faculty-specific contacts only (e.g., "FEIT wellbeing officer: [contact]").</li>
 </ul>
 <hr />
 <h2 id="4g-new-pages-required-on-studentsunimelbeduau">4g. New Pages Required on students.unimelb.edu.au</h2>
@@ -796,7 +799,7 @@ em{color:var(--muted)}
 </tr>
 </tbody>
 </table>
-<p><strong>Total: ~14 new pages on the hub.</strong> All are thin gateway/landing pages. No heavy content migration.</p>
+<p><strong>Total: ~14 new pages on students.unimelb.edu.au.</strong> All are thin gateway/landing pages. No heavy content migration.</p>
 <hr />
 <h2 id="4h-faculty-site-updates">4h. Faculty Site Updates</h2>
 <h3 id="standardised-cs-template">Standardised CS template</h3>
@@ -808,7 +811,7 @@ em{color:var(--muted)}
 2. COURSE PLANNING (faculty-owned)
    - Sample course plans by degree
    - Degree guides / subject selection advice
-   - Link to My Course Planner (hub)
+   - Link to My Course Planner (students.unimelb.edu.au)
 
 3. PLACEMENTS &amp; WIL (faculty-owned)
    - Placement programs
@@ -922,11 +925,11 @@ em{color:var(--muted)}
 <h2 id="4i-design-principles--governance">4i. Design Principles &amp; Governance</h2>
 <h3 id="design-principles">Design principles</h3>
 <ol type="1">
-<li><p><strong>Students should never have to know which system handles what.</strong> The hub is always the first stop.</p></li>
-<li><p><strong>One source of truth per service.</strong> No service explained on both a faculty page and the hub.</p></li>
+<li><p><strong>Students should never have to know which system handles what.</strong> students.unimelb.edu.au is always the first stop.</p></li>
+<li><p><strong>One source of truth per service.</strong> No service explained on both a faculty page and students.unimelb.edu.au.</p></li>
 <li><p><strong>Consistent URL conventions.</strong> <code>faculty.unimelb.edu.au/students</code> for every faculty. No exceptions.</p></li>
 <li><p><strong>Standard navigation labels.</strong> "Current students" — not "Students" / "Student resources" / "Current student information" / "Study".</p></li>
-<li><p><strong>Faculty pages link out; hub pages link down.</strong> Faculty → hub for transactional. Hub → faculty for discipline-specific.</p></li>
+<li><p><strong>Faculty pages link out; students.unimelb.edu.au pages link down.</strong> Faculty → students.unimelb.edu.au for transactional. students.unimelb.edu.au → faculty for discipline-specific.</p></li>
 <li><p><strong>"Where to go" is always explicit.</strong> Every page states where to go for related needs.</p></li>
 </ol>
 <h3 id="governance-model">Governance model</h3>
@@ -940,9 +943,9 @@ em{color:var(--muted)}
 </thead>
 <tbody>
 <tr>
-<td>Hub content owner</td>
+<td>students.unimelb.edu.au content owner</td>
 <td>Central web team / Student Services</td>
-<td>All hub pages. Faculty landing pages. Cross-faculty gateway pages.</td>
+<td>All students.unimelb.edu.au pages. Faculty landing pages. Cross-faculty gateway pages.</td>
 </tr>
 <tr>
 <td>Faculty content owner</td>
@@ -957,7 +960,7 @@ em{color:var(--muted)}
 <tr>
 <td>Cross-linking audit</td>
 <td>Central web team (quarterly)</td>
-<td>Verify hub↔︎faculty links. Fix broken links.</td>
+<td>Verify students.unimelb.edu.au↔︎faculty links. Fix broken links.</td>
 </tr>
 <tr>
 <td>URL convention enforcement</td>
@@ -977,22 +980,22 @@ em{color:var(--muted)}
 <li>Standardise URL conventions with redirects</li>
 <li>Add "Where to go for everything else" sidebar to all faculty CS pages</li>
 <li>Fix all broken links discovered in this audit</li>
-<li>Cross-link hub careers ↔︎ faculty careers</li>
+<li>Cross-link students.unimelb.edu.au careers ↔︎ faculty careers</li>
 <li><em>Decision gate: confirm which option (A/B/C/D) before Phase 2</em></li>
 </ul>
 <p><strong>Phase 2 — Content Consolidation (6 months)</strong></p>
 <ul>
 <li>Remove duplicative content from faculty sites (enrolment, fees, exams, graduation, health, key dates)</li>
-<li>Replace with hub links</li>
-<li>Build hub placements gateway page</li>
-<li>Build hub course planning gateway page</li>
-<li>Build hub careers-faculty bridge page</li>
+<li>Replace with students.unimelb.edu.au links</li>
+<li>Build students.unimelb.edu.au placements gateway page</li>
+<li>Build students.unimelb.edu.au course planning gateway page</li>
+<li>Build students.unimelb.edu.au careers-faculty bridge page</li>
 </ul>
 <p><strong>Phase 3 — Template Standardisation (12 months)</strong></p>
 <ul>
 <li>Migrate all faculty CS pages to standardised template</li>
 <li>Consolidate school-level CS sections (Biomedical Sciences, Dental, MBS)</li>
-<li>Build hub faculty landing pages</li>
+<li>Build students.unimelb.edu.au faculty landing pages</li>
 <li>Annual governance cycle begins</li>
 </ul>
 <hr />
@@ -1006,40 +1009,48 @@ em{color:var(--muted)}
 </thead>
 <tbody>
 <tr>
-<td>1,173 fully crawled pages across all 12 units — 85% unique (Law 195, FEIT 204, ABP 250, MDHS 112, Science 94, Arts 91, MBS 61, Education 47, Biomedical 42, FFAM 37, FBE 36, Dental 4)</td>
+<td>1,173 crawled pages across 12 units — 85% unique (Law 195, FEIT 204, ABP 250, MDHS 112, Science 94, Arts 91, MBS 61, Education 47, Biomedical 42, FFAM 37, FBE 36, Dental 4)</td>
 <td><code>crawl/pages/*.json</code></td>
 </tr>
 <tr>
-<td>9 faculty summaries + hub IA</td>
+<td>Full faculty-domain crawl (9 domains, 2,363 pages) — current-students = 7.2% sign-posted; no shared faculty IA</td>
+<td><code>crawl/full-faculty/*.json</code>, <code>analysis/full-faculty-context.md</code>, <code>data/clean/full_faculty_stats.py</code></td>
+</tr>
+<tr>
+<td>9 faculty summaries + students.unimelb.edu.au IA</td>
 <td><code>crawl/pages/*-summary.md</code>, <code>hub-summary.md</code></td>
 </tr>
 <tr>
-<td>Phase 1 unit registry (43 units)</td>
+<td>Unit registry (43 units)</td>
 <td><code>data/unit-registry.csv</code></td>
-</tr>
-<tr>
-<td>Phase 1 structural findings</td>
-<td><code>analysis/phase1-findings.md</code></td>
 </tr>
 <tr>
 <td>Cross-faculty service model matrix</td>
 <td><code>analysis/service-model-matrix.md</code></td>
 </tr>
 <tr>
-<td>Structural findings (10 findings)</td>
+<td><strong>Structural findings report (27 findings)</strong></td>
 <td><code>analysis/structural-findings.md</code></td>
 </tr>
 <tr>
-<td>9 per-faculty profiles</td>
+<td>Measurement cleanup &amp; count corrections (cleaned dataset)</td>
+<td><code>analysis/data-and-synthesis-issues.md</code>, <code>data/clean/</code></td>
+</tr>
+<tr>
+<td>11 unit profiles</td>
 <td><code>analysis/unit-*.md</code></td>
 </tr>
 <tr>
-<td>4 topic deep-dives</td>
+<td>20 topic deep-dives</td>
 <td><code>analysis/topic-deepdives/</code></td>
 </tr>
 <tr>
+<td>Cross-site overlap (study.unimelb, alumni)</td>
+<td><code>analysis/cross-site-overlap.md</code></td>
+</tr>
+<tr>
 <td>Structured data (inventory, IA, classification)</td>
-<td><code>data/url-inventory.csv</code>, <code>data/pages-by-topic.csv</code>, <code>data/unique-vs-linkfarm.csv</code></td>
+<td><code>data/url-inventory.csv</code>, <code>data/pages-by-topic.csv</code>, <code>data/clean/</code></td>
 </tr>
 </tbody>
 </table>

@@ -3,7 +3,7 @@
 
 ---
 
-> **Data:** All rows are from the June 2026 crawl. Current-students estate: 1,173 pages across hub + 9 faculties + 3 schools. study.unimelb: 300 pages (271 unique). alumni.unimelb (www.unimelb.edu.au/alumni): 116 pages (112 unique).
+> **Data:** All rows are from the June 2026 crawl. Current-students estate: 1,173 pages across students.unimelb.edu.au + 9 faculties + 3 schools. study.unimelb: 300 pages (271 unique). alumni.unimelb (www.unimelb.edu.au/alumni): 116 pages (112 unique).
 
 ---
 
@@ -13,12 +13,12 @@
 
 | Destination | Total outbound links | From # of faculty sections | Signal |
 |---|--:|--:|---|
-| `students.unimelb.edu.au` | 4,629 | all 13 | Hub is the primary cross-link target |
+| `students.unimelb.edu.au` | 4,629 | all 13 | students.unimelb.edu.au is the primary cross-link target |
 | `study.unimelb.edu.au` | 529 | multiple faculties | Students sent BACK to prospective site |
 | `alumni.unimelb.edu.au` | **0** | 0 of 13 | **Alumni site is invisible from current-student estate** |
 | `giving.unimelb.edu.au` | 399 | multiple | Giving/philanthropy linked directly |
 | `scholarships.unimelb.edu.au` | 515 | multiple | Scholarships has its own dedicated domain |
-| `careers.unimelb.edu.au` | 5 | ~3 | Careers hub almost entirely absent from faculty CS links |
+| `careers.unimelb.edu.au` | 5 | ~3 | Careers service almost entirely absent from faculty CS links |
 
 **Key finding — the estate is not circular:** Students are being sent TO study.unimelb (529 links) for prospective-style content they're looking for during their enrolment/course-planning journey, but there is no path forward to alumni from anywhere in the current-students estate. The lifecycle continuity (student → graduate → alumni) is structurally broken at the web level.
 
@@ -32,17 +32,19 @@ A scan of all 1,161 current-students pages for outbound alumni.unimelb.edu.au li
 
 For each topic where content exists in more than one part of the estate, the table shows page counts and a verdict.
 
-| Topic | Hub (students.) | Faculty CS | study.unimelb | alumni.unimelb | Verdict |
+| Topic | students.unimelb.edu.au (students.) | Faculty CS | study.unimelb | alumni.unimelb | Verdict |
 |---|---|---|--:|--:|---|
-| Course / degree info | Planner + Handbook | Every faculty | **224 pp** — course brochures, degree finders | — | **Intentional split:** study for entry, faculties for ongoing planning. study→students has 273 outbound links to the hub but the handoff is undesigned. |
-| Fees & finance | Thin hub | Some faculties | **34 pp** — fees + living costs | — | study.unimelb is the authoritative source for prospective fees; hub replicates HECS/FEE-HELP. Low overlap risk. |
+| Course / degree info | Planner + Handbook | Every faculty | **224 pp** — course brochures, degree finders | — | **Intentional split:** study for entry, faculties for ongoing planning. study→students has 273 outbound links to students.unimelb.edu.au but the handoff is undesigned. |
+| Fees & finance | Thin central landing | Some faculties | **34 pp** — fees + living costs | — | study.unimelb is the authoritative source for prospective fees; students.unimelb.edu.au replicates HECS/FEE-HELP. Low overlap risk. |
 | Scholarships | 0 | **141 pp** | **75 pp** (scholarships + study-scholarships) | **1 pp** — alumni-funded | `scholarships.unimelb.edu.au` exists as a consolidation point but isn't consistently linked from any of the three sites. **Classic three-way duplication.** |
-| Careers | Central platform | **141 pp** (8 of 9) | **37 pp** — entry only | **38 pp** + mentoring (20 pp) | Four parallel careers presences with no cross-linking. The alumni mentoring pipeline (graduates back into current students) is the clearest missing link. |
-| Placements / WIL | 0 | **207 pp** (every faculty) | 10 pp — overview only | — | Hub gap; faculty-owned. No alumni angle; study.unimelb has surface-level WIL mentions only. |
+| Careers | Central platform | **141 pp** (8 of 9) | **37 pp** — entry only | **38 pp** (incl. 20 mentoring †) | Four parallel careers presences with no cross-linking. The alumni mentoring pipeline (graduates back into current students) is the clearest missing link. |
+| Placements / WIL | 0 | **207 pp** (every faculty) | 10 pp — overview only | — | students.unimelb.edu.au gap; faculty-owned. No alumni angle; study.unimelb has surface-level WIL mentions only. |
 | Research candidature | Thin | Heavy | **1 pp** — entry info | **1 pp** | study.unimelb has minimal PhD entry content; faculties own the candidature lifecycle; no handoff. |
 | Alumni engagement | — | Some (patchy) | — | **116 pp** — full estate | **The most broken handoff in the estate.** Zero links from current-students → alumni. Graduation is the exit from the current-students estate with nowhere to go next. |
 | Student life / community | Heavy (UMSU) | Faculty-owned | **47 pp** — campus life (entry framing) | **21 pp** — alumni community | Three distinct framings (UMSU, faculty societies, alumni network) with no narrative thread. |
-| International | Hub + some faculties | Some | **66 pp** — full international (entry) | **20 pp** — international alumni | Outbound mobility is faculty-owned; inbound visa/OSHC is a hub gap. study.unimelb has full international applicant coverage. |
+| International | students.unimelb.edu.au + some faculties | Some | **66 pp** — full international (entry) | **20 pp** — international alumni | Outbound mobility is faculty-owned; inbound visa/OSHC is a students.unimelb.edu.au gap. study.unimelb has full international applicant coverage. |
+
+> † **Alumni careers = 38 pages total, not 58.** The 20 `alumni-careers-mentoring` pages are a **strict subset** of the 38 `careers-employability` pages (100% tag overlap; union = 38, verified against `crawl/pages/alumni-unimelb.json`) — they are *not* an additional 20. Do not sum the two figures in prioritisation or volume-weighting.
 
 ---
 
@@ -53,9 +55,9 @@ Confirmed from the June 2026 crawl (300 pages, 271 unique):
 - **Graduate Degree Package pages** (14+ substantive pages, 2k–4.7k words each, 8–24 links per page to students.unimelb) — the University's enrolled-student pathway product lives entirely on a prospective site with no enrolled-student mirror
 - **ATAR / selection rank tables and entry requirement detail** (23 pages, study-entry-requirements)
 - **Moving Guide** — a post-offer, pre-arrival guide for international students; highest-stakes misplaced content in the estate
-- **Living costs and fee estimators** (21 pages study-fees-costs + 13 fees-finance) — the prospective site holds the canonical version, enrolled students who return here find no path to the hub
+- **Living costs and fee estimators** (21 pages study-fees-costs + 13 fees-finance) — the prospective site holds the canonical version, enrolled students who return here find no path to students.unimelb.edu.au
 - **Course finder / degree browser** — `/find` section (81 pages) has no equivalent in the current-students estate
-- **The Glossary** (6,294 words, 44 links to students hub) — functions as an enrolled-student orientation document but lives on the prospective site
+- **The Glossary** (6,294 words, 44 links to students students.unimelb.edu.au) — functions as an enrolled-student orientation document but lives on the prospective site
 - **Campus life content** (109 pages, study-campus-life) framed at "will I fit in?" rather than "how do I participate?"
 
 **Why this matters:** 273 outbound links from study.unimelb → students.unimelb confirm prospective content is already being used post-enrolment. But study.unimelb has no "you're enrolled: start here" pathway, so new students land mid-prospectus.
@@ -81,7 +83,7 @@ Confirmed from the June 2026 crawl (116 pages, 112 unique; www.unimelb.edu.au/al
 
 | Content area | Current-students version | Alumni version | Assessment |
 |---|---|---|---|
-| Careers | Faculty careers offices + central hub | Alumni mentoring network | Different service, same broad need. Cross-linking would be additive, not duplicative. |
+| Careers | Faculty careers offices + students.unimelb.edu.au | Alumni mentoring network | Different service, same broad need. Cross-linking would be additive, not duplicative. |
 | Events | Faculty student events, UMSU | Alumni reunions, lecture series | Separate audiences but common venue (campus). Alumni events currently invisible to current students. |
 | Community / belonging | UMSU, student societies | Alumni network, chapters | Lifecycle continuity: student society → alumni chapter. No web path connecting them. |
 | Research | HDR candidature milestones | Alumni research collaborations | Separate pages serving different needs — this overlap is not a problem. |
@@ -108,7 +110,7 @@ The right handoff (current → alumni) is **completely absent**: 0 links from an
 | Topic | Verdict | Priority |
 |---|---|---|
 | Scholarships | Three-way duplication (`scholarships.unimelb`, faculty, study.unimelb) — consolidate around `scholarships.unimelb` as the single entry point | High |
-| Careers | Four parallel presences (hub, 8 faculties, study, alumni) — connect rather than consolidate; alumni mentoring is the highest-value missing link | High |
+| Careers | Four parallel presences (students.unimelb.edu.au, 8 faculties, study, alumni) — connect rather than consolidate; alumni mentoring is the highest-value missing link | High |
 | Alumni handoff | Structurally absent — add "what happens after you graduate" signpost at graduation pages | High |
 | study.unimelb → students handoff | No web path for new enrolees from prospective to current site — add prominent "you're enrolled: start here" pathway | Medium |
 | Fees / course info | Intentional split (prospective vs ongoing) — keep separate but cross-link clearly at enrolment transition | Low |
