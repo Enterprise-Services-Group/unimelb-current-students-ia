@@ -2,7 +2,7 @@
 
 *Synthesized from crawl of 9 faculty CS sections + students.unimelb.edu.au. June 2026.*
 
-> **About this report.** The fragmentation, duplication, gap, and governance problems a current student actually hits, each with a recommended fix. The estate is **1,153 current-students pages (843 substantive content)**. Topic counts are cleaned content counts — raw crawl counts were inflated 40–94% by archives, profiles, and over-broad tagging, so several findings cite the *pattern* (every faculty runs its own) rather than a page tally. Findings 1–20 come from the structural crawl; findings 21–27 are cross-source insights (from triangulating the crawl, the student-journey research, the navigation structure, and the full-faculty-domain crawl together).
+> **About this report.** The fragmentation, duplication, gap, and governance problems a current student actually hits, each with a recommended fix. The estate is **1,153 current-students pages (843 substantive content)**. Topic counts are cleaned content counts — raw crawl counts were inflated 40–94% by archives, profiles, and over-broad tagging, so several findings cite the *pattern* (every faculty runs its own) rather than a page tally. Findings 1–20 come from the structural crawl; findings 21–28 are cross-source insights (from triangulating the crawl, the student-journey research, the navigation structure, the full-faculty-domain crawl, and the cross-corpus lifecycle join together).
 
 ---
 
@@ -334,3 +334,18 @@ Two structural consequences follow:
 **Impact:** Strengthens the central-and-spoke direction rather than changing it. Full centralisation is *less* viable (nothing common to centralise into; student content is entangled with non-student content), and the case for a consistent student-facing overlay — URL convention, signposting, a standardised template — is sharper. A current student's tasks will always sit inside an outward-facing estate; the fix is to make that 7% layer findable and consistent, not to relocate it.
 
 **Recommendation:** Treat the standardised CS template and URL convention as the primary levers — they are the only ones that touch all nine architectures without trying to unify the parent sites. Full evidence and per-faculty figures: [`full-faculty-context.md`](full-faculty-context.md).
+
+---
+
+## Finding 28 — The fragmentation runs the full length of the student lifecycle, not just the current-students estate
+
+A student's relationship with the University spans prospective → current → alumni, but on the web that journey crosses **four domains, four architectures, and four vocabularies** with no shared addressing and no visible handoffs: `study.unimelb.edu.au` (prospective) → `{faculty}.unimelb.edu.au` + `students.unimelb.edu.au` (current) → `www.unimelb.edu.au/alumni` (alumni). A cross-corpus join finds the same fragmentation this report documents inside the current-students estate repeating at every stage:
+
+- **Careers is authored at ~10 locations across all four domains** — prospective, central, eight faculties, and alumni — and faculty student-mentoring is never linked to the alumni mentoring a student graduates into.
+- **The prospective side is as fragmented as the current side:** 300 central `study.unimelb.edu.au` pages *plus* ~210 faculty-hosted `/study/` pages (Education 70, Law 44, Science 36). The apply→enrol handoff crosses a domain boundary with zero shared vocabulary.
+- **Alumni is current-student services re-hosted on a fourth domain** (careers, wellbeing, international, mentoring all reappear), and the graduation→alumni handoff is structurally absent — zero "graduation" pages at the current stage (cf. [Finding 17](#finding-17--the-alumni-handoff-is-structurally-absent-at-the-web-level)).
+- **Research reputation and research-student support are decoupled:** the faculties with the largest research estates (MDHS 63, Science 60, Education 44 pages) carry the *least* HDR-candidature support (1, 6, 0).
+
+**Impact:** A current-students-only remedy fixes only one of three lifecycle handoffs. The seams a student actually feels — applying then enrolling, finishing then becoming alumni — sit on the boundaries *between* the corpora this report otherwise treats separately, and they are the least owned.
+
+**Recommendation:** Scope the IA strategy to the lifecycle, not just the current-students estate: prioritise the apply→enrol and graduate→alumni bridges and a careers/mentoring connector across faculty ↔ central ↔ alumni. Full evidence: [`lifecycle-cross-corpus.md`](lifecycle-cross-corpus.md).

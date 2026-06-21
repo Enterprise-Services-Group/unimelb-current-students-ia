@@ -1,0 +1,76 @@
+<svg width="100%" viewBox="0 0 680 304" role="img" xmlns="http://www.w3.org/2000/svg">
+  <title>The student lifecycle on the web: one journey across four websites</title>
+  <desc>A current student's journey runs prospective to current to alumni, but on the web it crosses four domains — study.unimelb (prospective), nine faculty sites and students.unimelb (current), and the alumni site — with two broken handoffs: apply-to-enrol and graduate-to-alumni. Supporting findings: the research paradox, careers authored about ten times across four domains, and current students being only 4 percent of the faculty estate.</desc>
+  <style>
+    text{font-family:ui-sans-serif,system-ui,-apple-system,'Segoe UI',Roboto,sans-serif}
+    .t{font-size:14px;fill:#2C2C2A}
+    .ts{font-size:12px;fill:#5F5E5A}
+    .th{font-size:14px;font-weight:500;fill:#2C2C2A}
+  </style>
+
+  <!-- heading -->
+  <text class="th" x="40" y="34">One journey, four websites — the student lifecycle on the web</text>
+
+  <!-- lifecycle stage band -->
+  <text class="ts" x="112" y="62" text-anchor="middle">Prospective</text>
+  <text class="ts" x="227" y="62" text-anchor="middle">→</text>
+  <text class="ts" x="343" y="62" text-anchor="middle">Current</text>
+  <text class="ts" x="461" y="62" text-anchor="middle">→</text>
+  <text class="ts" x="580" y="62" text-anchor="middle">Alumni</text>
+
+  <!-- domain boxes -->
+  <!-- prospective: study.unimelb (purple) -->
+  <rect x="40" y="76" width="145" height="58" rx="8" fill="#EEEDFE" stroke="#534AB7" stroke-width="0.5"/>
+  <text class="th" x="112" y="101" text-anchor="middle" fill="#3C3489">study.unimelb</text>
+  <text class="ts" x="112" y="120" text-anchor="middle" fill="#534AB7">300 pages</text>
+
+  <!-- current: 9 faculty sites (teal) -->
+  <rect x="207" y="76" width="120" height="58" rx="8" fill="#E1F5EE" stroke="#0F6E56" stroke-width="0.5"/>
+  <text class="th" x="267" y="101" text-anchor="middle" fill="#085041">9 faculties</text>
+  <text class="ts" x="267" y="120" text-anchor="middle" fill="#0F6E56">~1,000 pp</text>
+
+  <!-- current: students.unimelb (teal) -->
+  <rect x="342" y="76" width="160" height="58" rx="8" fill="#E1F5EE" stroke="#0F6E56" stroke-width="0.5"/>
+  <text class="th" x="422" y="101" text-anchor="middle" fill="#085041">students.unimelb</text>
+  <text class="ts" x="422" y="120" text-anchor="middle" fill="#0F6E56">central spine</text>
+
+  <!-- alumni: alumni site (coral) -->
+  <rect x="520" y="76" width="120" height="58" rx="8" fill="#FAECE7" stroke="#993C1D" stroke-width="0.5"/>
+  <text class="th" x="580" y="101" text-anchor="middle" fill="#712B13">alumni site</text>
+  <text class="ts" x="580" y="120" text-anchor="middle" fill="#993C1D">116 pages</text>
+
+  <!-- lifecycle track with broken seams -->
+  <!-- solid link: faculty <-> students (same stage, coexist) -->
+  <line x1="275" y1="168" x2="414" y2="168" stroke="#0F6E56" stroke-width="1.5"/>
+  <!-- broken seam 1: apply -> enrol -->
+  <line x1="120" y1="168" x2="166" y2="168" stroke="#A32D2D" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <line x1="213" y1="168" x2="259" y2="168" stroke="#A32D2D" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <text x="189" y="173" text-anchor="middle" font-size="13" fill="#A32D2D">✗</text>
+  <!-- broken seam 2: graduate -> alumni -->
+  <line x1="430" y1="168" x2="476" y2="168" stroke="#A32D2D" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <line x1="527" y1="168" x2="572" y2="168" stroke="#A32D2D" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <text x="501" y="173" text-anchor="middle" font-size="13" fill="#A32D2D">✗</text>
+  <!-- track dots -->
+  <circle cx="112" cy="168" r="4" fill="#1D9E75"/>
+  <circle cx="267" cy="168" r="4" fill="#1D9E75"/>
+  <circle cx="422" cy="168" r="4" fill="#1D9E75"/>
+  <circle cx="580" cy="168" r="4" fill="#1D9E75"/>
+
+  <!-- seam labels -->
+  <text class="ts" x="189" y="190" text-anchor="middle">apply → enrol</text>
+  <text class="ts" x="501" y="190" text-anchor="middle">graduate → alumni</text>
+  <text class="ts" x="343" y="208" text-anchor="middle" fill="#A32D2D">✗ = broken handoff: no shared vocabulary, no web-level bridge</text>
+
+  <!-- supporting findings -->
+  <rect x="40" y="226" width="185" height="56" rx="8" fill="#FAEEDA" stroke="#854F0B" stroke-width="0.5"/>
+  <text class="th" x="132" y="250" text-anchor="middle" fill="#633806">Research paradox</text>
+  <text class="ts" x="132" y="269" text-anchor="middle" fill="#854F0B">MDHS 63 res. / 1 HDR</text>
+
+  <rect x="247" y="226" width="186" height="56" rx="8" fill="#FAEEDA" stroke="#854F0B" stroke-width="0.5"/>
+  <text class="th" x="340" y="250" text-anchor="middle" fill="#633806">Careers across life</text>
+  <text class="ts" x="340" y="269" text-anchor="middle" fill="#854F0B">~10 places, 0 links</text>
+
+  <rect x="455" y="226" width="185" height="56" rx="8" fill="#FAEEDA" stroke="#854F0B" stroke-width="0.5"/>
+  <text class="th" x="547" y="250" text-anchor="middle" fill="#633806">Smallest tenant</text>
+  <text class="ts" x="547" y="269" text-anchor="middle" fill="#854F0B">4% of faculty estate</text>
+</svg>
