@@ -152,8 +152,8 @@ s6.addText("LINK FLOWS BETWEEN ESTATES",
   ["→","Faculty CS → students.unimelb","4,629 links · all topics",true],
   ["→","Faculty CS → study.unimelb","529 links · course planning",true],
   ["→","study.unimelb → students.unimelb","273 links · course info",true],
-  ["✗","students.unimelb → alumni.unimelb","0 links — graduation exit broken",false],
-  ["✗","Faculty CS → alumni.unimelb","0 links — 13 mentoring streams not connected",false],
+  ["✗","students.unimelb → alumni.unimelb","no direct links — graduation exit broken",false],
+  ["✗","Faculty CS → alumni.unimelb","no direct links · 12 mentoring streams",false],
 ].forEach(([icon,lbl,detail,active],i)=>{
   const y=5.12+i*0.19;
   s6.addShape(pres.shapes.RECTANGLE,{x:P1X,y,w:5.35,h:0.18,fill:{color:active?C.tint:C.light},line:{color:C.linelt,width:0.5}});
@@ -165,7 +165,7 @@ s6.addShape(pres.shapes.RECTANGLE,{x:0.62,y:6.08,w:0.1,h:0.68,fill:{color:C.cyan
 s6.addText([{text:"To discuss:  ",options:{bold:true,color:C.navy}},
   {text:"Is this the right picture of where the estate sits? Where does the faculty presence in all three phases create useful duplication — and where is it a broken thread?",options:{color:C.navy2}}],
   {x:0.95,y:6.08,w:11.3,h:0.68,fontFace:BODY,fontSize:13,valign:"middle",margin:0});
-s6.addNotes("Walk through the diagram (~5 min). The key insight is the faculty band spanning all three phases. Link flows (bottom section) show what the June 2026 crawl found: three active connections (faculty→students.unimelb 4,629 links; faculty→study 529 links; study→students.unimelb 273 links) and two completely broken connections (students.unimelb→alumni 0 links; faculty→alumni 0 links despite 13 mentoring streams existing on alumni.unimelb). The gap labels between core boxes show study→students.unimelb (273 links, active) and students→alumni (0 links, broken). Invite corrections to the picture — 'does this match what you see from your site's perspective?'");
+s6.addNotes("Walk through the diagram (~5 min). The key insight is the faculty band spanning all three phases. Link flows (bottom section) show what the June 2026 crawl found: three active connections (faculty→students.unimelb 4,629 links; faculty→study 529 links; study→students.unimelb 273 links) and two completely broken connections (students.unimelb→alumni 0 links; faculty→alumni no direct links despite 12 mentoring streams existing on alumni.unimelb — note: host-level link scan only, alumni content is on www.unimelb.edu.au/alumni). The gap labels between core boxes show study→students.unimelb (273 links, active) and students→alumni (0 links, broken). Invite corrections to the picture — 'does this match what you see from your site's perspective?'");
 
 /* ============ 6 — Open discussion ============ */
 const sd=content("Where overlap shows up — and where it matters");

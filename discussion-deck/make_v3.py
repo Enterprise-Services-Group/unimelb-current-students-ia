@@ -36,6 +36,48 @@ shutil.copy(SRC, DST)
 prs = Presentation(str(DST))
 
 
+# ---- corrections to the copied 'Three phases' slide (index 4) --------------
+# User-approved factual fix (verified against the full scrape, June 2026):
+#  - mentoring streams = 12, not 13 (alumni site has 12 faculty-specific streams)
+#  - soften the "0 links → alumni" claims: the crawl recorded outbound links at
+#    HOST level only (no paths), and alumni content lives on
+#    www.unimelb.edu.au/alumni — a host faculty pages do link to — so the
+#    "0 links to alumni.unimelb.edu.au host" result can't confirm faculty pages
+#    never link to /alumni. Reworded to "no direct links"; caveat in the notes.
+def _correct_three_phases():
+    s = prs.slides[4]
+    repl = [("0 links — 13 mentoring streams not connected", "no direct links · 12 mentoring streams"),
+            ("13 faculty", "12 faculty"),
+            ("✗ 0 links", "✗ none found"),
+            ("0 links", "no direct links")]
+    for sh in s.shapes:
+        if not sh.has_text_frame:
+            continue
+        # tiny students->alumni gap marker "✗ 0 / links" -> "✗ / none" (keep it short)
+        if sh.text_frame.text.strip().replace("\n", " ") == "✗ 0 links":
+            paras = sh.text_frame.paragraphs
+            if len(paras) >= 2 and paras[0].runs and paras[1].runs:
+                paras[0].runs[0].text = "✗"
+                paras[1].runs[0].text = "none"
+            continue
+        for para in sh.text_frame.paragraphs:
+            for r in para.runs:
+                for a, b in repl:
+                    if a in r.text:
+                        r.text = r.text.replace(a, b)
+    ns = s.notes_slide
+    if ns.notes_text_frame is not None:
+        t = ns.notes_text_frame.text.replace("13 mentoring", "12 mentoring")
+        t += ("  CAVEAT on the alumni '0 links': the crawl recorded outbound links at HOST level only (no paths), "
+              "and alumni content lives on www.unimelb.edu.au/alumni — a host faculty pages do link to. So "
+              "'no direct links' means zero links to the alumni.unimelb.edu.au host; confirming faculty pages "
+              "never link to /alumni needs a path-level re-crawl. Mentoring streams = 12 (verified).")
+        ns.notes_text_frame.text = t
+
+
+_correct_three_phases()
+
+
 # ---------------------------------------------------------------- helpers ---
 def add_slide():
     s = prs.slides.add_slide(prs.slide_layouts[0])
