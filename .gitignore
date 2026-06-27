@@ -38,3 +38,7 @@ crawl/www-unimelb-edu-au-alumni/
 
 # misc temp
 *.bak
+
+# python cache
+__pycache__/
+*.pyc
