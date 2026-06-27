@@ -159,6 +159,12 @@ section.navy .bar-row .v{color:var(--cyan)}
 .seam .sh.broken{background:var(--red)} .seam .sh.weak{background:var(--amber)} .seam .sh.ok{background:var(--brand-500)}
 .seam .se{font-size:14.5px;color:var(--ink-2);line-height:1.4}
 @media(max-width:880px){.seam{grid-template-columns:1fr auto;gap:8px}.seam .se{grid-column:1/-1}}
+.cspine{display:grid;grid-template-columns:repeat(6,1fr);gap:10px;margin-top:8px}
+.cstage{background:rgba(255,255,255,.06);border-top:3px solid var(--cyan);padding:16px 15px}
+.cstage .cs-st{font-size:14px;font-weight:600;color:#fff;line-height:1.25}
+.cstage .cs-ct{font-family:var(--font-m);font-size:13px;color:var(--cyan);margin-top:9px}
+.cstage .cs-nt{font-size:12px;color:#9aa0c4;margin-top:9px;line-height:1.4}
+@media(max-width:880px){.cspine{grid-template-columns:1fr 1fr}}
 .modal table{width:100%;border-collapse:collapse;margin-top:4px;font-size:14px}
 .modal th,.modal td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--border);vertical-align:top;line-height:1.45}
 .modal th{font-family:var(--font-m);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-3)}
@@ -190,7 +196,7 @@ footer .src{font-family:var(--font-m);font-size:12px;color:#6b7099;margin-top:22
     <img src="assets/UoM_Logo_Horiz_onDark.svg" alt="University of Melbourne">
     <nav>
       <a href="#summary">Summary</a><a href="#method">Method</a><a href="#estate">The estate</a>
-      <a href="#findings">Findings</a><a href="#services">Services</a><a href="#prospective">Prospective</a><a href="#register">Improvements</a><a href="#lifecycle">Lifecycle</a><a href="#scope">Confidence</a>
+      <a href="#findings">Findings</a><a href="#services">Services</a><a href="#careers">Careers</a><a href="#prospective">Prospective</a><a href="#register">Improvements</a><a href="#lifecycle">Lifecycle</a><a href="#scope">Confidence</a>
     </nav>
   </div>
 </header>
@@ -325,6 +331,20 @@ footer .src{font-family:var(--font-m);font-size:12px;color:#6b7099;margin-top:22
     </div>
 
     <div id="svc-grid" class="svc-grid"></div>
+  </div>
+</section>
+
+<section id="careers" class="navy">
+  <div class="wrap">
+    <div class="sec-head"><div class="eyebrow" style="color:var(--cyan)">Focused deep-dive · the connective service</div><h2>Careers, employability &amp; work-integrated learning</h2>
+      <p>Careers is the service that should bind the lifecycle together — from "why this degree?" to "my first job" to "now mentor the next cohort." The University authors 1,058 careers pages across 18 domains, yet the service is authored everywhere and connected nowhere: the central Careers service is hollow, the action sits behind login, WIL has no centre, and alumni mentoring is severed from faculty careers.</p></div>
+
+    <div class="eyebrow" style="color:var(--cyan);margin-bottom:18px">The careers spine across the lifecycle</div>
+    <div id="cspine" class="cspine"></div>
+    <p class="estate-note">Footprint per stage. The spine exists at every stage but the joins are thin — ~115 contextual links reach the careers platforms, WIL has 4 central pages, and the alumni mentoring end gets 0 links from completion pages.</p>
+
+    <div class="eyebrow" style="color:var(--cyan);margin:46px 0 16px">The findings</div>
+    <div id="careers-grid" class="svc-grid"></div>
   </div>
 </section>
 
@@ -482,6 +502,7 @@ footer .src{font-family:var(--font-m);font-size:12px;color:#6b7099;margin-top:22
 <script src="services.js"></script>
 <script src="prospective.js"></script>
 <script src="lifecycle.js"></script>
+<script src="careers.js"></script>
 <script>
 const SEV={high:'High priority',medium:'Medium priority',low:'Low priority'};
 const THEME_ORDER={
@@ -619,6 +640,27 @@ function openLife(i){
   document.getElementById('modal').hidden=false; document.body.classList.add('locked'); panel.scrollTop=0;
 }
 renderLife();
+
+// ── careers / employability / WIL ──
+const CAR=window.CAREERS||{spine:[],findings:[]};
+function renderCareers(){
+  document.getElementById('cspine').innerHTML=(CAR.spine||[]).map(s=>
+    '<div class="cstage"><div class="cs-st">'+esc(s.stage)+'</div><div class="cs-ct">'+esc(s.count)+'</div><div class="cs-nt">'+esc(s.note)+'</div></div>').join('');
+  document.getElementById('careers-grid').innerHTML=(CAR.findings||[]).map((f,i)=>
+    '<div class="svc-card" onclick="openCareers('+i+')"><div class="top"><span class="pill '+(f.severity==='high'?'high':'med')+'">'+f.severity+'</span></div>'+
+    '<div class="nm">'+esc(f.title)+'</div><div class="more">View detail →</div></div>').join('');
+}
+function openCareers(i){
+  const f=(CAR.findings||[])[i]; if(!f)return;
+  const panel=document.getElementById('modalPanel'); panel.className='modal-panel';
+  document.getElementById('modalContent').innerHTML=
+    '<div class="modal-meta"><span class="modal-track">Careers · employability · WIL</span><span class="pill '+(f.severity==='high'?'high':'med')+'">'+esc(SEV[f.severity])+'</span></div>'+
+    '<h2 class="mt">'+esc(f.title)+'</h2>'+
+    '<div class="block ev"><div class="lab">Evidence</div><p>'+esc(f.evidence)+'</p></div>'+
+    '<div class="block"><div class="lab">Recommendation</div><p>'+esc(f.recommendation)+'</p></div>';
+  document.getElementById('modal').hidden=false; document.body.classList.add('locked'); panel.scrollTop=0;
+}
+renderCareers();
 </script>
 </body>
 </html>
