@@ -7,6 +7,32 @@ graphify-out/
 # raw full-domain crawl dumps — keep the processed crawl/full-faculty/*.json only
 crawl/full-faculty/raw_*/
 
+# full-estate raw scrape (5 GB HTML/JSON, regenerable; the signal is captured in
+# analysis/full-scrape/*.csv). Keep analysis outputs, never commit the raw crawl.
+crawl/*/pages/
+crawl/*/checkpoint.json
+crawl/arts-unimelb-edu-au/
+crawl/biomedicalsciences-unimelb-edu-au/
+crawl/dental-unimelb-edu-au/
+crawl/education-unimelb-edu-au/
+crawl/eng-unimelb-edu-au/
+crawl/fbe-unimelb-edu-au/
+crawl/finearts-music-unimelb-edu-au/
+crawl/handbook-unimelb-edu-au/
+crawl/law-unimelb-edu-au/
+crawl/mbs-unimelb-edu-au/
+crawl/mdhs-unimelb-edu-au/
+crawl/medicine-unimelb-edu-au/
+crawl/msd-unimelb-edu-au/
+crawl/research-full/
+crawl/scholarships-unimelb-edu-au/
+crawl/science-unimelb-edu-au/
+crawl/services-unimelb-edu-au/
+crawl/students-full/
+crawl/study-unimelb-edu-au/
+crawl/unimelb-edu-au/
+crawl/www-unimelb-edu-au-alumni/
+
 # Office lock/temp files
 ~$*
 

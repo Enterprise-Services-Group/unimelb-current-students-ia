@@ -1,0 +1,470 @@
+[
+  {
+    "title": "The canonical hub is mid-migration: students.unimelb.edu.au dual-serves 120 leaf pages under two parallel top-level sections",
+    "category": "ux",
+    "severity": "high",
+    "effort": "medium",
+    "evidence": "My query over crawl/students-full/index.json (833 pages) reproduced EXACTLY 120 leaf page-names living under 2+ top-level roots simultaneously: 75 dual-served under BOTH /your-course AND /course-admin, 24 under BOTH /student-support AND /support-and-wellbeing, plus a long tail (6 sandbox\u2229support-and-wellbeing, 2 campus-life\u2229student-life, etc.). The pairs are near-identical LIVE pages with distinct fingerprints, not redirects: /your-course/manage-your-course/exams-assessments-and-results/academic-progress = 240,879 bytes (fp aa9d8e88) vs /course-admin/academic-progress = 240,595 bytes (fp f32306f0); Stop 1 served at /student-support/advice-and-help/stop-1 (195,569 b, fp 2813cb45) AND /support-and-wellbeing/stop-1 (195,285 b, fp 55941353). The hub exposes 11 substantive top-level roots (course-admin 212, support-and-wellbeing 152, academic-skills 134, your-course 101, student-life 62, student-support 56, new-students 44, careers 36, plus admin/campus-life/further-study), NOT the 'four top-level sections' the corpus asserts (structural-findings.md Finding 23, line 296). This is a category mislabel in the corpus: the hub held up as the lean exemplar to standardise faculties against is itself the most internally-inconsistent IA in the estate.",
+    "recommendation": "Finish the stalled /your-course->/course-admin and /student-support->/support-and-wellbeing migration before any estate-wide standardisation. Pick one canonical root per concept (the analytics-winning URL), 301-redirect the legacy path to it for all 120 leaves, and add canonical-link tags so search and inbound links converge. Do this FIRST \u2014 faculties are being told to link into a hub whose own URLs are unstable. Acceptance test: re-run the dual-path leaf query (group crawl/students-full/index.json leaves by top-level root); target is 0 leaves under 2+ roots (currently 120).",
+    "dimension": "ia-navigation"
+  },
+  {
+    "title": "MSD's 8,069 deep-links into the hub point at the legacy paths the hub is abandoning \u2014 a mass link-break waiting to fire",
+    "category": "technical",
+    "severity": "high",
+    "effort": "quick-win",
+    "evidence": "cross-site-flow.csv row 1: msd.unimelb.edu.au -> students.unimelb.edu.au = 8,069 contextual links, far above the next faculty->hub flow (education 275, eng 224, arts 191, mdhs 175, fbe 131, law 99, science 64, biomed 0). My scan of all 1,560 MSD pages with links.json found 1,550 (99%) carry the same ~8 templated deep links (raw count 9,647 before chrome-stripping), each targeting students.unimelb.edu.au/your-course/manage-your-course/special-consideration, /your-course/study-overseas, /student-support/advice-and-help/stop-1 (~613-614 links each), /your-course/manage-your-course/class-timetable, /your-course/manage-your-course/course-enrolment/leave-of-absence. Every one uses the LEGACY top-level path (/your-course, /student-support) the hub is migrating off (/course-admin, /support-and-wellbeing per Finding 1); only 50 MSD pages link the NEW /support-and-wellbeing/stop-1. MSD is simultaneously the best-integrated faculty (it deep-links the canonical hub on every page, unlike peers) and the most exposed to the unfinished migration.",
+    "recommendation": "Two coupled fixes: (1) when the hub migration lands, guarantee permanent 301s on all legacy /your-course and /student-support URLs so MSD's ~8,000 links keep resolving; (2) MSD maintains its hub links in ONE shared template/include so re-pointing them to new canonical paths is a single edit, not 1,550. Audit the other 11 faculties for the inverse problem \u2014 most barely deep-link the hub (biomed 0, science 64, law 99, fbe 131 contextual links vs MSD's 8,069), so the canonical task pages are near-invisible from most faculty estates.",
+    "dimension": "ia-navigation"
+  },
+  {
+    "title": "No two faculties share a top-level taxonomy \u2014 there is no common IA to standardise into",
+    "category": "governance",
+    "severity": "high",
+    "effort": "large",
+    "evidence": "My first-path-segment analysis of all 12 faculty index.json files reproduces that the dominant top-level section differs in every single domain and is almost never the student section: mdhs 89% /research (5,387/6,072), medicine 63% /school-structure (2,015/3,213), ffam 51% /about-us (738/1,444), law 49% /centres (1,577/3,188), dental 47% /engage (95/204), science 43% /engage (182/420), msd 42% /current-students (993/2,348), biomed 30% /departments (470/1,584), fbe 23% /newsroom (517/2,241), eng 21% /mric (418/1,985), education 20% /faces-of-education (173/852), arts 13% /school-of-social-and-political-sciences (313/2,446). Top-level section COUNT ranges from 9 (science, dental) to 54 (arts). This extends full-faculty-context.md's 9-faculty finding to the full 12-domain set (adds medicine/biomed/dental) and quantifies it at the path level. It is the parent-architecture root cause of the five-URL-convention problem (Finding 1 of structural-findings.md).",
+    "recommendation": "Do not attempt to unify parent faculty taxonomies (unviable \u2014 they serve research/news/industry, not students). Instead mandate a thin, consistent STUDENT OVERLAY that every faculty exposes identically regardless of parent IA: a fixed /students path, a fixed set of section labels, and a fixed 'what's here vs what's on students.unimelb' block. This is the only lever that touches all 12 architectures without a rebuild, and it depends on the hub IA being stable first (Finding 1).",
+    "dimension": "ia-navigation"
+  },
+  {
+    "title": "Five URL conventions for the current-students entry, placed at different navigation depths",
+    "category": "governance",
+    "severity": "high",
+    "effort": "medium",
+    "evidence": "My 'first segment containing student' query confirms and extends structural-findings.md Finding 1 with exact placements: depth-0 top-level /students (eng 222, law 201, arts 92, science 67, fbe 43) vs depth-0 /current-students (msd 993, ffam 47) vs DEPTH-2+ buried under /study (mdhs /study/current-students 17, medicine /study/current-student-resources 16, biomed /study/current-student-information 42, dental /study/student-profiles 5; education buries 107 student pages under /study/graduate-research/current-students). So a student's current-students home is sometimes a top-level nav item and sometimes two-plus clicks deep inside a prospective /study section \u2014 the convention varies in BOTH label and depth, and the MDHS-cluster faculties (mdhs, medicine, biomed, dental) hide current-students inside the prospective funnel.",
+    "recommendation": "Mandate one convention \u2014 top-level /students (the modal pattern, used by 5 faculties) \u2014 and 301-redirect /current-students, /study/current-students, /study/current-student-information, /study/current-student-resources, /study/student-profiles to it. Pull the MDHS/medicine/biomed/dental current-students sections OUT of /study (prospective) up to /students (enrolled). This is a redirect + nav-config task, not a content rebuild.",
+    "dimension": "ia-navigation"
+  },
+  {
+    "title": "Navigation depth has no estate standard \u2014 MSD and Medicine bury content up to 9-11 levels deep",
+    "category": "ux",
+    "severity": "medium",
+    "effort": "medium",
+    "evidence": "My URL-depth histogram over the 12 faculty index.json files shows mean path depth ranging from 3.12 (mdhs) and 3.15 (fbe) to 5.36 (msd) and 5.06 (medicine), with max depth reaching 9-11 (eng 11, law 10, biomed 10, msd 9, medicine 9). The deep tail is concentrated in the marketing-led estates: MSD has 397 pages at depth 6 and 888 at depth 7-8; medicine has 560 at depth 6 and 716 at depth 7-8; law has 507 at depth 6. This sharpens structural-findings.md Finding 22 ('too deep and too flat') with per-faculty numbers across the full estate and adds medicine/biomed/msd, which the original 9-faculty cut framed only via FEIT. nav-depth.csv corroborates at the estate level (msd 65% of pages >=5 deep, medicine 59%, study.unimelb 58%). Deep paths correlate with findability risk \u2014 content reachable only by drilling.",
+    "recommendation": "Add a depth target (2-3 levels for task content, hard cap ~5) to the standard student-overlay template. Prioritise re-nesting MSD's /current-students tree (993 pages, mean depth 5.36) and Medicine's /school-structure (2,015 pages, mean depth 5.06) since they hold the deepest student-relevant content. Pair with a breadcrumb requirement so deep pages remain orientable.",
+    "dimension": "ia-navigation"
+  },
+  {
+    "title": "The Handbook \u2014 the estate's single biggest dependency \u2014 is 14% contextually orphaned at the subject/course level",
+    "category": "content",
+    "severity": "high",
+    "effort": "medium",
+    "evidence": "SUMMARY.md: handbook.unimelb.edu.au has 266 contextual orphans (14% of 1,920), by far the worst in the estate (next is ffam 9, mdhs 6). My breakdown of those 266 against orphans.csv shows they are the CORE task pages: EXACTLY 161 orphaned /2026/subjects/ pages and 105 orphaned /2026/courses/ pages (e.g. /2026/subjects/medi90100, /2026/subjects/arbc20002, /2026/courses/mc-humrlaw, /2026/courses/mr-phileit), 0 other types. That is 9.8% of all crawled subject pages (161/1,637) and 12.8% of all crawled course pages (105/818) reachable only via search/handbook-internal nav, with zero in-content inbound from the rest of the estate. Since current-student pages link to the Handbook 3,380+ times (the #1 external dependency, structural-findings.md Finding 25 line 312), the specific subjects/courses students need are frequently the unlinked ones.",
+    "recommendation": "Two moves: (1) generate contextual inbound links from faculty course-planning and sample-course-plan pages to the specific Handbook subject/course entries they reference, replacing generic 'view the Handbook' links with deep subject-coded links; (2) for genuinely standalone subject pages, ensure they are surfaced from their parent course page's subject list. Use the 266-URL orphan list (analysis/full-scrape/orphans.csv, handbook rows) as the worklist.",
+    "dimension": "ia-navigation"
+  },
+  {
+    "title": "The single biggest dependency is described with non-descriptive anchor text, hurting findability and accessibility",
+    "category": "content",
+    "severity": "medium",
+    "effort": "quick-win",
+    "evidence": "anchor-text.csv for handbook.unimelb.edu.au, reproduced exactly: 'View detailed information in the Handbook' appears 2,909 times, 'Handbook' 651, 'University Handbook' 217, a raw URL 'https://handbook.unimelb.edu.au/subjects' 108, 'Arrow-rightHandbook link' 102, 'View Handbook entry' 24, and bare 'here' 27 times. Almost none name the destination subject/course \u2014 a correctly-named anchor like 'LAWS50023 Legal Method and Reasoning' appears only 16 times. The same pattern recurs on other key destinations: findanexpert has 267 '(no text)' links (plus 91 truncated 'Dr ...' fragments). Generic/empty anchor text degrades scannability (a student cannot tell which Handbook link goes where), accessibility (screen-reader users get a list of identical 'Handbook'/'here' links), and search relevance signals.",
+    "recommendation": "Set an estate content rule: links to the Handbook must use the subject/course name as anchor text (e.g. 'LAWS50023 Legal Method and Reasoning', which already appears correctly 16 times) rather than 'View detailed information in the Handbook' or 'here'. This is a find-and-replace-scale CMS template fix on the ~2,900 templated 'View detailed information in the Handbook' instances \u2014 the biggest single accessibility + findability win for the effort.",
+    "dimension": "ia-navigation"
+  },
+  {
+    "title": "Research-led faculties demote the student entry below research in the navigation hierarchy",
+    "category": "governance",
+    "severity": "medium",
+    "effort": "large",
+    "evidence": "My section analysis adds the three medical-cluster domains the corpus's 9-faculty cut omitted, and they are the most extreme: mdhs is 89% /research (5,387/6,072 pages) with current-students buried at /study/current-students (17 pages); medicine is 63% /school-structure (2,015/3,213) with students at /study/current-student-resources (16 pages); biomed is 30% /departments + a large /sbs-research-groups tail with students at /study/current-student-information (42 pages). These three also contribute essentially nothing to the hub: medicine 21, mdhs 175, biomed 0 contextual links into students.unimelb. This shows structural-findings.md Finding 27's 'minority tenant' pattern is WORST in exactly the research-intensive faculties, corroborating the 'research paradox' (biggest research estates carry the least student support) at the IA level: the student section is not just thin, it is demoted below research and buried inside the prospective /study branch.",
+    "recommendation": "For the research-led domains (mdhs, medicine, biomed), the student-overlay mandate must include promoting the student entry to a stable top-level /students node OUT of the research/study hierarchy, plus a persistent global-nav 'Current students' link, so enrolled students are not forced to navigate a research-org IA to reach task content. Treat these three as the priority pilot since their fragmentation cost is highest.",
+    "dimension": "ia-navigation"
+  },
+  {
+    "title": "Surface live 2026 handbook subjects/courses through browsable indexes, not search-only",
+    "category": "content",
+    "severity": "high",
+    "effort": "medium",
+    "evidence": "orphans.csv: 266 of 289 estate orphans (92%) are handbook.unimelb.edu.au pages. Independently re-verified: 266/266 have a BLANK <title>, and the paths split 161 /2026/subjects/ + 105 /2026/courses/ \u2014 every one is a current-year (2026) node. SUMMARY.md confirms handbook = 14% orphaned, the only domain with material orphaning (all other 19 domains <=2%). These pages have ZERO contextual inbound \u2014 reachable only via the handbook search box. The hub side reinforces this: hubs.csv's #1 estate hub is a handbook /search URL (5,529 contextual inbound) and anchor-text.csv shows the dominant handbook anchor is the generic 'View detailed information in the Handbook' (2,909x). A student who doesn't already know the subject code cannot browse to 2026 offerings.",
+    "recommendation": "Generate crawlable A-Z / by-discipline / by-level index pages for the current academic year under handbook.unimelb.edu.au (e.g. a /2026/subjects index linking every subject and course node), and link them from the handbook home and each faculty's 'courses' landing page. Add <title> tags to the 2026 subject/course templates (currently blank on all 266) so search engines and on-site search can rank them. This converts 266 search-only pages into browsable, indexable content.",
+    "dimension": "findability-search"
+  },
+  {
+    "title": "Fix the '?a=' query-string artifact that manufactures phantom 404s on otherwise-LIVE pages (incl. medicine 'Our Departments')",
+    "category": "technical",
+    "severity": "high",
+    "effort": "quick-win",
+    "evidence": "Verified root cause behind the estate's apparent broken-link mass. 32 corpus paths return title 'Page not found' ONLY when a trailing '?a=' is appended (e.g. medicine.unimelb.edu.au/school-structure?a=, msd.unimelb.edu.au/maker-spaces?a=, biomedicalsciences.unimelb.edu.au/departments?a=). Critically, the CANONICAL paths are LIVE: medicine.unimelb.edu.au/school-structure is a working 187KB page titled 'Departments at Melbourne Medical School'; msd/maker-spaces is live ('Maker Spaces - Melbourne School of Design'); biomedicalsciences/departments is live. Because URL normalization strips the query, the '?a=' 404 twin gets merged with the canonical path and tags it as dead. Reproduced impact: of the 4,316 contextual links that appear to hit 404s, 3,359 (78%) actually point at 30 destinations whose canonical URL is live and 404 only via '?a='. This includes the 1,143 in-content 'Our Departments' links on the Medicine site, which land on a working page \u2014 NOT, as previously thought, a removed /school-structure (that page exists). hubs.csv lists medicine/school-structure?a= as the #2 estate 'hub' (1,146) purely because of this artifact.",
+    "recommendation": "Identify the template/component emitting the trailing '?a=' (an unresolved anchor/analytics token) and remove it, or add a server rule that strips an empty 'a' param before routing so /path?a= resolves to /path. This single fix clears ~3,359 phantom-broken in-content links across medicine, msd and biomedicalsciences and collapses ~32 phantom-404 'hubs' (including the #2 estate hub) back into their canonical live pages. No page 'restoration' is needed for these \u2014 they are not gone.",
+    "dimension": "findability-search"
+  },
+  {
+    "title": "Sweep the ~414 genuinely-dead in-content destinations (957 links) after the '?a=' fix",
+    "category": "technical",
+    "severity": "medium",
+    "effort": "medium",
+    "evidence": "After separating the '?a=' artifact (see the dedicated finding), the residual genuinely-dead surface is much smaller than the headline 4,316/449. Re-computed over the chrome-stripped, unimelb-host contextual graph: 957 contextual links point at 419 destinations that are truly dead (no live canonical twin). Of those 419, only 5 are synthetic /404 endpoints; ~414 are real content gaps, and the link distribution is a thin long tail \u2014 the single most-linked genuinely-dead page is msd.unimelb.edu.au/404 itself (67), after which destinations carry <=8 links each (e.g. biomedicalsciences AVRU venom-research page 7, finearts /404 7, several msd academic-profile pages 5). Corpus-wide there are 493 error-titled pages (verified via title scan of 27,302 crawled pages; dead-pages.csv lists 499), concentrated in the MDHS cluster (biomedical 153, msd 74, fbe 72, mdhs 53, medicine 51).",
+    "recommendation": "Run the '?a=' fix FIRST (it removes 78% of the apparent breakage), then a one-off link-integrity sweep over the ~414 genuinely-dead destinations: for each, restore the page or add a 301 to the live equivalent and fix the referring template/menu. Because the residual is a long tail, prioritise by faculty CMS rather than by a 'top-20'. Stand up a recurring broken-link report (keyed on title='Page not found') so the count is monitored, not rediscovered \u2014 but report it against canonical URLs so the '?a=' twins don't re-inflate it.",
+    "dimension": "findability-search"
+  },
+  {
+    "title": "Stop treating search-results URLs as canonical destinations in the link graph",
+    "category": "governance",
+    "severity": "high",
+    "effort": "large",
+    "evidence": "The estate's #1 contextual hub is a deep-linked, paginated handbook SEARCH URL (handbook.unimelb.edu.au/search?page=27&types[]=course&year=2026) with 5,529 contextual inbound (hubs.csv). Re-verified: 13,435 contextual links point INTO search/results/listing pages, and 6,040 crawled pages ARE search/results pages. (Note on denominator: that 6,040 is 22% of the 27,302 raw crawled URLs but ~28% of the 21,250 true content pages \u2014 either way, listing pages are a large share of what gets linked.) Other search/results states dominate faculty hubs: mdhs/visit/research-library 'Search' (929), finearts-music news topics query (881), fbe/newsroom with a 7-param query string (853). hubs.csv is littered with pre-filtered query-string URLs as 'centres of gravity'.",
+    "recommendation": "Establish canonical content pages for high-traffic intents (course discovery, news-by-topic, scholarships listing) and link to THOSE, not to a frozen search state. Add rel=canonical on results pages pointing to a clean landing page, strip tracking/filter params from outbound links in templates, and set a governance rule: in-content links must target a stable content URL, never a paginated/filtered search result. Reduces fragile deep-links and improves both crawlability and the browse experience.",
+    "dimension": "findability-search"
+  },
+  {
+    "title": "Replace non-descriptive in-content link labels with descriptive anchor text",
+    "category": "ux",
+    "severity": "medium",
+    "effort": "medium",
+    "evidence": "Re-measured strictly over the estate's own contextual graph (chrome-stripped, unimelb-host \u2014 the same ~262k-link basis as the pack), NOT the inflated all-hosts figure: ~3,300 contextual links carry vague or missing labels \u2014 1,805 empty/no-text, 790 bare-URL-as-text, plus ~700 generic ('learn more' 1,997 across all hosts but mostly external; 'read more' 833, 'here' 403, 'find out more' 299). The previously reported 30,722 / 13,794-empty / 9,149-bare conflated EXTERNAL links: 11,989 of the 13,794 empty-text links point to non-unimelb hosts (social/partner icon links), so they are an external-link-accessibility issue, not an internal-IA one. Destination-level corroboration holds: anchor-text.csv shows findanexpert.unimelb.edu.au linked 267x as '(no text)' (vs 204 'Find an Expert') and www.unimelb.edu.au 496x '(no text)'. Non-descriptive links are a WCAG 2.4.4 link-purpose failure.",
+    "recommendation": "Fix the ~1,805 empty internal links first (likely icon/image links missing an accessible name \u2014 add aria-label or visible text), convert the ~790 bare-URL anchors to human labels, and replace generic 'learn more/read more/here' with the destination title. Separately, treat the ~12k empty-text EXTERNAL links (social/partner icons) as an accessibility pass on the shared footer/icon components. Add a content-authoring lint rule blocking 'click here'/'read more'/empty link text. Start with findanexpert and www.unimelb, where the empty-label share is highest.",
+    "dimension": "findability-search"
+  },
+  {
+    "title": "Retire stale duplicate '\u20262' school pages on mdhs that orphan-compete with canonical pages",
+    "category": "content",
+    "severity": "medium",
+    "effort": "quick-win",
+    "evidence": "orphans.csv: all 6 mdhs orphans are duplicate '\u20262'-suffixed school landing pages \u2014 verified exactly: /our-organisation/melbourne-medical-school2, /melbourne-school-of-health-sciences2, /melbourne-dental-school2, /melbourne-school-of-psychological-sciences2, /melbourne-school-of-population-and-global-health2, /school-of-biomedical-sciences2 \u2014 each a full school homepage ('Study Medicine at Melbourne Medical School', 'Melbourne School of Health Sciences', etc.) with ZERO contextual inbound. These are republished/duplicate variants of the canonical school pages, now stranded and invisible except via search, where they dilute relevance against the real pages.",
+    "recommendation": "For each '\u20262' page, 301-redirect to the canonical (non-suffixed) school page and unpublish the duplicate; or if the '\u20262' page is the intended current version, swap them and redirect the old path. Eliminates 6 orphaned duplicates and removes search-result confusion for prospective/current students looking for a school's homepage.",
+    "dimension": "findability-search"
+  },
+  {
+    "title": "Add contextual inbound links to student-critical pages that currently sit search-only",
+    "category": "service",
+    "severity": "medium",
+    "effort": "quick-win",
+    "evidence": "orphans.csv (non-handbook scan): the international-student visa page (students.unimelb.edu.au/support-and-wellbeing/international-student-support/visas/updating-your-visa-status, 'Keep your personal and visa details up to date') is an orphan. Re-verified directly: it has exactly ONE inbound link estate-wide, and that link is nav/chrome (hence 0 contextual inbound \u2014 it qualifies as a true orphan). This is a compliance-critical task page (visa conditions) reachable essentially only via nav/search. Other notable single-domain orphans of student/visitor value confirmed in orphans.csv: fbe/contact, law/contact, law/about/mls-video-gallery, finearts-music/faqs and /showcase, medicine/medical-history-museum.",
+    "recommendation": "Add in-content links to the visa-status page from the obvious parent journeys (international student support hub, enrolment/personal-details pages, commencing-student checklist) so it is browse-reachable, not just searchable. As a quick governance pass, route the handful of non-handbook orphans (contact/FAQ/visa pages) into their natural parent sections so no compliance- or support-critical page depends solely on search.",
+    "dimension": "findability-search"
+  },
+  {
+    "title": "Build the graduate\u2192alumni transition seam: 35 graduation/completion pages, zero alumni links",
+    "category": "content",
+    "severity": "high",
+    "effort": "quick-win",
+    "evidence": "Python over crawl/students-full (833 pages) finds 35 true graduation/completion pages on students.unimelb.edu.au under a strict filter (/graduation, testamur, AHEGS, ceremony, conferral, statement-of-results \u2014 excluding academic-skills writing pages): e.g. /your-course/manage-your-course/graduation/graduation-day, /testamur, /australian-higher-education-graduation-statement-ahegs, /course-admin/graduation/conferral-dates, the 16 ceremony-schedule pages, and the Stop 1 graduation category page. Their COMBINED outbound links to any alumni host = 0. Estate-wide only 97 contextual links reach alumni hosts (cross-site-flow.csv), and anchor-text.csv shows those are event RSVPs (secure.alumni 'Register to attend' 13, 'Book now' 10) or the footer 'Alumni' (835, pure nav chrome) \u2014 never a lifecycle handoff. The 'you are now a graduate' moment has no bridge to alumni identity/benefits. (Correction: the earlier '83 pages' figure double-counted new-students and graduate-research-writing pages; the true graduation-completion count is 35, and the 0-alumni-links result is unchanged.)",
+    "recommendation": "Add a standard 'After you graduate' contextual block to the ~10 highest-traffic graduation pages (graduation/graduation-day, /testamur, /australian-higher-education-graduation-statement-ahegs, and the Stop 1 graduation category page). Each links to: the alumni community sign-up, alumni career services (Ask Alumni / mentoring), and 'keep your email/library access'. Content insertion only (no IA change); converts the lifecycle's dead-end into a handoff.",
+    "dimension": "lifecycle-seams"
+  },
+  {
+    "title": "Faculty\u2192central-careers seam is the estate's weakest link (100 contextual links); wire faculty course pages to Careers Online at the apply-for-jobs moment",
+    "category": "service",
+    "severity": "high",
+    "effort": "medium",
+    "evidence": "cross-site-flow.csv: total contextual links to careers hosts (careersonline.unimelb + careers.unimelb) estate-wide = 100 \u2014 fewer even than alumni (97). Per-faculty: dental/education/mdhs/medicine/science = 0 careers links; biomedicalsciences/law/msd = 1; arts = 10 (careersonline). MSD sends 8,069 links to students.unimelb but exactly 1 to careers.unimelb. Even the central current-student hub students.unimelb sends only 22 links to careersonline.unimelb (the portal where students browse jobs, book adviser appointments, register for employer events) despite hosting a 36-page careers section. (Corrections vs prior draft: total is 100 not 102; the central careers section is 36 pages not 106 \u2014 python count of /careers + career-services URLs.)",
+    "recommendation": "Treat careersonline.unimelb (the transactional jobs/appointments portal) as a first-class lifecycle destination, not an afterthought. (a) Add a contextual 'Find graduate jobs & book a careers adviser \u2192 Careers Online' CTA to every faculty 'current students' and course-resources landing page (template change across 13 faculties). (b) From the central students.unimelb careers section, deep-link the 'Find a job' and 'Get advice' pages straight into the matching Careers Online module rather than describing it. Target: lift faculty\u2192careers to a floor of ~18 per faculty, matching the engineering and FBE pattern (18 each: eng 15+3, fbe 12+4+2) that already works.",
+    "dimension": "lifecycle-seams"
+  },
+  {
+    "title": "266 orphaned handbook subject/course pages break the prospective\u2192current 'plan my degree' seam",
+    "category": "technical",
+    "severity": "high",
+    "effort": "medium",
+    "evidence": "orphans.csv: handbook.unimelb has 266 contextual orphans = 161 /2026/subjects (e.g. medi90100, musi30051, arbc20002, mecm90024) + 105 /2026/courses (e.g. mc-humrlaw, bh-mus, mr-phileit, dr-philsci) = 14% of the handbook (SUMMARY.md), reachable only by code-search/nav. Yet handbook is a top lifecycle hub: study.unimelb\u2192handbook = 4,391 links and faculties point in heavily (law 1,147, msd 778, arts 315 per cross-site-flow.csv). The inbound links land on course/overview pages, but the constituent subject pages a continuing student needs (to check a prerequisite or plan next semester) are dead-ends in the contextual graph.",
+    "recommendation": "Fix handbook internal cross-linking so every subject page is reachable from its parent course/major structure and from sibling subjects (prerequisite/co-requisite back-links). Concretely: on each course page, make the 'subjects in this course' list contextual <a> links (not JS-only widgets the crawler couldn't traverse); on each subject page add 'part of these courses/majors' back-links. Closes the mid-degree planning seam for ~266 pages and reduces reliance on the code-search black box.",
+    "dimension": "lifecycle-seams"
+  },
+  {
+    "title": "No shared scholarships-catalogue convention: 1,865 links but the current-student hub barely reaches it (28)",
+    "category": "governance",
+    "severity": "medium",
+    "effort": "medium",
+    "evidence": "cross-site-flow.csv: 1,865 contextual links reach scholarships.unimelb, scattered by faculty with no shared pattern (study 411, medicine 325, finearts-music 221, education 150, eng 129, science 127, law 109, mdhs 92, fbe 88, arts 85) while the 833-page current-student hub students.unimelb sends only 28 and msd sends 19. anchor-text.csv shows inconsistent labels \u2014 'Search for scholarships' 111 (prefixed 'Arrow-right'), 'Find a scholarship' 19, bare 'Scholarships' 19, 'Graduate Research Scholarships' 9. Continuing-student scholarships (not just entry scholarships) are therefore hard to reach once enrolled. (Correction: dropped the earlier 'More information about scholarships' 16 label \u2014 that anchor is an arts.unimelb self-link, not a scholarships.unimelb descriptor.)",
+    "recommendation": "Publish one canonical 'Search scholarships' deep-link (scholarships.unimelb search, pre-filtered to current/continuing students) and mandate it via a shared component in both the faculty templates and the students.unimelb finance/fees section. Standardise anchor text to 'Search for scholarships'. Lift students.unimelb\u2192scholarships from 28 toward the faculty norm (~100) so enrolled students discover mid-course funding, not only applicants.",
+    "dimension": "lifecycle-seams"
+  },
+  {
+    "title": "Replicate the MSD central-hub model: 12 faculties under-route current students to students.unimelb vs MSD's 8,069",
+    "category": "governance",
+    "severity": "medium",
+    "effort": "large",
+    "evidence": "cross-site-flow.csv: msd.unimelb\u2192students.unimelb = 8,069 (by far the largest contextual edge in the whole estate) \u2014 MSD fully delegates its current-student experience to the central hub. Every other faculty is an order of magnitude lower: education 275, eng 224, arts 191, mdhs 175, fbe 131, biomedicalsciences 130, law 99, science 64, finearts-music 63, mbs 26, medicine 21, dental 6. anchor-text.csv confirms these links use a reusable central transactional vocabulary ('Stop 1' 754, 'Leave of absence' 613, 'Special consideration' 612, 'Class timetable' 612, 'Enrolling in subjects' 611, 'Course withdrawal' 617), proving a shared pattern already exists.",
+    "recommendation": "Adopt MSD's pattern as the estate standard: faculty 'current students' areas should hand off generic transactions (enrolment, special consideration, leave, timetable, results) to students.unimelb via the shared anchor set, and retain only faculty-specific content (placements, discipline advice, local contacts). Prioritise the worst routers \u2014 dental (6), medicine (21), mbs (26) \u2014 where current students are effectively stranded on outward-facing reputation sites. Removes duplicated/aging local copies and gives one authoritative current-student spine.",
+    "dimension": "lifecycle-seams"
+  },
+  {
+    "title": "Resolve the HDR-support paradox at the seam: route research-intensive faculties' candidates to the Graduate Research Hub",
+    "category": "content",
+    "severity": "medium",
+    "effort": "quick-win",
+    "evidence": "cross-site-flow.csv (faculty\u2192gradresearch.unimelb): Education 1,972 and MDHS 1,882 dominate, but research-heavy faculties barely connect \u2014 MSD 2, biomedicalsciences 3, finearts-music 7, medicine 16, science 18, eng 19, fbe 20. This sharpens the established 'research paradox' (research-intensive faculties carry least HDR student support) with actual seam counts: the faculties with most research output give their HDR candidates almost no contextual path to the central Graduate Research Hub, where the candidature lifecycle (supervision, milestones, Study Away, thesis prep) lives. anchor-text.csv shows gradresearch is described with real lifecycle tasks ('Working with my supervisors' 39, 'Preparation of Graduate Research Theses' 40, 'Study Away' 39).",
+    "recommendation": "Add a standard 'Current graduate researchers \u2192 Graduate Research Hub' contextual block (linking supervision, milestones and thesis-prep pages) to the research/HDR landing pages of MSD, Biomedical Sciences, Medicine, Science, Engineering and FBE. Quick template insertion; closes the candidature-management seam for the cohort most likely to need it.",
+    "dimension": "lifecycle-seams"
+  },
+  {
+    "title": "Make the prospective\u2194current handoff bidirectional and intentional at the apply\u2192enrol moment",
+    "category": "ux",
+    "severity": "medium",
+    "effort": "medium",
+    "evidence": "cross-site-flow.csv: study.unimelb\u2192students.unimelb = 373 (prospective sends applicants forward) but students.unimelb\u2192study = 125 (mostly legacy/accidental back-links from a continuing-student site to a prospective one). study.unimelb's actual apply-path outbound is dominated by handbook (4,391) and forms.your enquiry (1,493 \u2014 'Register for updates' 1,197 per anchor-text.csv), but the explicit 'once you accept your offer, here's how to enrol' bridge to the students.unimelb new-students area is thin (373 across 1,819 study content pages). The new-students entry pages exist (14 pages under students.unimelb.edu.au/new-students/get-started, e.g. /undergraduate-domestic) but aren't the prominent target of the apply flow.",
+    "recommendation": "On study.unimelb course and 'How to apply' pages, add an explicit 'Accepted your offer? Start here \u2192' contextual link to the students.unimelb/new-students/get-started path (segmented domestic/international, UG/PG). Conversely, audit the 125 students\u2192study back-links and either remove the accidental ones or re-point continuing-student 'change my course / explore further study' intents to the correct destination, so the seam reflects real journeys rather than CMS bleed.",
+    "dimension": "lifecycle-seams"
+  },
+  {
+    "title": "Upgrade alumni links from event-RSVP chrome to a named lifecycle relationship",
+    "category": "content",
+    "severity": "low",
+    "effort": "quick-win",
+    "evidence": "anchor-text.csv: the 97 contextual alumni links are almost entirely transactional event RSVPs (secure.alumni 'Register to attend' 13, 'Book now' 10, 'REGISTER' 4, 'Subscribe now' 3, 'Register here' 3) or undated newsletter month labels (comms.alumni 'August'/'October'/'February'/'June' 2 each), plus the footer 'Alumni' (835, stripped as nav). Only a handful describe an alumni relationship ('University Alumni' 3, 'Chancellor's Circle' 1, 'Explore University of Melbourne alumni benefits' 1). The in-content alumni presence is event noise, not a benefits/identity handoff \u2014 confirming the corpus's 'nav-only, no lifecycle handoff' framing (not the old '0 links').",
+    "recommendation": "Where alumni links do appear in faculty content (e.g. law's 41 secure.alumni links, education's 10 comms.alumni), standardise anchor text and destination to a single 'Join the alumni community / alumni benefits' page rather than ad-hoc event registrations. Pair with the graduation-page seam (Finding 1) so the alumni relationship is introduced at the point of completion, giving the nav-only alumni estate at least one genuine contextual on-ramp from the student lifecycle.",
+    "dimension": "lifecycle-seams"
+  },
+  {
+    "title": "Graduate-Research candidature/thesis content is mirrored byte-for-byte across two faculty CMSes (education + mdhs) instead of pointing to the canonical gradresearch.unimelb",
+    "category": "content",
+    "severity": "high",
+    "effort": "medium",
+    "evidence": "Independently re-derived (8-word-shingle Jaccard over crawl/ page.html). education.unimelb.edu.au/study/graduate-research/current-students/<tail> and mdhs.unimelb.edu.au/research/research-training/current-students/<tail> share 33 path-tails carrying IDENTICAL visible content \u2014 every sampled pair scored Jaccard=1.000 with matching word counts: reviewscandidature-variations/confirmation (3,072w both), thesisexamination/my-thesis-in-the-library (3,601w both), reviewscandidature-variations/unsatisfactory-progress (3,163w both), submitting-my-thesis (2,189w both), student-support-services/library (1,928w both), housing-support (1,397w both), plus the whole thesisexamination/, reviewscandidature-variations/ and student-support-services/ trees. A canonical owner already exists: gradresearch.unimelb.edu.au is the single biggest cross-site flow target for both (education->gradresearch 1,972 + mdhs->gradresearch 1,882 = 3,854 contextual links, analysis/full-scrape/cross-site-flow.csv). So identical HDR candidature/thesis policy is maintained in 2 faculty copies on top of the intended central hub \u2014 every policy edit must be made 2-3x and will drift. (Corrected from the prior pass: 33 shared / 25 edu-only / 37 mdhs-only tails, not 32/24/35; wordcounts are visible-text not raw.)",
+    "recommendation": "Make gradresearch.unimelb.edu.au the single source of truth for shared HDR candidature/thesis/support content. Replace each of the 33 mirrored education+mdhs pages with a 301 redirect (or a thin faculty stub linking to the gradresearch page), keeping only the genuinely faculty-specific GR pages (25 education-only + 37 mdhs-only tails \u2014 e.g. faculty scholarships, school contacts). Collapses a 3-way maintenance burden to 1 and removes ~33 high-wordcount duplicate pages per faculty.",
+    "dimension": "content-quality"
+  },
+  {
+    "title": "FBE and MBS double-host the entire BCom careers content tree (59 near-identical pages), including FBE-branded pages served from the MBS domain",
+    "category": "content",
+    "severity": "high",
+    "effort": "medium",
+    "evidence": "Independently verified. The two domains run parallel careers trees under DIFFERENT prefixes \u2014 FBE at fbe.unimelb.edu.au/bcom/career/<tail>, MBS at mbs.unimelb.edu.au/career/<tail> \u2014 sharing 59 identical tails (apply-your-learning/internship/faqs, expertise/case-competition, your-community/clubs-and-societies, the whole fbe-student-calendar/ tree, etc.). 8 of 10 randomly-sampled shared tails scored Jaccard>=0.6 (your-community/clubs-and-societies J=0.95, internship/workhub J=0.86, fbe-employability-drop-in J=0.83), i.e. roughly the careers tree maintained twice. The mirroring is literal: MBS hosts FBE-branded pages such as mbs.unimelb.edu.au/career/leaders/student-ambassador-program/meet-our-fbe-student-ambassadors, .../nikita-jap and .../nishant-sahoo (35 MBS /career/ URLs contain 'fbe'), plus the entire 'fbe-student-calendar'. (Correction from the prior pass, which wrongly claimed shared '/career/' tails: FBE's are under /bcom/career/, so a raw /career/-prefix match returns 0 \u2014 the duplication is real once the bcom/ prefix is accounted for.)",
+    "recommendation": "Pick one owner for BCom/business-school careers content (fbe.unimelb.edu.au as the faculty home) and 301-redirect the 59 duplicated career tails on the other domain to it. As an immediate quick fix, repoint the cross-branded URLs (mbs serving 'meet-our-fbe-student-ambassadors' and the fbe-student-calendar) which signal a copy-paste site build. Eliminates ~59 redundant pages and a parallel maintenance stream.",
+    "dimension": "content-quality"
+  },
+  {
+    "title": "~5,200 MDHS and ~2,100 scholarships pages are faceted-search/query-string permutations of a single endpoint \u2014 24% of all crawled URLs",
+    "category": "technical",
+    "severity": "medium",
+    "effort": "medium",
+    "evidence": "Re-counted across the full crawl index: 8,854 of 37,162 crawled URLs (23.8%) carry a ?query. Two endpoints dominate: mdhs.unimelb.edu.au/research/research-library/_nocache exploded into 5,182 facet/parameter combinations (making 86% of all crawled MDHS URLs search-facet noise \u2014 even larger than the prior pass's 2,725 estimate), and scholarships.unimelb.edu.au/search into 2,112 (95% of all scholarships URLs). Many render as thin 'Search' shells or 502s (one scholarships/search?... returns 502 Bad gateway). These crawl/SEO traps dilute the index, waste crawl budget, and inflate every page-count metric in this project (true content count is far below the raw 21,250).",
+    "recommendation": "Add rel=canonical to the base listing URL and disallow facet/parameter URLs (e.g. _nocache, /search?*) in robots.txt, plus parameter-handling in the CMS/search config so facet permutations are not emitted as crawlable links. Single biggest reducer of apparent estate size; stops thin 'Search' shells from being indexed.",
+    "dimension": "content-quality"
+  },
+  {
+    "title": "'Employability in X' is a 7-faculty template clone \u2014 a shared component, not 7 maintained pages",
+    "category": "content",
+    "severity": "medium",
+    "effort": "medium",
+    "evidence": "Verified across all seven faculty landing pages titled 'Employability in ...' (biomedicalsciences/MDHS, msd, education, arts, finearts-music, eng, science). Pairwise 8-shingle Jaccard ranges 0.28-0.52 \u2014 a consistent shared scaffold and recurring phrasing reworded per discipline (the prior pass's eng<->arts 0.44, arts<->science 0.43, eng<->science 0.42 reproduced exactly; highest pair biomedicalsciences<->arts 0.52). Wordcounts 1,007-1,328. This puts a number on the careers-employability deepdive's 'seven faculties, one template' claim (analysis/topic-deepdives/careers-employability.md): structural duplication (boilerplate restated), not literal copy, but maintained 7x.",
+    "recommendation": "Replace the 7 hand-maintained 'Employability in X' pages with ONE shared central 'what employability means at Melbourne' component (owned by students.unimelb / central Careers) injected into each faculty page, leaving only a thin per-faculty block linking to that discipline's internship subjects + mentoring program. Cuts 7 drifting boilerplate pages to 1 component + 7 stubs.",
+    "dimension": "content-quality"
+  },
+  {
+    "title": "Same content is reachable under thousands of duplicate URL forms (trailing-slash + multi-path), splitting analytics and SEO signal",
+    "category": "technical",
+    "severity": "low",
+    "effort": "quick-win",
+    "evidence": "Re-derived over the full crawl: 610 distinct base pages are crawled under 9,657 raw URL forms (9,047 redundant trailing-slash/query variants of the SAME page). Beyond the search endpoints, genuine content pages duplicate: law.unimelb.edu.au/students/orientation and .../orientation/ both resolve, and the FEIT Intercultural Career Mentoring Program is reachable at 5 distinct paths (/industry/students/intercultural-career-mentoring-program, /students/coursework/.../international-opportunities/ICMP, /students/coursework/.../study-overseas/ICMP, and two eng-and-it-calendar paths). Same content at many addresses = diluted page authority and analytics, ambiguous canonical. (Note: partially overlaps the faceted-search finding \u2014 shared root cause is no site-wide canonicalization \u2014 but this captures genuine-content duplication, not just facet noise.)",
+    "recommendation": "Enforce trailing-slash normalization + rel=canonical site-wide, and de-duplicate the known multi-URL programs (FEIT Intercultural Career Mentoring x5, plus the Professional Skills Series and Arts/FFAM examples in the careers deepdive) down to one canonical path with redirects from the rest. Quick-win config change that also makes every other page-count and link-graph metric in this audit more trustworthy.",
+    "dimension": "content-quality"
+  },
+  {
+    "title": "A handful of in-content pages serve live 404/502 errors or Cloudflare challenges, and 5,400+ raw asset/cache URLs are crawled as navigable 'pages'",
+    "category": "technical",
+    "severity": "low",
+    "effort": "quick-win",
+    "evidence": "Scanned all page.html (Incapsula bot-blocks excluded). Genuine live failures the CMS still serves and links to: law.unimelb.edu.au/mls-staff-listing-records/.../judith-grbich returns '404 - Page not found', .../dudi-rulliadi returns '502 Proxy Error', mdhs.unimelb.edu.au/diversity-and-inclusion/.../health-and-wellbeing-... returns '502: Bad gateway', and research.unimelb.edu.au/commercialisation/researchers/our-entrepreneurial-ecosystem 502s \u2014 all four prior-pass examples confirmed. Volume is smaller than previously claimed: only 5 true 404/502 pages + 11 'Just a moment...' Cloudflare-challenge pages (not 17). Separately, 5,412 URLs are raw asset/cache forms (/_recache, /_nocache, .pdf, .m4a, ?external-uuid=) crawled as 0-word 'pages'. Low volume but high credibility cost if a current student hits a 502 from an in-content link.",
+    "recommendation": "Run a broken-link/HTTP-status sweep over the law mls-staff-listing-records and research commercialisation trees and either restore or unpublish the 404/502 pages (and remove inbound links). Configure the CMS so /_recache, /_nocache and raw asset (pdf/m4a) and ?external-uuid= URLs are not surfaced as navigable pages.",
+    "dimension": "content-quality"
+  },
+  {
+    "title": "Data-integrity correction: the handbook 'thin/orphaned' signal is 1,470 anti-bot block pages, not real content",
+    "category": "governance",
+    "severity": "low",
+    "effort": "quick-win",
+    "evidence": "Confirmed exactly. 1,470 of 2,134 crawled handbook pages (69%) are Imperva/Incapsula bot-block responses whose body is 'Request unsuccessful. Incapsula incident ID: ...' (byteLength ~885). These ARE the same 266 handbook orphans / '14% orphaned' figure in analysis/full-scrape/SUMMARY.md \u2014 the first orphan listed in orphans.csv, handbook.unimelb.edu.au/2026/subjects/medi90100, is literally the first blocked page (others: /subjects/crim10001, /2026/subjects/arbc20002). Those handbook subject/course URLs were not crawled successfully; they were blocked. So any content-quality, thinness, or orphan conclusion about handbook is a crawl artifact (1,506 such blocks estate-wide; also some mdhs/education).",
+    "recommendation": "Annotate SUMMARY.md and orphans.csv to flag handbook entries as 'crawl-blocked (Incapsula), not orphaned/thin', and re-crawl handbook with a politeness delay / allow-listed agent before drawing any handbook content conclusions. Prevents a false high-severity 'handbook is 14% orphaned / mostly thin' finding from propagating into the deck.",
+    "dimension": "content-quality"
+  },
+  {
+    "title": "Stand up a subdomain registry + provisioning gate to stop the 415-host sprawl growing",
+    "category": "governance",
+    "severity": "high",
+    "effort": "medium",
+    "evidence": "VERIFIED: 415 distinct *.unimelb.edu.au destination hosts exist in the CONTEXTUAL link graph alone \u2014 reproduced exactly via `tail -n+2 analysis/full-scrape/cross-site-flow.csv | cut -d, -f2 | grep 'unimelb.edu.au$' | grep -v ezp.lib | sort -u | wc -l` = 415, an order of magnitude beyond the deck's 'estate is really 20+ systems'. The sprawl is self-similar at every level and confirmed in the data: 8 Fine Arts cohort-year subdomains (art2021/2022/2023/2024/2025 + designproduction2022/2023/2024, all present as live hosts), one-team-one-subdomain research microsites (huntlab.science, tigrrlab.science, lecao-lab.science, murraylab.science, smartvillageslab.msd, thirdwavelab.education \u2014 all verified present), and 19 single-purpose transaction microsites (see forms-registry finding). No central inventory ties a host to an owner, a retirement date, or a reason it isn't a path on an existing site.",
+    "recommendation": "Create an authoritative DNS/subdomain registry (one row per host: business owner, technical owner, CMS, created date, review/retirement date, justification). Make new *.unimelb.edu.au issuance require sign-off against a published test ('why is this not a path under an existing site?'). Default new student-facing content to a PATH on students.unimelb or the faculty site, not a new host. Bulk-import the 415 hosts from cross-site-flow.csv as the seed inventory and assign owners; hosts with no owner after 90 days become retirement candidates. This is the single mechanism that prevents re-fragmentation \u2014 every other fix is one-time cleanup without it. Retire the 8 Fine Arts cohort-year subdomains into a single archived path as the proof-of-concept.",
+    "dimension": "governance-standards"
+  },
+  {
+    "title": "Mandate the shared CS template on the Squiz platform you already run everywhere",
+    "category": "governance",
+    "severity": "high",
+    "effort": "medium",
+    "evidence": "VERIFIED: fingerprinting raw page.html across 13 domains (crawl/<domain>/pages/*/page.html), every faculty domain returns Squiz/Matrix markers (~11-13 hits/page: eng/fbe/education/dental/biomed all ~13/page across 5-page samples) plus Google Tag Manager \u2014 so the CMS and analytics layer ARE already standardised and centrally controlled. What is NOT standardised is the template/IA above it (structural-findings.md Findings 1-3, 9, 21-23: four URL conventions for 'current students', 8-17 top-level sections vs students.unimelb's 4, no shared vocabulary). Finding 23 ('A good model already exists but was never issued as a standard') is confirmed in the source. The University doesn't need a new platform \u2014 it needs to ship the template as an enforced Squiz parent template on the CMS it already controls centrally. (Note: handbook.unimelb returns ZERO Squiz markers \u2014 it is the one domain NOT on this platform, see the handbook finding.)",
+    "recommendation": "Publish the Education/Arts central-and-spoke pattern as a versioned, mandated 'Standard Faculty Student Section' Squiz parent template: a fixed URL stem (/students), a capped 2-3-level nav, a mandatory 'what's here vs what's on students.unimelb' signpost block, and canonical section labels. Because every faculty is already on Squiz Matrix, this ships as a parent-template rollout with an adoption deadline, not a rebuild. Gate template changes through one owner so the next faculty redesign can't re-fork the IA.",
+    "dimension": "governance-standards"
+  },
+  {
+    "title": "Bring the Handbook up to the estate's metadata baseline (canonical + OG + orphan fix)",
+    "category": "technical",
+    "severity": "high",
+    "effort": "medium",
+    "evidence": "VERIFIED with corrected ratios: on a 33-page handbook sample, rel=canonical is present on just 8/33 (24%) and og:title on 13/33 (39%) \u2014 while every other domain sampled sits at ~100% for both (arts 20/20, law 14/14, study 16/16, students-full 25/25, services 25/25, eng 22/22, msd 15/15 for canonical). (The analyst's earlier '1/25, 3/25' came from a smaller sample; the outlier finding is unchanged and if anything robust.) Independently, SUMMARY.md + orphans.csv confirm the Handbook holds 266 of the estate's 289 contextual orphans (92%; 14% of its 1,920 pages orphaned) \u2014 vs 0-9 for every other domain. Root cause is visible in the data: the Handbook returns ZERO Squiz/Matrix markers while all 12 faculty domains return ~11-13/page \u2014 it is on a separate platform and governed to a visibly lower web standard than the sites that depend on it. And depend they do: current-student pages link to it 3,380x (Finding 25, the single biggest external dependency), and total contextual inbound estate-wide is 7,819; 2,909 of those use the same generic 'View detailed information in the Handbook' anchor (anchor-text.csv).",
+    "recommendation": "Treat the Handbook as in-scope for the same web-standards baseline as the rest of the estate: add rel=canonical and Open Graph tags to its page template, and fix the 266 orphans by ensuring every subject/course page is reachable from a parent index (not only via search/deep-link). Assign the Handbook a named owner inside the same governance forum as the faculty sites \u2014 today it sits outside it (different platform, no shared template).",
+    "dimension": "governance-standards"
+  },
+  {
+    "title": "Adopt a canonical-host rule and 301 the 28 www-vs-bare duplicate hosts",
+    "category": "technical",
+    "severity": "medium",
+    "effort": "quick-win",
+    "evidence": "VERIFIED EXACTLY: 28 sites are linked as BOTH www.X and X in the contextual link graph \u2014 reproduced the full list programmatically from cross-site-flow.csv hosts: www.arts/arts, www.eng/eng, www.mdhs/mdhs, www.msd/msd, www.services/services, www.findanexpert/findanexpert, www.alumni/alumni, www.psychologicalsciences/psychologicalsciences, www.unimelb/unimelb, plus 19 more (aii, art-museum, asiainstitute, bsc, cis, commercial, csdila, eresearch, gsa, lms, microbiol, microscopy, mobility, murrupbarak, ormond, queens, scc.ms, socialequity, sport). Exactly 28 families, no more, no fewer. Each duplicate splits inbound link equity, doubles the canonical-URL surface, and means bookmarks/anchors disagree on the 'real' address \u2014 a textbook absent-canonical-host symptom; findanexpert is already linked under both forms in anchor-text.csv.",
+    "recommendation": "Pick one canonical form (recommend bare host, matching study/students/handbook) and add server-level 301 redirects from the other for all 28 families, plus a rel=canonical pointing at the chosen form. Add a CI/governance check that flags any new host advertised in both forms. Low-risk, high-tidiness quick win that also improves search consolidation.",
+    "dimension": "governance-standards"
+  },
+  {
+    "title": "Consolidate the 19 single-purpose form/transaction microsites behind one forms registry",
+    "category": "service",
+    "severity": "medium",
+    "effort": "large",
+    "evidence": "VERIFIED: the link graph exposes 19 single-purpose transaction hosts \u2014 13 on *.app.unimelb.edu.au (confirmed present: specialconsideration.app, enrolmentvariations.app, studenteforms.app, feit-vocational-placement.app, mycounselling.app, tes.app, thesislibrary.app, booklibrary.app, slidelibrary.app, enquiry.app, ctrs.app, law.app, ffam-mcm.app) plus 6 standalone form hosts (feerefundform, casemanagementform, captureme, overseasstudyplanner, internationalstudenttravelpass, intlstudaccept \u2014 all verified present). This is the system-level companion to structural-findings.md Finding 12 ('Every faculty independently reinvented its forms index' \u2014 confirmed at source, 212 forms-admin pages) and Finding 26 ('some duplication lives in separate systems, not content'). students.unimelb has no forms index/registry (verified: its 19 'form'-matching pages are scattered individual pages, not a discovery surface), so these 19 entry points have no single discovery surface and each is separately owned/secured.",
+    "recommendation": "Publish a single authoritative forms/transactions registry at students.unimelb (task -> form -> owning system), and route every *.app.unimelb microsite through it for discovery. Longer term, set a standard that new student transactions are provisioned as paths within a shared forms platform rather than net-new app.* subdomains; require existing ones to register an owner and retirement review. Pair with the subdomain-registry gate so the count stops climbing.",
+    "dimension": "governance-standards"
+  },
+  {
+    "title": "Enforce link-quality + access-boundary standards (kill empty anchors, stop staff-intranet leakage)",
+    "category": "content",
+    "severity": "medium",
+    "effort": "medium",
+    "evidence": "VERIFIED: anchor-text.csv shows no enforced link-text or destination-appropriateness standard. (1) Accessibility/SEO defect: findanexpert.unimelb's single most-frequent inbound anchor is literally '(no text)' 267 times (plus bare 'Dr'/'Prof'/'A/Prof' fragments and generic 'View more' 54, 'Read more' 46). (2) Vocabulary drift: one function is described many ways for the same host \u2014 careersonline.unimelb has 8+ distinct anchor strings (e.g. 'Express interest here', 'register via Careers Online', 'register via Careers online', 'Express Interest Here'); the handbook's top anchor 'View detailed information in the Handbook' is used 2,909x but coexists with 7+ variants ('Handbook' 651, 'University Handbook' 217, raw URL 108, 'here' 27) \u2014 the link-text face of Finding 21 'no shared vocabulary'. (3) Access-boundary leak: faculty current-student estates link into the STAFF intranet staff.unimelb 838x (eng) and 729x (msd) \u2014 students are routed to a staff system (anchor 'FEIT Intranet' 836x, 'Staff intranet' 705x \u2014 both verified).",
+    "recommendation": "Add three rules to the web standard, enforced by a crawl/lint check in CI: (a) no empty or non-descriptive anchor text (block '(no text)', 'here', 'click here', 'view more', bare titles) \u2014 fixes the findanexpert defect at source; (b) one canonical link label per destination function, drawn from the shared vocabulary; (c) student-facing pages must not deep-link the staff intranet \u2014 audit the eng (838) and msd (729) staff.unimelb links and repoint to student equivalents or gate them. A nightly link-graph lint (build_linkgraph.py already exists in analysis/full-scrape/) turns these from one-off cleanups into a standing guardrail.",
+    "dimension": "governance-standards"
+  },
+  {
+    "title": "Fix the shared CMS heading-skip seam \u2014 page <h1> jumps a level on ~45% of rendered pages",
+    "category": "technical",
+    "severity": "high",
+    "effort": "medium",
+    "evidence": "Reproduced heading-order over rendered (non-shell) pages: estate-wide 678/1,523 (45%) of pages-with-headings skip a level (the analyst's 37% was on a smaller 482-page set; my larger sample is higher). It is a shared Squiz template pattern, not random authoring, and per-domain rates are severe: scholarships 240/250 (96%), finearts-music 213/250 (85%), study 201/250 (80%), mbs 58/83 (70%), law 121/250 (48%), fbe 103/250 (41%), services 53/176 (30%). The first-skip SIGNATURE is template-specific, NOT 'h1->h3 everywhere': study/fbe/finearts are h1->h3-dominant, law/mbs are h1->h4-dominant (law h1->h4 x59), and scholarships is h2->h4-dominant (x191; its detail-page shape is h1>h2>h4, skipping h3). Verified concrete h1->h3 example: study.unimelb.edu.au/find/courses/graduate/graduate-certificate-in-digital-engineering renders h1 'Graduate Certificate in Digital Engineering' then immediately h3 'Overview' (no h2). (Note: the previously-cited example study.unimelb.edu.au/.../change-of-preference/key-dates does NOT skip at the top \u2014 it renders h1 then h2 'Victoria' then h3 \u2014 so it is not a valid heading-skip case.) WCAG 1.3.1/2.4.10. Source: scratchpad/a11y_verify.py heading-skip + per-domain jump analysis.",
+    "recommendation": "Fix at the design-system/template layer, not per page. Audit the Squiz content-block components (accordion, card, callout, 'support'/section panels) that hard-code <h3>/<h4>: make the heading level a template parameter derived from nesting depth (page title=h1, first content section=h2, sub-items=h3). Note the scholarships detail template specifically skips h3 (jumps section-h2 to item-h4) and the course-finder template skips h2 (jumps page-h1 to block-h3) \u2014 both need the level parameterised. A single component-library change propagates to ~15 sites and thousands of pages. Add an automated heading-order linter (axe-core rule 'heading-order') to the CMS publish/CI step to prevent regression.",
+    "dimension": "accessibility-tech"
+  },
+  {
+    "title": "Give each scholarship detail page its own <title> \u2014 94.7% currently share one generic title",
+    "category": "content",
+    "severity": "high",
+    "effort": "quick-win",
+    "evidence": "Over ALL 2,151 cleanly-rendered scholarships.unimelb.edu.au pages I found only 109 distinct <title> values; 2,038 of 2,151 (94.7%) emit the identical '<title>Find a scholarship | University of Melbourne</title>' (the analyst's 185/196 sample figure holds at full scale). So named award pages (e.g. 'Melbourne Chancellor's Scholarship', 'Research Training Program Scholarship') are indistinguishable in browser tabs, bookmarks, history, and screen-reader page announcements, and collapse into one entry in search results. This is the largest duplicate-title group in the estate (the comparable mdhs 'Search' group is also large \u2014 304 in a 400-page sample). WCAG 2.4.2 (Page Titled). Source: scratchpad/a11y_verify.py title-uniqueness pass (full scholarships corpus).",
+    "recommendation": "In the scholarship detail template, set <title> from the scholarship name field: '{Scholarship name} | Scholarships | University of Melbourne' (the name is already rendered in the page body/H1). Same pattern fix applies to the mdhs 'Search' and study/handbook 'Find a course'/'Search' result pages \u2014 append the active query/filters to the title so result states are distinguishable in tabs, history and search engines.",
+    "dimension": "accessibility-tech"
+  },
+  {
+    "title": "Stop card grids from emitting multiple <h1>s \u2014 MDHS research-library renders 11 h1s on one page",
+    "category": "technical",
+    "severity": "high",
+    "effort": "medium",
+    "evidence": "Multi-h1 is template-driven and concentrated: mdhs.unimelb.edu.au 183/250 (73%) and msd.unimelb.edu.au 88/250 (35%) of rendered pages carry >1 <h1> (the analyst's 60%/35% understated mdhs). Verified worst case exactly as claimed: mdhs.unimelb.edu.au/research/research-library renders the page heading AND every result-card title as <h1> \u2014 the 11 captured h1s are 'MDHS Research Project Database', 'Centre for Health Equity', 'Baker Department of Cardiometabolic Health Research', 'Disability and Health Unit', 'Replanting the Birthing Trees', 'Lineage', 'CO Study', 'Disaster, Resilience and Recovery', 'Adversity, Trauma and Resilience', 'Commercial Determinants of Health Watch...', 'VCAT'. Multiple h1s break the document-outline cue screen-reader users rely on to find the page's primary topic. WCAG 1.3.1. Source: scratchpad/a11y_verify.py multi-h1 examples.",
+    "recommendation": "In the research-library and MSD studio card-grid components, demote per-card titles from <h1> to <h3> (under the page's single <h1> and a section <h2>), keeping the visual size via CSS class rather than tag. One component edit fixes the whole grid across every filtered view. Re-run the axe 'page-has-heading-one' + a custom 'single-h1' check in CI.",
+    "dimension": "accessibility-tech"
+  },
+  {
+    "title": "Add alt text in the Funnelback/Squiz search-result card template (the estate's dominant image-alt gap)",
+    "category": "technical",
+    "severity": "medium",
+    "effort": "quick-win",
+    "evidence": "This is a single shared search-component defect, NOT a content-authoring problem \u2014 confirmed by my recount: content domains are essentially clean (students 1/602 imgs missing alt = 0.2%, arts 0/306, alumni 0/542, mdhs 2/401, law 17/2,375 = 0.7%). But the SCALE is much larger than '140 imgs on 7 pages': EVERY scholarships search/listing image lacks alt \u2014 100% (4,346/4,346 imgs in a 250-page sample; concentrated entirely on ~291 search/listing-state URLs like scholarships.unimelb.edu.au/search?collection=uom~sp-api... at ~26 thumbnails each; the 9 sampled detail pages carried 0 images). study.unimelb.edu.au/find/ shows the same defect (37-38 thumbnail imgs/page, 17.8% of study's sampled imgs missing alt). One template powers both the course finder and the scholarship finder. WCAG 1.1.1. Source: scratchpad/a11y_verify.py image clustering-by-URL pass.",
+    "recommendation": "Edit the Funnelback/Squiz result-card display template to output alt text from the result's title/metadata field (alt=\"{course name}\" / alt=\"{scholarship name}\", or alt=\"\" if the thumbnail is purely decorative beside a visible title). Because it is one template powering both the course finder and the scholarship finder, a single change clears thousands of missing-alt images across hundreds of listing URLs. No content-author action needed.",
+    "dimension": "accessibility-tech"
+  },
+  {
+    "title": "Add rel=\"noopener\" and a visible 'opens in new window' cue to external links",
+    "category": "technical",
+    "severity": "medium",
+    "effort": "medium",
+    "evidence": "Of 11,716 target=_blank links I sampled across 9 domains, 8,535 (72.8%) carry no rel=noopener/noreferrer (the analyst's 82.3% was a smaller sample; same order of magnitude). Rate varies by site template: scholarships 98.0%, services 99.6%, fbe 98.4%, arts 98.4%, mdhs 98.5%, alumni 90.7%, students 80.1%, but study 31.2% and law 47.3% are markedly better. Spot-checks show no programmatic 'opens in new window' indication (no aria text, no icon with accessible name). The accessibility issue is the unannounced context change for screen-reader and cognitive users (WCAG 3.2.5); rel=noopener is also a reverse-tabnabbing security/perf hygiene gap. Source: scratchpad/a11y_verify.py target=_blank pass.",
+    "recommendation": "At the link-rendering/template level, automatically inject rel=\"noopener noreferrer\" on any anchor with target=_blank, and append a visually-hidden ' (opens in a new window)' span (or an aria-labelled external-link icon) to its accessible name. The ~98%-rate templates (scholarships/services/fbe/arts/mdhs) are the priority; apply as a global template/JS post-process so it covers all 20 domains at once, and add an axe check to flag new target=_blank links without rel.",
+    "dimension": "accessibility-tech"
+  },
+  {
+    "title": "Replace generic 'Show more'/'Find out more' link text with descriptive labels (and fix href=\"#\" placeholders)",
+    "category": "content",
+    "severity": "low",
+    "effort": "quick-win",
+    "evidence": "Generic link phrases are low-volume (~0.21% of 39,941 anchors scanned across rendered students.unimelb pages) but present: 'find out more' x26, 'learn more' x24, 'show more' x13, 'read more' x12, 'more information' x8. A meaningful subset are non-functional without JS: 23 instances of generic-text links pointing at href=\"#\" (the analyst cited only 1). Verified example page: students.unimelb.edu.au/support-and-wellbeing/student-services-workshops-and-sessions (note the path is /support-and-wellbeing/..., not the previously-cited /student-support/advice-and-help/...). Out of context these give screen-reader users navigating by link list no destination cue (WCAG 2.4.4). Source: scratchpad/a11y_verify.py generic-link + href='#' pass.",
+    "recommendation": "Where 'Show more' toggles content, use a real <button aria-expanded> instead of an <a href=\"#\"> (this fixes all 23 href='#' instances). Where 'Find out more'/'Apply now' is a real link, give it a self-describing label (e.g. 'Find out more about census dates') or at minimum an aria-label. Low volume means this can be a targeted content cleanup on the students/study sites rather than a template change.",
+    "dimension": "accessibility-tech"
+  },
+  {
+    "title": "Repair the analytics privacy-consent radios \u2014 <label> is commented out and {{opt_in}} never renders",
+    "category": "technical",
+    "severity": "low",
+    "effort": "quick-win",
+    "evidence": "Exactly 816 students.unimelb pages carry the analytics opt-in radio, and ALL 816/816 ship it broken: the <label for=\"privacy_pref_optin\"> is HTML-commented out and the Mustache token {{opt_in}} was never substituted, so the inputs have no programmatic label ('<input checked id=\"privacy_pref_optin\" name=\"privacy_pref\" type=\"radio\"/> <!-- <label for=\"privacy_pref_optin\">{{opt_in}}</label> -->'). This is a precise, uniform template defect (816/816, not 'essentially all'), and it was the source of the apparent 'unlabelled inputs' signal \u2014 there were no unlabelled text/email/search fields, so the visible-form story is fine. The radios are display:none so live impact is low, but it is a latent WCAG 1.3.1/4.1.2 bug that surfaces if the control is ever shown. Source: scratchpad/a11y_verify.py form-label pass + privacy_pref context dump.",
+    "recommendation": "In the consent component, uncomment the <label for> elements and ensure the {{opt_in}}/{{opt_out}} template variables are populated at render (or hard-code the visible label text). Trivial template fix; eliminates a dead control and the false unlabelled-input signal across all 816 pages at once.",
+    "dimension": "accessibility-tech"
+  },
+  {
+    "title": "Treat handbook subject/course pages as JS-only \u2014 provide a server-rendered fallback so non-JS clients and the WAF don't return empty shells",
+    "category": "technical",
+    "severity": "medium",
+    "effort": "large",
+    "evidence": "69% of handbook.unimelb.edu.au captures that contained HTML (1,470/2,134) returned an 887-byte Imperva/Incapsula challenge page ('Request unsuccessful. Incapsula incident ID...') with NO <title>/<h1>/<main>/lang/meta description; for the subject/course URLs specifically it is 1,332/1,718 = 78% shells. Verified shell size: 887 bytes median (range 882-890). The real handbook pages are client-rendered (SPA, no SSR content). This is why SUMMARY.md shows handbook heavily orphaned (~14%) \u2014 those are crawler/WAF artifacts of an SPA, not authored orphans. Student-impact risk: any client without full JS (some assistive setups, link previews, search engines, the University's own crawlers) sees an empty document for subject/course detail \u2014 and handbook is the single most-linked-to destination in the estate (study->handbook = 4,391 contextual links exactly, the top row of cross-site-flow.csv). Source: scratchpad/a11y_verify.py handbook shell analysis + cross-site-flow.csv.",
+    "recommendation": "Confirm via a JS-enabled audit (axe DevTools on the live page) that rendered handbook pages set <title>/<h1>/landmarks correctly; the SSR/WAF gap is the actionable item. Add server-side rendering or a static HTML fallback (title, h1=subject name, meta description, core subject facts) for /subjects/* and /courses/*, and ensure the bot-protection (Imperva) does not serve the bare 887-byte challenge to legitimate non-JS user-agents. Because handbook is the estate's top contextual destination (4,391 inbound study links alone), a rendering fallback also protects link-preview and SEO equity for thousands of inbound study/faculty links.",
+    "dimension": "accessibility-tech"
+  },
+  {
+    "title": "Wire an \"Enrol in this subject\" action onto every handbook subject & course page",
+    "category": "technical",
+    "severity": "high",
+    "effort": "medium",
+    "evidence": "Verified over crawl/handbook-unimelb-edu-au: index.json lists 3,000 pages (1,637 subject + 818 course); 1,256 subject and 462 course pages were crawled with full link data. Subject pages link to my.unimelb (the Student Information System where enrolment actually happens) 0% of the time, and link to a real enrolment how-to path on students.unimelb 0% of the time. The only students.unimelb links that exist on subject pages (154 each) go to /your-course/manage-your-course/fees-and-payments/understanding-your-fees and /campus-life/policy-and-conduct/respect-at-the-university \u2014 fee/conduct boilerplate, NOT an enrolment action. Top outbound hosts from subject pages are handbook itself (2,749), www/about chrome (924/770), then Facebook/Twitter/LinkedIn/Instagram (154 each) tied with safety.unimelb and service-now \u2014 all ahead of any enrolment action. Course pages are slightly better (232 link students.unimelb) but still 0% to my.unimelb. SUMMARY.md flags handbook at 14% orphaned (266 of 1,920 pages zero contextual inbound), and the handbook search page is the single most-linked page in the whole estate (hubs.csv line 1: 5,529 inbound). The catalogue is a read-only dead-end: a student can find a subject but cannot act on it.",
+    "recommendation": "Add a persistent, templated action block to the handbook subject/course template containing two deep links keyed off the subject/course code already in the URL (e.g. /2026/subjects/musi30051): (1) \"How to enrol in subjects\" \u2192 students.unimelb.edu.au/your-course/manage-your-course/subject-enrolment/enrolling-in-subjects, and (2) \"Add this subject in my.unimelb\" \u2192 the my.unimelb enrolment entry point (currently linked from 0 handbook pages). Because the code is in every URL this is a single template change, not ~1,700 page edits. This closes the find\u2192act gap for the single highest-traffic enrolment task.",
+    "dimension": "task-journeys"
+  },
+  {
+    "title": "Build a graduation\u2192alumni bridge; stop handing finishing students to social media (and a donation form)",
+    "category": "service",
+    "severity": "high",
+    "effort": "medium",
+    "evidence": "Verified over crawl/students-full: students.unimelb (all 833 pages) has ZERO contextual links to any *alumni* host (empty result). There are 35 graduation/completion pages, and the literal graduation-day page (students.unimelb.edu.au/your-course/manage-your-course/graduation/graduation-day, 45 links \u2014 which also exists verbatim on a second URL tree at /course-admin/graduation/graduation-day) links out to Facebook (2), Instagram (2) and LinkedIn (1) but not to the alumni community, alumni benefits, or mentoring. The only faculty\u2192alumni links that exist are 49 to secure.alumni.unimelb.edu.au/s/1182/match/wide.aspx \u2014 a giving/donation \"match\" form \u2014 plus 3 to a giving form (verified across all 13 faculty domains). careersonline.unimelb (current careers platform) gets 33 links from students.unimelb but only 1 from the entire alumni site, so a graduate effectively loses their careers tooling at the boundary. mentoring.unimelb.edu.au is a real, live host (59 references estate-wide) but is never linked from a graduation page. This sharpens the corpus's \"nav-only, no contextual handoff\" alumni finding (lifecycle-cross-corpus.md \u00a73) into the exact missing link.",
+    "recommendation": "On the graduation-day and \"manage your course/graduation\" pages (both URL-tree copies), add a \"Your next chapter\" block linking to: alumni community sign-up (www.unimelb.edu.au/alumni), alumni benefits, and the alumni mentoring platform (mentoring.unimelb.edu.au, already live). Replace the donation \"match\" form as the primary alumni touchpoint with a relationship/onboarding link \u2014 keep giving as secondary. Mirror careers continuity: link careersonline \u2192 alumni careers so employability tooling persists across the boundary (today only 1 such link exists). This is the one web moment where the prospective\u2192current\u2192alumni lifecycle can be made visible.",
+    "dimension": "task-journeys"
+  },
+  {
+    "title": "Stop bouncing current students into the prospective enquiry funnel (\"Register your interest\")",
+    "category": "content",
+    "severity": "high",
+    "effort": "quick-win",
+    "evidence": "Verified over crawl/: students.unimelb \u2192 forms.your.unimelb.edu.au (the prospective \"Register your interest\"/lead-capture enquiry forms, all numeric-ID paths e.g. /4747166 \u00d7232, /4747069 \u00d740) = 311 contextual links exactly; anchor-text.csv confirms forms.your is described as \"Register for updates\" (1,197), \"Register to learn more\" (127), \"Enquire\" (83), \"Register your interest\" (64). On top of that, 75 faculty CURRENT-student pages link the same prospective form. Separately, current students push back to study.unimelb \"how-to-apply\" paths 95 times (top targets: apply-for-advanced-standing \u00d710, grade-conversion-eligibility-calculator \u00d710, advanced-standing \u00d79, international-student-transfer \u00d78). An enrolled student doing course admin is being re-marketed to as a prospect.",
+    "recommendation": "Audit the 311 students.unimelb \u2192 forms.your links and the 75 faculty current-student \u2192 forms.your links; replace prospective lead-capture CTAs on current-student pages with current-student equivalents (Stop 1 enquiry / ask.unimelb / the relevant my.unimelb action). Where a current page genuinely needs an apply action (e.g. advanced standing \u2014 95 study.unimelb how-to-apply links), point to the authenticated current-student application path, not the prospective marketing funnel. Low-effort find-and-replace with high dignity/clarity payoff.",
+    "dimension": "task-journeys"
+  },
+  {
+    "title": "Collapse the parallel URL trees on the central student site (live mid-migration)",
+    "category": "technical",
+    "severity": "high",
+    "effort": "medium",
+    "evidence": "Verified over crawl/students-full: the site runs TWO parallel trees for the same content. Course management lives under BOTH /course-admin/ (212 pages) and /your-course/ (101 pages); wellbeing lives under BOTH /support-and-wellbeing/ (152 pages) and /student-support/ (56 pages), with stragglers under /student-life/ and /campus-life/. The split shows up as competing inbound links: the visa \"advanced-standing\" page is linked 613\u00d7 on the OLD path (/student-support/international-student-support/visas/.../advanced-standing \u2014 confirmed in hubs.csv) but the NEW /support-and-wellbeing/.../visas tree gets only 303\u00d7. Stop 1 is linked 1,648\u00d7 estate-wide on the OLD path (/student-support/advice-and-help/stop-1; the 749 in hubs.csv is just that single hub page) but only 224\u00d7 on the NEW /support-and-wellbeing/stop-1. Even the graduation-day page exists on both /your-course/ and /course-admin/. Two URL trees for the same content = stale links, duplicated SEO, and students landing on whichever version a given linker happened to use.",
+    "recommendation": "Pick one canonical tree (the data suggests /support-and-wellbeing/ and /your-course/ are the newer targets) and 301-redirect the others; update the high-fan-in links (the 613 to the old visa-advanced-standing path, the 1,648 to the old Stop 1 path) so faculties and search land on canonical URLs. Add a redirect-coverage check to the migration so no path has live inbound links on both trees. This is governance debt actively degrading every journey routed through Stop 1 and visa support.",
+    "dimension": "task-journeys"
+  },
+  {
+    "title": "Make Stop 1 a genuinely universal, evenly-routed front door across all faculties",
+    "category": "service",
+    "severity": "medium",
+    "effort": "medium",
+    "evidence": "Verified over crawl/ (per-faculty count of links to any students.unimelb stop-1/stop1 path): routing is wildly uneven \u2014 MSD 663, Education 54, MDHS 38, Arts 29, FEIT 29, Law 14, FBE 11, Science 11, Fine Arts 9, Biomedical Sciences 7, MBS 3, Medicine 2, Dental 1. anchor-text.csv shows \"Stop 1\" is the single most common cross-site anchor (754) \u2014 the concept is established \u2014 but effectively only MSD surfaces it at scale, and Medicine, MBS and Dental barely route to it at all. A Medicine or Dental student in difficulty has almost no faculty-page path to the central support front door.",
+    "recommendation": "Standardise a \"Need help? \u2192 Stop 1\" component in the shared faculty current-student template (the same templated-sidebar pattern MSD already uses to generate its 663 links). Target parity so every faculty routes the core support actions (Stop 1, special consideration, leave of absence, wellbeing) consistently, not just MSD. Prioritise Dental (1), Medicine (2) and MBS (3), which currently barely link Stop 1.",
+    "dimension": "task-journeys"
+  },
+  {
+    "title": "Promote MSD's hand-built current-student sidebar to a shared central component",
+    "category": "governance",
+    "severity": "medium",
+    "effort": "large",
+    "evidence": "Verified over crawl/msd-unimelb-edu-au: the msd\u2192students seam is 8,069 contextual links (cross-site-flow.csv line 1, the single largest cross-site flow in the estate) \u2014 and the anchor text is a repeated ~611-count block per page: 'Advanced standing' 613, 'Course advice' 611, 'Leave of absence' 611, 'Overloading' 611, 'Unsatisfactory academic progress' 611, 'Course withdrawal' 611, 'Cross-institutional Study' 611, 'Study Overseas' 611, 'Exams, assessments and results' 611, 'Enrolling in subjects' 610, 'Class timetable' 610, 'Special consideration' 610 (plus 'Stop 1' 660). That uniform multiplicity = a templated sidebar MSD built itself to compensate for the missing central IA. No other faculty has it at scale, which is exactly why Stop 1/support routing is so uneven (prior finding). One faculty solved the wiring problem locally; the other eleven didn't.",
+    "recommendation": "Adopt MSD's current-student link block as the canonical shared 'manage your course' navigation component and roll it into the common faculty template, so all 12 faculties expose the same consistent set of central actions (enrolment, special consideration, leave, withdrawal, study overseas, exams). This converts a per-faculty workaround into estate-wide IA and directly fixes the routing inequality. Scope note: link-TEXT quality is already good on the major seams (vague anchors like 'here'/'read more' are a negligible share of cross-site links), so the work is structural propagation, not rewriting copy.",
+    "dimension": "task-journeys"
+  },
+  {
+    "title": "Give faculty placement/WIL pages real deep-links into the central careers + WIL spine",
+    "category": "ux",
+    "severity": "medium",
+    "effort": "medium",
+    "evidence": "Verified over crawl/ (13 faculties, 211 placement/WIL pages identified by URL): they emit 347 links to students.unimelb, but 201 of those (57%) go to the bare homepage students.unimelb.edu.au/ \u2014 generic, not to WIL/careers content. Only a handful reach actionable targets (Stop 1 \u00d718, /careers \u00d713, working-on-a-student-visa \u00d77, financial-aid \u00d76, enrolling-in-subjects \u00d75). careersonline.unimelb (the booking/jobs platform) gets just 11 inbound links from all 211 faculty placement pages combined \u2014 placements/WIL is the most current-only, faculty-owned topic in the corpus (lifecycle-cross-corpus.md \u00a76), yet the journey is faculty-siloed with mostly a homepage-level tether to central careers tooling.",
+    "recommendation": "Replace bare students.unimelb/ homepage links on faculty placement/WIL pages (currently 57% of their central links) with deep links to the central careers service and to careersonline.unimelb (the booking/jobs platform \u2014 currently only 11 links from all placement pages), plus the WIL-relevant central pages (working-on-a-student-visa for international students, insurance/safety). Establish a single central WIL hub page faculties can point at, so the 211 faculty placement pages share one connective target instead of dead-ending at the homepage.",
+    "dimension": "task-journeys"
+  },
+  {
+    "title": "Unify counselling/wellbeing entry across students.unimelb and services.unimelb",
+    "category": "content",
+    "severity": "medium",
+    "effort": "quick-win",
+    "evidence": "Verified over crawl/: faculty\u2192counselling/health links split across two domains for the same service \u2014 the students.unimelb support-and-wellbeing tree AND services.unimelb.edu.au/counsel (51), services.unimelb.edu.au/health (22), services.unimelb.edu.au/counsel/home (13), plus /counsel/emergency-and-crisis-support (6) \u2014 266 services.unimelb counsel/health links total from faculties. anchor-text.csv confirms services.unimelb is described as 'Counselling and Psychological Services' (39+21) and 'Health Service' (18). A student seeking counselling can land on either the students.unimelb wellbeing tree or the services.unimelb directory entry, which describe the same provider differently. This compounds the two-URL-tree problem (separate finding) for the highest-stakes task: mental-health support.",
+    "recommendation": "Designate one canonical counselling/wellbeing landing (recommend the students.unimelb support-and-wellbeing tree as the student-facing front, with services.unimelb/counsel as the operational/booking detail it links INTO, not a parallel front door). Make every faculty and central link to counselling resolve to that one canonical page. For a crisis-adjacent task, a single unambiguous entry point is worth more than any redesign \u2014 and it's a link-target cleanup, not new content.",
+    "dimension": "task-journeys"
+  }
+]
