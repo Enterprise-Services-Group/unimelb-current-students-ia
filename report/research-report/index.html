@@ -152,6 +152,13 @@ section.navy .bar-row .v{color:var(--cyan)}
 .svc-card .st{font-family:var(--font-m);font-size:12px;color:var(--ink-3);margin-top:6px}
 .svc-card .hl{color:var(--ink-2);font-size:14px;margin-top:8px;line-height:1.4}
 .svc-card .more{font-family:var(--font-m);font-size:12px;color:var(--cyan-d);margin-top:10px}
+.seammap{margin-top:8px;border-top:1px solid var(--border)}
+.seam{display:grid;grid-template-columns:210px 116px 1fr;gap:18px;align-items:center;padding:13px 0;border-bottom:1px solid var(--border)}
+.seam .st{font-family:var(--font-m);font-size:14px;color:var(--navy);font-weight:600}
+.seam .sh{font-family:var(--font-m);font-size:11px;font-weight:600;letter-spacing:.05em;text-transform:uppercase;text-align:center;padding:5px 0;color:#fff}
+.seam .sh.broken{background:var(--red)} .seam .sh.weak{background:var(--amber)} .seam .sh.ok{background:var(--brand-500)}
+.seam .se{font-size:14.5px;color:var(--ink-2);line-height:1.4}
+@media(max-width:880px){.seam{grid-template-columns:1fr auto;gap:8px}.seam .se{grid-column:1/-1}}
 .modal table{width:100%;border-collapse:collapse;margin-top:4px;font-size:14px}
 .modal th,.modal td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--border);vertical-align:top;line-height:1.45}
 .modal th{font-family:var(--font-m);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-3)}
@@ -183,7 +190,7 @@ footer .src{font-family:var(--font-m);font-size:12px;color:#6b7099;margin-top:22
     <img src="assets/UoM_Logo_Horiz_onDark.svg" alt="University of Melbourne">
     <nav>
       <a href="#summary">Summary</a><a href="#method">Method</a><a href="#estate">The estate</a>
-      <a href="#findings">Findings</a><a href="#services">Services</a><a href="#prospective">Prospective</a><a href="#register">Improvements</a><a href="#scope">Confidence</a>
+      <a href="#findings">Findings</a><a href="#services">Services</a><a href="#prospective">Prospective</a><a href="#register">Improvements</a><a href="#lifecycle">Lifecycle</a><a href="#scope">Confidence</a>
     </nav>
   </div>
 </header>
@@ -413,6 +420,30 @@ footer .src{font-family:var(--font-m);font-size:12px;color:#6b7099;margin-top:22
   </div>
 </section>
 
+<section id="lifecycle" class="alt">
+  <div class="wrap">
+    <div class="sec-head"><div class="eyebrow">The human view · across the lifecycle</div><h2>Where the journey breaks between the stages</h2>
+      <p>The same method, applied to ten end-to-end journeys — six personas and four high-stakes moments. Each stage is mostly competent; the experience breaks at the <em>joints</em> the stages share and no team owns. Two truths stand out: the decisive action is always behind a login wall, and fragmentation is regressive — the journeys that break hardest belong to the students with the least margin. Select any journey to trace it.</p></div>
+
+    <div class="eyebrow" style="margin-bottom:18px">The lifecycle seam map — transition health</div>
+    <div class="seammap">
+      <div class="seam"><span class="st">discover → apply</span><span class="sh broken">broken</span><span class="se">forks to 3 systems (VTAC / eStudent / CRM); no single "Apply"</span></div>
+      <div class="seam"><span class="st">apply → enrol</span><span class="sh weak">weak</span><span class="se">study→students = 373 contextual links; cold for all but domestic VTAC undergrads</span></div>
+      <div class="seam"><span class="st">enrol → study</span><span class="sh weak">opaque</span><span class="se">the action is in my.unimelb, behind login</span></div>
+      <div class="seam"><span class="st">study → seek support</span><span class="sh broken">fragmented</span><span class="se">parallel hub trees + an off-brand delivery host</span></div>
+      <div class="seam"><span class="st">support → act</span><span class="sh weak">invisible</span><span class="se">special consideration / leave / hardship actions behind login &amp; forms</span></div>
+      <div class="seam"><span class="st">progress → withdraw</span><span class="sh broken">broken</span><span class="se">scattered, and the census-dates page's canonical is /page-not-found</span></div>
+      <div class="seam"><span class="st">complete → graduate</span><span class="sh ok">partial</span><span class="se">clean apply-to-graduate spine, but split across two URL trees</span></div>
+      <div class="seam"><span class="st">graduate → alumni</span><span class="sh broken">severed</span><span class="se">~97 contextual links, 0 from completion pages — navigation-only</span></div>
+    </div>
+
+    <div class="eyebrow" style="margin:46px 0 16px">Persona journeys</div>
+    <div id="life-personas" class="svc-grid"></div>
+    <div class="eyebrow" style="margin:40px 0 16px">Moments that matter</div>
+    <div id="life-moments" class="svc-grid"></div>
+  </div>
+</section>
+
 <section id="scope">
   <div class="wrap">
     <div class="sec-head"><div class="eyebrow">Confidence</div><h2>What this report does — and doesn't — establish</h2>
@@ -450,6 +481,7 @@ footer .src{font-family:var(--font-m);font-size:12px;color:#6b7099;margin-top:22
 <script src="improvements.js"></script>
 <script src="services.js"></script>
 <script src="prospective.js"></script>
+<script src="lifecycle.js"></script>
 <script>
 const SEV={high:'High priority',medium:'Medium priority',low:'Low priority'};
 const THEME_ORDER={
@@ -561,6 +593,32 @@ function openProsp(i){
   document.getElementById('modal').hidden=false; document.body.classList.add('locked'); panel.scrollTop=0;
 }
 renderProsp();
+
+// ── lifecycle journeys ──
+const LIFE=window.LIFECYCLE||[];
+function lifeCard(t,i){
+  return '<div class="svc-card" onclick="openLife('+i+')"><div class="top"><span class="pill '+(t.severity==='high'?'high':'med')+'">'+t.severity+
+    '</span></div><div class="nm">'+esc(t.subject)+'</div><div class="hl">'+esc(t.headline.length>148?t.headline.slice(0,146)+'…':t.headline)+
+    '</div><div class="more">Trace the journey →</div></div>';
+}
+function renderLife(){
+  document.getElementById('life-personas').innerHTML=LIFE.map((t,i)=>t.kind==='persona'?lifeCard(t,i):'').join('');
+  document.getElementById('life-moments').innerHTML=LIFE.map((t,i)=>t.kind==='moment'?lifeCard(t,i):'').join('');
+}
+function openLife(i){
+  const t=LIFE[i]; if(!t)return;
+  const panel=document.getElementById('modalPanel'); panel.className='modal-panel';
+  const br=(t.breaks||[]).map(x=>'<li>'+esc(x)+'</li>').join('');
+  document.getElementById('modalContent').innerHTML=
+    '<div class="modal-meta"><span class="modal-track">Lifecycle journey · '+esc(t.kind)+'</span><span class="pill '+(t.severity==='high'?'high':'med')+'">'+esc(SEV[t.severity])+'</span></div>'+
+    '<h2 class="mt">'+esc(t.subject)+'</h2><p class="lead-hl">'+esc(t.headline)+'</p>'+
+    '<div class="block"><div class="lab">The journey</div><p>'+esc(t.journey)+'</p></div>'+
+    (br?'<div class="block"><div class="lab">Where it breaks</div><ul class="bl">'+br+'</ul></div>':'')+
+    '<div class="block"><div class="lab">Systems traversed</div><p>'+esc(t.domains)+'</p></div>'+
+    '<div class="block ev"><div class="lab">The fix</div><p>'+esc(t.recommendation)+'</p></div>';
+  document.getElementById('modal').hidden=false; document.body.classList.add('locked'); panel.scrollTop=0;
+}
+renderLife();
 </script>
 </body>
 </html>

@@ -1,0 +1,219 @@
+# Lifecycle Journeys & Moments — where the student experience breaks across stages
+
+*Ten end-to-end traces — six personas and four high-stakes moments — through the University's web estate, composed from the path-level link graph and the prospective + current-student deep-dives. The question is not "is each stage good?" but "does the journey hold together as a real student lives it?" June 2026.*
+
+---
+
+## Executive summary
+
+Analysed stage by stage, the estate looks like a set of mostly-competent parts. Traced as a **journey**, it tells a harder story: the experience breaks at the **joints** — the transitions between stages that no team owns. A school-leaver applies on an external government site and crosses into the current estate on one cold link; an international postgraduate navigates a visa-compliance chain forked across three live trees with zero action links on its highest-risk pages; an at-risk student hits two competing versions of "support" and finds counselling on a page branded "Academic Skills Unit"; and at the end, a graduate is handed to the alumni relationship by essentially nothing (~97 contextual links, none from a completion page).
+
+Two things make this more than a list of gaps. First, **the decisive action is always behind a wall** — every journey's most important step happens in my.unimelb, Canvas, eStudent or a form, so the public estate can only ever *describe* the thing the student needs to *do*. Second, **fragmentation is regressive**: the journeys that break hardest are the international, equity/Indigenous, HDR and in-crisis ones — the students with the least margin to absorb a hunt across five-to-eight systems. The fix is the same connective work the current- and prospective-student analyses point to, now aimed explicitly at the transitions: **own the joints** — build the apply→enrol and graduate→alumni bridges, collapse the parallel trees a moving student trips over, surface the behind-login actions, and make the high-stakes moments panic-findable.
+
+
+## What breaks across the lifecycle — six patterns
+
+Tracing ten journeys end-to-end exposes faults that no single-stage view can see — they live in the **joints between stages**, which is exactly where no one owns them.
+
+**1. The decisive action is always behind a wall.** Every journey terminates its decisive step — apply, enrol, pay, book, submit special consideration, vary a study load — in VTAC, eStudent, my.unimelb, Canvas or a `*.app` form. The public estate *describes* the action; it never *is* the action. The student crosses a login boundary at the most important moment, and the public side can't confirm the handoff works.
+
+**2. The joints between stages are the weakest links.** The stages are mostly well-built; the *transitions* are thin or absent — apply→enrol is 373 contextual links, graduate→alumni is ~97 (0 from completion pages), and the support handoffs scatter. The journey is a row of good rooms with broken doorways.
+
+**3. The hub's parallel URL trees fork the journey mid-stride.** A student in motion hits `/support-and-wellbeing` vs legacy `/student-support`, three visa trees, three fee trees, three SEDS trees — the mid-migration debt is experienced as *journey breakage*, not just duplication.
+
+**4. The most vulnerable journeys break the hardest.** The HIGH-severity traces are international (immigration consequence), equity/Indigenous (least able to absorb fragmentation), HDR (off-estate spine), and the at-risk student (in crisis). The best-served is the domestic school-leaver. Fragmentation is regressive — it costs the most to those with the least margin.
+
+**5. Domain-hopping is the norm, often onto off-brand or off-estate hosts.** Every journey crosses 5–8 distinct systems; several land on hosts branded as something else (counselling on a page titled "Academic Skills Unit") or off the estate entirely (gradresearch, studentit, Murrup Barak).
+
+**6. The high-stakes "moments that matter" are the worst-served.** Census (canonical → 404), financial hardship (~5 pages), special consideration (scattered), visa breach (0 action links) — the panic moments where an error costs money, progress or a visa are precisely the ones the estate handles least well.
+
+
+## The lifecycle seam map
+
+| Transition | Health | Evidence |
+|---|---|---|
+| discover → apply | **broken** | forks to 3 systems (VTAC / eStudent / CRM); no single "Apply" |
+| apply → enrol | **weak** | study→students = 373 contextual links; cold for all but domestic VTAC UG |
+| enrol → study | opaque | the action is in my.unimelb behind login |
+| study → seek support | **fragmented** | parallel hub trees + off-brand delivery host |
+| support → act | invisible | special con / leave / hardship actions behind login/forms |
+| progress → leave/withdraw | **broken** | scattered + the census-dates canonical is /page-not-found |
+| complete → graduate | partial | clean apply-to-graduate spine, but split across two URL trees |
+| graduate → alumni | **severed** | ~97 contextual links, 0 from completion pages — nav-only |
+
+
+## Persona journeys
+
+
+### Domestic undergraduate (school leaver)  `[MEDIUM]` · persona
+**The best-served journey — yet it still hands off to an external admissions site to apply and crosses into the current estate on a single cold link.**
+
+**The journey.** Discovers a course on study.unimelb (/find/courses, a 7-tab micro-site) → checks entry requirements (deep-links to the Handbook, a different platform) → applies via VTAC (vtac.edu.au, an external government admissions centre — ~75 outbound links) → receives an offer → accepts → enrols in my.unimelb (behind login) → follows a single 'Get Started at Melbourne' link across to students.unimelb → orientation → studies (subjects, timetable, results — all transacted in my.unimelb).
+
+**Where it breaks**
+
+- The apply step leaves the University estate entirely for vtac.edu.au; the prospective site does not own the application.
+- No compare tool at the decision point — three shortlisted courses = three 7-tab micro-sites open by hand.
+- Course detail (subjects/structure) requires a platform-switch to the Handbook mid-decision.
+- The offer→enrol crossover rides the thin study.unimelb→students.unimelb seam (373 contextual links estate-wide); domestic VTAC undergrads are the only cohort that get a genuine guided 'you got in, here's next'.
+- Everything decisive (enrol, pay, results) is in my.unimelb behind login — the public estate only describes it.
+
+**Systems traversed.** ~6: study.unimelb → vtac.edu.au (external) → my.unimelb (auth) → students.unimelb → handbook.unimelb → faculty site.
+
+**The fix.** Build the offer→enrol bridge for all students (not just VTAC UG); add a compare tool; pull Handbook course-structure into the study.unimelb course view.
+
+### International postgraduate (coursework)  `[HIGH]` · persona
+**The highest-consequence journey and the most tangled — the visa/CoE/OSHC compliance chain is forked across three live trees and the highest-risk pages link to zero action forms.**
+
+**The journey.** Discovers a course → applies via the walled eStudent eApplications portal → offer → pays a tuition deposit → conditional then full CoE → applies for a student visa → arranges OSHC → arrives → enrols → must maintain study-load to stay visa-compliant → seeks support → graduates → (alumni, nav-only).
+
+**Where it breaks**
+
+- The application is a walled portal (eStudent / TechnologyOne) the prospect cannot evaluate from the catalogue.
+- The CoE/visa/OSHC compliance chain exists as THREE live trees on students.unimelb — canonical /support-and-wellbeing, deprecated /student-support, AND a publicly-indexed /sandbox/2026-uplifts draft — and 11 faculties link the deprecated tree.
+- OSHC is authored under 4 different path variants on the hub.
+- The two highest-immigration-risk pages ('manage enrolment changes that affect your visa', 'reduced study load') link to ZERO transactional forms — a find→act break with immigration consequences.
+- Same thin apply→enrol handoff (373), then the graduate→alumni end is nav-only (~97 contextual links, 0 from completion pages).
+
+**Systems traversed.** ~8: study.unimelb → eStudent portal (auth) → my.unimelb → students.unimelb (3 visa trees) → services.unimelb → forms.your → faculty → www.unimelb/alumni.
+
+**The fix.** Designate ONE canonical visa/compliance tree, 301 the deprecated + delete the sandbox draft, repoint the 11 faculties, and wire the highest-risk pages directly to the action forms. Treat first — the cost of error is visa cancellation.
+
+### HDR / research candidate  `[HIGH]` · persona
+**The candidature lifecycle is real but scattered: its system of record sits off the crawled estate while ~8 faculties re-host the same content — including byte-identical clones.**
+
+**The journey.** Discovers a research degree on study.unimelb (only ~6 prospective research-degree pages) → applies via gradresearch/faculty → candidature → milestones → supervision → thesis → examination → completion → research alumni (1 page).
+
+**Where it breaks**
+
+- The canonical owner gradresearch.unimelb ('Graduate Research Hub') sits OUTSIDE the crawled student estate — the journey's spine is off to the side.
+- Education and MDHS re-host the candidature lifecycle BYTE-IDENTICAL (Jaccard 1.0); ~8 faculty CMSes each carry their own copy under different URL trees.
+- The research paradox: the faculties with the largest research estates (MDHS 63 research pages) carry the LEAST HDR-student support (1 page) — the strongest research identity, the weakest research-student journey.
+- The prospective PhD funnel is near-absent (6 pages) and research-alumni is 1 page — the journey is broken at both ends.
+- Career support for graduate researchers is a stub linking out.
+
+**Systems traversed.** ~6: study.unimelb → gradresearch.unimelb (off-estate) → faculty CMSes (×8) → students.unimelb → my.unimelb.
+
+**The fix.** Make gradresearch.unimelb the single system of record; 301 the byte-identical faculty clones to it; connect the prospective-PhD and research-alumni ends to close the research lifecycle.
+
+### Equity / low-SES / Indigenous student  `[HIGH]` · persona
+**The highest-equity-stakes journey: the cohorts least able to absorb fragmentation hit the most of it — a forked disability-registration wizard and an Indigenous service with zero presence on the hub.**
+
+**The journey.** Enters via Access Melbourne / special-entry (study.unimelb) → enrols → registers with Student Equity & Disability Services (SEDS) → seeks Indigenous support (Murrup Barak) → seeks financial support → studies.
+
+**Where it breaks**
+
+- SEDS is forked across THREE parallel URL trees on the hub and the 4-step registration wizard (prepare→register→create-plan→action-plan) exists on only ONE of them — yet 12 external domains link disabled students to the two hubs that LACK the wizard.
+- Indigenous students have ZERO Indigenous-specific pages on students.unimelb; Murrup Barak lives on a separate uncrawled domain and support is scattered across 4 destinations (murrupbarak, indigenousknowledge, Wilin Centre, indigenousscholarships.com.au) with a www-twin and inconsistent anchors.
+- Financial-hardship support is ~5 pages — thin for the cohort most likely to need it.
+- Every support action ultimately sits behind a my.unimelb / form wall.
+
+**Systems traversed.** ~7: study.unimelb → students.unimelb (3 SEDS trees) → murrupbarak (off-estate) → indigenousknowledge → scholarships.unimelb → services.unimelb → forms.your.
+
+**The fix.** Collapse SEDS to one canonical tree carrying the wizard (301 the rest), repoint the 12 external links, give Indigenous students a genuine hub presence, and thicken hardship support — prioritise because the equity cost is highest.
+
+### Online / professional / micro-credential learner  `[MEDIUM]` · persona
+**The non-traditional learner falls between the two estates — courted by prospective marketing but with no clear current-student home once enrolled.**
+
+**The journey.** Discovers short courses / microcredentials (110) / professional development (37) / single-subject study (5) on study.unimelb/study-with-us → enrols → studies online (Canvas, behind login) → earns a credential.
+
+**Where it breaks**
+
+- No clear 'current student' home for non-award learners: study-with-us markets them, but students.unimelb is built around award-course students — the learner is orphaned between estates after enrolling.
+- Single-subject study is 5 pages; the micro-credential pathway is thin and prospective-only.
+- The actual learning happens in Canvas/LMS behind login; the public estate has almost no current-experience layer for this cohort.
+- No connection from the micro-credential to a pathway INTO an award course (the upsell the funnel should want).
+
+**Systems traversed.** ~5: study.unimelb/study-with-us → enrol → Canvas/LMS (auth) → students.unimelb (no clear home) → credential.
+
+**The fix.** Give non-award and online learners a defined current-learner home and a clear micro-credential→award pathway; bridge study-with-us to a current-experience layer instead of dropping them after enrolment.
+
+### At-risk / struggling student  `[HIGH]` · persona
+**At the moment a student most needs the estate to work, it fragments hardest — support scattered across parallel hub trees and off-brand hosts, with every action behind a wall.**
+
+**The journey.** Is failing / flagged at-risk → checks academic progress (unsatisfactory progress) → applies for special consideration → hits a wellbeing crisis → looks for financial hardship help → considers leave of absence / withdrawal → re-enrols or exits.
+
+**Where it breaks**
+
+- Support is split across the hub's parallel trees (/support-and-wellbeing vs legacy /student-support) — a panicking student hits two competing versions of the same help.
+- Counselling/health DELIVERY is on services.unimelb, a shared host branded 'Academic Skills Unit' (614×) far more than 'Counselling' (39×) — the wellbeing link lands on an off-brand page.
+- Special consideration + academic-progress content is scattered across trees and faculties; the application action sits behind specialconsideration.app / my.unimelb.
+- Withdrawing touches the census-date consequence — and the census-dates page canonicalises to /page-not-found.
+- Financial hardship is ~5 pages; the request funnels into one opaque form (SID params).
+- Across this single help-seeking episode the student crosses 5-6 hosts, several off-brand or behind login.
+
+**Systems traversed.** ~6: students.unimelb (2-3 trees) → services.unimelb → specialconsideration.app → my.unimelb → safercommunity.unimelb → forms.your.
+
+**The fix.** Build one 'I need help now' front door that collapses the parallel trees, names the delivery services consistently, and surfaces the actions (special con, leave, hardship) directly — the journey where consolidation matters most.
+
+## Moments that matter
+
+
+### Census date & withdrawal deadline  `[HIGH]` · moment
+**The single highest financial-stakes moment, and the metadata on its most important page is broken.**
+
+**The journey.** A student weighing whether to drop a subject needs to know the census date, the fee/academic consequence of withdrawing before vs after it, and how to act — fast.
+
+**Where it breaks**
+
+- The census-dates page carries canonical=/page-not-found — the authoritative date page tells search engines it doesn't exist.
+- Fee/census content is split across three parallel hub trees (/course-admin, /your-course, /admin/fees) and reverse-funnelled to the prospective site (363 fee pages on study.unimelb vs ~17 on the hub).
+- The action — withdraw before census — happens in my.unimelb behind login.
+- Get it wrong and the student pays a full subject's fees and/or takes an academic fail.
+
+**Systems traversed.** ~4: students.unimelb (3 fee trees) → study.unimelb (reverse-funnel) → my.unimelb → ask.unimelb FAQ.
+
+**The fix.** Fix the canonical, collapse the fee trees to one enrolled-student home, and put the census date + consequence + the withdraw action on one page.
+
+### Special consideration & failing a subject  `[HIGH]` · moment
+**The extension/appeal moment under stress is spread across the hub's competing trees and the faculties, with the action behind a form wall.**
+
+**The journey.** A student who is unwell or failing needs to apply for special consideration / a deferred exam / a remark, or respond to an unsatisfactory-progress flag — quickly and under pressure.
+
+**Where it breaks**
+
+- Special consideration and academic-progress content is scattered across the parallel hub trees and re-stated by faculties — no single authoritative path.
+- The application action sits behind specialconsideration.app / my.unimelb — the public page describes it but doesn't transact it.
+- Unsatisfactory-progress (the show-cause moment) is a high-anxiety legal-ish process with fragmented guidance.
+- A stressed student must navigate the estate's fragmentation precisely when least able to.
+
+**Systems traversed.** ~5: students.unimelb (multiple trees) → faculty → specialconsideration.app → my.unimelb → exams pages.
+
+**The fix.** One canonical special-consideration + academic-progress path with the application action surfaced directly, consistent across faculties.
+
+### Financial hardship & emergency support  `[HIGH]` · moment
+**A student in genuine crisis meets one of the thinnest, hardest-to-find corners of the estate.**
+
+**The journey.** A student who cannot pay rent / fees / eat looks for emergency grants, fee remission, hardship bursaries, emergency accommodation or food relief.
+
+**Where it breaks**
+
+- Hardship is ~5 pages and 'bursary' ~2 — minimal coverage for a high-consequence need.
+- Emergency support is scattered across wellbeing, scholarships, and student-financial-aid (on the off-brand services.unimelb host).
+- The request funnels into a single forms.your form with opaque SID query parameters.
+- No prominent, panic-findable 'I'm in financial crisis' entry — the student in crisis is the least able to hunt.
+
+**Systems traversed.** ~5: students.unimelb → services.unimelb (financial aid) → scholarships.unimelb → forms.your → emergency providers.
+
+**The fix.** Create a single, prominent emergency/hardship front door that aggregates grants, remission, accommodation and food relief, with the request form one click away.
+
+### Visa breach / enrolment-load compliance  `[HIGH]` · moment
+**The moment a study-load change risks a student's visa, the estate offers forked guidance and no path to act.**
+
+**The journey.** An international student whose reduced study load or enrolment change could breach their visa condition needs to understand the rule and act before it's too late.
+
+**Where it breaks**
+
+- The CoE / visa-condition / reduced-study-load chain is forked across three live trees (canonical, deprecated, sandbox draft).
+- 11 faculties link the deprecated tree — so a student arriving from their faculty lands on the wrong guidance.
+- The highest-immigration-risk pages link to ZERO transactional forms — the student is told they may breach their visa with no in-page way to act.
+- The consequence is immigration enforcement, not inconvenience.
+
+**Systems traversed.** ~5: faculty → students.unimelb (3 visa trees) → my.unimelb → forms.your / *.app → external (immigration).
+
+**The fix.** Consolidate to one canonical compliance tree, repoint the 11 faculties, and wire the risk pages to the enrolment-variation / study-load action forms.
+
+
+---
+
+*Composed from `analysis/prospective-experience-profiles.json`, `analysis/student-services-profiles.json`, `analysis/improvements-register.md`, and the contextual link graph in `analysis/full-scrape/`. The authenticated core (my.unimelb, Canvas, eStudent, *.app forms) and off-estate sites (gradresearch, studentit, Murrup Barak) are uncrawled — claims about them are inferred from outbound links.*
