@@ -143,6 +143,22 @@ section.navy .bar-row .v{color:var(--cyan)}
 .modal .block p{font-size:16px;line-height:1.6;color:var(--ink);margin:0}
 .modal .block.ev p{font-family:var(--font-m);font-size:14px;line-height:1.6;color:var(--ink-2);background:var(--bg-subtle);padding:16px 18px;border-left:3px solid var(--border-2)}
 
+.svc-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:30px}
+@media(max-width:880px){.svc-grid{grid-template-columns:1fr}}
+.svc-card{background:#fff;border:1px solid var(--border);border-left:4px solid var(--cyan);padding:18px 20px;cursor:pointer;transition:box-shadow .15s,transform .15s}
+.svc-card:hover{box-shadow:0 6px 20px rgba(0,15,70,.12);transform:translateY(-2px)}
+.svc-card .top{display:flex;align-items:center;gap:10px;margin-bottom:8px}
+.svc-card .nm{font-weight:600;color:var(--navy);font-size:17px;line-height:1.25}
+.svc-card .st{font-family:var(--font-m);font-size:12px;color:var(--ink-3);margin-top:6px}
+.svc-card .hl{color:var(--ink-2);font-size:14px;margin-top:8px;line-height:1.4}
+.svc-card .more{font-family:var(--font-m);font-size:12px;color:var(--cyan-d);margin-top:10px}
+.modal table{width:100%;border-collapse:collapse;margin-top:4px;font-size:14px}
+.modal th,.modal td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--border);vertical-align:top;line-height:1.45}
+.modal th{font-family:var(--font-m);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-3)}
+.modal td.w{font-family:var(--font-m);font-size:12.5px;color:var(--navy);white-space:nowrap}
+.modal ul.bl{margin:6px 0 0;padding-left:20px}
+.modal ul.bl li{font-size:15px;line-height:1.5;color:var(--ink-2);margin:9px 0}
+.modal .lead-hl{font-size:18px;line-height:1.5;color:var(--ink);font-style:italic;margin:0 0 6px}
 .callout{background:var(--bg-subtle);border:1px solid var(--border);border-left:4px solid var(--amber);padding:30px 34px}
 .callout h3{font-size:22px}
 .callout ol{margin:18px 0 0;padding-left:22px}
@@ -167,7 +183,7 @@ footer .src{font-family:var(--font-m);font-size:12px;color:#6b7099;margin-top:22
     <img src="assets/UoM_Logo_Horiz_onDark.svg" alt="University of Melbourne">
     <nav>
       <a href="#summary">Summary</a><a href="#method">Method</a><a href="#estate">The estate</a>
-      <a href="#findings">Findings</a><a href="#register">Improvements</a><a href="#scope">Confidence</a>
+      <a href="#findings">Findings</a><a href="#services">Services</a><a href="#register">Improvements</a><a href="#scope">Confidence</a>
     </nav>
   </div>
 </header>
@@ -277,7 +293,35 @@ footer .src{font-family:var(--font-m);font-size:12px;color:#6b7099;margin-top:22
   </div>
 </section>
 
-<section id="register" class="alt">
+<section id="services" class="alt">
+  <div class="wrap">
+    <div class="sec-head"><div class="eyebrow">Service fragmentation</div><h2>How each service scatters across the estate</h2>
+      <p>Traced service by service, the fragmentation has a consistent shape: the central hub is usually the right owner and is reached — but the service shatters downstream into parallel hub trees, off-brand delivery hosts, behind-login actions and faculty clones. Six structural faults, expressed across fourteen services. Select any service for its full profile.</p></div>
+
+    <div class="cols2" style="gap:48px">
+      <div>
+        <div class="eyebrow" style="margin-bottom:16px">The six recurring patterns</div>
+        <ol style="margin:0;padding-left:20px;color:var(--ink-2);font-size:15.5px;line-height:1.5">
+          <li style="margin:10px 0"><b style="color:var(--navy)">The hub duplicates itself</b> — services served under two or three live URL trees mid-migration.</li>
+          <li style="margin:10px 0"><b style="color:var(--navy)">The canonical owner is unreached or absent</b> — scholarships, IT and HDR sit off-estate; placements has no central owner at all.</li>
+          <li style="margin:10px 0"><b style="color:var(--navy)">The action lives behind login</b> — the public estate only describes what my.unimelb / Canvas actually do.</li>
+          <li style="margin:10px 0"><b style="color:var(--navy)">Delivery sits on an off-brand host</b> — counselling lands on a page branded "Academic Skills Unit".</li>
+          <li style="margin:10px 0"><b style="color:var(--navy)">The reverse-funnel</b> — prospective <span class="mono">study.unimelb</span> owns the fees and careers content enrolled students need.</li>
+          <li style="margin:10px 0"><b style="color:var(--navy)">Faculty re-invention</b> — byte-identical clones of central content re-hosted across faculties.</li>
+        </ol>
+      </div>
+      <div>
+        <div class="eyebrow" style="margin-bottom:16px">Spread across domains</div>
+        <div id="svc-chart" class="chart"></div>
+        <p style="font-family:var(--font-m);font-size:12px;color:var(--ink-3);margin-top:14px">Distinct hosts carrying each service (the fragmentation signal). Raw counts include keyword look-alikes — each profile states its filtered true footprint.</p>
+      </div>
+    </div>
+
+    <div id="svc-grid" class="svc-grid"></div>
+  </div>
+</section>
+
+<section id="register">
   <div class="wrap">
     <div class="sec-head"><div class="eyebrow">The register</div><h2>Seventy-four improvements, split by who acts</h2>
       <p>Every improvement is evidence-grounded and tagged by impact and effort. They divide into two tracks — experience fixes for content, IA and service teams, and technical fixes for the platform and engineering teams. Select any card for the full detail and recommended action.</p></div>
@@ -365,6 +409,7 @@ footer .src{font-family:var(--font-m);font-size:12px;color:#6b7099;margin-top:22
 </div>
 
 <script src="improvements.js"></script>
+<script src="services.js"></script>
 <script>
 const SEV={high:'High priority',medium:'Medium priority',low:'Low priority'};
 const THEME_ORDER={
@@ -416,6 +461,41 @@ function closeModal(){document.getElementById('modal').hidden=true;document.body
 document.addEventListener('keydown',e=>{if(e.key==='Escape')closeModal()});
 renderTrack('experience','reg-experience');
 renderTrack('technical','reg-technical');
+
+// ── student services ──
+const SVC=window.SERVICES||[];
+function svcStat(s){return s.domains+' domains · '+s.trees+' URL trees'}
+function svcName(s){return s.service.replace(/\s*\(.*\)/,'')}
+function renderServices(){
+  const maxd=Math.max.apply(null,SVC.map(s=>s.domains).concat([1]));
+  document.getElementById('svc-chart').innerHTML=SVC.map((s,i)=>
+    '<div class="bar-row"><div class="k" style="cursor:pointer" onclick="openSvc('+i+')">'+esc(svcName(s).split('&')[0].split(',')[0].trim())+
+    '</div><div class="track"><div class="fill" style="width:'+Math.round(100*s.domains/maxd)+'%"></div></div><div class="v">'+s.domains+'</div></div>').join('');
+  document.getElementById('svc-grid').innerHTML=SVC.map((s,i)=>
+    '<div class="svc-card" onclick="openSvc('+i+')"><div class="top"><span class="pill '+(s.severity==='high'?'high':s.severity==='medium'?'med':'low')+'">'+s.severity+
+    '</span><span class="eff">'+esc(svcStat(s))+'</span></div><div class="nm">'+esc(svcName(s))+'</div><div class="hl">'+
+    esc(s.headline.length>148?s.headline.slice(0,146)+'…':s.headline)+'</div><div class="more">View profile →</div></div>').join('');
+}
+function openSvc(i){
+  const s=SVC[i]; if(!s)return;
+  const panel=document.getElementById('modalPanel'); panel.className='modal-panel';
+  const loc=(s.locations||[]).map(l=>'<tr><td class="w">'+esc(l.where)+'</td><td><b>'+esc(l.role)+'</b><br>'+esc(l.note)+'</td></tr>').join('');
+  const seams=(s.seams||[]).map(x=>'<li>'+esc(x)+'</li>').join('');
+  const dup=(s.duplication||[]).map(x=>'<li>'+esc(x)+'</li>').join('');
+  document.getElementById('modalContent').innerHTML=
+    '<div class="modal-meta"><span class="modal-track">Service fragmentation</span><span class="pill '+
+    (s.severity==='high'?'high':s.severity==='medium'?'med':'low')+'">'+esc(SEV[s.severity])+'</span>'+
+    '<span class="eff">'+esc(svcStat(s))+' · central hub '+s.central+'</span></div>'+
+    '<h2 class="mt">'+esc(svcName(s))+'</h2><p class="lead-hl">'+esc(s.headline)+'</p>'+
+    '<div class="block"><div class="lab">True footprint</div><p>'+esc(s.true_pages)+'</p></div>'+
+    '<div class="block"><div class="lab">Canonical owner</div><p>'+esc(s.canonical)+'</p></div>'+
+    (loc?'<div class="block"><div class="lab">Where it lives</div><table><tr><th>Location</th><th>Role &amp; note</th></tr>'+loc+'</table></div>':'')+
+    (seams?'<div class="block"><div class="lab">The seams a student hits</div><ul class="bl">'+seams+'</ul></div>':'')+
+    (dup?'<div class="block"><div class="lab">Duplication</div><ul class="bl">'+dup+'</ul></div>':'')+
+    '<div class="block ev"><div class="lab">Consolidation action</div><p>'+esc(s.recommendation)+'</p></div>';
+  document.getElementById('modal').hidden=false; document.body.classList.add('locked'); panel.scrollTop=0;
+}
+renderServices();
 </script>
 </body>
 </html>
