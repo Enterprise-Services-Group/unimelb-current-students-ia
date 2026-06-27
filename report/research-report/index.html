@@ -165,6 +165,14 @@ section.navy .bar-row .v{color:var(--cyan)}
 .cstage .cs-ct{font-family:var(--font-m);font-size:13px;color:var(--cyan);margin-top:9px}
 .cstage .cs-nt{font-size:12px;color:#9aa0c4;margin-top:9px;line-height:1.4}
 @media(max-width:880px){.cspine{grid-template-columns:1fr 1fr}}
+.toolgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:8px}
+.tool{background:#fff;border:1px solid var(--border);border-top:3px solid var(--cyan);padding:16px}
+.tool.wall{border-top-color:var(--amber)}
+.tool .tn{font-weight:600;color:var(--navy);font-size:15px}
+.tool .tr{font-size:13px;color:var(--ink-2);margin-top:7px;line-height:1.4}
+.tool .tc{font-family:var(--font-m);font-size:12px;color:var(--cyan-d);margin-top:9px}
+.tool.wall .tc{color:var(--amber)}
+@media(max-width:880px){.toolgrid{grid-template-columns:1fr 1fr}}
 .modal table{width:100%;border-collapse:collapse;margin-top:4px;font-size:14px}
 .modal th,.modal td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--border);vertical-align:top;line-height:1.45}
 .modal th{font-family:var(--font-m);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-3)}
@@ -196,7 +204,7 @@ footer .src{font-family:var(--font-m);font-size:12px;color:#6b7099;margin-top:22
     <img src="assets/UoM_Logo_Horiz_onDark.svg" alt="University of Melbourne">
     <nav>
       <a href="#summary">Summary</a><a href="#method">Method</a><a href="#estate">The estate</a>
-      <a href="#findings">Findings</a><a href="#services">Services</a><a href="#careers">Careers</a><a href="#prospective">Prospective</a><a href="#register">Improvements</a><a href="#lifecycle">Lifecycle</a><a href="#scope">Confidence</a>
+      <a href="#findings">Findings</a><a href="#services">Services</a><a href="#careers">Careers</a><a href="#enrolment">Enrolment</a><a href="#prospective">Prospective</a><a href="#register">Improvements</a><a href="#lifecycle">Lifecycle</a><a href="#scope">Confidence</a>
     </nav>
   </div>
 </header>
@@ -345,6 +353,20 @@ footer .src{font-family:var(--font-m);font-size:12px;color:#6b7099;margin-top:22
 
     <div class="eyebrow" style="color:var(--cyan);margin:46px 0 16px">The findings</div>
     <div id="careers-grid" class="svc-grid"></div>
+  </div>
+</section>
+
+<section id="enrolment" class="alt">
+  <div class="wrap">
+    <div class="sec-head"><div class="eyebrow">Super-research deep-dive · the operational core</div><h2>Course planning &amp; enrolment</h2>
+      <p>Everything else is downstream of this: if a student can't plan their course and enrol, nothing else matters. It is also the most fragmented single task in the estate — 343 of the hub's 833 pages (41%), assembled by the student across up to seven systems, under deadline, often for the first time.</p></div>
+
+    <div class="eyebrow" style="margin-bottom:18px">One task, seven systems — the toolchain a student must traverse</div>
+    <div id="toolgrid" class="toolgrid"></div>
+    <p style="font-family:var(--font-m);font-size:12px;color:var(--ink-3);margin-top:14px">🔒 = behind login or a separate platform. The student does the integration the estate does not.</p>
+
+    <div class="eyebrow" style="margin:46px 0 16px">The findings</div>
+    <div id="enrol-grid" class="svc-grid"></div>
   </div>
 </section>
 
@@ -503,6 +525,7 @@ footer .src{font-family:var(--font-m);font-size:12px;color:#6b7099;margin-top:22
 <script src="prospective.js"></script>
 <script src="lifecycle.js"></script>
 <script src="careers.js"></script>
+<script src="enrolment.js"></script>
 <script>
 const SEV={high:'High priority',medium:'Medium priority',low:'Low priority'};
 const THEME_ORDER={
@@ -661,6 +684,27 @@ function openCareers(i){
   document.getElementById('modal').hidden=false; document.body.classList.add('locked'); panel.scrollTop=0;
 }
 renderCareers();
+
+// ── course planning & enrolment ──
+const ENR=window.ENROLMENT||{toolchain:[],findings:[]};
+function renderEnrol(){
+  document.getElementById('toolgrid').innerHTML=(ENR.toolchain||[]).map(t=>
+    '<div class="tool'+(t.wall?' wall':'')+'"><div class="tn">'+esc(t.system)+(t.wall?' 🔒':'')+'</div><div class="tr">'+esc(t.role)+'</div><div class="tc">'+esc(t.count)+'</div></div>').join('');
+  document.getElementById('enrol-grid').innerHTML=(ENR.findings||[]).map((f,i)=>
+    '<div class="svc-card" onclick="openEnrol('+i+')"><div class="top"><span class="pill '+(f.severity==='high'?'high':'med')+'">'+f.severity+'</span></div>'+
+    '<div class="nm">'+esc(f.title)+'</div><div class="more">View detail →</div></div>').join('');
+}
+function openEnrol(i){
+  const f=(ENR.findings||[])[i]; if(!f)return;
+  const panel=document.getElementById('modalPanel'); panel.className='modal-panel';
+  document.getElementById('modalContent').innerHTML=
+    '<div class="modal-meta"><span class="modal-track">Course planning &amp; enrolment</span><span class="pill '+(f.severity==='high'?'high':'med')+'">'+esc(SEV[f.severity])+'</span></div>'+
+    '<h2 class="mt">'+esc(f.title)+'</h2>'+
+    '<div class="block ev"><div class="lab">Evidence</div><p>'+esc(f.evidence)+'</p></div>'+
+    '<div class="block"><div class="lab">Recommendation</div><p>'+esc(f.recommendation)+'</p></div>';
+  document.getElementById('modal').hidden=false; document.body.classList.add('locked'); panel.scrollTop=0;
+}
+renderEnrol();
 </script>
 </body>
 </html>
