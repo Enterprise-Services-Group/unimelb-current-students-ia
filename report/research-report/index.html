@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Current Students Web Estate — Research Report · University of Melbourne</title>
+<style>
+/* ── UoM brand fonts (local) ─────────────────────────────── */
+@font-face{font-family:'Fraunces';src:url('fonts/Fraunces-VariableFont_SOFT_WONK_opsz_wght.ttf') format('truetype');font-weight:100 900;font-style:normal;font-display:swap}
+@font-face{font-family:'Fraunces';src:url('fonts/Fraunces-Italic-VariableFont_SOFT_WONK_opsz_wght.ttf') format('truetype');font-weight:100 900;font-style:italic;font-display:swap}
+@font-face{font-family:'Source Sans 3';src:url('fonts/SourceSans3-VariableFont_wght.ttf') format('truetype');font-weight:200 900;font-style:normal;font-display:swap}
+@font-face{font-family:'Source Code Pro';src:url('fonts/SourceCodePro-VariableFont_wght.ttf') format('truetype');font-weight:200 900;font-style:normal;font-display:swap}
+
+:root{
+  --navy:#000F46; --navy-dark:#000B34; --cyan:#46C8F0; --cyan-d:#2F95B7;
+  --blue-700:#0F5A77; --blue-100:#E3F6FD;
+  --ink:#222222; --ink-2:#535353; --ink-3:#707070;
+  --bg:#FFFFFF; --bg-2:#F4F4F4; --bg-subtle:#F3F3F6;
+  --border:#DDDDE7; --border-2:#E0E0E0;
+  --red:#DB1927; --amber:#AC5907; --green:#60751F;
+  --brand-200:#DDDDE7; --brand-500:#8389A5; --brand-800:#333F6A;
+  --font-d:'Fraunces',Georgia,serif; --font-b:'Source Sans 3',system-ui,sans-serif; --font-m:'Source Code Pro',monospace;
+  --wrap:1120px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--font-b);font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased}
+.wrap{max-width:var(--wrap);margin:0 auto;padding:0 40px}
+a{color:var(--text-link,#004EAD)}
+h1,h2,h3{font-family:var(--font-d);color:var(--navy);letter-spacing:-0.007em;line-height:1.1;margin:0}
+h2{font-size:40px;font-weight:600}
+h3{font-size:26px;font-weight:600}
+.eyebrow{font-family:var(--font-m);font-size:13px;font-weight:600;letter-spacing:0.16em;text-transform:uppercase;color:var(--cyan-d)}
+.mono{font-family:var(--font-m)}
+
+/* ── top nav ─────────────────────────────── */
+.topnav{position:sticky;top:0;z-index:50;background:var(--navy);border-bottom:1px solid rgba(255,255,255,.1)}
+.topnav .wrap{display:flex;align-items:center;justify-content:space-between;height:64px}
+.topnav img{height:30px}
+.topnav nav{display:flex;gap:28px}
+.topnav nav a{color:#C9CDE6;text-decoration:none;font-size:14px;font-weight:600;letter-spacing:.01em;transition:color .2s}
+.topnav nav a:hover{color:var(--cyan)}
+@media(max-width:880px){.topnav nav{display:none}}
+
+/* ── hero ─────────────────────────────── */
+.hero{background:var(--navy);color:#fff;padding:88px 0 0}
+.hero .eyebrow{color:var(--cyan)}
+.hero h1{font-family:var(--font-d);font-weight:700;font-size:60px;line-height:1.02;letter-spacing:-0.012em;color:#fff;margin:18px 0 0;max-width:16em}
+.hero .lede{font-size:21px;line-height:1.5;color:#C9CDE6;max-width:34em;margin:24px 0 0}
+.hero .meta{margin:28px 0 0;font-family:var(--font-m);font-size:13px;color:#8389A5;letter-spacing:.02em}
+.hero .meta b{color:#C9CDE6;font-weight:400}
+.statstrip{display:grid;grid-template-columns:repeat(6,1fr);gap:0;margin-top:56px;border-top:1px solid rgba(255,255,255,.14)}
+.statstrip .s{padding:26px 20px 30px;border-right:1px solid rgba(255,255,255,.10)}
+.statstrip .s:last-child{border-right:none}
+.statstrip .n{font-family:var(--font-d);font-weight:600;font-size:38px;color:var(--cyan);line-height:1}
+.statstrip .l{font-size:13px;color:#9aa0c4;margin-top:8px;line-height:1.3}
+@media(max-width:880px){.statstrip{grid-template-columns:repeat(2,1fr)}.statstrip .s{border-bottom:1px solid rgba(255,255,255,.10)}.hero h1{font-size:40px}}
+
+/* ── sections ─────────────────────────────── */
+section{padding:80px 0}
+section.alt{background:var(--bg-2)}
+section.navy{background:var(--navy);color:#fff}
+section.navy h2{color:#fff}
+.sec-head{max-width:46em;margin-bottom:44px}
+.sec-head h2{margin-top:10px}
+.sec-head p{font-size:19px;color:var(--ink-2);margin:16px 0 0}
+section.navy .sec-head p{color:#C9CDE6}
+
+.lead p{font-size:20px;line-height:1.6}
+.cols2{display:grid;grid-template-columns:1fr 1fr;gap:48px}
+@media(max-width:880px){.cols2{grid-template-columns:1fr;gap:28px}}
+
+/* ── metric cards ─────────────────────────────── */
+.metrics{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.metric{background:#fff;border:1px solid var(--border);border-top:3px solid var(--cyan);padding:28px 26px}
+.metric .n{font-family:var(--font-d);font-weight:700;font-size:48px;color:var(--navy);line-height:1}
+.metric .l{font-size:15px;color:var(--ink-2);margin-top:10px;line-height:1.4}
+@media(max-width:880px){.metrics{grid-template-columns:1fr 1fr}}
+
+/* ── finding cards ─────────────────────────────── */
+.findings{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:8px}
+.finding{background:#fff;border:1px solid var(--border);border-left:4px solid var(--cyan);padding:26px 28px}
+.finding.corr{border-left-color:var(--red)}
+.finding .tag{font-family:var(--font-m);font-size:11px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--cyan-d)}
+.finding.corr .tag{color:var(--red)}
+.finding h3{font-size:21px;margin:10px 0 0;line-height:1.2}
+.finding p{font-size:16px;color:var(--ink-2);margin:12px 0 0}
+.finding .ev{font-family:var(--font-m);font-size:13px;color:var(--navy);margin-top:14px;padding-top:12px;border-top:1px solid var(--border-2);line-height:1.5}
+@media(max-width:880px){.findings{grid-template-columns:1fr}}
+
+/* ── charts ─────────────────────────────── */
+.chart{margin-top:8px}
+.bar-row{display:grid;grid-template-columns:200px 1fr 64px;align-items:center;gap:14px;margin:9px 0}
+.bar-row .k{font-family:var(--font-m);font-size:13px;color:var(--ink-2);text-align:right;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.bar-row .track{background:var(--bg-subtle);height:22px;position:relative}
+.bar-row .fill{height:22px;background:var(--cyan)}
+.bar-row .fill.alt2{background:var(--blue-700)}
+.bar-row .v{font-family:var(--font-m);font-size:13px;color:var(--navy);font-weight:600}
+section.navy .bar-row .k{color:#9aa0c4}
+section.navy .bar-row .track{background:rgba(255,255,255,.08)}
+section.navy .bar-row .v{color:var(--cyan)}
+
+/* ── register table ─────────────────────────────── */
+.theme{margin-top:40px}
+.theme h3{display:flex;align-items:baseline;gap:14px}
+.theme h3 .cnt{font-family:var(--font-m);font-size:14px;font-weight:600;color:var(--cyan-d);letter-spacing:.04em}
+.theme p.sub{color:var(--ink-2);font-size:16px;margin:8px 0 18px}
+ul.items{list-style:none;margin:0;padding:0;border-top:1px solid var(--border)}
+ul.items li{padding:16px 0;border-bottom:1px solid var(--border);display:grid;grid-template-columns:auto 1fr;gap:16px;align-items:start}
+.pill{font-family:var(--font-m);font-size:11px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;padding:4px 9px;white-space:nowrap;color:#fff;align-self:start}
+.pill.high{background:var(--red)} .pill.med{background:var(--amber)} .pill.low{background:var(--brand-500)}
+ul.items li .t{font-weight:600;color:var(--navy);font-size:17px}
+ul.items li .t .eff{font-family:var(--font-m);font-weight:400;font-size:13px;color:var(--ink-3);text-transform:lowercase;letter-spacing:.02em}
+ul.items li .d{color:var(--ink-2);font-size:15px;margin-top:4px}
+
+/* ── callout / scope ─────────────────────────────── */
+.callout{background:var(--bg-subtle);border:1px solid var(--border);border-left:4px solid var(--amber);padding:30px 34px}
+.callout h3{font-size:22px}
+.callout ol{margin:18px 0 0;padding-left:22px}
+.callout li{margin:12px 0;color:var(--ink-2);font-size:16px}
+.callout li b{color:var(--navy)}
+
+/* quick-win strip */
+.qw{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:8px}
+.qw .c{background:var(--navy-dark);border:1px solid rgba(255,255,255,.12);padding:22px 24px}
+.qw .c .n{font-family:var(--font-m);font-size:12px;color:var(--cyan);letter-spacing:.08em}
+.qw .c .t{color:#fff;font-size:17px;font-weight:600;margin-top:10px;line-height:1.3}
+.qw .c .d{color:#9aa0c4;font-size:14px;margin-top:8px}
+@media(max-width:880px){.qw{grid-template-columns:1fr}}
+
+/* footer */
+footer{background:var(--navy-dark);color:#9aa0c4;padding:56px 0 40px}
+footer img{height:34px;margin-bottom:24px}
+footer .ack{font-size:13px;line-height:1.6;max-width:60em;font-style:italic;color:#8389A5}
+footer .src{font-family:var(--font-m);font-size:12px;color:#6b7099;margin-top:22px;line-height:1.7}
+
+.diagram{background:#fff;border:1px solid var(--border);padding:30px}
+.estate-note{font-family:var(--font-m);font-size:13px;color:var(--ink-3);margin-top:14px}
+</style>
+</head>
+<body>
+
+<header class="topnav">
+  <div class="wrap">
+    <img src="assets/UoM_Logo_Horiz_onDark.svg" alt="University of Melbourne">
+    <nav>
+      <a href="#summary">Summary</a>
+      <a href="#method">Method</a>
+      <a href="#estate">The estate</a>
+      <a href="#findings">Findings</a>
+      <a href="#register">Improvements</a>
+      <a href="#scope">Confidence</a>
+    </nav>
+  </div>
+</header>
+
+<!-- ── HERO ── -->
+<div class="hero">
+  <div class="wrap">
+    <div class="eyebrow">Digital experience · current students · research report</div>
+    <h1>The current-students web estate, seen through its link graph</h1>
+    <p class="lede">A full crawl of the University's public web estate — every page, every link — turned into a map of how students actually move between sites, and a register of what to fix.</p>
+    <div class="meta">June 2026 &nbsp;·&nbsp; <b>21,250 pages analysed across 20 domains</b> &nbsp;·&nbsp; evidence-grounded, multi-agent analysis</div>
+    <div class="statstrip">
+      <div class="s"><div class="n">21,250</div><div class="l">content pages analysed</div></div>
+      <div class="s"><div class="n">20</div><div class="l">public domains (+18 form microsites)</div></div>
+      <div class="s"><div class="n">261,652</div><div class="l">contextual links mapped</div></div>
+      <div class="s"><div class="n">75</div><div class="l">improvements identified</div></div>
+      <div class="s"><div class="n">37</div><div class="l">high priority</div></div>
+      <div class="s"><div class="n">9</div><div class="l">high-impact quick wins</div></div>
+    </div>
+  </div>
+</div>
+
+<!-- ── EXEC SUMMARY ── -->
+<section id="summary">
+  <div class="wrap">
+    <div class="sec-head"><div class="eyebrow">Executive summary</div><h2>One journey, twenty-plus systems</h2></div>
+    <div class="cols2 lead">
+      <div>
+        <p>The current-student journey is not served by a single estate but by <b>20+ public systems with no shared information architecture or vocabulary</b> — and the link graph shows the sprawl is deeper still: <b>415 distinct <span class="mono">*.unimelb.edu.au</span> hosts</b> appear in the contextual graph alone, plus ~18 single-purpose form microsites and an authenticated core (my.unimelb, Canvas) that sits behind login.</p>
+        <p>Across the faculty domains, current students are only a <b>4–7% tenant</b> of estates built for reputation, research and recruitment. No two faculties share a top-level taxonomy, and the two ends of the lifecycle are barely wired: after stripping navigation chrome, only <b>~97 contextual links</b> reach the alumni estate and only <b>~100</b> reach central Careers — the estate's weakest seams.</p>
+      </div>
+      <div>
+        <p>Meanwhile the canonical hub, <span class="mono">students.unimelb.edu.au</span> (833 pages, not the "74" previously assumed), is itself <b>mid-migration</b> — dual-serving ~120 leaf pages under two parallel URL trees — while its single biggest dependency, the Handbook, sits on a different platform at a visibly lower web standard.</p>
+        <p>The opportunity is therefore <b>overwhelmingly structural and governance-led, not visual</b>: a thin standardised student overlay on the platform the University already runs everywhere, a subdomain/forms registry to stop re-fragmentation, completion of the in-flight hub migration, and a set of template and redirect fixes that each clear thousands of links at once.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── METHOD ── -->
+<section id="method" class="alt">
+  <div class="wrap">
+    <div class="sec-head"><div class="eyebrow">Method</div><h2>From a 5&nbsp;GB crawl to a content-connection map</h2>
+      <p>The analysis is grounded in data, not impressions. Every reachable public page was crawled with its full HTML and outbound links, then reduced to the connections that carry meaning.</p></div>
+    <div class="metrics" style="grid-template-columns:repeat(4,1fr)">
+      <div class="metric"><div class="n">37k</div><div class="l">URLs crawled → <b>21,250</b> unique content pages with full HTML + link data</div></div>
+      <div class="metric"><div class="n">862k</div><div class="l">raw outbound links captured at path level (href, anchor text, host)</div></div>
+      <div class="metric"><div class="n">598</div><div class="l">global-nav / footer "chrome" link patterns detected and stripped</div></div>
+      <div class="metric"><div class="n">262k</div><div class="l">genuinely <b>contextual</b> links remaining — the real content connections</div></div>
+    </div>
+    <p style="margin-top:30px;color:var(--ink-2);max-width:52em;font-size:17px">The decisive step is <b>chrome-stripping</b>: a link that appears on more than 60% of a domain's pages is global navigation, not a content connection. Removing it is what separates "every page links to Alumni in the header" from "almost no page points a student to Alumni on purpose." Findings were then produced by two multi-agent workflows — <span class="mono">analyse → adversarially verify → synthesise → critique</span> — with every claim re-checked against the source data.</p>
+  </div>
+</section>
+
+<!-- ── THE ESTATE ── -->
+<section id="estate" class="navy">
+  <div class="wrap">
+    <div class="sec-head"><div class="eyebrow" style="color:var(--cyan)">The estate</div><h2>Where the student journey actually runs</h2>
+      <p>The deck told a four-site story. The link graph shows the real cross-site flows — and they route through systems the student never chose to visit.</p></div>
+    <div class="chart">
+      <div class="bar-row"><div class="k">msd → students</div><div class="track"><div class="fill" style="width:100%"></div></div><div class="v">8,069</div></div>
+      <div class="bar-row"><div class="k">study → handbook</div><div class="track"><div class="fill" style="width:54%"></div></div><div class="v">4,391</div></div>
+      <div class="bar-row"><div class="k">handbook → www</div><div class="track"><div class="fill" style="width:37%"></div></div><div class="v">2,964</div></div>
+      <div class="bar-row"><div class="k">arts → findanexpert</div><div class="track"><div class="fill alt2" style="width:35%"></div></div><div class="v">2,845</div></div>
+      <div class="bar-row"><div class="k">education → gradresearch</div><div class="track"><div class="fill alt2" style="width:24%"></div></div><div class="v">1,972</div></div>
+      <div class="bar-row"><div class="k">mdhs → gradresearch</div><div class="track"><div class="fill alt2" style="width:23%"></div></div><div class="v">1,882</div></div>
+      <div class="bar-row"><div class="k">study → forms.your</div><div class="track"><div class="fill alt2" style="width:18%"></div></div><div class="v">1,493</div></div>
+      <div class="bar-row"><div class="k">students → alumni</div><div class="track"><div class="fill" style="width:1.2%;background:var(--red)"></div></div><div class="v" style="color:#FF9FA6">~97</div></div>
+    </div>
+    <p class="estate-note" style="color:#8389A5">Contextual links (navigation chrome removed). The estate's gravity is the Handbook, the Graduate Research hub, the Find&nbsp;an&nbsp;Expert directory and the forms microsites — not a single student site. The graduate→alumni seam (red) is the weakest in the estate.</p>
+  </div>
+</section>
+
+<!-- ── KEY FINDINGS ── -->
+<section id="findings">
+  <div class="wrap">
+    <div class="sec-head"><div class="eyebrow">Key findings</div><h2>What the path-level data revealed</h2>
+      <p>Several headline claims changed once the analysis could see link <em>paths</em>, not just hostnames. Findings marked <span style="color:var(--red);font-weight:600">corrected</span> overturn or sharpen an earlier conclusion.</p></div>
+    <div class="findings">
+
+      <div class="finding corr"><div class="tag">Corrected</div><h3>The alumni handoff is nav-only, not "zero links"</h3>
+        <p>Faculty pages link <span class="mono">/alumni</span> on nearly every page — but that is global navigation. After stripping chrome, only ~97 <em>contextual</em> links reach the alumni estate, and graduation-day pages link Facebook and Instagram, not the alumni relationship.</p>
+        <div class="ev">~97 contextual links estate-wide · 0 from any graduation/completion page</div></div>
+
+      <div class="finding corr"><div class="tag">Corrected</div><h3>The "broken links" are mostly a <span class="mono">?a=</span> artifact</h3>
+        <p>Of 4,316 links that appeared to hit 404s, 3,359 point at <em>live</em> pages that only error when a stray <span class="mono">?a=</span> query string is appended (e.g. Medicine's "Our Departments", linked 1,143×). One template fix clears them; only ~414 pages are genuinely dead.</p>
+        <div class="ev">3,359 of 4,316 "broken" links are phantom · ~414 truly dead</div></div>
+
+      <div class="finding corr"><div class="tag">Corrected</div><h3>The hub is mid-migration and unstable</h3>
+        <p>The site faculties are told to standardise against dual-serves ~120 leaf pages under two parallel URL trees (<span class="mono">/your-course</span>+<span class="mono">/course-admin</span>, <span class="mono">/student-support</span>+<span class="mono">/support-and-wellbeing</span>). Standardisation can't start until this is resolved.</p>
+        <div class="ev">120 dual-served leaves · old Stop 1 path still linked 1,648×</div></div>
+
+      <div class="finding"><div class="tag">Risk</div><h3>8,069 deep-links aimed at paths being abandoned</h3>
+        <p>MSD alone sends 8,069 contextual links into the hub — 99% onto the <em>legacy</em> URL trees the migration is retiring. Without permanent redirects, finishing the migration breaks thousands of links at once.</p>
+        <div class="ev">8,069 links · ~99% on legacy paths · next faculty: 275</div></div>
+
+      <div class="finding"><div class="tag">Structure</div><h3>Current students are a 4–7% tenant</h3>
+        <p>Faculty domains are built for reputation, research and recruitment. The dominant section is research (MDHS 89%), schools, or news — never the student section. There is no common faculty IA to standardise <em>into</em>.</p>
+        <div class="ev">Students = 4–7% of each faculty estate · no shared top-level taxonomy</div></div>
+
+      <div class="finding"><div class="tag">Performance</div><h3>Pages are needlessly heavy on mobile</h3>
+        <p>Hero images base64-inlined into HTML produce 2–2.7&nbsp;MB pages; a Cookiebot icon duplicated ~1,925× inflates staff pages to 5&nbsp;MB; the student course template ships ~327&nbsp;KB before any external file loads.</p>
+        <div class="ev">study.unimelb median 304&nbsp;KB / max 1.1&nbsp;MB · viewport setup itself is fine</div></div>
+
+      <div class="finding"><div class="tag">High-stakes journey</div><h3>Fees are a reverse-funnel</h3>
+        <p>355 fee pages live on the prospective site versus 17 for enrolled students, so current students are bounced back to marketing for fee answers — and the census-dates page carries a <span class="mono">canonical=/page-not-found</span>.</p>
+        <div class="ev">355 fee pages on study.unimelb · 17 on students.unimelb</div></div>
+
+      <div class="finding"><div class="tag">High-stakes journey</div><h3>Visa compliance is forked across three trees</h3>
+        <p>The CoE / visa / OSHC chain exists as three live trees — including a <span class="mono">/sandbox/2026-uplifts</span> <em>draft</em> that is live and indexed — and 11 faculties link the deprecated one. The two highest-risk pages link to zero action forms.</p>
+        <div class="ev">3 live trees · 11 faculties link the wrong one · 0 action links</div></div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ── IMPROVEMENTS REGISTER ── -->
+<section id="register" class="alt">
+  <div class="wrap">
+    <div class="sec-head"><div class="eyebrow">The register</div><h2>Seventy-five improvements, prioritised</h2>
+      <p>Every improvement is evidence-grounded and tagged by impact and effort. The full register lists all 75; the highlights below are organised by theme.</p></div>
+
+    <!-- distribution charts -->
+    <div class="cols2" style="gap:56px;margin-bottom:8px">
+      <div>
+        <div class="eyebrow" style="margin-bottom:18px">By theme</div>
+        <div class="bar-row"><div class="k">Accessibility &amp; technical</div><div class="track"><div class="fill" style="width:100%"></div></div><div class="v">23</div></div>
+        <div class="bar-row"><div class="k">Content quality</div><div class="track"><div class="fill" style="width:91%"></div></div><div class="v">21</div></div>
+        <div class="bar-row"><div class="k">Governance &amp; standards</div><div class="track"><div class="fill" style="width:70%"></div></div><div class="v">16</div></div>
+        <div class="bar-row"><div class="k">UX &amp; information architecture</div><div class="track"><div class="fill" style="width:39%"></div></div><div class="v">9</div></div>
+        <div class="bar-row"><div class="k">Service &amp; lifecycle seams</div><div class="track"><div class="fill" style="width:26%"></div></div><div class="v">6</div></div>
+      </div>
+      <div>
+        <div class="eyebrow" style="margin-bottom:18px">By priority &amp; effort</div>
+        <div class="bar-row"><div class="k">High severity</div><div class="track"><div class="fill" style="width:100%;background:var(--red)"></div></div><div class="v">37</div></div>
+        <div class="bar-row"><div class="k">Medium severity</div><div class="track"><div class="fill" style="width:84%;background:var(--amber)"></div></div><div class="v">31</div></div>
+        <div class="bar-row"><div class="k">Low severity</div><div class="track"><div class="fill" style="width:19%;background:var(--brand-500)"></div></div><div class="v">7</div></div>
+        <div class="bar-row" style="margin-top:18px"><div class="k">Quick wins</div><div class="track"><div class="fill" style="width:65%"></div></div><div class="v">24</div></div>
+        <div class="bar-row"><div class="k">Medium effort</div><div class="track"><div class="fill" style="width:100%"></div></div><div class="v">42</div></div>
+        <div class="bar-row"><div class="k">Large</div><div class="track"><div class="fill" style="width:21%"></div></div><div class="v">9</div></div>
+      </div>
+    </div>
+
+    <!-- themed highlights -->
+    <div class="theme">
+      <h3>UX &amp; information architecture <span class="cnt">9 improvements</span></h3>
+      <ul class="items">
+        <li><span class="pill high">High</span><div><div class="t">Finish the stalled hub migration &amp; collapse the parallel URL trees <span class="eff">· medium</span></div><div class="d">301 the 120 dual-served leaves to one canonical root before asking faculties to link in. Acceptance test: 0 leaves under 2+ roots.</div></div></li>
+        <li><span class="pill high">High</span><div><div class="t">One URL convention for the student entry — top-level <span class="mono">/students</span> <span class="eff">· medium</span></div><div class="d">Five conventions exist at different depths; MDHS/medicine/biomed bury students inside the prospective <span class="mono">/study</span> funnel.</div></div></li>
+        <li><span class="pill med">Med</span><div><div class="t">Mandate a thin student overlay — there is no common faculty IA to standardise into <span class="eff">· large</span></div><div class="d">Don't unify parent taxonomies; expose one consistent student layer on the Squiz platform every faculty already runs.</div></div></li>
+      </ul>
+    </div>
+
+    <div class="theme">
+      <h3>Findability &amp; content connections <span class="cnt">flagship items</span></h3>
+      <ul class="items">
+        <li><span class="pill high">High</span><div><div class="t">Fix the <span class="mono">?a=</span> artifact manufacturing ~3,359 phantom 404s <span class="eff">· quick-win</span></div><div class="d">Remove the stray query token in the link template; clears thousands of "broken" links on live pages in one change.</div></div></li>
+        <li><span class="pill high">High</span><div><div class="t">Guarantee 301s for MSD's ~8,000 deep-links into legacy hub paths <span class="eff">· quick-win</span></div><div class="d">Maintain the links in one shared include so re-pointing is a single edit, not 1,550 pages.</div></div></li>
+        <li><span class="pill med">Med</span><div><div class="t">Give orphaned 2026 handbook subjects/courses browsable indexes <span class="eff">· medium</span></div><div class="d">266 current-year subject/course pages are reachable only via search and carry blank titles.</div></div></li>
+      </ul>
+    </div>
+
+    <div class="theme">
+      <h3>Service design &amp; lifecycle seams <span class="cnt">6 improvements</span></h3>
+      <ul class="items">
+        <li><span class="pill high">High</span><div><div class="t">Build the graduation→alumni bridge <span class="eff">· quick-win</span></div><div class="d">35 completion pages link social media but not the alumni relationship; add a contextual handoff at the exit moment.</div></div></li>
+        <li><span class="pill high">High</span><div><div class="t">Wire faculty + hub to central Careers Online at the apply-for-jobs moment <span class="eff">· medium</span></div><div class="d">All careers hosts get only ~100 contextual links estate-wide; five faculties send zero.</div></div></li>
+        <li><span class="pill med">Med</span><div><div class="t">Make the prospective↔current handoff intentional at apply→enrol <span class="eff">· medium</span></div><div class="d">Stop bouncing enrolled students back into the prospective enquiry funnel.</div></div></li>
+      </ul>
+    </div>
+
+    <div class="theme">
+      <h3>Governance, standards &amp; content quality <span class="cnt">37 improvements</span></h3>
+      <ul class="items">
+        <li><span class="pill high">High</span><div><div class="t">Stand up a subdomain registry + provisioning gate <span class="eff">· medium</span></div><div class="d">415 distinct hosts in the contextual graph with no host→owner→retirement-date mapping anywhere.</div></div></li>
+        <li><span class="pill high">High</span><div><div class="t">Unpublish draft/sandbox content live in production <span class="eff">· quick-win</span></div><div class="d">182 sandbox/draft URLs are live and indexed — including a draft student-visas tree accumulating 90 inbound links.</div></div></li>
+        <li><span class="pill high">High</span><div><div class="t">De-duplicate HDR &amp; BCom careers content mirrored across faculties <span class="eff">· medium</span></div><div class="d">18 byte-identical HDR pages on two CMSes; FBE+MBS double-host the entire BCom careers tree (59 pages). Now reproducible via <span class="mono">near_dup.py</span>.</div></div></li>
+      </ul>
+    </div>
+
+    <div class="theme">
+      <h3>Accessibility, performance &amp; high-stakes journeys <span class="cnt">flagship items</span></h3>
+      <ul class="items">
+        <li><span class="pill high">High</span><div><div class="t">Give each scholarship detail page its own <span class="mono">&lt;title&gt;</span> <span class="eff">· quick-win</span></div><div class="d">94.7% of scholarship pages share one identical title — a major accessibility and findability defect.</div></div></li>
+        <li><span class="pill high">High</span><div><div class="t">Fix the shared-CMS heading-skip seam at the template layer <span class="eff">· medium</span></div><div class="d">45% of pages skip a heading level; one template fix corrects it estate-wide.</div></div></li>
+        <li><span class="pill high">High</span><div><div class="t">Cut multi-MB pages: base64 heroes and a 1,925× icon <span class="eff">· quick-win</span></div><div class="d">Externalise inlined images and de-duplicate the repeated icon; pages drop from 2–5&nbsp;MB toward budget.</div></div></li>
+        <li><span class="pill high">High</span><div><div class="t">Fix broken metadata on the highest-stakes fee &amp; census pages <span class="eff">· quick-win</span></div><div class="d">The census-dates page canonicalises to <span class="mono">/page-not-found</span>; build one enrolled-student fees hub.</div></div></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ── QUICK WINS ── -->
+<section class="navy">
+  <div class="wrap">
+    <div class="sec-head"><div class="eyebrow" style="color:var(--cyan)">Start here</div><h2>Nine high-impact quick wins</h2>
+      <p>High-severity fixes that are mostly single template or redirect changes — each clearing a disproportionate amount of student-facing breakage.</p></div>
+    <div class="qw">
+      <div class="c"><div class="n">01</div><div class="t">Remove the <span class="mono">?a=</span> query token</div><div class="d">Clears ~3,359 phantom 404s on live pages</div></div>
+      <div class="c"><div class="n">02</div><div class="t">301 the legacy hub paths</div><div class="d">Protects MSD's 8,069 deep-links through the migration</div></div>
+      <div class="c"><div class="n">03</div><div class="t">Unique <span class="mono">&lt;title&gt;</span> per scholarship</div><div class="d">Fixes 94.7% of pages sharing one title</div></div>
+      <div class="c"><div class="n">04</div><div class="t">Build the graduate→alumni bridge</div><div class="d">35 completion pages, currently 0 alumni links</div></div>
+      <div class="c"><div class="n">05</div><div class="t">Unpublish the live visa draft tree</div><div class="d">Draft compliance content indexed + linked 90×</div></div>
+      <div class="c"><div class="n">06</div><div class="t">De-duplicate the 1,925× icon</div><div class="d">Drops 5&nbsp;MB staff pages toward budget</div></div>
+      <div class="c"><div class="n">07</div><div class="t">Fix census-date metadata</div><div class="d">Highest-stakes page canonicalises to a 404</div></div>
+      <div class="c"><div class="n">08</div><div class="t">Stop the enrolled→prospective bounce</div><div class="d">Keep enrolled students out of the enquiry funnel</div></div>
+      <div class="c"><div class="n">09</div><div class="t">Add browsable handbook indexes</div><div class="d">Surfaces 266 search-only 2026 subject pages</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ── SCOPE & CONFIDENCE ── -->
+<section id="scope">
+  <div class="wrap">
+    <div class="sec-head"><div class="eyebrow">Confidence</div><h2>What this report does — and doesn't — establish</h2>
+      <p>The analysis is grounded in the public estate. Five boundaries a reader must carry forward before any item ships.</p></div>
+    <div class="callout">
+      <h3>Scope &amp; what is not yet verified</h3>
+      <ol>
+        <li><b>The authenticated core is uncrawlable.</b> my.unimelb (SIS), Canvas and the ~18 form microsites sit behind login. Recommendations to "wire X to my.unimelb / a form" are inferred from the public side — confirm the logged-in flow before scoping.</li>
+        <li><b>404 / redirect claims are URL-string inference, not live HTTP.</b> No HTTP request was issued; the <span class="mono">?a=</span> artifact and dead-link counts need HEAD-probe confirmation of real status codes before remediation.</li>
+        <li><b>Findings are structural-evidence-only, not CX-validated.</b> "Add a bridge / CTA" items rest on link-graph absence, not observed student failure — validate the costliest seams with real users.</li>
+        <li><b>No analytics or traffic data.</b> Link-volume is the importance proxy throughout; it is not demand. Internal tracking params suggest this data exists — <b>requesting it is the single highest-value next step</b>, so priority can follow the pages students actually hit.</li>
+        <li><b>Two evidence notes.</b> Near-duplicate claims are now reproducible (<span class="mono">near_dup.py</span>); the Handbook "14% orphaned" figure is largely a bot-block artifact pending a JS-enabled re-crawl; and students.unimelb is 833 pages crawled / 679 with substantive content (both correct, different denominators).</li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <img src="assets/UoM_Logo_Horiz_onDark.svg" alt="University of Melbourne">
+    <p class="ack">The University of Melbourne acknowledges the Traditional Owners of the unceded land on which we work, learn and live, and pays respect to their Elders, past and present, and to Indigenous Australians today.</p>
+    <p class="src">Source: full-estate crawl (June 2026), 21,250 content pages across 20 domains · contextual link graph in <span class="mono">analysis/full-scrape/</span> · full register in <span class="mono">analysis/improvements-register.md</span> · for discussion, not yet a decision pack.</p>
+  </div>
+</footer>
+
+</body>
+</html>
