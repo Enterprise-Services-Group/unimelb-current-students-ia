@@ -183,7 +183,7 @@ footer .src{font-family:var(--font-m);font-size:12px;color:#6b7099;margin-top:22
     <img src="assets/UoM_Logo_Horiz_onDark.svg" alt="University of Melbourne">
     <nav>
       <a href="#summary">Summary</a><a href="#method">Method</a><a href="#estate">The estate</a>
-      <a href="#findings">Findings</a><a href="#services">Services</a><a href="#register">Improvements</a><a href="#scope">Confidence</a>
+      <a href="#findings">Findings</a><a href="#services">Services</a><a href="#prospective">Prospective</a><a href="#register">Improvements</a><a href="#scope">Confidence</a>
     </nav>
   </div>
 </header>
@@ -321,7 +321,46 @@ footer .src{font-family:var(--font-m);font-size:12px;color:#6b7099;margin-top:22
   </div>
 </section>
 
-<section id="register">
+<section id="prospective">
+  <div class="wrap">
+    <div class="sec-head"><div class="eyebrow">Companion analysis · the other end of the lifecycle</div><h2>The prospective student experience</h2>
+      <p>The same path-level method, applied to the applicant journey on <span class="mono">study.unimelb</span> (4,048 pages). The finding rhymes with the current-student estate: the same faults — the action behind a wall, content re-authored on faculty sites, decision-critical detail on a different platform — shape both ends of the lifecycle.</p></div>
+
+    <div class="metrics" style="margin-bottom:48px">
+      <div class="metric"><div class="n">4,048</div><div class="l"><span class="mono">study.unimelb</span> pages — <b>73%</b> is the course catalogue</div></div>
+      <div class="metric"><div class="n">4,391</div><div class="l">links OUT to the Handbook for course detail (a different platform)</div></div>
+      <div class="metric"><div class="n">0</div><div class="l">compare tools — 427 courses as isolated 7-tab micro-sites</div></div>
+      <div class="metric"><div class="n">373</div><div class="l">apply→enrol links — a cold cross-domain handoff</div></div>
+    </div>
+
+    <div class="cols2" style="gap:48px">
+      <div>
+        <div class="eyebrow" style="margin-bottom:16px">The journey never closes the loop on-site</div>
+        <p style="color:var(--ink-2);font-size:16px;margin:0 0 12px"><span class="mono">study.unimelb</span> is canonical and content-rich, but at every decisive moment it hands off — to the Handbook (course detail), to a CRM form that captures a <em>lead</em> not an application, or to a walled portal (VTAC, eStudent) where the real apply happens out of view.</p>
+        <ol style="margin:0;padding-left:20px;color:var(--ink-2);font-size:15px;line-height:1.5">
+          <li style="margin:9px 0"><b style="color:var(--navy)">No single "Apply" path</b> — forks by audience across VTAC, eStudent and the CRM.</li>
+          <li style="margin:9px 0"><b style="color:var(--navy)">No compare tool</b> — the core prospective task is left to manual tab-juggling.</li>
+          <li style="margin:9px 0"><b style="color:var(--navy)">Detail on a different platform</b> — what a degree contains lives on the Handbook.</li>
+          <li style="margin:9px 0"><b style="color:var(--navy)">A cold apply→enrol handoff</b> — only domestic VTAC undergrads get a guided path.</li>
+        </ol>
+      </div>
+      <div>
+        <div class="eyebrow" style="margin-bottom:16px">Where the journey ejects to</div>
+        <div class="chart">
+          <div class="bar-row"><div class="k">Handbook (course detail)</div><div class="track"><div class="fill" style="width:100%"></div></div><div class="v">4,391</div></div>
+          <div class="bar-row"><div class="k">CRM "Register for updates"</div><div class="track"><div class="fill" style="width:34%"></div></div><div class="v">1,493</div></div>
+          <div class="bar-row"><div class="k">Scholarships discovery</div><div class="track"><div class="fill" style="width:9%"></div></div><div class="v">411</div></div>
+          <div class="bar-row"><div class="k">→ enrol (students.unimelb)</div><div class="track"><div class="fill" style="width:8.5%;background:var(--red)"></div></div><div class="v" style="color:var(--red)">373</div></div>
+        </div>
+        <p style="font-family:var(--font-m);font-size:12px;color:var(--ink-3);margin-top:14px">Contextual links out of <span class="mono">study.unimelb</span>. The apply→enrol handoff (red) is thinner than the lead-capture funnel.</p>
+      </div>
+    </div>
+
+    <div id="prosp-grid" class="svc-grid"></div>
+  </div>
+</section>
+
+<section id="register" class="alt">
   <div class="wrap">
     <div class="sec-head"><div class="eyebrow">The register</div><h2>Seventy-four improvements, split by who acts</h2>
       <p>Every improvement is evidence-grounded and tagged by impact and effort. They divide into two tracks — experience fixes for content, IA and service teams, and technical fixes for the platform and engineering teams. Select any card for the full detail and recommended action.</p></div>
@@ -410,6 +449,7 @@ footer .src{font-family:var(--font-m);font-size:12px;color:#6b7099;margin-top:22
 
 <script src="improvements.js"></script>
 <script src="services.js"></script>
+<script src="prospective.js"></script>
 <script>
 const SEV={high:'High priority',medium:'Medium priority',low:'Low priority'};
 const THEME_ORDER={
@@ -496,6 +536,31 @@ function openSvc(i){
   document.getElementById('modal').hidden=false; document.body.classList.add('locked'); panel.scrollTop=0;
 }
 renderServices();
+
+// ── prospective journey ──
+const PROSP=window.PROSPECTIVE||[];
+function renderProsp(){
+  document.getElementById('prosp-grid').innerHTML=PROSP.map((s,i)=>
+    '<div class="svc-card" onclick="openProsp('+i+')"><div class="top"><span class="pill '+(s.severity==='high'?'high':'med')+'">'+s.severity+
+    '</span></div><div class="nm">'+esc(s.stage)+'</div><div class="hl">'+esc(s.headline.length>150?s.headline.slice(0,148)+'…':s.headline)+
+    '</div><div class="more">View profile →</div></div>').join('');
+}
+function openProsp(i){
+  const s=PROSP[i]; if(!s)return;
+  const panel=document.getElementById('modalPanel'); panel.className='modal-panel';
+  const fr=(s.friction||[]).map(x=>'<li>'+esc(x)+'</li>').join('');
+  const fg=(s.fragmentation||[]).map(x=>'<li>'+esc(x)+'</li>').join('');
+  document.getElementById('modalContent').innerHTML=
+    '<div class="modal-meta"><span class="modal-track">Prospective journey</span><span class="pill '+(s.severity==='high'?'high':'med')+'">'+esc(SEV[s.severity])+'</span></div>'+
+    '<h2 class="mt">'+esc(s.stage)+'</h2><p class="lead-hl">'+esc(s.headline)+'</p>'+
+    '<div class="block"><div class="lab">What exists</div><p>'+esc(s.what_exists)+'</p></div>'+
+    (fr?'<div class="block"><div class="lab">Journey friction</div><ul class="bl">'+fr+'</ul></div>':'')+
+    (fg?'<div class="block"><div class="lab">Fragmentation</div><ul class="bl">'+fg+'</ul></div>':'')+
+    '<div class="block"><div class="lab">The seam</div><p>'+esc(s.seam)+'</p></div>'+
+    '<div class="block ev"><div class="lab">Recommendation</div><p>'+esc(s.recommendation)+'</p></div>';
+  document.getElementById('modal').hidden=false; document.body.classList.add('locked'); panel.scrollTop=0;
+}
+renderProsp();
 </script>
 </body>
 </html>
