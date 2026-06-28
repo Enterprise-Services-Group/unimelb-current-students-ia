@@ -1,0 +1,829 @@
+[2026-06-22T13:08:09] 
+============================================================
+[2026-06-22T13:08:09] BATCH CRAWL STARTING — 17 domains
+[2026-06-22T13:08:09] ============================================================
+[2026-06-22T13:08:09] 
+[1/17] msd.unimelb.edu.au
+[2026-06-22T13:08:09]   Killing Chrome...
+[2026-06-22T13:08:12] STARTING: msd.unimelb.edu.au → msd-unimelb-edu-au/
+[2026-06-22T13:08:12]   msd.unimelb.edu.au: ============================================================
+[2026-06-22T13:08:12]   msd.unimelb.edu.au: CRAWL: msd.unimelb.edu.au
+[2026-06-22T13:08:12]   msd.unimelb.edu.au: ============================================================
+[2026-06-22T13:08:14]   msd.unimelb.edu.au: Chrome launched with profile
+[2026-06-22T13:08:14]   msd.unimelb.edu.au: Homepage: "Melbourne School of Design" ✓
+[2026-06-22T13:08:14]   msd.unimelb.edu.au: Homepage: 29 internal links, 29 new (0 already visited)
+[2026-06-22T15:08:13]   msd.unimelb.edu.au: ============================================================
+[2026-06-22T15:08:13]   msd.unimelb.edu.au: DONE: 2348 pages → /Users/djmulholland/Documents/Claude/projects/unimelb-current-students-ia/crawl/msd-unimelb-edu-au/
+[2026-06-22T15:08:13]   msd.unimelb.edu.au: ============================================================
+[2026-06-22T15:08:13] COMPLETED: msd.unimelb.edu.au → DONE
+[2026-06-22T15:08:15] 
+[2/17] arts.unimelb.edu.au
+[2026-06-22T15:08:15]   Killing Chrome...
+[2026-06-22T15:08:18] STARTING: arts.unimelb.edu.au → arts-unimelb-edu-au/
+[2026-06-22T15:08:19]   arts.unimelb.edu.au: ============================================================
+[2026-06-22T15:08:19]   arts.unimelb.edu.au: CRAWL: arts.unimelb.edu.au
+[2026-06-22T15:08:19]   arts.unimelb.edu.au: ============================================================
+[2026-06-22T15:08:20]   arts.unimelb.edu.au: Chrome launched with profile
+[2026-06-22T15:08:21]   arts.unimelb.edu.au: Homepage: 7 internal links, 7 new (0 already visited)
+[2026-06-22T17:08:19]   arts.unimelb.edu.au: ============================================================
+[2026-06-22T17:08:19]   arts.unimelb.edu.au: DONE: 2446 pages → /Users/djmulholland/Documents/Claude/projects/unimelb-current-students-ia/crawl/arts-unimelb-edu-au/
+[2026-06-22T17:08:19]   arts.unimelb.edu.au: ============================================================
+[2026-06-22T17:08:19] COMPLETED: arts.unimelb.edu.au → DONE
+[2026-06-22T17:08:21] 
+[3/17] fbe.unimelb.edu.au
+[2026-06-22T17:08:21]   Killing Chrome...
+[2026-06-22T17:08:24] STARTING: fbe.unimelb.edu.au → fbe-unimelb-edu-au/
+[2026-06-22T17:08:24]   fbe.unimelb.edu.au: ============================================================
+[2026-06-22T17:08:24]   fbe.unimelb.edu.au: CRAWL: fbe.unimelb.edu.au
+[2026-06-22T17:08:24]   fbe.unimelb.edu.au: ============================================================
+[2026-06-22T17:08:25]   fbe.unimelb.edu.au: Chrome launched with profile
+[2026-06-22T17:08:27]   fbe.unimelb.edu.au: Homepage: 11 internal links, 11 new (0 already visited)
+[2026-06-22T19:08:25]   fbe.unimelb.edu.au: ============================================================
+[2026-06-22T19:08:25]   fbe.unimelb.edu.au: DONE: 2241 pages → /Users/djmulholland/Documents/Claude/projects/unimelb-current-students-ia/crawl/fbe-unimelb-edu-au/
+[2026-06-22T19:08:25]   fbe.unimelb.edu.au: ============================================================
+[2026-06-22T19:08:25] COMPLETED: fbe.unimelb.edu.au → DONE
+[2026-06-22T19:08:27] 
+[4/17] education.unimelb.edu.au
+[2026-06-22T19:08:27]   Killing Chrome...
+[2026-06-22T19:08:30] STARTING: education.unimelb.edu.au → education-unimelb-edu-au/
+[2026-06-22T19:08:30]   education.unimelb.edu.au: ============================================================
+[2026-06-22T19:08:30]   education.unimelb.edu.au: CRAWL: education.unimelb.edu.au
+[2026-06-22T19:08:30]   education.unimelb.edu.au: ============================================================
+[2026-06-22T19:08:32]   education.unimelb.edu.au: Chrome launched with profile
+[2026-06-22T19:08:33]   education.unimelb.edu.au: Homepage: 6 internal links, 6 new (0 already visited)
+[2026-06-22T20:02:56]   education.unimelb.edu.au: ============================================================
+[2026-06-22T20:02:56]   education.unimelb.edu.au: DONE: 852 pages → /Users/djmulholland/Documents/Claude/projects/unimelb-current-students-ia/crawl/education-unimelb-edu-au/
+[2026-06-22T20:02:56]   education.unimelb.edu.au: ============================================================
+[2026-06-22T20:02:56] COMPLETED: education.unimelb.edu.au → DONE
+[2026-06-22T20:02:58] 
+[5/17] eng.unimelb.edu.au
+[2026-06-22T20:02:58]   Killing Chrome...
+[2026-06-22T20:03:01] STARTING: eng.unimelb.edu.au → eng-unimelb-edu-au/
+[2026-06-22T20:03:02]   eng.unimelb.edu.au: ============================================================
+[2026-06-22T20:03:02]   eng.unimelb.edu.au: CRAWL: eng.unimelb.edu.au
+[2026-06-22T20:03:02]   eng.unimelb.edu.au: ============================================================
+[2026-06-22T20:03:03]   eng.unimelb.edu.au: Chrome launched with profile
+[2026-06-22T20:03:04]   eng.unimelb.edu.au: Homepage: 20 internal links, 20 new (0 already visited)
+[2026-06-22T21:46:10]   eng.unimelb.edu.au: ============================================================
+[2026-06-22T21:46:10]   eng.unimelb.edu.au: DONE: 1985 pages → /Users/djmulholland/Documents/Claude/projects/unimelb-current-students-ia/crawl/eng-unimelb-edu-au/
+[2026-06-22T21:46:10]   eng.unimelb.edu.au: ============================================================
+[2026-06-22T21:46:11] COMPLETED: eng.unimelb.edu.au → DONE
+[2026-06-23T13:33:46] 
+============================================================
+[2026-06-23T13:33:46] BATCH CRAWL STARTING — 18 domains
+[2026-06-23T13:33:46] ============================================================
+[2026-06-23T13:33:46] 
+[1/18] msd.unimelb.edu.au
+[2026-06-23T13:33:46]   SKIPPING — already complete
+[2026-06-23T13:33:46] 
+[2/18] arts.unimelb.edu.au
+[2026-06-23T13:33:46]   SKIPPING — already complete
+[2026-06-23T13:33:46] 
+[3/18] fbe.unimelb.edu.au
+[2026-06-23T13:33:46]   SKIPPING — already complete
+[2026-06-23T13:33:46] 
+[4/18] education.unimelb.edu.au
+[2026-06-23T13:33:46]   SKIPPING — already complete
+[2026-06-23T13:33:46] 
+[5/18] eng.unimelb.edu.au
+[2026-06-23T13:33:46]   SKIPPING — already complete
+[2026-06-23T13:33:46] 
+[6/18] finearts-music.unimelb.edu.au
+[2026-06-23T13:33:46]   Killing Chrome...
+[2026-06-23T13:33:49] STARTING: finearts-music.unimelb.edu.au → finearts-music-unimelb-edu-au/
+[2026-06-23T13:33:49]   finearts-music.unimelb.edu.au: ============================================================
+[2026-06-23T13:33:49]   finearts-music.unimelb.edu.au: CRAWL: finearts-music.unimelb.edu.au
+[2026-06-23T13:33:49]   finearts-music.unimelb.edu.au: ============================================================
+[2026-06-23T13:33:52]   finearts-music.unimelb.edu.au: Chrome launched with profile
+[2026-06-23T13:33:55]   finearts-music.unimelb.edu.au: Homepage: 42 internal links, 42 new (0 already visited)
+[2026-06-23T14:59:45]   finearts-music.unimelb.edu.au: ============================================================
+[2026-06-23T14:59:45]   finearts-music.unimelb.edu.au: DONE: 1444 pages → /Users/djmulholland/Documents/Claude/projects/unimelb-current-students-ia/crawl/finearts-music-unimelb-edu-au/
+[2026-06-23T14:59:45]   finearts-music.unimelb.edu.au: ============================================================
+[2026-06-23T14:59:45] COMPLETED: finearts-music.unimelb.edu.au → DONE
+[2026-06-23T14:59:47] 
+[7/18] law.unimelb.edu.au
+[2026-06-23T14:59:47]   Killing Chrome...
+[2026-06-23T14:59:50] STARTING: law.unimelb.edu.au → law-unimelb-edu-au/
+[2026-06-23T14:59:51]   law.unimelb.edu.au: ============================================================
+[2026-06-23T14:59:51]   law.unimelb.edu.au: CRAWL: law.unimelb.edu.au
+[2026-06-23T14:59:51]   law.unimelb.edu.au: ============================================================
+[2026-06-23T14:59:51]   law.unimelb.edu.au: Chrome launched with profile
+[2026-06-23T14:59:52]   law.unimelb.edu.au: Homepage: 16 internal links, 16 new (0 already visited)
+[2026-06-23T16:59:51]   law.unimelb.edu.au: ============================================================
+[2026-06-23T16:59:51]   law.unimelb.edu.au: DONE: 3000 pages → /Users/djmulholland/Documents/Claude/projects/unimelb-current-students-ia/crawl/law-unimelb-edu-au/
+[2026-06-23T16:59:51]   law.unimelb.edu.au: ============================================================
+[2026-06-23T16:59:51] COMPLETED: law.unimelb.edu.au → DONE
+[2026-06-23T16:59:53] 
+[8/18] medicine.unimelb.edu.au
+[2026-06-23T16:59:53]   Killing Chrome...
+[2026-06-23T16:59:56] STARTING: medicine.unimelb.edu.au → medicine-unimelb-edu-au/
+[2026-06-23T16:59:56]   medicine.unimelb.edu.au: ============================================================
+[2026-06-23T16:59:56]   medicine.unimelb.edu.au: CRAWL: medicine.unimelb.edu.au
+[2026-06-23T16:59:56]   medicine.unimelb.edu.au: ============================================================
+[2026-06-23T16:59:58]   medicine.unimelb.edu.au: Chrome launched with profile
+[2026-06-23T16:59:59]   medicine.unimelb.edu.au: Homepage: 8 internal links, 8 new (0 already visited)
+[2026-06-23T18:59:57]   medicine.unimelb.edu.au: ============================================================
+[2026-06-23T18:59:57]   medicine.unimelb.edu.au: DONE: 3000 pages → /Users/djmulholland/Documents/Claude/projects/unimelb-current-students-ia/crawl/medicine-unimelb-edu-au/
+[2026-06-23T18:59:57]   medicine.unimelb.edu.au: ============================================================
+[2026-06-23T18:59:57] COMPLETED: medicine.unimelb.edu.au → DONE
+[2026-06-23T18:59:59] 
+[9/18] mdhs.unimelb.edu.au
+[2026-06-23T18:59:59]   Killing Chrome...
+[2026-06-23T19:00:02] STARTING: mdhs.unimelb.edu.au → mdhs-unimelb-edu-au/
+[2026-06-23T19:00:02]   mdhs.unimelb.edu.au: ============================================================
+[2026-06-23T19:00:02]   mdhs.unimelb.edu.au: CRAWL: mdhs.unimelb.edu.au
+[2026-06-23T19:00:02]   mdhs.unimelb.edu.au: ============================================================
+[2026-06-23T19:00:03]   mdhs.unimelb.edu.au: Chrome launched with profile
+[2026-06-23T19:00:04]   mdhs.unimelb.edu.au: Homepage: 8 internal links, 8 new (0 already visited)
+[2026-06-23T21:00:02]   mdhs.unimelb.edu.au: ============================================================
+[2026-06-23T21:00:02]   mdhs.unimelb.edu.au: DONE: 3000 pages → /Users/djmulholland/Documents/Claude/projects/unimelb-current-students-ia/crawl/mdhs-unimelb-edu-au/
+[2026-06-23T21:00:02]   mdhs.unimelb.edu.au: ============================================================
+[2026-06-23T21:00:04] COMPLETED: mdhs.unimelb.edu.au → DONE
+[2026-06-23T21:00:06] 
+[10/18] science.unimelb.edu.au
+[2026-06-23T21:00:06]   Killing Chrome...
+[2026-06-23T21:00:09] STARTING: science.unimelb.edu.au → science-unimelb-edu-au/
+[2026-06-23T21:00:10]   science.unimelb.edu.au: ============================================================
+[2026-06-23T21:00:10]   science.unimelb.edu.au: CRAWL: science.unimelb.edu.au
+[2026-06-23T21:00:10]   science.unimelb.edu.au: ============================================================
+[2026-06-23T21:00:11]   science.unimelb.edu.au: Chrome launched with profile
+[2026-06-23T21:00:12]   science.unimelb.edu.au: Homepage: 10 internal links, 10 new (0 already visited)
+[2026-06-23T21:11:38]   science.unimelb.edu.au: ============================================================
+[2026-06-23T21:11:38]   science.unimelb.edu.au: DONE: 420 pages → /Users/djmulholland/Documents/Claude/projects/unimelb-current-students-ia/crawl/science-unimelb-edu-au/
+[2026-06-23T21:11:38]   science.unimelb.edu.au: ============================================================
+[2026-06-23T21:11:38] COMPLETED: science.unimelb.edu.au → DONE
+[2026-06-23T21:11:41] 
+[11/18] mbs.unimelb.edu.au
+[2026-06-23T21:11:41]   Killing Chrome...
+[2026-06-23T21:12:50] STARTING: mbs.unimelb.edu.au → mbs-unimelb-edu-au/
+[2026-06-23T21:12:51]   mbs.unimelb.edu.au: ============================================================
+[2026-06-23T21:12:51]   mbs.unimelb.edu.au: CRAWL: mbs.unimelb.edu.au
+[2026-06-23T21:12:51]   mbs.unimelb.edu.au: ============================================================
+[2026-06-23T21:12:51]   mbs.unimelb.edu.au: Chrome launched with profile
+[2026-06-23T21:12:51]   mbs.unimelb.edu.au: Homepage FAIL: page.goto: net::ERR_INTERNET_DISCONNECTED at https://mbs.unimelb.edu.au/
+[2026-06-23T21:12:51]   mbs.unimelb.edu.au: Cloudflare blocking — cannot crawl. Exiting.
+[2026-06-23T21:12:52] COMPLETED: mbs.unimelb.edu.au → SKIPPED (CF)
+[2026-06-23T21:12:54] 
+[12/18] biomedicalsciences.unimelb.edu.au
+[2026-06-23T21:12:54]   Killing Chrome...
+[2026-06-23T21:12:57] STARTING: biomedicalsciences.unimelb.edu.au → biomedicalsciences-unimelb-edu-au/
+[2026-06-23T21:12:57]   biomedicalsciences.unimelb.edu.au: ============================================================
+[2026-06-23T21:12:57]   biomedicalsciences.unimelb.edu.au: CRAWL: biomedicalsciences.unimelb.edu.au
+[2026-06-23T21:12:57]   biomedicalsciences.unimelb.edu.au: ============================================================
+[2026-06-23T21:12:57]   biomedicalsciences.unimelb.edu.au: Chrome launched with profile
+[2026-06-23T21:12:57]   biomedicalsciences.unimelb.edu.au: Homepage FAIL: page.goto: net::ERR_INTERNET_DISCONNECTED at https://biomedicalsciences.unimelb.
+[2026-06-23T21:12:57]   biomedicalsciences.unimelb.edu.au: Cloudflare blocking — cannot crawl. Exiting.
+[2026-06-23T21:12:58] COMPLETED: biomedicalsciences.unimelb.edu.au → SKIPPED (CF)
+[2026-06-23T21:13:00] 
+[13/18] dental.unimelb.edu.au
+[2026-06-23T21:13:00]   Killing Chrome...
+[2026-06-23T21:13:03] STARTING: dental.unimelb.edu.au → dental-unimelb-edu-au/
+[2026-06-23T21:13:04]   dental.unimelb.edu.au: ============================================================
+[2026-06-23T21:13:04]   dental.unimelb.edu.au: CRAWL: dental.unimelb.edu.au
+[2026-06-23T21:13:04]   dental.unimelb.edu.au: ============================================================
+[2026-06-23T21:13:06]   dental.unimelb.edu.au: Chrome launched with profile
+[2026-06-23T21:13:15]   dental.unimelb.edu.au: Homepage: 5 internal links, 5 new (0 already visited)
+[2026-06-23T21:32:59]   dental.unimelb.edu.au: ============================================================
+[2026-06-23T21:32:59]   dental.unimelb.edu.au: DONE: 204 pages → /Users/djmulholland/Documents/Claude/projects/unimelb-current-students-ia/crawl/dental-unimelb-edu-au/
+[2026-06-23T21:32:59]   dental.unimelb.edu.au: ============================================================
+[2026-06-23T21:32:59] COMPLETED: dental.unimelb.edu.au → DONE
+[2026-06-23T21:33:01] 
+[14/18] study.unimelb.edu.au
+[2026-06-23T21:33:01]   Killing Chrome...
+[2026-06-23T21:33:04] STARTING: study.unimelb.edu.au → study-unimelb-edu-au/
+[2026-06-23T21:33:05]   study.unimelb.edu.au: ============================================================
+[2026-06-23T21:33:05]   study.unimelb.edu.au: CRAWL: study.unimelb.edu.au
+[2026-06-23T21:33:05]   study.unimelb.edu.au: ============================================================
+[2026-06-23T21:33:06]   study.unimelb.edu.au: Chrome launched with profile
+[2026-06-23T21:33:07]   study.unimelb.edu.au [stderr]: FATAL: frontier is not defined
+[2026-06-23T21:33:07] COMPLETED: study.unimelb.edu.au → ERROR(1)
+[2026-06-23T21:33:09] 
+[15/18] services.unimelb.edu.au
+[2026-06-23T21:33:09]   Killing Chrome...
+[2026-06-23T21:33:12] STARTING: services.unimelb.edu.au → services-unimelb-edu-au/
+[2026-06-23T21:33:13]   services.unimelb.edu.au: ============================================================
+[2026-06-23T21:33:13]   services.unimelb.edu.au: CRAWL: services.unimelb.edu.au
+[2026-06-23T21:33:13]   services.unimelb.edu.au: ============================================================
+[2026-06-23T21:33:13]   services.unimelb.edu.au: Chrome launched with profile
+[2026-06-23T21:33:15]   services.unimelb.edu.au [stderr]: FATAL: frontier is not defined
+[2026-06-23T21:33:15] COMPLETED: services.unimelb.edu.au → ERROR(1)
+[2026-06-23T21:33:17] 
+[16/18] scholarships.unimelb.edu.au
+[2026-06-23T21:33:17]   Killing Chrome...
+[2026-06-23T21:33:20] STARTING: scholarships.unimelb.edu.au → scholarships-unimelb-edu-au/
+[2026-06-23T21:33:21]   scholarships.unimelb.edu.au: ============================================================
+[2026-06-23T21:33:21]   scholarships.unimelb.edu.au: CRAWL: scholarships.unimelb.edu.au
+[2026-06-23T21:33:21]   scholarships.unimelb.edu.au: ============================================================
+[2026-06-23T21:33:21]   scholarships.unimelb.edu.au: Chrome launched with profile
+[2026-06-23T21:33:23]   scholarships.unimelb.edu.au [stderr]: FATAL: frontier is not defined
+[2026-06-23T21:33:23] COMPLETED: scholarships.unimelb.edu.au → ERROR(1)
+[2026-06-23T21:33:25] 
+[17/18] handbook.unimelb.edu.au
+[2026-06-23T21:33:25]   Killing Chrome...
+[2026-06-23T21:33:28] STARTING: handbook.unimelb.edu.au → handbook-unimelb-edu-au/
+[2026-06-23T21:33:28]   handbook.unimelb.edu.au: ============================================================
+[2026-06-23T21:33:28]   handbook.unimelb.edu.au: CRAWL: handbook.unimelb.edu.au
+[2026-06-23T21:33:28]   handbook.unimelb.edu.au: ============================================================
+[2026-06-23T21:33:29]   handbook.unimelb.edu.au: Chrome launched with profile
+[2026-06-23T21:33:32]   handbook.unimelb.edu.au [stderr]: FATAL: frontier is not defined
+[2026-06-23T21:33:32] COMPLETED: handbook.unimelb.edu.au → ERROR(1)
+[2026-06-23T21:33:34] 
+[18/18] unimelb.edu.au --path-prefix=/alumni
+[2026-06-23T21:33:34]   Killing Chrome...
+[2026-06-23T21:33:37] STARTING: unimelb.edu.au --path-prefix=/alumni → unimelb-edu-au/
+[2026-06-23T21:33:37]   unimelb.edu.au: ============================================================
+[2026-06-23T21:33:37]   unimelb.edu.au: CRAWL: unimelb.edu.au/alumni
+[2026-06-23T21:33:37]   unimelb.edu.au: ============================================================
+[2026-06-23T21:33:38]   unimelb.edu.au: Chrome launched with profile
+[2026-06-23T21:33:40]   unimelb.edu.au [stderr]: FATAL: frontier is not defined
+[2026-06-23T21:33:40] COMPLETED: unimelb.edu.au → ERROR(1)
+[2026-06-23T21:33:42] 
+============================================================
+[2026-06-23T21:33:42] BATCH COMPLETE
+[2026-06-23T21:33:42]   Completed: 6  |  Skipped: 7  |  Failed: 5
+[2026-06-23T21:33:42] ============================================================
+[2026-06-23T21:36:41] 
+============================================================
+[2026-06-23T21:36:41] BATCH CRAWL STARTING — 18 domains
+[2026-06-23T21:36:41] ============================================================
+[2026-06-23T21:36:41] 
+[1/18] msd.unimelb.edu.au
+[2026-06-23T21:36:41]   SKIPPING — already complete
+[2026-06-23T21:36:41] 
+[2/18] arts.unimelb.edu.au
+[2026-06-23T21:36:41]   SKIPPING — already complete
+[2026-06-23T21:36:41] 
+[3/18] fbe.unimelb.edu.au
+[2026-06-23T21:36:41]   SKIPPING — already complete
+[2026-06-23T21:36:41] 
+[4/18] education.unimelb.edu.au
+[2026-06-23T21:36:41]   SKIPPING — already complete
+[2026-06-23T21:36:41] 
+[5/18] eng.unimelb.edu.au
+[2026-06-23T21:36:41]   SKIPPING — already complete
+[2026-06-23T21:36:41] 
+[6/18] finearts-music.unimelb.edu.au
+[2026-06-23T21:36:41]   SKIPPING — already complete
+[2026-06-23T21:36:41] 
+[7/18] law.unimelb.edu.au
+[2026-06-23T21:36:41]   Killing Chrome...
+[2026-06-23T21:36:45] STARTING: law.unimelb.edu.au → law-unimelb-edu-au/
+[2026-06-23T21:36:45]   law.unimelb.edu.au: ============================================================
+[2026-06-23T21:36:45]   law.unimelb.edu.au: CRAWL: law.unimelb.edu.au
+[2026-06-23T21:36:45]   law.unimelb.edu.au: ============================================================
+[2026-06-23T21:36:45]   law.unimelb.edu.au: Loaded 3000 visited from index.json
+[2026-06-23T21:36:45]   law.unimelb.edu.au: Loaded frontier from index: high=140 low=0
+[2026-06-23T21:36:45]   law.unimelb.edu.au: Loaded 3000 extra visited from checkpoint
+[2026-06-23T21:36:45]   law.unimelb.edu.au: Loaded frontier from checkpoint: high=140 low=0
+[2026-06-23T21:36:46]   law.unimelb.edu.au: Chrome launched with profile
+[2026-06-23T21:56:16]   law.unimelb.edu.au: ============================================================
+[2026-06-23T21:56:16]   law.unimelb.edu.au: DONE: 3188 pages → /Users/djmulholland/Documents/Claude/projects/unimelb-current-students-ia/crawl/law-unimelb-edu-au/
+[2026-06-23T21:56:16]   law.unimelb.edu.au: ============================================================
+[2026-06-23T21:56:16] COMPLETED: law.unimelb.edu.au → DONE
+[2026-06-23T21:56:18] 
+[8/18] medicine.unimelb.edu.au
+[2026-06-23T21:56:18]   Killing Chrome...
+[2026-06-23T21:56:21] STARTING: medicine.unimelb.edu.au → medicine-unimelb-edu-au/
+[2026-06-23T21:56:21]   medicine.unimelb.edu.au: ============================================================
+[2026-06-23T21:56:21]   medicine.unimelb.edu.au: CRAWL: medicine.unimelb.edu.au
+[2026-06-23T21:56:21]   medicine.unimelb.edu.au: ============================================================
+[2026-06-23T21:56:21]   medicine.unimelb.edu.au: Loaded 3000 visited from index.json
+[2026-06-23T21:56:21]   medicine.unimelb.edu.au: Loaded frontier from index: high=142 low=11
+[2026-06-23T21:56:21]   medicine.unimelb.edu.au: Loaded 3000 extra visited from checkpoint
+[2026-06-23T21:56:21]   medicine.unimelb.edu.au: Loaded frontier from checkpoint: high=142 low=11
+[2026-06-23T21:56:23]   medicine.unimelb.edu.au: Chrome launched with profile
+[2026-06-23T22:30:00]   medicine.unimelb.edu.au: ============================================================
+[2026-06-23T22:30:00]   medicine.unimelb.edu.au: DONE: 3213 pages → /Users/djmulholland/Documents/Claude/projects/unimelb-current-students-ia/crawl/medicine-unimelb-edu-au/
+[2026-06-23T22:30:00]   medicine.unimelb.edu.au: ============================================================
+[2026-06-23T22:30:00] COMPLETED: medicine.unimelb.edu.au → DONE
+[2026-06-23T22:30:02] 
+[9/18] mdhs.unimelb.edu.au
+[2026-06-23T22:30:02]   Killing Chrome...
+[2026-06-23T22:30:05] STARTING: mdhs.unimelb.edu.au → mdhs-unimelb-edu-au/
+[2026-06-23T22:30:05]   mdhs.unimelb.edu.au: ============================================================
+[2026-06-23T22:30:05]   mdhs.unimelb.edu.au: CRAWL: mdhs.unimelb.edu.au
+[2026-06-23T22:30:05]   mdhs.unimelb.edu.au: ============================================================
+[2026-06-23T22:30:05]   mdhs.unimelb.edu.au: Loaded 3000 visited from index.json
+[2026-06-23T22:30:05]   mdhs.unimelb.edu.au: Loaded frontier from index: high=8212 low=3 (24645 skipped)
+[2026-06-23T22:30:05]   mdhs.unimelb.edu.au: Loaded 3000 extra visited from checkpoint
+[2026-06-23T22:30:06]   mdhs.unimelb.edu.au: Loaded frontier from checkpoint: high=8212 low=3 (24645 skipped)
+[2026-06-23T22:30:07]   mdhs.unimelb.edu.au: Chrome launched with profile
+[2026-06-24T00:20:42]   mdhs.unimelb.edu.au: ============================================================
+[2026-06-24T00:20:42]   mdhs.unimelb.edu.au: DONE: 6000 pages → /Users/djmulholland/Documents/Claude/projects/unimelb-current-students-ia/crawl/mdhs-unimelb-edu-au/
+[2026-06-24T00:20:42]   mdhs.unimelb.edu.au: ============================================================
+[2026-06-24T00:20:42] COMPLETED: mdhs.unimelb.edu.au → DONE
+[2026-06-24T00:20:45] 
+[10/18] science.unimelb.edu.au
+[2026-06-24T00:20:45]   SKIPPING — already complete
+[2026-06-24T00:20:45] 
+[11/18] mbs.unimelb.edu.au
+[2026-06-24T00:20:45]   Killing Chrome...
+[2026-06-24T00:20:48] STARTING: mbs.unimelb.edu.au → mbs-unimelb-edu-au/
+[2026-06-24T00:20:48]   mbs.unimelb.edu.au: ============================================================
+[2026-06-24T00:20:48]   mbs.unimelb.edu.au: CRAWL: mbs.unimelb.edu.au
+[2026-06-24T00:20:48]   mbs.unimelb.edu.au: ============================================================
+[2026-06-24T00:20:51]   mbs.unimelb.edu.au: Chrome launched with profile
+[2026-06-24T00:20:52]   mbs.unimelb.edu.au: Homepage: 3 internal links, 3 new (0 already visited)
+[2026-06-24T00:25:43]   mbs.unimelb.edu.au: ============================================================
+[2026-06-24T00:25:44]   mbs.unimelb.edu.au: DONE: 83 pages → /Users/djmulholland/Documents/Claude/projects/unimelb-current-students-ia/crawl/mbs-unimelb-edu-au/
+[2026-06-24T00:25:44]   mbs.unimelb.edu.au: ============================================================
+[2026-06-24T00:25:44] COMPLETED: mbs.unimelb.edu.au → DONE
+[2026-06-24T00:25:46] 
+[12/18] biomedicalsciences.unimelb.edu.au
+[2026-06-24T00:25:46]   Killing Chrome...
+[2026-06-24T00:25:49] STARTING: biomedicalsciences.unimelb.edu.au → biomedicalsciences-unimelb-edu-au/
+[2026-06-24T00:25:49]   biomedicalsciences.unimelb.edu.au: ============================================================
+[2026-06-24T00:25:49]   biomedicalsciences.unimelb.edu.au: CRAWL: biomedicalsciences.unimelb.edu.au
+[2026-06-24T00:25:49]   biomedicalsciences.unimelb.edu.au: ============================================================
+[2026-06-24T00:25:54]   biomedicalsciences.unimelb.edu.au: Chrome launched with profile
+[2026-06-24T00:25:56]   biomedicalsciences.unimelb.edu.au: Homepage: 42 internal links, 42 new (0 already visited)
+[2026-06-24T02:01:40]   biomedicalsciences.unimelb.edu.au: ============================================================
+[2026-06-24T02:01:40]   biomedicalsciences.unimelb.edu.au: DONE: 1584 pages → /Users/djmulholland/Documents/Claude/projects/unimelb-current-students-ia/crawl/biomedicalsciences-unimelb-edu-au/
+[2026-06-24T02:01:40]   biomedicalsciences.unimelb.edu.au: ============================================================
+[2026-06-24T02:01:40] COMPLETED: biomedicalsciences.unimelb.edu.au → DONE
+[2026-06-24T02:01:42] 
+[13/18] dental.unimelb.edu.au
+[2026-06-24T02:01:42]   SKIPPING — already complete
+[2026-06-24T02:01:42] 
+[14/18] study.unimelb.edu.au
+[2026-06-24T02:01:42]   Killing Chrome...
+[2026-06-24T02:01:45] STARTING: study.unimelb.edu.au → study-unimelb-edu-au/
+[2026-06-24T02:01:46]   study.unimelb.edu.au: ============================================================
+[2026-06-24T02:01:46]   study.unimelb.edu.au: CRAWL: study.unimelb.edu.au
+[2026-06-24T02:01:46]   study.unimelb.edu.au: ============================================================
+[2026-06-24T02:01:46]   study.unimelb.edu.au: Loaded 0 visited from index.json
+[2026-06-24T02:01:46]   study.unimelb.edu.au: Loaded frontier from index: high=0 low=0 (0 skipped)
+[2026-06-24T02:01:48]   study.unimelb.edu.au: Chrome launched with profile
+[2026-06-24T02:01:50]   study.unimelb.edu.au: Homepage: 39 internal links, 39 new (0 already visited)
+[2026-06-24T03:49:30]   study.unimelb.edu.au: ============================================================
+[2026-06-24T03:49:30]   study.unimelb.edu.au: DONE: 3000 pages → /Users/djmulholland/Documents/Claude/projects/unimelb-current-students-ia/crawl/study-unimelb-edu-au/
+[2026-06-24T03:49:30]   study.unimelb.edu.au: ============================================================
+[2026-06-24T03:49:30] COMPLETED: study.unimelb.edu.au → DONE
+[2026-06-24T03:49:32] 
+[15/18] services.unimelb.edu.au
+[2026-06-24T03:49:32]   Killing Chrome...
+[2026-06-24T03:49:35] STARTING: services.unimelb.edu.au → services-unimelb-edu-au/
+[2026-06-24T03:49:35]   services.unimelb.edu.au: ============================================================
+[2026-06-24T03:49:35]   services.unimelb.edu.au: CRAWL: services.unimelb.edu.au
+[2026-06-24T03:49:35]   services.unimelb.edu.au: ============================================================
+[2026-06-24T03:49:35]   services.unimelb.edu.au: Loaded 0 visited from index.json
+[2026-06-24T03:49:35]   services.unimelb.edu.au: Loaded frontier from index: high=0 low=0 (0 skipped)
+[2026-06-24T03:49:39]   services.unimelb.edu.au: Chrome launched with profile
+[2026-06-24T03:49:41]   services.unimelb.edu.au: Homepage: 6 internal links, 6 new (0 already visited)
+[2026-06-24T03:58:44]   services.unimelb.edu.au: ============================================================
+[2026-06-24T03:58:44]   services.unimelb.edu.au: DONE: 176 pages → /Users/djmulholland/Documents/Claude/projects/unimelb-current-students-ia/crawl/services-unimelb-edu-au/
+[2026-06-24T03:58:44]   services.unimelb.edu.au: ============================================================
+[2026-06-24T03:58:44] COMPLETED: services.unimelb.edu.au → DONE
+[2026-06-24T03:58:46] 
+[16/18] scholarships.unimelb.edu.au
+[2026-06-24T03:58:46]   Killing Chrome...
+[2026-06-24T03:58:49] STARTING: scholarships.unimelb.edu.au → scholarships-unimelb-edu-au/
+[2026-06-24T03:58:50]   scholarships.unimelb.edu.au: ============================================================
+[2026-06-24T03:58:50]   scholarships.unimelb.edu.au: CRAWL: scholarships.unimelb.edu.au
+[2026-06-24T03:58:50]   scholarships.unimelb.edu.au: ============================================================
+[2026-06-24T03:58:50]   scholarships.unimelb.edu.au: Loaded 0 visited from index.json
+[2026-06-24T03:58:50]   scholarships.unimelb.edu.au: Loaded frontier from index: high=0 low=0 (0 skipped)
+[2026-06-24T03:58:51]   scholarships.unimelb.edu.au: Chrome launched with profile
+[2026-06-24T03:58:52]   scholarships.unimelb.edu.au: Homepage: 32 internal links, 32 new (0 already visited)
+[2026-06-24T05:58:50]   scholarships.unimelb.edu.au [stderr]: FATAL: browserContext.close: Target page, context or browser has been closed
+[2026-06-24T05:58:50]   scholarships.unimelb.edu.au: Loaded 2226 visited from index.json
+[2026-06-24T05:58:50]   scholarships.unimelb.edu.au: Loaded frontier from index: high=0 low=0 (0 skipped)
+[2026-06-24T05:58:50]   scholarships.unimelb.edu.au: Loaded 2226 extra visited from checkpoint
+[2026-06-24T05:58:50]   scholarships.unimelb.edu.au: Loaded frontier from checkpoint: high=0 low=0 (0 skipped)
+[2026-06-24T05:58:50] COMPLETED: scholarships.unimelb.edu.au → ERROR(1)
+[2026-06-24T05:58:53] 
+[17/18] handbook.unimelb.edu.au
+[2026-06-24T05:58:53]   Killing Chrome...
+[2026-06-24T05:58:56] STARTING: handbook.unimelb.edu.au → handbook-unimelb-edu-au/
+[2026-06-24T05:58:56]   handbook.unimelb.edu.au: ============================================================
+[2026-06-24T05:58:56]   handbook.unimelb.edu.au: CRAWL: handbook.unimelb.edu.au
+[2026-06-24T05:58:56]   handbook.unimelb.edu.au: ============================================================
+[2026-06-24T05:58:56]   handbook.unimelb.edu.au: Loaded 0 visited from index.json
+[2026-06-24T05:58:56]   handbook.unimelb.edu.au: Loaded frontier from index: high=0 low=0 (0 skipped)
+[2026-06-24T05:58:58]   handbook.unimelb.edu.au: Chrome launched with profile
+[2026-06-24T05:59:00]   handbook.unimelb.edu.au: Homepage: 37 internal links, 37 new (0 already visited)
+[2026-06-24T08:08:25]   handbook.unimelb.edu.au [stderr]: FATAL: page.waitForTimeout: Target page, context or browser has been closed
+[2026-06-24T08:08:25]   handbook.unimelb.edu.au: Loaded 2650 visited from index.json
+[2026-06-24T08:08:25]   handbook.unimelb.edu.au: Loaded frontier from index: high=1519 low=0 (0 skipped)
+[2026-06-24T08:08:25]   handbook.unimelb.edu.au: Loaded 2650 extra visited from checkpoint
+[2026-06-24T08:08:25]   handbook.unimelb.edu.au: Loaded frontier from checkpoint: high=1519 low=0 (0 skipped)
+[2026-06-24T08:08:26] COMPLETED: handbook.unimelb.edu.au → ERROR(1)
+[2026-06-24T08:08:28] 
+[18/18] unimelb.edu.au --path-prefix=/alumni
+[2026-06-24T08:08:28]   Killing Chrome...
+[2026-06-24T08:13:30] STARTING: unimelb.edu.au --path-prefix=/alumni → unimelb-edu-au/
+[2026-06-24T08:13:30]   unimelb.edu.au: ============================================================
+[2026-06-24T08:13:30]   unimelb.edu.au: CRAWL: unimelb.edu.au/alumni
+[2026-06-24T08:13:30]   unimelb.edu.au: ============================================================
+[2026-06-24T08:13:30]   unimelb.edu.au: Loaded 0 visited from index.json
+[2026-06-24T08:13:30]   unimelb.edu.au: Loaded frontier from index: high=0 low=0 (0 skipped)
+[2026-06-24T08:13:34]   unimelb.edu.au: Chrome launched with profile
+[2026-06-24T08:13:48]   unimelb.edu.au: Homepage: 0 internal links, 0 new (0 already visited)
+[2026-06-24T08:13:48]   unimelb.edu.au: No new pages — coverage complete!
+[2026-06-24T08:13:48] COMPLETED: unimelb.edu.au → DONE
+[2026-06-24T08:13:50] 
+============================================================
+[2026-06-24T08:13:50] BATCH COMPLETE
+[2026-06-24T08:13:50]   Completed: 8  |  Skipped: 8  |  Failed: 2
+[2026-06-24T08:13:50] ============================================================
+[2026-06-24T10:36:22] 
+============================================================
+[2026-06-24T10:36:22] BATCH CRAWL STARTING — 18 domains
+[2026-06-24T10:36:22] ============================================================
+[2026-06-24T10:36:22] 
+[1/18] msd.unimelb.edu.au
+[2026-06-24T10:36:22]   SKIPPING — already complete
+[2026-06-24T10:36:22] 
+[2/18] arts.unimelb.edu.au
+[2026-06-24T10:36:22]   SKIPPING — already complete
+[2026-06-24T10:36:22] 
+[3/18] fbe.unimelb.edu.au
+[2026-06-24T10:36:22]   SKIPPING — already complete
+[2026-06-24T10:36:22] 
+[4/18] education.unimelb.edu.au
+[2026-06-24T10:36:22]   SKIPPING — already complete
+[2026-06-24T10:36:22] 
+[5/18] eng.unimelb.edu.au
+[2026-06-24T10:36:22]   SKIPPING — already complete
+[2026-06-24T10:36:22] 
+[6/18] finearts-music.unimelb.edu.au
+[2026-06-24T10:36:22]   SKIPPING — already complete
+[2026-06-24T10:36:22] 
+[7/18] law.unimelb.edu.au
+[2026-06-24T10:36:22]   SKIPPING — already complete
+[2026-06-24T10:36:22] 
+[8/18] medicine.unimelb.edu.au
+[2026-06-24T10:36:22]   SKIPPING — already complete
+[2026-06-24T10:36:22] 
+[9/18] mdhs.unimelb.edu.au
+[2026-06-24T10:36:22]   Killing Chrome...
+[2026-06-24T10:36:25] STARTING: mdhs.unimelb.edu.au → mdhs-unimelb-edu-au/
+[2026-06-24T10:36:25]   mdhs.unimelb.edu.au: ============================================================
+[2026-06-24T10:36:25]   mdhs.unimelb.edu.au: CRAWL: mdhs.unimelb.edu.au
+[2026-06-24T10:36:25]   mdhs.unimelb.edu.au: ============================================================
+[2026-06-24T10:36:25]   mdhs.unimelb.edu.au: Loaded 6000 visited from index.json
+[2026-06-24T10:36:25]   mdhs.unimelb.edu.au: Loaded frontier from index: high=62909 low=3 (0 skipped)
+[2026-06-24T10:36:25]   mdhs.unimelb.edu.au: Loaded 6000 extra visited from checkpoint
+[2026-06-24T10:36:25]   mdhs.unimelb.edu.au: Loaded frontier from checkpoint: high=62909 low=3 (0 skipped)
+[2026-06-24T10:36:28]   mdhs.unimelb.edu.au: Chrome launched with profile
+[2026-06-24T10:36:52] COMPLETED: mdhs.unimelb.edu.au → ERROR(null)
+[2026-06-24T10:36:54] 
+[10/18] science.unimelb.edu.au
+[2026-06-24T10:36:54]   SKIPPING — already complete
+[2026-06-24T10:36:54] 
+[11/18] mbs.unimelb.edu.au
+[2026-06-24T10:36:54]   SKIPPING — already complete
+[2026-06-24T10:36:54] 
+[12/18] biomedicalsciences.unimelb.edu.au
+[2026-06-24T10:36:54]   SKIPPING — already complete
+[2026-06-24T10:36:54] 
+[13/18] dental.unimelb.edu.au
+[2026-06-24T10:36:54]   SKIPPING — already complete
+[2026-06-24T10:36:54] 
+[14/18] study.unimelb.edu.au
+[2026-06-24T10:36:54]   Killing Chrome...
+[2026-06-24T10:36:57] STARTING: study.unimelb.edu.au → study-unimelb-edu-au/
+[2026-06-24T10:36:57]   study.unimelb.edu.au: ============================================================
+[2026-06-24T10:36:57]   study.unimelb.edu.au: CRAWL: study.unimelb.edu.au
+[2026-06-24T10:36:57]   study.unimelb.edu.au: ============================================================
+[2026-06-24T10:36:57]   study.unimelb.edu.au: Loaded 3000 visited from index.json
+[2026-06-24T10:36:57]   study.unimelb.edu.au: Loaded frontier from index: high=1051 low=15 (0 skipped)
+[2026-06-24T10:36:57]   study.unimelb.edu.au: Loaded 3000 extra visited from checkpoint
+[2026-06-24T10:36:57]   study.unimelb.edu.au: Loaded frontier from checkpoint: high=1051 low=15 (0 skipped)
+[2026-06-24T10:36:58]   study.unimelb.edu.au: Chrome launched with profile
+[2026-06-24T10:37:20] 
+============================================================
+[2026-06-24T10:37:20] BATCH CRAWL STARTING — 18 domains
+[2026-06-24T10:37:20] ============================================================
+[2026-06-24T10:37:20] 
+[1/18] msd.unimelb.edu.au
+[2026-06-24T10:37:20]   SKIPPING — already complete
+[2026-06-24T10:37:20] 
+[2/18] arts.unimelb.edu.au
+[2026-06-24T10:37:20]   SKIPPING — already complete
+[2026-06-24T10:37:20] 
+[3/18] fbe.unimelb.edu.au
+[2026-06-24T10:37:20]   SKIPPING — already complete
+[2026-06-24T10:37:20] 
+[4/18] education.unimelb.edu.au
+[2026-06-24T10:37:20]   SKIPPING — already complete
+[2026-06-24T10:37:20] 
+[5/18] eng.unimelb.edu.au
+[2026-06-24T10:37:20]   SKIPPING — already complete
+[2026-06-24T10:37:20] 
+[6/18] finearts-music.unimelb.edu.au
+[2026-06-24T10:37:20]   SKIPPING — already complete
+[2026-06-24T10:37:20] 
+[7/18] law.unimelb.edu.au
+[2026-06-24T10:37:20]   SKIPPING — already complete
+[2026-06-24T10:37:20] 
+[8/18] medicine.unimelb.edu.au
+[2026-06-24T10:37:20]   SKIPPING — already complete
+[2026-06-24T10:37:20] 
+[9/18] mdhs.unimelb.edu.au
+[2026-06-24T10:37:20]   Killing Chrome...
+[2026-06-24T10:37:20]   study.unimelb.edu.au [stderr]: FATAL: page.waitForTimeout: Target page, context or browser has been closed
+[2026-06-24T10:37:20]   study.unimelb.edu.au: Loaded 3000 visited from index.json
+[2026-06-24T10:37:20]   study.unimelb.edu.au: Loaded frontier from index: high=1051 low=15 (0 skipped)
+[2026-06-24T10:37:20]   study.unimelb.edu.au: Loaded 3000 extra visited from checkpoint
+[2026-06-24T10:37:20]   study.unimelb.edu.au: Loaded frontier from checkpoint: high=1051 low=15 (0 skipped)
+[2026-06-24T10:37:20] COMPLETED: study.unimelb.edu.au → ERROR(1)
+[2026-06-24T10:37:22] 
+[15/18] services.unimelb.edu.au
+[2026-06-24T10:37:22]   SKIPPING — already complete
+[2026-06-24T10:37:22] 
+[16/18] scholarships.unimelb.edu.au
+[2026-06-24T10:37:22]   SKIPPING — already complete
+[2026-06-24T10:37:22] 
+[17/18] handbook.unimelb.edu.au
+[2026-06-24T10:37:22]   Killing Chrome...
+[2026-06-24T10:37:23] STARTING: mdhs.unimelb.edu.au → mdhs-unimelb-edu-au/
+[2026-06-24T10:37:23]   mdhs.unimelb.edu.au: ============================================================
+[2026-06-24T10:37:23]   mdhs.unimelb.edu.au: CRAWL: mdhs.unimelb.edu.au
+[2026-06-24T10:37:23]   mdhs.unimelb.edu.au: ============================================================
+[2026-06-24T10:37:23]   mdhs.unimelb.edu.au: Loaded 6000 visited from index.json
+[2026-06-24T10:37:23]   mdhs.unimelb.edu.au: Loaded frontier from index: high=47 low=3 (62862 skipped)
+[2026-06-24T10:37:23]   mdhs.unimelb.edu.au: Loaded 6000 extra visited from checkpoint
+[2026-06-24T10:37:23]   mdhs.unimelb.edu.au: Loaded frontier from checkpoint: high=47 low=3 (62862 skipped)
+[2026-06-24T10:37:24]   mdhs.unimelb.edu.au: Chrome launched with profile
+[2026-06-24T10:37:25] STARTING: handbook.unimelb.edu.au → handbook-unimelb-edu-au/
+[2026-06-24T10:37:26]   handbook.unimelb.edu.au: ============================================================
+[2026-06-24T10:37:26]   handbook.unimelb.edu.au: CRAWL: handbook.unimelb.edu.au
+[2026-06-24T10:37:26]   handbook.unimelb.edu.au: ============================================================
+[2026-06-24T10:37:26]   handbook.unimelb.edu.au: Loaded 2650 visited from index.json
+[2026-06-24T10:37:26]   handbook.unimelb.edu.au: Loaded frontier from index: high=1519 low=0 (0 skipped)
+[2026-06-24T10:37:26]   handbook.unimelb.edu.au: Loaded 2650 extra visited from checkpoint
+[2026-06-24T10:37:26]   handbook.unimelb.edu.au: Loaded frontier from checkpoint: high=1519 low=0 (0 skipped)
+[2026-06-24T10:37:26]   handbook.unimelb.edu.au: Chrome profile failed: browserType.launchPersistentContext: Opening in existing browser session. This u
+[2026-06-24T10:38:20]   mdhs.unimelb.edu.au: ============================================================
+[2026-06-24T10:38:20]   mdhs.unimelb.edu.au: DONE: 6072 pages → /Users/djmulholland/Documents/Claude/projects/unimelb-current-students-ia/crawl/mdhs-unimelb-edu-au/
+[2026-06-24T10:38:20]   mdhs.unimelb.edu.au: ============================================================
+[2026-06-24T10:38:20] COMPLETED: mdhs.unimelb.edu.au → DONE
+[2026-06-24T10:38:22] 
+[10/18] science.unimelb.edu.au
+[2026-06-24T10:38:22]   SKIPPING — already complete
+[2026-06-24T10:38:22] 
+[11/18] mbs.unimelb.edu.au
+[2026-06-24T10:38:22]   SKIPPING — already complete
+[2026-06-24T10:38:22] 
+[12/18] biomedicalsciences.unimelb.edu.au
+[2026-06-24T10:38:22]   SKIPPING — already complete
+[2026-06-24T10:38:22] 
+[13/18] dental.unimelb.edu.au
+[2026-06-24T10:38:22]   SKIPPING — already complete
+[2026-06-24T10:38:22] 
+[14/18] study.unimelb.edu.au
+[2026-06-24T10:38:22]   Killing Chrome...
+[2026-06-24T10:38:25] STARTING: study.unimelb.edu.au → study-unimelb-edu-au/
+[2026-06-24T10:38:25]   study.unimelb.edu.au: ============================================================
+[2026-06-24T10:38:25]   study.unimelb.edu.au: CRAWL: study.unimelb.edu.au
+[2026-06-24T10:38:25]   study.unimelb.edu.au: ============================================================
+[2026-06-24T10:38:25]   study.unimelb.edu.au: Loaded 3000 visited from index.json
+[2026-06-24T10:38:25]   study.unimelb.edu.au: Loaded frontier from index: high=1032 low=15 (19 skipped)
+[2026-06-24T10:38:25]   study.unimelb.edu.au: Loaded 3000 extra visited from checkpoint
+[2026-06-24T10:38:25]   study.unimelb.edu.au: Loaded frontier from checkpoint: high=1032 low=15 (19 skipped)
+[2026-06-24T10:38:26]   study.unimelb.edu.au: Chrome launched with profile
+[2026-06-24T10:38:30] 
+============================================================
+[2026-06-24T10:38:30] BATCH CRAWL STARTING — 18 domains
+[2026-06-24T10:38:30] ============================================================
+[2026-06-24T10:38:30] 
+[1/18] msd.unimelb.edu.au
+[2026-06-24T10:38:30]   SKIPPING — already complete
+[2026-06-24T10:38:30] 
+[2/18] arts.unimelb.edu.au
+[2026-06-24T10:38:30]   SKIPPING — already complete
+[2026-06-24T10:38:30] 
+[3/18] fbe.unimelb.edu.au
+[2026-06-24T10:38:30]   SKIPPING — already complete
+[2026-06-24T10:38:30] 
+[4/18] education.unimelb.edu.au
+[2026-06-24T10:38:30]   SKIPPING — already complete
+[2026-06-24T10:38:30] 
+[5/18] eng.unimelb.edu.au
+[2026-06-24T10:38:30]   SKIPPING — already complete
+[2026-06-24T10:38:30] 
+[6/18] finearts-music.unimelb.edu.au
+[2026-06-24T10:38:30]   SKIPPING — already complete
+[2026-06-24T10:38:30] 
+[7/18] law.unimelb.edu.au
+[2026-06-24T10:38:30]   SKIPPING — already complete
+[2026-06-24T10:38:30] 
+[8/18] medicine.unimelb.edu.au
+[2026-06-24T10:38:30]   SKIPPING — already complete
+[2026-06-24T10:38:30] 
+[9/18] mdhs.unimelb.edu.au
+[2026-06-24T10:38:30]   SKIPPING — already complete
+[2026-06-24T10:38:30] 
+[10/18] science.unimelb.edu.au
+[2026-06-24T10:38:30]   SKIPPING — already complete
+[2026-06-24T10:38:30] 
+[11/18] mbs.unimelb.edu.au
+[2026-06-24T10:38:30]   SKIPPING — already complete
+[2026-06-24T10:38:30] 
+[12/18] biomedicalsciences.unimelb.edu.au
+[2026-06-24T10:38:30]   SKIPPING — already complete
+[2026-06-24T10:38:30] 
+[13/18] dental.unimelb.edu.au
+[2026-06-24T10:38:30]   SKIPPING — already complete
+[2026-06-24T10:38:30] 
+[14/18] study.unimelb.edu.au
+[2026-06-24T10:38:30]   Killing Chrome...
+[2026-06-24T10:38:31]   study.unimelb.edu.au: ============================================================
+[2026-06-24T10:38:31]   study.unimelb.edu.au: DONE: 4048 pages → /Users/djmulholland/Documents/Claude/projects/unimelb-current-students-ia/crawl/study-unimelb-edu-au/
+[2026-06-24T10:38:31]   study.unimelb.edu.au: ============================================================
+[2026-06-24T10:38:31] COMPLETED: study.unimelb.edu.au → DONE
+[2026-06-24T10:38:33] 
+[15/18] services.unimelb.edu.au
+[2026-06-24T10:38:33]   SKIPPING — already complete
+[2026-06-24T10:38:33] 
+[16/18] scholarships.unimelb.edu.au
+[2026-06-24T10:38:33]   SKIPPING — already complete
+[2026-06-24T10:38:33] 
+[17/18] handbook.unimelb.edu.au
+[2026-06-24T10:38:33]   Killing Chrome...
+[2026-06-24T10:38:33] STARTING: study.unimelb.edu.au → study-unimelb-edu-au/
+[2026-06-24T10:38:34]   study.unimelb.edu.au: ============================================================
+[2026-06-24T10:38:34]   study.unimelb.edu.au: CRAWL: study.unimelb.edu.au
+[2026-06-24T10:38:34]   study.unimelb.edu.au: ============================================================
+[2026-06-24T10:38:34]   study.unimelb.edu.au: Loaded 4048 visited from index.json
+[2026-06-24T10:38:34]   study.unimelb.edu.au: Loaded frontier from index: high=0 low=0 (0 skipped)
+[2026-06-24T10:38:34]   study.unimelb.edu.au: Loaded 4048 extra visited from checkpoint
+[2026-06-24T10:38:34]   study.unimelb.edu.au: Loaded frontier from checkpoint: high=0 low=0 (0 skipped)
+[2026-06-24T10:38:36]   study.unimelb.edu.au: Chrome launched with profile
+[2026-06-24T10:38:36] STARTING: handbook.unimelb.edu.au → handbook-unimelb-edu-au/
+[2026-06-24T10:38:36]   study.unimelb.edu.au: Homepage: 36 internal links, 0 new (4048 already visited)
+[2026-06-24T10:38:36]   study.unimelb.edu.au: No new pages — coverage complete!
+[2026-06-24T10:38:36]   handbook.unimelb.edu.au: ============================================================
+[2026-06-24T10:38:36]   handbook.unimelb.edu.au: CRAWL: handbook.unimelb.edu.au
+[2026-06-24T10:38:36]   handbook.unimelb.edu.au: ============================================================
+[2026-06-24T10:38:36]   handbook.unimelb.edu.au: Loaded 2700 visited from index.json
+[2026-06-24T10:38:36]   handbook.unimelb.edu.au: Loaded frontier from index: high=1469 low=0 (0 skipped)
+[2026-06-24T10:38:36]   handbook.unimelb.edu.au: Loaded 2700 extra visited from checkpoint
+[2026-06-24T10:38:36]   handbook.unimelb.edu.au: Loaded frontier from checkpoint: high=1469 low=0 (0 skipped)
+[2026-06-24T10:38:37]   handbook.unimelb.edu.au: Chrome launched with profile
+[2026-06-24T10:38:38] COMPLETED: study.unimelb.edu.au → DONE
+[2026-06-24T10:38:38]   handbook.unimelb.edu.au [stderr]: FATAL: page.waitForTimeout: Target page, context or browser has been closed
+[2026-06-24T10:38:38]   handbook.unimelb.edu.au: Loaded 2700 visited from index.json
+[2026-06-24T10:38:38]   handbook.unimelb.edu.au: Loaded frontier from index: high=1469 low=0 (0 skipped)
+[2026-06-24T10:38:38]   handbook.unimelb.edu.au: Loaded 2700 extra visited from checkpoint
+[2026-06-24T10:38:38]   handbook.unimelb.edu.au: Loaded frontier from checkpoint: high=1469 low=0 (0 skipped)
+[2026-06-24T10:38:38] COMPLETED: handbook.unimelb.edu.au → ERROR(1)
+[2026-06-24T10:38:40] 
+[15/18] services.unimelb.edu.au
+[2026-06-24T10:38:40]   SKIPPING — already complete
+[2026-06-24T10:38:40] 
+[16/18] scholarships.unimelb.edu.au
+[2026-06-24T10:38:40]   SKIPPING — already complete
+[2026-06-24T10:38:40] 
+[17/18] handbook.unimelb.edu.au
+[2026-06-24T10:38:40]   Killing Chrome...
+[2026-06-24T10:38:40] 
+[18/18] unimelb.edu.au --path-prefix=/alumni
+[2026-06-24T10:38:40]   Killing Chrome...
+[2026-06-24T10:38:43] STARTING: handbook.unimelb.edu.au → handbook-unimelb-edu-au/
+[2026-06-24T10:38:43]   handbook.unimelb.edu.au: ============================================================
+[2026-06-24T10:38:43]   handbook.unimelb.edu.au: CRAWL: handbook.unimelb.edu.au
+[2026-06-24T10:38:43]   handbook.unimelb.edu.au: ============================================================
+[2026-06-24T10:38:43]   handbook.unimelb.edu.au: Loaded 2700 visited from index.json
+[2026-06-24T10:38:43]   handbook.unimelb.edu.au: Loaded frontier from index: high=1469 low=0 (0 skipped)
+[2026-06-24T10:38:43]   handbook.unimelb.edu.au: Loaded 2700 extra visited from checkpoint
+[2026-06-24T10:38:43]   handbook.unimelb.edu.au: Loaded frontier from checkpoint: high=1469 low=0 (0 skipped)
+[2026-06-24T10:38:43] STARTING: unimelb.edu.au --path-prefix=/alumni → unimelb-edu-au/
+[2026-06-24T10:38:43]   unimelb.edu.au: ============================================================
+[2026-06-24T10:38:43]   unimelb.edu.au: CRAWL: unimelb.edu.au/alumni
+[2026-06-24T10:38:43]   unimelb.edu.au: ============================================================
+[2026-06-24T10:38:43]   unimelb.edu.au: Loaded 0 visited from index.json
+[2026-06-24T10:38:43]   unimelb.edu.au: Loaded frontier from index: high=0 low=0 (0 skipped)
+[2026-06-24T10:38:44]   unimelb.edu.au: Chrome profile failed: browserType.launchPersistentContext: Opening in existing browser session. This u
+[2026-06-24T10:38:44]   handbook.unimelb.edu.au: Chrome launched with profile
+[2026-06-24T10:38:45]   unimelb.edu.au: Start page (https://unimelb.edu.au/alumni): "Just a moment..." ✗ (Cloudflare)
+[2026-06-24T10:38:45]   unimelb.edu.au: Cloudflare blocking — cannot crawl. Exiting.
+[2026-06-24T10:38:45] COMPLETED: unimelb.edu.au → SKIPPED (CF)
+[2026-06-24T10:38:45]   handbook.unimelb.edu.au [stderr]: FATAL: page.waitForTimeout: Target page, context or browser has been closed
+[2026-06-24T10:38:45]   handbook.unimelb.edu.au: Loaded 2700 visited from index.json
+[2026-06-24T10:38:45]   handbook.unimelb.edu.au: Loaded frontier from index: high=1469 low=0 (0 skipped)
+[2026-06-24T10:38:45]   handbook.unimelb.edu.au: Loaded 2700 extra visited from checkpoint
+[2026-06-24T10:38:45]   handbook.unimelb.edu.au: Loaded frontier from checkpoint: high=1469 low=0 (0 skipped)
+[2026-06-24T10:38:45] COMPLETED: handbook.unimelb.edu.au → ERROR(1)
+[2026-06-24T10:38:47] 
+============================================================
+[2026-06-24T10:38:47] BATCH COMPLETE
+[2026-06-24T10:38:47]   Completed: 2  |  Skipped: 15  |  Failed: 1
+[2026-06-24T10:38:47] ============================================================
+[2026-06-24T10:38:47] 
+[18/18] unimelb.edu.au --path-prefix=/alumni
+[2026-06-24T10:38:47]   Killing Chrome...
+[2026-06-24T10:38:50] STARTING: unimelb.edu.au --path-prefix=/alumni → unimelb-edu-au/
+[2026-06-24T10:38:51]   unimelb.edu.au: ============================================================
+[2026-06-24T10:38:51]   unimelb.edu.au: CRAWL: unimelb.edu.au/alumni
+[2026-06-24T10:38:51]   unimelb.edu.au: ============================================================
+[2026-06-24T10:38:51]   unimelb.edu.au: Loaded 0 visited from index.json
+[2026-06-24T10:38:51]   unimelb.edu.au: Loaded frontier from index: high=0 low=0 (0 skipped)
+[2026-06-24T10:38:51]   unimelb.edu.au: Chrome launched with profile
+[2026-06-24T10:38:54]   unimelb.edu.au: Homepage: 0 internal links, 0 new (0 already visited)
+[2026-06-24T10:38:54]   unimelb.edu.au: No new pages — coverage complete!
+[2026-06-24T10:38:54] COMPLETED: unimelb.edu.au → DONE
+[2026-06-24T10:38:56] 
+============================================================
+[2026-06-24T10:38:56] BATCH COMPLETE
+[2026-06-24T10:38:56]   Completed: 2  |  Skipped: 15  |  Failed: 1
+[2026-06-24T10:38:56] ============================================================
+[2026-06-24T10:47:36] COMPLETED: handbook.unimelb.edu.au → ERROR(null)
+[2026-06-24T10:47:38] 
+[18/18] unimelb.edu.au --path-prefix=/alumni
+[2026-06-24T10:47:38]   Killing Chrome...
+[2026-06-24T10:47:41] STARTING: unimelb.edu.au --path-prefix=/alumni → unimelb-edu-au/
+[2026-06-24T10:47:41]   unimelb.edu.au: ============================================================
+[2026-06-24T10:47:41]   unimelb.edu.au: CRAWL: unimelb.edu.au/alumni
+[2026-06-24T10:47:41]   unimelb.edu.au: ============================================================
+[2026-06-24T10:47:41]   unimelb.edu.au: Loaded 0 visited from index.json
+[2026-06-24T10:47:41]   unimelb.edu.au: Loaded frontier from index: high=0 low=0 (0 skipped)
+[2026-06-24T10:47:43]   unimelb.edu.au: Chrome launched with profile
+[2026-06-24T10:47:44]   unimelb.edu.au: Homepage: 0 internal links, 0 new (0 already visited)
+[2026-06-24T10:47:44]   unimelb.edu.au: No new pages — coverage complete!
+[2026-06-24T10:47:45] COMPLETED: unimelb.edu.au → DONE
+[2026-06-24T10:47:47] 
+============================================================
+[2026-06-24T10:47:47] BATCH COMPLETE
+[2026-06-24T10:47:47]   Completed: 1  |  Skipped: 14  |  Failed: 3
+[2026-06-24T10:47:47] ============================================================
+
+============================================================
+CRAWL: handbook.unimelb.edu.au
+Output: /Users/djmulholland/Documents/Claude/projects/unimelb-current-students-ia/crawl/handbook-unimelb-edu-au
+Max: 5000 pages
+============================================================
+Loaded 3000 visited from index.json
+Loaded frontier from index: high=1169 low=0 (0 skipped)
+Loaded 3000 extra visited from checkpoint
+Loaded frontier from checkpoint: high=1169 low=0 (0 skipped)
+Chrome launched with profile
+Start page (https://handbook.unimelb.edu.au/): "Search — The University of Melbourne Handbook" ✓
+Resuming: 1169 frontier URLs (1169 content + 0 news), 3000 visited
+Crawling: 1169 in frontier (1169 content + 0 news), 3000 visited
+  [1/3001 | q:1168 h:1168 l:0] /2026/subjects/chin10006 (889b) [cached]
+  [2/3002 | q:1167 h:1167 l:0] /2026/subjects/chin10019 (890b) [cached]
+  [3/3003 | q:1166 h:1166 l:0] /2026/subjects/chin10016 (889b) [cached]
+  [4/3004 | q:1165 h:1165 l:0] /2026/subjects/chin10003 (889b) [cached]
+  [5/3005 | q:1164 h:1164 l:0] /2026/subjects/chin10015 (890b) [cached]
+  [6/3006 | q:1163 h:1163 l:0] /2026/subjects/chin10018 (889b) [cached]
+  [7/3007 | q:1162 h:1162 l:0] /2026/subjects/chin10009 (889b) [cached]
+  [8/3008 | q:1161 h:1161 l:0] /2026/subjects/chin10001 (889b) [cached]
+  [9/3009 | q:1160 h:1160 l:0] /2026/subjects/chin10002 (889b) [cached]
+  [10/3010 | q:1159 h:1159 l:0] /2026/subjects/chin10004 (889b) [cached]
+  [11/3011 | q:1158 h:1158 l:0] /2026/subjects/chin20001 (889b) [cached]
+  [12/3012 | q:1157 h:1157 l:0] /2026/subjects/chin20004 (889b) [cached]
+  [13/3013 | q:1156 h:1156 l:0] /2026/subjects/chin20006 (889b) [cached]
+  [14/3014 | q:1155 h:1155 l:0] /2026/subjects/chin20007 (889b) [cached]
+  [15/3015 | q:1154 h:1154 l:0] /2026/subjects/chin20022 (889b)
+  [16/3016 | q:1153 h:1153 l:0] /2026/subjects/chin20021 (889b)
+  [17/3017 | q:1152 h:1152 l:0] /2026/subjects/chin20009 (889b)
+  [18/3018 | q:1151 h:1151 l:0] /2026/subjects/chin20013 (889b)
+  [19/3019 | q:1150 h:1150 l:0] /2026/subjects/chin20012 (889b)
+  [20/3020 | q:1149 h:1149 l:0] /2026/subjects/chin20016 (889b)
+  [21/3021 | q:1148 h:1148 l:0] /2026/subjects/chin20008 (889b)
+  [22/3022 | q:1147 h:1147 l:0] /2026/subjects/chin20002 (887b)
+  [23/3023 | q:1146 h:1146 l:0] /2026/subjects/chin20026 (889b)
+  [24/3024 | q:1145 h:1145 l:0] /2026/subjects/chin20028 (889b)
+  [25/3025 | q:1144 h:1144 l:0] /2026/subjects/chin30029 (886b)
+  [26/3026 | q:1143 h:1143 l:0] /2026/subjects/chin30030 (889b)
+  [27/3027 | q:1142 h:1142 l:0] /2026/subjects/chin30026 (889b)
+  [28/3028 | q:1141 h:1141 l:0] /2026/subjects/chin30027 (889b)
+  [29/3029 | q:1140 h:1140 l:0] /2026/subjects/chin30008 (889b)
+  [30/3030 | q:1139 h:1139 l:0] /2026/subjects/chin30011 (889b)
+  [31/3031 | q:1138 h:1138 l:0] /2026/subjects/chin30028 (887b)
+  [32/3032 | q:1137 h:1137 l:0] /2026/subjects/chin30002 (887b)
+  [33/3033 | q:1136 h:1136 l:0] /2026/subjects/chin30009 (889b)
+  [34/3034 | q:1135 h:1135 l:0] /2026/subjects/chin30018 (889b)
+  [35/3035 | q:1134 h:1134 l:0] /2026/subjects/chin30006 (889b)
+  [36/3036 | q:1133 h:1133 l:0] /2026/subjects/chin30025 (889b)
+  [37/3037 | q:1132 h:1132 l:0] /2026/subjects/chin30003 (889b)
+  [38/3038 | q:1131 h:1131 l:0] /2026/subjects/clas10005 (889b)
+  [39/3039 | q:1130 h:1130 l:0] /2026/subjects/clas10012 (889b)
+  [40/3040 | q:1129 h:1129 l:0] /2026/subjects/clas10006 (889b)
+  [41/3041 | q:1128 h:1128 l:0] /2026/subjects/clas10004 (886b)
+  [42/3042 | q:1127 h:1127 l:0] /2026/subjects/clas10020 (887b)
+  [43/3043 | q:1126 h:1126 l:0] /2026/subjects/clas10007 (889b)
+  [44/3044 | q:1125 h:1125 l:0] /2026/subjects/clas10014 (889b)
+  [45/3045 | q:1124 h:1124 l:0] /2026/subjects/clas20035 (889b)
+  [46/3046 | q:1123 h:1123 l:0] /2026/subjects/clas20015 (889b)
+  [47/3047 | q:1122 h:1122 l:0] /2026/subjects/clas20016 (889b)
+  [48/3048 | q:1121 h:1121 l:0] /2026/subjects/clas20026 (889b)
+  [49/3049 | q:1120 h:1120 l:0] /2026/subjects/clas20014 (887b)
+  [50/3050 | q:1119 h:1119 l:0] /2026/subjects/clas20030 (889b)
+  [51/3051 | q:1118 h:1118 l:0] /2026/subjects/clas20031 (889b)
+  [52/3052 | q:1117 h:1117 l:0] /2026/subjects/clas20029 (889b)
+  [53/3053 | q:1116 h:1116 l:0] /2026/subjects/clas20013 (889b)
+  [54/3054 | q:1115 h:1115 l:0] /2026/subjects/clas20021 (889b)
+  [55/3055 | q:1114 h:1114 l:0] /2026/subjects/clas30047 (889b)
+  [56/3056 | q:1113 h:1113 l:0] /2026/subjects/clas30046 (889b)
+  [57/3057 | q:1112 h:1112 l:0] /2026/subjects/clas30024 (889b)
+  [58/3058 | q:1111 h:1111 l:0] /2026/subjects/clas30009 (889b)
+  [59/3059 | q:1110 h:1110 l:0] /2026/subjects/clas30025 (889b)
+  [60/3060 | q:1109 h:1109 l:0] /2026/subjects/clas30004 (889b)
+
+============================================================
+DONE: 4169 pages → /Users/djmulholland/Documents/Claude/projects/unimelb-current-students-ia/crawl/handbook-unimelb-edu-au/
+Frontier remaining: 0 (0 content + 0 news)
+============================================================

@@ -1,0 +1,141 @@
+=== Current Students IA Project ===
+
+## Structure
+.
+./.DS_Store
+./.claude
+./.claude/.session_context.txt
+./.claude/PHASE_DECOMPOSITION.md
+./.claude/scripts
+./.git
+./.gitignore
+./.hermes
+./.hermes/desktop-attachments
+./CLAUDE.md
+./README.md
+./RESUME.md
+./analysis
+./analysis/_four-journeys-partial.json
+./analysis/careers-employability-wil.md
+./analysis/course-planning-enrolment.md
+./analysis/cross-site-overlap.md
+./analysis/data-and-synthesis-issues.md
+./analysis/full-faculty-context.md
+./analysis/full-scrape
+./analysis/improvements
+./analysis/improvements-register.md
+./analysis/international-experience-profiles.json
+./analysis/international-student-experience.md
+./analysis/lifecycle-cross-corpus.md
+./analysis/lifecycle-journeys.md
+./analysis/lifecycle-traces.json
+./analysis/prospective-experience-profiles.json
+./analysis/prospective-student-experience.md
+./analysis/service-model-matrix.md
+./analysis/structural-findings.md
+./analysis/student-services-fragmentation.md
+./analysis/student-services-profiles.json
+./analysis/topic-deepdives
+./analysis/unit-abp.md
+./analysis/unit-alumni-unimelb.md
+./analysis/unit-arts.md
+./analysis/unit-education.md
+./analysis/unit-fbe.md
+./analysis/unit-feit.md
+./analysis/unit-ffam.md
+./analysis/unit-law.md
+./analysis/unit-mdhs.md
+./analysis/unit-science.md
+./analysis/unit-study-unimelb.md
+./crawl
+./crawl/CRAWL_SPEC.md
+./crawl/_process_alumni_unimelb.py
+./crawl/_process_mbs.py
+
+## Crawl data
+crawl/ — domain crawlers and batch scripts
+  crawl/arts-unimelb-edu-au/ — 6098 files
+  crawl/biomedicalsciences-unimelb-edu-au/ — 4754 files
+  crawl/dental-unimelb-edu-au/ — 614 files
+  crawl/education-unimelb-edu-au/ — 2552 files
+  crawl/eng-unimelb-edu-au/ — 5279 files
+  crawl/fbe-unimelb-edu-au/ — 5942 files
+  crawl/finearts-music-unimelb-edu-au/ — 3773 files
+  crawl/full-faculty/ — 2624 files
+  crawl/handbook-unimelb-edu-au/ — 6542 files
+  crawl/law-unimelb-edu-au/ — 6104 files
+  crawl/mbs-unimelb-edu-au/ — 251 files
+  crawl/mdhs-unimelb-edu-au/ — 10562 files
+  crawl/medicine-unimelb-edu-au/ — 6584 files
+  crawl/msd-unimelb-edu-au/ — 4682 files
+  crawl/pages/ — 53 files
+  crawl/raw/ — 3 files
+  crawl/research-full/ — 1987 files
+  crawl/scholarships-unimelb-edu-au/ — 6455 files
+  crawl/science-unimelb-edu-au/ — 443 files
+  crawl/services-unimelb-edu-au/ — 530 files
+  crawl/students-full/ — 2500 files
+  crawl/study-unimelb-edu-au/ — 6017 files
+  crawl/unimelb-edu-au/ — 1 files
+  crawl/www-unimelb-edu-au-alumni/ — 413 files
+
+## Analysis files
+analysis/careers-employability-wil.md
+analysis/course-planning-enrolment.md
+analysis/cross-site-overlap.md
+analysis/data-and-synthesis-issues.md
+analysis/full-faculty-context.md
+analysis/improvements-register.md
+analysis/international-student-experience.md
+analysis/lifecycle-cross-corpus.md
+analysis/lifecycle-journeys.md
+analysis/prospective-student-experience.md
+analysis/service-model-matrix.md
+analysis/structural-findings.md
+analysis/student-services-fragmentation.md
+analysis/unit-abp.md
+analysis/unit-alumni-unimelb.md
+
+## Key commands
+  node crawl/crawl_domain.js <url>     — crawl a domain
+  node crawl/crawl_batch.js            — batch crawl
+  python3 analysis/...                 — analysis scripts
+
+## Git status
+ D discussion-deck/Current-Students-EndToEnd-Discussion-v3.pptx
+ M state/frontier.json
+ M state/progress.md
+?? .claude/
+?? .hermes/desktop-attachments/726230988_1516280003843200_4492177823775165712_n.jpg
+?? .hermes/desktop-attachments/729499479_1757872038958766_1478331133253848444_n.jpg
+?? CLAUDE.md
+?? RESUME.md
+?? analysis/_four-journeys-partial.json
+?? crawl/batch_log.txt
+?? crawl/crawl_backlog.sh
+?? crawl/crawl_batch.js
+?? crawl/crawl_domain.js
+?? crawl/crawl_research.js
+?? crawl/crawl_research_full.js
+
+=== Git Status ===
+ D discussion-deck/Current-Students-EndToEnd-Discussion-v3.pptx
+ M state/frontier.json
+ M state/progress.md
+?? .claude/
+?? .hermes/desktop-attachments/726230988_1516280003843200_4492177823775165712_n.jpg
+?? .hermes/desktop-attachments/729499479_1757872038958766_1478331133253848444_n.jpg
+?? CLAUDE.md
+?? RESUME.md
+?? analysis/_four-journeys-partial.json
+?? crawl/batch_log.txt
+?? crawl/crawl_backlog.sh
+?? crawl/crawl_batch.js
+?? crawl/crawl_domain.js
+?? crawl/crawl_research.js
+?? crawl/crawl_research_full.js
+?? crawl/crawl_students_full.js
+?? crawl/crawl_students_resume.js
+?? crawl/full-faculty/research.json
+?? journey/export_theydo.js
+?? report/_build_deck.js

@@ -1,17 +1,35 @@
 {
-  "note": "Phase 2 crawl complete. 4 faculties fully crawled (584 pages), 5 faculties + hub captured at root/IA level. All in-scope CS roots visited.",
-  "updatedAt": "2026-06-15",
-  "roots": [
-    { "url": "https://msd.unimelb.edu.au/current-students", "unitSlug": "abp", "faculty": "ABP", "status": "root-captured" },
-    { "url": "https://arts.unimelb.edu.au/students", "unitSlug": "arts", "faculty": "Arts", "status": "full-bfs" },
-    { "url": "https://fbe.unimelb.edu.au/students", "unitSlug": "fbe", "faculty": "FBE", "status": "root-captured" },
-    { "url": "https://education.unimelb.edu.au/study/current-students", "unitSlug": "education", "faculty": "Education", "status": "root-captured" },
-    { "url": "https://eng.unimelb.edu.au/students", "unitSlug": "feit", "faculty": "FEIT", "status": "full-bfs" },
-    { "url": "https://finearts-music.unimelb.edu.au/current-students", "unitSlug": "ffam", "faculty": "FFAM", "status": "root-captured" },
-    { "url": "https://law.unimelb.edu.au/students", "unitSlug": "law", "faculty": "Law", "status": "full-bfs" },
-    { "url": "https://mdhs.unimelb.edu.au/study/current-students", "unitSlug": "mdhs", "faculty": "MDHS", "status": "root-captured" },
-    { "url": "https://science.unimelb.edu.au/students", "unitSlug": "science", "faculty": "Science", "status": "full-bfs" },
-    { "url": "https://students.unimelb.edu.au/", "unitSlug": "students-hub", "faculty": "Central", "status": "ia-captured" }
+  "note": "Full-domain crawl batch COMPLETE. As of 2026-06-27 ALL 20 units report frontierRemaining=0. Handbook's 1,169-URL tail (mostly /2026/subjects/<code> catalog leaves) was drained with MAX_PAGES raised 3000->5000, finishing at 4,169 pages. Source of truth is each crawl/<dir>/index.json, not this file. Re-run any single unit: node crawl/crawl_domain.js <domain> crawl/<dir> <max-pages>",
+  "updatedAt": "2026-06-27T00:24:00",
+  "units": [
+    { "dir": "mdhs-unimelb-edu-au", "domain": "mdhs.unimelb.edu.au", "pages": 6072, "frontier": 0, "status": "complete-full-html" },
+    { "dir": "study-unimelb-edu-au", "domain": "study.unimelb.edu.au", "pages": 4048, "frontier": 0, "status": "complete-full-html" },
+    { "dir": "medicine-unimelb-edu-au", "domain": "medicine.unimelb.edu.au", "pages": 3213, "frontier": 0, "status": "complete-full-html" },
+    { "dir": "law-unimelb-edu-au", "domain": "law.unimelb.edu.au", "pages": 3188, "frontier": 0, "status": "complete-full-html" },
+    { "dir": "handbook-unimelb-edu-au", "domain": "handbook.unimelb.edu.au", "pages": 4169, "frontier": 0, "status": "complete-full-html", "note": "1,169-URL tail (mostly /2026/subjects/<code> catalog pages) drained 2026-06-27 with MAX raised 3000->5000" },
+    { "dir": "arts-unimelb-edu-au", "domain": "arts.unimelb.edu.au", "pages": 2446, "frontier": 0, "status": "complete-full-html" },
+    { "dir": "msd-unimelb-edu-au", "domain": "msd.unimelb.edu.au", "pages": 2348, "frontier": 0, "status": "complete-full-html" },
+    { "dir": "fbe-unimelb-edu-au", "domain": "fbe.unimelb.edu.au", "pages": 2241, "frontier": 0, "status": "complete-full-html" },
+    { "dir": "scholarships-unimelb-edu-au", "domain": "scholarships.unimelb.edu.au", "pages": 2226, "frontier": 0, "status": "complete-full-html" },
+    { "dir": "eng-unimelb-edu-au", "domain": "eng.unimelb.edu.au", "pages": 1985, "frontier": 0, "status": "complete-full-html" },
+    { "dir": "biomedicalsciences-unimelb-edu-au", "domain": "biomedicalsciences.unimelb.edu.au", "pages": 1584, "frontier": 0, "status": "complete-full-html" },
+    { "dir": "finearts-music-unimelb-edu-au", "domain": "finearts-music.unimelb.edu.au", "pages": 1444, "frontier": 0, "status": "complete-full-html" },
+    { "dir": "education-unimelb-edu-au", "domain": "education.unimelb.edu.au", "pages": 852, "frontier": 0, "status": "complete-full-html" },
+    { "dir": "students-full", "domain": "students.unimelb.edu.au", "pages": 833, "frontier": 0, "status": "complete-full-html" },
+    { "dir": "research-full", "domain": "research.unimelb.edu.au", "pages": 662, "frontier": 0, "status": "complete-full-html" },
+    { "dir": "science-unimelb-edu-au", "domain": "science.unimelb.edu.au", "pages": 420, "frontier": 0, "status": "complete-full-html" },
+    { "dir": "dental-unimelb-edu-au", "domain": "dental.unimelb.edu.au", "pages": 204, "frontier": 0, "status": "complete-full-html" },
+    { "dir": "services-unimelb-edu-au", "domain": "services.unimelb.edu.au", "pages": 176, "frontier": 0, "status": "complete-full-html" },
+    { "dir": "www-unimelb-edu-au-alumni", "domain": "www.unimelb.edu.au/alumni", "pages": 137, "frontier": 0, "status": "complete-full-html", "note": "path-scoped /alumni; apex unimelb.edu.au redirects to www., so content landed here" },
+    { "dir": "mbs-unimelb-edu-au", "domain": "mbs.unimelb.edu.au", "pages": 83, "frontier": 0, "status": "complete-full-html" },
+    { "dir": "unimelb-edu-au", "domain": "unimelb.edu.au", "pages": 0, "frontier": 0, "status": "redirect-stub", "note": "Empty artifact of the --path-prefix=/alumni run; apex redirects to www. Real alumni content is in www-unimelb-edu-au-alumni." }
   ],
-  "queue": []
+  "totals": {
+    "pagesComplete": 38331,
+    "unitsComplete": 20,
+    "unitsDraining": 0,
+    "unitsRedirectStub": 1,
+    "pageHtmlFilesOnDisk": 27348,
+    "diskUsage": "5.0G"
+  }
 }

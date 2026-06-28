@@ -5,6 +5,7 @@ Resume rule: reload `frontier.json` + `visited.json`, continue BFS until every u
 ## Checkpoint log
 | When | Phase | Event |
 |------|-------|-------|
+| 2026-06-22 | 2+ | **students.unimelb.edu.au FULL coverage confirmed.** Enhanced re-scan (shadow DOM, data-href, Chrome profile) of homepage found all 13 internal links already in the 833 visited set. 0 new pages. BFS coverage is complete. Playwright `launchPersistentContext` + Chrome profile bypassed Cloudflare. 100% of 833 pages have full page.html + links.json + meta.json artifacts. |
 | 2026-06-15 | 0 | Scaffolded output tree + state files + README. |
 | 2026-06-15 | 1 | Wrote `data/unit-registry.csv` (43 units + hub). |
 | 2026-06-15 | 1 | Probed ALL 43 units for CS sections (8-wide parallel browser tabs). See `analysis/phase1-findings.md`. |
@@ -28,14 +29,17 @@ Resume rule: reload `frontier.json` + `visited.json`, continue BFS until every u
 | feit | 204 | full BFS | complete |
 | arts | 91 | full BFS | complete |
 | science | 94 | full BFS | complete |
-| abp | ~35-50 est | root + IA | summary written |
-| fbe | ~15-25 est | root + MBS subdomain | summary written |
-| education | ~30-45 est | root + IA | summary written |
-| ffam | ~30-50 est | root only | summary written |
-| mdhs | ~20-40 est | root + biomedical school | summary written |
-| students-hub | ~4 sections | root + 4 section pages | IA written |
+| abp | 250 | full BFS | complete |
+| fbe | 36 | full BFS | complete |
+| education | 47 | full BFS | complete |
+| ffam | 37 | full BFS | complete |
+| mdhs | 112 | full BFS | complete |
+| mbs | 61 | full BFS | complete |
+| biomedical | 42 | full BFS | complete |
+| dental | 4 | full BFS | complete |
+| students-hub | 833 | full BFS + enhanced re-scan | complete — 0 new pages found on enhanced re-scan (2026-06-22) |
 
-**Total: 584 fully crawled + ~160-250 estimated from root captures = ~750-850 CS pages across the university.**
+**Total: 2,006 pages across all units (833 hub + 1,173 faculties/schools).**
 
 ## Skipped / auth-gated URLs
 | url | reason |
@@ -62,3 +66,9 @@ Browser-based crawling (Browser Use / Browserbase) blocked by Cloudflare on all 
 - Topic deep-dives: multi-agent workflow writing 16 individual notes + 1 consolidated "transactional-admin" note (enrolment/exams/special-con/fees/library) in analysis/topic-deepdives/. (In flight.)
 - Topic deep-dives COMPLETE: 18 notes (17 via workflow + course-planning) + README index in analysis/topic-deepdives/. Superseded student-life-wellbeing.md removed.
 - Meta-finding: topic counts are inflated by classifier artifacts (MSD studio archive; FEIT /orientation + /it path-nesting; Law GRD bios; international=outbound, graduation=HDR-lifecycle mislabels) — documented in the README; notes correct for it.
+
+## Update — full-domain crawl batch FINISHED (2026-06-27)
+- Picked up the paused batch. The state files (RESUME.md / frontier.json) were stale from 2026-06-22; the batch had in fact run on through 2026-06-24, completing every queued domain. Reconciled all state from the per-unit `crawl/<dir>/index.json` (source of truth: `pagesCrawled` + `frontierRemaining`).
+- Only genuinely-incomplete unit was **handbook.unimelb.edu.au** — capped at MAX_PAGES=3000 with 1,169 frontier URLs remaining (overwhelmingly individual `/2026/subjects/<code>` catalog leaves). Resumed it with the cap raised to 5000; it drained the full frontier to **4,169 pages, frontierRemaining=0**, then exited cleanly.
+- The `--path-prefix=/alumni` run's real content (137 pages) lives in `crawl/www-unimelb-edu-au-alumni/` (apex `unimelb.edu.au` 301s to `www.`); the empty `crawl/unimelb-edu-au/` dir is just a redirect stub.
+- **FINAL: every one of the 20 units is at frontierRemaining=0 — 38,331 pages crawled, 27,348 `page.html` artifacts on disk (5.0 GB). Crawl phase complete; nothing left in any frontier.**
