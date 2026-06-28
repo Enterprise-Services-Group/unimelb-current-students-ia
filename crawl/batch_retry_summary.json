@@ -1,0 +1,68 @@
+[
+  {
+    "domain": "murrupbarak.unimelb.edu.au",
+    "elapsed": 1,
+    "status": "failed",
+    "error": "Command failed: node /Users/djmulholland/Documents/Claude/projects/unimelb-current-students-ia/crawl/crawl_domain.js murrupbarak.unimelb.edu.au /Users/djmulholland/Documents/Claude/projects/unimelb-current-students-ia/crawl/murrupbarak-unimelb-edu-au 1000"
+  },
+  {
+    "domain": "safercommunity.unimelb.edu.au",
+    "elapsed": 1,
+    "status": "failed",
+    "error": "Command failed: node /Users/djmulholland/Documents/Claude/projects/unimelb-current-students-ia/crawl/crawl_domain.js safercommunity.unimelb.edu.au /Users/djmulholland/Documents/Claude/projects/unimelb-current-students-ia/crawl/safercommunity-unimelb-edu-au 500"
+  },
+  {
+    "domain": "studyos.students.unimelb.edu.au",
+    "pages": 0,
+    "elapsed": 1,
+    "status": "ok"
+  },
+  {
+    "domain": "library.unimelb.edu.au",
+    "elapsed": 1,
+    "status": "failed",
+    "error": "Command failed: node /Users/djmulholland/Documents/Claude/projects/unimelb-current-students-ia/crawl/crawl_domain.js library.unimelb.edu.au /Users/djmulholland/Documents/Claude/projects/unimelb-current-students-ia/crawl/library-unimelb-edu-au 1000"
+  },
+  {
+    "domain": "studentit.unimelb.edu.au",
+    "elapsed": 1,
+    "status": "failed",
+    "error": "Command failed: node /Users/djmulholland/Documents/Claude/projects/unimelb-current-students-ia/crawl/crawl_domain.js studentit.unimelb.edu.au /Users/djmulholland/Documents/Claude/projects/unimelb-current-students-ia/crawl/studentit-unimelb-edu-au 800"
+  },
+  {
+    "domain": "gsa.unimelb.edu.au",
+    "pages": 0,
+    "elapsed": 1,
+    "status": "ok"
+  },
+  {
+    "domain": "orientation.unimelb.edu.au",
+    "elapsed": 1,
+    "status": "failed",
+    "error": "Command failed: node /Users/djmulholland/Documents/Claude/projects/unimelb-current-students-ia/crawl/crawl_domain.js orientation.unimelb.edu.au /Users/djmulholland/Documents/Claude/projects/unimelb-current-students-ia/crawl/orientation-unimelb-edu-au 300"
+  },
+  {
+    "domain": "breadth.unimelb.edu.au",
+    "elapsed": 1,
+    "status": "failed",
+    "error": "Command failed: node /Users/djmulholland/Documents/Claude/projects/unimelb-current-students-ia/crawl/crawl_domain.js breadth.unimelb.edu.au /Users/djmulholland/Documents/Claude/projects/unimelb-current-students-ia/crawl/breadth-unimelb-edu-au 300"
+  },
+  {
+    "domain": "my.unimelb.edu.au",
+    "pages": 0,
+    "elapsed": 1,
+    "status": "ok"
+  },
+  {
+    "domain": "lms.unimelb.edu.au",
+    "elapsed": 1,
+    "status": "failed",
+    "error": "Command failed: node /Users/djmulholland/Documents/Claude/projects/unimelb-current-students-ia/crawl/crawl_domain.js lms.unimelb.edu.au /Users/djmulholland/Documents/Claude/projects/unimelb-current-students-ia/crawl/lms-unimelb-edu-au 50"
+  },
+  {
+    "domain": "canvas.lms.unimelb.edu.au",
+    "elapsed": 1,
+    "status": "failed",
+    "error": "Command failed: node /Users/djmulholland/Documents/Claude/projects/unimelb-current-students-ia/crawl/crawl_domain.js canvas.lms.unimelb.edu.au /Users/djmulholland/Documents/Claude/projects/unimelb-current-students-ia/crawl/canvas-lms-unimelb-edu-au 50"
+  }
+]

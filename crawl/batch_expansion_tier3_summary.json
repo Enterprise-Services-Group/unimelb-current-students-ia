@@ -1,0 +1,33 @@
+{
+  "tier": "tier3",
+  "started": "2026-06-28T15:07:56.795Z",
+  "results": [
+    {
+      "domain": "online.unimelb.edu.au",
+      "status": "ok",
+      "elapsed": 248
+    },
+    {
+      "domain": "sport.unimelb.edu.au",
+      "status": "ok",
+      "elapsed": 1123
+    },
+    {
+      "domain": "orientation.unimelb.edu.au",
+      "status": "failed",
+      "elapsed": 2,
+      "error": "Command failed: node /Users/djmulholland/Documents/Claude/projects/unimelb-current-students-ia/crawl/crawl_domain.js orientation.unimelb.edu.au /Users/djmulholland/Documents/Claude/projects/unimelb-current-students-ia/crawl/orientation-unimelb-edu-au 300"
+    },
+    {
+      "domain": "exams.unimelb.edu.au",
+      "status": "ok",
+      "elapsed": 1
+    },
+    {
+      "domain": "breadth.unimelb.edu.au",
+      "status": "failed",
+      "elapsed": 1,
+      "error": "Command failed: node /Users/djmulholland/Documents/Claude/projects/unimelb-current-students-ia/crawl/crawl_domain.js breadth.unimelb.edu.au /Users/djmulholland/Documents/Claude/projects/unimelb-current-students-ia/crawl/breadth-unimelb-edu-au 300"
+    }
+  ]
+}

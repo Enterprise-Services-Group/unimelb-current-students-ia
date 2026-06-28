@@ -1,0 +1,17 @@
+Batch crawl started: 2026-06-28T14:45:00.947Z
+2026-06-28T14:45:00.948Z [1/7] START library.unimelb.edu.au
+2026-06-28T14:45:03.377Z [1/7] FAILED library.unimelb.edu.au (2s) - Command failed: node /Users/djmulholland/Documents/Claude/projects/unimelb-current-students-ia/crawl/crawl_domain.js library.unimelb.edu.au /Users/djmulholland/Documents/Claude/projects/unimelb-current-students-ia/crawl/library-unimelb-edu-au 1000
+2026-06-28T14:45:03.378Z [2/7] START umsu.unimelb.edu.au
+2026-06-28T15:13:40.969Z [2/7] DONE umsu.unimelb.edu.au (1718s)
+2026-06-28T15:13:40.970Z [3/7] START studentit.unimelb.edu.au
+2026-06-28T15:13:41.601Z [3/7] FAILED studentit.unimelb.edu.au (1s) - Command failed: node /Users/djmulholland/Documents/Claude/projects/unimelb-current-students-ia/crawl/crawl_domain.js studentit.unimelb.edu.au /Users/djmulholland/Documents/Claude/projects/unimelb-current-students-ia/crawl/studentit-unimelb-edu-au 800
+2026-06-28T15:13:41.601Z [4/7] START gsa.unimelb.edu.au
+2026-06-28T15:13:42.776Z [4/7] DONE gsa.unimelb.edu.au (1s)
+2026-06-28T15:13:42.776Z [5/7] START my.unimelb.edu.au
+2026-06-28T15:13:43.374Z [5/7] DONE my.unimelb.edu.au (1s)
+2026-06-28T15:13:43.374Z [6/7] START lms.unimelb.edu.au
+2026-06-28T15:13:43.929Z [6/7] FAILED lms.unimelb.edu.au (1s) - Command failed: node /Users/djmulholland/Documents/Claude/projects/unimelb-current-students-ia/crawl/crawl_domain.js lms.unimelb.edu.au /Users/djmulholland/Documents/Claude/projects/unimelb-current-students-ia/crawl/lms-unimelb-edu-au 200
+2026-06-28T15:13:43.929Z [7/7] START canvas.lms.unimelb.edu.au
+2026-06-28T15:13:44.875Z [7/7] FAILED canvas.lms.unimelb.edu.au (1s) - Command failed: node /Users/djmulholland/Documents/Claude/projects/unimelb-current-students-ia/crawl/crawl_domain.js canvas.lms.unimelb.edu.au /Users/djmulholland/Documents/Claude/projects/unimelb-current-students-ia/crawl/canvas-lms-unimelb-edu-au 200
+
+Batch complete: 2026-06-28T15:13:44.875Z - 3 ok, 4 failed

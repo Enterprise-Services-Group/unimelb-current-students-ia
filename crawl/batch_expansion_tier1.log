@@ -1,0 +1,4 @@
+Batch crawl started: 2026-06-28T14:44:53.779Z
+2026-06-28T14:44:53.780Z [1/5] START gradresearch.unimelb.edu.au
+2026-06-28T15:03:45.105Z [1/5] DONE gradresearch.unimelb.edu.au (1131s)
+2026-06-28T15:03:45.106Z [2/5] START ask.unimelb.edu.au

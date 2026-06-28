@@ -1,0 +1,13 @@
+Batch crawl started: 2026-06-28T14:45:02.434Z
+2026-06-28T14:45:02.436Z [1/5] START online.unimelb.edu.au
+2026-06-28T14:49:10.820Z [1/5] DONE online.unimelb.edu.au (248s)
+2026-06-28T14:49:10.821Z [2/5] START sport.unimelb.edu.au
+2026-06-28T15:07:53.487Z [2/5] DONE sport.unimelb.edu.au (1123s)
+2026-06-28T15:07:53.488Z [3/5] START orientation.unimelb.edu.au
+2026-06-28T15:07:55.055Z [3/5] FAILED orientation.unimelb.edu.au (2s) - Command failed: node /Users/djmulholland/Documents/Claude/projects/unimelb-current-students-ia/crawl/crawl_domain.js orientation.unimelb.edu.au /Users/djmulholland/Documents/Claude/projects/unimelb-current-students-ia/crawl/orientation-unimelb-edu-au 300
+2026-06-28T15:07:55.055Z [4/5] START exams.unimelb.edu.au
+2026-06-28T15:07:56.077Z [4/5] DONE exams.unimelb.edu.au (1s)
+2026-06-28T15:07:56.078Z [5/5] START breadth.unimelb.edu.au
+2026-06-28T15:07:56.795Z [5/5] FAILED breadth.unimelb.edu.au (1s) - Command failed: node /Users/djmulholland/Documents/Claude/projects/unimelb-current-students-ia/crawl/crawl_domain.js breadth.unimelb.edu.au /Users/djmulholland/Documents/Claude/projects/unimelb-current-students-ia/crawl/breadth-unimelb-edu-au 300
+
+Batch complete: 2026-06-28T15:07:56.795Z - 3 ok, 2 failed

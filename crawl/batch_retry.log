@@ -1,0 +1,25 @@
+Retry batch started: 2026-06-28T15:09:31.765Z
+2026-06-28T15:09:31.767Z START murrupbarak.unimelb.edu.au
+2026-06-28T15:09:32.803Z FAILED murrupbarak.unimelb.edu.au (1s) - Command failed: node /Users/djmulholland/Documents/Claude/projects/unimelb-current-students-ia/crawl/crawl_domain.js murrupbarak.unimelb.edu.au /Users/djmulholland/Documents/Claude/projects/unimelb-current-students-ia/crawl/murrupbarak-unimelb-edu-au 1000
+2026-06-28T15:09:32.803Z START safercommunity.unimelb.edu.au
+2026-06-28T15:09:33.815Z FAILED safercommunity.unimelb.edu.au (1s) - Command failed: node /Users/djmulholland/Documents/Claude/projects/unimelb-current-students-ia/crawl/crawl_domain.js safercommunity.unimelb.edu.au /Users/djmulholland/Documents/Claude/projects/unimelb-current-students-ia/crawl/safercommunity-unimelb-edu-au 500
+2026-06-28T15:09:33.815Z START studyos.students.unimelb.edu.au
+2026-06-28T15:09:35.111Z DONE studyos.students.unimelb.edu.au (0 pages, 1s)
+2026-06-28T15:09:35.112Z START library.unimelb.edu.au
+2026-06-28T15:09:35.767Z FAILED library.unimelb.edu.au (1s) - Command failed: node /Users/djmulholland/Documents/Claude/projects/unimelb-current-students-ia/crawl/crawl_domain.js library.unimelb.edu.au /Users/djmulholland/Documents/Claude/projects/unimelb-current-students-ia/crawl/library-unimelb-edu-au 1000
+2026-06-28T15:09:35.768Z START studentit.unimelb.edu.au
+2026-06-28T15:09:36.397Z FAILED studentit.unimelb.edu.au (1s) - Command failed: node /Users/djmulholland/Documents/Claude/projects/unimelb-current-students-ia/crawl/crawl_domain.js studentit.unimelb.edu.au /Users/djmulholland/Documents/Claude/projects/unimelb-current-students-ia/crawl/studentit-unimelb-edu-au 800
+2026-06-28T15:09:36.397Z START gsa.unimelb.edu.au
+2026-06-28T15:09:37.020Z DONE gsa.unimelb.edu.au (0 pages, 1s)
+2026-06-28T15:09:37.020Z START orientation.unimelb.edu.au
+2026-06-28T15:09:37.670Z FAILED orientation.unimelb.edu.au (1s) - Command failed: node /Users/djmulholland/Documents/Claude/projects/unimelb-current-students-ia/crawl/crawl_domain.js orientation.unimelb.edu.au /Users/djmulholland/Documents/Claude/projects/unimelb-current-students-ia/crawl/orientation-unimelb-edu-au 300
+2026-06-28T15:09:37.670Z START breadth.unimelb.edu.au
+2026-06-28T15:09:38.308Z FAILED breadth.unimelb.edu.au (1s) - Command failed: node /Users/djmulholland/Documents/Claude/projects/unimelb-current-students-ia/crawl/crawl_domain.js breadth.unimelb.edu.au /Users/djmulholland/Documents/Claude/projects/unimelb-current-students-ia/crawl/breadth-unimelb-edu-au 300
+2026-06-28T15:09:38.308Z START my.unimelb.edu.au
+2026-06-28T15:09:38.913Z DONE my.unimelb.edu.au (0 pages, 1s)
+2026-06-28T15:09:38.914Z START lms.unimelb.edu.au
+2026-06-28T15:09:39.642Z FAILED lms.unimelb.edu.au (1s) - Command failed: node /Users/djmulholland/Documents/Claude/projects/unimelb-current-students-ia/crawl/crawl_domain.js lms.unimelb.edu.au /Users/djmulholland/Documents/Claude/projects/unimelb-current-students-ia/crawl/lms-unimelb-edu-au 50
+2026-06-28T15:09:39.642Z START canvas.lms.unimelb.edu.au
+2026-06-28T15:09:40.710Z FAILED canvas.lms.unimelb.edu.au (1s) - Command failed: node /Users/djmulholland/Documents/Claude/projects/unimelb-current-students-ia/crawl/crawl_domain.js canvas.lms.unimelb.edu.au /Users/djmulholland/Documents/Claude/projects/unimelb-current-students-ia/crawl/canvas-lms-unimelb-edu-au 50
+
+Retry complete: 2026-06-28T15:09:40.710Z - 3 ok, 8 failed
