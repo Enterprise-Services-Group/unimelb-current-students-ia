@@ -2,3 +2,12 @@ Batch crawl started: 2026-06-28T14:44:53.779Z
 2026-06-28T14:44:53.780Z [1/5] START gradresearch.unimelb.edu.au
 2026-06-28T15:03:45.105Z [1/5] DONE gradresearch.unimelb.edu.au (1131s)
 2026-06-28T15:03:45.106Z [2/5] START ask.unimelb.edu.au
+2026-06-28T15:25:58.891Z [2/5] DONE ask.unimelb.edu.au (1334s)
+2026-06-28T15:25:58.892Z [3/5] START murrupbarak.unimelb.edu.au
+2026-06-28T15:28:40.252Z [3/5] DONE murrupbarak.unimelb.edu.au (161s)
+2026-06-28T15:28:40.253Z [4/5] START safercommunity.unimelb.edu.au
+2026-06-28T15:29:34.806Z [4/5] DONE safercommunity.unimelb.edu.au (55s)
+2026-06-28T15:29:34.807Z [5/5] START studyos.students.unimelb.edu.au
+2026-06-28T15:29:36.396Z [5/5] DONE studyos.students.unimelb.edu.au (2s)
+
+Batch complete: 2026-06-28T15:29:36.396Z - 5 ok, 0 failed
