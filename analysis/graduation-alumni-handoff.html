@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Graduation → Alumni Handoff — Deep-Dive | UoM Current Students IA</title>
+<style>
+  :root {
+    --bg: #fff;
+    --text: #1a1a1a;
+    --muted: #555;
+    --accent: #1B3A5C;
+    --border: #e0e0e0;
+    --tag-bg: #f5f5f5;
+    --high: #d32f2f;
+    --medium: #f57c00;
+    --table-stripe: #fafafa;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'Source Sans 3', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    color: var(--text);
+    background: var(--bg);
+    line-height: 1.6;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem;
+  }
+  h1 { font-size: 1.8rem; margin-bottom: 0.3rem; color: var(--accent); }
+  h2 { font-size: 1.35rem; margin: 2rem 0 0.75rem; color: var(--accent); border-bottom: 2px solid var(--border); padding-bottom: 0.3rem; }
+  h3 { font-size: 1.1rem; margin: 1.5rem 0 0.5rem; }
+  p { margin: 0.75rem 0; }
+  .subtitle { color: var(--muted); font-style: italic; margin-bottom: 1.5rem; }
+  .severity { display: inline-block; padding: 0.15rem 0.5rem; border-radius: 3px; font-size: 0.8rem; font-weight: 600; }
+  .severity-high { background: #ffebee; color: var(--high); }
+  .severity-medium { background: #fff3e0; color: var(--medium); }
+  .effort { display: inline-block; padding: 0.15rem 0.5rem; border-radius: 3px; font-size: 0.8rem; background: #e8f5e9; color: #2e7d32; }
+  .stat-box {
+    background: var(--tag-bg);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 1rem 1.25rem;
+    margin: 1rem 0;
+  }
+  .stat-box p { margin: 0.3rem 0; }
+  .stat { font-weight: 700; color: var(--accent); }
+  table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: 0.92rem; }
+  th { background: var(--accent); color: white; padding: 0.5rem 0.75rem; text-align: left; }
+  td { padding: 0.5rem 0.75rem; border-bottom: 1px solid var(--border); }
+  tr:nth-child(even) td { background: var(--table-stripe); }
+  blockquote {
+    border-left: 3px solid var(--accent);
+    padding: 0.75rem 1rem;
+    margin: 1rem 0;
+    background: var(--tag-bg);
+    font-style: italic;
+    color: var(--muted);
+  }
+  ul, ol { margin: 0.5rem 0 0.5rem 1.5rem; }
+  li { margin: 0.3rem 0; }
+  .tag { display: inline-block; padding: 0.1rem 0.4rem; border-radius: 3px; font-size: 0.75rem; background: var(--tag-bg); margin-right: 0.3rem; }
+  hr { border: none; border-top: 1px solid var(--border); margin: 2rem 0; }
+  .footer { color: var(--muted); font-size: 0.85rem; margin-top: 2rem; }
+</style>
+</head>
+<body>
+
+<h1>Graduation → Alumni Handoff — Deep-Dive</h1>
+<p class="subtitle">The last transition in the student lifecycle — and the most severed. 35 completion pages, 0 alumni links. The graduation-day page links Facebook and Instagram but not the alumni relationship. June 2026.</p>
+
+<h2>Executive summary</h2>
+<p>The graduation→alumni handoff is the single most broken transition in the student lifecycle. After 3–5 years of interacting with the University across 20+ systems, a graduating student is handed to the alumni relationship by essentially nothing. The evidence is stark: <strong>after stripping navigation chrome, only ~97 contextual links reach the alumni estate</strong> — and <strong>zero of them come from any completion page</strong>. The graduation-day page links Facebook and Instagram but not alumni.unimelb. 35 completion/conferral pages across the hub exist to mark the end of a degree, and not one of them bridges to what comes next.</p>
+
+<p>This is not a content problem. The alumni estate exists — 16 mentoring pages across 12 faculty-specific streams, a global alumni network, events, giving, and benefits. It's a <strong>design problem</strong>: the join between "I've finished" and "I'm an alum" was never built. The fix is the highest-leverage, lowest-cost service-design intervention in the improvements register: add one prominent, consistent "Stay connected" bridge from every completion page, and the alumni relationship activates for every graduating student.</p>
+
+<h2>The seam by the numbers</h2>
+
+<table>
+  <tr><th>Metric</th><th>Value</th><th>Source</th></tr>
+  <tr><td>Completion/conferral pages on students.unimelb</td><td class="stat">35</td><td>crawl/students-full</td></tr>
+  <tr><td>Contextual links from completion pages → alumni</td><td class="stat" style="color:var(--high)">0</td><td>link-graph audit</td></tr>
+  <tr><td>Total contextual links estate-wide → alumni hosts</td><td class="stat">~97</td><td>cross-site-flow.csv</td></tr>
+  <tr><td>Graduation-day page links to alumni</td><td class="stat" style="color:var(--high)">0</td><td>page audit — links Facebook, Instagram, Twitter, TikTok</td></tr>
+  <tr><td>Alumni mentoring streams</td><td class="stat">12</td><td>per faculty</td></tr>
+  <tr><td>Faculty student-mentoring programs</td><td class="stat">8+</td><td>faculty CMSes</td></tr>
+  <tr><td>Cross-links between faculty mentoring and alumni mentoring</td><td class="stat" style="color:var(--high)">0</td><td>link-graph audit</td></tr>
+</table>
+
+<h2>The journey as it actually works</h2>
+
+<h3>"I'm graduating — now what?"</h3>
+
+<p>A student completes their final semester, receives results via my.unimelb (behind login), and is told they're eligible to graduate. The public estate's "complete → graduate" transition is partial but functional:</p>
+
+<ol>
+  <li><strong>Apply to graduate</strong> — a clean spine on students.unimelb (conferral, ceremony, academic dress)</li>
+  <li><strong>Check completion</strong> — course completion checks via my.unimelb</li>
+  <li><strong>Attend ceremony</strong> — graduation-day page with logistics, tickets, dress</li>
+  <li><strong>Receive testamur</strong> — parchment and academic transcript</li>
+</ol>
+
+<p>This spine exists and works. It's split across two URL trees (the hub's mid-migration debt again) but it's navigable.</p>
+
+<h3>The missing step: "You're an alum now"</h3>
+
+<p>After the ceremony, the estate goes silent. The graduation-day page — the highest-traffic completion moment — carries social media links (Facebook, Instagram, Twitter, TikTok) but <strong>nothing to alumni.unimelb</strong>. No "Stay connected," no "Join your alumni network," no "Mentor the next cohort." The student who just spent 3–5 years as the University's most important customer is discharged without a forward path.</p>
+
+<p>From the alumni side, www.unimelb/alumni runs:</p>
+<ul>
+  <li>16 mentoring pages across 12 faculty-specific streams</li>
+  <li>A global alumni network with events and chapters</li>
+  <li>Giving and volunteering pathways</li>
+  <li>Benefits and services (library access, career support, discounts)</li>
+</ul>
+
+<p>But none of this is wired to the moment a student becomes an alum. The alumni estate is nav-only — reachable only if a graduate already knows to type "unimelb alumni" into Google.</p>
+
+<h2>What makes this different from the rest of the estate</h2>
+
+<h3>1. It's the only purely additive fix in the register</h3>
+<p>Every other seam requires collapsing trees, retiring deprecated pages, or rewiring systems. This one requires <strong>adding one bridge</strong> — nothing to unpick, nothing to migrate.</p>
+
+<h3>2. The downstream service already exists</h3>
+<p>The alumni estate is built, staffed, and functional. Careers Online exists. The mentoring programs exist. The gap is a <strong>missing handoff</strong>, not a missing service.</p>
+
+<h3>3. It closes the lifecycle loop</h3>
+<p>A graduating student who becomes an alum becomes a mentor, a donor, an employer of graduates, a postgraduate applicant. The alumni→mentoring→careers→prospective loop is the University's most valuable flywheel. It currently doesn't spin because the first connection was never made.</p>
+
+<h2>The alumni footprint</h2>
+
+<table>
+  <tr><th>Component</th><th>Pages</th><th>Note</th></tr>
+  <tr><td>www.unimelb/alumni home</td><td>1</td><td>Global alumni front door</td></tr>
+  <tr><td>Faculty-specific mentoring streams</td><td>16</td><td>12 streams across faculties</td></tr>
+  <tr><td>Alumni events</td><td>~5</td><td>Global + chapter events</td></tr>
+  <tr><td>Giving / volunteering</td><td>~8</td><td>Donation and volunteer pathways</td></tr>
+  <tr><td>Benefits & services</td><td>~10</td><td>Library access, career support, discounts</td></tr>
+  <tr style="font-weight:700"><td>Total contextual inbound links</td><td style="color:var(--high)">~97</td><td>Entire estate → any alumni host</td></tr>
+</table>
+
+<div class="stat-box">
+  <p><strong>Compare ~97 alumni links to:</strong></p>
+  <p>ask.unimelb FAQ: <span class="stat">396</span> links</p>
+  <p>my.unimelb (the SIS): <span class="stat">187</span> links</p>
+  <p>Handbook: <span class="stat">195</span> links</p>
+</div>
+
+<h2>The completion-page audit</h2>
+
+<table>
+  <tr><th>Page type</th><th>Count</th><th>Links to alumni</th></tr>
+  <tr><td>Apply to graduate</td><td>~8</td><td style="color:var(--high)">0</td></tr>
+  <tr><td>Conferral / ceremony dates</td><td>~5</td><td style="color:var(--high)">0</td></tr>
+  <tr><td>Academic dress / tickets</td><td>~6</td><td style="color:var(--high)">0</td></tr>
+  <tr><td>Graduation day</td><td>1</td><td style="color:var(--high)">0 (links Facebook, Instagram, Twitter, TikTok)</td></tr>
+  <tr><td>Testamur / transcripts</td><td>~6</td><td style="color:var(--high)">0</td></tr>
+  <tr><td>Course completion</td><td>~4</td><td style="color:var(--high)">0</td></tr>
+  <tr><td>After graduation / what's next</td><td>~5</td><td style="color:var(--high)">0</td></tr>
+  <tr style="font-weight:700"><td>Total</td><td>~35</td><td style="color:var(--high)">0</td></tr>
+</table>
+
+<h2>Recommendations</h2>
+
+<h3>1. Add one "Stay connected" bridge to every completion page <span class="severity severity-high">HIGH</span> <span class="effort">quick-win</span></h3>
+<p>On all 35 completion/conferral pages, add a consistent, prominent "Stay connected — join your alumni network" CTA. One link, one destination (alumni.unimelb), one line of design.</p>
+
+<h3>2. Replace social media links on the graduation-day page with alumni <span class="severity severity-high">HIGH</span> <span class="effort">quick-win</span></h3>
+<p>The graduation-day page currently links Facebook, Instagram, Twitter, and TikTok. Replace (or supplement) with "Join your alumni network" → alumni.unimelb.</p>
+
+<h3>3. Bridge faculty mentoring → alumni mentoring at completion <span class="severity severity-high">HIGH</span> <span class="effort">quick-win</span></h3>
+<p>On every faculty student-mentoring page and every completion page, add "Your mentoring continues after graduation — join the [faculty] alumni mentoring program."</p>
+
+<h3>4. Add alumni to the "Get Started" reverse sequence <span class="severity severity-medium">MEDIUM</span> <span class="effort">medium</span></h3>
+<p>Build a "Stay Connected with Melbourne" sequence for graduating students — alumni network, mentoring, careers, events, benefits.</p>
+
+<h3>5. Wire "After graduation" pages to actual alumni services <span class="severity severity-medium">MEDIUM</span> <span class="effort">medium</span></h3>
+<p>The ~5 "after graduation / what's next" pages describe what alumni status <em>means</em>. Wire them to what alumni status <em>does</em>: mentoring signup, events calendar, career services, library access.</p>
+
+<hr>
+<p class="footer">Built from: improvements-register.md (Top 12, Item #7), lifecycle-journeys.md (seam map), careers-employability-wil.md (alumni mentoring section), full-scrape link graph (cross-site-flow.csv, hub crawl), and the completion-page audit over crawl/students-full/. June 2026.</p>
+
+</body>
+</html>
