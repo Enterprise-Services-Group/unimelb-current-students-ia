@@ -1,0 +1,10 @@
+ID,Title,Status,Steps
+a7bd0c71-7670-4984-b74b-4ffc51ad4834,Centralised offer acceptance and enrolment path,proposed,29d42124-02b4-4c85-b3ae-31badad39289:Get started & accept
+94fe2f25-792a-4c81-887f-56a5a15567b1,Faculties only handle discipline-specific orientation events,proposed,29d42124-02b4-4c85-b3ae-31badad39289:Get started & accept
+ea37f711-f483-437c-b497-203793045048,Hub course-planning gateway,proposed,35e8f4fa-6c5b-4817-9f22-546c4afb137f:Plan my course
+52794094-2e25-4700-aaaa-e47031ec6ab8,Faculties link to planner instead of re-hosting,proposed,35e8f4fa-6c5b-4817-9f22-546c4afb137f:Plan my course
+8bf004d9-63ae-48a4-8d63-4acfb1606a32,Hub is the single source of truth for enrolment mechanics,proposed,93b36d5a-d315-4a28-9068-86bc42fcfa51:Enrol & choose subjects
+dc03339c-93a0-4810-b039-37a890ff13e3,"Faculties link, never restate",proposed,93b36d5a-d315-4a28-9068-86bc42fcfa51:Enrol & choose subjects
+21c0b706-26af-4a36-aa4d-8e42a1650e81,"Keep only genuine local exceptions (forms, prerequisite waivers)",proposed,93b36d5a-d315-4a28-9068-86bc42fcfa51:Enrol & choose subjects
+964a6af2-3f30-4046-9797-a805f1930666,"One consistent 'Enrolment, results & admin' landing per faculty pointing to hub",proposed,f0927ad7-8320-478d-9b6e-85d892e757b3:Manage timetable & load
+bfdc6cd1-af13-4743-8e29-127f61a68de9,Retire duplicate layer,proposed,f0927ad7-8320-478d-9b6e-85d892e757b3:Manage timetable & load
