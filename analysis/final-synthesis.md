@@ -8,10 +8,10 @@
 
 | Metric | Value |
 |---|---|
-| Domains crawled | 27 (20 original + 7 expansion) |
-| Total pages | 40,533 |
+| Domains crawled | 29 (20 original + 9 expansion) |
+| Total pages | 41,533 |
 | Contextual links mapped | 261,652 |
-| Deep-dive analyses | 26 |
+| Deep-dive analyses | 28 |
 | Persona profiles | 5 |
 | Improvements registered | ~75 |
 | Quick wins ready to execute | 28 |
@@ -112,6 +112,30 @@ The University already runs Squiz/Matrix everywhere. The problem isn't the platf
 
 **Action.** Study template for page-weight best practices. No urgent issues.
 
+### Library (1,000 pages — hit max)
+
+**What it is.** University Library — academic skills and research support.
+
+**Key findings.** **370 pages are referencing/citation guides** — the library is the University's citation authority. 178 pages archives/special collections. 66 pages reference management software. 36 links to student hub in 30-page sample — moderate connection. Well-maintained, 7 dead pages only.
+
+**Action.** Add Library referencing to the hub's academic skills section. Cross-link more prominently.
+
+### StudentIT (74 pages)
+
+**What it is.** Student IT support — printing, wifi, VPN, software.
+
+**Key findings.** Task-focused operational content: "Student Print," "UniWireless," "VPN," "Microsoft 365 Update." 34 links to hub — healthy connection. **13 offboarding pages** — the IT side of the graduation→alumni transition.
+
+**Action.** Link graduation offboarding pages from the graduation→alumni bridge. Add to hub's "IT & systems" section.
+
+### Orientation & Breadth (0 pages)
+
+**What they are.** Dead domains — both homepages return "Page not found."
+
+**Key finding.** orientation.unimelb.edu.au and breadth.unimelb.edu.au are no longer live. The 1 contextual link to orientation (from biomed) and 7 links to breadth (from handbook) point to dead destinations.
+
+**Action.** Either restore content or 301-redirect both domains to their students.unimelb equivalents.
+
 ---
 
 ## The unchanged priority list
@@ -147,12 +171,12 @@ Every deep-dive, every crawl analysis, every link-graph audit reinforces the sam
 
 ## What remains
 
-1. **Crawl the 4 Cloudflare domains** (library, studentit, orientation, breadth) — in progress
-2. **Crawl gradresearch, murrupbarak, ask.unimelb more deeply** — the current crawls are full-domain BFS; deeper analysis of page content (not just structure) would reveal content quality, reading level, and actionability
-3. **The authenticated core** — my.unimelb, Canvas, eStudent, `*.app` forms — remains uncrawlable. The public→authenticated seam can only be verified by walking through the logged-in experience
-4. **User validation** — every finding is structural evidence, not observed student failure. The costliest seams should be validated with real users before implementation
-5. **Analytics** — the `in_c=` tracking params in crawled URLs imply GA/search-log data exists. Requesting it is the single highest-value next step so priority can follow pages students actually hit
+1. **The authenticated core** — my.unimelb, Canvas, eStudent, `*.app` forms — remains uncrawlable. The public→authenticated seam can only be verified by walking through the logged-in experience
+2. **User validation** — every finding is structural evidence, not observed student failure. The costliest seams should be validated with real users before implementation
+3. **Analytics** — the `in_c=` tracking params in crawled URLs imply GA/search-log data exists. Requesting it is the single highest-value next step so priority can follow pages students actually hit
+4. **Deeper content analysis** — the current crawl analyses cover structure and links. Page content (reading level, actionability, tone) would reveal further quality gaps
+5. **Dead domain cleanup** — orientation.unimelb.edu.au and breadth.unimelb.edu.au return "Page not found." Their inbound links should be redirected or removed
 
 ---
 
-*Built from: 40,533 pages across 27 domains, 261,652 contextual links, 26 deep-dive analyses, 5 persona profiles, ~75 improvements, 28 quick wins. June 2026.*
+*Built from: 41,533 pages across 29 domains, 261,652 contextual links, 28 deep-dive analyses, 5 persona profiles, ~75 improvements, 28 quick wins. June 2026.*
