@@ -203,8 +203,7 @@ footer .src{font-family:var(--font-m);font-size:12px;color:#6b7099;margin-top:22
   <div class="wrap">
     <img src="assets/UoM_Logo_Horiz_onDark.svg" alt="University of Melbourne">
     <nav>
-      <a href="#summary">Summary</a><a href="#method">Method</a><a href="#estate">The estate</a>
-      <a href="#findings">Findings</a><a href="#services">Services</a><a href="#careers">Careers</a><a href="#enrolment">Enrolment</a><a href="#prospective">Prospective</a><a href="#register">Improvements</a><a href="#lifecycle">Lifecycle</a><a href="#scope">Confidence</a>
+      <a href="#summary">Summary</a><a href="#estate">Estate</a><a href="#findings">Findings</a><a href="#services">Services</a><a href="#careers">Careers</a><a href="#enrolment">Enrolment</a><a href="#prospective">Prospective</a><a href="#international">International</a><a href="#register">Improvements</a><a href="#lifecycle">Lifecycle</a><a href="#scope">Confidence</a>
     </nav>
   </div>
 </header>
@@ -409,6 +408,23 @@ footer .src{font-family:var(--font-m);font-size:12px;color:#6b7099;margin-top:22
   </div>
 </section>
 
+<section id="international" class="navy">
+  <div class="wrap">
+    <div class="sec-head"><div class="eyebrow" style="color:var(--cyan)">Focused deep-dive · the highest-stakes audience</div><h2>The international student experience</h2>
+      <p>The audience the University can least afford to get wrong — where a web fault costs a visa, not just convenience. Nine journey stages from discovery to post-study. The work is in parts genuinely good, but end to end it repeats one fault at every compliance moment: the estate explains the rule but never connects it to the action — and the rules keep a visa valid.</p></div>
+
+    <div class="cspine" style="grid-template-columns:repeat(4,1fr)">
+      <div class="cstage"><div class="cs-st">3 live forked trees</div><div class="cs-nt">visa-compliance guidance is canonical (27) + deprecated (12) + a live sandbox draft (10) at once</div></div>
+      <div class="cstage"><div class="cs-st">12 domains link the wrong fork</div><div class="cs-nt">faculties send students to the deprecated international-support tree</div></div>
+      <div class="cstage"><div class="cs-st">485 visa: 0 pages</div><div class="cs-nt">the post-study work visa — the biggest drawcard — has no destination anywhere</div></div>
+      <div class="cstage"><div class="cs-st">study-load condition: invisible</div><div class="cs-nt">the full-time visa requirement is never named at the moment of enrolment</div></div>
+    </div>
+
+    <div class="eyebrow" style="color:var(--cyan);margin:46px 0 16px">The nine stages, end to end</div>
+    <div id="intl-grid" class="svc-grid"></div>
+  </div>
+</section>
+
 <section id="register" class="alt">
   <div class="wrap">
     <div class="sec-head"><div class="eyebrow">The register</div><h2>Seventy-four improvements, split by who acts</h2>
@@ -526,6 +542,7 @@ footer .src{font-family:var(--font-m);font-size:12px;color:#6b7099;margin-top:22
 <script src="lifecycle.js"></script>
 <script src="careers.js"></script>
 <script src="enrolment.js"></script>
+<script src="international.js"></script>
 <script>
 const SEV={high:'High priority',medium:'Medium priority',low:'Low priority'};
 const THEME_ORDER={
@@ -705,6 +722,30 @@ function openEnrol(i){
   document.getElementById('modal').hidden=false; document.body.classList.add('locked'); panel.scrollTop=0;
 }
 renderEnrol();
+
+// ── international student experience ──
+const INTL=window.INTERNATIONAL||[];
+function renderIntl(){
+  document.getElementById('intl-grid').innerHTML=INTL.map((t,i)=>
+    '<div class="svc-card" onclick="openIntl('+i+')"><div class="top"><span class="pill '+(t.severity==='high'?'high':'med')+'">'+t.severity+'</span></div>'+
+    '<div class="nm">'+esc(t.subject)+'</div><div class="hl">'+esc(t.headline.length>148?t.headline.slice(0,146)+'…':t.headline)+'</div><div class="more">View profile →</div></div>').join('');
+}
+function openIntl(i){
+  const t=INTL[i]; if(!t)return;
+  const panel=document.getElementById('modalPanel'); panel.className='modal-panel';
+  const fr=(t.friction||[]).map(x=>'<li>'+esc(x)+'</li>').join('');
+  const fg=(t.fragmentation||[]).map(x=>'<li>'+esc(x)+'</li>').join('');
+  document.getElementById('modalContent').innerHTML=
+    '<div class="modal-meta"><span class="modal-track">International journey</span><span class="pill '+(t.severity==='high'?'high':'med')+'">'+esc(SEV[t.severity])+'</span></div>'+
+    '<h2 class="mt">'+esc(t.subject)+'</h2><p class="lead-hl">'+esc(t.headline)+'</p>'+
+    '<div class="block"><div class="lab">What exists</div><p>'+esc(t.what_exists)+'</p></div>'+
+    (fr?'<div class="block"><div class="lab">Friction · compliance consequences</div><ul class="bl">'+fr+'</ul></div>':'')+
+    (fg?'<div class="block"><div class="lab">Fragmentation</div><ul class="bl">'+fg+'</ul></div>':'')+
+    '<div class="block"><div class="lab">The seam</div><p>'+esc(t.seam)+'</p></div>'+
+    '<div class="block ev"><div class="lab">Recommendation</div><p>'+esc(t.recommendation)+'</p></div>';
+  document.getElementById('modal').hidden=false; document.body.classList.add('locked'); panel.scrollTop=0;
+}
+renderIntl();
 </script>
 </body>
 </html>
