@@ -2,67 +2,69 @@
 """Convert markdown analysis files to UoM-styled HTML with LHS navigation framing."""
 import sys, re, os
 
+BASE_PATH = '/unimelb-current-students-ia'
+
 NAV_ITEMS = [
-    ("Home", "index.html", "🏠"),
+    ("Home", BASE_PATH + "/index.html", "🏠"),
     ("Project Summary", None, "📊"),
     ("Five Root Findings", None, "🎯"),
     ("---", None, ""),
     ("Key Reports", None, "📋"),
-    ("  Improvements Register", "report/Improvements-Register.html", ""),
-    ("  Lifecycle Journeys", "report/Lifecycle-Journeys.html", ""),
-    ("  Course Planning", "report/Course-Planning-Enrolment.html", ""),
-    ("  International Student", "report/International-Student-Experience.html", ""),
-    ("  Services Fragmentation", "report/Student-Services-Fragmentation.html", ""),
-    ("  Careers & WIL", "report/Careers-Employability-WIL.html", ""),
+    ("  Improvements Register", BASE_PATH + "/report/Improvements-Register.html", ""),
+    ("  Lifecycle Journeys", BASE_PATH + "/report/Lifecycle-Journeys.html", ""),
+    ("  Course Planning", BASE_PATH + "/report/Course-Planning-Enrolment.html", ""),
+    ("  International Student", BASE_PATH + "/report/International-Student-Experience.html", ""),
+    ("  Services Fragmentation", BASE_PATH + "/report/Student-Services-Fragmentation.html", ""),
+    ("  Careers & WIL", BASE_PATH + "/report/Careers-Employability-WIL.html", ""),
     ("---", None, ""),
     ("Structural Deep-Dives", None, "🔬"),
-    ("  Graduation → Alumni", "analysis/graduation-alumni-handoff.html", ""),
-    ("  Careers Online Wiring", "analysis/careers-online-wiring.html", ""),
-    ("  Prospective → Current", "analysis/prospective-current-handoff.html", ""),
-    ("  Equity & Indigenous", "analysis/equity-indigenous-journey.html", ""),
-    ("  HDR Duplication", "analysis/hdr-candidature-duplication.html", ""),
-    ("  Forms & Microsites", "analysis/forms-microsite-audit.html", ""),
+    ("  Graduation → Alumni", BASE_PATH + "/analysis/graduation-alumni-handoff.html", ""),
+    ("  Careers Online Wiring", BASE_PATH + "/analysis/careers-online-wiring.html", ""),
+    ("  Prospective → Current", BASE_PATH + "/analysis/prospective-current-handoff.html", ""),
+    ("  Equity & Indigenous", BASE_PATH + "/analysis/equity-indigenous-journey.html", ""),
+    ("  HDR Duplication", BASE_PATH + "/analysis/hdr-candidature-duplication.html", ""),
+    ("  Forms & Microsites", BASE_PATH + "/analysis/forms-microsite-audit.html", ""),
     ("---", None, ""),
     ("Content Quality", None, "📝"),
-    ("  The Handbook", "analysis/the-handbook.html", ""),
-    ("  Fees & Finance", "analysis/fees-finance.html", ""),
-    ("  Scholarships", "analysis/scholarships.html", ""),
-    ("  Mobile & Performance", "analysis/mobile-performance-audit.html", ""),
-    ("  Content Freshness", "analysis/content-freshness-sandbox-leakage.html", ""),
-    ("  Content Quality Audit", "analysis/content-quality-deep-dive.html", ""),
+    ("  The Handbook", BASE_PATH + "/analysis/the-handbook.html", ""),
+    ("  Fees & Finance", BASE_PATH + "/analysis/fees-finance.html", ""),
+    ("  Scholarships", BASE_PATH + "/analysis/scholarships.html", ""),
+    ("  Mobile & Performance", BASE_PATH + "/analysis/mobile-performance-audit.html", ""),
+    ("  Content Freshness", BASE_PATH + "/analysis/content-freshness-sandbox-leakage.html", ""),
+    ("  Content Quality Audit", BASE_PATH + "/analysis/content-quality-deep-dive.html", ""),
     ("---", None, ""),
     ("Authenticated Core", None, "🔐"),
-    ("  Auth Core Audit", "analysis/authenticated-core-audit.html", ""),
-    ("  Live Host Check", "analysis/auth-hosts-live-check.html", ""),
-    ("  Auth Core Findings", "analysis/authenticated-core-findings.html", ""),
+    ("  Auth Core Audit", BASE_PATH + "/analysis/authenticated-core-audit.html", ""),
+    ("  Live Host Check", BASE_PATH + "/analysis/auth-hosts-live-check.html", ""),
+    ("  Auth Core Findings", BASE_PATH + "/analysis/authenticated-core-findings.html", ""),
     ("---", None, ""),
     ("Crawl Analyses", None, "🌐"),
-    ("  ask.unimelb", "analysis/crawl-ask-unimelb.html", ""),
-    ("  gradresearch", "analysis/crawl-gradresearch.html", ""),
-    ("  murrupbarak", "analysis/crawl-murrupbarak.html", ""),
-    ("  safercommunity", "analysis/crawl-safercommunity.html", ""),
-    ("  umsu", "analysis/crawl-umsu.html", ""),
-    ("  online.unimelb", "analysis/crawl-online.html", ""),
-    ("  sport", "analysis/crawl-sport.html", ""),
-    ("  library", "analysis/crawl-library.html", ""),
-    ("  studentit", "analysis/crawl-studentit.html", ""),
+    ("  ask.unimelb", BASE_PATH + "/analysis/crawl-ask-unimelb.html", ""),
+    ("  gradresearch", BASE_PATH + "/analysis/crawl-gradresearch.html", ""),
+    ("  murrupbarak", BASE_PATH + "/analysis/crawl-murrupbarak.html", ""),
+    ("  safercommunity", BASE_PATH + "/analysis/crawl-safercommunity.html", ""),
+    ("  umsu", BASE_PATH + "/analysis/crawl-umsu.html", ""),
+    ("  online.unimelb", BASE_PATH + "/analysis/crawl-online.html", ""),
+    ("  sport", BASE_PATH + "/analysis/crawl-sport.html", ""),
+    ("  library", BASE_PATH + "/analysis/crawl-library.html", ""),
+    ("  studentit", BASE_PATH + "/analysis/crawl-studentit.html", ""),
     ("---", None, ""),
     ("Personas", None, "👤"),
-    ("  Sam — Planning", "personas/sam-planning-their-path.html", ""),
-    ("  Alex — At-risk", "personas/alex-at-risk-withdrawal.html", ""),
-    ("  Priya — International", "personas/priya-international-student.html", ""),
-    ("  Jordan — Course Maze", "personas/jordan-course-planning-maze.html", ""),
-    ("  Taylor — Wellbeing", "personas/taylor-wellbeing-mental-health.html", ""),
+    ("  Sam — Planning", BASE_PATH + "/personas/sam-planning-their-path.html", ""),
+    ("  Alex — At-risk", BASE_PATH + "/personas/alex-at-risk-withdrawal.html", ""),
+    ("  Priya — International", BASE_PATH + "/personas/priya-international-student.html", ""),
+    ("  Jordan — Course Maze", BASE_PATH + "/personas/jordan-course-planning-maze.html", ""),
+    ("  Taylor — Wellbeing", BASE_PATH + "/personas/taylor-wellbeing-mental-health.html", ""),
     ("---", None, ""),
     ("Deliverables", None, "📦"),
-    ("  Governance Pack", "analysis/governance-summary-pack.html", ""),
-    ("  Quick Wins", "analysis/quick-wins-checklist.html", ""),
-    ("  Final Synthesis", "analysis/final-synthesis.html", ""),
+    ("  Governance Pack", BASE_PATH + "/analysis/governance-summary-pack.html", ""),
+    ("  Quick Wins", BASE_PATH + "/analysis/quick-wins-checklist.html", ""),
+    ("  Final Synthesis", BASE_PATH + "/analysis/final-synthesis.html", ""),
 ]
 
-CSS = """@font-face{font-family:'Fraunces';src:url('assets/fonts/Fraunces-VariableFont_SOFT_WONK_opsz_wght.ttf') format('truetype');font-weight:100 900;font-display:swap}
-@font-face{font-family:'Source Sans 3';src:url('assets/fonts/SourceSans3-VariableFont_wght.ttf') format('truetype');font-weight:200 900;font-display:swap}
-@font-face{font-family:'Source Code Pro';src:url('assets/fonts/SourceCodePro-VariableFont_wght.ttf') format('truetype');font-weight:200 900;font-display:swap}
+CSS = """@font-face{font-family:'Fraunces';src:url('''' + BASE_PATH + '''/assets/fonts/Fraunces-VariableFont_SOFT_WONK_opsz_wght.ttf') format('truetype');font-weight:100 900;font-display:swap}
+@font-face{font-family:'Source Sans 3';src:url('''' + BASE_PATH + '''/assets/fonts/SourceSans3-VariableFont_wght.ttf') format('truetype');font-weight:200 900;font-display:swap}
+@font-face{font-family:'Source Code Pro';src:url('''' + BASE_PATH + '''/assets/fonts/SourceCodePro-VariableFont_wght.ttf') format('truetype');font-weight:200 900;font-display:swap}
 :root{--navy:#000F46;--navy-light:#1B2D5C;--cyan:#46C8F0;--ink:#222;--ink-2:#555;--bg:#fff;--bg-nav:#000F46;--bg-subtle:#F3F3F6;--border:#DDDDE7;--red:#DB1927;--amber:#AC5907;--green:#31733B;--font-h:'Fraunces',Georgia,serif;--font-b:'Source Sans 3',system-ui,sans-serif;--font-m:'Source Code Pro',monospace;--nav-w:280px}
 *{margin:0;padding:0;box-sizing:border-box}
 body{font-family:var(--font-b);font-size:17px;line-height:1.65;color:var(--ink);background:var(--bg);display:flex;min-height:100vh;-webkit-font-smoothing:antialiased}
@@ -217,8 +219,8 @@ def build_nav(current_page):
     """Build LHS nav HTML with current page highlighted"""
     nav_html = '<nav class="lhs" id="lhsNav">\n'
     nav_html += '  <div class="logo">\n'
-    nav_html += '    <img src="assets/UoM_Logo_Horiz_onDark.svg" alt="UoM">\n'
-    nav_html += '    <a href="index.html">Current Students IA</a>\n'
+    nav_html += '    <img src="' + BASE_PATH + '/assets/UoM_Logo_Horiz_onDark.svg" alt="UoM">\n'
+    nav_html += '    <a href="' + BASE_PATH + '/index.html">Current Students IA</a>\n'
     nav_html += '  </div>\n'
     nav_html += '  <div class="nav-scroll">\n'
     
