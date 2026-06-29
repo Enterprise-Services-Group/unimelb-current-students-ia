@@ -84,7 +84,19 @@ The counselling booking system exists but refuses connections at the root level.
 
 ## The public host — ecommerce.unimelb.edu.au
 
-The only authenticated host with public pages. 21 pages crawled — likely product listings, payment information, and help pages. This is the payment gateway used by sport memberships, event registrations, and fee payments. It has public content because the ecommerce flow starts before login.
+The only authenticated host with substantial public pages. **200 pages** (hit max) — a full commerce site with course materials, faculty stores, and merchandise. This is the payment gateway used by sport memberships, event registrations, and fee payments. It has public content because the ecommerce flow starts before login.
+
+## The SSO pages — what they reveal
+
+Several hosts serve SSO login pages with useful metadata:
+
+| Host | SSO page reveals |
+|---|---|
+| **mycounselling.app** | "Sign in with your University of Melbourne account to access CAPS appointment portal" — confirms the service exists and is called CAPS |
+| **course-planner.unimelb** | "My Course Planner" — public landing page with login button and introductory video link. Confirms the tool exists. 0 crawlable pages (SPA). |
+| **forms.your.unimelb** | "FormAssembly: Enterprise \| University of Melbourne : Users" — confirms the form platform is FormAssembly |
+| **forms.your/4747166** | "Sign in to access FormAssembly Repondentence" — the fee remission form requires login |
+| **intlstudaccept.unimelb** | 2 pages crawled — "International Student Acceptance and Payment Agreement" (81KB) + logout page. Substantial public content about the acceptance process.
 
 ---
 
