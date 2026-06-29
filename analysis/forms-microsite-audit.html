@@ -153,15 +153,15 @@ main strong{color:var(--navy)}
 <tr><td>feit-vocational-placement.app</td><td>8</td><td>WIL / placements</td><td>FEIT vocational placement system</td><td>Behind login</td></tr>
 <tr><td>enquiry.app</td><td>8</td><td>Prospective / general</td><td>General enquiry form</td><td>Public?</td></tr>
 <tr><td>ctrs.app</td><td>6</td><td>Research / HDR</td><td>Contract research tracking</td><td>Behind login</td></tr>
-<tr><td>mycounselling.app</td><td>3</td><td>Wellbeing / crisis</td><td>**Counselling appointment booking**</td><td>Behind login</td></tr>
+<tr><td>mycounselling.app</td><td>3</td><td>Wellbeing / crisis</td><td><strong>Counselling appointment booking</strong></td><td>Behind login</td></tr>
 <tr><td>law.app</td><td>2</td><td>Law faculty</td><td>Law-specific form/application</td><td>Behind login</td></tr>
-<tr><td>enrolmentvariations.app</td><td>2</td><td>Enrolment</td><td>**Reduced study load, leave, withdrawal**</td><td>Behind login</td></tr>
+<tr><td>enrolmentvariations.app</td><td>2</td><td>Enrolment</td><td><strong>Reduced study load, leave, withdrawal</strong></td><td>Behind login</td></tr>
 <tr><td>slidelibrary.app</td><td>1</td><td>Teaching/learning</td><td>Slide repository</td><td>Behind login</td></tr>
 <tr><td>thesislibrary.app</td><td>1</td><td>HDR / research</td><td>Thesis repository</td><td>Behind login</td></tr>
 <tr><td>booklibrary.app</td><td>1</td><td>Teaching/learning</td><td>Book repository</td><td>Behind login</td></tr>
 <tr><td>studenteforms.app</td><td>1</td><td>General</td><td>Student e-forms</td><td>Behind login</td></tr>
 <tr><td>ffam-mcm.app</td><td>1</td><td>Fine Arts/Music</td><td>MCM application</td><td>Behind login</td></tr>
-<tr><td>**Total *.app**</td><td>**58**</td><td></td><td></td><td></td></tr>
+<tr><td><strong>Total *.app</strong></td><td><strong>58</strong></td><td></td><td></td><td></td></tr>
 </table>
 
 <h3>forms.your.unimelb.edu.au</h3>
@@ -187,8 +187,8 @@ main strong{color:var(--navy)}
 <table>
 <tr><th>Journey action</th><th>Links to its form</th><th>Verdict</th></tr>
 <tr><td>Fee remission</td><td>Opaque SID params in forms.your</td><td>Effectively invisible</td></tr>
-<tr><td>Reduced study load / leave</td><td>**2 links** to enrolmentvariations.app</td><td>Near-invisible</td></tr>
-<tr><td>Counselling booking</td><td>**3 links** to mycounselling.app</td><td>Near-invisible</td></tr>
+<tr><td>Reduced study load / leave</td><td><strong>2 links</strong> to enrolmentvariations.app</td><td>Near-invisible</td></tr>
+<tr><td>Counselling booking</td><td><strong>3 links</strong> to mycounselling.app</td><td>Near-invisible</td></tr>
 <tr><td>Special consideration</td><td>12 links to specialconsideration.app</td><td>Barely discoverable</td></tr>
 <tr><td>Enrol in subjects</td><td>187 links to my.unimelb (behind login)</td><td>Described, not transacted</td></tr>
 <tr><td>General enquiries</td><td>8 links to enquiry.app</td><td>Adequate</td></tr>
@@ -203,10 +203,10 @@ main strong{color:var(--navy)}
 <p>forms.your.unimelb.edu.au is the estate's single largest transactional dependency (2,044 links), but it's a black box:</p>
 
 <ul>
-<li>**No plain-language labels.** Three fee-remission form links use indistinguishable SID query parameters. A student cannot tell which is for a waiver, which for a review, and which for an enquiry.</li>
-<li>**No inventory.** There is no public directory of forms, no categorisation by journey, no indication of which office processes which form.</li>
-<li>**No status tracking.** Once submitted, a form disappears into a processing queue. The student has no visibility into whether their request was received, who's handling it, or when to expect a response.</li>
-<li>**143 hub pages reference form ID 4747166** — a single form with widespread links, completely undescribed.</li>
+<li><strong>No plain-language labels.</strong> Three fee-remission form links use indistinguishable SID query parameters. A student cannot tell which is for a waiver, which for a review, and which for an enquiry.</li>
+<li><strong>No inventory.</strong> There is no public directory of forms, no categorisation by journey, no indication of which office processes which form.</li>
+<li><strong>No status tracking.</strong> Once submitted, a form disappears into a processing queue. The student has no visibility into whether their request was received, who's handling it, or when to expect a response.</li>
+<li><strong>143 hub pages reference form ID 4747166</strong> — a single form with widespread links, completely undescribed.</li>
 </ul>
 
 <hr>
@@ -232,19 +232,19 @@ main strong{color:var(--navy)}
 
 <h2>Recommendations</h2>
 
-<h3>1. Label every forms.your link in plain language `[HIGH · medium]`</h3>
+<h3>1. Label every forms.your link in plain language <code>[HIGH · medium]</code></h3>
 <p>Replace opaque SID-param links with labeled CTAs: "Apply for fee remission (waiver)" / "Request a fee review" / "Submit a hardship enquiry." The 143 instances of form 4747166 should all carry a descriptive label.</p>
 
-<h3>2. Surface the highest-stakes transactional links prominently `[HIGH · medium]`</h3>
+<h3>2. Surface the highest-stakes transactional links prominently <code>[HIGH · medium]</code></h3>
 <p>Mycounselling.app (3 links), enrolmentvariations.app (2 links), and specialconsideration.app (12 links) should be surfaced as prominent CTAs from their guidance pages — not buried in prose or sidebars.</p>
 
-<h3>3. Build a forms directory `[MEDIUM · medium]`</h3>
+<h3>3. Build a forms directory <code>[MEDIUM · medium]</code></h3>
 <p>A single "Forms and requests" page on the hub, categorised by journey (enrolment, fees, support, careers), linking every form with its plain-language name and expected processing time.</p>
 
-<h3>4. Add status-tracking to high-consequence forms `[MEDIUM · large]`</h3>
+<h3>4. Add status-tracking to high-consequence forms <code>[MEDIUM · large]</code></h3>
 <p>Fee remission, leave of absence, and special consideration forms should provide a confirmation page with a reference number, expected processing time, and contact for follow-up. Currently the student submits into a void.</p>
 
-<h3>5. Audit the 14 *.app hosts for retirement dates `[MEDIUM · medium]`</h3>
+<h3>5. Audit the 14 *.app hosts for retirement dates <code>[MEDIUM · medium]</code></h3>
 <p>Every *.app host should have a registered owner, documented purpose, and planned retirement date. Several (slidelibrary, thesislibrary, booklibrary) appear to be legacy single-purpose microsites.</p>
 
 <hr>

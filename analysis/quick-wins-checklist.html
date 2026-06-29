@@ -138,11 +138,11 @@ main strong{color:var(--navy)}
 
 <table>
 <tr><th>#</th><th>Fix</th><th>Register §</th><th>Impact</th></tr>
-<tr><td>Q1</td><td>Fix census-dates canonical: change `<link rel="canonical" href="/page-not-found">` to actual page URL</td><td>8a.2</td><td>One line. Highest financial-stakes page fixed.</td></tr>
+<tr><td>Q1</td><td>Fix census-dates canonical: change <code><link rel="canonical" href="/page-not-found"></code> to actual page URL</td><td>8a.2</td><td>One line. Highest financial-stakes page fixed.</td></tr>
 <tr><td>Q2</td><td>Unpublish /sandbox/2026-uplifts/student-visas/ and /sandbox/content-models/</td><td>9.1, 8b.2</td><td>90 real inbound links to draft visa content removed.</td></tr>
 <tr><td>Q3</td><td>Unpublish / 301 the 2025 English language requirements page</td><td>Discover (international)</td><td>No applicant applies against superseded IELTS thresholds.</td></tr>
-<tr><td>Q4</td><td>Configure Cookiebot to use CSS `::after` instead of per-link `<img>` for external-link arrow</td><td>7.2</td><td>4 law pages drop from 5MB to <200KB instantly.</td></tr>
-<tr><td>Q5</td><td>Remove `user-scalable=no` + `maximum-scale=1` from medicine template</td><td>7.6</td><td>One line. WCAG mobile-accessibility fix.</td></tr>
+<tr><td>Q4</td><td>Configure Cookiebot to use CSS <code>::after</code> instead of per-link <code><img></code> for external-link arrow</td><td>7.2</td><td>4 law pages drop from 5MB to <200KB instantly.</td></tr>
+<tr><td>Q5</td><td>Remove <code>user-scalable=no</code> + <code>maximum-scale=1</code> from medicine template</td><td>7.6</td><td>One line. WCAG mobile-accessibility fix.</td></tr>
 </table>
 
 <hr>
@@ -151,8 +151,8 @@ main strong{color:var(--navy)}
 
 <table>
 <tr><th>#</th><th>Fix</th><th>Register §</th><th>Impact</th></tr>
-<tr><td>Q6</td><td>Give each scholarship detail page its own `<title>`: "[Name] — Scholarship \</td><td>UoM"</td><td>6.2</td><td>2,038 pages fixed. One template change.</td></tr>
-<tr><td>Q7</td><td>Fix scholarship template heading-skip: insert `<h2>` between h1 and h3</td><td>6.1</td><td>2,065 pages fixed. One template change.</td></tr>
+<tr><td>Q6</td><td>Give each scholarship detail page its own <code><title></code>: "[Name] — Scholarship \</td><td>UoM"</td><td>6.2</td><td>2,038 pages fixed. One template change.</td></tr>
+<tr><td>Q7</td><td>Fix scholarship template heading-skip: insert <code><h2></code> between h1 and h3</td><td>6.1</td><td>2,065 pages fixed. One template change.</td></tr>
 <tr><td>Q8</td><td>Add "Stay connected — join your alumni network" CTA to all 35 completion/conferral pages</td><td>3.1</td><td>35 pages, one CTA. Zero migration cost.</td></tr>
 <tr><td>Q9</td><td>Add "Enrol in this subject → my.unimelb" action to every Handbook subject page</td><td>6.7</td><td>Thousands of subject pages. One template change.</td></tr>
 <tr><td>Q10</td><td>Replace graduation-day page social media links (FB/IG/Twitter/TikTok) with alumni.unimelb</td><td>3.1</td><td>One page. Highest-traffic completion moment.</td></tr>
@@ -192,8 +192,8 @@ main strong{color:var(--navy)}
 <tr><th>#</th><th>Fix</th><th>Register §</th><th>Impact</th></tr>
 <tr><td>Q21</td><td>Add alt text in the Funnelback/Squiz search-result card template</td><td>6.4</td><td>One template. All search results across all Squiz domains.</td></tr>
 <tr><td>Q22</td><td>Replace generic "Show more" / "Find out more" link text across templates</td><td>6.8</td><td>Multiple templates.</td></tr>
-<tr><td>Q23</td><td>Add `rel="noopener"` and visible "opens in new window" cue to external links</td><td>6.5</td><td>Template-level.</td></tr>
-<tr><td>Q24</td><td>Fix the analytics privacy-consent radios: uncomment `<label>`, fix `{{opt_in}}` rendering</td><td>6.9</td><td>One template. GDPR/privacy compliance.</td></tr>
+<tr><td>Q23</td><td>Add <code>rel="noopener"</code> and visible "opens in new window" cue to external links</td><td>6.5</td><td>Template-level.</td></tr>
+<tr><td>Q24</td><td>Fix the analytics privacy-consent radios: uncomment <code><label></code>, fix <code>{{opt_in}}</code> rendering</td><td>6.9</td><td>One template. GDPR/privacy compliance.</td></tr>
 </table>
 
 <hr>
@@ -202,9 +202,9 @@ main strong{color:var(--navy)}
 
 <table>
 <tr><th>#</th><th>Fix</th><th>Register §</th><th>Impact</th></tr>
-<tr><td>Q25</td><td>Fix the `?a=` query-string artifact manufacturing ~3,359 phantom 404s on live pages</td><td>2.3</td><td>3,359 dead-appearing links resolved.</td></tr>
-<tr><td>Q26</td><td>Sweep the ~414 genuinely-dead destinations (957 links) after the `?a=` fix</td><td>2.4</td><td>Post-Q25 cleanup.</td></tr>
-<tr><td>Q27</td><td>Fix malformed double-hash in-page anchors on the agent page (`##navigation-find-an-agent`)</td><td>Discover (international)</td><td>One page. Agent page section links work.</td></tr>
+<tr><td>Q25</td><td>Fix the <code>?a=</code> query-string artifact manufacturing ~3,359 phantom 404s on live pages</td><td>2.3</td><td>3,359 dead-appearing links resolved.</td></tr>
+<tr><td>Q26</td><td>Sweep the ~414 genuinely-dead destinations (957 links) after the <code>?a=</code> fix</td><td>2.4</td><td>Post-Q25 cleanup.</td></tr>
+<tr><td>Q27</td><td>Fix malformed double-hash in-page anchors on the agent page (<code>##navigation-find-an-agent</code>)</td><td>Discover (international)</td><td>One page. Agent page section links work.</td></tr>
 <tr><td>Q28</td><td>Repoint the 1,648 old Stop 1 links to the new canonical path</td><td>1.1</td><td>Largest single fan-in fix.</td></tr>
 </table>
 
@@ -213,12 +213,12 @@ main strong{color:var(--navy)}
 <h2>Implementation notes</h2>
 
 <ul>
-<li>**Items Q1–Q5** can be done today. No dependencies. No stakeholder approvals needed for bug fixes.</li>
-<li>**Items Q6–Q10** are template changes. One CMS edit touches thousands of pages. Highest leverage.</li>
-<li>**Items Q11–Q15** are redirects. Require server/config access. Test before deploying.</li>
-<li>**Items Q16–Q20** are label/metadata changes. Content edits, not structural.</li>
-<li>**Items Q21–Q24** are accessibility fixes. Low effort, high compliance value.</li>
-<li>**Items Q25–Q28** are link hygiene. Q25 must be done before Q26 (the `?a=` artifact inflates the dead-link count).</li>
+<li><strong>Items Q1–Q5</strong> can be done today. No dependencies. No stakeholder approvals needed for bug fixes.</li>
+<li><strong>Items Q6–Q10</strong> are template changes. One CMS edit touches thousands of pages. Highest leverage.</li>
+<li><strong>Items Q11–Q15</strong> are redirects. Require server/config access. Test before deploying.</li>
+<li><strong>Items Q16–Q20</strong> are label/metadata changes. Content edits, not structural.</li>
+<li><strong>Items Q21–Q24</strong> are accessibility fixes. Low effort, high compliance value.</li>
+<li><strong>Items Q25–Q28</strong> are link hygiene. Q25 must be done before Q26 (the <code>?a=</code> artifact inflates the dead-link count).</li>
 </ul>
 
 <p>All items are documented with full evidence citations in the improvements register (<code>analysis/improvements-register.md</code>).</p>

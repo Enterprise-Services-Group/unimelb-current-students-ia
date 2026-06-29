@@ -118,6 +118,21 @@ main strong{color:var(--navy)}
 
 def md_to_html(text):
     """Simple markdown to HTML converter"""
+    def fmt(s):
+        """Apply inline formatting to any string"""
+        s = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', s)
+        s = re.sub(r'\*(.+?)\*', r'<em>\1</em>', s)
+        s = re.sub(r'`([^`]+)`', r'<code>\1</code>', s)
+        s = re.sub(r'\[([^\]]+)\]\(([^)]+)\)', r'<a href="\2">\1</a>', s)
+        # Severity/effort tags
+        s = re.sub(r'`\[CRITICAL · quick-win\]`', '<span class="severity-high" style="background:#B71C1C;color:#fff">CRITICAL</span> <span class="effort">quick-win</span>', s)
+        s = re.sub(r'`\[HIGH · quick-win\]`', '<span class="severity-high">HIGH</span> <span class="effort">quick-win</span>', s)
+        s = re.sub(r'`\[HIGH · medium\]`', '<span class="severity-high">HIGH</span> <span class="effort">medium</span>', s)
+        s = re.sub(r'`\[HIGH · large\]`', '<span class="severity-high">HIGH</span> <span class="effort">large</span>', s)
+        s = re.sub(r'`\[MEDIUM · medium\]`', '<span class="severity-medium">MEDIUM</span> <span class="effort">medium</span>', s)
+        s = re.sub(r'`\[MEDIUM · quick-win\]`', '<span class="severity-medium">MEDIUM</span> <span class="effort">quick-win</span>', s)
+        return s
+    
     lines = text.split('\n')
     out = []
     in_table = False
@@ -148,7 +163,8 @@ def md_to_html(text):
             if all(c.replace('-','').replace(':','').strip()=='' for c in cells):
                 continue  # separator row
             tag = 'th' if in_table and out[-1] == '<table>' else 'td'
-            out.append('<tr>' + ''.join(f'<{tag}>{c}</{tag}>' for c in cells) + '</tr>')
+            formatted_cells = ''.join(f'<{tag}>{fmt(c)}</{tag}>' for c in cells)
+            out.append(f'<tr>{formatted_cells}</tr>')
             continue
         elif in_table:
             out.append('</table>')
@@ -159,26 +175,26 @@ def md_to_html(text):
             if not in_quote:
                 out.append('<blockquote>')
                 in_quote = True
-            out.append(line[2:])
+            out.append(fmt(line[2:]))
             continue
         elif in_quote:
             out.append('</blockquote>')
             in_quote = False
         
         # Headings
-        if line.startswith('### '): out.append(f'<h3>{line[4:]}</h3>'); continue
-        if line.startswith('## '): out.append(f'<h2>{line[3:]}</h2>'); continue
-        if line.startswith('# '): out.append(f'<h1>{line[2:]}</h1>'); continue
+        if line.startswith('### '): out.append(f'<h3>{fmt(line[4:])}</h3>'); continue
+        if line.startswith('## '): out.append(f'<h2>{fmt(line[3:])}</h2>'); continue
+        if line.startswith('# '): out.append(f'<h1>{fmt(line[2:])}</h1>'); continue
         
         # Lists
         if line.strip().startswith('- ') or line.strip().startswith('* '):
             if not in_list: out.append('<ul>'); in_list = True
-            content = line.strip()[2:]
+            content = fmt(line.strip()[2:])
             out.append(f'<li>{content}</li>')
             continue
         elif line.strip() and re.match(r'^\d+\.', line.strip()):
             if not in_list: out.append('<ol>'); in_list = True
-            content = re.sub(r'^\d+\.\s*', '', line.strip())
+            content = fmt(re.sub(r'^\d+\.\s*', '', line.strip()))
             out.append(f'<li>{content}</li>')
             continue
         elif in_list and not line.strip():
@@ -190,22 +206,10 @@ def md_to_html(text):
             out.append('<hr>')
             continue
         
-        # Inline formatting
-        line = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', line)
-        line = re.sub(r'\*(.+?)\*', r'<em>\1</em>', line)
-        line = re.sub(r'`([^`]+)`', r'<code>\1</code>', line)
-        line = re.sub(r'\[([^\]]+)\]\(([^)]+)\)', r'<a href="\2">\1</a>', line)
-        
-        # Severity/effort tags
-        line = re.sub(r'`\[HIGH · quick-win\]`', '<span class="severity-high">HIGH</span> <span class="effort">quick-win</span>', line)
-        line = re.sub(r'`\[HIGH · medium\]`', '<span class="severity-high">HIGH</span> <span class="effort">medium</span>', line)
-        line = re.sub(r'`\[HIGH · large\]`', '<span class="severity-high">HIGH</span> <span class="effort">large</span>', line)
-        line = re.sub(r'`\[MEDIUM · medium\]`', '<span class="severity-medium">MEDIUM</span> <span class="effort">medium</span>', line)
-        line = re.sub(r'`\[MEDIUM · quick-win\]`', '<span class="severity-medium">MEDIUM</span> <span class="effort">quick-win</span>', line)
-        line = re.sub(r'`\[CRITICAL · quick-win\]`', '<span class="severity-high" style="background:#B71C1C;color:#fff">CRITICAL</span> <span class="effort">quick-win</span>', line)
-        
-        if line.strip(): out.append(f'<p>{line}</p>')
-        else: out.append('')
+        if line.strip():
+            out.append(f'<p>{fmt(line)}</p>')
+        else:
+            out.append('')
     
     if in_table: out.append('</table>')
     if in_list: out.append('</ul>')

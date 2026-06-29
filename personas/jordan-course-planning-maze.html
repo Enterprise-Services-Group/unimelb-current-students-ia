@@ -131,7 +131,7 @@ main strong{color:var(--navy)}
 <h1>Jordan — Course planning maze</h1>
 
 <blockquote>
-*"I've got the Course Planner open in one tab, the Handbook in another, a faculty sample plan PDF in a third, and the FAQ article about prerequisites in a fourth. Four tabs to answer one question: which subjects do I enrol in this semester?"*
+<em>"I've got the Course Planner open in one tab, the Handbook in another, a faculty sample plan PDF in a third, and the FAQ article about prerequisites in a fourth. Four tabs to answer one question: which subjects do I enrol in this semester?"</em>
 </blockquote>
 
 <h2>Bio</h2>
@@ -141,29 +141,29 @@ main strong{color:var(--navy)}
 
 <table>
 <tr><th>Pain point</th><th>Crawl evidence</th><th>Severity</th></tr>
-<tr><td>**Seven-system obstacle course**</td><td>Hub guidance (2 trees) + My Course Planner (StudyOS) + Handbook + ask.unimelb + my.unimelb + MyTimetable + *.app forms</td><td>HIGH</td></tr>
-<tr><td>**Two parallel guidance trees compete**</td><td>`/course-admin` (212 pages) vs legacy `/your-course` (101 pages); 19 core leaves byte-near duplicates</td><td>HIGH</td></tr>
-<tr><td>**Two planning tools, no delineation**</td><td>StudyOS My Course Planner vs my.unimelb /sone/STUDYPLN — referenced on ~830 pages but resolved to two different tools</td><td>HIGH</td></tr>
-<tr><td>**Every answer is a FAQ hop away**</td><td>396 links to ask.unimelb across two URL formats; the hub describes, the FAQ answers</td><td>HIGH</td></tr>
-<tr><td>**Census dates page is broken**</td><td>Canonicalises to `/page-not-found` — the highest-stakes operational page in the estate</td><td>HIGH</td></tr>
-<tr><td>**Handbook switch mid-plan**</td><td>195 links to handbook.unimelb — different platform, different visual standard, different navigation</td><td>MEDIUM</td></tr>
-<tr><td>**Enrolment variations scattered**</td><td>161 links to forms.your + *.app microsites for overload, leave, withdrawal — no single "change my enrolment" hub</td><td>MEDIUM</td></tr>
-<tr><td>**Timetabling is yet another subdomain + login**</td><td>MyTimetable on mytimetable.students.unimelb — separate system behind its own authentication</td><td>MEDIUM</td></tr>
-<tr><td>**Faculties re-host planning content**</td><td>71 faculty course-planning pages parallel the central guidance — 46% on school subdomains beneath faculties</td><td>MEDIUM</td></tr>
+<tr><td><strong>Seven-system obstacle course</strong></td><td>Hub guidance (2 trees) + My Course Planner (StudyOS) + Handbook + ask.unimelb + my.unimelb + MyTimetable + *.app forms</td><td>HIGH</td></tr>
+<tr><td><strong>Two parallel guidance trees compete</strong></td><td><code>/course-admin</code> (212 pages) vs legacy <code>/your-course</code> (101 pages); 19 core leaves byte-near duplicates</td><td>HIGH</td></tr>
+<tr><td><strong>Two planning tools, no delineation</strong></td><td>StudyOS My Course Planner vs my.unimelb /sone/STUDYPLN — referenced on ~830 pages but resolved to two different tools</td><td>HIGH</td></tr>
+<tr><td><strong>Every answer is a FAQ hop away</strong></td><td>396 links to ask.unimelb across two URL formats; the hub describes, the FAQ answers</td><td>HIGH</td></tr>
+<tr><td><strong>Census dates page is broken</strong></td><td>Canonicalises to <code>/page-not-found</code> — the highest-stakes operational page in the estate</td><td>HIGH</td></tr>
+<tr><td><strong>Handbook switch mid-plan</strong></td><td>195 links to handbook.unimelb — different platform, different visual standard, different navigation</td><td>MEDIUM</td></tr>
+<tr><td><strong>Enrolment variations scattered</strong></td><td>161 links to forms.your + *.app microsites for overload, leave, withdrawal — no single "change my enrolment" hub</td><td>MEDIUM</td></tr>
+<tr><td><strong>Timetabling is yet another subdomain + login</strong></td><td>MyTimetable on mytimetable.students.unimelb — separate system behind its own authentication</td><td>MEDIUM</td></tr>
+<tr><td><strong>Faculties re-host planning content</strong></td><td>71 faculty course-planning pages parallel the central guidance — 46% on school subdomains beneath faculties</td><td>MEDIUM</td></tr>
 </table>
 
 <h2>Top frustrations</h2>
 <ol>
-<li>**No single source of truth.** The hub, the Handbook, the FAQ, and the faculty sample plan each claim to own part of the answer.</li>
-<li>**The guidance describes but doesn't transact.** Every page tells Jordan *about* enrolment; none of them let Jordan *do* enrolment — that's behind a my.unimelb login.</li>
-<li>**The two parallel trees create confusion.** Jordan lands on `/your-course/census-dates` from a faculty link but the real page is at `/course-admin/census-dates` — and the canonical tag points to a 404.</li>
-<li>**Timetabling requires yet another login.** After planning subjects and enrolling, Jordan must go to a completely separate system (MyTimetable) to register for classes.</li>
+<li><strong>No single source of truth.</strong> The hub, the Handbook, the FAQ, and the faculty sample plan each claim to own part of the answer.</li>
+<li><strong>The guidance describes but doesn't transact.</strong> Every page tells Jordan <em>about</em> enrolment; none of them let Jordan <em>do</em> enrolment — that's behind a my.unimelb login.</li>
+<li><strong>The two parallel trees create confusion.</strong> Jordan lands on <code>/your-course/census-dates</code> from a faculty link but the real page is at <code>/course-admin/census-dates</code> — and the canonical tag points to a 404.</li>
+<li><strong>Timetabling requires yet another login.</strong> After planning subjects and enrolling, Jordan must go to a completely separate system (MyTimetable) to register for classes.</li>
 </ul>
 
 <h2>The toolchain Jordan must traverse</h2>
 <table>
 <tr><th>System</th><th>Role</th><th>Links from hub</th></tr>
-<tr><td>Hub guidance (2 trees)</td><td>How-to advice — split across `/course-admin` + `/your-course`</td><td>313 pages</td></tr>
+<tr><td>Hub guidance (2 trees)</td><td>How-to advice — split across <code>/course-admin</code> + <code>/your-course</code></td><td>313 pages</td></tr>
 <tr><td>My Course Planner 🔒</td><td>Subject planning tool — on a separate subdomain</td><td>~54 links · on ~830 pages</td></tr>
 <tr><td>The Handbook</td><td>Course/subject structure, prerequisites, points</td><td>195 links</td></tr>
 <tr><td>ask.unimelb FAQ</td><td>The actual answers (study load, census, HECS, prerequisites)</td><td>396 links</td></tr>
@@ -180,15 +180,15 @@ main strong{color:var(--navy)}
 <tr><th>#</th><th>Improvement</th><th>Severity · Effort</th></tr>
 <tr><td>1</td><td>Finish the stalled hub migration & collapse parallel URL trees</td><td>HIGH · medium</td></tr>
 <tr><td>3</td><td>Mandate a thin standardised student overlay on Squiz</td><td>HIGH · medium</td></tr>
-<tr><td>4</td><td>Fix the `?a=` query-string artifact manufacturing ~3,359 phantom 404s</td><td>HIGH · quick-win</td></tr>
+<tr><td>4</td><td>Fix the <code>?a=</code> query-string artifact manufacturing ~3,359 phantom 404s</td><td>HIGH · quick-win</td></tr>
 <tr><td>5</td><td>Guarantee 301s for MSD's ~8,000 deep-links into legacy hub paths</td><td>HIGH · quick-win</td></tr>
 </table>
 
 <h2>Related deep-dives</h2>
 <ul>
-<li>`analysis/course-planning-enrolment.md` — full toolchain audit</li>
-<li>`analysis/lifecycle-journeys.md` — Domestic undergraduate + enrolment moment traces</li>
-<li>`report/Course-Planning-Enrolment.html` — formatted report</li>
+<li><code>analysis/course-planning-enrolment.md</code> — full toolchain audit</li>
+<li><code>analysis/lifecycle-journeys.md</code> — Domestic undergraduate + enrolment moment traces</li>
+<li><code>report/Course-Planning-Enrolment.html</code> — formatted report</li>
 </ul>
 
 <hr>

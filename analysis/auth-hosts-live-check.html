@@ -139,15 +139,15 @@ main strong{color:var(--navy)}
 <p>The authenticated core audit mapped 42 hosts that the public estate links to. This follow-up actually visited them. Three findings change the picture:</p>
 
 <ol>
-<li>**Two of the highest-stakes transactional hosts are dead.** specialconsideration.app.unimelb.edu.au returns 404 — at root and at /apply. enrolmentvariations.app.unimelb.edu.au returns 404 — at root and at /apply. The hub has 14 links pointing to dead pages for special consideration and enrolment variations. Students clicking "Apply for special consideration" or "Reduce study load" arrive at a 404.</li>
+<li><strong>Two of the highest-stakes transactional hosts are dead.</strong> specialconsideration.app.unimelb.edu.au returns 404 — at root and at /apply. enrolmentvariations.app.unimelb.edu.au returns 404 — at root and at /apply. The hub has 14 links pointing to dead pages for special consideration and enrolment variations. Students clicking "Apply for special consideration" or "Reduce study load" arrive at a 404.</li>
 </ul>
 
 <ol>
-<li>**Mycounselling.app exists but is blocked.** 403 Forbidden. The 3 links from services.unimelb to counselling booking point to a host that refuses connections. This is marginally better than a 404 but still inaccessible.</li>
+<li><strong>Mycounselling.app exists but is blocked.</strong> 403 Forbidden. The 3 links from services.unimelb to counselling booking point to a host that refuses connections. This is marginally better than a 404 but still inaccessible.</li>
 </ul>
 
 <ol>
-<li>**18 of 19 tested hosts are auth-gated, dead, or unreachable.** Only ecommerce.unimelb.edu.au has public content. The authenticated core is an authenticated core in the literal sense — almost nothing is accessible without login.</li>
+<li><strong>18 of 19 tested hosts are auth-gated, dead, or unreachable.</strong> Only ecommerce.unimelb.edu.au has public content. The authenticated core is an authenticated core in the literal sense — almost nothing is accessible without login.</li>
 </ul>
 
 <hr>
@@ -172,8 +172,8 @@ main strong{color:var(--navy)}
 <tr><td>🔒 SSO wall</td><td>forms.your.unimelb.edu.au/4747166</td><td>"University of Melbourne - Sign In" — SSO wall</td></tr>
 <tr><td>🔒 SSO wall</td><td>forms.your.unimelb.edu.au</td><td>"FormAssembly: Enterprise" — SSO login</td></tr>
 <tr><td>🚫 Blocked</td><td>mycounselling.app.unimelb.edu.au</td><td>403 Forbidden</td></tr>
-<tr><td>❌ **DEAD**</td><td>**specialconsideration.app.unimelb.edu.au**</td><td>**404 — at root AND /apply**</td></tr>
-<tr><td>❌ **DEAD**</td><td>**enrolmentvariations.app.unimelb.edu.au**</td><td>**404 — at root AND /apply**</td></tr>
+<tr><td>❌ <strong>DEAD</strong></td><td><strong>specialconsideration.app.unimelb.edu.au</strong></td><td><strong>404 — at root AND /apply</strong></td></tr>
+<tr><td>❌ <strong>DEAD</strong></td><td><strong>enrolmentvariations.app.unimelb.edu.au</strong></td><td><strong>404 — at root AND /apply</strong></td></tr>
 <tr><td>❌ DNS fail</td><td>student-advising-system.unimelb.edu.au</td><td>ERR_NAME_NOT_RESOLVED</td></tr>
 <tr><td>❌ Connection</td><td>enquiry.app.unimelb.edu.au</td><td>ERR_CONNECTION_RESET</td></tr>
 </table>
@@ -232,11 +232,11 @@ main strong{color:var(--navy)}
 
 <table>
 <tr><th>Host</th><th>SSO page reveals</th></tr>
-<tr><td>**mycounselling.app**</td><td>"Sign in with your University of Melbourne account to access CAPS appointment portal" — confirms the service exists and is called CAPS</td></tr>
-<tr><td>**course-planner.unimelb**</td><td>"My Course Planner" — public landing page with login button and introductory video link. Confirms the tool exists. 0 crawlable pages (SPA).</td></tr>
-<tr><td>**forms.your.unimelb**</td><td>"FormAssembly: Enterprise \</td><td>University of Melbourne : Users" — confirms the form platform is FormAssembly</td></tr>
-<tr><td>**forms.your/4747166**</td><td>"Sign in to access FormAssembly Repondentence" — the fee remission form requires login</td></tr>
-<tr><td>**intlstudaccept.unimelb**</td></tr>
+<tr><td><strong>mycounselling.app</strong></td><td>"Sign in with your University of Melbourne account to access CAPS appointment portal" — confirms the service exists and is called CAPS</td></tr>
+<tr><td><strong>course-planner.unimelb</strong></td><td>"My Course Planner" — public landing page with login button and introductory video link. Confirms the tool exists. 0 crawlable pages (SPA).</td></tr>
+<tr><td><strong>forms.your.unimelb</strong></td><td>"FormAssembly: Enterprise \</td><td>University of Melbourne : Users" — confirms the form platform is FormAssembly</td></tr>
+<tr><td><strong>forms.your/4747166</strong></td><td>"Sign in to access FormAssembly Repondentence" — the fee remission form requires login</td></tr>
+<tr><td><strong>intlstudaccept.unimelb</strong></td></tr>
 </table>
 
 <hr>
@@ -263,23 +263,23 @@ main strong{color:var(--navy)}
 
 <h2>Recommendations</h2>
 
-<h3>1. Fix or redirect specialconsideration.app and enrolmentvariations.app — immediately `[CRITICAL · quick-win]`</h3>
+<h3>1. Fix or redirect specialconsideration.app and enrolmentvariations.app — immediately <code>[CRITICAL · quick-win]</code></h3>
 
 <p>Two of the highest-stakes transactional hosts in the estate are dead. Either restore the hosts or redirect their URLs to the correct destinations. The 14 inbound links from the hub and faculties are currently sending students to 404s.</p>
 
-<h3>2. Investigate mycounselling.app `[HIGH · quick-win]`</h3>
+<h3>2. Investigate mycounselling.app <code>[HIGH · quick-win]</code></h3>
 
 <p>403 Forbidden suggests the host exists but is misconfigured. Confirm the correct URL for counselling bookings and update the 3 links from services.unimelb.</p>
 
-<h3>3. Audit all remaining *.app hosts for liveness `[HIGH · medium]`</h3>
+<h3>3. Audit all remaining *.app hosts for liveness <code>[HIGH · medium]</code></h3>
 
 <p>slidelibrary.app, thesislibrary.app, booklibrary.app, studenteforms.app, ffam-mcm.app, law.app, ctrs.app — all single-purpose legacy hosts with 1-8 inbound links each. Check if they still resolve. Add liveness monitoring.</p>
 
-<h3>4. Add a public landing page to every *.app host `[MEDIUM · medium]`</h3>
+<h3>4. Add a public landing page to every *.app host <code>[MEDIUM · medium]</code></h3>
 
 <p>Before the SSO redirect, show a page that confirms the student is in the right place: "You're about to apply for special consideration. Log in with your University account to continue." This closes the find→act gap at the HTTP level — the student knows they've arrived at the right destination before they authenticate.</p>
 
-<h3>5. Add liveness monitoring to all 42 authenticated hosts `[MEDIUM · medium]`</h3>
+<h3>5. Add liveness monitoring to all 42 authenticated hosts <code>[MEDIUM · medium]</code></h3>
 
 <p>If a host goes down, the public estate continues linking to it indefinitely. A periodic HEAD request to every authenticated host, with alerts when a 404 or connection failure is detected, would catch the next dead host before students do.</p>
 

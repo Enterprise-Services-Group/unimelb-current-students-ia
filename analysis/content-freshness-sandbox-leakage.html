@@ -139,15 +139,15 @@ main strong{color:var(--navy)}
 <p>The University's web estate has no mechanism to prevent draft, staging, or stale content from being published, indexed, and linked from production pages. Three acute failures define the gap:</p>
 
 <ol>
-<li>**A live /sandbox/2026-uplifts/student-visas draft tree** — 812KB, 19,000+ chars of real immigration-critical content, accumulating **90 real inbound links** from production pages. One URL resolves to a UoM Sign-In wall — confirming it's a live staging surface, not a content model.</li>
+<li><strong>A live /sandbox/2026-uplifts/student-visas draft tree</strong> — 812KB, 19,000+ chars of real immigration-critical content, accumulating <strong>90 real inbound links</strong> from production pages. One URL resolves to a UoM Sign-In wall — confirming it's a live staging surface, not a content model.</li>
 </ul>
 
 <ol>
-<li>**Year-stamped stale content** — a "2025 English language requirements" page still live and linked from the 2026 hub. An applicant can apply against superseded IELTS thresholds.</li>
+<li><strong>Year-stamped stale content</strong> — a "2025 English language requirements" page still live and linked from the 2026 hub. An applicant can apply against superseded IELTS thresholds.</li>
 </ul>
 
 <ol>
-<li>**_nocache URL variants leaking into the link graph** — 15 production pages link to _nocache versions of fee/eligibility pages.</li>
+<li><strong>_nocache URL variants leaking into the link graph</strong> — 15 production pages link to _nocache versions of fee/eligibility pages.</li>
 </ul>
 
 <p>Underneath all three: <strong>there is no content ownership registry.</strong> No one knows who owns which page, when it should be reviewed, or when it should be retired. The estate silently degrades because nobody is watching.</p>
@@ -232,22 +232,22 @@ main strong{color:var(--navy)}
 
 <h2>Recommendations</h2>
 
-<h3>1. Unpublish all /sandbox/ content — immediately `[HIGH · quick-win]`</h3>
+<h3>1. Unpublish all /sandbox/ content — immediately <code>[HIGH · quick-win]</code></h3>
 <p>Take down <code>/sandbox/2026-uplifts/student-visas/</code> and <code>/sandbox/content-models/student-equity-and-disability-services/</code>. If the content is ready for production, publish it to the canonical URL tree with proper redirects. If it's not ready, remove it from the public web. A live published draft on immigration-critical content is a compliance hazard.</p>
 
-<h3>2. Redirect all sandbox inbound links to canonical destinations `[HIGH · quick-win]`</h3>
+<h3>2. Redirect all sandbox inbound links to canonical destinations <code>[HIGH · quick-win]</code></h3>
 <p>The 90 real inbound links to sandbox visa pages need 301-redirects to the canonical <code>/support-and-wellbeing/international-student-support/visas/</code> tree. Don't break the links editors already created — redirect them.</p>
 
-<h3>3. Unpublish / 301 the 2025 English requirements page `[HIGH · quick-win]`</h3>
+<h3>3. Unpublish / 301 the 2025 English requirements page <code>[HIGH · quick-win]</code></h3>
 <p>Remove the 2025 page and redirect its inbound links to the current 2026 English requirements page. Never expose year-forked eligibility thresholds.</p>
 
-<h3>4. Add a publication gate: no /sandbox/ content accessible without authentication `[MEDIUM · medium]`</h3>
+<h3>4. Add a publication gate: no /sandbox/ content accessible without authentication <code>[MEDIUM · medium]</code></h3>
 <p>Sandbox/staging environments should require login. Public sandbox URLs should 404 or redirect. This is a server-config change, not a content change.</p>
 
-<h3>5. Strip _nocache query strings from internal links `[MEDIUM · quick-win]`</h3>
+<h3>5. Strip _nocache query strings from internal links <code>[MEDIUM · quick-win]</code></h3>
 <p>Audit and fix the 15 known _nocache inbound links. Add a CMS guard that prevents editors from linking to _nocache URLs.</p>
 
-<h3>6. Stand up a content ownership registry `[MEDIUM · medium]`</h3>
+<h3>6. Stand up a content ownership registry <code>[MEDIUM · medium]</code></h3>
 <p>Every published page needs: owner, last-review date, next-review date, and status (live/draft/deprecated). Every subdomain needs a registered owner and a retirement date. This is the structural fix that prevents all three failures from recurring.</p>
 
 <hr>

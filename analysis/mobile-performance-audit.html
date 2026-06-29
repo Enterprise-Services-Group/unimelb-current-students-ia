@@ -155,17 +155,17 @@ main strong{color:var(--navy)}
 
 <table>
 <tr><th>Domain</th><th>Pages</th><th>Median KB</th><th>P90 KB</th><th>Max KB</th><th>Primary audience</th><th>Audience connection quality</th></tr>
-<tr><td>**study.unimelb**</td><td>2,005</td><td>**304**</td><td>416</td><td>1,132</td><td>International applicants</td><td>Offshore mobile — worst</td></tr>
+<tr><td><strong>study.unimelb</strong></td><td>2,005</td><td><strong>304</strong></td><td>416</td><td>1,132</td><td>International applicants</td><td>Offshore mobile — worst</td></tr>
 <tr><td>finearts-music</td><td>1,257</td><td>217</td><td>248</td><td>2,292</td><td>Mixed</td><td>Domestic broadband</td></tr>
 <tr><td>scholarships</td><td>2,151</td><td>188</td><td>190</td><td>199</td><td>Mixed</td><td>Mixed</td></tr>
 <tr><td>students.unimelb</td><td>833</td><td>181</td><td>217</td><td>1,102</td><td>Enrolled students</td><td>Domestic + on-campus</td></tr>
 <tr><td>fbe</td><td>1,980</td><td>166</td><td>188</td><td>1,415</td><td>Mixed</td><td>Mixed</td></tr>
 <tr><td>medicine</td><td>2,194</td><td>164</td><td>184</td><td>2,516</td><td>Mixed</td><td>Mixed</td></tr>
 <tr><td>msd</td><td>1,560</td><td>163</td><td>182</td><td>1,779</td><td>Mixed</td><td>Mixed</td></tr>
-<tr><td>law</td><td>2,034</td><td>161</td><td>178</td><td>**5,056**</td><td>Mixed</td><td>Mixed</td></tr>
+<tr><td>law</td><td>2,034</td><td>161</td><td>178</td><td><strong>5,056</strong></td><td>Mixed</td><td>Mixed</td></tr>
 <tr><td>eng</td><td>1,759</td><td>160</td><td>174</td><td>452</td><td>Mixed</td><td>Mixed</td></tr>
 <tr><td>arts</td><td>2,032</td><td>160</td><td>186</td><td>1,677</td><td>Mixed</td><td>Mixed</td></tr>
-<tr><td>mdhs</td><td>3,514</td><td>149</td><td>160</td><td>**4,730**</td><td>Mixed</td><td>Mixed</td></tr>
+<tr><td>mdhs</td><td>3,514</td><td>149</td><td>160</td><td><strong>4,730</strong></td><td>Mixed</td><td>Mixed</td></tr>
 <tr><td>handbook</td><td>2,120</td><td>0¹</td><td>77</td><td>180</td><td>All students</td><td>Mixed</td></tr>
 </table>
 
@@ -175,7 +175,7 @@ main strong{color:var(--navy)}
 
 <h2>The three weight pathologies</h2>
 
-<h3>1. Base64-inlined hero images crush mobile/limited-data students `[HIGH]`</h3>
+<h3>1. Base64-inlined hero images crush mobile/limited-data students <code>[HIGH]</code></h3>
 
 <p>9 pages in the crawl ship >100KB of base64-encoded images embedded directly in the HTML document:</p>
 
@@ -191,17 +191,17 @@ main strong{color:var(--navy)}
 
 <p>Base64 inlining defeats browser caching, lazy-loading, responsive srcset, and CDN image optimization. Every byte is re-downloaded on every visit, with ~33% encoding overhead. On a 3G connection a 2MB news article is a 10–20 second wait and a real data cost.</p>
 
-<h3>2. Cookiebot icon duplicated 1,926 times on a single page `[HIGH]`</h3>
+<h3>2. Cookiebot icon duplicated 1,926 times on a single page <code>[HIGH]</code></h3>
 
 <p>4 law staff profile pages at 5,007–5,056KB each contain 1,926 identical <code><img></code> tags — all carrying the same ~400-byte base64 PNG (the Cookiebot "opens in new window" arrow icon). The same string is repeated 1,926 times instead of referenced once. mdhs has the same pathology: 1,924 copies on a research-training page (4,730KB).</p>
 
 <p>Root cause: the Cookiebot consent script re-decorates every external link with the arrow icon per render, and these pages embed external-page link soup. gzip masks the transfer size but the phone still parses 5MB of DOM with 1,938 <code><img></code> nodes.</p>
 
-<h3>3. Course template ships ~327KB before a single external file loads `[HIGH]`</h3>
+<h3>3. Course template ships ~327KB before a single external file loads <code>[HIGH]</code></h3>
 
 <p>Sampling 25 course pages on study.unimelb: median HTML 327KB, of which:</p>
 <ul>
-<li>~109KB inline SVG (a 106KB icon sprite with 187 `<path>` icons, most unused)</li>
+<li>~109KB inline SVG (a 106KB icon sprite with 187 <code><path></code> icons, most unused)</li>
 <li>~79KB inline JS</li>
 <li>~43KB inline CSS</li>
 </ul>
@@ -215,7 +215,7 @@ main strong{color:var(--navy)}
 <table>
 <tr><th>Metric</th><th>Count</th></tr>
 <tr><td>Median external stylesheets</td><td>10</td></tr>
-<tr><td>Median external `<script src>`</td><td>21</td></tr>
+<tr><td>Median external <code><script src></code></td><td>21</td></tr>
 <tr><td>Scripts with defer/async</td><td>~13% (3/21)</td></tr>
 <tr><td>Blocking scripts</td><td>~18</td></tr>
 <tr><td>Third-party tag/analytics origins</td><td>7× googletagmanager.com, google-analytics.com, tealiumiq.com, tiqcdn.com, cdn.optimizely.com, cdn1.adoberesources.net</td></tr>
@@ -243,22 +243,22 @@ main strong{color:var(--navy)}
 
 <h2>Recommendations</h2>
 
-<h3>1. De-inline the 9 known >100KB base64 image offenders `[HIGH · medium]`</h3>
+<h3>1. De-inline the 9 known >100KB base64 image offenders <code>[HIGH · medium]</code></h3>
 <p>Convert to served image files with width-appropriate srcset, <code>loading="lazy"</code>, and WebP/AVIF. One-off sweep with immediate impact.</p>
 
-<h3>2. Configure Cookiebot to use CSS instead of per-link `<img>` tags `[HIGH · quick-win]`</h3>
+<h3>2. Configure Cookiebot to use CSS instead of per-link <code><img></code> tags <code>[HIGH · quick-win]</code></h3>
 <p>One config change: reference the external-link-arrow as a shared CSS <code>::after</code> background instead of injecting per-link <code><img></code> tags. Drops 4 law pages from ~5MB to well under 200KB instantly. The cheapest high-impact win in the estate.</p>
 
-<h3>3. Externalize the course template's shared assets `[HIGH · medium]`</h3>
+<h3>3. Externalize the course template's shared assets <code>[HIGH · medium]</code></h3>
 <p>Move the 106KB icon sprite, base CSS, and base JS into cacheable external files. Tree-shake the sprite to icons actually used. Target: cut per-page course document from ~327KB to <120KB, with shared assets cached after the first page.</p>
 
-<h3>4. Consolidate tag managers and defer scripts `[MEDIUM · medium]`</h3>
+<h3>4. Consolidate tag managers and defer scripts <code>[MEDIUM · medium]</code></h3>
 <p>Single tag manager (GTM or Tealium, not both). Defer/async all non-critical scripts. Move analytics behind requestIdleCallback. Add preconnect hints for the real origins.</p>
 
-<h3>5. Stand up a page-weight budget and CI gate `[MEDIUM · medium]`</h3>
+<h3>5. Stand up a page-weight budget and CI gate <code>[MEDIUM · medium]</code></h3>
 <p>Warn >500KB HTML. Block >1MB HTML. Surface per-domain weight dashboard. Scheduled Lighthouse run on representative templates tracking LCP/INP/CLS.</p>
 
-<h3>6. Fix the pinch-zoom blocker `[MEDIUM · quick-win]`</h3>
+<h3>6. Fix the pinch-zoom blocker <code>[MEDIUM · quick-win]</code></h3>
 <p>Remove <code>user-scalable=no</code> + <code>maximum-scale=1</code> from the medicine template. One line fix, WCAG compliance, immediate mobile-accessibility win.</p>
 
 <hr>

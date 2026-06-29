@@ -139,10 +139,10 @@ main strong{color:var(--navy)}
 <p>The Handbook (handbook.unimelb.edu.au) is the system that defines course structure, subject prerequisites, points, and entry requirements for every degree the University offers. It is the <strong>#1 dependency in the estate</strong>:</p>
 
 <ul>
-<li>**7,819 contextual inbound links** from 15+ domains — more than my.unimelb (187), ask.unimelb (396), or Careers Online (115) combined</li>
-<li>**8,323 outbound links** — the Handbook is the estate's second-most prolific linker after study.unimelb</li>
-<li>Referenced on **~830 hub enrolment pages** (195 direct links from the course-planning toolchain alone)</li>
-<li>**2,134 pages** — 161 subjects, 105 courses, plus structure and search pages</li>
+<li><strong>7,819 contextual inbound links</strong> from 15+ domains — more than my.unimelb (187), ask.unimelb (396), or Careers Online (115) combined</li>
+<li><strong>8,323 outbound links</strong> — the Handbook is the estate's second-most prolific linker after study.unimelb</li>
+<li>Referenced on <strong>~830 hub enrolment pages</strong> (195 direct links from the course-planning toolchain alone)</li>
+<li><strong>2,134 pages</strong> — 161 subjects, 105 courses, plus structure and search pages</li>
 </ul>
 
 <p>But the Handbook is governed to a visibly lower web standard than the rest of the estate. It's built on a different platform, operates as a single-page application with <strong>no server-rendered fallback</strong>, has <strong>blank <code><title></code> tags on every subject and course page</strong>, carries <strong>non-descriptive anchor text</strong> at scale, and provides <strong>no "Enrol in this subject" action</strong> — the single most important task a student would want to perform from a subject page. For ~1,470 of 2,134 crawled captures, the page delivered to the crawler is an 887-byte Imperva bot-block shell — meaning search engines, social-media link previews, and non-JS users see nothing at all.</p>
@@ -159,11 +159,11 @@ main strong{color:var(--navy)}
 <tr><td>Genuine content pages</td><td>~664 (after filtering ~1,470 bot-block shells)</td></tr>
 <tr><td>Subjects</td><td>161 (orphaned — no inbound links)</td></tr>
 <tr><td>Courses</td><td>105 (orphaned — no inbound links)</td></tr>
-<tr><td>Contextual inbound links (estate-wide)</td><td>**7,819**</td></tr>
-<tr><td>Contextual outbound links</td><td>**8,323**</td></tr>
+<tr><td>Contextual inbound links (estate-wide)</td><td><strong>7,819</strong></td></tr>
+<tr><td>Contextual outbound links</td><td><strong>8,323</strong></td></tr>
 <tr><td>Median page weight</td><td>0KB (bot-block artifact)</td></tr>
 <tr><td>Max page weight</td><td>180KB</td></tr>
-<tr><td>Blank `<title>` tags</td><td>All subject/course pages</td></tr>
+<tr><td>Blank <code><title></code> tags</td><td>All subject/course pages</td></tr>
 </table>
 
 <hr>
@@ -172,7 +172,7 @@ main strong{color:var(--navy)}
 
 <table>
 <tr><th>Source</th><th>Contextual links</th><th>What for</th></tr>
-<tr><td>study.unimelb.edu.au</td><td>**4,391**</td><td>Course discovery — every /find/courses/ page links handbook for structure, entry requirements, subjects</td></tr>
+<tr><td>study.unimelb.edu.au</td><td><strong>4,391</strong></td><td>Course discovery — every /find/courses/ page links handbook for structure, entry requirements, subjects</td></tr>
 <tr><td>law.unimelb.edu.au</td><td>1,147</td><td>Law course/subject detail</td></tr>
 <tr><td>msd.unimelb.edu.au</td><td>778</td><td>Architecture/building course structure</td></tr>
 <tr><td>finearts-music.unimelb.edu.au</td><td>374</td><td>VCA/MCM course detail</td></tr>
@@ -195,7 +195,7 @@ main strong{color:var(--navy)}
 <tr><th>Destination</th><th>Contextual links</th><th>What for</th></tr>
 <tr><td>www.unimelb.edu.au</td><td>2,964</td><td>Generic University links</td></tr>
 <tr><td>about.unimelb.edu.au</td><td>2,479</td><td>Policy/administrative links</td></tr>
-<tr><td>students.unimelb.edu.au</td><td>**1,193**</td><td>Current student hub — the most important destination</td></tr>
+<tr><td>students.unimelb.edu.au</td><td><strong>1,193</strong></td><td>Current student hub — the most important destination</td></tr>
 <tr><td>safety.unimelb.edu.au</td><td>493</td><td>Safety links (bulk chrome)</td></tr>
 <tr><td>archive.handbook.unimelb.edu.au</td><td>489</td><td>Archive cross-links</td></tr>
 <tr><td>study.unimelb.edu.au</td><td>223</td><td>Course discovery</td></tr>
@@ -210,23 +210,23 @@ main strong{color:var(--navy)}
 
 <h2>The three failures</h2>
 
-<h3>1. SPA-only with no server-rendered fallback `[HIGH]`</h3>
+<h3>1. SPA-only with no server-rendered fallback <code>[HIGH]</code></h3>
 
 <p>The Handbook is a single-page application. When a search engine, social-media crawler, or non-JS user-agent requests a subject or course page, the server returns JavaScript that must be executed to render content. The Imperva WAF adds a second layer: ~1,470 of 2,134 crawled captures are 887-byte bot-block shells — the WAF challenged the crawler and the crawler couldn't execute JS to pass the challenge.</p>
 
 <p>The result:</p>
 <ul>
-<li>**Search engines see blank pages with no content.** Every handbook page is effectively invisible to Google.</li>
-<li>**Social media link previews show nothing.** Share a handbook subject link on Slack/Teams/LinkedIn — no title, no description, no image.</li>
-<li>**Screen readers and accessibility tools fail.** No server-rendered content = no accessible DOM.</li>
-<li>**266 pages are "orphans"** (161 subjects + 105 courses) — but this is an artifact of the bot-block. The pages exist; the crawler couldn't see who links to them.</li>
+<li><strong>Search engines see blank pages with no content.</strong> Every handbook page is effectively invisible to Google.</li>
+<li><strong>Social media link previews show nothing.</strong> Share a handbook subject link on Slack/Teams/LinkedIn — no title, no description, no image.</li>
+<li><strong>Screen readers and accessibility tools fail.</strong> No server-rendered content = no accessible DOM.</li>
+<li><strong>266 pages are "orphans"</strong> (161 subjects + 105 courses) — but this is an artifact of the bot-block. The pages exist; the crawler couldn't see who links to them.</li>
 </ul>
 
-<h3>2. Blank `<title>` on every subject and course page `[HIGH]`</h3>
+<h3>2. Blank <code><title></code> on every subject and course page <code>[HIGH]</code></h3>
 
 <p>Every subject page and course page in the Handbook has an empty or generic <code><title></code> tag. This is the single most impactful accessibility + SEO + findability failure in the estate by volume. When a student bookmarks a subject, the bookmark reads nothing. When they search their browser history, nothing appears. When Google indexes the page (if it can), the search result has no title.</p>
 
-<h3>3. No "Enrol in this subject" action `[HIGH]`</h3>
+<h3>3. No "Enrol in this subject" action <code>[HIGH]</code></h3>
 
 <p>A student looking at a subject page in the Handbook wants to do one thing: enrol in it. The Handbook describes the subject — points, prerequisites, assessment, timetable — but provides <strong>zero path to enrol</strong>. The "describe but don't transact" pattern that defines the estate's worst faults is most acute here: the page a student lands on to decide <em>whether</em> to enrol has no way to <em>actually</em> enrol. §6.7 of the improvements register calls for exactly this action.</p>
 
@@ -246,22 +246,22 @@ main strong{color:var(--navy)}
 
 <h2>Recommendations</h2>
 
-<h3>1. Add server-rendered fallback for every subject and course page `[HIGH · large]`</h3>
+<h3>1. Add server-rendered fallback for every subject and course page <code>[HIGH · large]</code></h3>
 <p>Implement SSR so every /subjects/<em> and /courses/</em> page delivers a complete HTML document with title, h1, meta description, prerequisite list, points, and assessment structure — before any JavaScript executes. This fixes search engine visibility, link previews, accessibility, and the bot-block problem in one change.</p>
 
-<h3>2. Give every subject and course page a descriptive `<title>` `[HIGH · medium]`</h3>
+<h3>2. Give every subject and course page a descriptive <code><title></code> <code>[HIGH · medium]</code></h3>
 <p>Template: "MULT10001 Introduction to Life Sciences — Handbook | University of Melbourne". One template change touches all 2,134 pages. The highest-impact accessibility + SEO fix in the estate.</p>
 
-<h3>3. Add one "Enrol in this subject → my.unimelb" action to every subject page `[HIGH · medium]`</h3>
+<h3>3. Add one "Enrol in this subject → my.unimelb" action to every subject page <code>[HIGH · medium]</code></h3>
 <p>The action students want, on the page they use to decide. One CTA, one destination (my.unimelb enrolment), one template change.</p>
 
-<h3>4. Build browsable indexes — stop being search-only `[HIGH · medium]`</h3>
+<h3>4. Build browsable indexes — stop being search-only <code>[HIGH · medium]</code></h3>
 <p>Subjects and courses are currently discoverable only via the Handbook's internal search. Add browsable A-Z indexes, by-faculty listings, and by-level groupings. These are the pages that search engines and students can navigate.</p>
 
-<h3>5. Fix non-descriptive anchor text `[MEDIUM · medium]`</h3>
+<h3>5. Fix non-descriptive anchor text <code>[MEDIUM · medium]</code></h3>
 <p>Replace generic link labels ("current students," "handbook") with action-oriented labels ("Enrol in subjects," "Check prerequisites," "View course structure").</p>
 
-<h3>6. Confirm the bot-block serves a real HTML fallback to legitimate non-JS user agents `[MEDIUM · medium]`</h3>
+<h3>6. Confirm the bot-block serves a real HTML fallback to legitimate non-JS user agents <code>[MEDIUM · medium]</code></h3>
 <p>The Imperva challenge should not block screen readers, accessibility tools, or link-preview bots. Configure WAF to serve SSR'd content to known-good non-JS user agents.</p>
 
 <hr>
@@ -270,7 +270,7 @@ main strong{color:var(--navy)}
 
 <table>
 <tr><th>§</th><th>Improvement</th><th>Severity · Effort</th></tr>
-<tr><td>2.2</td><td>Surface live 2026 handbook subjects/courses via browsable indexes + give them a `<title>`</td><td>HIGH · medium</td></tr>
+<tr><td>2.2</td><td>Surface live 2026 handbook subjects/courses via browsable indexes + give them a <code><title></code></td><td>HIGH · medium</td></tr>
 <tr><td>5.3</td><td>Bring the Handbook up to the estate's web-standards baseline</td><td>HIGH · medium</td></tr>
 <tr><td>6.6</td><td>Treat handbook subject/course pages as JS-only — provide a server-rendered fallback</td><td>MEDIUM · large</td></tr>
 <tr><td>6.7</td><td>Wire an "Enrol in this subject" action onto every handbook subject & course page</td><td>HIGH · medium</td></tr>

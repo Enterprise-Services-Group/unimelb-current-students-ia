@@ -177,7 +177,7 @@ main strong{color:var(--navy)}
 
 <table>
 <tr><th>Faculty</th><th>Research pages</th><th>HDR-student support pages</th><th>Verdict</th></tr>
-<tr><td>MDHS</td><td>63</td><td>**1**</td><td>Strongest research identity, weakest research-student journey</td></tr>
+<tr><td>MDHS</td><td>63</td><td><strong>1</strong></td><td>Strongest research identity, weakest research-student journey</td></tr>
 <tr><td>Medicine</td><td>Large research estate</td><td>Minimal HDR</td><td>Same pattern</td></tr>
 <tr><td>Biomed</td><td>Large research estate</td><td>Minimal HDR</td><td>Same pattern</td></tr>
 <tr><td>Education</td><td>28</td><td>Multiple (but duplicated)</td><td>Duplicated, not genuinely local</td></tr>
@@ -210,22 +210,22 @@ main strong{color:var(--navy)}
 
 <h2>Recommendations</h2>
 
-<h3>1. 301-redirect the 33 byte-identical pairs to gradresearch.unimelb `[HIGH · medium]`</h3>
+<h3>1. 301-redirect the 33 byte-identical pairs to gradresearch.unimelb <code>[HIGH · medium]</code></h3>
 <p>The 33 Jaccard=1.000 education+mdhs pages should immediately 301 to their gradresearch equivalents. No eyeballing needed — they're byte-identical. The canonical owner exists. This removes 33 pages of duplicated maintenance instantly.</p>
 
-<h3>2. Reconcile the drifted remainder: audit and either redirect or justify localisation `[MEDIUM · medium]`</h3>
+<h3>2. Reconcile the drifted remainder: audit and either redirect or justify localisation <code>[MEDIUM · medium]</code></h3>
 <p>For the remaining ~8 faculty HDR trees, audit each page: if it's genuinely faculty-specific (local contacts, discipline-specific milestones), keep it with a rel=canonical pointing to gradresearch for the shared content. If it's a template re-host, 301 it.</p>
 
-<h3>3. Make gradresearch.unimelb the single source of truth for the HDR lifecycle `[HIGH · medium]`</h3>
+<h3>3. Make gradresearch.unimelb the single source of truth for the HDR lifecycle <code>[HIGH · medium]</code></h3>
 <p>Declare gradresearch the canonical owner. Every faculty HDR page either 301s to it or carries rel=canonical to it. No more dual-authoring the candidature lifecycle.</p>
 
-<h3>4. Connect the prospective-PhD funnel `[MEDIUM · medium]`</h3>
+<h3>4. Connect the prospective-PhD funnel <code>[MEDIUM · medium]</code></h3>
 <p>Build out the study.unimelb research-degree discovery experience: course structure, career outcomes, student profiles, supervisor search. The 6-page funnel is not enough to recruit PhD candidates.</p>
 
-<h3>5. Connect research-alumni to the alumni mentoring streams `[MEDIUM · medium]`</h3>
+<h3>5. Connect research-alumni to the alumni mentoring streams <code>[MEDIUM · medium]</code></h3>
 <p>Bridge the 1-page research-alumni stub to the 12 faculty-specific alumni mentoring streams. A PhD graduate should flow into research-alumni mentoring, not a dead end.</p>
 
-<h3>6. Add a standing near-duplicate CI check `[MEDIUM · medium]`</h3>
+<h3>6. Add a standing near-duplicate CI check <code>[MEDIUM · medium]</code></h3>
 <p>near_dup.py already exists and works. Run it as a CI gate so cross-domain content forks are detected when they're created, not discovered years later.</p>
 
 <hr>

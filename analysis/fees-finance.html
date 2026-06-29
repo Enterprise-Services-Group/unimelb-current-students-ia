@@ -140,9 +140,9 @@ main strong{color:var(--navy)}
 
 <p>Three acute failures define it:</p>
 <ol>
-<li>**The census-dates page canonicalises to `/page-not-found`** — the single most financially consequential page tells search engines it doesn't exist.</li>
-<li>**The reverse-funnel**: 366 fee pages on study.unimelb (for applicants) vs 46 on students.unimelb (for enrolled students) — an 8:1 ratio. Enrolled students searching for fee information are routed to the applicant site.</li>
-<li>**Financial hardship is ~5 pages with opaque form parameters** — the pathway a fee-stressed student needs most is the hardest to find.</li>
+<li><strong>The census-dates page canonicalises to <code>/page-not-found</code></strong> — the single most financially consequential page tells search engines it doesn't exist.</li>
+<li><strong>The reverse-funnel</strong>: 366 fee pages on study.unimelb (for applicants) vs 46 on students.unimelb (for enrolled students) — an 8:1 ratio. Enrolled students searching for fee information are routed to the applicant site.</li>
+<li><strong>Financial hardship is ~5 pages with opaque form parameters</strong> — the pathway a fee-stressed student needs most is the hardest to find.</li>
 </ul>
 
 <p>The fix: one canonical "Fees and finance" hub on students.unimelb, fix the census canonical, bring answers back from the FAQ, and build a findable hardship front door.</p>
@@ -155,12 +155,12 @@ main strong{color:var(--navy)}
 <tr><th>Domain</th><th>Pages</th><th>Audience</th><th>Note</th></tr>
 <tr><td>study.unimelb.edu.au</td><td>366</td><td>Applicants</td><td>62% of all fee pages — the reverse-funnel problem</td></tr>
 <tr><td>law.unimelb.edu.au</td><td>68</td><td>Mixed</td><td>Faculty-specific fee content</td></tr>
-<tr><td>students.unimelb.edu.au</td><td>**46**</td><td>**Enrolled students**</td><td>The hub — but only 8% of fee pages</td></tr>
+<tr><td>students.unimelb.edu.au</td><td><strong>46</strong></td><td><strong>Enrolled students</strong></td><td>The hub — but only 8% of fee pages</td></tr>
 <tr><td>fbe.unimelb.edu.au</td><td>39</td><td>Mixed</td><td>Business/economics fees</td></tr>
 <tr><td>msd.unimelb.edu.au</td><td>18</td><td>Mixed</td><td>Architecture/building fees</td></tr>
 <tr><td>medicine.unimelb.edu.au</td><td>13</td><td>Mixed</td><td>Medicine fees</td></tr>
 <tr><td>Other (10 domains)</td><td>43</td><td>Mixed</td><td>Scattered</td></tr>
-<tr><td>**Total**</td><td>**593**</td><td></td><td>**8:1 ratio of applicant to enrolled pages**</td></tr>
+<tr><td><strong>Total</strong></td><td><strong>593</strong></td><td></td><td><strong>8:1 ratio of applicant to enrolled pages</strong></td></tr>
 </table>
 
 <hr>
@@ -171,9 +171,9 @@ main strong{color:var(--navy)}
 
 <table>
 <tr><th>Tree</th><th>Pages</th><th>Role</th></tr>
-<tr><td>`/course-admin/`</td><td>~17</td><td>Canonical — fees, census, HELP loans</td></tr>
-<tr><td>`/your-course/`</td><td>~12</td><td>Legacy — duplicated fee content</td></tr>
-<tr><td>`/admin/fees`</td><td>~17</td><td>Administrative — payment, sanctions, refunds</td></tr>
+<tr><td><code>/course-admin/</code></td><td>~17</td><td>Canonical — fees, census, HELP loans</td></tr>
+<tr><td><code>/your-course/</code></td><td>~12</td><td>Legacy — duplicated fee content</td></tr>
+<tr><td><code>/admin/fees</code></td><td>~17</td><td>Administrative — payment, sanctions, refunds</td></tr>
 </table>
 
 <p>Plus a fourth dimension: <code>/support-and-wellbeing</code> hosts the financial-aid/hardship pages (mis-titled "Support and wellbeing"), and <code>/student-support</code> hosts legacy copies. A student looking for "how much do I owe" or "when is census" can land on any of 3-4 versions of the same answer.</p>
@@ -182,7 +182,7 @@ main strong{color:var(--navy)}
 
 <h2>The three acute failures</h2>
 
-<h3>1. Census-dates page canonicalises to /page-not-found `[HIGH]`</h3>
+<h3>1. Census-dates page canonicalises to /page-not-found <code>[HIGH]</code></h3>
 
 <p>The census date is the deadline that determines whether a student pays for a subject. Withdraw before census and the subject disappears from your record and your fee statement. Withdraw after and you pay full fees and/or take an academic fail. It is the single most financially consequential date in the student lifecycle.</p>
 
@@ -190,7 +190,7 @@ main strong{color:var(--navy)}
 
 <p>This is a one-line fix. It's been broken through the entire duration of this project. It should have been fixed on day one.</p>
 
-<h3>2. The reverse-funnel: enrolled students sent to the applicant site `[HIGH]`</h3>
+<h3>2. The reverse-funnel: enrolled students sent to the applicant site <code>[HIGH]</code></h3>
 
 <p>366 fee pages live on study.unimelb.edu.au — the applicant-facing recruitment site. These pages explain course fees, HELP loan eligibility, and payment options to <em>prospective</em> students. Only 46 fee pages live on students.unimelb.edu.au — the <em>enrolled</em> student hub.</p>
 
@@ -198,7 +198,7 @@ main strong{color:var(--navy)}
 
 <p>The fix recommended in §8a: build a single enrolled-student "Fees and finance" hub that owns payment, census, HELP loans, fee remission, and hardship — and bridge every applicant fee page to it with "Already enrolled? Go here."</p>
 
-<h3>3. Financial hardship: ~5 pages, opaque forms, buried under wrong titles `[HIGH]`</h3>
+<h3>3. Financial hardship: ~5 pages, opaque forms, buried under wrong titles <code>[HIGH]</code></h3>
 
 <p>A student who can't pay rent, fees, or eat needs emergency grants, fee remission, hardship bursaries, or emergency accommodation. What they find:</p>
 
@@ -229,19 +229,19 @@ main strong{color:var(--navy)}
 
 <h2>Recommendations</h2>
 
-<h3>1. Fix the census-dates canonical tag `[HIGH · quick-win]`</h3>
+<h3>1. Fix the census-dates canonical tag <code>[HIGH · quick-win]</code></h3>
 <p>One-line fix: change <code><link rel="canonical" href="/page-not-found"></code> to the actual page URL. Should have been done on day one. The highest-priority single-page fix in the entire estate.</p>
 
-<h3>2. Build one enrolled-student "Fees and finance" hub `[HIGH · medium]`</h3>
+<h3>2. Build one enrolled-student "Fees and finance" hub <code>[HIGH · medium]</code></h3>
 <p>One canonical home on students.unimelb (under /course-admin/) linking out to: pay my fees (my.unimelb), understanding your fees, census dates, FEE-HELP/HECS eligibility, fee remission/refunds, financial aid/hardship, and scholarship payments. Keep study.unimelb fee pages scoped to applicants/cost-to-study. Add "Already enrolled? Go here" bridge from every applicant fee page.</p>
 
-<h3>3. Build a findable "Financial difficulty / emergency support" front door `[HIGH · medium]`</h3>
+<h3>3. Build a findable "Financial difficulty / emergency support" front door <code>[HIGH · medium]</code></h3>
 <p>Consolidate fee remission, payment extensions, hardship grants, emergency loans, and Stop 1 financial advice into one clearly-titled entry point. Link prominently from the fees hub, census page, and paying-your-fees. Label the three fee-remission form actions in plain language. Strip _nocache query-string variants from internal links.</p>
 
-<h3>4. Migrate core fee answers off ask.unimelb `[HIGH · large]`</h3>
+<h3>4. Migrate core fee answers off ask.unimelb <code>[HIGH · large]</code></h3>
 <p>Bring census dates, HELP eligibility, fee payment methods, and Statement of Liability answers into the maintained hub pages. Stop describing-then-deferring on the financial core.</p>
 
-<h3>5. Collapse the triple-tree duplication `[HIGH · medium]`</h3>
+<h3>5. Collapse the triple-tree duplication <code>[HIGH · medium]</code></h3>
 <p>One canonical fee tree on students.unimelb. 301-redirect the legacy <code>/your-course/</code> and <code>/admin/fees</code> duplicates. This is part of the hub migration (Improvement #1).</p>
 
 <hr>

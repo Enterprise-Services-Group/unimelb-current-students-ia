@@ -142,7 +142,7 @@ main strong{color:var(--navy)}
 
 <table>
 <tr><th>Pattern</th><th>Count</th><th>Notes</th></tr>
-<tr><td>FAQ articles (`/app/answers/detail/a_id/####` or `/faq/####`)</td><td>393</td><td>Two URL formats for the same content</td></tr>
+<tr><td>FAQ articles (<code>/app/answers/detail/a_id/####</code> or <code>/faq/####</code>)</td><td>393</td><td>Two URL formats for the same content</td></tr>
 <tr><td>Category pages</td><td>15</td><td>FAQ category indexes</td></tr>
 <tr><td>"Page not found"</td><td>10</td><td>Dead FAQ articles still linked</td></tr>
 <tr><td>Other (WAM, fee remission, enrolment)</td><td>~12</td><td>Standalone content pages</td></tr>
@@ -154,19 +154,19 @@ main strong{color:var(--navy)}
 
 <table>
 <tr><th>Topic</th><th>Sample titles</th></tr>
-<tr><td>**Fees & finance**</td><td>Fee Account Statement, Fees-Statement of Liability, Fees Due Dates, Fee remission, How can I check my fees and payments?</td></tr>
-<tr><td>**Enrolment**</td><td>Enrolling in subjects, Applying for an Extension</td></tr>
-<tr><td>**Academic progress**</td><td>Academic progress, Weighted Average Mark</td></tr>
-<tr><td>**Admin**</td><td>Accessing student email</td></tr>
-<tr><td>**Visa**</td><td>(linked from services.unimelb, not ask directly)</td></tr>
+<tr><td><strong>Fees & finance</strong></td><td>Fee Account Statement, Fees-Statement of Liability, Fees Due Dates, Fee remission, How can I check my fees and payments?</td></tr>
+<tr><td><strong>Enrolment</strong></td><td>Enrolling in subjects, Applying for an Extension</td></tr>
+<tr><td><strong>Academic progress</strong></td><td>Academic progress, Weighted Average Mark</td></tr>
+<tr><td><strong>Admin</strong></td><td>Accessing student email</td></tr>
+<tr><td><strong>Visa</strong></td><td>(linked from services.unimelb, not ask directly)</td></tr>
 </table>
 
 <h3>The two-URL-format problem confirmed</h3>
 
 <p>The FAQ articles exist under BOTH:</p>
 <ul>
-<li>`/app/answers/detail/a_id/####` (79 pages in the crawl)</li>
-<li>`/faq/####/slug` (436 pages in the crawl)</li>
+<li><code>/app/answers/detail/a_id/####</code> (79 pages in the crawl)</li>
+<li><code>/faq/####/slug</code> (436 pages in the crawl)</li>
 </ul>
 
 <p>This is the URL duplication the course-planning deep-dive identified: <strong>the same content served under two inconsistent URL formats, with the hub linking both.</strong> The index shows both formats exist and are crawled as separate pages.</p>
@@ -176,7 +176,7 @@ main strong{color:var(--navy)}
 <table>
 <tr><th>Outbound destination</th><th>Links in 30-page sample</th><th>Role</th></tr>
 <tr><td>www.unimelb.edu.au</td><td>108</td><td>Chrome/nav links</td></tr>
-<tr><td>**students.unimelb.edu.au**</td><td>**100**</td><td>Hub — FAQ links back to the hub heavily</td></tr>
+<tr><td><strong>students.unimelb.edu.au</strong></td><td><strong>100</strong></td><td>Hub — FAQ links back to the hub heavily</td></tr>
 <tr><td>safety.unimelb.edu.au</td><td>30</td><td>Chrome links</td></tr>
 <tr><td>services.unimelb.edu.au</td><td>24</td><td>Service delivery</td></tr>
 <tr><td>about.unimelb.edu.au</td><td>24</td><td>Chrome links</td></tr>
@@ -217,19 +217,19 @@ main strong{color:var(--navy)}
 <h2>Recommendations</h2>
 
 <ol>
-<li>**Standardise to ONE FAQ URL format.** 301 `/app/answers/detail/a_id/####` to `/faq/####` (or vice versa). Fix the 396 hub links to use the canonical format.</li>
+<li><strong>Standardise to ONE FAQ URL format.</strong> 301 <code>/app/answers/detail/a_id/####</code> to <code>/faq/####</code> (or vice versa). Fix the 396 hub links to use the canonical format.</li>
 </ul>
 
 <ol>
-<li>**Migrate high-traffic answers into the hub.** Census dates, fee payment methods, enrolment procedures — the operational core should live on students.unimelb, not a legacy FAQ. Keep the FAQ for long-tail questions.</li>
+<li><strong>Migrate high-traffic answers into the hub.</strong> Census dates, fee payment methods, enrolment procedures — the operational core should live on students.unimelb, not a legacy FAQ. Keep the FAQ for long-tail questions.</li>
 </ul>
 
 <ol>
-<li>**Remove the 10 dead FAQ pages** and fix any inbound links pointing to them.</li>
+<li><strong>Remove the 10 dead FAQ pages</strong> and fix any inbound links pointing to them.</li>
 </ul>
 
 <ol>
-<li>**Add rel=canonical** to all FAQ articles pointing to the single canonical URL.</li>
+<li><strong>Add rel=canonical</strong> to all FAQ articles pointing to the single canonical URL.</li>
 </ul>
 
 <hr>

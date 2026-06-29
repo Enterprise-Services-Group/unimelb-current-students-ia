@@ -139,11 +139,11 @@ main strong{color:var(--navy)}
 <p>Scholarships are a core student need — the catalogue every student searches to fund their degree. The University maintains 2,151 scholarship pages on scholarships.unimelb.edu.au. But two template failures make the entire catalogue near-invisible and inaccessible:</p>
 
 <ol>
-<li>**2,038 of 2,151 pages (94.7%) emit the identical `<title>`**: "Find a scholarship | University of Melbourne." Every scholarship detail page has the same browser tab label, the same bookmark text, the same search-result snippet. A student with three scholarship tabs open cannot tell which is which. A screen-reader user navigating by heading cannot distinguish one scholarship from another. Google sees 2,038 pages with the same title.</li>
+<li><strong>2,038 of 2,151 pages (94.7%) emit the identical <code><title></code></strong>: "Find a scholarship | University of Melbourne." Every scholarship detail page has the same browser tab label, the same bookmark text, the same search-result snippet. A student with three scholarship tabs open cannot tell which is which. A screen-reader user navigating by heading cannot distinguish one scholarship from another. Google sees 2,038 pages with the same title.</li>
 </ul>
 
 <ol>
-<li>**96% of pages skip a heading level.** The most common heading-skip pattern in the estate, concentrated in one template. Screen-reader users lose document structure.</li>
+<li><strong>96% of pages skip a heading level.</strong> The most common heading-skip pattern in the estate, concentrated in one template. Screen-reader users lose document structure.</li>
 </ul>
 
 <p>This is one template fix that touches 2,038 pages at once — the highest-leverage accessibility + findability improvement by volume in the entire register.</p>
@@ -155,8 +155,8 @@ main strong{color:var(--navy)}
 <table>
 <tr><th>Metric</th><th>Value</th></tr>
 <tr><td>Total scholarship pages</td><td>2,151</td></tr>
-<tr><td>Pages with identical `<title>` "Find a scholarship \</td><td>University of Melbourne"</td><td>2,038 (94.7%)</td></tr>
-<tr><td>Pages with unique `<title>`</td><td>113 (5.3%)</td></tr>
+<tr><td>Pages with identical <code><title></code> "Find a scholarship \</td><td>University of Melbourne"</td><td>2,038 (94.7%)</td></tr>
+<tr><td>Pages with unique <code><title></code></td><td>113 (5.3%)</td></tr>
 <tr><td>Pages with heading-skip</td><td>~2,065 (96%)</td></tr>
 <tr><td>Median page weight</td><td>188KB</td></tr>
 <tr><td>P90 page weight</td><td>190KB (remarkably tight — template is consistent)</td></tr>
@@ -226,16 +226,16 @@ main strong{color:var(--navy)}
 
 <h2>Recommendations</h2>
 
-<h3>1. Give each scholarship page a descriptive `<title>` `[HIGH · quick-win]`</h3>
+<h3>1. Give each scholarship page a descriptive <code><title></code> <code>[HIGH · quick-win]</code></h3>
 <p>Template: "[Scholarship name] — [Faculty/Level] Scholarship | University of Melbourne". Example: "Rhodes Scholarship — Graduate Research Scholarship | University of Melbourne." One template change touches all 2,138 pages. The highest-leverage findability + accessibility fix in the estate by volume.</p>
 
-<h3>2. Fix the heading-skip at the template layer `[HIGH · medium]`</h3>
+<h3>2. Fix the heading-skip at the template layer <code>[HIGH · medium]</code></h3>
 <p>Insert an <code><h2></code> between the generic page <code><h1></code> and the per-scholarship <code><h3></code>. The <code><h2></code> should carry the scholarship name, making the document outline: h1="Scholarships at Melbourne" → h2="Rhodes Scholarship" → h3="Eligibility," "How to apply," etc. One template change fixes 96% of heading-skips in this domain.</p>
 
-<h3>3. Add facet pagination metadata `[MEDIUM · medium]`</h3>
+<h3>3. Add facet pagination metadata <code>[MEDIUM · medium]</code></h3>
 <p>Tag faceted-search permutations with <code><meta name="robots" content="noindex, follow"></code> or canonicalise to the unfiltered base page. This prevents 2,100 near-identical pages from diluting search equity while keeping the base catalogue indexable.</p>
 
-<h3>4. Wire the hub to the scholarships catalogue `[MEDIUM · medium]`</h3>
+<h3>4. Wire the hub to the scholarships catalogue <code>[MEDIUM · medium]</code></h3>
 <p>Add prominent "Find a scholarship" links from the hub's fees/finance pages, the "Get Started" sequence, and the student support section. A student on the hub should not need to know the scholarships subdomain exists.</p>
 
 <hr>
@@ -244,7 +244,7 @@ main strong{color:var(--navy)}
 
 <table>
 <tr><th>§</th><th>Improvement</th><th>Severity · Effort</th></tr>
-<tr><td>6.2</td><td>Give each scholarship detail page its own `<title>`</td><td>HIGH · quick-win</td></tr>
+<tr><td>6.2</td><td>Give each scholarship detail page its own <code><title></code></td><td>HIGH · quick-win</td></tr>
 <tr><td>3.6</td><td>No shared scholarships-catalogue convention — hub barely reaches it</td><td>MEDIUM · medium</td></tr>
 <tr><td>4.4</td><td>~2,100 scholarships pages are faceted-search permutations — 24% of all crawled URLs</td><td>MEDIUM · medium</td></tr>
 <tr><td>6.1</td><td>Fix the shared-CMS heading-skip seam at the template layer</td><td>HIGH · medium</td></tr>
