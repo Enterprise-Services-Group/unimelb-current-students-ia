@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>safercommunity.unimelb.edu.au · UoM Current Students IA</title>
+<style>@font-face{font-family:'Fraunces';src:url('assets/fonts/Fraunces-VariableFont_SOFT_WONK_opsz_wght.ttf') format('truetype');font-weight:100 900;font-display:swap}
+@font-face{font-family:'Source Sans 3';src:url('assets/fonts/SourceSans3-VariableFont_wght.ttf') format('truetype');font-weight:200 900;font-display:swap}
+@font-face{font-family:'Source Code Pro';src:url('assets/fonts/SourceCodePro-VariableFont_wght.ttf') format('truetype');font-weight:200 900;font-display:swap}
+:root{--navy:#000F46;--navy-light:#1B2D5C;--cyan:#46C8F0;--ink:#222;--ink-2:#555;--bg:#fff;--bg-nav:#000F46;--bg-subtle:#F3F3F6;--border:#DDDDE7;--red:#DB1927;--amber:#AC5907;--green:#31733B;--font-h:'Fraunces',Georgia,serif;--font-b:'Source Sans 3',system-ui,sans-serif;--font-m:'Source Code Pro',monospace;--nav-w:280px}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:var(--font-b);font-size:17px;line-height:1.65;color:var(--ink);background:var(--bg);display:flex;min-height:100vh;-webkit-font-smoothing:antialiased}
+a{color:#004EAD;text-decoration:none}a:hover{text-decoration:underline}
+
+/* ── LHS Navigation ── */
+nav.lhs{position:fixed;top:0;left:0;width:var(--nav-w);height:100vh;background:var(--bg-nav);color:#C9CDE6;overflow-y:auto;z-index:100;display:flex;flex-direction:column;font-size:14px;line-height:1.4}
+nav.lhs .logo{padding:24px 20px 16px;border-bottom:1px solid rgba(255,255,255,.1)}
+nav.lhs .logo img{height:26px}
+nav.lhs .logo a{display:block;color:#fff;font-family:var(--font-h);font-size:16px;font-weight:600;text-decoration:none;margin-top:8px}
+nav.lhs .nav-scroll{flex:1;overflow-y:auto;padding:8px 0 24px}
+nav.lhs .section{font-family:var(--font-m);font-size:11px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--cyan);padding:16px 20px 6px}
+nav.lhs a.nav-link{display:block;padding:5px 20px;color:#9BA3C4;text-decoration:none;transition:all .15s;border-left:3px solid transparent}
+nav.lhs a.nav-link:hover{color:#fff;background:rgba(255,255,255,.05)}
+nav.lhs a.nav-link.active{color:#fff;background:rgba(255,255,255,.08);border-left-color:var(--cyan)}
+nav.lhs .sep{border:none;border-top:1px solid rgba(255,255,255,.08);margin:8px 16px}
+nav.lhs .footer{padding:16px 20px;font-size:11px;color:#6B7394;border-top:1px solid rgba(255,255,255,.08)}
+
+/* ── Main content ── */
+main{margin-left:var(--nav-w);flex:1;min-width:0;padding:40px 56px 80px;max-width:900px}
+main h1{font-family:var(--font-h);font-size:42px;font-weight:700;color:var(--navy);line-height:1.07;letter-spacing:-.012em;margin:0 0 8px}
+main h2{font-family:var(--font-h);font-size:28px;font-weight:600;color:var(--navy);margin:48px 0 16px;padding-bottom:8px;border-bottom:2px solid var(--border);line-height:1.15}
+main h3{font-family:var(--font-h);font-size:20px;font-weight:600;color:var(--navy);margin:32px 0 10px;line-height:1.2}
+main h4{font-size:18px;font-weight:700;color:var(--navy);margin:24px 0 8px}
+main p{margin:12px 0}
+main .subtitle{color:var(--ink-2);font-style:italic;font-size:18px;margin-bottom:32px}
+main blockquote{border-left:3px solid var(--navy);padding:12px 20px;margin:20px 0;background:var(--bg-subtle);font-style:italic;color:var(--ink-2)}
+main code{font-family:var(--font-m);font-size:14px;background:var(--bg-subtle);padding:2px 6px;border-radius:3px}
+main table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+main th{background:var(--navy);color:#fff;padding:10px 14px;text-align:left;font-weight:600}
+main td{padding:8px 14px;border-bottom:1px solid var(--border)}
+main tr:nth-child(even) td{background:var(--bg-subtle)}
+main ul,main ol{margin:8px 0 8px 24px}
+main li{margin:4px 0}
+main hr{border:none;border-top:1px solid var(--border);margin:40px 0}
+main strong{color:var(--navy)}
+.severity-high{display:inline-block;padding:1px 8px;border-radius:3px;font-size:12px;font-weight:700;background:#FFEBEE;color:var(--red)}
+.severity-medium{display:inline-block;padding:1px 8px;border-radius:3px;font-size:12px;font-weight:700;background:#FFF8E1;color:var(--amber)}
+.effort{display:inline-block;padding:1px 8px;border-radius:3px;font-size:12px;font-weight:700;background:#E8F5E9;color:var(--green)}
+.footer-note{color:var(--ink-2);font-size:13px;font-style:italic;margin-top:48px;padding-top:16px;border-top:1px solid var(--border)}
+
+/* ── Mobile ── */
+.menu-toggle{display:none;position:fixed;top:12px;left:12px;z-index:200;background:var(--navy);color:#fff;border:none;border-radius:6px;padding:8px 12px;font-size:20px;cursor:pointer}
+@media(max-width:960px){
+  nav.lhs{transform:translateX(-100%);transition:transform .25s}
+  nav.lhs.open{transform:translateX(0)}
+  main{margin-left:0;padding:60px 24px 40px}
+  .menu-toggle{display:block}
+}
+</style>
+</head>
+<body>
+<button class="menu-toggle" onclick="document.getElementById('lhsNav').classList.toggle('open')">☰</button>
+<nav class="lhs" id="lhsNav">
+  <div class="logo">
+    <img src="assets/UoM_Logo_Horiz_onDark.svg" alt="UoM">
+    <a href="index.html">Current Students IA</a>
+  </div>
+  <div class="nav-scroll">
+    <a class="nav-link" href="index.html">🏠 Home</a>
+    <div class="section">📊 Project Summary</div>
+    <div class="section">🎯 Five Root Findings</div>
+    <hr class="sep">
+    <div class="section">📋 Key Reports</div>
+    <a class="nav-link" href="report/Improvements-Register.html"> Improvements Register</a>
+    <a class="nav-link" href="report/Lifecycle-Journeys.html"> Lifecycle Journeys</a>
+    <a class="nav-link" href="report/Course-Planning-Enrolment.html"> Course Planning</a>
+    <a class="nav-link" href="report/International-Student-Experience.html"> International Student</a>
+    <a class="nav-link" href="report/Student-Services-Fragmentation.html"> Services Fragmentation</a>
+    <a class="nav-link" href="report/Careers-Employability-WIL.html"> Careers & WIL</a>
+    <hr class="sep">
+    <div class="section">🔬 Structural Deep-Dives</div>
+    <a class="nav-link" href="analysis/graduation-alumni-handoff.html"> Graduation → Alumni</a>
+    <a class="nav-link" href="analysis/careers-online-wiring.html"> Careers Online Wiring</a>
+    <a class="nav-link" href="analysis/prospective-current-handoff.html"> Prospective → Current</a>
+    <a class="nav-link" href="analysis/equity-indigenous-journey.html"> Equity & Indigenous</a>
+    <a class="nav-link" href="analysis/hdr-candidature-duplication.html"> HDR Duplication</a>
+    <a class="nav-link" href="analysis/forms-microsite-audit.html"> Forms & Microsites</a>
+    <hr class="sep">
+    <div class="section">📝 Content Quality</div>
+    <a class="nav-link" href="analysis/the-handbook.html"> The Handbook</a>
+    <a class="nav-link" href="analysis/fees-finance.html"> Fees & Finance</a>
+    <a class="nav-link" href="analysis/scholarships.html"> Scholarships</a>
+    <a class="nav-link" href="analysis/mobile-performance-audit.html"> Mobile & Performance</a>
+    <a class="nav-link" href="analysis/content-freshness-sandbox-leakage.html"> Content Freshness</a>
+    <a class="nav-link" href="analysis/content-quality-deep-dive.html"> Content Quality Audit</a>
+    <hr class="sep">
+    <div class="section">🔐 Authenticated Core</div>
+    <a class="nav-link" href="analysis/authenticated-core-audit.html"> Auth Core Audit</a>
+    <a class="nav-link" href="analysis/auth-hosts-live-check.html"> Live Host Check</a>
+    <a class="nav-link" href="analysis/authenticated-core-findings.html"> Auth Core Findings</a>
+    <hr class="sep">
+    <div class="section">🌐 Crawl Analyses</div>
+    <a class="nav-link" href="analysis/crawl-ask-unimelb.html"> ask.unimelb</a>
+    <a class="nav-link" href="analysis/crawl-gradresearch.html"> gradresearch</a>
+    <a class="nav-link" href="analysis/crawl-murrupbarak.html"> murrupbarak</a>
+    <a class="nav-link active" href="analysis/crawl-safercommunity.html"> safercommunity</a>
+    <a class="nav-link" href="analysis/crawl-umsu.html"> umsu</a>
+    <a class="nav-link" href="analysis/crawl-online.html"> online.unimelb</a>
+    <a class="nav-link" href="analysis/crawl-sport.html"> sport</a>
+    <a class="nav-link" href="analysis/crawl-library.html"> library</a>
+    <a class="nav-link" href="analysis/crawl-studentit.html"> studentit</a>
+    <hr class="sep">
+    <div class="section">👤 Personas</div>
+    <a class="nav-link" href="personas/sam-planning-their-path.html"> Sam — Planning</a>
+    <a class="nav-link" href="personas/alex-at-risk-withdrawal.html"> Alex — At-risk</a>
+    <a class="nav-link" href="personas/priya-international-student.html"> Priya — International</a>
+    <a class="nav-link" href="personas/jordan-course-planning-maze.html"> Jordan — Course Maze</a>
+    <a class="nav-link" href="personas/taylor-wellbeing-mental-health.html"> Taylor — Wellbeing</a>
+    <hr class="sep">
+    <div class="section">📦 Deliverables</div>
+    <a class="nav-link" href="analysis/governance-summary-pack.html"> Governance Pack</a>
+    <a class="nav-link" href="analysis/quick-wins-checklist.html"> Quick Wins</a>
+    <a class="nav-link" href="analysis/final-synthesis.html"> Final Synthesis</a>
+  </div>
+  <div class="footer">UoM · Student Experience &amp; Design<br>June 2026 · 41,533 pages · 31 domains</div>
+</nav>
+
+<main>
+<h1>safercommunity.unimelb.edu.au</h1>
+<p class="subtitle">17 pages — crisis support, healthy hub connection.</p>
+<h1>safercommunity.unimelb.edu.au — Crawl Analysis</h1>
+
+<p><em>The crisis and safety service — 17 pages. Comprehensive, well-written, and strongly connected to the hub (53 outbound links in 17 pages). But every page is ~300KB. Confirms the wellbeing deep-dive: the service is real; the routing from the hub exists; the remaining gap is findability within the wellbeing ecosystem. June 2026.</em></p>
+
+<hr>
+
+<h2>What we found</h2>
+
+<p>Safer Community is the University's crisis, safety, and sexual misconduct support service. The wellbeing deep-dive identified it as living on a separate uncrawled domain with 144 inbound links from 12 domains. The crawl reveals a <strong>compact but comprehensive 17-page site</strong> covering every form of interpersonal harm a student might experience.</p>
+
+<h3>Structure</h3>
+
+<table>
+<tr><th>Section</th><th>Pages</th><th>Content</th></tr>
+<tr><td>Sexual assault</td><td>1</td><td>Definition, support, reporting</td></tr>
+<tr><td>Sexual harassment</td><td>1</td><td>Definition, support, reporting</td></tr>
+<tr><td>Bullying</td><td>1</td><td>Definition, support, reporting</td></tr>
+<tr><td>Discrimination</td><td>1</td><td>Definition, support, reporting</td></tr>
+<tr><td>Family/intimate partner violence</td><td>1</td><td>Definition, support, reporting</td></tr>
+<tr><td>Stalking</td><td>1</td><td>Definition, support, reporting</td></tr>
+<tr><td>Child safety</td><td>1</td><td>Child safety obligations</td></tr>
+<tr><td>Scam warning</td><td>1</td><td>Current scam alerts</td></tr>
+<tr><td>Home/overview</td><td>2</td><td>Safer Community Program overview</td></tr>
+<tr><td>Other</td><td>7</td><td>Additional pages</td></tr>
+</table>
+
+<p>Every page follows the same pattern: <strong>definition → what it looks like → how to get support → how to report → further resources.</strong> This is consistent, well-structured crisis content.</p>
+
+<h3>Link analysis</h3>
+
+<table>
+<tr><th>Outbound destination</th><th>Links in 17-page sample</th><th>Role</th></tr>
+<tr><td>www.unimelb.edu.au</td><td>164</td><td>Heavy chrome</td></tr>
+<tr><td>about.unimelb.edu.au</td><td>70</td><td>Chrome</td></tr>
+<tr><td>**students.unimelb.edu.au**</td><td>**53**</td><td>Hub — strong connection</td></tr>
+<tr><td>policy.unimelb.edu.au</td><td>28</td><td>University policies</td></tr>
+<tr><td>services.unimelb.edu.au</td><td>23</td><td>Counselling/health services</td></tr>
+<tr><td>staff.unimelb.edu.au</td><td>18</td><td>Staff resources</td></tr>
+<tr><td>safety.unimelb.edu.au</td><td>17</td><td>General safety</td></tr>
+<tr><td>library.unimelb.edu.au</td><td>17</td><td>Chrome</td></tr>
+<tr><td>umsu.unimelb.edu.au</td><td>8</td><td>Student union — advocacy referral</td></tr>
+<tr><td>ask.unimelb.edu.au</td><td>3</td><td>FAQ</td></tr>
+</table>
+
+<p>The site links BACK to students.unimelb 53 times — and the hub links to safercommunity 62 times. <strong>This is a bidirectional, working connection — one of the few balanced link relationships in the estate.</strong></p>
+
+<h3>Page weight</h3>
+
+<p>Consistently heavy: median 291KB, max 318KB, min 286KB. All 17 pages are within a 32KB range — uniform template. The weight is concerning for a crisis service where students may be on slow connections or using a friend's device.</p>
+
+<hr>
+
+<h2>What this means</h2>
+
+<h3>1. The service is real and the routing works</h3>
+
+<p>Unlike murrupbarak (19 hub links vs 614 MSD), safercommunity has a healthy bidirectional relationship with the hub: 62 hub→safercommunity, 53 safercommunity→hub. <strong>This is one of the few seams in the estate that isn't broken.</strong></p>
+
+<h3>2. The gap is within the wellbeing ecosystem</h3>
+
+<p>The wellbeing deep-dive found counselling branded "Academic Skills Unit" on services.unimelb. Safer Community is a separate domain. A student in crisis might land on counselling when they need Safer Community, or vice versa. The gap is cross-service findability, not cross-domain routing.</p>
+
+<h3>3. Content quality is high</h3>
+
+<p>Every page covers the same structure: definition, what it looks like, support, reporting, resources. This is crisis-content best practice. No need to rewrite — just make it more findable.</p>
+
+<h3>4. Page weight is a concern for crisis access</h3>
+
+<p>~300KB per page on a service where students may be accessing from a library computer, a friend's phone, or a constrained connection. Trim the chrome overhead.</p>
+
+<hr>
+
+<h2>Recommendations</h2>
+
+<ol>
+<li>**Add Safer Community to a unified "I need help now" front door on the hub.** Alongside counselling, health, and financial hardship. A student in crisis should not need to know which service is called "Safer Community."</li>
+</ul>
+
+<ol>
+<li>**Cross-link counselling and Safer Community.** A student landing on the counselling page should see "If you need to report sexual assault, harassment, or discrimination → Safer Community." And vice versa.</li>
+</ul>
+
+<ol>
+<li>**Trim page weight.** 300KB for crisis content is too heavy. Reduce chrome overhead from 164 www.unimelb + 70 about.unimelb links.</li>
+</ul>
+
+<hr>
+
+<p><em>Built from: safercommunity crawl (17 pages), links.json sampling (17 pages — full crawl), index.json structural analysis, student-services-fragmentation.md deep-dive. June 2026.</em></p>
+
+</main>
+</body>
+</html>

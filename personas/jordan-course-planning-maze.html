@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jordan — Course planning maze · UoM Current Students IA</title>
+<style>@font-face{font-family:'Fraunces';src:url('assets/fonts/Fraunces-VariableFont_SOFT_WONK_opsz_wght.ttf') format('truetype');font-weight:100 900;font-display:swap}
+@font-face{font-family:'Source Sans 3';src:url('assets/fonts/SourceSans3-VariableFont_wght.ttf') format('truetype');font-weight:200 900;font-display:swap}
+@font-face{font-family:'Source Code Pro';src:url('assets/fonts/SourceCodePro-VariableFont_wght.ttf') format('truetype');font-weight:200 900;font-display:swap}
+:root{--navy:#000F46;--navy-light:#1B2D5C;--cyan:#46C8F0;--ink:#222;--ink-2:#555;--bg:#fff;--bg-nav:#000F46;--bg-subtle:#F3F3F6;--border:#DDDDE7;--red:#DB1927;--amber:#AC5907;--green:#31733B;--font-h:'Fraunces',Georgia,serif;--font-b:'Source Sans 3',system-ui,sans-serif;--font-m:'Source Code Pro',monospace;--nav-w:280px}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:var(--font-b);font-size:17px;line-height:1.65;color:var(--ink);background:var(--bg);display:flex;min-height:100vh;-webkit-font-smoothing:antialiased}
+a{color:#004EAD;text-decoration:none}a:hover{text-decoration:underline}
+
+/* ── LHS Navigation ── */
+nav.lhs{position:fixed;top:0;left:0;width:var(--nav-w);height:100vh;background:var(--bg-nav);color:#C9CDE6;overflow-y:auto;z-index:100;display:flex;flex-direction:column;font-size:14px;line-height:1.4}
+nav.lhs .logo{padding:24px 20px 16px;border-bottom:1px solid rgba(255,255,255,.1)}
+nav.lhs .logo img{height:26px}
+nav.lhs .logo a{display:block;color:#fff;font-family:var(--font-h);font-size:16px;font-weight:600;text-decoration:none;margin-top:8px}
+nav.lhs .nav-scroll{flex:1;overflow-y:auto;padding:8px 0 24px}
+nav.lhs .section{font-family:var(--font-m);font-size:11px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--cyan);padding:16px 20px 6px}
+nav.lhs a.nav-link{display:block;padding:5px 20px;color:#9BA3C4;text-decoration:none;transition:all .15s;border-left:3px solid transparent}
+nav.lhs a.nav-link:hover{color:#fff;background:rgba(255,255,255,.05)}
+nav.lhs a.nav-link.active{color:#fff;background:rgba(255,255,255,.08);border-left-color:var(--cyan)}
+nav.lhs .sep{border:none;border-top:1px solid rgba(255,255,255,.08);margin:8px 16px}
+nav.lhs .footer{padding:16px 20px;font-size:11px;color:#6B7394;border-top:1px solid rgba(255,255,255,.08)}
+
+/* ── Main content ── */
+main{margin-left:var(--nav-w);flex:1;min-width:0;padding:40px 56px 80px;max-width:900px}
+main h1{font-family:var(--font-h);font-size:42px;font-weight:700;color:var(--navy);line-height:1.07;letter-spacing:-.012em;margin:0 0 8px}
+main h2{font-family:var(--font-h);font-size:28px;font-weight:600;color:var(--navy);margin:48px 0 16px;padding-bottom:8px;border-bottom:2px solid var(--border);line-height:1.15}
+main h3{font-family:var(--font-h);font-size:20px;font-weight:600;color:var(--navy);margin:32px 0 10px;line-height:1.2}
+main h4{font-size:18px;font-weight:700;color:var(--navy);margin:24px 0 8px}
+main p{margin:12px 0}
+main .subtitle{color:var(--ink-2);font-style:italic;font-size:18px;margin-bottom:32px}
+main blockquote{border-left:3px solid var(--navy);padding:12px 20px;margin:20px 0;background:var(--bg-subtle);font-style:italic;color:var(--ink-2)}
+main code{font-family:var(--font-m);font-size:14px;background:var(--bg-subtle);padding:2px 6px;border-radius:3px}
+main table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+main th{background:var(--navy);color:#fff;padding:10px 14px;text-align:left;font-weight:600}
+main td{padding:8px 14px;border-bottom:1px solid var(--border)}
+main tr:nth-child(even) td{background:var(--bg-subtle)}
+main ul,main ol{margin:8px 0 8px 24px}
+main li{margin:4px 0}
+main hr{border:none;border-top:1px solid var(--border);margin:40px 0}
+main strong{color:var(--navy)}
+.severity-high{display:inline-block;padding:1px 8px;border-radius:3px;font-size:12px;font-weight:700;background:#FFEBEE;color:var(--red)}
+.severity-medium{display:inline-block;padding:1px 8px;border-radius:3px;font-size:12px;font-weight:700;background:#FFF8E1;color:var(--amber)}
+.effort{display:inline-block;padding:1px 8px;border-radius:3px;font-size:12px;font-weight:700;background:#E8F5E9;color:var(--green)}
+.footer-note{color:var(--ink-2);font-size:13px;font-style:italic;margin-top:48px;padding-top:16px;border-top:1px solid var(--border)}
+
+/* ── Mobile ── */
+.menu-toggle{display:none;position:fixed;top:12px;left:12px;z-index:200;background:var(--navy);color:#fff;border:none;border-radius:6px;padding:8px 12px;font-size:20px;cursor:pointer}
+@media(max-width:960px){
+  nav.lhs{transform:translateX(-100%);transition:transform .25s}
+  nav.lhs.open{transform:translateX(0)}
+  main{margin-left:0;padding:60px 24px 40px}
+  .menu-toggle{display:block}
+}
+</style>
+</head>
+<body>
+<button class="menu-toggle" onclick="document.getElementById('lhsNav').classList.toggle('open')">☰</button>
+<nav class="lhs" id="lhsNav">
+  <div class="logo">
+    <img src="assets/UoM_Logo_Horiz_onDark.svg" alt="UoM">
+    <a href="index.html">Current Students IA</a>
+  </div>
+  <div class="nav-scroll">
+    <a class="nav-link" href="index.html">🏠 Home</a>
+    <div class="section">📊 Project Summary</div>
+    <div class="section">🎯 Five Root Findings</div>
+    <hr class="sep">
+    <div class="section">📋 Key Reports</div>
+    <a class="nav-link" href="report/Improvements-Register.html"> Improvements Register</a>
+    <a class="nav-link" href="report/Lifecycle-Journeys.html"> Lifecycle Journeys</a>
+    <a class="nav-link" href="report/Course-Planning-Enrolment.html"> Course Planning</a>
+    <a class="nav-link" href="report/International-Student-Experience.html"> International Student</a>
+    <a class="nav-link" href="report/Student-Services-Fragmentation.html"> Services Fragmentation</a>
+    <a class="nav-link" href="report/Careers-Employability-WIL.html"> Careers & WIL</a>
+    <hr class="sep">
+    <div class="section">🔬 Structural Deep-Dives</div>
+    <a class="nav-link" href="analysis/graduation-alumni-handoff.html"> Graduation → Alumni</a>
+    <a class="nav-link" href="analysis/careers-online-wiring.html"> Careers Online Wiring</a>
+    <a class="nav-link" href="analysis/prospective-current-handoff.html"> Prospective → Current</a>
+    <a class="nav-link" href="analysis/equity-indigenous-journey.html"> Equity & Indigenous</a>
+    <a class="nav-link" href="analysis/hdr-candidature-duplication.html"> HDR Duplication</a>
+    <a class="nav-link" href="analysis/forms-microsite-audit.html"> Forms & Microsites</a>
+    <hr class="sep">
+    <div class="section">📝 Content Quality</div>
+    <a class="nav-link" href="analysis/the-handbook.html"> The Handbook</a>
+    <a class="nav-link" href="analysis/fees-finance.html"> Fees & Finance</a>
+    <a class="nav-link" href="analysis/scholarships.html"> Scholarships</a>
+    <a class="nav-link" href="analysis/mobile-performance-audit.html"> Mobile & Performance</a>
+    <a class="nav-link" href="analysis/content-freshness-sandbox-leakage.html"> Content Freshness</a>
+    <a class="nav-link" href="analysis/content-quality-deep-dive.html"> Content Quality Audit</a>
+    <hr class="sep">
+    <div class="section">🔐 Authenticated Core</div>
+    <a class="nav-link" href="analysis/authenticated-core-audit.html"> Auth Core Audit</a>
+    <a class="nav-link" href="analysis/auth-hosts-live-check.html"> Live Host Check</a>
+    <a class="nav-link" href="analysis/authenticated-core-findings.html"> Auth Core Findings</a>
+    <hr class="sep">
+    <div class="section">🌐 Crawl Analyses</div>
+    <a class="nav-link" href="analysis/crawl-ask-unimelb.html"> ask.unimelb</a>
+    <a class="nav-link" href="analysis/crawl-gradresearch.html"> gradresearch</a>
+    <a class="nav-link" href="analysis/crawl-murrupbarak.html"> murrupbarak</a>
+    <a class="nav-link" href="analysis/crawl-safercommunity.html"> safercommunity</a>
+    <a class="nav-link" href="analysis/crawl-umsu.html"> umsu</a>
+    <a class="nav-link" href="analysis/crawl-online.html"> online.unimelb</a>
+    <a class="nav-link" href="analysis/crawl-sport.html"> sport</a>
+    <a class="nav-link" href="analysis/crawl-library.html"> library</a>
+    <a class="nav-link" href="analysis/crawl-studentit.html"> studentit</a>
+    <hr class="sep">
+    <div class="section">👤 Personas</div>
+    <a class="nav-link" href="personas/sam-planning-their-path.html"> Sam — Planning</a>
+    <a class="nav-link" href="personas/alex-at-risk-withdrawal.html"> Alex — At-risk</a>
+    <a class="nav-link" href="personas/priya-international-student.html"> Priya — International</a>
+    <a class="nav-link active" href="personas/jordan-course-planning-maze.html"> Jordan — Course Maze</a>
+    <a class="nav-link" href="personas/taylor-wellbeing-mental-health.html"> Taylor — Wellbeing</a>
+    <hr class="sep">
+    <div class="section">📦 Deliverables</div>
+    <a class="nav-link" href="analysis/governance-summary-pack.html"> Governance Pack</a>
+    <a class="nav-link" href="analysis/quick-wins-checklist.html"> Quick Wins</a>
+    <a class="nav-link" href="analysis/final-synthesis.html"> Final Synthesis</a>
+  </div>
+  <div class="footer">UoM · Student Experience &amp; Design<br>June 2026 · 41,533 pages · 31 domains</div>
+</nav>
+
+<main>
+<h1>Jordan — Course planning maze</h1>
+<p class="subtitle">Second-year BSc. 41% of hub pages for one task.</p>
+<h1>Jordan — Course planning maze</h1>
+
+<blockquote>
+*"I've got the Course Planner open in one tab, the Handbook in another, a faculty sample plan PDF in a third, and the FAQ article about prerequisites in a fourth. Four tabs to answer one question: which subjects do I enrol in this semester?"*
+</blockquote>
+
+<h2>Bio</h2>
+<p>Jordan is a second-year Bachelor of Science student trying to plan their major sequence. They need to: check prerequisites for third-year subjects, ensure they meet the 50-points-at-each-level rule, timetable around lab sessions, and confirm their study load keeps them on track for the course duration. This single task — "what should I enrol in?" — sends Jordan across the hub's two parallel guidance trees, My Course Planner on StudyOS, the Handbook on a different platform, a legacy FAQ where the actual rules live, and the my.unimelb enrolment screen where the action happens. 343 hub pages exist for course planning and enrolment — 41% of the hub's total footprint — and it's the most fragmented single task in the entire estate.</p>
+
+<h2>Journey pain points</h2>
+
+<table>
+<tr><th>Pain point</th><th>Crawl evidence</th><th>Severity</th></tr>
+<tr><td>**Seven-system obstacle course**</td><td>Hub guidance (2 trees) + My Course Planner (StudyOS) + Handbook + ask.unimelb + my.unimelb + MyTimetable + *.app forms</td><td>HIGH</td></tr>
+<tr><td>**Two parallel guidance trees compete**</td><td>`/course-admin` (212 pages) vs legacy `/your-course` (101 pages); 19 core leaves byte-near duplicates</td><td>HIGH</td></tr>
+<tr><td>**Two planning tools, no delineation**</td><td>StudyOS My Course Planner vs my.unimelb /sone/STUDYPLN — referenced on ~830 pages but resolved to two different tools</td><td>HIGH</td></tr>
+<tr><td>**Every answer is a FAQ hop away**</td><td>396 links to ask.unimelb across two URL formats; the hub describes, the FAQ answers</td><td>HIGH</td></tr>
+<tr><td>**Census dates page is broken**</td><td>Canonicalises to `/page-not-found` — the highest-stakes operational page in the estate</td><td>HIGH</td></tr>
+<tr><td>**Handbook switch mid-plan**</td><td>195 links to handbook.unimelb — different platform, different visual standard, different navigation</td><td>MEDIUM</td></tr>
+<tr><td>**Enrolment variations scattered**</td><td>161 links to forms.your + *.app microsites for overload, leave, withdrawal — no single "change my enrolment" hub</td><td>MEDIUM</td></tr>
+<tr><td>**Timetabling is yet another subdomain + login**</td><td>MyTimetable on mytimetable.students.unimelb — separate system behind its own authentication</td><td>MEDIUM</td></tr>
+<tr><td>**Faculties re-host planning content**</td><td>71 faculty course-planning pages parallel the central guidance — 46% on school subdomains beneath faculties</td><td>MEDIUM</td></tr>
+</table>
+
+<h2>Top frustrations</h2>
+<ol>
+<li>**No single source of truth.** The hub, the Handbook, the FAQ, and the faculty sample plan each claim to own part of the answer.</li>
+<li>**The guidance describes but doesn't transact.** Every page tells Jordan *about* enrolment; none of them let Jordan *do* enrolment — that's behind a my.unimelb login.</li>
+<li>**The two parallel trees create confusion.** Jordan lands on `/your-course/census-dates` from a faculty link but the real page is at `/course-admin/census-dates` — and the canonical tag points to a 404.</li>
+<li>**Timetabling requires yet another login.** After planning subjects and enrolling, Jordan must go to a completely separate system (MyTimetable) to register for classes.</li>
+</ul>
+
+<h2>The toolchain Jordan must traverse</h2>
+<table>
+<tr><th>System</th><th>Role</th><th>Links from hub</th></tr>
+<tr><td>Hub guidance (2 trees)</td><td>How-to advice — split across `/course-admin` + `/your-course`</td><td>313 pages</td></tr>
+<tr><td>My Course Planner 🔒</td><td>Subject planning tool — on a separate subdomain</td><td>~54 links · on ~830 pages</td></tr>
+<tr><td>The Handbook</td><td>Course/subject structure, prerequisites, points</td><td>195 links</td></tr>
+<tr><td>ask.unimelb FAQ</td><td>The actual answers (study load, census, HECS, prerequisites)</td><td>396 links</td></tr>
+<tr><td>my.unimelb 🔒</td><td>The enrolment ACTION — enrol, study plan, vary</td><td>187 links</td></tr>
+<tr><td>MyTimetable 🔒</td><td>Class registration — another subdomain, another login</td><td>on 84 pages</td></tr>
+<tr><td>Variation forms 🔒</td><td>Overload, leave, withdrawal — each a different form/host</td><td>161 links</td></tr>
+</table>
+
+<h2>Systems traversed</h2>
+<p>~7: students.unimelb (2 trees) → studyos.students.unimelb → handbook.unimelb → ask.unimelb → my.unimelb (auth) → mytimetable.students.unimelb → forms.your / *.app</p>
+
+<h2>Linked improvements from the register</h2>
+<table>
+<tr><th>#</th><th>Improvement</th><th>Severity · Effort</th></tr>
+<tr><td>1</td><td>Finish the stalled hub migration & collapse parallel URL trees</td><td>HIGH · medium</td></tr>
+<tr><td>3</td><td>Mandate a thin standardised student overlay on Squiz</td><td>HIGH · medium</td></tr>
+<tr><td>4</td><td>Fix the `?a=` query-string artifact manufacturing ~3,359 phantom 404s</td><td>HIGH · quick-win</td></tr>
+<tr><td>5</td><td>Guarantee 301s for MSD's ~8,000 deep-links into legacy hub paths</td><td>HIGH · quick-win</td></tr>
+</table>
+
+<h2>Related deep-dives</h2>
+<ul>
+<li>`analysis/course-planning-enrolment.md` — full toolchain audit</li>
+<li>`analysis/lifecycle-journeys.md` — Domestic undergraduate + enrolment moment traces</li>
+<li>`report/Course-Planning-Enrolment.html` — formatted report</li>
+</ul>
+
+<hr>
+
+<p><em>Built from: course-planning-enrolment.md deep-dive, lifecycle-journeys.md, improvements-register.md, and the full-scrape link graph (students-full crawl, cross-site-flow.csv). June 2026.</em></p>
+
+</main>
+</body>
+</html>

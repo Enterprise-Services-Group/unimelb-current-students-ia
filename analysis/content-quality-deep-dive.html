@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Content Quality Audit · UoM Current Students IA</title>
+<style>@font-face{font-family:'Fraunces';src:url('assets/fonts/Fraunces-VariableFont_SOFT_WONK_opsz_wght.ttf') format('truetype');font-weight:100 900;font-display:swap}
+@font-face{font-family:'Source Sans 3';src:url('assets/fonts/SourceSans3-VariableFont_wght.ttf') format('truetype');font-weight:200 900;font-display:swap}
+@font-face{font-family:'Source Code Pro';src:url('assets/fonts/SourceCodePro-VariableFont_wght.ttf') format('truetype');font-weight:200 900;font-display:swap}
+:root{--navy:#000F46;--navy-light:#1B2D5C;--cyan:#46C8F0;--ink:#222;--ink-2:#555;--bg:#fff;--bg-nav:#000F46;--bg-subtle:#F3F3F6;--border:#DDDDE7;--red:#DB1927;--amber:#AC5907;--green:#31733B;--font-h:'Fraunces',Georgia,serif;--font-b:'Source Sans 3',system-ui,sans-serif;--font-m:'Source Code Pro',monospace;--nav-w:280px}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:var(--font-b);font-size:17px;line-height:1.65;color:var(--ink);background:var(--bg);display:flex;min-height:100vh;-webkit-font-smoothing:antialiased}
+a{color:#004EAD;text-decoration:none}a:hover{text-decoration:underline}
+
+/* ── LHS Navigation ── */
+nav.lhs{position:fixed;top:0;left:0;width:var(--nav-w);height:100vh;background:var(--bg-nav);color:#C9CDE6;overflow-y:auto;z-index:100;display:flex;flex-direction:column;font-size:14px;line-height:1.4}
+nav.lhs .logo{padding:24px 20px 16px;border-bottom:1px solid rgba(255,255,255,.1)}
+nav.lhs .logo img{height:26px}
+nav.lhs .logo a{display:block;color:#fff;font-family:var(--font-h);font-size:16px;font-weight:600;text-decoration:none;margin-top:8px}
+nav.lhs .nav-scroll{flex:1;overflow-y:auto;padding:8px 0 24px}
+nav.lhs .section{font-family:var(--font-m);font-size:11px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--cyan);padding:16px 20px 6px}
+nav.lhs a.nav-link{display:block;padding:5px 20px;color:#9BA3C4;text-decoration:none;transition:all .15s;border-left:3px solid transparent}
+nav.lhs a.nav-link:hover{color:#fff;background:rgba(255,255,255,.05)}
+nav.lhs a.nav-link.active{color:#fff;background:rgba(255,255,255,.08);border-left-color:var(--cyan)}
+nav.lhs .sep{border:none;border-top:1px solid rgba(255,255,255,.08);margin:8px 16px}
+nav.lhs .footer{padding:16px 20px;font-size:11px;color:#6B7394;border-top:1px solid rgba(255,255,255,.08)}
+
+/* ── Main content ── */
+main{margin-left:var(--nav-w);flex:1;min-width:0;padding:40px 56px 80px;max-width:900px}
+main h1{font-family:var(--font-h);font-size:42px;font-weight:700;color:var(--navy);line-height:1.07;letter-spacing:-.012em;margin:0 0 8px}
+main h2{font-family:var(--font-h);font-size:28px;font-weight:600;color:var(--navy);margin:48px 0 16px;padding-bottom:8px;border-bottom:2px solid var(--border);line-height:1.15}
+main h3{font-family:var(--font-h);font-size:20px;font-weight:600;color:var(--navy);margin:32px 0 10px;line-height:1.2}
+main h4{font-size:18px;font-weight:700;color:var(--navy);margin:24px 0 8px}
+main p{margin:12px 0}
+main .subtitle{color:var(--ink-2);font-style:italic;font-size:18px;margin-bottom:32px}
+main blockquote{border-left:3px solid var(--navy);padding:12px 20px;margin:20px 0;background:var(--bg-subtle);font-style:italic;color:var(--ink-2)}
+main code{font-family:var(--font-m);font-size:14px;background:var(--bg-subtle);padding:2px 6px;border-radius:3px}
+main table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+main th{background:var(--navy);color:#fff;padding:10px 14px;text-align:left;font-weight:600}
+main td{padding:8px 14px;border-bottom:1px solid var(--border)}
+main tr:nth-child(even) td{background:var(--bg-subtle)}
+main ul,main ol{margin:8px 0 8px 24px}
+main li{margin:4px 0}
+main hr{border:none;border-top:1px solid var(--border);margin:40px 0}
+main strong{color:var(--navy)}
+.severity-high{display:inline-block;padding:1px 8px;border-radius:3px;font-size:12px;font-weight:700;background:#FFEBEE;color:var(--red)}
+.severity-medium{display:inline-block;padding:1px 8px;border-radius:3px;font-size:12px;font-weight:700;background:#FFF8E1;color:var(--amber)}
+.effort{display:inline-block;padding:1px 8px;border-radius:3px;font-size:12px;font-weight:700;background:#E8F5E9;color:var(--green)}
+.footer-note{color:var(--ink-2);font-size:13px;font-style:italic;margin-top:48px;padding-top:16px;border-top:1px solid var(--border)}
+
+/* ── Mobile ── */
+.menu-toggle{display:none;position:fixed;top:12px;left:12px;z-index:200;background:var(--navy);color:#fff;border:none;border-radius:6px;padding:8px 12px;font-size:20px;cursor:pointer}
+@media(max-width:960px){
+  nav.lhs{transform:translateX(-100%);transition:transform .25s}
+  nav.lhs.open{transform:translateX(0)}
+  main{margin-left:0;padding:60px 24px 40px}
+  .menu-toggle{display:block}
+}
+</style>
+</head>
+<body>
+<button class="menu-toggle" onclick="document.getElementById('lhsNav').classList.toggle('open')">☰</button>
+<nav class="lhs" id="lhsNav">
+  <div class="logo">
+    <img src="assets/UoM_Logo_Horiz_onDark.svg" alt="UoM">
+    <a href="index.html">Current Students IA</a>
+  </div>
+  <div class="nav-scroll">
+    <a class="nav-link" href="index.html">🏠 Home</a>
+    <div class="section">📊 Project Summary</div>
+    <div class="section">🎯 Five Root Findings</div>
+    <hr class="sep">
+    <div class="section">📋 Key Reports</div>
+    <a class="nav-link" href="report/Improvements-Register.html"> Improvements Register</a>
+    <a class="nav-link" href="report/Lifecycle-Journeys.html"> Lifecycle Journeys</a>
+    <a class="nav-link" href="report/Course-Planning-Enrolment.html"> Course Planning</a>
+    <a class="nav-link" href="report/International-Student-Experience.html"> International Student</a>
+    <a class="nav-link" href="report/Student-Services-Fragmentation.html"> Services Fragmentation</a>
+    <a class="nav-link" href="report/Careers-Employability-WIL.html"> Careers & WIL</a>
+    <hr class="sep">
+    <div class="section">🔬 Structural Deep-Dives</div>
+    <a class="nav-link" href="analysis/graduation-alumni-handoff.html"> Graduation → Alumni</a>
+    <a class="nav-link" href="analysis/careers-online-wiring.html"> Careers Online Wiring</a>
+    <a class="nav-link" href="analysis/prospective-current-handoff.html"> Prospective → Current</a>
+    <a class="nav-link" href="analysis/equity-indigenous-journey.html"> Equity & Indigenous</a>
+    <a class="nav-link" href="analysis/hdr-candidature-duplication.html"> HDR Duplication</a>
+    <a class="nav-link" href="analysis/forms-microsite-audit.html"> Forms & Microsites</a>
+    <hr class="sep">
+    <div class="section">📝 Content Quality</div>
+    <a class="nav-link" href="analysis/the-handbook.html"> The Handbook</a>
+    <a class="nav-link" href="analysis/fees-finance.html"> Fees & Finance</a>
+    <a class="nav-link" href="analysis/scholarships.html"> Scholarships</a>
+    <a class="nav-link" href="analysis/mobile-performance-audit.html"> Mobile & Performance</a>
+    <a class="nav-link" href="analysis/content-freshness-sandbox-leakage.html"> Content Freshness</a>
+    <a class="nav-link active" href="analysis/content-quality-deep-dive.html"> Content Quality Audit</a>
+    <hr class="sep">
+    <div class="section">🔐 Authenticated Core</div>
+    <a class="nav-link" href="analysis/authenticated-core-audit.html"> Auth Core Audit</a>
+    <a class="nav-link" href="analysis/auth-hosts-live-check.html"> Live Host Check</a>
+    <a class="nav-link" href="analysis/authenticated-core-findings.html"> Auth Core Findings</a>
+    <hr class="sep">
+    <div class="section">🌐 Crawl Analyses</div>
+    <a class="nav-link" href="analysis/crawl-ask-unimelb.html"> ask.unimelb</a>
+    <a class="nav-link" href="analysis/crawl-gradresearch.html"> gradresearch</a>
+    <a class="nav-link" href="analysis/crawl-murrupbarak.html"> murrupbarak</a>
+    <a class="nav-link" href="analysis/crawl-safercommunity.html"> safercommunity</a>
+    <a class="nav-link" href="analysis/crawl-umsu.html"> umsu</a>
+    <a class="nav-link" href="analysis/crawl-online.html"> online.unimelb</a>
+    <a class="nav-link" href="analysis/crawl-sport.html"> sport</a>
+    <a class="nav-link" href="analysis/crawl-library.html"> library</a>
+    <a class="nav-link" href="analysis/crawl-studentit.html"> studentit</a>
+    <hr class="sep">
+    <div class="section">👤 Personas</div>
+    <a class="nav-link" href="personas/sam-planning-their-path.html"> Sam — Planning</a>
+    <a class="nav-link" href="personas/alex-at-risk-withdrawal.html"> Alex — At-risk</a>
+    <a class="nav-link" href="personas/priya-international-student.html"> Priya — International</a>
+    <a class="nav-link" href="personas/jordan-course-planning-maze.html"> Jordan — Course Maze</a>
+    <a class="nav-link" href="personas/taylor-wellbeing-mental-health.html"> Taylor — Wellbeing</a>
+    <hr class="sep">
+    <div class="section">📦 Deliverables</div>
+    <a class="nav-link" href="analysis/governance-summary-pack.html"> Governance Pack</a>
+    <a class="nav-link" href="analysis/quick-wins-checklist.html"> Quick Wins</a>
+    <a class="nav-link" href="analysis/final-synthesis.html"> Final Synthesis</a>
+  </div>
+  <div class="footer">UoM · Student Experience &amp; Design<br>June 2026 · 41,533 pages · 31 domains</div>
+</nav>
+
+<main>
+<h1>Content Quality Audit</h1>
+<p class="subtitle">Readability, actionability, freshness across 10 domains.</p>
+<h1>Content Quality Analysis — Deep-Dive</h1>
+
+<p><em>Beyond structure and links: what the actual page content reveals about readability, actionability, and freshness. 10 domains, ~550 pages sampled, 41,533 pages in the estate. June 2026.</em></p>
+
+<hr>
+
+<h2>Executive summary</h2>
+
+<p>The University's web estate is structurally fragmented — but it's also <strong>unreadable to the students who need it most.</strong> Three findings define the content quality gap:</p>
+
+<ol>
+<li>**The services students in crisis need are written at graduate level.** Murrupbarak (Indigenous support) scores 19.0 on the Flesch Reading Ease scale — "very difficult," equivalent to a legal contract. Safercommunity (crisis/safety) scores 27.4. UMSU (student advocacy) scores 28.8. These are the services for students with the least margin — and they're the hardest to read.</li>
+</ul>
+
+<ol>
+<li>**The find→act gap is not just structural — it's in the prose.** 77% of library pages, 87% of student IT pages, 82% of safercommunity pages, and 57% of hub pages describe actions students should take but contain zero links to where to take them. The estate tells students *what* to do, not *where* to do it.</li>
+</ul>
+
+<ol>
+<li>**The FAQ format works.** ask.unimelb scores 51.5 — the easiest to read. Short articles, simple sentences, question-answer format. This is the readability benchmark the rest of the estate should target.</li>
+</ul>
+
+<hr>
+
+<h2>Readability: who can actually understand this?</h2>
+
+<h3>Flesch Reading Ease by domain</h3>
+
+<table>
+<tr><th>Domain</th><th>Words (median)</th><th>Flesch Ease</th><th>Grade Level</th><th>Verdict</th></tr>
+<tr><td>**online.unimelb**</td><td>344</td><td>**7.4**</td><td>**20.7**</td><td>Post-graduate — PhD level</td></tr>
+<tr><td>**murrupbarak**</td><td>678</td><td>**19.0**</td><td>**16.2**</td><td>University graduate</td></tr>
+<tr><td>**safercommunity**</td><td>622</td><td>**27.4**</td><td>**14.6**</td><td>University undergraduate</td></tr>
+<tr><td>**umsu**</td><td>313</td><td>**28.8**</td><td>**15.5**</td><td>University graduate</td></tr>
+<tr><td>**sport**</td><td>434</td><td>**34.1**</td><td>**14.4**</td><td>University undergraduate</td></tr>
+<tr><td>**gradresearch**</td><td>703</td><td>**35.0**</td><td>**13.6**</td><td>University undergraduate</td></tr>
+<tr><td>**library**</td><td>494</td><td>**41.3**</td><td>**12.1**</td><td>High school senior</td></tr>
+<tr><td>**students (hub)**</td><td>810</td><td>**43.0**</td><td>**12.0**</td><td>High school senior</td></tr>
+<tr><td>**studentit**</td><td>532</td><td>**45.2**</td><td>**12.3**</td><td>High school senior</td></tr>
+<tr><td>**ask.unimelb**</td><td>526</td><td>**51.5**</td><td>**9.9**</td><td>High school freshman</td></tr>
+</table>
+
+<p><strong>Flesch scale:</strong> 0–30 = very difficult · 30–50 = difficult · 50–60 = fairly difficult · 60–70 = standard · 70+ = easy</p>
+
+<h3>The readability paradox</h3>
+
+<p>The services for the most vulnerable students are the hardest to read:</p>
+
+<table>
+<tr><th>Service</th><th>Audience</th><th>Flesch</th><th>Grade</th></tr>
+<tr><td>Murrup Barak (Indigenous support)</td><td>Indigenous students</td><td>19.0</td><td>16.2</td></tr>
+<tr><td>Safer Community (crisis/safety)</td><td>Students in crisis</td><td>27.4</td><td>14.6</td></tr>
+<tr><td>UMSU advocacy</td><td>Students with problems</td><td>28.8</td><td>15.5</td></tr>
+<tr><td>Graduate research hub</td><td>PhD candidates</td><td>35.0</td><td>13.6</td></tr>
+<tr><td>Student hub</td><td>All students</td><td>43.0</td><td>12.0</td></tr>
+</table>
+
+<p>A student in crisis reading Safer Community content faces prose written at undergraduate university level. An Indigenous student accessing Murrup Barak faces graduate-level academic language. <strong>The readability gradient runs opposite to student need.</strong></p>
+
+<h3>The FAQ benchmark</h3>
+
+<p>ask.unimelb (51.5, grade 9.9) is the estate's readability leader. Why:</p>
+<ul>
+<li>Short articles (median 526 words vs 810 for the hub)</li>
+<li>Question-answer format forces simple sentence structure</li>
+<li>Concrete, task-focused: "How can I check my fees and payments?"</li>
+<li>No marketing language, no policy citations, no academic register</li>
+</ul>
+
+<p>This is the model. The hub's own pages (43.0, grade 12.0) could gain 8 Flesch points by adopting FAQ-style formatting for task content.</p>
+
+<hr>
+
+<h2>Find→act gap: the prose tells you what to do, not where</h2>
+
+<h3>Gap rate by domain</h3>
+
+<table>
+<tr><th>Domain</th><th>Pages analyzed</th><th>Pages with gaps</th><th>Gap rate</th><th>Verdict</th></tr>
+<tr><td>**studentit**</td><td>60</td><td>52</td><td>**87%**</td><td>Severe</td></tr>
+<tr><td>**safercommunity**</td><td>17</td><td>14</td><td>**82%**</td><td>Severe</td></tr>
+<tr><td>**library**</td><td>60</td><td>46</td><td>**77%**</td><td>Severe</td></tr>
+<tr><td>**students (hub)**</td><td>60</td><td>34</td><td>**57%**</td><td>Major</td></tr>
+<tr><td>**gradresearch**</td><td>60</td><td>24</td><td>**40%**</td><td>Moderate</td></tr>
+<tr><td>**umsu**</td><td>35</td><td>8</td><td>**23%**</td><td>Moderate</td></tr>
+<tr><td>**murrupbarak**</td><td>37</td><td>5</td><td>**14%**</td><td>Minor</td></tr>
+<tr><td>**ask.unimelb**</td><td>60</td><td>4</td><td>**7%**</td><td>Minor</td></tr>
+<tr><td>**sport**</td><td>60</td><td>0</td><td>**0%**</td><td>None</td></tr>
+<tr><td>**online**</td><td>30</td><td>0</td><td>**0%**</td><td>None (every page IS a form)</td></tr>
+</table>
+
+<p><strong>Definition:</strong> A page has a find→act gap when it contains phrases like "you must," "you need to," "visit my.unimelb," "fill out the form" — describing actions — but contains <strong>zero</strong> links with action-oriented anchor text ("enrol," "apply," "book," "register," "pay," "submit").</p>
+
+<h3>What this looks like in practice</h3>
+
+<p><strong>Library (77% gaps):</strong> "You need to format your citations according to APA 7th edition." No link to the citation tool. "You can book a research consultation." No link to the booking page.</p>
+
+<p><strong>StudentIT (87% gaps):</strong> "You must connect to UniWireless to access the network." No link to the wifi setup guide. "Download your data before you leave the University." No link to the download tool.</p>
+
+<p><strong>Safercommunity (82% gaps):</strong> "If you have experienced sexual assault, you can make a report to the University." No link to the reporting form. "You can access free counselling through the University." No link to counselling.</p>
+
+<p><strong>Hub (57% gaps):</strong> "You can enrol in subjects through my.unimelb." No link to my.unimelb. "You must check your census dates before withdrawing." The census-dates page canonicalises to <code>/page-not-found</code>.</p>
+
+<h3>The counterexamples</h3>
+
+<p><strong>Sport (0% gaps):</strong> Every page that describes an action links to it. "Join a club" → links to club pages. "Book a court" → links to booking system. "Buy a membership" → links to ecommerce. Sport is the only domain that consistently closes the describe→act loop.</p>
+
+<p><strong>Ask.unimelb (7% gaps):</strong> The FAQ format naturally includes links: "How can I check my fees?" → links to my.unimelb. "How do I apply for an extension?" → links to the form. Short, concrete, linked.</p>
+
+<hr>
+
+<h2>Content freshness: how much is stale?</h2>
+
+<table>
+<tr><th>Domain</th><th>Stale pages</th><th>Stale rate</th><th>What's stale</th></tr>
+<tr><td>**studentit**</td><td>57/60</td><td>**95%**</td><td>Pervasive year references, old software versions</td></tr>
+<tr><td>**ask.unimelb**</td><td>50/60</td><td>**83%**</td><td>"2025" in 2026, old fee amounts, old census dates</td></tr>
+<tr><td>**gradresearch**</td><td>30/60</td><td>**50%**</td><td>Old policy references, pre-restructure page content</td></tr>
+<tr><td>**sport**</td><td>20/60</td><td>33%</td><td>News articles from 2024-2025</td></tr>
+<tr><td>**umsu**</td><td>16/35</td><td>46%</td><td>Event pages from past semesters</td></tr>
+<tr><td>**library**</td><td>15/60</td><td>25%</td><td>Old edition references in citation guides</td></tr>
+<tr><td>**students (hub)**</td><td>7/60</td><td>12%</td><td>"2025" dates, _nocache URL leaks</td></tr>
+<tr><td>**murrupbarak**</td><td>8/37</td><td>22%</td><td>Old event dates, pre-2026 semester references</td></tr>
+<tr><td>**online**</td><td>5/30</td><td>17%</td><td>Old course intake dates</td></tr>
+<tr><td>**safercommunity**</td><td>0/17</td><td>**0%**</td><td>Clean — no stale year references</td></tr>
+</table>
+
+<h3>The staleness crisis</h3>
+
+<p><strong>StudentIT at 95% stale</strong> is the worst. Nearly every page references a year or software version that's outdated. This is operational content — students are following instructions that may no longer work.</p>
+
+<p><strong>ask.unimelb at 83% stale</strong> confirms the content freshness deep-dive's finding about the 2025 English requirements page. Half the FAQ still references pre-2026 policies and fee amounts.</p>
+
+<p><strong>Gradresearch at 50% stale</strong> aligns with the 40% 404 rate — the site is rotting. Half the content references a version of the HDR lifecycle that may no longer be current.</p>
+
+<hr>
+
+<h2>Word count: how long is too long?</h2>
+
+<table>
+<tr><th>Domain</th><th>Median words</th><th>Longest sampled</th><th>Verdict</th></tr>
+<tr><td>students (hub)</td><td>810</td><td>4,200+</td><td>Substantial — hub pages are reference-length</td></tr>
+<tr><td>gradresearch</td><td>703</td><td>3,800+</td><td>Substantial — HDR policy content</td></tr>
+<tr><td>murrupbarak</td><td>678</td><td>1,500</td><td>Appropriate for support content</td></tr>
+<tr><td>safercommunity</td><td>622</td><td>1,200</td><td>Appropriate for crisis content</td></tr>
+<tr><td>studentit</td><td>532</td><td>2,100</td><td>Appropriate for IT instructions</td></tr>
+<tr><td>ask.unimelb</td><td>526</td><td>3,100</td><td>Appropriate — FAQ format</td></tr>
+<tr><td>library</td><td>494</td><td>2,800</td><td>Appropriate for citation guides</td></tr>
+<tr><td>sport</td><td>434</td><td>1,500</td><td>Appropriate</td></tr>
+<tr><td>online</td><td>344</td><td>800</td><td>Thin — marketing pages</td></tr>
+<tr><td>umsu</td><td>313</td><td>2,400</td><td>Thin — club listings dominate</td></tr>
+</table>
+
+<p>The hub at 810 median words is the longest. For comparison, this deep-dive section is ~60 words.</p>
+
+<hr>
+
+<h2>Average sentence length</h2>
+
+<table>
+<tr><th>Domain</th><th>Avg words/sentence</th><th>Verdict</th></tr>
+<tr><td>murrupbarak</td><td>28.3</td><td>Longest — academic prose</td></tr>
+<tr><td>gradresearch</td><td>24.7</td><td>Academic</td></tr>
+<tr><td>online</td><td>24.1</td><td>Marketing language</td></tr>
+<tr><td>safercommunity</td><td>22.8</td><td>Policy language</td></tr>
+<tr><td>umsu</td><td>22.4</td><td>Mixed</td></tr>
+<tr><td>students (hub)</td><td>21.2</td><td>Mixed</td></tr>
+<tr><td>library</td><td>20.8</td><td>Instructional</td></tr>
+<tr><td>sport</td><td>20.1</td><td>Accessible</td></tr>
+<tr><td>studentit</td><td>19.4</td><td>Instructional</td></tr>
+<tr><td>ask.unimelb</td><td>17.7</td><td>Shortest — FAQ format</td></tr>
+</table>
+
+<p>Plain language best practice: 15–20 words per sentence. Only ask.unimelb and studentit are in range. Murrup Barak at 28.3 words per sentence is academic journal territory.</p>
+
+<hr>
+
+<h2>The 10-domain quality ranking</h2>
+
+<table>
+<tr><th>Rank</th><th>Domain</th><th>Readability</th><th>Actionability</th><th>Freshness</th><th>Overall</th></tr>
+<tr><td>1</td><td>sport</td><td>C</td><td>A+</td><td>C+</td><td>**Best** — the only domain that consistently links actions</td></tr>
+<tr><td>2</td><td>ask.unimelb</td><td>A</td><td>B+</td><td>D</td><td>FAQ format works for readability; stale content drags it down</td></tr>
+<tr><td>3</td><td>studentit</td><td>B</td><td>F</td><td>F</td><td>Readable but 87% gaps and 95% stale</td></tr>
+<tr><td>4</td><td>students (hub)</td><td>C+</td><td>D+</td><td>B</td><td>The hub is average across the board</td></tr>
+<tr><td>5</td><td>library</td><td>C+</td><td>F</td><td>B</td><td>77% gap rate is the biggest fix</td></tr>
+<tr><td>6</td><td>gradresearch</td><td>C</td><td>C</td><td>F</td><td>40% gaps + 50% stale + 40% 404s = triage needed</td></tr>
+<tr><td>7</td><td>umsu</td><td>D</td><td>C</td><td>D</td><td>Independent org, limited University control</td></tr>
+<tr><td>8</td><td>safercommunity</td><td>D</td><td>F</td><td>A+</td><td>Crisis content is fresh but unreadable and unactionable</td></tr>
+<tr><td>9</td><td>online</td><td>F</td><td>—</td><td>B</td><td>Marketing fluff, not service content</td></tr>
+<tr><td>10</td><td>murrupbarak</td><td>F</td><td>B</td><td>B</td><td>Worst readability in the estate — Indigenous students deserve better</td></tr>
+</table>
+
+<hr>
+
+<h2>Recommendations</h2>
+
+<h3>1. Adopt a readability standard — grade 10 maximum for student-facing content `[HIGH · medium]`</h3>
+
+<p>Every student-facing page should target Flesch Reading Ease ≥50 (fairly difficult, grade ≤10). Murrupbarak at 19.0 and safercommunity at 27.4 are the priorities. This is a rewriting task, not a template fix — but the FAQ format (ask.unimelb at 51.5) proves it's achievable.</p>
+
+<h3>2. Close the find→act gap with a link standard `[HIGH · medium]`</h3>
+
+<p>Every page that describes an action must contain at least one link to where that action happens. Library (77% gaps), studentit (87%), safercommunity (82%). This is a content governance rule: no page ships without resolving "now go do it."</p>
+
+<h3>3. StudentIT and ask.unimelb need a freshness audit `[HIGH · medium]`</h3>
+
+<p>95% of studentit pages and 83% of ask.unimelb pages carry stale year references. Audit and update: remove year stamps where possible, add "last reviewed" dates where needed.</p>
+
+<h3>4. Rewrite Murrup Barak and Safer Community in plain language `[HIGH · medium]`</h3>
+
+<p>These are the services for the most vulnerable students. Murrup Barak at 19.0 Flesch (graduate level) and safercommunity at 27.4 (undergraduate level) need rewriting to grade 8–10. The content is comprehensive — it's just written at the wrong level.</p>
+
+<h3>5. Use ask.unimelb as the readability model `[MEDIUM · quick-win]`</h3>
+
+<p>The FAQ format (51.5 Flesch, grade 9.9, 17.7 words/sentence) is the readability benchmark. Migrating high-traffic hub pages to FAQ-style task formats would lift readability across the estate.</p>
+
+<h3>6. Sport is the actionability model `[MEDIUM · quick-win]`</h3>
+
+<p>0% find→act gap. Study how sport links actions: every "join," "book," "register" has a destination. Apply this pattern to library, studentit, safercommunity, and the hub.</p>
+
+<hr>
+
+<p><em>Built from: content quality analysis of ~550 pages across 10 domains (students hub, gradresearch, ask.unimelb, murrupbarak, safercommunity, library, umsu, sport, studentit, online). Flesch Reading Ease via textstat. June 2026.</em></p>
+
+</main>
+</body>
+</html>

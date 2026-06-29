@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Authenticated Core Audit · UoM Current Students IA</title>
+<style>@font-face{font-family:'Fraunces';src:url('assets/fonts/Fraunces-VariableFont_SOFT_WONK_opsz_wght.ttf') format('truetype');font-weight:100 900;font-display:swap}
+@font-face{font-family:'Source Sans 3';src:url('assets/fonts/SourceSans3-VariableFont_wght.ttf') format('truetype');font-weight:200 900;font-display:swap}
+@font-face{font-family:'Source Code Pro';src:url('assets/fonts/SourceCodePro-VariableFont_wght.ttf') format('truetype');font-weight:200 900;font-display:swap}
+:root{--navy:#000F46;--navy-light:#1B2D5C;--cyan:#46C8F0;--ink:#222;--ink-2:#555;--bg:#fff;--bg-nav:#000F46;--bg-subtle:#F3F3F6;--border:#DDDDE7;--red:#DB1927;--amber:#AC5907;--green:#31733B;--font-h:'Fraunces',Georgia,serif;--font-b:'Source Sans 3',system-ui,sans-serif;--font-m:'Source Code Pro',monospace;--nav-w:280px}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:var(--font-b);font-size:17px;line-height:1.65;color:var(--ink);background:var(--bg);display:flex;min-height:100vh;-webkit-font-smoothing:antialiased}
+a{color:#004EAD;text-decoration:none}a:hover{text-decoration:underline}
+
+/* ── LHS Navigation ── */
+nav.lhs{position:fixed;top:0;left:0;width:var(--nav-w);height:100vh;background:var(--bg-nav);color:#C9CDE6;overflow-y:auto;z-index:100;display:flex;flex-direction:column;font-size:14px;line-height:1.4}
+nav.lhs .logo{padding:24px 20px 16px;border-bottom:1px solid rgba(255,255,255,.1)}
+nav.lhs .logo img{height:26px}
+nav.lhs .logo a{display:block;color:#fff;font-family:var(--font-h);font-size:16px;font-weight:600;text-decoration:none;margin-top:8px}
+nav.lhs .nav-scroll{flex:1;overflow-y:auto;padding:8px 0 24px}
+nav.lhs .section{font-family:var(--font-m);font-size:11px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--cyan);padding:16px 20px 6px}
+nav.lhs a.nav-link{display:block;padding:5px 20px;color:#9BA3C4;text-decoration:none;transition:all .15s;border-left:3px solid transparent}
+nav.lhs a.nav-link:hover{color:#fff;background:rgba(255,255,255,.05)}
+nav.lhs a.nav-link.active{color:#fff;background:rgba(255,255,255,.08);border-left-color:var(--cyan)}
+nav.lhs .sep{border:none;border-top:1px solid rgba(255,255,255,.08);margin:8px 16px}
+nav.lhs .footer{padding:16px 20px;font-size:11px;color:#6B7394;border-top:1px solid rgba(255,255,255,.08)}
+
+/* ── Main content ── */
+main{margin-left:var(--nav-w);flex:1;min-width:0;padding:40px 56px 80px;max-width:900px}
+main h1{font-family:var(--font-h);font-size:42px;font-weight:700;color:var(--navy);line-height:1.07;letter-spacing:-.012em;margin:0 0 8px}
+main h2{font-family:var(--font-h);font-size:28px;font-weight:600;color:var(--navy);margin:48px 0 16px;padding-bottom:8px;border-bottom:2px solid var(--border);line-height:1.15}
+main h3{font-family:var(--font-h);font-size:20px;font-weight:600;color:var(--navy);margin:32px 0 10px;line-height:1.2}
+main h4{font-size:18px;font-weight:700;color:var(--navy);margin:24px 0 8px}
+main p{margin:12px 0}
+main .subtitle{color:var(--ink-2);font-style:italic;font-size:18px;margin-bottom:32px}
+main blockquote{border-left:3px solid var(--navy);padding:12px 20px;margin:20px 0;background:var(--bg-subtle);font-style:italic;color:var(--ink-2)}
+main code{font-family:var(--font-m);font-size:14px;background:var(--bg-subtle);padding:2px 6px;border-radius:3px}
+main table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+main th{background:var(--navy);color:#fff;padding:10px 14px;text-align:left;font-weight:600}
+main td{padding:8px 14px;border-bottom:1px solid var(--border)}
+main tr:nth-child(even) td{background:var(--bg-subtle)}
+main ul,main ol{margin:8px 0 8px 24px}
+main li{margin:4px 0}
+main hr{border:none;border-top:1px solid var(--border);margin:40px 0}
+main strong{color:var(--navy)}
+.severity-high{display:inline-block;padding:1px 8px;border-radius:3px;font-size:12px;font-weight:700;background:#FFEBEE;color:var(--red)}
+.severity-medium{display:inline-block;padding:1px 8px;border-radius:3px;font-size:12px;font-weight:700;background:#FFF8E1;color:var(--amber)}
+.effort{display:inline-block;padding:1px 8px;border-radius:3px;font-size:12px;font-weight:700;background:#E8F5E9;color:var(--green)}
+.footer-note{color:var(--ink-2);font-size:13px;font-style:italic;margin-top:48px;padding-top:16px;border-top:1px solid var(--border)}
+
+/* ── Mobile ── */
+.menu-toggle{display:none;position:fixed;top:12px;left:12px;z-index:200;background:var(--navy);color:#fff;border:none;border-radius:6px;padding:8px 12px;font-size:20px;cursor:pointer}
+@media(max-width:960px){
+  nav.lhs{transform:translateX(-100%);transition:transform .25s}
+  nav.lhs.open{transform:translateX(0)}
+  main{margin-left:0;padding:60px 24px 40px}
+  .menu-toggle{display:block}
+}
+</style>
+</head>
+<body>
+<button class="menu-toggle" onclick="document.getElementById('lhsNav').classList.toggle('open')">☰</button>
+<nav class="lhs" id="lhsNav">
+  <div class="logo">
+    <img src="assets/UoM_Logo_Horiz_onDark.svg" alt="UoM">
+    <a href="index.html">Current Students IA</a>
+  </div>
+  <div class="nav-scroll">
+    <a class="nav-link" href="index.html">🏠 Home</a>
+    <div class="section">📊 Project Summary</div>
+    <div class="section">🎯 Five Root Findings</div>
+    <hr class="sep">
+    <div class="section">📋 Key Reports</div>
+    <a class="nav-link" href="report/Improvements-Register.html"> Improvements Register</a>
+    <a class="nav-link" href="report/Lifecycle-Journeys.html"> Lifecycle Journeys</a>
+    <a class="nav-link" href="report/Course-Planning-Enrolment.html"> Course Planning</a>
+    <a class="nav-link" href="report/International-Student-Experience.html"> International Student</a>
+    <a class="nav-link" href="report/Student-Services-Fragmentation.html"> Services Fragmentation</a>
+    <a class="nav-link" href="report/Careers-Employability-WIL.html"> Careers & WIL</a>
+    <hr class="sep">
+    <div class="section">🔬 Structural Deep-Dives</div>
+    <a class="nav-link" href="analysis/graduation-alumni-handoff.html"> Graduation → Alumni</a>
+    <a class="nav-link" href="analysis/careers-online-wiring.html"> Careers Online Wiring</a>
+    <a class="nav-link" href="analysis/prospective-current-handoff.html"> Prospective → Current</a>
+    <a class="nav-link" href="analysis/equity-indigenous-journey.html"> Equity & Indigenous</a>
+    <a class="nav-link" href="analysis/hdr-candidature-duplication.html"> HDR Duplication</a>
+    <a class="nav-link" href="analysis/forms-microsite-audit.html"> Forms & Microsites</a>
+    <hr class="sep">
+    <div class="section">📝 Content Quality</div>
+    <a class="nav-link" href="analysis/the-handbook.html"> The Handbook</a>
+    <a class="nav-link" href="analysis/fees-finance.html"> Fees & Finance</a>
+    <a class="nav-link" href="analysis/scholarships.html"> Scholarships</a>
+    <a class="nav-link" href="analysis/mobile-performance-audit.html"> Mobile & Performance</a>
+    <a class="nav-link" href="analysis/content-freshness-sandbox-leakage.html"> Content Freshness</a>
+    <a class="nav-link" href="analysis/content-quality-deep-dive.html"> Content Quality Audit</a>
+    <hr class="sep">
+    <div class="section">🔐 Authenticated Core</div>
+    <a class="nav-link active" href="analysis/authenticated-core-audit.html"> Auth Core Audit</a>
+    <a class="nav-link" href="analysis/auth-hosts-live-check.html"> Live Host Check</a>
+    <a class="nav-link" href="analysis/authenticated-core-findings.html"> Auth Core Findings</a>
+    <hr class="sep">
+    <div class="section">🌐 Crawl Analyses</div>
+    <a class="nav-link" href="analysis/crawl-ask-unimelb.html"> ask.unimelb</a>
+    <a class="nav-link" href="analysis/crawl-gradresearch.html"> gradresearch</a>
+    <a class="nav-link" href="analysis/crawl-murrupbarak.html"> murrupbarak</a>
+    <a class="nav-link" href="analysis/crawl-safercommunity.html"> safercommunity</a>
+    <a class="nav-link" href="analysis/crawl-umsu.html"> umsu</a>
+    <a class="nav-link" href="analysis/crawl-online.html"> online.unimelb</a>
+    <a class="nav-link" href="analysis/crawl-sport.html"> sport</a>
+    <a class="nav-link" href="analysis/crawl-library.html"> library</a>
+    <a class="nav-link" href="analysis/crawl-studentit.html"> studentit</a>
+    <hr class="sep">
+    <div class="section">👤 Personas</div>
+    <a class="nav-link" href="personas/sam-planning-their-path.html"> Sam — Planning</a>
+    <a class="nav-link" href="personas/alex-at-risk-withdrawal.html"> Alex — At-risk</a>
+    <a class="nav-link" href="personas/priya-international-student.html"> Priya — International</a>
+    <a class="nav-link" href="personas/jordan-course-planning-maze.html"> Jordan — Course Maze</a>
+    <a class="nav-link" href="personas/taylor-wellbeing-mental-health.html"> Taylor — Wellbeing</a>
+    <hr class="sep">
+    <div class="section">📦 Deliverables</div>
+    <a class="nav-link" href="analysis/governance-summary-pack.html"> Governance Pack</a>
+    <a class="nav-link" href="analysis/quick-wins-checklist.html"> Quick Wins</a>
+    <a class="nav-link" href="analysis/final-synthesis.html"> Final Synthesis</a>
+  </div>
+  <div class="footer">UoM · Student Experience &amp; Design<br>June 2026 · 41,533 pages · 31 domains</div>
+</nav>
+
+<main>
+<h1>Authenticated Core Audit</h1>
+<p class="subtitle">42 auth hosts, 3,641 links, link-label analysis.</p>
+<h1>The Authenticated Core — Seam Audit</h1>
+
+<p><em>The walled systems where every student journey's decisive action happens. 42 authenticated hosts, 3,641 contextual links from the public estate. The public side describes; the authenticated side transacts. This audit maps the seam — what students see before they click, which journeys depend on which systems, and what we can verify without login access. June 2026.</em></p>
+
+<hr>
+
+<h2>Executive summary</h2>
+
+<p>The public estate describes enrolment, payment, counselling booking, special consideration, and visa compliance — but the actual action happens behind 42 distinct authenticated hosts. The public→authenticated seam is where the student experience either works or breaks, and it's the one layer this project cannot crawl.</p>
+
+<p>Three findings define the seam:</p>
+
+<ol>
+<li>**The links exist but the labels are generic.** "my.unimelb" appears 18 times in 200 hub pages as link text. "Go to my.unimelb to enrol" appears twice. The specific action the student needs to perform is described in prose but the link text itself is a generic system name. Students know *where* to go but not *what to do* when they get there.</li>
+</ul>
+
+<ol>
+<li>**forms.your is a black box with 84 indistinguishable links.** "Enquiry," "Enquiry (recommended)," "Submit an enquiry" are the dominant labels. Fee remission, leave of absence, course transfer — all funneled through the same generic form host with SID query parameters as the only differentiator. A student cannot tell which form does what.</li>
+</ul>
+
+<ol>
+<li>**The counterexample proves the pattern.** "Apply for special consideration" is the only consistently action-labeled link to an authenticated host. It appears twice — and both times the label says exactly what it does. Every other authenticated link should follow this pattern.</li>
+</ul>
+
+<hr>
+
+<h2>The authenticated host inventory — 42 systems</h2>
+
+<h3>Tier 1 — Core transactional (every student journey)</h3>
+
+<table>
+<tr><th>Host</th><th>Links</th><th>Sources</th><th>What it does</th><th>Link label quality</th></tr>
+<tr><td>**my.unimelb.edu.au**</td><td>237</td><td>10</td><td>SIS — enrol, results, fees, timetable, study plan</td><td>⚠ Generic: "my.unimelb," "Go to my.unimelb"</td></tr>
+<tr><td>**forms.your.unimelb.edu.au**</td><td>2,044</td><td>19</td><td>Fee remission, leave, withdrawal, course transfer, hardship</td><td>❌ Indistinguishable: "Enquiry," "Enquiry (recommended)"</td></tr>
+<tr><td>**lms.unimelb.edu.au**</td><td>148</td><td>12</td><td>Canvas/LMS — learning materials, assignments</td><td>⚠ Generic: "log in to the LMS"</td></tr>
+<tr><td>**canvas.lms.unimelb.edu.au**</td><td>115</td><td>15</td><td>Canvas direct — quizzes, modules</td><td>⚠ Generic: "LMS quiz," "Open module on LMS"</td></tr>
+<tr><td>**studyos.students.unimelb.edu.au**</td><td>168</td><td>6</td><td>My Course Planner — subject planning</td><td>❌ Generic: "Log back in," "Summer," "Winter"</td></tr>
+<tr><td>**mytimetable.students.unimelb.edu.au**</td><td>10</td><td>2</td><td>Class timetabling</td><td>⚠ Too few links to assess</td></tr>
+</table>
+
+<h3>Tier 2 — Journey-specific (one or two personas)</h3>
+
+<table>
+<tr><th>Host</th><th>Links</th><th>What it does</th><th>Which persona</th></tr>
+<tr><td>**specialconsideration.app**</td><td>12</td><td>Apply for special consideration, deferred exams</td><td>Alex (at-risk), Taylor (wellbeing)</td></tr>
+<tr><td>**enrolmentvariations.app**</td><td>2</td><td>Reduced study load, leave, withdrawal</td><td>Alex, Priya</td></tr>
+<tr><td>**mycounselling.app**</td><td>3</td><td>Counselling appointment booking</td><td>Taylor</td></tr>
+<tr><td>**tes.app**</td><td>11</td><td>Thesis examination system</td><td>HDR candidate</td></tr>
+<tr><td>**feit-vocational-placement.app**</td><td>8</td><td>FEIT vocational placements</td><td>Jordan</td></tr>
+<tr><td>**enquiry.app**</td><td>8</td><td>General enquiry form</td><td>All</td></tr>
+<tr><td>**intlstudaccept.unimelb.edu.au**</td><td>3</td><td>International student acceptance</td><td>Priya</td></tr>
+<tr><td>**overseasstudyplanner.unimelb.edu.au**</td><td>6</td><td>Study abroad planner</td><td>Sam</td></tr>
+<tr><td>**course-planner.unimelb.edu.au**</td><td>10</td><td>Legacy course planner</td><td>Sam, Jordan</td></tr>
+</table>
+
+<h3>Tier 3 — Administrative / non-student</h3>
+
+<table>
+<tr><th>Host</th><th>Links</th><th>What it does</th></tr>
+<tr><td>**q.surveys.unimelb.edu.au**</td><td>231</td><td>Survey platform — course evaluations, research</td></tr>
+<tr><td>**ecommerce.unimelb.edu.au**</td><td>191</td><td>Payment gateway — fees, sport memberships</td></tr>
+<tr><td>**go.unimelb.edu.au**</td><td>175</td><td>URL shortener/redirect</td></tr>
+<tr><td>**your.unimelb.edu.au**</td><td>102</td><td>Staff/student portal redirect</td></tr>
+<tr><td>**accounts.unimelb.edu.au**</td><td>21</td><td>Account management</td></tr>
+<tr><td>**catalog.lms.unimelb.edu.au**</td><td>81</td><td>LMS course catalogue — Melbourne Plus, communities</td></tr>
+<tr><td>**my.unilife.unimelb.edu.au**</td><td>10</td><td>Student life portal</td></tr>
+</table>
+
+<h3>Tier 4 — Legacy / single-purpose (1-2 links)</h3>
+
+<table>
+<tr><th>Host</th><th>Links</th></tr>
+<tr><td>slidelibrary.app, thesislibrary.app, booklibrary.app</td><td>1 each</td></tr>
+<tr><td>studenteforms.app, ffam-mcm.app, law.app</td><td>1-2 each</td></tr>
+<tr><td>casemanagementform.unimelb.edu.au</td><td>5</td></tr>
+<tr><td>feerefundform.unimelb.edu.au</td><td>4</td></tr>
+<tr><td>student-advising-system.unimelb.edu.au</td><td>2</td></tr>
+<tr><td>coursesearch.unimelb.edu.au</td><td>2</td></tr>
+<tr><td>portal.unimelb.edu.au</td><td>3</td></tr>
+<tr><td>sis.unimelb.edu.au</td><td>3</td></tr>
+<tr><td>prod.ss.unimelb.edu.au</td><td>3 (the eStudent eApplications portal)</td></tr>
+<tr><td>myuniapps.unimelb.edu.au</td><td>2</td></tr>
+</table>
+
+<hr>
+
+<h2>The link-label problem: what students see before they click</h2>
+
+<h3>my.unimelb (237 links, 10 sources)</h3>
+
+<table>
+<tr><th>Label</th><th>Count (in 200 hub pages)</th><th>Verdict</th></tr>
+<tr><td>"my.unimelb"</td><td>18</td><td>Generic — student doesn't know what to do there</td></tr>
+<tr><td>"my.unimelb admin pages"</td><td>7</td><td>Vague</td></tr>
+<tr><td>"Go to my.unimelb"</td><td>4</td><td>Generic</td></tr>
+<tr><td>"Log in to my.unimelb"</td><td>2</td><td>Generic</td></tr>
+<tr><td>"Go to my.unimelb to enrol"</td><td>2</td><td>**Specific — the pattern to follow**</td></tr>
+<tr><td>"my.unimelb (student portal)"</td><td>2</td><td>Generic</td></tr>
+</table>
+
+<p><strong>The problem:</strong> 237 links to the SIS, but only 2 tell the student what to do there. The prose describes "enrol in subjects," "check your results," "pay your fees" — but the link text is always "my.unimelb." The student arrives at the SIS homepage with no context for what action to take.</p>
+
+<h3>forms.your (2,044 links, 19 sources)</h3>
+
+<table>
+<tr><th>Label</th><th>Count</th><th>Verdict</th></tr>
+<tr><td>"Enquiry"</td><td>12</td><td>Completely generic</td></tr>
+<tr><td>"Enquiry (recommended)"</td><td>8</td><td>Completely generic</td></tr>
+<tr><td>"Submit an enquiry"</td><td>5</td><td>Completely generic</td></tr>
+<tr><td>"Enquiry (3-5 business days)"</td><td>5</td><td>Adds timing, still generic</td></tr>
+<tr><td>"Get help with your student card form"</td><td>2</td><td>**Specific — the pattern to follow**</td></tr>
+</table>
+
+<p><strong>The problem:</strong> 2,044 links to the form host. Nearly all labeled "Enquiry." Fee remission, leave of absence, course transfer, hardship grant — every high-stakes form uses the same generic label. The SID query parameter is the only differentiator: <code>?SID=...fbZ</code> (waiver) vs <code>?SID=...fdB</code> (review) vs <code>?SID=...fZx</code> (enquiry). A student cannot distinguish them.</p>
+
+<h3>The counterexample: specialconsideration.app</h3>
+
+<table>
+<tr><th>Label</th><th>Count</th></tr>
+<tr><td>"Apply for special consideration"</td><td>2</td></tr>
+</table>
+
+<p>Only 2 links, but both are perfectly labeled. This proves the pattern exists in the estate — the other hosts just don't use it.</p>
+
+<hr>
+
+<h2>Journey seam map: which personas depend on which walls</h2>
+
+<table>
+<tr><th>Journey step</th><th>Public page describes</th><th>Authenticated host transacts</th><th>Link label</th><th>Find→act gap</th></tr>
+<tr><td>**Enrol in subjects**</td><td>Hub /course-admin (343 pages)</td><td>my.unimelb /sone/STUDYPLN</td><td>"my.unimelb"</td><td>⚠ Described, not directed</td></tr>
+<tr><td>**Plan course**</td><td>Hub /course-admin</td><td>studyos.students (My Course Planner)</td><td>"Log back in"</td><td>❌ Generic label, two tools</td></tr>
+<tr><td>**Check results**</td><td>Hub</td><td>my.unimelb</td><td>"my.unimelb"</td><td>⚠ Generic</td></tr>
+<tr><td>**Pay fees**</td><td>Hub /admin/fees</td><td>my.unimelb + ecommerce</td><td>"my.unimelb"</td><td>⚠ Generic</td></tr>
+<tr><td>**Timetable**</td><td>Hub /class-timetable</td><td>mytimetable.students</td><td>—</td><td>⚠ Separate subdomain</td></tr>
+<tr><td>**Special consideration**</td><td>Hub /support-and-wellbeing</td><td>specialconsideration.app</td><td>"Apply for special consideration"</td><td>✅ Labeled correctly</td></tr>
+<tr><td>**Counselling booking**</td><td>services.unimelb /counsel</td><td>mycounselling.app</td><td>—</td><td>❌ 3 links, buried in prose</td></tr>
+<tr><td>**Fee remission**</td><td>Hub /admin/fees</td><td>forms.your + SID params</td><td>"Enquiry"</td><td>❌ Indistinguishable</td></tr>
+<tr><td>**Leave of absence**</td><td>Hub</td><td>forms.your / enrolmentvariations.app</td><td>"Enquiry"</td><td>❌ Indistinguishable</td></tr>
+<tr><td>**Academic progress**</td><td>Hub /course-admin</td><td>my.unimelb</td><td>"my.unimelb"</td><td>⚠ Generic</td></tr>
+<tr><td>**Accept international offer**</td><td>study.unimelb</td><td>eStudent / prod.ss</td><td>—</td><td>❌ JS-injected, invisible to link graph</td></tr>
+<tr><td>**CoE / visa compliance**</td><td>Hub (3 trees)</td><td>my.unimelb</td><td>"my.unimelb"</td><td>❌ Highest-risk pages link 0 forms</td></tr>
+<tr><td>**Graduate / complete**</td><td>Hub</td><td>my.unimelb</td><td>"my.unimelb"</td><td>⚠ Generic</td></tr>
+<tr><td>**Access learning materials**</td><td>Hub</td><td>lms / canvas</td><td>"log in to the LMS"</td><td>⚠ Generic</td></tr>
+<tr><td>**Book sport**</td><td>sport.unimelb</td><td>ecommerce.unimelb</td><td>"Join," "Book," "Register"</td><td>✅ Sport is the exemplar</td></tr>
+</table>
+
+<hr>
+
+<h2>What we can verify without login access</h2>
+
+<table>
+<tr><th>Claim</th><th>Verifiable?</th><th>How</th></tr>
+<tr><td>"The link goes to the right system"</td><td>✅ Yes</td><td>Outbound link audit confirms destinations</td></tr>
+<tr><td>"The link text says what the action is"</td><td>✅ Yes</td><td>Link text audit above — mostly ❌</td></tr>
+<tr><td>"The form works after login"</td><td>❌ No</td><td>Behind authentication wall</td></tr>
+<tr><td>"The logged-in side guides the next step"</td><td>❌ No</td><td>Cannot see post-login UI</td></tr>
+<tr><td>"The form has plain-language labels"</td><td>❌ No</td><td>SID params are opaque from outside</td></tr>
+<tr><td>"Confirmation and tracking exist"</td><td>❌ No</td><td>Cannot submit forms</td></tr>
+<tr><td>"The my.unimelb dashboard routes to the right task"</td><td>❌ No</td><td>Post-login IA is invisible</td></tr>
+<tr><td>"The SIS shows the same data as the public page described"</td><td>❌ No</td><td>Requires authenticated access</td></tr>
+</table>
+
+<hr>
+
+<h2>Recommendations</h2>
+
+<h3>1. Label every authenticated link with the action it performs `[HIGH · medium]`</h3>
+
+<p>Replace "my.unimelb" with "Enrol in subjects in my.unimelb." Replace "Enquiry" with "Apply for fee remission," "Request leave of absence," "Submit a hardship enquiry." Use the specialconsideration.app pattern: verb + noun + system name.</p>
+
+<h3>2. Route forms.your links through a descriptive intermediary `[HIGH · medium]`</h3>
+
+<p>Build a "Forms and requests" page on the hub that lists every form with its plain-language name, expected processing time, and status tracking. Link to this page instead of directly to SID-param URLs. This makes the 2,044 indistinguishable "Enquiry" links into one clear "Find the right form" CTA.</p>
+
+<h3>3. Add a "What you'll do there" preview to authenticated links `[MEDIUM · medium]`</h3>
+
+<p>Every link to my.unimelb should include a one-line preview: "You'll enrol in subjects, check your timetable, and pay fees." Students shouldn't have to cross the login wall to discover what's on the other side.</p>
+
+<h3>4. Walk through the authenticated core with real credentials `[HIGH · validation]`</h3>
+
+<p>Request a walkthrough of: my.unimelb enrolment flow, special consideration form, counselling booking, fee remission form, CoE/visa compliance in the SIS. Every "the public side describes; confirm the logged-in side guides" claim in this project depends on this validation.</p>
+
+<h3>5. Add analytics tracking to authenticated link clicks `[MEDIUM · medium]`</h3>
+
+<p>Currently we can't measure which links students actually click. The 2,044 forms.your links are invisible to analytics. Add click-tracking to every authenticated outbound link so journey drop-off can be measured.</p>
+
+<hr>
+
+<p><em>Built from: cross-site-flow.csv (42 auth hosts, 3,641 links), links.json sampling (200 hub pages for link text), forms-microsite-audit.md, and the 5 persona journey traces. June 2026.</em></p>
+
+</main>
+</body>
+</html>

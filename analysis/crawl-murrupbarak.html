@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>murrupbarak.unimelb.edu.au · UoM Current Students IA</title>
+<style>@font-face{font-family:'Fraunces';src:url('assets/fonts/Fraunces-VariableFont_SOFT_WONK_opsz_wght.ttf') format('truetype');font-weight:100 900;font-display:swap}
+@font-face{font-family:'Source Sans 3';src:url('assets/fonts/SourceSans3-VariableFont_wght.ttf') format('truetype');font-weight:200 900;font-display:swap}
+@font-face{font-family:'Source Code Pro';src:url('assets/fonts/SourceCodePro-VariableFont_wght.ttf') format('truetype');font-weight:200 900;font-display:swap}
+:root{--navy:#000F46;--navy-light:#1B2D5C;--cyan:#46C8F0;--ink:#222;--ink-2:#555;--bg:#fff;--bg-nav:#000F46;--bg-subtle:#F3F3F6;--border:#DDDDE7;--red:#DB1927;--amber:#AC5907;--green:#31733B;--font-h:'Fraunces',Georgia,serif;--font-b:'Source Sans 3',system-ui,sans-serif;--font-m:'Source Code Pro',monospace;--nav-w:280px}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:var(--font-b);font-size:17px;line-height:1.65;color:var(--ink);background:var(--bg);display:flex;min-height:100vh;-webkit-font-smoothing:antialiased}
+a{color:#004EAD;text-decoration:none}a:hover{text-decoration:underline}
+
+/* ── LHS Navigation ── */
+nav.lhs{position:fixed;top:0;left:0;width:var(--nav-w);height:100vh;background:var(--bg-nav);color:#C9CDE6;overflow-y:auto;z-index:100;display:flex;flex-direction:column;font-size:14px;line-height:1.4}
+nav.lhs .logo{padding:24px 20px 16px;border-bottom:1px solid rgba(255,255,255,.1)}
+nav.lhs .logo img{height:26px}
+nav.lhs .logo a{display:block;color:#fff;font-family:var(--font-h);font-size:16px;font-weight:600;text-decoration:none;margin-top:8px}
+nav.lhs .nav-scroll{flex:1;overflow-y:auto;padding:8px 0 24px}
+nav.lhs .section{font-family:var(--font-m);font-size:11px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--cyan);padding:16px 20px 6px}
+nav.lhs a.nav-link{display:block;padding:5px 20px;color:#9BA3C4;text-decoration:none;transition:all .15s;border-left:3px solid transparent}
+nav.lhs a.nav-link:hover{color:#fff;background:rgba(255,255,255,.05)}
+nav.lhs a.nav-link.active{color:#fff;background:rgba(255,255,255,.08);border-left-color:var(--cyan)}
+nav.lhs .sep{border:none;border-top:1px solid rgba(255,255,255,.08);margin:8px 16px}
+nav.lhs .footer{padding:16px 20px;font-size:11px;color:#6B7394;border-top:1px solid rgba(255,255,255,.08)}
+
+/* ── Main content ── */
+main{margin-left:var(--nav-w);flex:1;min-width:0;padding:40px 56px 80px;max-width:900px}
+main h1{font-family:var(--font-h);font-size:42px;font-weight:700;color:var(--navy);line-height:1.07;letter-spacing:-.012em;margin:0 0 8px}
+main h2{font-family:var(--font-h);font-size:28px;font-weight:600;color:var(--navy);margin:48px 0 16px;padding-bottom:8px;border-bottom:2px solid var(--border);line-height:1.15}
+main h3{font-family:var(--font-h);font-size:20px;font-weight:600;color:var(--navy);margin:32px 0 10px;line-height:1.2}
+main h4{font-size:18px;font-weight:700;color:var(--navy);margin:24px 0 8px}
+main p{margin:12px 0}
+main .subtitle{color:var(--ink-2);font-style:italic;font-size:18px;margin-bottom:32px}
+main blockquote{border-left:3px solid var(--navy);padding:12px 20px;margin:20px 0;background:var(--bg-subtle);font-style:italic;color:var(--ink-2)}
+main code{font-family:var(--font-m);font-size:14px;background:var(--bg-subtle);padding:2px 6px;border-radius:3px}
+main table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+main th{background:var(--navy);color:#fff;padding:10px 14px;text-align:left;font-weight:600}
+main td{padding:8px 14px;border-bottom:1px solid var(--border)}
+main tr:nth-child(even) td{background:var(--bg-subtle)}
+main ul,main ol{margin:8px 0 8px 24px}
+main li{margin:4px 0}
+main hr{border:none;border-top:1px solid var(--border);margin:40px 0}
+main strong{color:var(--navy)}
+.severity-high{display:inline-block;padding:1px 8px;border-radius:3px;font-size:12px;font-weight:700;background:#FFEBEE;color:var(--red)}
+.severity-medium{display:inline-block;padding:1px 8px;border-radius:3px;font-size:12px;font-weight:700;background:#FFF8E1;color:var(--amber)}
+.effort{display:inline-block;padding:1px 8px;border-radius:3px;font-size:12px;font-weight:700;background:#E8F5E9;color:var(--green)}
+.footer-note{color:var(--ink-2);font-size:13px;font-style:italic;margin-top:48px;padding-top:16px;border-top:1px solid var(--border)}
+
+/* ── Mobile ── */
+.menu-toggle{display:none;position:fixed;top:12px;left:12px;z-index:200;background:var(--navy);color:#fff;border:none;border-radius:6px;padding:8px 12px;font-size:20px;cursor:pointer}
+@media(max-width:960px){
+  nav.lhs{transform:translateX(-100%);transition:transform .25s}
+  nav.lhs.open{transform:translateX(0)}
+  main{margin-left:0;padding:60px 24px 40px}
+  .menu-toggle{display:block}
+}
+</style>
+</head>
+<body>
+<button class="menu-toggle" onclick="document.getElementById('lhsNav').classList.toggle('open')">☰</button>
+<nav class="lhs" id="lhsNav">
+  <div class="logo">
+    <img src="assets/UoM_Logo_Horiz_onDark.svg" alt="UoM">
+    <a href="index.html">Current Students IA</a>
+  </div>
+  <div class="nav-scroll">
+    <a class="nav-link" href="index.html">🏠 Home</a>
+    <div class="section">📊 Project Summary</div>
+    <div class="section">🎯 Five Root Findings</div>
+    <hr class="sep">
+    <div class="section">📋 Key Reports</div>
+    <a class="nav-link" href="report/Improvements-Register.html"> Improvements Register</a>
+    <a class="nav-link" href="report/Lifecycle-Journeys.html"> Lifecycle Journeys</a>
+    <a class="nav-link" href="report/Course-Planning-Enrolment.html"> Course Planning</a>
+    <a class="nav-link" href="report/International-Student-Experience.html"> International Student</a>
+    <a class="nav-link" href="report/Student-Services-Fragmentation.html"> Services Fragmentation</a>
+    <a class="nav-link" href="report/Careers-Employability-WIL.html"> Careers & WIL</a>
+    <hr class="sep">
+    <div class="section">🔬 Structural Deep-Dives</div>
+    <a class="nav-link" href="analysis/graduation-alumni-handoff.html"> Graduation → Alumni</a>
+    <a class="nav-link" href="analysis/careers-online-wiring.html"> Careers Online Wiring</a>
+    <a class="nav-link" href="analysis/prospective-current-handoff.html"> Prospective → Current</a>
+    <a class="nav-link" href="analysis/equity-indigenous-journey.html"> Equity & Indigenous</a>
+    <a class="nav-link" href="analysis/hdr-candidature-duplication.html"> HDR Duplication</a>
+    <a class="nav-link" href="analysis/forms-microsite-audit.html"> Forms & Microsites</a>
+    <hr class="sep">
+    <div class="section">📝 Content Quality</div>
+    <a class="nav-link" href="analysis/the-handbook.html"> The Handbook</a>
+    <a class="nav-link" href="analysis/fees-finance.html"> Fees & Finance</a>
+    <a class="nav-link" href="analysis/scholarships.html"> Scholarships</a>
+    <a class="nav-link" href="analysis/mobile-performance-audit.html"> Mobile & Performance</a>
+    <a class="nav-link" href="analysis/content-freshness-sandbox-leakage.html"> Content Freshness</a>
+    <a class="nav-link" href="analysis/content-quality-deep-dive.html"> Content Quality Audit</a>
+    <hr class="sep">
+    <div class="section">🔐 Authenticated Core</div>
+    <a class="nav-link" href="analysis/authenticated-core-audit.html"> Auth Core Audit</a>
+    <a class="nav-link" href="analysis/auth-hosts-live-check.html"> Live Host Check</a>
+    <a class="nav-link" href="analysis/authenticated-core-findings.html"> Auth Core Findings</a>
+    <hr class="sep">
+    <div class="section">🌐 Crawl Analyses</div>
+    <a class="nav-link" href="analysis/crawl-ask-unimelb.html"> ask.unimelb</a>
+    <a class="nav-link" href="analysis/crawl-gradresearch.html"> gradresearch</a>
+    <a class="nav-link active" href="analysis/crawl-murrupbarak.html"> murrupbarak</a>
+    <a class="nav-link" href="analysis/crawl-safercommunity.html"> safercommunity</a>
+    <a class="nav-link" href="analysis/crawl-umsu.html"> umsu</a>
+    <a class="nav-link" href="analysis/crawl-online.html"> online.unimelb</a>
+    <a class="nav-link" href="analysis/crawl-sport.html"> sport</a>
+    <a class="nav-link" href="analysis/crawl-library.html"> library</a>
+    <a class="nav-link" href="analysis/crawl-studentit.html"> studentit</a>
+    <hr class="sep">
+    <div class="section">👤 Personas</div>
+    <a class="nav-link" href="personas/sam-planning-their-path.html"> Sam — Planning</a>
+    <a class="nav-link" href="personas/alex-at-risk-withdrawal.html"> Alex — At-risk</a>
+    <a class="nav-link" href="personas/priya-international-student.html"> Priya — International</a>
+    <a class="nav-link" href="personas/jordan-course-planning-maze.html"> Jordan — Course Maze</a>
+    <a class="nav-link" href="personas/taylor-wellbeing-mental-health.html"> Taylor — Wellbeing</a>
+    <hr class="sep">
+    <div class="section">📦 Deliverables</div>
+    <a class="nav-link" href="analysis/governance-summary-pack.html"> Governance Pack</a>
+    <a class="nav-link" href="analysis/quick-wins-checklist.html"> Quick Wins</a>
+    <a class="nav-link" href="analysis/final-synthesis.html"> Final Synthesis</a>
+  </div>
+  <div class="footer">UoM · Student Experience &amp; Design<br>June 2026 · 41,533 pages · 31 domains</div>
+</nav>
+
+<main>
+<h1>murrupbarak.unimelb.edu.au</h1>
+<p class="subtitle">37 pages — comprehensive Indigenous support, unlinked from hub.</p>
+<h1>murrupbarak.unimelb.edu.au — Crawl Analysis</h1>
+
+<p><em>The Indigenous student support unit — 37 pages. Well-structured, comprehensive, and completely disconnected from the student hub (19 hub links vs 614 from MSD). Confirms the equity deep-dive: the service exists and is good; the hub just doesn't route to it. June 2026.</em></p>
+
+<hr>
+
+<h2>What we found</h2>
+
+<p>Murrup Barak is the University's Indigenous student support unit. The equity deep-dive identified it as the most extreme link asymmetry in the estate: the student hub links it 19 times; MSD links it 614 times (a 30:1 ratio). The crawl reveals a <strong>37-page, well-structured site</strong> that provides comprehensive Indigenous student support — confirming the service is real and well-built. The problem is purely routing.</p>
+
+<h3>Structure</h3>
+
+<table>
+<tr><th>Section</th><th>Pages</th><th>Content</th></tr>
+<tr><td>`/home/study`</td><td>12</td><td>Indigenous student study resources, pathways, tutoring</td></tr>
+<tr><td>`/home/about`</td><td>7</td><td>About Murrup Barak, team, history, values</td></tr>
+<tr><td>`/home/student-experience`</td><td>6</td><td>Student life, community, events, cultural activities</td></tr>
+<tr><td>`/home/financial-support`</td><td>4</td><td>Scholarships, bursaries, financial assistance</td></tr>
+<tr><td>`/home/outreach`</td><td>3</td><td>Schools outreach, community engagement</td></tr>
+<tr><td>`/home/contact-us`</td><td>2</td><td>Contact, locations</td></tr>
+<tr><td>`/home/accommodation`</td><td>1</td><td>Student accommodation support</td></tr>
+</table>
+
+<p>The IA is clean: <strong>study → student-experience → financial-support → accommodation → outreach → contact.</strong> A student landing here can navigate their needs intuitively.</p>
+
+<h3>What the site covers</h3>
+
+<p>Sampling titles reveals comprehensive coverage:</p>
+
+<ul>
+<li>"Murrup Barak" — landing page</li>
+<li>"Study" — academic support</li>
+<li>"Student Accommodation" — housing</li>
+<li>"Careers and Employment" — career support</li>
+<li>"Financial support" — scholarships and aid</li>
+<li>"Application process" — how to engage</li>
+<li>"Contact us" — locations and people</li>
+</ul>
+
+<p>The content spans the full student lifecycle: academic support, financial aid, accommodation, careers, and community. This is everything the equity deep-dive said should exist on the hub — and it does exist, just not on the hub.</p>
+
+<h3>Link analysis</h3>
+
+<table>
+<tr><th>Outbound destination</th><th>Links in 30-page sample</th><th>Role</th></tr>
+<tr><td>www.unimelb.edu.au</td><td>242</td><td>Extreme chrome — every page carries ~8 corporate links</td></tr>
+<tr><td>about.unimelb.edu.au</td><td>132</td><td>Chrome</td></tr>
+<tr><td>students.unimelb.edu.au</td><td>37</td><td>Hub — thin connection back</td></tr>
+<tr><td>study.unimelb.edu.au</td><td>31</td><td>Prospective site</td></tr>
+<tr><td>giving.unimelb.edu.au</td><td>30</td><td>Donations</td></tr>
+<tr><td>safety.unimelb.edu.au</td><td>30</td><td>Chrome</td></tr>
+<tr><td>library.unimelb.edu.au</td><td>30</td><td>Chrome</td></tr>
+<tr><td>staff.unimelb.edu.au</td><td>30</td><td>Chrome</td></tr>
+<tr><td>forms.your.unimelb.edu.au</td><td>16</td><td>Transactional forms</td></tr>
+<tr><td>scholarships.unimelb.edu.au</td><td>11</td><td>Scholarships</td></tr>
+</table>
+
+<p>The site links BACK to students.unimelb 37 times — but the hub only links to Murrup Barak 19 times. <strong>The connection is directional: Murrup Barak links to the hub; the hub barely reciprocates.</strong></p>
+
+<h3>Page weight</h3>
+
+<p>Extremely consistent: median 142KB, max 159KB, min 134KB. All pages are within a 25KB range — suggesting a uniform template with consistent content depth. One of the most consistent sites in the estate.</p>
+
+<hr>
+
+<h2>What this means</h2>
+
+<h3>1. The service exists and is good — the routing is broken</h3>
+
+<p>Murrup Barak is a comprehensive, well-structured Indigenous student support unit. Every journey stage is covered. The 19 hub links vs 614 MSD links is not a content gap — it's a routing failure. <strong>The hub should be the #1 router to Murrup Barak; instead it's #11.</strong></p>
+
+<h3>2. The chrome overload is extreme</h3>
+
+<p>242 www.unimelb.edu.au links in 30 pages = ~8 corporate chrome links per page. On a 37-page site, every page carries the full corporate footer. This is the same chrome-inflation pattern seen across the estate.</p>
+
+<h3>3. The www-twin is confirmed</h3>
+
+<p>The equity deep-dive noted murrupbarak.unimelb.edu.au vs www.murrupbarak.unimelb.edu.au as one of the 28 www-twins. The crawl confirms the bare domain resolves and has content. The www-twin should 301 to the bare domain (or vice versa).</p>
+
+<h3>4. One new hub page would close the gap</h3>
+
+<p>The fix recommended in the equity deep-dive — a single Indigenous-students landing page on students.unimelb that introduces Murrup Barak and deep-links out — is directly confirmed by the crawl. The content exists. It just needs a front door on the hub.</p>
+
+<hr>
+
+<h2>Recommendations</h2>
+
+<ol>
+<li>**Create one Indigenous-students landing page on students.unimelb.** Introduce Murrup Barak, link to its key sections (study, financial support, student experience, contact). This closes the 19 vs 614 gap.</li>
+</ul>
+
+<ol>
+<li>**Fix the www-twin.** 301 www.murrupbarak.unimelb.edu.au → murrupbarak.unimelb.edu.au.</li>
+</ul>
+
+<ol>
+<li>**Wire every faculty's Indigenous content to this hub page.** The 17 domains linking Murrup Barak should point to the new hub landing page, which then routes to murrupbarak.</li>
+</ul>
+
+<ol>
+<li>**Reduce chrome overhead.** 8 corporate links per page on a 37-page site is excessive.</li>
+</ul>
+
+<hr>
+
+<p><em>Built from: murrupbarak crawl (37 pages), links.json sampling (30 pages), index.json structural analysis, equity-indigenous-journey.md deep-dive. June 2026.</em></p>
+
+</main>
+</body>
+</html>

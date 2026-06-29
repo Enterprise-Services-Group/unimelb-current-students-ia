@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mobile & Performance · UoM Current Students IA</title>
+<style>@font-face{font-family:'Fraunces';src:url('assets/fonts/Fraunces-VariableFont_SOFT_WONK_opsz_wght.ttf') format('truetype');font-weight:100 900;font-display:swap}
+@font-face{font-family:'Source Sans 3';src:url('assets/fonts/SourceSans3-VariableFont_wght.ttf') format('truetype');font-weight:200 900;font-display:swap}
+@font-face{font-family:'Source Code Pro';src:url('assets/fonts/SourceCodePro-VariableFont_wght.ttf') format('truetype');font-weight:200 900;font-display:swap}
+:root{--navy:#000F46;--navy-light:#1B2D5C;--cyan:#46C8F0;--ink:#222;--ink-2:#555;--bg:#fff;--bg-nav:#000F46;--bg-subtle:#F3F3F6;--border:#DDDDE7;--red:#DB1927;--amber:#AC5907;--green:#31733B;--font-h:'Fraunces',Georgia,serif;--font-b:'Source Sans 3',system-ui,sans-serif;--font-m:'Source Code Pro',monospace;--nav-w:280px}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:var(--font-b);font-size:17px;line-height:1.65;color:var(--ink);background:var(--bg);display:flex;min-height:100vh;-webkit-font-smoothing:antialiased}
+a{color:#004EAD;text-decoration:none}a:hover{text-decoration:underline}
+
+/* ── LHS Navigation ── */
+nav.lhs{position:fixed;top:0;left:0;width:var(--nav-w);height:100vh;background:var(--bg-nav);color:#C9CDE6;overflow-y:auto;z-index:100;display:flex;flex-direction:column;font-size:14px;line-height:1.4}
+nav.lhs .logo{padding:24px 20px 16px;border-bottom:1px solid rgba(255,255,255,.1)}
+nav.lhs .logo img{height:26px}
+nav.lhs .logo a{display:block;color:#fff;font-family:var(--font-h);font-size:16px;font-weight:600;text-decoration:none;margin-top:8px}
+nav.lhs .nav-scroll{flex:1;overflow-y:auto;padding:8px 0 24px}
+nav.lhs .section{font-family:var(--font-m);font-size:11px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--cyan);padding:16px 20px 6px}
+nav.lhs a.nav-link{display:block;padding:5px 20px;color:#9BA3C4;text-decoration:none;transition:all .15s;border-left:3px solid transparent}
+nav.lhs a.nav-link:hover{color:#fff;background:rgba(255,255,255,.05)}
+nav.lhs a.nav-link.active{color:#fff;background:rgba(255,255,255,.08);border-left-color:var(--cyan)}
+nav.lhs .sep{border:none;border-top:1px solid rgba(255,255,255,.08);margin:8px 16px}
+nav.lhs .footer{padding:16px 20px;font-size:11px;color:#6B7394;border-top:1px solid rgba(255,255,255,.08)}
+
+/* ── Main content ── */
+main{margin-left:var(--nav-w);flex:1;min-width:0;padding:40px 56px 80px;max-width:900px}
+main h1{font-family:var(--font-h);font-size:42px;font-weight:700;color:var(--navy);line-height:1.07;letter-spacing:-.012em;margin:0 0 8px}
+main h2{font-family:var(--font-h);font-size:28px;font-weight:600;color:var(--navy);margin:48px 0 16px;padding-bottom:8px;border-bottom:2px solid var(--border);line-height:1.15}
+main h3{font-family:var(--font-h);font-size:20px;font-weight:600;color:var(--navy);margin:32px 0 10px;line-height:1.2}
+main h4{font-size:18px;font-weight:700;color:var(--navy);margin:24px 0 8px}
+main p{margin:12px 0}
+main .subtitle{color:var(--ink-2);font-style:italic;font-size:18px;margin-bottom:32px}
+main blockquote{border-left:3px solid var(--navy);padding:12px 20px;margin:20px 0;background:var(--bg-subtle);font-style:italic;color:var(--ink-2)}
+main code{font-family:var(--font-m);font-size:14px;background:var(--bg-subtle);padding:2px 6px;border-radius:3px}
+main table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+main th{background:var(--navy);color:#fff;padding:10px 14px;text-align:left;font-weight:600}
+main td{padding:8px 14px;border-bottom:1px solid var(--border)}
+main tr:nth-child(even) td{background:var(--bg-subtle)}
+main ul,main ol{margin:8px 0 8px 24px}
+main li{margin:4px 0}
+main hr{border:none;border-top:1px solid var(--border);margin:40px 0}
+main strong{color:var(--navy)}
+.severity-high{display:inline-block;padding:1px 8px;border-radius:3px;font-size:12px;font-weight:700;background:#FFEBEE;color:var(--red)}
+.severity-medium{display:inline-block;padding:1px 8px;border-radius:3px;font-size:12px;font-weight:700;background:#FFF8E1;color:var(--amber)}
+.effort{display:inline-block;padding:1px 8px;border-radius:3px;font-size:12px;font-weight:700;background:#E8F5E9;color:var(--green)}
+.footer-note{color:var(--ink-2);font-size:13px;font-style:italic;margin-top:48px;padding-top:16px;border-top:1px solid var(--border)}
+
+/* ── Mobile ── */
+.menu-toggle{display:none;position:fixed;top:12px;left:12px;z-index:200;background:var(--navy);color:#fff;border:none;border-radius:6px;padding:8px 12px;font-size:20px;cursor:pointer}
+@media(max-width:960px){
+  nav.lhs{transform:translateX(-100%);transition:transform .25s}
+  nav.lhs.open{transform:translateX(0)}
+  main{margin-left:0;padding:60px 24px 40px}
+  .menu-toggle{display:block}
+}
+</style>
+</head>
+<body>
+<button class="menu-toggle" onclick="document.getElementById('lhsNav').classList.toggle('open')">☰</button>
+<nav class="lhs" id="lhsNav">
+  <div class="logo">
+    <img src="assets/UoM_Logo_Horiz_onDark.svg" alt="UoM">
+    <a href="index.html">Current Students IA</a>
+  </div>
+  <div class="nav-scroll">
+    <a class="nav-link" href="index.html">🏠 Home</a>
+    <div class="section">📊 Project Summary</div>
+    <div class="section">🎯 Five Root Findings</div>
+    <hr class="sep">
+    <div class="section">📋 Key Reports</div>
+    <a class="nav-link" href="report/Improvements-Register.html"> Improvements Register</a>
+    <a class="nav-link" href="report/Lifecycle-Journeys.html"> Lifecycle Journeys</a>
+    <a class="nav-link" href="report/Course-Planning-Enrolment.html"> Course Planning</a>
+    <a class="nav-link" href="report/International-Student-Experience.html"> International Student</a>
+    <a class="nav-link" href="report/Student-Services-Fragmentation.html"> Services Fragmentation</a>
+    <a class="nav-link" href="report/Careers-Employability-WIL.html"> Careers & WIL</a>
+    <hr class="sep">
+    <div class="section">🔬 Structural Deep-Dives</div>
+    <a class="nav-link" href="analysis/graduation-alumni-handoff.html"> Graduation → Alumni</a>
+    <a class="nav-link" href="analysis/careers-online-wiring.html"> Careers Online Wiring</a>
+    <a class="nav-link" href="analysis/prospective-current-handoff.html"> Prospective → Current</a>
+    <a class="nav-link" href="analysis/equity-indigenous-journey.html"> Equity & Indigenous</a>
+    <a class="nav-link" href="analysis/hdr-candidature-duplication.html"> HDR Duplication</a>
+    <a class="nav-link" href="analysis/forms-microsite-audit.html"> Forms & Microsites</a>
+    <hr class="sep">
+    <div class="section">📝 Content Quality</div>
+    <a class="nav-link" href="analysis/the-handbook.html"> The Handbook</a>
+    <a class="nav-link" href="analysis/fees-finance.html"> Fees & Finance</a>
+    <a class="nav-link" href="analysis/scholarships.html"> Scholarships</a>
+    <a class="nav-link active" href="analysis/mobile-performance-audit.html"> Mobile & Performance</a>
+    <a class="nav-link" href="analysis/content-freshness-sandbox-leakage.html"> Content Freshness</a>
+    <a class="nav-link" href="analysis/content-quality-deep-dive.html"> Content Quality Audit</a>
+    <hr class="sep">
+    <div class="section">🔐 Authenticated Core</div>
+    <a class="nav-link" href="analysis/authenticated-core-audit.html"> Auth Core Audit</a>
+    <a class="nav-link" href="analysis/auth-hosts-live-check.html"> Live Host Check</a>
+    <a class="nav-link" href="analysis/authenticated-core-findings.html"> Auth Core Findings</a>
+    <hr class="sep">
+    <div class="section">🌐 Crawl Analyses</div>
+    <a class="nav-link" href="analysis/crawl-ask-unimelb.html"> ask.unimelb</a>
+    <a class="nav-link" href="analysis/crawl-gradresearch.html"> gradresearch</a>
+    <a class="nav-link" href="analysis/crawl-murrupbarak.html"> murrupbarak</a>
+    <a class="nav-link" href="analysis/crawl-safercommunity.html"> safercommunity</a>
+    <a class="nav-link" href="analysis/crawl-umsu.html"> umsu</a>
+    <a class="nav-link" href="analysis/crawl-online.html"> online.unimelb</a>
+    <a class="nav-link" href="analysis/crawl-sport.html"> sport</a>
+    <a class="nav-link" href="analysis/crawl-library.html"> library</a>
+    <a class="nav-link" href="analysis/crawl-studentit.html"> studentit</a>
+    <hr class="sep">
+    <div class="section">👤 Personas</div>
+    <a class="nav-link" href="personas/sam-planning-their-path.html"> Sam — Planning</a>
+    <a class="nav-link" href="personas/alex-at-risk-withdrawal.html"> Alex — At-risk</a>
+    <a class="nav-link" href="personas/priya-international-student.html"> Priya — International</a>
+    <a class="nav-link" href="personas/jordan-course-planning-maze.html"> Jordan — Course Maze</a>
+    <a class="nav-link" href="personas/taylor-wellbeing-mental-health.html"> Taylor — Wellbeing</a>
+    <hr class="sep">
+    <div class="section">📦 Deliverables</div>
+    <a class="nav-link" href="analysis/governance-summary-pack.html"> Governance Pack</a>
+    <a class="nav-link" href="analysis/quick-wins-checklist.html"> Quick Wins</a>
+    <a class="nav-link" href="analysis/final-synthesis.html"> Final Synthesis</a>
+  </div>
+  <div class="footer">UoM · Student Experience &amp; Design<br>June 2026 · 41,533 pages · 31 domains</div>
+</nav>
+
+<main>
+<h1>Mobile & Performance</h1>
+<p class="subtitle">304KB median study pages. Cookiebot duplicates = 5MB pages.</p>
+<h1>Mobile & Performance Audit — Deep-Dive</h1>
+
+<p><em>The heaviest pages in the estate hit the audiences on the most constrained connections. Median page weight is 149–304KB, but max values explode to 1.1–5.0MB within single domains — a 4×–30× gap proving nothing flags a page when it balloons. June 2026.</em></p>
+
+<hr>
+
+<h2>Executive summary</h2>
+
+<p>Performance at the University of Melbourne is not a technical footnote — it's an equity issue. The study.unimelb course-discovery pages (304KB median) are the heaviest in the estate and the primary surface for international applicants, who access them on offshore mobile connections. The international agent page is ~245KB. The CoE page is ~264KB. Every compliance-critical step in the international journey happens on the heaviest pages.</p>
+
+<p>The problems are not architectural — they're <strong>CMS side-effects</strong> that no editor intended:</p>
+<ul>
+<li>9 pages shipping >100KB of base64-inlined images (one page: 2,071KB as a single base64 photo)</li>
+<li>4 law staff profiles at 5MB each — 1,926 identical Cookiebot icon copies per page</li>
+<li>A 106KB icon sprite inlined in every course page, though most icons are never shown</li>
+<li>18 blocking scripts on course pages with 0% defer/async</li>
+<li>3 separate font hosts adding DNS+TLS+FOIT cost</li>
+</ul>
+
+<p>The fix is governance, not redesign: a page-weight budget, a CMS publish-time guard against base64 inlining, and one Cookiebot config change that drops 4 law pages from ~5MB to under 200KB instantly.</p>
+
+<hr>
+
+<h2>The weight table</h2>
+
+<table>
+<tr><th>Domain</th><th>Pages</th><th>Median KB</th><th>P90 KB</th><th>Max KB</th><th>Primary audience</th><th>Audience connection quality</th></tr>
+<tr><td>**study.unimelb**</td><td>2,005</td><td>**304**</td><td>416</td><td>1,132</td><td>International applicants</td><td>Offshore mobile — worst</td></tr>
+<tr><td>finearts-music</td><td>1,257</td><td>217</td><td>248</td><td>2,292</td><td>Mixed</td><td>Domestic broadband</td></tr>
+<tr><td>scholarships</td><td>2,151</td><td>188</td><td>190</td><td>199</td><td>Mixed</td><td>Mixed</td></tr>
+<tr><td>students.unimelb</td><td>833</td><td>181</td><td>217</td><td>1,102</td><td>Enrolled students</td><td>Domestic + on-campus</td></tr>
+<tr><td>fbe</td><td>1,980</td><td>166</td><td>188</td><td>1,415</td><td>Mixed</td><td>Mixed</td></tr>
+<tr><td>medicine</td><td>2,194</td><td>164</td><td>184</td><td>2,516</td><td>Mixed</td><td>Mixed</td></tr>
+<tr><td>msd</td><td>1,560</td><td>163</td><td>182</td><td>1,779</td><td>Mixed</td><td>Mixed</td></tr>
+<tr><td>law</td><td>2,034</td><td>161</td><td>178</td><td>**5,056**</td><td>Mixed</td><td>Mixed</td></tr>
+<tr><td>eng</td><td>1,759</td><td>160</td><td>174</td><td>452</td><td>Mixed</td><td>Mixed</td></tr>
+<tr><td>arts</td><td>2,032</td><td>160</td><td>186</td><td>1,677</td><td>Mixed</td><td>Mixed</td></tr>
+<tr><td>mdhs</td><td>3,514</td><td>149</td><td>160</td><td>**4,730**</td><td>Mixed</td><td>Mixed</td></tr>
+<tr><td>handbook</td><td>2,120</td><td>0¹</td><td>77</td><td>180</td><td>All students</td><td>Mixed</td></tr>
+</table>
+
+<p>¹Handbook median 0KB = Incapsula bot-block shells for ~1,470 of 2,134 crawled captures.</p>
+
+<hr>
+
+<h2>The three weight pathologies</h2>
+
+<h3>1. Base64-inlined hero images crush mobile/limited-data students `[HIGH]`</h3>
+
+<p>9 pages in the crawl ship >100KB of base64-encoded images embedded directly in the HTML document:</p>
+
+<table>
+<tr><th>Page</th><th>Total KB</th><th>Base64 KB</th><th>Domain</th></tr>
+<tr><td>DEI Conference article</td><td>2,704</td><td>2,501</td><td>mdhs</td></tr>
+<tr><td>Honours graduate profile photo</td><td>2,292</td><td>2,071</td><td>finearts-music</td></tr>
+<tr><td>Urban density news article</td><td>1,779</td><td>1,617</td><td>msd</td></tr>
+<tr><td>Diversity grants page</td><td>1,220</td><td>1,054</td><td>mdhs</td></tr>
+<tr><td>Law news article</td><td>1,145</td><td>976</td><td>law</td></tr>
+<tr><td>CMR contact-us page</td><td>734</td><td>570</td><td>biomed</td></tr>
+</table>
+
+<p>Base64 inlining defeats browser caching, lazy-loading, responsive srcset, and CDN image optimization. Every byte is re-downloaded on every visit, with ~33% encoding overhead. On a 3G connection a 2MB news article is a 10–20 second wait and a real data cost.</p>
+
+<h3>2. Cookiebot icon duplicated 1,926 times on a single page `[HIGH]`</h3>
+
+<p>4 law staff profile pages at 5,007–5,056KB each contain 1,926 identical <code><img></code> tags — all carrying the same ~400-byte base64 PNG (the Cookiebot "opens in new window" arrow icon). The same string is repeated 1,926 times instead of referenced once. mdhs has the same pathology: 1,924 copies on a research-training page (4,730KB).</p>
+
+<p>Root cause: the Cookiebot consent script re-decorates every external link with the arrow icon per render, and these pages embed external-page link soup. gzip masks the transfer size but the phone still parses 5MB of DOM with 1,938 <code><img></code> nodes.</p>
+
+<h3>3. Course template ships ~327KB before a single external file loads `[HIGH]`</h3>
+
+<p>Sampling 25 course pages on study.unimelb: median HTML 327KB, of which:</p>
+<ul>
+<li>~109KB inline SVG (a 106KB icon sprite with 187 `<path>` icons, most unused)</li>
+<li>~79KB inline JS</li>
+<li>~43KB inline CSS</li>
+</ul>
+
+<p>~70% of the document is inlined assets, not content. Because it's inlined per-page, a student browsing structure → entry-requirements → fees → how-to-apply re-downloads the same 106KB sprite + JS + CSS on every step. None of it benefits from browser cache.</p>
+
+<hr>
+
+<h2>The script waterfall on course pages</h2>
+
+<table>
+<tr><th>Metric</th><th>Count</th></tr>
+<tr><td>Median external stylesheets</td><td>10</td></tr>
+<tr><td>Median external `<script src>`</td><td>21</td></tr>
+<tr><td>Scripts with defer/async</td><td>~13% (3/21)</td></tr>
+<tr><td>Blocking scripts</td><td>~18</td></tr>
+<tr><td>Third-party tag/analytics origins</td><td>7× googletagmanager.com, google-analytics.com, tealiumiq.com, tiqcdn.com, cdn.optimizely.com, cdn1.adoberesources.net</td></tr>
+<tr><td>Font hosts</td><td>3 (fonts.googleapis/gstatic + typekit)</td></tr>
+<tr><td>Preconnect/preload hints</td><td>~2</td></tr>
+</table>
+
+<p>Both GTM and Tealium load simultaneously. ~18 scripts block parsing. 3 font hosts add DNS+TLS+FOIT cost. No resource hints. On a throttled 3G connection the course page is a ~30+ second first-load experience.</p>
+
+<hr>
+
+<h2>The deepest nav equals the heaviest nav</h2>
+
+<p>58% of study.unimelb pages sit ≥5 levels deep (max 11). Because the full multi-level nav tree plus the 106KB icon sprite is rendered inline in each document, the deep IA directly inflates every page's first-load weight. The deeper the tree, the more nav markup ships per page — paid on every navigation.</p>
+
+<p>Separately, at least one medicine.unimelb page sets <code>user-scalable=no</code> + <code>maximum-scale=1</code>, blocking pinch-zoom — a WCAG 1.4.4/1.4.10 mobile-accessibility failure.</p>
+
+<hr>
+
+<h2>No page-weight budget exists</h2>
+
+<p>The 20-domain page-weight table shows max values 4×–30× above the median within single domains. No CI gate, no CMS publish-time guard, no dashboard. The two worst anti-patterns (base64 hero images and duplicate Cookiebot icons) are silent CMS/plugin side-effects no editor intended — and nothing caught them.</p>
+
+<hr>
+
+<h2>Recommendations</h2>
+
+<h3>1. De-inline the 9 known >100KB base64 image offenders `[HIGH · medium]`</h3>
+<p>Convert to served image files with width-appropriate srcset, <code>loading="lazy"</code>, and WebP/AVIF. One-off sweep with immediate impact.</p>
+
+<h3>2. Configure Cookiebot to use CSS instead of per-link `<img>` tags `[HIGH · quick-win]`</h3>
+<p>One config change: reference the external-link-arrow as a shared CSS <code>::after</code> background instead of injecting per-link <code><img></code> tags. Drops 4 law pages from ~5MB to well under 200KB instantly. The cheapest high-impact win in the estate.</p>
+
+<h3>3. Externalize the course template's shared assets `[HIGH · medium]`</h3>
+<p>Move the 106KB icon sprite, base CSS, and base JS into cacheable external files. Tree-shake the sprite to icons actually used. Target: cut per-page course document from ~327KB to <120KB, with shared assets cached after the first page.</p>
+
+<h3>4. Consolidate tag managers and defer scripts `[MEDIUM · medium]`</h3>
+<p>Single tag manager (GTM or Tealium, not both). Defer/async all non-critical scripts. Move analytics behind requestIdleCallback. Add preconnect hints for the real origins.</p>
+
+<h3>5. Stand up a page-weight budget and CI gate `[MEDIUM · medium]`</h3>
+<p>Warn >500KB HTML. Block >1MB HTML. Surface per-domain weight dashboard. Scheduled Lighthouse run on representative templates tracking LCP/INP/CLS.</p>
+
+<h3>6. Fix the pinch-zoom blocker `[MEDIUM · quick-win]`</h3>
+<p>Remove <code>user-scalable=no</code> + <code>maximum-scale=1</code> from the medicine template. One line fix, WCAG compliance, immediate mobile-accessibility win.</p>
+
+<hr>
+
+<h2>Linked improvements from the register</h2>
+
+<table>
+<tr><th>§</th><th>Improvement</th><th>Severity · Effort</th></tr>
+<tr><td>7.1</td><td>De-inline base64 hero images; add CMS guard against data:image >10KB</td><td>HIGH · medium</td></tr>
+<tr><td>7.2</td><td>Fix Cookiebot duplicate-icon pathology (1,926 copies/page → CSS sprite)</td><td>HIGH · quick-win</td></tr>
+<tr><td>7.3</td><td>Externalize course template shared assets; tree-shake icon sprite</td><td>HIGH · medium</td></tr>
+<tr><td>7.4</td><td>Consolidate tag managers; defer/async scripts; add resource hints</td><td>MEDIUM · medium</td></tr>
+<tr><td>7.5</td><td>Stand up performance governance: weight budget, CI gate, Lighthouse dashboard</td><td>MEDIUM · medium</td></tr>
+<tr><td>7.6</td><td>Fix pinch-zoom blocker on medicine template</td><td>MEDIUM · quick-win</td></tr>
+</table>
+
+<hr>
+
+<p><em>Built from: page-weight.csv (20-domain weight table), improvements-register.md (§7 Performance & Mobile), cross-site-flow.csv (offshore audience mapping), and direct HTML analysis of the 154 pages >500KB in crawl/. June 2026.</em></p>
+
+</main>
+</body>
+</html>

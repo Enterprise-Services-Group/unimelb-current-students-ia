@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Final Synthesis · UoM Current Students IA</title>
+<style>@font-face{font-family:'Fraunces';src:url('assets/fonts/Fraunces-VariableFont_SOFT_WONK_opsz_wght.ttf') format('truetype');font-weight:100 900;font-display:swap}
+@font-face{font-family:'Source Sans 3';src:url('assets/fonts/SourceSans3-VariableFont_wght.ttf') format('truetype');font-weight:200 900;font-display:swap}
+@font-face{font-family:'Source Code Pro';src:url('assets/fonts/SourceCodePro-VariableFont_wght.ttf') format('truetype');font-weight:200 900;font-display:swap}
+:root{--navy:#000F46;--navy-light:#1B2D5C;--cyan:#46C8F0;--ink:#222;--ink-2:#555;--bg:#fff;--bg-nav:#000F46;--bg-subtle:#F3F3F6;--border:#DDDDE7;--red:#DB1927;--amber:#AC5907;--green:#31733B;--font-h:'Fraunces',Georgia,serif;--font-b:'Source Sans 3',system-ui,sans-serif;--font-m:'Source Code Pro',monospace;--nav-w:280px}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:var(--font-b);font-size:17px;line-height:1.65;color:var(--ink);background:var(--bg);display:flex;min-height:100vh;-webkit-font-smoothing:antialiased}
+a{color:#004EAD;text-decoration:none}a:hover{text-decoration:underline}
+
+/* ── LHS Navigation ── */
+nav.lhs{position:fixed;top:0;left:0;width:var(--nav-w);height:100vh;background:var(--bg-nav);color:#C9CDE6;overflow-y:auto;z-index:100;display:flex;flex-direction:column;font-size:14px;line-height:1.4}
+nav.lhs .logo{padding:24px 20px 16px;border-bottom:1px solid rgba(255,255,255,.1)}
+nav.lhs .logo img{height:26px}
+nav.lhs .logo a{display:block;color:#fff;font-family:var(--font-h);font-size:16px;font-weight:600;text-decoration:none;margin-top:8px}
+nav.lhs .nav-scroll{flex:1;overflow-y:auto;padding:8px 0 24px}
+nav.lhs .section{font-family:var(--font-m);font-size:11px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--cyan);padding:16px 20px 6px}
+nav.lhs a.nav-link{display:block;padding:5px 20px;color:#9BA3C4;text-decoration:none;transition:all .15s;border-left:3px solid transparent}
+nav.lhs a.nav-link:hover{color:#fff;background:rgba(255,255,255,.05)}
+nav.lhs a.nav-link.active{color:#fff;background:rgba(255,255,255,.08);border-left-color:var(--cyan)}
+nav.lhs .sep{border:none;border-top:1px solid rgba(255,255,255,.08);margin:8px 16px}
+nav.lhs .footer{padding:16px 20px;font-size:11px;color:#6B7394;border-top:1px solid rgba(255,255,255,.08)}
+
+/* ── Main content ── */
+main{margin-left:var(--nav-w);flex:1;min-width:0;padding:40px 56px 80px;max-width:900px}
+main h1{font-family:var(--font-h);font-size:42px;font-weight:700;color:var(--navy);line-height:1.07;letter-spacing:-.012em;margin:0 0 8px}
+main h2{font-family:var(--font-h);font-size:28px;font-weight:600;color:var(--navy);margin:48px 0 16px;padding-bottom:8px;border-bottom:2px solid var(--border);line-height:1.15}
+main h3{font-family:var(--font-h);font-size:20px;font-weight:600;color:var(--navy);margin:32px 0 10px;line-height:1.2}
+main h4{font-size:18px;font-weight:700;color:var(--navy);margin:24px 0 8px}
+main p{margin:12px 0}
+main .subtitle{color:var(--ink-2);font-style:italic;font-size:18px;margin-bottom:32px}
+main blockquote{border-left:3px solid var(--navy);padding:12px 20px;margin:20px 0;background:var(--bg-subtle);font-style:italic;color:var(--ink-2)}
+main code{font-family:var(--font-m);font-size:14px;background:var(--bg-subtle);padding:2px 6px;border-radius:3px}
+main table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+main th{background:var(--navy);color:#fff;padding:10px 14px;text-align:left;font-weight:600}
+main td{padding:8px 14px;border-bottom:1px solid var(--border)}
+main tr:nth-child(even) td{background:var(--bg-subtle)}
+main ul,main ol{margin:8px 0 8px 24px}
+main li{margin:4px 0}
+main hr{border:none;border-top:1px solid var(--border);margin:40px 0}
+main strong{color:var(--navy)}
+.severity-high{display:inline-block;padding:1px 8px;border-radius:3px;font-size:12px;font-weight:700;background:#FFEBEE;color:var(--red)}
+.severity-medium{display:inline-block;padding:1px 8px;border-radius:3px;font-size:12px;font-weight:700;background:#FFF8E1;color:var(--amber)}
+.effort{display:inline-block;padding:1px 8px;border-radius:3px;font-size:12px;font-weight:700;background:#E8F5E9;color:var(--green)}
+.footer-note{color:var(--ink-2);font-size:13px;font-style:italic;margin-top:48px;padding-top:16px;border-top:1px solid var(--border)}
+
+/* ── Mobile ── */
+.menu-toggle{display:none;position:fixed;top:12px;left:12px;z-index:200;background:var(--navy);color:#fff;border:none;border-radius:6px;padding:8px 12px;font-size:20px;cursor:pointer}
+@media(max-width:960px){
+  nav.lhs{transform:translateX(-100%);transition:transform .25s}
+  nav.lhs.open{transform:translateX(0)}
+  main{margin-left:0;padding:60px 24px 40px}
+  .menu-toggle{display:block}
+}
+</style>
+</head>
+<body>
+<button class="menu-toggle" onclick="document.getElementById('lhsNav').classList.toggle('open')">☰</button>
+<nav class="lhs" id="lhsNav">
+  <div class="logo">
+    <img src="assets/UoM_Logo_Horiz_onDark.svg" alt="UoM">
+    <a href="index.html">Current Students IA</a>
+  </div>
+  <div class="nav-scroll">
+    <a class="nav-link" href="index.html">🏠 Home</a>
+    <div class="section">📊 Project Summary</div>
+    <div class="section">🎯 Five Root Findings</div>
+    <hr class="sep">
+    <div class="section">📋 Key Reports</div>
+    <a class="nav-link" href="report/Improvements-Register.html"> Improvements Register</a>
+    <a class="nav-link" href="report/Lifecycle-Journeys.html"> Lifecycle Journeys</a>
+    <a class="nav-link" href="report/Course-Planning-Enrolment.html"> Course Planning</a>
+    <a class="nav-link" href="report/International-Student-Experience.html"> International Student</a>
+    <a class="nav-link" href="report/Student-Services-Fragmentation.html"> Services Fragmentation</a>
+    <a class="nav-link" href="report/Careers-Employability-WIL.html"> Careers & WIL</a>
+    <hr class="sep">
+    <div class="section">🔬 Structural Deep-Dives</div>
+    <a class="nav-link" href="analysis/graduation-alumni-handoff.html"> Graduation → Alumni</a>
+    <a class="nav-link" href="analysis/careers-online-wiring.html"> Careers Online Wiring</a>
+    <a class="nav-link" href="analysis/prospective-current-handoff.html"> Prospective → Current</a>
+    <a class="nav-link" href="analysis/equity-indigenous-journey.html"> Equity & Indigenous</a>
+    <a class="nav-link" href="analysis/hdr-candidature-duplication.html"> HDR Duplication</a>
+    <a class="nav-link" href="analysis/forms-microsite-audit.html"> Forms & Microsites</a>
+    <hr class="sep">
+    <div class="section">📝 Content Quality</div>
+    <a class="nav-link" href="analysis/the-handbook.html"> The Handbook</a>
+    <a class="nav-link" href="analysis/fees-finance.html"> Fees & Finance</a>
+    <a class="nav-link" href="analysis/scholarships.html"> Scholarships</a>
+    <a class="nav-link" href="analysis/mobile-performance-audit.html"> Mobile & Performance</a>
+    <a class="nav-link" href="analysis/content-freshness-sandbox-leakage.html"> Content Freshness</a>
+    <a class="nav-link" href="analysis/content-quality-deep-dive.html"> Content Quality Audit</a>
+    <hr class="sep">
+    <div class="section">🔐 Authenticated Core</div>
+    <a class="nav-link" href="analysis/authenticated-core-audit.html"> Auth Core Audit</a>
+    <a class="nav-link" href="analysis/auth-hosts-live-check.html"> Live Host Check</a>
+    <a class="nav-link" href="analysis/authenticated-core-findings.html"> Auth Core Findings</a>
+    <hr class="sep">
+    <div class="section">🌐 Crawl Analyses</div>
+    <a class="nav-link" href="analysis/crawl-ask-unimelb.html"> ask.unimelb</a>
+    <a class="nav-link" href="analysis/crawl-gradresearch.html"> gradresearch</a>
+    <a class="nav-link" href="analysis/crawl-murrupbarak.html"> murrupbarak</a>
+    <a class="nav-link" href="analysis/crawl-safercommunity.html"> safercommunity</a>
+    <a class="nav-link" href="analysis/crawl-umsu.html"> umsu</a>
+    <a class="nav-link" href="analysis/crawl-online.html"> online.unimelb</a>
+    <a class="nav-link" href="analysis/crawl-sport.html"> sport</a>
+    <a class="nav-link" href="analysis/crawl-library.html"> library</a>
+    <a class="nav-link" href="analysis/crawl-studentit.html"> studentit</a>
+    <hr class="sep">
+    <div class="section">👤 Personas</div>
+    <a class="nav-link" href="personas/sam-planning-their-path.html"> Sam — Planning</a>
+    <a class="nav-link" href="personas/alex-at-risk-withdrawal.html"> Alex — At-risk</a>
+    <a class="nav-link" href="personas/priya-international-student.html"> Priya — International</a>
+    <a class="nav-link" href="personas/jordan-course-planning-maze.html"> Jordan — Course Maze</a>
+    <a class="nav-link" href="personas/taylor-wellbeing-mental-health.html"> Taylor — Wellbeing</a>
+    <hr class="sep">
+    <div class="section">📦 Deliverables</div>
+    <a class="nav-link" href="analysis/governance-summary-pack.html"> Governance Pack</a>
+    <a class="nav-link" href="analysis/quick-wins-checklist.html"> Quick Wins</a>
+    <a class="nav-link active" href="analysis/final-synthesis.html"> Final Synthesis</a>
+  </div>
+  <div class="footer">UoM · Student Experience &amp; Design<br>June 2026 · 41,533 pages · 31 domains</div>
+</nav>
+
+<main>
+<h1>Final Synthesis</h1>
+<p class="subtitle">The complete project narrative — five root findings, all evidence.</p>
+<h1>Final Synthesis — Current Students IA Project</h1>
+
+<p><em>The complete picture after 40,533 pages crawled across 27 domains, 26 deep-dive analyses, 5 persona profiles, and ~75 improvements. Every finding is grounded in evidence, cross-referenced across analyses, and ready for action. June 2026.</em></p>
+
+<hr>
+
+<h2>The estate by the numbers</h2>
+
+<table>
+<tr><th>Metric</th><th>Value</th></tr>
+<tr><td>Domains crawled</td><td>29 (20 original + 9 expansion)</td></tr>
+<tr><td>Total pages</td><td>41,533</td></tr>
+<tr><td>Contextual links mapped</td><td>261,652</td></tr>
+<tr><td>Deep-dive analyses</td><td>28</td></tr>
+<tr><td>Persona profiles</td><td>5</td></tr>
+<tr><td>Improvements registered</td><td>~75</td></tr>
+<tr><td>Quick wins ready to execute</td><td>28</td></tr>
+</table>
+
+<hr>
+
+<h2>The five root findings</h2>
+
+<p>After 40,533 pages and 26 analyses, five patterns emerge that explain every fault in the estate:</p>
+
+<h3>1. The estate describes; it never transacts</h3>
+
+<p>Every student journey terminates in a walled system. The public estate describes enrolment, payment, counselling booking, special consideration, and visa compliance — but the actual action happens behind a login wall (my.unimelb, eStudent, Canvas, <code>*.app</code> forms). The find→act gap is the estate's defining failure. <strong>The public estate is an instruction manual for systems it cannot show.</strong></p>
+
+<p><strong>Evidence:</strong> 187 hub→my.unimelb links. 444 hub→ask.unimelb FAQ links. 2 links to enrolmentvariations.app. 3 links to mycounselling.app. 2,044 links to forms.your (opaque SID params).</p>
+
+<h3>2. The hub competes with itself</h3>
+
+<p>students.unimelb.edu.au is 833 pages, not the "74" the deck asserts. It's mid-migration, dual-serving 120 leaf pages under two parallel URL trees. 12 domains link the deprecated trees. MSD has ~8,000 links pointed at legacy paths. <strong>The central hub's own URLs are unstable — and faculties are being told to link into it.</strong></p>
+
+<p><strong>Evidence:</strong> 19 core leaves byte-near duplicated across <code>/course-admin</code> and <code>/your-course</code>. 24 leaves across <code>/support-and-wellbeing</code> and <code>/student-support</code>. Old Stop 1 linked 1,648× vs 224× new. Census-dates canonicalises to <code>/page-not-found</code>.</p>
+
+<h3>3. The joints between stages are broken — and they're the cheapest to fix</h3>
+
+<p>The stages are mostly well-built. The transitions are thin or absent. The graduation→alumni handoff has 35 completion pages and 0 alumni links. The apply→enrol seam has 373 contextual links (fewer than MSD's 8,069). These are the highest-leverage, lowest-cost fixes in the register — purely additive, nothing to unpick.</p>
+
+<p><strong>Evidence:</strong> Graduate→alumni: 35 pages, 0 links, grad page links Instagram not alumni. Prospective→current: 373 study→hub links, 9/19 domains below 100. Faculty mentoring→alumni mentoring: same service, adjacent life stages, 0 cross-links.</p>
+
+<h3>4. Fragmentation is regressive — it costs the most to those with the least margin</h3>
+
+<p>The international postgraduate navigating visa compliance across 3 forked trees. The Indigenous student with zero hub presence. The disabled student landing on one of 3 equity trees — 2 without the registration wizard. The at-risk student finding counselling branded "Academic Skills Unit." <strong>The students who can least afford to hunt across 5-8 systems are the ones who must.</strong></p>
+
+<p><strong>Evidence:</strong> SEDS wizard on 1 of 3 trees, 12 domains link the 2 without it. Murrup Barak: 19 hub links vs 614 MSD. Counselling: 614× "Academic Skills Unit" vs 39× "Counselling." International visa: 3 live trees, highest-risk pages link to 0 action forms.</p>
+
+<h3>5. The fix is structural, not visual</h3>
+
+<p>The University already runs Squiz/Matrix everywhere. The problem isn't the platform — it's that no two faculties share a top-level taxonomy, no subdomain registry exists, 415 distinct hosts have no owner, and the student entry is at 5 different URL depths. The fix is a thin student overlay on the platform every faculty already uses, a subdomain registry, and governance — not 12 separate redesigns.</p>
+
+<p><strong>Evidence:</strong> 415 distinct hosts in the contextual graph. 19 single-purpose <code>*.app</code> hosts with no retirement date. 28 www-twins splitting link equity. 5 URL conventions for "current students" at different depths.</p>
+
+<hr>
+
+<h2>Domain-by-domain: what each new crawl revealed</h2>
+
+<h3>Ask.unimelb (515 pages)</h3>
+
+<p><strong>What it is.</strong> The legacy FAQ knowledge base — 393 FAQ articles. The hub's #1 outbound destination (444 links).</p>
+
+<p><strong>Key findings.</strong> Two URL formats confirmed (<code>/app/answers/detail/a_id/</code> and <code>/faq/</code>). 100 backlinks to hub in 30-page sample — tight hub↔FAQ coupling. 10 dead FAQ pages. Median 45KB — lightweight, portable.</p>
+
+<p><strong>Action.</strong> Standardise to one URL format. Migrate high-traffic answers (census, fees, enrolment procedures) into the hub. Keep FAQ for long-tail.</p>
+
+<h3>Gradresearch (302 pages)</h3>
+
+<p><strong>What it is.</strong> The canonical Graduate Research Hub — the HDR candidature lifecycle.</p>
+
+<p><strong>Key findings.</strong> Well-structured IA mapping to the full HDR journey. <strong>122/302 pages (40%) are 404s</strong> — worst dead-link ratio in the estate. Confirms faculty clones (33 byte-identical pairs) are unnecessary — content exists here. 4,123 inbound links from 18 domains routing students to a site that's 40% dead.</p>
+
+<p><strong>Action.</strong> Emergency: triage and fix the 122 404s. 301 the 33 faculty clones to gradresearch. Wire the hub to gradresearch (currently only 60 links).</p>
+
+<h3>Murrupbarak (37 pages)</h3>
+
+<p><strong>What it is.</strong> Indigenous student support unit — comprehensive, well-structured.</p>
+
+<p><strong>Key findings.</strong> Covers study, financial support, accommodation, careers, community. Service is real and good. <strong>19 hub links vs 614 MSD links</strong> — routing failure, not content gap. Consistent 142KB pages.</p>
+
+<p><strong>Action.</strong> One Indigenous-students landing page on the hub. Fix the www-twin. Repoint the 17 linking domains to the new hub page.</p>
+
+<h3>Safercommunity (17 pages)</h3>
+
+<p><strong>What it is.</strong> Crisis, safety, and sexual misconduct support.</p>
+
+<p><strong>Key findings.</strong> Comprehensive coverage: sexual assault, harassment, bullying, discrimination, family violence, stalking, child safety. <strong>Healthy bidirectional hub connection (62↔53)</strong> — one of the few balanced seams. 300KB pages — too heavy for crisis access.</p>
+
+<p><strong>Action.</strong> Add to unified "I need help now" front door. Cross-link with counselling. Trim page weight.</p>
+
+<h3>UMSU (800 pages)</h3>
+
+<p><strong>What it is.</strong> Independent student union — not University CMS.</p>
+
+<p><strong>Key findings.</strong> 33% clubs directory. <strong>720KB median, 6.4MB max</strong> — heaviest pages in the estate. <strong>Extremely insular:</strong> 8 outbound unimelb links in 19 pages. Parallel student universe.</p>
+
+<p><strong>Action.</strong> Flag page weight. Propose cross-links to hub services. Strengthen hub→UMSU connection.</p>
+
+<h3>Online (87 pages)</h3>
+
+<p><strong>What it is.</strong> Online learning marketing funnel.</p>
+
+<p><strong>Key findings.</strong> <strong>52% are lead-capture RFI forms.</strong> 1 link to student hub. Pure marketing — no current-learner infrastructure. Confirms the orphaned cohort gap.</p>
+
+<p><strong>Action.</strong> "Already enrolled?" bridge. Current-learner section on hub or online.unimelb.</p>
+
+<h3>Sport (444 pages)</h3>
+
+<p><strong>What it is.</strong> MU Sport — well-structured, well-performing.</p>
+
+<p><strong>Key findings.</strong> <strong>Best page weight in the estate: 67KB median.</strong> Strong ecommerce integration (29 links). Low IA priority for current-students project.</p>
+
+<p><strong>Action.</strong> Study template for page-weight best practices. No urgent issues.</p>
+
+<h3>Library (1,000 pages — hit max)</h3>
+
+<p><strong>What it is.</strong> University Library — academic skills and research support.</p>
+
+<p><strong>Key findings.</strong> <strong>370 pages are referencing/citation guides</strong> — the library is the University's citation authority. 178 pages archives/special collections. 66 pages reference management software. 36 links to student hub in 30-page sample — moderate connection. Well-maintained, 7 dead pages only.</p>
+
+<p><strong>Action.</strong> Add Library referencing to the hub's academic skills section. Cross-link more prominently.</p>
+
+<h3>StudentIT (74 pages)</h3>
+
+<p><strong>What it is.</strong> Student IT support — printing, wifi, VPN, software.</p>
+
+<p><strong>Key findings.</strong> Task-focused operational content: "Student Print," "UniWireless," "VPN," "Microsoft 365 Update." 34 links to hub — healthy connection. <strong>13 offboarding pages</strong> — the IT side of the graduation→alumni transition.</p>
+
+<p><strong>Action.</strong> Link graduation offboarding pages from the graduation→alumni bridge. Add to hub's "IT & systems" section.</p>
+
+<h3>Orientation & Breadth (0 pages)</h3>
+
+<p><strong>What they are.</strong> Dead domains — both homepages return "Page not found."</p>
+
+<p><strong>Key finding.</strong> orientation.unimelb.edu.au and breadth.unimelb.edu.au are no longer live. The 1 contextual link to orientation (from biomed) and 7 links to breadth (from handbook) point to dead destinations.</p>
+
+<p><strong>Action.</strong> Either restore content or 301-redirect both domains to their students.unimelb equivalents.</p>
+
+<hr>
+
+<h2>The unchanged priority list</h2>
+
+<p>Every deep-dive, every crawl analysis, every link-graph audit reinforces the same 10 priorities. The order is unchanged because the evidence accumulates in one direction:</p>
+
+<table>
+<tr><th>#</th><th>Fix</th><th>New evidence</th></tr>
+<tr><td>1</td><td>Finish the hub migration</td><td>Still the prerequisite for everything</td></tr>
+<tr><td>2</td><td>Student overlay on Squiz</td><td>Still the only lever that touches all 12 architectures</td></tr>
+<tr><td>3</td><td>Subdomain registry</td><td>Confirmed by 415 hosts + 19 *.app + 28 www-twins</td></tr>
+<tr><td>4</td><td>Handbook baseline</td><td>The #1 dependency, worst web standards</td></tr>
+<tr><td>5</td><td>Graduate→alumni bridge</td><td>Still purely additive, zero migration cost</td></tr>
+<tr><td>6</td><td>Wire Careers Online</td><td>5 faculties at zero, confirmed by crawl</td></tr>
+<tr><td>7</td><td>Collapse SEDS + Indigenous hub page</td><td>**New:** Murrupbarak crawl proves service exists, just needs routing</td></tr>
+<tr><td>8</td><td>Fix census-date canonical</td><td>Still one line, still broken</td></tr>
+<tr><td>9</td><td>Fix 2,038 scholarship titles</td><td>Still one template change</td></tr>
+<tr><td>10</td><td>Fix Cookiebot duplicate icons</td><td>Still one config change, drops 5MB→200KB</td></tr>
+</table>
+
+<hr>
+
+<h2>What this project proved</h2>
+
+<ol>
+<li>**Link-graph analysis is a valid proxy for journey quality.** Where the links are thin, the journey breaks. Where the links fork, the student gets lost. Where zero links exist, the seam is severed. The link graph predicted every fault the crawls confirmed.</li>
+</ul>
+
+<ol>
+<li>**The most expensive-looking problems have the cheapest fixes.** The graduation→alumni bridge costs one CTA. The census-date fix costs one line. The Cookiebot fix costs one config change. The scholarship titles fix costs one template change. The project's #1 finding is that the worst seams are the easiest to close.</li>
+</ul>
+
+<ol>
+<li>**The Estate is competent in parts, broken at the joints.** Analysed stage by stage, it looks fine. Traced as a journey, the transitions fail — and they're the transitions no team owns.</li>
+</ul>
+
+<ol>
+<li>**Crawling the uncrawled domains confirmed every inference.** Ask.unimelb really does have two URL formats. Gradresearch really is the canonical HDR owner (with a 40% 404 rate). Murrupbarak really is comprehensive and unlinked. Safercommunity really is well-connected to the hub. The link graph told the truth.</li>
+</ul>
+
+<hr>
+
+<h2>What remains</h2>
+
+<ol>
+<li>**The authenticated core** — my.unimelb, Canvas, eStudent, `*.app` forms — remains uncrawlable. The public→authenticated seam can only be verified by walking through the logged-in experience</li>
+<li>**User validation** — every finding is structural evidence, not observed student failure. The costliest seams should be validated with real users before implementation</li>
+<li>**Analytics** — the `in_c=` tracking params in crawled URLs imply GA/search-log data exists. Requesting it is the single highest-value next step so priority can follow pages students actually hit</li>
+<li>**Deeper content analysis** — the current crawl analyses cover structure and links. Page content (reading level, actionability, tone) would reveal further quality gaps</li>
+<li>**Dead domain cleanup** — orientation.unimelb.edu.au and breadth.unimelb.edu.au return "Page not found." Their inbound links should be redirected or removed</li>
+</ul>
+
+<hr>
+
+<p><em>Built from: 41,533 pages across 29 domains, 261,652 contextual links, 28 deep-dive analyses, 5 persona profiles, ~75 improvements, 28 quick wins. June 2026.</em></p>
+
+</main>
+</body>
+</html>

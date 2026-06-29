@@ -1,57 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>UoM Current Students IA — Web Estate Analysis</title>
 <style>
-  :root { --bg: #fafafa; --text: #1a1a1a; --muted: #666; --accent: #1B3A5C; --border: #e0e0e0; --card: #fff; --high: #d32f2f; --medium: #f57c00; }
-  * { margin: 0; padding: 0; box-sizing: border-box; }
-  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; color: var(--text); background: var(--bg); line-height: 1.6; }
-  .hero { background: var(--accent); color: #fff; padding: 3rem 1.5rem; text-align: center; }
-  .hero h1 { font-size: 2rem; margin-bottom: 0.5rem; }
-  .hero p { opacity: 0.85; max-width: 700px; margin: 0 auto; font-size: 1.05rem; }
-  .container { max-width: 1000px; margin: 0 auto; padding: 2rem 1.5rem; }
-  h2 { font-size: 1.4rem; color: var(--accent); border-bottom: 2px solid var(--border); padding-bottom: 0.3rem; margin: 2.5rem 0 1rem; }
-  h3 { font-size: 1.05rem; margin: 1.5rem 0 0.5rem; color: var(--accent); }
-  .cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1rem; margin: 1rem 0; }
-  .card { background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 1.25rem; }
-  .card h4 { font-size: 1rem; margin-bottom: 0.4rem; }
-  .card h4 a { color: var(--accent); text-decoration: none; }
-  .card h4 a:hover { text-decoration: underline; }
-  .card p { color: var(--muted); font-size: 0.9rem; }
-  .tag { display: inline-block; padding: 0.1rem 0.5rem; border-radius: 3px; font-size: 0.75rem; margin-right: 0.3rem; }
-  .tag-high { background: #ffebee; color: var(--high); }
-  .tag-structural { background: #e3f2fd; color: #1565c0; }
-  .tag-content { background: #f3e5f5; color: #7b1fa2; }
-  .tag-auth { background: #fff3e0; color: #e65100; }
-  table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: 0.9rem; }
-  th { background: var(--accent); color: #fff; padding: 0.5rem 0.75rem; text-align: left; }
-  td { padding: 0.4rem 0.75rem; border-bottom: 1px solid var(--border); }
-  tr:nth-child(even) td { background: #f9f9f9; }
-  .footer { text-align: center; color: var(--muted); padding: 2rem; font-size: 0.85rem; }
+@font-face{font-family:'Fraunces';src:url('assets/fonts/Fraunces-VariableFont_SOFT_WONK_opsz_wght.ttf') format('truetype');font-weight:100 900;font-display:swap}
+@font-face{font-family:'Source Sans 3';src:url('assets/fonts/SourceSans3-VariableFont_wght.ttf') format('truetype');font-weight:200 900;font-display:swap}
+@font-face{font-family:'Source Code Pro';src:url('assets/fonts/SourceCodePro-VariableFont_wght.ttf') format('truetype');font-weight:200 900;font-display:swap}
+:root{--navy:#000F46;--navy-light:#1B2D5C;--cyan:#46C8F0;--ink:#222;--ink-2:#555;--bg:#fff;--bg-nav:#000F46;--bg-subtle:#F3F3F6;--border:#DDDDE7;--red:#DB1927;--amber:#AC5907;--green:#31733B;--font-h:'Fraunces',Georgia,serif;--font-b:'Source Sans 3',system-ui,sans-serif;--font-m:'Source Code Pro',monospace;--nav-w:280px}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:var(--font-b);font-size:17px;line-height:1.65;color:var(--ink);background:var(--bg);display:flex;min-height:100vh;-webkit-font-smoothing:antialiased}
+a{color:#004EAD;text-decoration:none}a:hover{text-decoration:underline}
+
+nav.lhs{position:fixed;top:0;left:0;width:var(--nav-w);height:100vh;background:var(--bg-nav);color:#C9CDE6;overflow-y:auto;z-index:100;display:flex;flex-direction:column;font-size:14px;line-height:1.4}
+nav.lhs .logo{padding:24px 20px 16px;border-bottom:1px solid rgba(255,255,255,.1)}
+nav.lhs .logo img{height:26px}
+nav.lhs .logo a{display:block;color:#fff;font-family:var(--font-h);font-size:16px;font-weight:600;text-decoration:none;margin-top:8px}
+nav.lhs .nav-scroll{flex:1;overflow-y:auto;padding:8px 0 24px}
+nav.lhs .section{font-family:var(--font-m);font-size:11px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--cyan);padding:16px 20px 6px}
+nav.lhs a.nav-link{display:block;padding:5px 20px;color:#9BA3C4;text-decoration:none;transition:all .15s;border-left:3px solid transparent}
+nav.lhs a.nav-link:hover{color:#fff;background:rgba(255,255,255,.05)}
+nav.lhs a.nav-link.active{color:#fff;background:rgba(255,255,255,.08);border-left-color:var(--cyan)}
+nav.lhs .sep{border:none;border-top:1px solid rgba(255,255,255,.08);margin:8px 16px}
+nav.lhs .footer{padding:16px 20px;font-size:11px;color:#6B7394;border-top:1px solid rgba(255,255,255,.08)}
+
+main{margin-left:var(--nav-w);flex:1;min-width:0}
+.hero{background:var(--navy);color:#fff;padding:80px 56px 64px}
+.hero h1{font-family:var(--font-h);font-size:52px;font-weight:700;line-height:1.04;letter-spacing:-.014em;max-width:14em;margin-bottom:20px}
+.hero .subtitle{font-size:20px;line-height:1.5;color:#C9CDE6;max-width:38em}
+.statstrip{display:flex;gap:40px;margin-top:36px;padding-top:28px;border-top:1px solid rgba(255,255,255,.14);flex-wrap:wrap}
+.statstrip .stat{text-align:center;min-width:80px}
+.statstrip .stat .num{font-family:var(--font-h);font-size:36px;font-weight:700;color:var(--cyan);line-height:1}
+.statstrip .stat .lbl{font-size:12px;color:#8389A5;margin-top:4px;text-transform:uppercase;letter-spacing:.08em}
+
+.content{padding:0 56px 80px;max-width:1000px}
+.content h2{font-family:var(--font-h);font-size:28px;font-weight:600;color:var(--navy);margin:48px 0 16px;padding-bottom:8px;border-bottom:2px solid var(--border);line-height:1.15}
+.content h3{font-family:var(--font-h);font-size:20px;font-weight:600;color:var(--navy);margin:32px 0 10px}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px;margin:12px 0}
+.card{background:var(--bg);border:1px solid var(--border);border-radius:8px;padding:16px 20px;transition:box-shadow .15s}
+.card:hover{box-shadow:0 2px 12px rgba(0,0,0,.06)}
+.card h4{font-size:16px;font-weight:600;margin:0 0 4px}
+.card h4 a{color:var(--navy)}
+.card p{color:var(--ink-2);font-size:14px;line-height:1.5;margin:0}
+.tag{display:inline-block;padding:1px 8px;border-radius:3px;font-size:11px;font-weight:700;margin-right:4px;text-transform:uppercase;letter-spacing:.06em}
+.tag-structural{background:#E3F2FD;color:#1565C0}
+.tag-content{background:#F3E5F5;color:#7B1FA2}
+.tag-auth{background:#FFF3E0;color:#E65100}
+.tag-high{background:#FFEBEE;color:var(--red)}
+.footer-note{color:var(--ink-2);font-size:13px;text-align:center;padding:60px 0 40px}
+
+.menu-toggle{display:none;position:fixed;top:12px;left:12px;z-index:200;background:var(--navy);color:#fff;border:none;border-radius:6px;padding:8px 12px;font-size:20px;cursor:pointer}
+@media(max-width:960px){
+  nav.lhs{transform:translateX(-100%);transition:transform .25s}
+  nav.lhs.open{transform:translateX(0)}
+  main{margin-left:0}
+  .hero{padding:60px 24px 48px}
+  .hero h1{font-size:36px}
+  .content{padding:0 24px 48px}
+  .cards{grid-template-columns:1fr}
+  .menu-toggle{display:block}
+}
 </style>
 </head>
 <body>
 
+<button class="menu-toggle" onclick="document.getElementById('lhsNav').classList.toggle('open')">☰</button>
+
+<nav class="lhs" id="lhsNav">
+  <div class="logo">
+    <img src="assets/UoM_Logo_Horiz_onDark.svg" alt="University of Melbourne">
+    <a href="index.html">Current Students IA</a>
+  </div>
+  <div class="nav-scroll">
+    <a class="nav-link active" href="index.html">🏠 Home</a>
+    <hr class="sep">
+    <div class="section">📋 Key Reports</div>
+    <a class="nav-link" href="report/Improvements-Register.html">  Improvements Register</a>
+    <a class="nav-link" href="report/Lifecycle-Journeys.html">  Lifecycle Journeys</a>
+    <a class="nav-link" href="report/Course-Planning-Enrolment.html">  Course Planning & Enrolment</a>
+    <a class="nav-link" href="report/International-Student-Experience.html">  International Student</a>
+    <a class="nav-link" href="report/Student-Services-Fragmentation.html">  Services Fragmentation</a>
+    <a class="nav-link" href="report/Careers-Employability-WIL.html">  Careers & WIL</a>
+    <hr class="sep">
+    <div class="section">🔬 Structural Deep-Dives</div>
+    <a class="nav-link" href="analysis/graduation-alumni-handoff.html">  Graduation → Alumni</a>
+    <a class="nav-link" href="analysis/careers-online-wiring.html">  Careers Online Wiring</a>
+    <a class="nav-link" href="analysis/prospective-current-handoff.html">  Prospective → Current</a>
+    <a class="nav-link" href="analysis/equity-indigenous-journey.html">  Equity & Indigenous</a>
+    <a class="nav-link" href="analysis/hdr-candidature-duplication.html">  HDR Duplication</a>
+    <a class="nav-link" href="analysis/forms-microsite-audit.html">  Forms & Microsites</a>
+    <hr class="sep">
+    <div class="section">📝 Content Quality</div>
+    <a class="nav-link" href="analysis/the-handbook.html">  The Handbook</a>
+    <a class="nav-link" href="analysis/fees-finance.html">  Fees & Finance</a>
+    <a class="nav-link" href="analysis/scholarships.html">  Scholarships</a>
+    <a class="nav-link" href="analysis/mobile-performance-audit.html">  Mobile & Performance</a>
+    <a class="nav-link" href="analysis/content-freshness-sandbox-leakage.html">  Content Freshness</a>
+    <a class="nav-link" href="analysis/content-quality-deep-dive.html">  Content Quality Audit</a>
+    <hr class="sep">
+    <div class="section">🔐 Authenticated Core</div>
+    <a class="nav-link" href="analysis/authenticated-core-audit.html">  Auth Core Audit</a>
+    <a class="nav-link" href="analysis/auth-hosts-live-check.html">  Live Host Check</a>
+    <a class="nav-link" href="analysis/authenticated-core-findings.html">  Auth Core Findings</a>
+    <hr class="sep">
+    <div class="section">🌐 Crawl Analyses</div>
+    <a class="nav-link" href="analysis/crawl-ask-unimelb.html">  ask.unimelb</a>
+    <a class="nav-link" href="analysis/crawl-gradresearch.html">  gradresearch</a>
+    <a class="nav-link" href="analysis/crawl-murrupbarak.html">  murrupbarak</a>
+    <a class="nav-link" href="analysis/crawl-safercommunity.html">  safercommunity</a>
+    <a class="nav-link" href="analysis/crawl-umsu.html">  umsu</a>
+    <a class="nav-link" href="analysis/crawl-online.html">  online.unimelb</a>
+    <a class="nav-link" href="analysis/crawl-sport.html">  sport</a>
+    <a class="nav-link" href="analysis/crawl-library.html">  library</a>
+    <a class="nav-link" href="analysis/crawl-studentit.html">  studentit</a>
+    <hr class="sep">
+    <div class="section">👤 Personas</div>
+    <a class="nav-link" href="personas/sam-planning-their-path.html">  Sam — Planning</a>
+    <a class="nav-link" href="personas/alex-at-risk-withdrawal.html">  Alex — At-risk</a>
+    <a class="nav-link" href="personas/priya-international-student.html">  Priya — International</a>
+    <a class="nav-link" href="personas/jordan-course-planning-maze.html">  Jordan — Course Maze</a>
+    <a class="nav-link" href="personas/taylor-wellbeing-mental-health.html">  Taylor — Wellbeing</a>
+    <hr class="sep">
+    <div class="section">📦 Deliverables</div>
+    <a class="nav-link" href="analysis/governance-summary-pack.html">  Governance Pack</a>
+    <a class="nav-link" href="analysis/quick-wins-checklist.html">  Quick Wins</a>
+    <a class="nav-link" href="analysis/final-synthesis.html">  Final Synthesis</a>
+  </div>
+  <div class="footer">UoM · Student Experience &amp; Design<br>June 2026 · 41,533 pages · 31 domains</div>
+</nav>
+
+<main>
+
 <div class="hero">
-  <h1>UoM Current Students IA</h1>
-  <p>Cross-university website analysis for the Student Experience &amp; Design team. 41,533 pages across 31 domains, 261,652 contextual links, 34 deep-dive analyses. June 2026.</p>
+  <h1>Current Students<br>Web Estate Analysis</h1>
+  <p class="subtitle">Cross-university website analysis for the Student Experience &amp; Design team. 41,533 pages across 31 domains, 261,652 contextual links, 34 deep-dive analyses.</p>
+  <div class="statstrip">
+    <div class="stat"><div class="num">31</div><div class="lbl">Domains</div></div>
+    <div class="stat"><div class="num">41.5K</div><div class="lbl">Pages</div></div>
+    <div class="stat"><div class="num">262K</div><div class="lbl">Links Mapped</div></div>
+    <div class="stat"><div class="num">34</div><div class="lbl">Deep-Dives</div></div>
+    <div class="stat"><div class="num">75</div><div class="lbl">Improvements</div></div>
+    <div class="stat"><div class="num">28</div><div class="lbl">Quick Wins</div></div>
+  </div>
 </div>
 
-<div class="container">
-
-<h2>📊 Project Summary</h2>
-<table>
-  <tr><th>Metric</th><th>Value</th></tr>
-  <tr><td>Domains crawled</td><td>31 (20 original + 9 expansion + 2 auth)</td></tr>
-  <tr><td>Total pages</td><td>41,533 public + 363 authenticated</td></tr>
-  <tr><td>Contextual links mapped</td><td>261,652</td></tr>
-  <tr><td>Deep-dive analyses</td><td>34</td></tr>
-  <tr><td>Persona profiles</td><td>5</td></tr>
-  <tr><td>Improvements registered</td><td>~75</td></tr>
-  <tr><td>Quick wins ready</td><td>28</td></tr>
-</table>
+<div class="content">
 
 <h2>🎯 Five Root Findings</h2>
 <div class="cards">
@@ -65,7 +159,7 @@
   </div>
   <div class="card">
     <h4>3. The joints are broken — and the cheapest to fix</h4>
-    <p>Graduate→alumni: 35 pages, 0 links. Apply→enrol: 373 links. These are purely additive fixes — nothing to unpick.</p>
+    <p>Graduate→alumni: 35 pages, 0 links. Apply→enrol: 373 links. These are purely additive fixes.</p>
   </div>
   <div class="card">
     <h4>4. Fragmentation is regressive</h4>
@@ -79,91 +173,30 @@
 
 <h2>📋 Key Reports</h2>
 <div class="cards">
-  <div class="card"><h4><a href="report/Improvements-Register.html">Improvements Register</a></h4><p>~75 actionable improvements with severity, effort, and evidence citations.</p></div>
-  <div class="card"><h4><a href="report/Lifecycle-Journeys.html">Lifecycle Journeys &amp; Moments</a></h4><p>Six persona traces and four high-stakes moments through the estate.</p></div>
-  <div class="card"><h4><a href="report/Course-Planning-Enrolment.html">Course Planning &amp; Enrolment</a></h4><p>The most fragmented single task — a seven-system obstacle course.</p></div>
+  <div class="card"><h4><a href="analysis/final-synthesis.html">Final Synthesis</a></h4><p>The complete project narrative — five root findings, all evidence.</p></div>
+  <div class="card"><h4><a href="analysis/governance-summary-pack.html">Governance Pack</a></h4><p>10 stakeholder-ready one-pagers for COO/Provost briefing.</p></div>
+  <div class="card"><h4><a href="analysis/quick-wins-checklist.html">Quick Wins Checklist</a></h4><p>28 actionable fixes across 5 categories.</p></div>
+  <div class="card"><h4><a href="report/Improvements-Register.html">Improvements Register</a></h4><p>~75 improvements with severity, effort, and evidence citations.</p></div>
+  <div class="card"><h4><a href="report/Lifecycle-Journeys.html">Lifecycle Journeys</a></h4><p>Six persona traces and four high-stakes moments.</p></div>
+  <div class="card"><h4><a href="report/Course-Planning-Enrolment.html">Course Planning & Enrolment</a></h4><p>The most fragmented single task — a seven-system obstacle course.</p></div>
   <div class="card"><h4><a href="report/International-Student-Experience.html">International Student Experience</a></h4><p>Nine stages — where a web fault costs a visa, not convenience.</p></div>
-  <div class="card"><h4><a href="report/Student-Services-Fragmentation.html">Student Services Fragmentation</a></h4><p>Counselling branded "Academic Skills Unit" — the wellbeing audit.</p></div>
-  <div class="card"><h4><a href="report/Careers-Employability-WIL.html">Careers, Employability &amp; WIL</a></h4><p>1,058 careers pages across 18 domains — authored everywhere, connected nowhere.</p></div>
-  <div class="card"><h4><a href="report/Prospective-Student-Experience.html">Prospective Student Experience</a></h4><p>The study.unimelb estate — the entry point for every applicant.</p></div>
-  <div class="card"><h4><a href="report/Topic-Deep-Dives.html">Topic Deep-Dives</a></h4><p>Cross-cutting analysis across all topics.</p></div>
-  <div class="card"><h4><a href="report/DEAG-findings-pack.html">DEAG Findings Pack</a></h4><p>Stakeholder-ready findings for the Digital Experience Advisory Group.</p></div>
-  <div class="card"><h4><a href="report/Recommendations.html">Recommendations</a></h4><p>Consolidated recommendations across all analyses.</p></div>
+  <div class="card"><h4><a href="report/Student-Services-Fragmentation.html">Services Fragmentation</a></h4><p>Counselling branded "Academic Skills Unit."</p></div>
 </div>
 
-<h2>🔬 Deep-Dive Analyses</h2>
-
-<h3><span class="tag tag-structural">Structural</span> Service Design &amp; Lifecycle</h3>
+<h2>🔬 Featured Deep-Dives</h2>
 <div class="cards">
-  <div class="card"><h4><a href="analysis/course-planning-enrolment.md">Course Planning &amp; Enrolment</a></h4><p>The operational core — 343 hub pages, 7 systems, one task.</p></div>
-  <div class="card"><h4><a href="analysis/international-student-experience.md">International Student Experience</a></h4><p>Nine journey stages from discovery to post-study.</p></div>
-  <div class="card"><h4><a href="analysis/student-services-fragmentation.md">Student Services Fragmentation</a></h4><p>Wellbeing, health, safety — shattered across hosts and labels.</p></div>
-  <div class="card"><h4><a href="analysis/lifecycle-journeys.md">Lifecycle Journeys &amp; Moments</a></h4><p>Ten end-to-end traces, six personas, four high-stakes moments.</p></div>
-  <div class="card"><h4><a href="analysis/careers-employability-wil.md">Careers, Employability &amp; WIL</a></h4><p>The most cross-cutting service — and the most fragmented.</p></div>
-  <div class="card"><h4><a href="analysis/graduation-alumni-handoff.md">Graduation → Alumni Handoff</a> <a href="analysis/graduation-alumni-handoff.html">(HTML)</a></h4><p>35 completion pages, 0 alumni links. The most severed seam.</p></div>
-  <div class="card"><h4><a href="analysis/careers-online-wiring.md">Careers Online Wiring</a></h4><p>Faculty-by-faculty audit — 5 faculties send zero links.</p></div>
-  <div class="card"><h4><a href="analysis/prospective-current-handoff.md">Prospective → Current Handoff</a></h4><p>373 study→hub links. Only one cohort gets a guided transition.</p></div>
-  <div class="card"><h4><a href="analysis/equity-indigenous-journey.md">Equity &amp; Indigenous Journey</a></h4><p>SEDS wizard on 1 of 3 trees. Zero Indigenous pages on the hub.</p></div>
-  <div class="card"><h4><a href="analysis/hdr-candidature-duplication.md">HDR Candidature Duplication</a></h4><p>33 byte-identical pairs across education + mdhs.</p></div>
+  <div class="card"><h4><span class="tag tag-structural">Structural</span> <a href="analysis/graduation-alumni-handoff.html">Graduation → Alumni</a></h4><p>35 completion pages, 0 alumni links. The most severed seam in the lifecycle.</p></div>
+  <div class="card"><h4><span class="tag tag-content">Content</span> <a href="analysis/the-handbook.html">The Handbook</a></h4><p>#1 dependency — 7,819 inbound links, blank titles, SPA-only. Worst readability at 14.2 Flesch.</p></div>
+  <div class="card"><h4><span class="tag tag-auth">Auth</span> <a href="analysis/auth-hosts-live-check.html">Auth Hosts Live Check</a></h4><p>2 critical hosts dead — specialconsideration.app and enrolmentvariations.app both return 404.</p></div>
+  <div class="card"><h4><span class="tag tag-structural">Structural</span> <a href="analysis/equity-indigenous-journey.html">Equity & Indigenous</a></h4><p>SEDS wizard on 1 of 3 trees. Murrup Barak: 19 hub links vs 614 from MSD.</p></div>
+  <div class="card"><h4><span class="tag tag-content">Content</span> <a href="analysis/content-quality-deep-dive.html">Content Quality Audit</a></h4><p>Services for vulnerable students written at graduate level. 77-87% find→act gaps.</p></div>
+  <div class="card"><h4><span class="tag tag-auth">Auth</span> <a href="analysis/authenticated-core-findings.html">Auth Core Findings</a></h4><p>363 pages crawled behind login. my.unimelb routes to same hub pages.</p></div>
 </div>
 
-<h3><span class="tag tag-content">Content</span> Quality, Freshness &amp; Systems</h3>
-<div class="cards">
-  <div class="card"><h4><a href="analysis/the-handbook.md">The Handbook</a></h4><p>#1 dependency — 7,819 inbound links, SPA-only, blank titles.</p></div>
-  <div class="card"><h4><a href="analysis/fees-finance.md">Fees &amp; Finance</a></h4><p>Triple-tree duplication, census→404, 8:1 applicant-to-enrolled ratio.</p></div>
-  <div class="card"><h4><a href="analysis/scholarships.md">Scholarships</a></h4><p>2,038 identical titles, 96% heading-skip.</p></div>
-  <div class="card"><h4><a href="analysis/mobile-performance-audit.md">Mobile &amp; Performance</a></h4><p>304KB median study pages. Cookiebot duplicates = 5MB pages.</p></div>
-  <div class="card"><h4><a href="analysis/content-freshness-sandbox-leakage.md">Content Freshness &amp; Sandbox</a></h4><p>Live sandbox visa draft with 90 real inbound links.</p></div>
-  <div class="card"><h4><a href="analysis/content-quality-deep-dive.md">Content Quality Audit</a></h4><p>Readability, actionability, freshness across 10 domains.</p></div>
-  <div class="card"><h4><a href="analysis/content-quality-extension.md">Content Quality Extension</a></h4><p>Handbook readability (14.2 Flesch), sentence diagnosis, duplicate scan.</p></div>
-  <div class="card"><h4><a href="analysis/forms-microsite-audit.md">Forms &amp; Microsite Audit</a></h4><p>14 *.app hosts + forms.your — 2,101 links to transactional hosts.</p></div>
-</div>
-
-<h3><span class="tag tag-auth">Authenticated</span> Core &amp; Crawl Expansion</h3>
-<div class="cards">
-  <div class="card"><h4><a href="analysis/authenticated-core-audit.md">Authenticated Core Audit</a></h4><p>42 auth hosts mapped, 3,641 links, link-label analysis.</p></div>
-  <div class="card"><h4><a href="analysis/auth-hosts-live-check.md">Auth Hosts Live Check</a></h4><p>19 hosts tested — 2 dead, 18/19 auth-gated.</p></div>
-  <div class="card"><h4><a href="analysis/authenticated-core-findings.md">Authenticated Core Findings</a></h4><p>363 pages crawled behind login — what students actually see.</p></div>
-  <div class="card"><h4><a href="analysis/crawl-expansion-recommendations.md">Crawl Expansion Recommendations</a></h4><p>200+ uncrawled hosts ranked by link volume and journey relevance.</p></div>
-  <div class="card"><h4><a href="analysis/uncrawled-domains-audit.md">Uncrawled Domains Audit</a></h4><p>4-tier crawl priority list with feasibility assessment.</p></div>
-</div>
-
-<h3><span class="tag tag-high">Crawl Analyses</span> New Domain Audits</h3>
-<div class="cards">
-  <div class="card"><h4><a href="analysis/crawl-ask-unimelb.md">ask.unimelb.edu.au</a></h4><p>515 pages — 393 FAQ articles, two URL formats confirmed.</p></div>
-  <div class="card"><h4><a href="analysis/crawl-gradresearch.md">gradresearch.unimelb.edu.au</a></h4><p>302 pages — 40% are 404s. Canonical HDR owner.</p></div>
-  <div class="card"><h4><a href="analysis/crawl-murrupbarak.md">murrupbarak.unimelb.edu.au</a></h4><p>37 pages — comprehensive Indigenous support, unlinked from hub.</p></div>
-  <div class="card"><h4><a href="analysis/crawl-safercommunity.md">safercommunity.unimelb.edu.au</a></h4><p>17 pages — crisis support, healthy hub connection.</p></div>
-  <div class="card"><h4><a href="analysis/crawl-umsu.md">umsu.unimelb.edu.au</a></h4><p>800 pages — 720KB median, 6.4MB max, extremely insular.</p></div>
-  <div class="card"><h4><a href="analysis/crawl-online.md">online.unimelb.edu.au</a></h4><p>87 pages — 52% lead-capture forms, no current-learner home.</p></div>
-  <div class="card"><h4><a href="analysis/crawl-sport.md">sport.unimelb.edu.au</a></h4><p>444 pages — best page weight in estate (67KB median).</p></div>
-  <div class="card"><h4><a href="analysis/crawl-library.md">library.unimelb.edu.au</a></h4><p>1,000 pages — 370 referencing style pages, academic skills backbone.</p></div>
-  <div class="card"><h4><a href="analysis/crawl-studentit.md">studentit.unimelb.edu.au</a></h4><p>74 pages — task-focused IT support, 95% stale.</p></div>
-</div>
-
-<h2>👤 Persona Profiles</h2>
-<div class="cards">
-  <div class="card"><h4><a href="personas/sam-planning-their-path.md">Sam — Planning their path</a></h4><p>First-year domestic undergraduate. 7 systems to plan one semester.</p></div>
-  <div class="card"><h4><a href="personas/alex-at-risk-withdrawal.md">Alex — At-risk &amp; withdrawal</a></h4><p>Second-year hitting academic difficulty. Counselling branded wrong.</p></div>
-  <div class="card"><h4><a href="personas/priya-international-student.md">Priya — International student</a></h4><p>Postgraduate on subclass-500 visa. 9 stages, visa conditions unlinked.</p></div>
-  <div class="card"><h4><a href="personas/jordan-course-planning-maze.md">Jordan — Course planning maze</a></h4><p>Second-year BSc. 41% of hub pages for one task.</p></div>
-  <div class="card"><h4><a href="personas/taylor-wellbeing-mental-health.md">Taylor — Wellbeing &amp; crisis</a></h4><p>Third-year seeking help. 3-4 hosts to reach counselling.</p></div>
-</div>
-
-<h2>📦 Operational Deliverables</h2>
-<div class="cards">
-  <div class="card"><h4><a href="analysis/governance-summary-pack.md">Governance Summary Pack</a></h4><p>10 stakeholder-ready one-pagers for COO/Provost briefing.</p></div>
-  <div class="card"><h4><a href="analysis/quick-wins-checklist.md">Quick Wins Checklist</a></h4><p>28 actionable fixes — do-today, template, redirect, label, a11y, link hygiene.</p></div>
-  <div class="card"><h4><a href="analysis/improvements-register.md">Improvements Register</a></h4><p>~75 improvements with severity, effort, and evidence citations.</p></div>
-  <div class="card"><h4><a href="analysis/final-synthesis.md">Final Synthesis</a></h4><p>The complete project narrative — five root findings, all evidence.</p></div>
-</div>
+<div class="footer-note">University of Melbourne · Student Experience &amp; Design · June 2026</div>
 
 </div>
 
-<div class="footer">
-  <p>University of Melbourne · Student Experience &amp; Design · June 2026</p>
-  <p>41,533 public pages + 363 authenticated · 261,652 contextual links · 34 deep-dive analyses</p>
-</div>
-
+</main>
 </body>
 </html>

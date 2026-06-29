@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>gradresearch.unimelb.edu.au · UoM Current Students IA</title>
+<style>@font-face{font-family:'Fraunces';src:url('assets/fonts/Fraunces-VariableFont_SOFT_WONK_opsz_wght.ttf') format('truetype');font-weight:100 900;font-display:swap}
+@font-face{font-family:'Source Sans 3';src:url('assets/fonts/SourceSans3-VariableFont_wght.ttf') format('truetype');font-weight:200 900;font-display:swap}
+@font-face{font-family:'Source Code Pro';src:url('assets/fonts/SourceCodePro-VariableFont_wght.ttf') format('truetype');font-weight:200 900;font-display:swap}
+:root{--navy:#000F46;--navy-light:#1B2D5C;--cyan:#46C8F0;--ink:#222;--ink-2:#555;--bg:#fff;--bg-nav:#000F46;--bg-subtle:#F3F3F6;--border:#DDDDE7;--red:#DB1927;--amber:#AC5907;--green:#31733B;--font-h:'Fraunces',Georgia,serif;--font-b:'Source Sans 3',system-ui,sans-serif;--font-m:'Source Code Pro',monospace;--nav-w:280px}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:var(--font-b);font-size:17px;line-height:1.65;color:var(--ink);background:var(--bg);display:flex;min-height:100vh;-webkit-font-smoothing:antialiased}
+a{color:#004EAD;text-decoration:none}a:hover{text-decoration:underline}
+
+/* ── LHS Navigation ── */
+nav.lhs{position:fixed;top:0;left:0;width:var(--nav-w);height:100vh;background:var(--bg-nav);color:#C9CDE6;overflow-y:auto;z-index:100;display:flex;flex-direction:column;font-size:14px;line-height:1.4}
+nav.lhs .logo{padding:24px 20px 16px;border-bottom:1px solid rgba(255,255,255,.1)}
+nav.lhs .logo img{height:26px}
+nav.lhs .logo a{display:block;color:#fff;font-family:var(--font-h);font-size:16px;font-weight:600;text-decoration:none;margin-top:8px}
+nav.lhs .nav-scroll{flex:1;overflow-y:auto;padding:8px 0 24px}
+nav.lhs .section{font-family:var(--font-m);font-size:11px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--cyan);padding:16px 20px 6px}
+nav.lhs a.nav-link{display:block;padding:5px 20px;color:#9BA3C4;text-decoration:none;transition:all .15s;border-left:3px solid transparent}
+nav.lhs a.nav-link:hover{color:#fff;background:rgba(255,255,255,.05)}
+nav.lhs a.nav-link.active{color:#fff;background:rgba(255,255,255,.08);border-left-color:var(--cyan)}
+nav.lhs .sep{border:none;border-top:1px solid rgba(255,255,255,.08);margin:8px 16px}
+nav.lhs .footer{padding:16px 20px;font-size:11px;color:#6B7394;border-top:1px solid rgba(255,255,255,.08)}
+
+/* ── Main content ── */
+main{margin-left:var(--nav-w);flex:1;min-width:0;padding:40px 56px 80px;max-width:900px}
+main h1{font-family:var(--font-h);font-size:42px;font-weight:700;color:var(--navy);line-height:1.07;letter-spacing:-.012em;margin:0 0 8px}
+main h2{font-family:var(--font-h);font-size:28px;font-weight:600;color:var(--navy);margin:48px 0 16px;padding-bottom:8px;border-bottom:2px solid var(--border);line-height:1.15}
+main h3{font-family:var(--font-h);font-size:20px;font-weight:600;color:var(--navy);margin:32px 0 10px;line-height:1.2}
+main h4{font-size:18px;font-weight:700;color:var(--navy);margin:24px 0 8px}
+main p{margin:12px 0}
+main .subtitle{color:var(--ink-2);font-style:italic;font-size:18px;margin-bottom:32px}
+main blockquote{border-left:3px solid var(--navy);padding:12px 20px;margin:20px 0;background:var(--bg-subtle);font-style:italic;color:var(--ink-2)}
+main code{font-family:var(--font-m);font-size:14px;background:var(--bg-subtle);padding:2px 6px;border-radius:3px}
+main table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+main th{background:var(--navy);color:#fff;padding:10px 14px;text-align:left;font-weight:600}
+main td{padding:8px 14px;border-bottom:1px solid var(--border)}
+main tr:nth-child(even) td{background:var(--bg-subtle)}
+main ul,main ol{margin:8px 0 8px 24px}
+main li{margin:4px 0}
+main hr{border:none;border-top:1px solid var(--border);margin:40px 0}
+main strong{color:var(--navy)}
+.severity-high{display:inline-block;padding:1px 8px;border-radius:3px;font-size:12px;font-weight:700;background:#FFEBEE;color:var(--red)}
+.severity-medium{display:inline-block;padding:1px 8px;border-radius:3px;font-size:12px;font-weight:700;background:#FFF8E1;color:var(--amber)}
+.effort{display:inline-block;padding:1px 8px;border-radius:3px;font-size:12px;font-weight:700;background:#E8F5E9;color:var(--green)}
+.footer-note{color:var(--ink-2);font-size:13px;font-style:italic;margin-top:48px;padding-top:16px;border-top:1px solid var(--border)}
+
+/* ── Mobile ── */
+.menu-toggle{display:none;position:fixed;top:12px;left:12px;z-index:200;background:var(--navy);color:#fff;border:none;border-radius:6px;padding:8px 12px;font-size:20px;cursor:pointer}
+@media(max-width:960px){
+  nav.lhs{transform:translateX(-100%);transition:transform .25s}
+  nav.lhs.open{transform:translateX(0)}
+  main{margin-left:0;padding:60px 24px 40px}
+  .menu-toggle{display:block}
+}
+</style>
+</head>
+<body>
+<button class="menu-toggle" onclick="document.getElementById('lhsNav').classList.toggle('open')">☰</button>
+<nav class="lhs" id="lhsNav">
+  <div class="logo">
+    <img src="assets/UoM_Logo_Horiz_onDark.svg" alt="UoM">
+    <a href="index.html">Current Students IA</a>
+  </div>
+  <div class="nav-scroll">
+    <a class="nav-link" href="index.html">🏠 Home</a>
+    <div class="section">📊 Project Summary</div>
+    <div class="section">🎯 Five Root Findings</div>
+    <hr class="sep">
+    <div class="section">📋 Key Reports</div>
+    <a class="nav-link" href="report/Improvements-Register.html"> Improvements Register</a>
+    <a class="nav-link" href="report/Lifecycle-Journeys.html"> Lifecycle Journeys</a>
+    <a class="nav-link" href="report/Course-Planning-Enrolment.html"> Course Planning</a>
+    <a class="nav-link" href="report/International-Student-Experience.html"> International Student</a>
+    <a class="nav-link" href="report/Student-Services-Fragmentation.html"> Services Fragmentation</a>
+    <a class="nav-link" href="report/Careers-Employability-WIL.html"> Careers & WIL</a>
+    <hr class="sep">
+    <div class="section">🔬 Structural Deep-Dives</div>
+    <a class="nav-link" href="analysis/graduation-alumni-handoff.html"> Graduation → Alumni</a>
+    <a class="nav-link" href="analysis/careers-online-wiring.html"> Careers Online Wiring</a>
+    <a class="nav-link" href="analysis/prospective-current-handoff.html"> Prospective → Current</a>
+    <a class="nav-link" href="analysis/equity-indigenous-journey.html"> Equity & Indigenous</a>
+    <a class="nav-link" href="analysis/hdr-candidature-duplication.html"> HDR Duplication</a>
+    <a class="nav-link" href="analysis/forms-microsite-audit.html"> Forms & Microsites</a>
+    <hr class="sep">
+    <div class="section">📝 Content Quality</div>
+    <a class="nav-link" href="analysis/the-handbook.html"> The Handbook</a>
+    <a class="nav-link" href="analysis/fees-finance.html"> Fees & Finance</a>
+    <a class="nav-link" href="analysis/scholarships.html"> Scholarships</a>
+    <a class="nav-link" href="analysis/mobile-performance-audit.html"> Mobile & Performance</a>
+    <a class="nav-link" href="analysis/content-freshness-sandbox-leakage.html"> Content Freshness</a>
+    <a class="nav-link" href="analysis/content-quality-deep-dive.html"> Content Quality Audit</a>
+    <hr class="sep">
+    <div class="section">🔐 Authenticated Core</div>
+    <a class="nav-link" href="analysis/authenticated-core-audit.html"> Auth Core Audit</a>
+    <a class="nav-link" href="analysis/auth-hosts-live-check.html"> Live Host Check</a>
+    <a class="nav-link" href="analysis/authenticated-core-findings.html"> Auth Core Findings</a>
+    <hr class="sep">
+    <div class="section">🌐 Crawl Analyses</div>
+    <a class="nav-link" href="analysis/crawl-ask-unimelb.html"> ask.unimelb</a>
+    <a class="nav-link active" href="analysis/crawl-gradresearch.html"> gradresearch</a>
+    <a class="nav-link" href="analysis/crawl-murrupbarak.html"> murrupbarak</a>
+    <a class="nav-link" href="analysis/crawl-safercommunity.html"> safercommunity</a>
+    <a class="nav-link" href="analysis/crawl-umsu.html"> umsu</a>
+    <a class="nav-link" href="analysis/crawl-online.html"> online.unimelb</a>
+    <a class="nav-link" href="analysis/crawl-sport.html"> sport</a>
+    <a class="nav-link" href="analysis/crawl-library.html"> library</a>
+    <a class="nav-link" href="analysis/crawl-studentit.html"> studentit</a>
+    <hr class="sep">
+    <div class="section">👤 Personas</div>
+    <a class="nav-link" href="personas/sam-planning-their-path.html"> Sam — Planning</a>
+    <a class="nav-link" href="personas/alex-at-risk-withdrawal.html"> Alex — At-risk</a>
+    <a class="nav-link" href="personas/priya-international-student.html"> Priya — International</a>
+    <a class="nav-link" href="personas/jordan-course-planning-maze.html"> Jordan — Course Maze</a>
+    <a class="nav-link" href="personas/taylor-wellbeing-mental-health.html"> Taylor — Wellbeing</a>
+    <hr class="sep">
+    <div class="section">📦 Deliverables</div>
+    <a class="nav-link" href="analysis/governance-summary-pack.html"> Governance Pack</a>
+    <a class="nav-link" href="analysis/quick-wins-checklist.html"> Quick Wins</a>
+    <a class="nav-link" href="analysis/final-synthesis.html"> Final Synthesis</a>
+  </div>
+  <div class="footer">UoM · Student Experience &amp; Design<br>June 2026 · 41,533 pages · 31 domains</div>
+</nav>
+
+<main>
+<h1>gradresearch.unimelb.edu.au</h1>
+<p class="subtitle">302 pages — 40% are 404s. Canonical HDR owner.</p>
+<h1>gradresearch.unimelb.edu.au — Crawl Analysis</h1>
+
+<p><em>The Graduate Research Hub — 302 pages, the canonical owner of the HDR candidature lifecycle. 122 pages are 404s. Well-structured IA but a massive dead-link problem. Confirms the duplication story: the content exists here; the faculty clones are unnecessary. June 2026.</em></p>
+
+<hr>
+
+<h2>What we found</h2>
+
+<p>The HDR deep-dive identified gradresearch.unimelb.edu.au as the canonical owner of the HDR candidature lifecycle, sitting off the crawled estate with 4,123 inbound links from 18 domains. The crawl reveals it as a <strong>302-page site with a clear, well-structured IA</strong> — and a <strong>massive dead-link problem</strong>: 122 of 302 pages (40%) return 404.</p>
+
+<h3>Structure</h3>
+
+<table>
+<tr><th>Section</th><th>Pages</th><th>Content</th></tr>
+<tr><td>`/being-a-candidate/making-changes`</td><td>35</td><td>Study rate, supervisors, department, withdrawal, leave, re-enrolment — the operational core</td></tr>
+<tr><td>`/getting-started/resources-for-students`</td><td>32</td><td>IT, email, library, scholarships, finances, keep-informed</td></tr>
+<tr><td>`/preparing-my-thesis/thesis-with-publication`</td><td>25</td><td>Thesis formatting, authorship, publication inclusion, examination</td></tr>
+<tr><td>`/developing-my-skills/research-skills`</td><td>21</td><td>Workshops, resources, training</td></tr>
+<tr><td>`/being-a-candidate/study-away`</td><td>8</td><td>Study away application, approval, return</td></tr>
+<tr><td>`/home/surveys`</td><td>7</td><td>Melbourne Research Experience Survey, QILT</td></tr>
+<tr><td>`/being-a-candidate/reviewing-my-progress`</td><td>6</td><td>At-risk, formal warning, unsatisfactory progress</td></tr>
+<tr><td>Other</td><td>46</td><td>Remaining sections</td></tr>
+</table>
+
+<p>The IA is sensible: <strong>getting-started → being-a-candidate → developing-skills → preparing-thesis → examination → planning-future.</strong> This is exactly the HDR lifecycle the faculty clones duplicate.</p>
+
+<h3>The 404 problem</h3>
+
+<p><strong>122 of 302 pages (40%)</strong> have the title "404 : Page" — these are dead pages that were crawled because they're still linked internally. This is the worst dead-link ratio of any domain analyzed. The gradresearch site has significant content rot, possibly from a recent restructure or migration.</p>
+
+<p>The 404s cluster in specific sections:</p>
+<ul>
+<li>`/being-a-candidate/making-changes` — many variation form pages are dead</li>
+<li>`/getting-started/resources-for-students` — resource link pages</li>
+<li>`/preparing-my-thesis` — thesis preparation guides</li>
+</ul>
+
+<h3>Link analysis</h3>
+
+<table>
+<tr><th>Outbound destination</th><th>Links in 30-page sample</th><th>Role</th></tr>
+<tr><td>www.unimelb.edu.au</td><td>199</td><td>Heavy chrome/nav — every page carries extensive unimelb chrome</td></tr>
+<tr><td>about.unimelb.edu.au</td><td>128</td><td>Policy/administrative</td></tr>
+<tr><td>students.unimelb.edu.au</td><td>53</td><td>Student hub — moderate connection</td></tr>
+<tr><td>gateway.research.unimelb.edu.au</td><td>36</td><td>Research gateway</td></tr>
+<tr><td>safety.unimelb.edu.au</td><td>32</td><td>Safety chrome</td></tr>
+<tr><td>staff.unimelb.edu.au</td><td>28</td><td>Staff pages — potential access-boundary leak</td></tr>
+<tr><td>library.unimelb.edu.au</td><td>15</td><td>Library</td></tr>
+<tr><td>research.unimelb.edu.au</td><td>14</td><td>Research</td></tr>
+<tr><td>search.unimelb.edu.au</td><td>14</td><td>Site search</td></tr>
+</table>
+
+<h3>Page weight</h3>
+
+<p>Median 156KB — moderately heavy. Max 705KB — some pages are very large (likely the thesis-with-publication detail pages). The chrome overhead (www + about + safety links on every page) contributes significantly.</p>
+
+<hr>
+
+<h2>What this means</h2>
+
+<h3>1. The canonical owner exists, works, and is well-structured — but rotting</h3>
+
+<p>gradresearch.unimelb.edu.au IS the HDR hub. Its IA maps cleanly to the HDR lifecycle. The content exists here. <strong>The 33 byte-identical faculty clones on education and mdhs are unnecessary — they duplicate content that already has a canonical home.</strong></p>
+
+<h3>2. The 40% 404 rate is an emergency</h3>
+
+<p>This is the worst dead-link ratio we've found. If the 4,123 inbound links from 18 domains are routing HDR students to this site, 40% of those links may be landing on dead pages. This needs immediate triage: which sections are dead, which inbound links point to them, and whether redirects exist.</p>
+
+<h3>3. The chrome overhead is extreme</h3>
+
+<p>199 www.unimelb + 128 about.unimelb + 32 safety links in just 30 sampled pages — every gradresearch page carries ~12 chrome links to the corporate site. This inflates page weight and dilutes the student's attention.</p>
+
+<h3>4. The research paradox is confirmed</h3>
+
+<p>The site is comprehensive for HDR candidates — candidature management, skills development, thesis preparation, examination. But it's off the student hub. The hub sends only 60 links; the faculties send 4,123. The content exists; the routing doesn't.</p>
+
+<hr>
+
+<h2>Recommendations</h2>
+
+<ol>
+<li>**Triage and fix the 122 404 pages.** Audit which sections are dead, identify inbound links, add 301 redirects or restore content. This is the #1 priority for gradresearch.</li>
+</ul>
+
+<ol>
+<li>**301 the 33 byte-identical faculty clones to their gradresearch equivalents.** The canonical content exists here. The education+mdhs duplicates are maintenance debt with no value.</li>
+</ul>
+
+<ol>
+<li>**Wire the hub to gradresearch.** The hub sends only 60 links to the HDR lifecycle. Add prominent "Research candidates → Graduate Research Hub" links from students.unimelb.</li>
+</ul>
+
+<ol>
+<li>**Reduce chrome overhead.** Trim the 12+ corporate chrome links per page to the essential 3-4.</li>
+</ul>
+
+<ol>
+<li>**Add the HDR lifecycle to the prospective PhD funnel.** The 6-page study.unimelb research-degree discovery experience should link to gradresearch's getting-started section.</li>
+</ul>
+
+<hr>
+
+<p><em>Built from: gradresearch crawl (302 pages), links.json sampling (30 pages), index.json structural analysis, near_dup.py byte-identical pair list. June 2026.</em></p>
+
+</main>
+</body>
+</html>

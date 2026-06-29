@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Careers Online Wiring · UoM Current Students IA</title>
+<style>@font-face{font-family:'Fraunces';src:url('assets/fonts/Fraunces-VariableFont_SOFT_WONK_opsz_wght.ttf') format('truetype');font-weight:100 900;font-display:swap}
+@font-face{font-family:'Source Sans 3';src:url('assets/fonts/SourceSans3-VariableFont_wght.ttf') format('truetype');font-weight:200 900;font-display:swap}
+@font-face{font-family:'Source Code Pro';src:url('assets/fonts/SourceCodePro-VariableFont_wght.ttf') format('truetype');font-weight:200 900;font-display:swap}
+:root{--navy:#000F46;--navy-light:#1B2D5C;--cyan:#46C8F0;--ink:#222;--ink-2:#555;--bg:#fff;--bg-nav:#000F46;--bg-subtle:#F3F3F6;--border:#DDDDE7;--red:#DB1927;--amber:#AC5907;--green:#31733B;--font-h:'Fraunces',Georgia,serif;--font-b:'Source Sans 3',system-ui,sans-serif;--font-m:'Source Code Pro',monospace;--nav-w:280px}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:var(--font-b);font-size:17px;line-height:1.65;color:var(--ink);background:var(--bg);display:flex;min-height:100vh;-webkit-font-smoothing:antialiased}
+a{color:#004EAD;text-decoration:none}a:hover{text-decoration:underline}
+
+/* ── LHS Navigation ── */
+nav.lhs{position:fixed;top:0;left:0;width:var(--nav-w);height:100vh;background:var(--bg-nav);color:#C9CDE6;overflow-y:auto;z-index:100;display:flex;flex-direction:column;font-size:14px;line-height:1.4}
+nav.lhs .logo{padding:24px 20px 16px;border-bottom:1px solid rgba(255,255,255,.1)}
+nav.lhs .logo img{height:26px}
+nav.lhs .logo a{display:block;color:#fff;font-family:var(--font-h);font-size:16px;font-weight:600;text-decoration:none;margin-top:8px}
+nav.lhs .nav-scroll{flex:1;overflow-y:auto;padding:8px 0 24px}
+nav.lhs .section{font-family:var(--font-m);font-size:11px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--cyan);padding:16px 20px 6px}
+nav.lhs a.nav-link{display:block;padding:5px 20px;color:#9BA3C4;text-decoration:none;transition:all .15s;border-left:3px solid transparent}
+nav.lhs a.nav-link:hover{color:#fff;background:rgba(255,255,255,.05)}
+nav.lhs a.nav-link.active{color:#fff;background:rgba(255,255,255,.08);border-left-color:var(--cyan)}
+nav.lhs .sep{border:none;border-top:1px solid rgba(255,255,255,.08);margin:8px 16px}
+nav.lhs .footer{padding:16px 20px;font-size:11px;color:#6B7394;border-top:1px solid rgba(255,255,255,.08)}
+
+/* ── Main content ── */
+main{margin-left:var(--nav-w);flex:1;min-width:0;padding:40px 56px 80px;max-width:900px}
+main h1{font-family:var(--font-h);font-size:42px;font-weight:700;color:var(--navy);line-height:1.07;letter-spacing:-.012em;margin:0 0 8px}
+main h2{font-family:var(--font-h);font-size:28px;font-weight:600;color:var(--navy);margin:48px 0 16px;padding-bottom:8px;border-bottom:2px solid var(--border);line-height:1.15}
+main h3{font-family:var(--font-h);font-size:20px;font-weight:600;color:var(--navy);margin:32px 0 10px;line-height:1.2}
+main h4{font-size:18px;font-weight:700;color:var(--navy);margin:24px 0 8px}
+main p{margin:12px 0}
+main .subtitle{color:var(--ink-2);font-style:italic;font-size:18px;margin-bottom:32px}
+main blockquote{border-left:3px solid var(--navy);padding:12px 20px;margin:20px 0;background:var(--bg-subtle);font-style:italic;color:var(--ink-2)}
+main code{font-family:var(--font-m);font-size:14px;background:var(--bg-subtle);padding:2px 6px;border-radius:3px}
+main table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+main th{background:var(--navy);color:#fff;padding:10px 14px;text-align:left;font-weight:600}
+main td{padding:8px 14px;border-bottom:1px solid var(--border)}
+main tr:nth-child(even) td{background:var(--bg-subtle)}
+main ul,main ol{margin:8px 0 8px 24px}
+main li{margin:4px 0}
+main hr{border:none;border-top:1px solid var(--border);margin:40px 0}
+main strong{color:var(--navy)}
+.severity-high{display:inline-block;padding:1px 8px;border-radius:3px;font-size:12px;font-weight:700;background:#FFEBEE;color:var(--red)}
+.severity-medium{display:inline-block;padding:1px 8px;border-radius:3px;font-size:12px;font-weight:700;background:#FFF8E1;color:var(--amber)}
+.effort{display:inline-block;padding:1px 8px;border-radius:3px;font-size:12px;font-weight:700;background:#E8F5E9;color:var(--green)}
+.footer-note{color:var(--ink-2);font-size:13px;font-style:italic;margin-top:48px;padding-top:16px;border-top:1px solid var(--border)}
+
+/* ── Mobile ── */
+.menu-toggle{display:none;position:fixed;top:12px;left:12px;z-index:200;background:var(--navy);color:#fff;border:none;border-radius:6px;padding:8px 12px;font-size:20px;cursor:pointer}
+@media(max-width:960px){
+  nav.lhs{transform:translateX(-100%);transition:transform .25s}
+  nav.lhs.open{transform:translateX(0)}
+  main{margin-left:0;padding:60px 24px 40px}
+  .menu-toggle{display:block}
+}
+</style>
+</head>
+<body>
+<button class="menu-toggle" onclick="document.getElementById('lhsNav').classList.toggle('open')">☰</button>
+<nav class="lhs" id="lhsNav">
+  <div class="logo">
+    <img src="assets/UoM_Logo_Horiz_onDark.svg" alt="UoM">
+    <a href="index.html">Current Students IA</a>
+  </div>
+  <div class="nav-scroll">
+    <a class="nav-link" href="index.html">🏠 Home</a>
+    <div class="section">📊 Project Summary</div>
+    <div class="section">🎯 Five Root Findings</div>
+    <hr class="sep">
+    <div class="section">📋 Key Reports</div>
+    <a class="nav-link" href="report/Improvements-Register.html"> Improvements Register</a>
+    <a class="nav-link" href="report/Lifecycle-Journeys.html"> Lifecycle Journeys</a>
+    <a class="nav-link" href="report/Course-Planning-Enrolment.html"> Course Planning</a>
+    <a class="nav-link" href="report/International-Student-Experience.html"> International Student</a>
+    <a class="nav-link" href="report/Student-Services-Fragmentation.html"> Services Fragmentation</a>
+    <a class="nav-link" href="report/Careers-Employability-WIL.html"> Careers & WIL</a>
+    <hr class="sep">
+    <div class="section">🔬 Structural Deep-Dives</div>
+    <a class="nav-link" href="analysis/graduation-alumni-handoff.html"> Graduation → Alumni</a>
+    <a class="nav-link active" href="analysis/careers-online-wiring.html"> Careers Online Wiring</a>
+    <a class="nav-link" href="analysis/prospective-current-handoff.html"> Prospective → Current</a>
+    <a class="nav-link" href="analysis/equity-indigenous-journey.html"> Equity & Indigenous</a>
+    <a class="nav-link" href="analysis/hdr-candidature-duplication.html"> HDR Duplication</a>
+    <a class="nav-link" href="analysis/forms-microsite-audit.html"> Forms & Microsites</a>
+    <hr class="sep">
+    <div class="section">📝 Content Quality</div>
+    <a class="nav-link" href="analysis/the-handbook.html"> The Handbook</a>
+    <a class="nav-link" href="analysis/fees-finance.html"> Fees & Finance</a>
+    <a class="nav-link" href="analysis/scholarships.html"> Scholarships</a>
+    <a class="nav-link" href="analysis/mobile-performance-audit.html"> Mobile & Performance</a>
+    <a class="nav-link" href="analysis/content-freshness-sandbox-leakage.html"> Content Freshness</a>
+    <a class="nav-link" href="analysis/content-quality-deep-dive.html"> Content Quality Audit</a>
+    <hr class="sep">
+    <div class="section">🔐 Authenticated Core</div>
+    <a class="nav-link" href="analysis/authenticated-core-audit.html"> Auth Core Audit</a>
+    <a class="nav-link" href="analysis/auth-hosts-live-check.html"> Live Host Check</a>
+    <a class="nav-link" href="analysis/authenticated-core-findings.html"> Auth Core Findings</a>
+    <hr class="sep">
+    <div class="section">🌐 Crawl Analyses</div>
+    <a class="nav-link" href="analysis/crawl-ask-unimelb.html"> ask.unimelb</a>
+    <a class="nav-link" href="analysis/crawl-gradresearch.html"> gradresearch</a>
+    <a class="nav-link" href="analysis/crawl-murrupbarak.html"> murrupbarak</a>
+    <a class="nav-link" href="analysis/crawl-safercommunity.html"> safercommunity</a>
+    <a class="nav-link" href="analysis/crawl-umsu.html"> umsu</a>
+    <a class="nav-link" href="analysis/crawl-online.html"> online.unimelb</a>
+    <a class="nav-link" href="analysis/crawl-sport.html"> sport</a>
+    <a class="nav-link" href="analysis/crawl-library.html"> library</a>
+    <a class="nav-link" href="analysis/crawl-studentit.html"> studentit</a>
+    <hr class="sep">
+    <div class="section">👤 Personas</div>
+    <a class="nav-link" href="personas/sam-planning-their-path.html"> Sam — Planning</a>
+    <a class="nav-link" href="personas/alex-at-risk-withdrawal.html"> Alex — At-risk</a>
+    <a class="nav-link" href="personas/priya-international-student.html"> Priya — International</a>
+    <a class="nav-link" href="personas/jordan-course-planning-maze.html"> Jordan — Course Maze</a>
+    <a class="nav-link" href="personas/taylor-wellbeing-mental-health.html"> Taylor — Wellbeing</a>
+    <hr class="sep">
+    <div class="section">📦 Deliverables</div>
+    <a class="nav-link" href="analysis/governance-summary-pack.html"> Governance Pack</a>
+    <a class="nav-link" href="analysis/quick-wins-checklist.html"> Quick Wins</a>
+    <a class="nav-link" href="analysis/final-synthesis.html"> Final Synthesis</a>
+  </div>
+  <div class="footer">UoM · Student Experience &amp; Design<br>June 2026 · 41,533 pages · 31 domains</div>
+</nav>
+
+<main>
+<h1>Careers Online Wiring</h1>
+<p class="subtitle">Faculty-by-faculty audit — 5 faculties send zero links.</p>
+<h1>Careers Online Wiring — Deep-Dive</h1>
+
+<p><em>The most cross-cutting student service in the estate is its least connected. 1,150 careers pages exist across 18 domains — but only 115 contextual links reach the careers platforms. 5 faculties send 0. This is the seam where the promise made to applicants ("career outcomes") never connects to the service that would deliver it. June 2026.</em></p>
+
+<hr>
+
+<h2>Executive summary</h2>
+
+<p>Careers is the service that should bind the student lifecycle together — from "why this degree?" on study.unimelb to "here is my first job" on Careers Online to "now mentor the next cohort" on the alumni platform. The University authors a great deal of it: <strong>1,150 careers and employability pages across 18 domains</strong>, plus 92 work-integrated-learning pages. But the <strong>actual service</strong> — the jobs board, employer connections, and appointment booking on careersonline.unimelb.edu.au — sits behind a login wall reached by just <strong>73 contextual links estate-wide</strong>. Another 27 reach the marketing site careers.unimelb.edu.au. 13 reach the career-checklist tool. 2 reach the employer portal. Total: <strong>115</strong>.</p>
+
+<p>Compare that to ask.unimelb (396), my.unimelb (187), or the Handbook (195) — and Careers Online carries fewer contextual links than a legacy FAQ knowledge base. The estate describes careers everywhere; it almost never lets a student <em>do</em> careers.</p>
+
+<hr>
+
+<h2>The wiring by the numbers</h2>
+
+<h3>The careers footprint</h3>
+
+<table>
+<tr><th>Component</th><th>Pages</th><th>Locations</th></tr>
+<tr><td>Faculty careers content</td><td>547</td><td>12+ faculty domains</td></tr>
+<tr><td>Prospective "career outcomes"</td><td>440</td><td>study.unimelb (per-course tabs)</td></tr>
+<tr><td>Central hub careers section</td><td>46</td><td>students.unimelb /careers</td></tr>
+<tr><td>Alumni careers</td><td>38</td><td>www.unimelb /alumni</td></tr>
+<tr><td>**Total careers pages**</td><td>**1,150**</td><td>**18 domains**</td></tr>
+</table>
+
+<h3>Contextual links to careers platforms</h3>
+
+<table>
+<tr><th>Careers platform</th><th>Role</th><th>Contextual links</th><th>Behind login?</th></tr>
+<tr><td>careersonline.unimelb.edu.au</td><td>Jobs board, appointments, employer connections — the actual service</td><td>73</td><td>Yes</td></tr>
+<tr><td>careers.unimelb.edu.au</td><td>Marketing / service information site</td><td>27</td><td>No</td></tr>
+<tr><td>career-checklist.unimelb.edu.au</td><td>Career readiness self-assessment tool</td><td>13</td><td>No</td></tr>
+<tr><td>employers.careersonline.unimelb.edu.au</td><td>Employer portal</td><td>2</td><td>Yes</td></tr>
+<tr><td>**Total**</td><td></td><td>**115**</td><td></td></tr>
+</table>
+
+<h3>Faculty-by-faculty: who wires careers and who doesn't</h3>
+
+<table>
+<tr><th>Faculty</th><th>careersonline</th><th>careers.unimelb</th><th>career-checklist</th><th>Total</th><th>Verdict</th></tr>
+<tr><td>eng</td><td>15</td><td>3</td><td>2</td><td>**20**</td><td>✅ Wired properly</td></tr>
+<tr><td>fbe</td><td>12</td><td>4</td><td>1</td><td>**17**</td><td>✅ Wired properly</td></tr>
+<tr><td>mbs</td><td>9</td><td>7</td><td>1</td><td>**17**</td><td>✅ Wired properly</td></tr>
+<tr><td>arts</td><td>10</td><td>0</td><td>2</td><td>**12**</td><td>⚠ Below floor</td></tr>
+<tr><td>finearts-music</td><td>2</td><td>0</td><td>1</td><td>**3**</td><td>⚠ Below floor</td></tr>
+<tr><td>biomed</td><td>1</td><td>0</td><td>1</td><td>**2**</td><td>❌ Near-zero</td></tr>
+<tr><td>msd</td><td>0</td><td>1</td><td>1</td><td>**2**</td><td>❌ Near-zero</td></tr>
+<tr><td>science</td><td>0</td><td>0</td><td>1</td><td>**1**</td><td>❌ Effectively zero</td></tr>
+<tr><td>law</td><td>0</td><td>1</td><td>0</td><td>**1**</td><td>❌ Effectively zero</td></tr>
+<tr><td>dental</td><td>0</td><td>0</td><td>0</td><td>**0**</td><td>❌ Zero</td></tr>
+<tr><td>education</td><td>0</td><td>0</td><td>0</td><td>**0**</td><td>❌ Zero</td></tr>
+<tr><td>mdhs</td><td>0</td><td>0</td><td>0</td><td>**0**</td><td>❌ Zero</td></tr>
+<tr><td>medicine</td><td>0</td><td>0</td><td>0</td><td>**0**</td><td>❌ Zero</td></tr>
+</table>
+
+<p><strong>Five faculties send zero links to any careers platform.</strong> Three more send exactly one. Together they cover medicine, health sciences, education, law, science, architecture — the majority of the University's student population.</p>
+
+<h3>The central hub's own wiring</h3>
+
+<p>Even <code>students.unimelb.edu.au</code> — which hosts a 36-page careers section — sends only <strong>32</strong> contextual links to careers platforms:</p>
+<ul>
+<li>22 to careersonline</li>
+<li>8 to careers.unimelb</li>
+<li>2 to career-checklist</li>
+</ul>
+
+<p>The hub's own careers section describes the service but barely links to the transactional platform. The find→act gap is present even at the centre.</p>
+
+<h3>The MSD paradox</h3>
+
+<p>MSD sends <strong>8,069 contextual links to students.unimelb</strong> — the most of any faculty by a factor of 40. But it sends exactly <strong>1 link to a careers platform</strong> (career-checklist). The faculty that links deepest into the student hub is the faculty that links least to the careers service.</p>
+
+<hr>
+
+<h2>Where the careers pages actually go</h2>
+
+<p>The 211 faculty placement/WIL pages emit 347 links to students.unimelb, but <strong>201 (57%) go to the bare homepage</strong> — generic, not careers content. Only a handful reach specific careers targets (Stop 1 ×18, /careers ×13, working-on-a-student-visa ×7). careersonline gets just <strong>11 inbound from all 211 placement pages combined</strong>. Placements and WIL — the most current-only, faculty-owned careers topic — dead-ends at the homepage.</p>
+
+<hr>
+
+<h2>The BCom duplicate tree</h2>
+
+<p>FBE and MBS double-host the entire Bachelor of Commerce careers estate: 59 shared tails, 46 scoring Jaccard ≥0.85. 35 MBS /career/ URLs contain "fbe" — MBS is literally serving FBE-branded student-calendar content. The two faculties maintain near-identical copies that drift out of sync across two CMSes, splitting link equity and confusing students.</p>
+
+<hr>
+
+<h2>Recommendations</h2>
+
+<h3>1. Add a "Find jobs & book a careers adviser → Careers Online" CTA to every faculty landing page `[HIGH · medium]`</h3>
+<p>Template change ×13 faculties. One consistent CTA, one destination. Target: lift every faculty to a floor of ~18 links (the eng/FBE pattern). This immediately serves the 8 faculties currently at or near zero.</p>
+
+<h3>2. Make the central hub careers section wire Careers Online prominently `[HIGH · quick-win]`</h3>
+<p>The 36-page central careers section describes the service. Add a consistent "Find jobs / Book an appointment → Careers Online" CTA from every page. The hub should be the exemplar, not another gap.</p>
+
+<h3>3. Replace bare-homepage links from placement/WIL pages with deep careers links `[MEDIUM · medium]`</h3>
+<p>201 of 347 placement→students links go to the bare homepage. Replace with deep links to the central careers service + Careers Online + WIL-relevant pages. Establish one central WIL hub page.</p>
+
+<h3>4. De-duplicate the BCom careers tree — one owner, one URL `[HIGH · medium]`</h3>
+<p>Designate fbe.unimelb.edu.au/bcom/career as the single owner. 301-redirect the 46 MBS /career/ tails scoring ≥0.85. Eyeball the remaining 12 for MBS-specific localisation.</p>
+
+<h3>5. Surface Careers Online from prospective career-outcomes pages `[MEDIUM · medium]`</h3>
+<p>The 440 per-course "career outcomes" tabs on study.unimelb sell the career promise. Add a forward link: "See how we help you get there → Careers and Employability" so the promise connects to the service before enrolment.</p>
+
+<h3>6. Establish a floor of 18 contextual links per faculty `[MEDIUM · medium]`</h3>
+<p>Make it a governance requirement: every faculty's "current students" section must deep-link Careers Online at least once. The eng/FBE pattern is proven — replicate it everywhere.</p>
+
+<hr>
+
+<h2>Linked improvements from the register</h2>
+
+<table>
+<tr><th>#</th><th>Improvement</th><th>Severity · Effort</th></tr>
+<tr><td>8</td><td>Wire faculty + hub to central Careers Online at the apply-for-jobs moment</td><td>HIGH · medium</td></tr>
+<tr><td>3.8</td><td>Give faculty placement/WIL pages real deep-links into careers + WIL spine</td><td>MEDIUM · medium</td></tr>
+<tr><td>4.2</td><td>Decommission MBS's duplicate BCom careers tree (46 confirmed-duplicate tails)</td><td>HIGH · medium</td></tr>
+<tr><td>4.3</td><td>Extract 7-faculty "Employability in X" template clone into one central component</td><td>MEDIUM · medium</td></tr>
+</table>
+
+<hr>
+
+<p><em>Built from: cross-site-flow.csv (careers platform links), careers-pages.csv (1,150 pages), careers-employability-wil.md (existing deep-dive), improvements-register.md (items 8, 3.8, 4.2, 4.3), and the full-scrape link graph. June 2026.</em></p>
+
+</main>
+</body>
+</html>

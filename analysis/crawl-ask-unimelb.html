@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ask.unimelb.edu.au · UoM Current Students IA</title>
+<style>@font-face{font-family:'Fraunces';src:url('assets/fonts/Fraunces-VariableFont_SOFT_WONK_opsz_wght.ttf') format('truetype');font-weight:100 900;font-display:swap}
+@font-face{font-family:'Source Sans 3';src:url('assets/fonts/SourceSans3-VariableFont_wght.ttf') format('truetype');font-weight:200 900;font-display:swap}
+@font-face{font-family:'Source Code Pro';src:url('assets/fonts/SourceCodePro-VariableFont_wght.ttf') format('truetype');font-weight:200 900;font-display:swap}
+:root{--navy:#000F46;--navy-light:#1B2D5C;--cyan:#46C8F0;--ink:#222;--ink-2:#555;--bg:#fff;--bg-nav:#000F46;--bg-subtle:#F3F3F6;--border:#DDDDE7;--red:#DB1927;--amber:#AC5907;--green:#31733B;--font-h:'Fraunces',Georgia,serif;--font-b:'Source Sans 3',system-ui,sans-serif;--font-m:'Source Code Pro',monospace;--nav-w:280px}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:var(--font-b);font-size:17px;line-height:1.65;color:var(--ink);background:var(--bg);display:flex;min-height:100vh;-webkit-font-smoothing:antialiased}
+a{color:#004EAD;text-decoration:none}a:hover{text-decoration:underline}
+
+/* ── LHS Navigation ── */
+nav.lhs{position:fixed;top:0;left:0;width:var(--nav-w);height:100vh;background:var(--bg-nav);color:#C9CDE6;overflow-y:auto;z-index:100;display:flex;flex-direction:column;font-size:14px;line-height:1.4}
+nav.lhs .logo{padding:24px 20px 16px;border-bottom:1px solid rgba(255,255,255,.1)}
+nav.lhs .logo img{height:26px}
+nav.lhs .logo a{display:block;color:#fff;font-family:var(--font-h);font-size:16px;font-weight:600;text-decoration:none;margin-top:8px}
+nav.lhs .nav-scroll{flex:1;overflow-y:auto;padding:8px 0 24px}
+nav.lhs .section{font-family:var(--font-m);font-size:11px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--cyan);padding:16px 20px 6px}
+nav.lhs a.nav-link{display:block;padding:5px 20px;color:#9BA3C4;text-decoration:none;transition:all .15s;border-left:3px solid transparent}
+nav.lhs a.nav-link:hover{color:#fff;background:rgba(255,255,255,.05)}
+nav.lhs a.nav-link.active{color:#fff;background:rgba(255,255,255,.08);border-left-color:var(--cyan)}
+nav.lhs .sep{border:none;border-top:1px solid rgba(255,255,255,.08);margin:8px 16px}
+nav.lhs .footer{padding:16px 20px;font-size:11px;color:#6B7394;border-top:1px solid rgba(255,255,255,.08)}
+
+/* ── Main content ── */
+main{margin-left:var(--nav-w);flex:1;min-width:0;padding:40px 56px 80px;max-width:900px}
+main h1{font-family:var(--font-h);font-size:42px;font-weight:700;color:var(--navy);line-height:1.07;letter-spacing:-.012em;margin:0 0 8px}
+main h2{font-family:var(--font-h);font-size:28px;font-weight:600;color:var(--navy);margin:48px 0 16px;padding-bottom:8px;border-bottom:2px solid var(--border);line-height:1.15}
+main h3{font-family:var(--font-h);font-size:20px;font-weight:600;color:var(--navy);margin:32px 0 10px;line-height:1.2}
+main h4{font-size:18px;font-weight:700;color:var(--navy);margin:24px 0 8px}
+main p{margin:12px 0}
+main .subtitle{color:var(--ink-2);font-style:italic;font-size:18px;margin-bottom:32px}
+main blockquote{border-left:3px solid var(--navy);padding:12px 20px;margin:20px 0;background:var(--bg-subtle);font-style:italic;color:var(--ink-2)}
+main code{font-family:var(--font-m);font-size:14px;background:var(--bg-subtle);padding:2px 6px;border-radius:3px}
+main table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+main th{background:var(--navy);color:#fff;padding:10px 14px;text-align:left;font-weight:600}
+main td{padding:8px 14px;border-bottom:1px solid var(--border)}
+main tr:nth-child(even) td{background:var(--bg-subtle)}
+main ul,main ol{margin:8px 0 8px 24px}
+main li{margin:4px 0}
+main hr{border:none;border-top:1px solid var(--border);margin:40px 0}
+main strong{color:var(--navy)}
+.severity-high{display:inline-block;padding:1px 8px;border-radius:3px;font-size:12px;font-weight:700;background:#FFEBEE;color:var(--red)}
+.severity-medium{display:inline-block;padding:1px 8px;border-radius:3px;font-size:12px;font-weight:700;background:#FFF8E1;color:var(--amber)}
+.effort{display:inline-block;padding:1px 8px;border-radius:3px;font-size:12px;font-weight:700;background:#E8F5E9;color:var(--green)}
+.footer-note{color:var(--ink-2);font-size:13px;font-style:italic;margin-top:48px;padding-top:16px;border-top:1px solid var(--border)}
+
+/* ── Mobile ── */
+.menu-toggle{display:none;position:fixed;top:12px;left:12px;z-index:200;background:var(--navy);color:#fff;border:none;border-radius:6px;padding:8px 12px;font-size:20px;cursor:pointer}
+@media(max-width:960px){
+  nav.lhs{transform:translateX(-100%);transition:transform .25s}
+  nav.lhs.open{transform:translateX(0)}
+  main{margin-left:0;padding:60px 24px 40px}
+  .menu-toggle{display:block}
+}
+</style>
+</head>
+<body>
+<button class="menu-toggle" onclick="document.getElementById('lhsNav').classList.toggle('open')">☰</button>
+<nav class="lhs" id="lhsNav">
+  <div class="logo">
+    <img src="assets/UoM_Logo_Horiz_onDark.svg" alt="UoM">
+    <a href="index.html">Current Students IA</a>
+  </div>
+  <div class="nav-scroll">
+    <a class="nav-link" href="index.html">🏠 Home</a>
+    <div class="section">📊 Project Summary</div>
+    <div class="section">🎯 Five Root Findings</div>
+    <hr class="sep">
+    <div class="section">📋 Key Reports</div>
+    <a class="nav-link" href="report/Improvements-Register.html"> Improvements Register</a>
+    <a class="nav-link" href="report/Lifecycle-Journeys.html"> Lifecycle Journeys</a>
+    <a class="nav-link" href="report/Course-Planning-Enrolment.html"> Course Planning</a>
+    <a class="nav-link" href="report/International-Student-Experience.html"> International Student</a>
+    <a class="nav-link" href="report/Student-Services-Fragmentation.html"> Services Fragmentation</a>
+    <a class="nav-link" href="report/Careers-Employability-WIL.html"> Careers & WIL</a>
+    <hr class="sep">
+    <div class="section">🔬 Structural Deep-Dives</div>
+    <a class="nav-link" href="analysis/graduation-alumni-handoff.html"> Graduation → Alumni</a>
+    <a class="nav-link" href="analysis/careers-online-wiring.html"> Careers Online Wiring</a>
+    <a class="nav-link" href="analysis/prospective-current-handoff.html"> Prospective → Current</a>
+    <a class="nav-link" href="analysis/equity-indigenous-journey.html"> Equity & Indigenous</a>
+    <a class="nav-link" href="analysis/hdr-candidature-duplication.html"> HDR Duplication</a>
+    <a class="nav-link" href="analysis/forms-microsite-audit.html"> Forms & Microsites</a>
+    <hr class="sep">
+    <div class="section">📝 Content Quality</div>
+    <a class="nav-link" href="analysis/the-handbook.html"> The Handbook</a>
+    <a class="nav-link" href="analysis/fees-finance.html"> Fees & Finance</a>
+    <a class="nav-link" href="analysis/scholarships.html"> Scholarships</a>
+    <a class="nav-link" href="analysis/mobile-performance-audit.html"> Mobile & Performance</a>
+    <a class="nav-link" href="analysis/content-freshness-sandbox-leakage.html"> Content Freshness</a>
+    <a class="nav-link" href="analysis/content-quality-deep-dive.html"> Content Quality Audit</a>
+    <hr class="sep">
+    <div class="section">🔐 Authenticated Core</div>
+    <a class="nav-link" href="analysis/authenticated-core-audit.html"> Auth Core Audit</a>
+    <a class="nav-link" href="analysis/auth-hosts-live-check.html"> Live Host Check</a>
+    <a class="nav-link" href="analysis/authenticated-core-findings.html"> Auth Core Findings</a>
+    <hr class="sep">
+    <div class="section">🌐 Crawl Analyses</div>
+    <a class="nav-link active" href="analysis/crawl-ask-unimelb.html"> ask.unimelb</a>
+    <a class="nav-link" href="analysis/crawl-gradresearch.html"> gradresearch</a>
+    <a class="nav-link" href="analysis/crawl-murrupbarak.html"> murrupbarak</a>
+    <a class="nav-link" href="analysis/crawl-safercommunity.html"> safercommunity</a>
+    <a class="nav-link" href="analysis/crawl-umsu.html"> umsu</a>
+    <a class="nav-link" href="analysis/crawl-online.html"> online.unimelb</a>
+    <a class="nav-link" href="analysis/crawl-sport.html"> sport</a>
+    <a class="nav-link" href="analysis/crawl-library.html"> library</a>
+    <a class="nav-link" href="analysis/crawl-studentit.html"> studentit</a>
+    <hr class="sep">
+    <div class="section">👤 Personas</div>
+    <a class="nav-link" href="personas/sam-planning-their-path.html"> Sam — Planning</a>
+    <a class="nav-link" href="personas/alex-at-risk-withdrawal.html"> Alex — At-risk</a>
+    <a class="nav-link" href="personas/priya-international-student.html"> Priya — International</a>
+    <a class="nav-link" href="personas/jordan-course-planning-maze.html"> Jordan — Course Maze</a>
+    <a class="nav-link" href="personas/taylor-wellbeing-mental-health.html"> Taylor — Wellbeing</a>
+    <hr class="sep">
+    <div class="section">📦 Deliverables</div>
+    <a class="nav-link" href="analysis/governance-summary-pack.html"> Governance Pack</a>
+    <a class="nav-link" href="analysis/quick-wins-checklist.html"> Quick Wins</a>
+    <a class="nav-link" href="analysis/final-synthesis.html"> Final Synthesis</a>
+  </div>
+  <div class="footer">UoM · Student Experience &amp; Design<br>June 2026 · 41,533 pages · 31 domains</div>
+</nav>
+
+<main>
+<h1>ask.unimelb.edu.au</h1>
+<p class="subtitle">515 pages — 393 FAQ articles, two URL formats confirmed.</p>
+<h1>ask.unimelb.edu.au — Crawl Analysis</h1>
+
+<p><em>The legacy FAQ knowledge base — 515 pages, 393 FAQ articles. The hub's #1 outbound destination (444 links). Where the actual answers to enrolment, fees, census, and visa questions live. June 2026.</em></p>
+
+<hr>
+
+<h2>What we found</h2>
+
+<p>The ask.unimelb crawl confirms everything the link-graph analysis inferred. This is a legacy FAQ knowledge base with <strong>515 pages</strong>, overwhelmingly FAQ articles (393), served under <strong>two inconsistent URL formats</strong> — the root cause of the duplicate-link problem identified in the course-planning deep-dive.</p>
+
+<h3>Structure</h3>
+
+<table>
+<tr><th>Pattern</th><th>Count</th><th>Notes</th></tr>
+<tr><td>FAQ articles (`/app/answers/detail/a_id/####` or `/faq/####`)</td><td>393</td><td>Two URL formats for the same content</td></tr>
+<tr><td>Category pages</td><td>15</td><td>FAQ category indexes</td></tr>
+<tr><td>"Page not found"</td><td>10</td><td>Dead FAQ articles still linked</td></tr>
+<tr><td>Other (WAM, fee remission, enrolment)</td><td>~12</td><td>Standalone content pages</td></tr>
+</table>
+
+<h3>Content domains</h3>
+
+<p>Sampling 30 FAQ article titles reveals the topics the hub defers to:</p>
+
+<table>
+<tr><th>Topic</th><th>Sample titles</th></tr>
+<tr><td>**Fees & finance**</td><td>Fee Account Statement, Fees-Statement of Liability, Fees Due Dates, Fee remission, How can I check my fees and payments?</td></tr>
+<tr><td>**Enrolment**</td><td>Enrolling in subjects, Applying for an Extension</td></tr>
+<tr><td>**Academic progress**</td><td>Academic progress, Weighted Average Mark</td></tr>
+<tr><td>**Admin**</td><td>Accessing student email</td></tr>
+<tr><td>**Visa**</td><td>(linked from services.unimelb, not ask directly)</td></tr>
+</table>
+
+<h3>The two-URL-format problem confirmed</h3>
+
+<p>The FAQ articles exist under BOTH:</p>
+<ul>
+<li>`/app/answers/detail/a_id/####` (79 pages in the crawl)</li>
+<li>`/faq/####/slug` (436 pages in the crawl)</li>
+</ul>
+
+<p>This is the URL duplication the course-planning deep-dive identified: <strong>the same content served under two inconsistent URL formats, with the hub linking both.</strong> The index shows both formats exist and are crawled as separate pages.</p>
+
+<h3>Link analysis</h3>
+
+<table>
+<tr><th>Outbound destination</th><th>Links in 30-page sample</th><th>Role</th></tr>
+<tr><td>www.unimelb.edu.au</td><td>108</td><td>Chrome/nav links</td></tr>
+<tr><td>**students.unimelb.edu.au**</td><td>**100**</td><td>Hub — FAQ links back to the hub heavily</td></tr>
+<tr><td>safety.unimelb.edu.au</td><td>30</td><td>Chrome links</td></tr>
+<tr><td>services.unimelb.edu.au</td><td>24</td><td>Service delivery</td></tr>
+<tr><td>about.unimelb.edu.au</td><td>24</td><td>Chrome links</td></tr>
+<tr><td>my.unimelb.edu.au</td><td>15</td><td>SIS — "go do it in my.unimelb"</td></tr>
+<tr><td>study.unimelb.edu.au</td><td>15</td><td>Prospective site</td></tr>
+<tr><td>library.unimelb.edu.au</td><td>9</td><td>Library</td></tr>
+<tr><td>forms.your.unimelb.edu.au</td><td>8</td><td>Transactional forms</td></tr>
+</table>
+
+<p>The FAQ links BACK to the hub 100 times in just 30 pages — confirming the tight hub↔FAQ coupling. The hub describes; the FAQ answers; the FAQ routes back to the hub. This is a working but fragile dependency.</p>
+
+<h3>Page weight</h3>
+
+<p>Median 45KB — lightweight, text-dominant. The FAQ is built on a simple platform with minimal assets. This is actually one of the better-performing sites in the estate by weight.</p>
+
+<hr>
+
+<h2>What this means</h2>
+
+<h3>1. The FAQ IS the answers layer — and it's legacy</h3>
+
+<p>The hub's enrolment, fees, census, and visa pages describe the topic in 1-2 paragraphs, then link to ask.unimelb for the actual answer. The FAQ carries the operational detail: census dates with consequences, fee payment methods, enrolment variation procedures, academic progress rules. <strong>The hub is the table of contents; the FAQ is the book.</strong></p>
+
+<h3>2. The two-URL-format problem is real and confirmed</h3>
+
+<p>Both <code>/app/answers/detail/a_id/####</code> and <code>/faq/####</code> serve the same FAQ articles. Links from the hub use both formats. This splits link equity, dilutes analytics, and creates canonical ambiguity. The fix recommended in the course-planning deep-dive (standardise to one format, 301 the other) is directly confirmed by the crawl.</p>
+
+<h3>3. 10 FAQ pages are dead</h3>
+
+<p>"Page not found" articles still exist and may still be linked. This is the same stale-content problem seen across the estate.</p>
+
+<h3>4. The FAQ platform is simple and fast</h3>
+
+<p>45KB median pages, text-heavy, minimal assets. If the plan is to migrate FAQ answers into the hub (as recommended by the improvements register), the content is well-structured and portable.</p>
+
+<hr>
+
+<h2>Recommendations</h2>
+
+<ol>
+<li>**Standardise to ONE FAQ URL format.** 301 `/app/answers/detail/a_id/####` to `/faq/####` (or vice versa). Fix the 396 hub links to use the canonical format.</li>
+</ul>
+
+<ol>
+<li>**Migrate high-traffic answers into the hub.** Census dates, fee payment methods, enrolment procedures — the operational core should live on students.unimelb, not a legacy FAQ. Keep the FAQ for long-tail questions.</li>
+</ul>
+
+<ol>
+<li>**Remove the 10 dead FAQ pages** and fix any inbound links pointing to them.</li>
+</ul>
+
+<ol>
+<li>**Add rel=canonical** to all FAQ articles pointing to the single canonical URL.</li>
+</ul>
+
+<hr>
+
+<p><em>Built from: ask.unimelb crawl (515 pages), links.json sampling (30 pages), index.json structural analysis. June 2026.</em></p>
+
+</main>
+</body>
+</html>

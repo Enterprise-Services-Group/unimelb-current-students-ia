@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>umsu.unimelb.edu.au · UoM Current Students IA</title>
+<style>@font-face{font-family:'Fraunces';src:url('assets/fonts/Fraunces-VariableFont_SOFT_WONK_opsz_wght.ttf') format('truetype');font-weight:100 900;font-display:swap}
+@font-face{font-family:'Source Sans 3';src:url('assets/fonts/SourceSans3-VariableFont_wght.ttf') format('truetype');font-weight:200 900;font-display:swap}
+@font-face{font-family:'Source Code Pro';src:url('assets/fonts/SourceCodePro-VariableFont_wght.ttf') format('truetype');font-weight:200 900;font-display:swap}
+:root{--navy:#000F46;--navy-light:#1B2D5C;--cyan:#46C8F0;--ink:#222;--ink-2:#555;--bg:#fff;--bg-nav:#000F46;--bg-subtle:#F3F3F6;--border:#DDDDE7;--red:#DB1927;--amber:#AC5907;--green:#31733B;--font-h:'Fraunces',Georgia,serif;--font-b:'Source Sans 3',system-ui,sans-serif;--font-m:'Source Code Pro',monospace;--nav-w:280px}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:var(--font-b);font-size:17px;line-height:1.65;color:var(--ink);background:var(--bg);display:flex;min-height:100vh;-webkit-font-smoothing:antialiased}
+a{color:#004EAD;text-decoration:none}a:hover{text-decoration:underline}
+
+/* ── LHS Navigation ── */
+nav.lhs{position:fixed;top:0;left:0;width:var(--nav-w);height:100vh;background:var(--bg-nav);color:#C9CDE6;overflow-y:auto;z-index:100;display:flex;flex-direction:column;font-size:14px;line-height:1.4}
+nav.lhs .logo{padding:24px 20px 16px;border-bottom:1px solid rgba(255,255,255,.1)}
+nav.lhs .logo img{height:26px}
+nav.lhs .logo a{display:block;color:#fff;font-family:var(--font-h);font-size:16px;font-weight:600;text-decoration:none;margin-top:8px}
+nav.lhs .nav-scroll{flex:1;overflow-y:auto;padding:8px 0 24px}
+nav.lhs .section{font-family:var(--font-m);font-size:11px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--cyan);padding:16px 20px 6px}
+nav.lhs a.nav-link{display:block;padding:5px 20px;color:#9BA3C4;text-decoration:none;transition:all .15s;border-left:3px solid transparent}
+nav.lhs a.nav-link:hover{color:#fff;background:rgba(255,255,255,.05)}
+nav.lhs a.nav-link.active{color:#fff;background:rgba(255,255,255,.08);border-left-color:var(--cyan)}
+nav.lhs .sep{border:none;border-top:1px solid rgba(255,255,255,.08);margin:8px 16px}
+nav.lhs .footer{padding:16px 20px;font-size:11px;color:#6B7394;border-top:1px solid rgba(255,255,255,.08)}
+
+/* ── Main content ── */
+main{margin-left:var(--nav-w);flex:1;min-width:0;padding:40px 56px 80px;max-width:900px}
+main h1{font-family:var(--font-h);font-size:42px;font-weight:700;color:var(--navy);line-height:1.07;letter-spacing:-.012em;margin:0 0 8px}
+main h2{font-family:var(--font-h);font-size:28px;font-weight:600;color:var(--navy);margin:48px 0 16px;padding-bottom:8px;border-bottom:2px solid var(--border);line-height:1.15}
+main h3{font-family:var(--font-h);font-size:20px;font-weight:600;color:var(--navy);margin:32px 0 10px;line-height:1.2}
+main h4{font-size:18px;font-weight:700;color:var(--navy);margin:24px 0 8px}
+main p{margin:12px 0}
+main .subtitle{color:var(--ink-2);font-style:italic;font-size:18px;margin-bottom:32px}
+main blockquote{border-left:3px solid var(--navy);padding:12px 20px;margin:20px 0;background:var(--bg-subtle);font-style:italic;color:var(--ink-2)}
+main code{font-family:var(--font-m);font-size:14px;background:var(--bg-subtle);padding:2px 6px;border-radius:3px}
+main table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+main th{background:var(--navy);color:#fff;padding:10px 14px;text-align:left;font-weight:600}
+main td{padding:8px 14px;border-bottom:1px solid var(--border)}
+main tr:nth-child(even) td{background:var(--bg-subtle)}
+main ul,main ol{margin:8px 0 8px 24px}
+main li{margin:4px 0}
+main hr{border:none;border-top:1px solid var(--border);margin:40px 0}
+main strong{color:var(--navy)}
+.severity-high{display:inline-block;padding:1px 8px;border-radius:3px;font-size:12px;font-weight:700;background:#FFEBEE;color:var(--red)}
+.severity-medium{display:inline-block;padding:1px 8px;border-radius:3px;font-size:12px;font-weight:700;background:#FFF8E1;color:var(--amber)}
+.effort{display:inline-block;padding:1px 8px;border-radius:3px;font-size:12px;font-weight:700;background:#E8F5E9;color:var(--green)}
+.footer-note{color:var(--ink-2);font-size:13px;font-style:italic;margin-top:48px;padding-top:16px;border-top:1px solid var(--border)}
+
+/* ── Mobile ── */
+.menu-toggle{display:none;position:fixed;top:12px;left:12px;z-index:200;background:var(--navy);color:#fff;border:none;border-radius:6px;padding:8px 12px;font-size:20px;cursor:pointer}
+@media(max-width:960px){
+  nav.lhs{transform:translateX(-100%);transition:transform .25s}
+  nav.lhs.open{transform:translateX(0)}
+  main{margin-left:0;padding:60px 24px 40px}
+  .menu-toggle{display:block}
+}
+</style>
+</head>
+<body>
+<button class="menu-toggle" onclick="document.getElementById('lhsNav').classList.toggle('open')">☰</button>
+<nav class="lhs" id="lhsNav">
+  <div class="logo">
+    <img src="assets/UoM_Logo_Horiz_onDark.svg" alt="UoM">
+    <a href="index.html">Current Students IA</a>
+  </div>
+  <div class="nav-scroll">
+    <a class="nav-link" href="index.html">🏠 Home</a>
+    <div class="section">📊 Project Summary</div>
+    <div class="section">🎯 Five Root Findings</div>
+    <hr class="sep">
+    <div class="section">📋 Key Reports</div>
+    <a class="nav-link" href="report/Improvements-Register.html"> Improvements Register</a>
+    <a class="nav-link" href="report/Lifecycle-Journeys.html"> Lifecycle Journeys</a>
+    <a class="nav-link" href="report/Course-Planning-Enrolment.html"> Course Planning</a>
+    <a class="nav-link" href="report/International-Student-Experience.html"> International Student</a>
+    <a class="nav-link" href="report/Student-Services-Fragmentation.html"> Services Fragmentation</a>
+    <a class="nav-link" href="report/Careers-Employability-WIL.html"> Careers & WIL</a>
+    <hr class="sep">
+    <div class="section">🔬 Structural Deep-Dives</div>
+    <a class="nav-link" href="analysis/graduation-alumni-handoff.html"> Graduation → Alumni</a>
+    <a class="nav-link" href="analysis/careers-online-wiring.html"> Careers Online Wiring</a>
+    <a class="nav-link" href="analysis/prospective-current-handoff.html"> Prospective → Current</a>
+    <a class="nav-link" href="analysis/equity-indigenous-journey.html"> Equity & Indigenous</a>
+    <a class="nav-link" href="analysis/hdr-candidature-duplication.html"> HDR Duplication</a>
+    <a class="nav-link" href="analysis/forms-microsite-audit.html"> Forms & Microsites</a>
+    <hr class="sep">
+    <div class="section">📝 Content Quality</div>
+    <a class="nav-link" href="analysis/the-handbook.html"> The Handbook</a>
+    <a class="nav-link" href="analysis/fees-finance.html"> Fees & Finance</a>
+    <a class="nav-link" href="analysis/scholarships.html"> Scholarships</a>
+    <a class="nav-link" href="analysis/mobile-performance-audit.html"> Mobile & Performance</a>
+    <a class="nav-link" href="analysis/content-freshness-sandbox-leakage.html"> Content Freshness</a>
+    <a class="nav-link" href="analysis/content-quality-deep-dive.html"> Content Quality Audit</a>
+    <hr class="sep">
+    <div class="section">🔐 Authenticated Core</div>
+    <a class="nav-link" href="analysis/authenticated-core-audit.html"> Auth Core Audit</a>
+    <a class="nav-link" href="analysis/auth-hosts-live-check.html"> Live Host Check</a>
+    <a class="nav-link" href="analysis/authenticated-core-findings.html"> Auth Core Findings</a>
+    <hr class="sep">
+    <div class="section">🌐 Crawl Analyses</div>
+    <a class="nav-link" href="analysis/crawl-ask-unimelb.html"> ask.unimelb</a>
+    <a class="nav-link" href="analysis/crawl-gradresearch.html"> gradresearch</a>
+    <a class="nav-link" href="analysis/crawl-murrupbarak.html"> murrupbarak</a>
+    <a class="nav-link" href="analysis/crawl-safercommunity.html"> safercommunity</a>
+    <a class="nav-link active" href="analysis/crawl-umsu.html"> umsu</a>
+    <a class="nav-link" href="analysis/crawl-online.html"> online.unimelb</a>
+    <a class="nav-link" href="analysis/crawl-sport.html"> sport</a>
+    <a class="nav-link" href="analysis/crawl-library.html"> library</a>
+    <a class="nav-link" href="analysis/crawl-studentit.html"> studentit</a>
+    <hr class="sep">
+    <div class="section">👤 Personas</div>
+    <a class="nav-link" href="personas/sam-planning-their-path.html"> Sam — Planning</a>
+    <a class="nav-link" href="personas/alex-at-risk-withdrawal.html"> Alex — At-risk</a>
+    <a class="nav-link" href="personas/priya-international-student.html"> Priya — International</a>
+    <a class="nav-link" href="personas/jordan-course-planning-maze.html"> Jordan — Course Maze</a>
+    <a class="nav-link" href="personas/taylor-wellbeing-mental-health.html"> Taylor — Wellbeing</a>
+    <hr class="sep">
+    <div class="section">📦 Deliverables</div>
+    <a class="nav-link" href="analysis/governance-summary-pack.html"> Governance Pack</a>
+    <a class="nav-link" href="analysis/quick-wins-checklist.html"> Quick Wins</a>
+    <a class="nav-link" href="analysis/final-synthesis.html"> Final Synthesis</a>
+  </div>
+  <div class="footer">UoM · Student Experience &amp; Design<br>June 2026 · 41,533 pages · 31 domains</div>
+</nav>
+
+<main>
+<h1>umsu.unimelb.edu.au</h1>
+<p class="subtitle">800 pages — 720KB median, 6.4MB max, extremely insular.</p>
+<h1>umsu.unimelb.edu.au — Crawl Analysis</h1>
+
+<p><em>The University of Melbourne Student Union — 800 pages, the second-largest new domain crawled. Independent organization, not UoM CMS. 266 pages are clubs directory. Median 720KB — extraordinarily heavy. Very insular: almost no outbound links to the rest of the unimelb estate. June 2026.</em></p>
+
+<hr>
+
+<h2>What we found</h2>
+
+<p>UMSU is the independent student union — not part of the University's CMS, not governed by the same web standards. At 800 pages, it's the second-largest new domain (after sport at 444). But it's structurally and operationally separate from the rest of the student estate.</p>
+
+<h3>Structure</h3>
+
+<table>
+<tr><th>Section</th><th>Pages</th><th>Content</th></tr>
+<tr><td>`/buddy-up/clubs`</td><td>266</td><td>Clubs directory — by far the largest section</td></tr>
+<tr><td>`/make-difference/eduacademic`</td><td>67</td><td>Education & academic advocacy</td></tr>
+<tr><td>`/support/advocacy`</td><td>50</td><td>Student advocacy services</td></tr>
+<tr><td>`/express-yourself/theatre`</td><td>35</td><td>Theatre & arts</td></tr>
+<tr><td>`/guide/article`</td><td>33</td><td>Guide articles</td></tr>
+<tr><td>`/about/secretariat`</td><td>19</td><td>Governance & secretariat</td></tr>
+<tr><td>`/express-yourself/gallery`</td><td>17</td><td>Photo galleries</td></tr>
+<tr><td>`/support/welfare`</td><td>14</td><td>Welfare support</td></tr>
+<tr><td>Other</td><td>299</td><td>Remaining sections</td></tr>
+</table>
+
+<p>The IA reflects a student union: clubs, advocacy, arts, welfare, governance. This is not a University service site — it's a student-run organization.</p>
+
+<h3>Content profile</h3>
+
+<ul>
+<li>266 pages are clubs directory — 33% of the site</li>
+<li>"Login" appears as a top title pattern (10 pages) — suggesting authenticated areas</li>
+<li>Topics: People of Colour, Safe Student Activism, Elections, Academic Misconduct — distinctly student-union content</li>
+<li>492 of 800 pages have non-empty titles — 308 have empty or generic titles</li>
+</ul>
+
+<h3>Link analysis — extremely insular</h3>
+
+<table>
+<tr><th>Outbound destination</th><th>Links in 19-page sample</th></tr>
+<tr><td>intl.umsu.unimelb.edu.au</td><td>4</td></tr>
+<tr><td>students.unimelb.edu.au</td><td>3</td></tr>
+<tr><td>q.surveys.unimelb.edu.au</td><td>1</td></tr>
+</table>
+
+<p><strong>Only 8 outbound unimelb links across 19 sampled pages.</strong> UMSU is remarkably insular — it barely links to the student hub, library, or any other University service. This is likely by design (independent organization) but means a student on UMSU has almost no path back to the University estate.</p>
+
+<h3>Page weight — catastrophically heavy</h3>
+
+<table>
+<tr><th>Metric</th><th>Value</th></tr>
+<tr><td>Median</td><td>**720KB**</td></tr>
+<tr><td>Max</td><td>**6,365KB (6.4MB)**</td></tr>
+<tr><td>Min</td><td>114KB</td></tr>
+</table>
+
+<p>These are the heaviest pages in the entire estate. The 6.4MB max is the single largest page we've encountered. UMSU is not on the University's CMS and has no page-weight governance.</p>
+
+<hr>
+
+<h2>What this means</h2>
+
+<h3>1. UMSU is a parallel student universe</h3>
+
+<p>Clubs, advocacy, welfare, events — UMSU provides a complete parallel student experience. A student who finds UMSU first may never discover the University's own services. The insular linking means there's no path from UMSU to the hub.</p>
+
+<h3>2. UMSU is the dark matter of the student web estate</h3>
+
+<p>800 pages, 6.4MB max, minimal outbound links — UMSU is large, heavy, and disconnected. It's not causing problems for the University estate because it barely interacts with it. But it's a missed opportunity: UMSU reaches students the University doesn't.</p>
+
+<h3>3. Page weight is a governance gap</h3>
+
+<p>The University has no control over UMSU's web standards, but 6.4MB pages harm students on mobile/limited-data connections. This is worth flagging even if the University can't directly fix it.</p>
+
+<h3>4. UMSU outbound to hub is near-zero</h3>
+
+<p>Only 3 links to students.unimelb in 19 pages. Adding even a handful of cross-links (UMSU advocacy → hub special consideration, UMSU welfare → hub financial hardship) would connect two parallel student experiences.</p>
+
+<hr>
+
+<h2>Recommendations</h2>
+
+<ol>
+<li>**Flag UMSU page weight to the student union.** 720KB median, 6.4MB max — these are accessibility and equity issues even if outside University governance.</li>
+</ul>
+
+<ol>
+<li>**Propose cross-links from UMSU to hub services.** UMSU advocacy → special consideration. UMSU welfare → financial hardship. UMSU clubs → student life. Mutual benefit: UMSU routes students to University services; the hub routes students to the union.</li>
+</ul>
+
+<ol>
+<li>**Add UMSU to the student hub's "Student life" section.** The hub currently sends 49 links to UMSU. This connection exists and should be strengthened.</li>
+</ul>
+
+<hr>
+
+<p><em>Built from: umsu crawl (800 pages), links.json sampling (19 pages), index.json structural analysis. June 2026.</em></p>
+
+</main>
+</body>
+</html>

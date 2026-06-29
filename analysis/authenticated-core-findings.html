@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Authenticated Core Findings · UoM Current Students IA</title>
+<style>@font-face{font-family:'Fraunces';src:url('assets/fonts/Fraunces-VariableFont_SOFT_WONK_opsz_wght.ttf') format('truetype');font-weight:100 900;font-display:swap}
+@font-face{font-family:'Source Sans 3';src:url('assets/fonts/SourceSans3-VariableFont_wght.ttf') format('truetype');font-weight:200 900;font-display:swap}
+@font-face{font-family:'Source Code Pro';src:url('assets/fonts/SourceCodePro-VariableFont_wght.ttf') format('truetype');font-weight:200 900;font-display:swap}
+:root{--navy:#000F46;--navy-light:#1B2D5C;--cyan:#46C8F0;--ink:#222;--ink-2:#555;--bg:#fff;--bg-nav:#000F46;--bg-subtle:#F3F3F6;--border:#DDDDE7;--red:#DB1927;--amber:#AC5907;--green:#31733B;--font-h:'Fraunces',Georgia,serif;--font-b:'Source Sans 3',system-ui,sans-serif;--font-m:'Source Code Pro',monospace;--nav-w:280px}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:var(--font-b);font-size:17px;line-height:1.65;color:var(--ink);background:var(--bg);display:flex;min-height:100vh;-webkit-font-smoothing:antialiased}
+a{color:#004EAD;text-decoration:none}a:hover{text-decoration:underline}
+
+/* ── LHS Navigation ── */
+nav.lhs{position:fixed;top:0;left:0;width:var(--nav-w);height:100vh;background:var(--bg-nav);color:#C9CDE6;overflow-y:auto;z-index:100;display:flex;flex-direction:column;font-size:14px;line-height:1.4}
+nav.lhs .logo{padding:24px 20px 16px;border-bottom:1px solid rgba(255,255,255,.1)}
+nav.lhs .logo img{height:26px}
+nav.lhs .logo a{display:block;color:#fff;font-family:var(--font-h);font-size:16px;font-weight:600;text-decoration:none;margin-top:8px}
+nav.lhs .nav-scroll{flex:1;overflow-y:auto;padding:8px 0 24px}
+nav.lhs .section{font-family:var(--font-m);font-size:11px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--cyan);padding:16px 20px 6px}
+nav.lhs a.nav-link{display:block;padding:5px 20px;color:#9BA3C4;text-decoration:none;transition:all .15s;border-left:3px solid transparent}
+nav.lhs a.nav-link:hover{color:#fff;background:rgba(255,255,255,.05)}
+nav.lhs a.nav-link.active{color:#fff;background:rgba(255,255,255,.08);border-left-color:var(--cyan)}
+nav.lhs .sep{border:none;border-top:1px solid rgba(255,255,255,.08);margin:8px 16px}
+nav.lhs .footer{padding:16px 20px;font-size:11px;color:#6B7394;border-top:1px solid rgba(255,255,255,.08)}
+
+/* ── Main content ── */
+main{margin-left:var(--nav-w);flex:1;min-width:0;padding:40px 56px 80px;max-width:900px}
+main h1{font-family:var(--font-h);font-size:42px;font-weight:700;color:var(--navy);line-height:1.07;letter-spacing:-.012em;margin:0 0 8px}
+main h2{font-family:var(--font-h);font-size:28px;font-weight:600;color:var(--navy);margin:48px 0 16px;padding-bottom:8px;border-bottom:2px solid var(--border);line-height:1.15}
+main h3{font-family:var(--font-h);font-size:20px;font-weight:600;color:var(--navy);margin:32px 0 10px;line-height:1.2}
+main h4{font-size:18px;font-weight:700;color:var(--navy);margin:24px 0 8px}
+main p{margin:12px 0}
+main .subtitle{color:var(--ink-2);font-style:italic;font-size:18px;margin-bottom:32px}
+main blockquote{border-left:3px solid var(--navy);padding:12px 20px;margin:20px 0;background:var(--bg-subtle);font-style:italic;color:var(--ink-2)}
+main code{font-family:var(--font-m);font-size:14px;background:var(--bg-subtle);padding:2px 6px;border-radius:3px}
+main table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+main th{background:var(--navy);color:#fff;padding:10px 14px;text-align:left;font-weight:600}
+main td{padding:8px 14px;border-bottom:1px solid var(--border)}
+main tr:nth-child(even) td{background:var(--bg-subtle)}
+main ul,main ol{margin:8px 0 8px 24px}
+main li{margin:4px 0}
+main hr{border:none;border-top:1px solid var(--border);margin:40px 0}
+main strong{color:var(--navy)}
+.severity-high{display:inline-block;padding:1px 8px;border-radius:3px;font-size:12px;font-weight:700;background:#FFEBEE;color:var(--red)}
+.severity-medium{display:inline-block;padding:1px 8px;border-radius:3px;font-size:12px;font-weight:700;background:#FFF8E1;color:var(--amber)}
+.effort{display:inline-block;padding:1px 8px;border-radius:3px;font-size:12px;font-weight:700;background:#E8F5E9;color:var(--green)}
+.footer-note{color:var(--ink-2);font-size:13px;font-style:italic;margin-top:48px;padding-top:16px;border-top:1px solid var(--border)}
+
+/* ── Mobile ── */
+.menu-toggle{display:none;position:fixed;top:12px;left:12px;z-index:200;background:var(--navy);color:#fff;border:none;border-radius:6px;padding:8px 12px;font-size:20px;cursor:pointer}
+@media(max-width:960px){
+  nav.lhs{transform:translateX(-100%);transition:transform .25s}
+  nav.lhs.open{transform:translateX(0)}
+  main{margin-left:0;padding:60px 24px 40px}
+  .menu-toggle{display:block}
+}
+</style>
+</head>
+<body>
+<button class="menu-toggle" onclick="document.getElementById('lhsNav').classList.toggle('open')">☰</button>
+<nav class="lhs" id="lhsNav">
+  <div class="logo">
+    <img src="assets/UoM_Logo_Horiz_onDark.svg" alt="UoM">
+    <a href="index.html">Current Students IA</a>
+  </div>
+  <div class="nav-scroll">
+    <a class="nav-link" href="index.html">🏠 Home</a>
+    <div class="section">📊 Project Summary</div>
+    <div class="section">🎯 Five Root Findings</div>
+    <hr class="sep">
+    <div class="section">📋 Key Reports</div>
+    <a class="nav-link" href="report/Improvements-Register.html"> Improvements Register</a>
+    <a class="nav-link" href="report/Lifecycle-Journeys.html"> Lifecycle Journeys</a>
+    <a class="nav-link" href="report/Course-Planning-Enrolment.html"> Course Planning</a>
+    <a class="nav-link" href="report/International-Student-Experience.html"> International Student</a>
+    <a class="nav-link" href="report/Student-Services-Fragmentation.html"> Services Fragmentation</a>
+    <a class="nav-link" href="report/Careers-Employability-WIL.html"> Careers & WIL</a>
+    <hr class="sep">
+    <div class="section">🔬 Structural Deep-Dives</div>
+    <a class="nav-link" href="analysis/graduation-alumni-handoff.html"> Graduation → Alumni</a>
+    <a class="nav-link" href="analysis/careers-online-wiring.html"> Careers Online Wiring</a>
+    <a class="nav-link" href="analysis/prospective-current-handoff.html"> Prospective → Current</a>
+    <a class="nav-link" href="analysis/equity-indigenous-journey.html"> Equity & Indigenous</a>
+    <a class="nav-link" href="analysis/hdr-candidature-duplication.html"> HDR Duplication</a>
+    <a class="nav-link" href="analysis/forms-microsite-audit.html"> Forms & Microsites</a>
+    <hr class="sep">
+    <div class="section">📝 Content Quality</div>
+    <a class="nav-link" href="analysis/the-handbook.html"> The Handbook</a>
+    <a class="nav-link" href="analysis/fees-finance.html"> Fees & Finance</a>
+    <a class="nav-link" href="analysis/scholarships.html"> Scholarships</a>
+    <a class="nav-link" href="analysis/mobile-performance-audit.html"> Mobile & Performance</a>
+    <a class="nav-link" href="analysis/content-freshness-sandbox-leakage.html"> Content Freshness</a>
+    <a class="nav-link" href="analysis/content-quality-deep-dive.html"> Content Quality Audit</a>
+    <hr class="sep">
+    <div class="section">🔐 Authenticated Core</div>
+    <a class="nav-link" href="analysis/authenticated-core-audit.html"> Auth Core Audit</a>
+    <a class="nav-link" href="analysis/auth-hosts-live-check.html"> Live Host Check</a>
+    <a class="nav-link active" href="analysis/authenticated-core-findings.html"> Auth Core Findings</a>
+    <hr class="sep">
+    <div class="section">🌐 Crawl Analyses</div>
+    <a class="nav-link" href="analysis/crawl-ask-unimelb.html"> ask.unimelb</a>
+    <a class="nav-link" href="analysis/crawl-gradresearch.html"> gradresearch</a>
+    <a class="nav-link" href="analysis/crawl-murrupbarak.html"> murrupbarak</a>
+    <a class="nav-link" href="analysis/crawl-safercommunity.html"> safercommunity</a>
+    <a class="nav-link" href="analysis/crawl-umsu.html"> umsu</a>
+    <a class="nav-link" href="analysis/crawl-online.html"> online.unimelb</a>
+    <a class="nav-link" href="analysis/crawl-sport.html"> sport</a>
+    <a class="nav-link" href="analysis/crawl-library.html"> library</a>
+    <a class="nav-link" href="analysis/crawl-studentit.html"> studentit</a>
+    <hr class="sep">
+    <div class="section">👤 Personas</div>
+    <a class="nav-link" href="personas/sam-planning-their-path.html"> Sam — Planning</a>
+    <a class="nav-link" href="personas/alex-at-risk-withdrawal.html"> Alex — At-risk</a>
+    <a class="nav-link" href="personas/priya-international-student.html"> Priya — International</a>
+    <a class="nav-link" href="personas/jordan-course-planning-maze.html"> Jordan — Course Maze</a>
+    <a class="nav-link" href="personas/taylor-wellbeing-mental-health.html"> Taylor — Wellbeing</a>
+    <hr class="sep">
+    <div class="section">📦 Deliverables</div>
+    <a class="nav-link" href="analysis/governance-summary-pack.html"> Governance Pack</a>
+    <a class="nav-link" href="analysis/quick-wins-checklist.html"> Quick Wins</a>
+    <a class="nav-link" href="analysis/final-synthesis.html"> Final Synthesis</a>
+  </div>
+  <div class="footer">UoM · Student Experience &amp; Design<br>June 2026 · 41,533 pages · 31 domains</div>
+</nav>
+
+<main>
+<h1>Authenticated Core Findings</h1>
+<p class="subtitle">363 pages crawled behind login — what students actually see.</p>
+<h1>Authenticated Core — What Students Actually See</h1>
+
+<p><em>363 pages crawled across 6 authenticated hosts. The missing piece: what happens after login. June 2026.</em></p>
+
+<hr>
+
+<h2>Executive summary</h2>
+
+<p>The authenticated core audit mapped 42 hosts and 3,641 links from the public estate. The live check found 2 dead hosts. Now, with authenticated crawling, we can answer the question the entire project has been asking: <strong>does the logged-in side guide the task the public page describes?</strong></p>
+
+<p>The answer is mixed:</p>
+
+<ol>
+<li>**my.unimelb is a portal, not a content system.** The SIS routes students to the same hub pages the public estate describes. "Enrol in subjects" → hub enrolment pages. "Check results" → hub results pages. "Failing a subject" → hub academic-progress pages. The authenticated core doesn't duplicate the public estate — it links to it. **This means the public-side find→act gap recommendations apply equally to the logged-in experience.** Fix the public pages and both sides improve.</li>
+</ul>
+
+<ol>
+<li>**The LMS is a gateway, not the destination.** "Learning Management System" links to LMS support pages, Canvas, and digital exam info — not to the actual course content. The real learning happens in Canvas (separate login). The LMS is the front door; Canvas is the house.</li>
+</ul>
+
+<ol>
+<li>**Course Planner sits within the hub's IA.** The logged-in planner shows course-admin pages, planning resources, and faculty resources — all hub content. It's not a separate system. The "two planning tools" problem (StudyOS vs my.unimelb study plan) is confirmed at the logged-in level.</li>
+</ul>
+
+<ol>
+<li>**Forms exist but remain opaque.** FormAssembly confirmed as the platform. Logged-in forms show MFA support, password reset, and cybersecurity pages — but the form content itself (fee remission questions, leave-of-absence fields) requires form submission to see.</li>
+</ul>
+
+<ol>
+<li>**The international acceptance flow is simple and clean.** One main page with corporate chrome. No hidden complexity — what you see on the public side is what you get after login.</li>
+</ul>
+
+<hr>
+
+<h2>Host-by-host findings</h2>
+
+<h3>my.unimelb.edu.au — the Student Information System</h3>
+
+<table>
+<tr><th>Metric</th><th>Value</th></tr>
+<tr><td>Pages crawled</td><td>60</td></tr>
+<tr><td>Authenticated</td><td>✅ Yes</td></tr>
+<tr><td>Key paths</td><td>/student-admin/enrolment, /student-admin/timetable, /student-support/advice-and-help/stop-1</td></tr>
+<tr><td>Key titles</td><td>"my.unimelb - Home", "Results", "Failing a subject", "Stop 1 Southbank Hub"</td></tr>
+</table>
+
+<p><strong>Finding: The SIS is a navigation layer, not a content system.</strong> The authenticated dashboard links to the same hub pages the public estate describes. "Enrol in subjects" → students.unimelb enrolment pages. "Check results" → students.unimelb results pages. "Failing a subject" → students.unimelb academic-progress pages. There is no separate authenticated content layer — the SIS routes to the public hub.</p>
+
+<p><strong>Implication: Every find→act gap on the public hub also exists in the logged-in experience.</strong> When a student clicks "Enrol in subjects" from my.unimelb, they arrive at a hub page that describes enrolment but doesn't transact it (the action is in my.unimelb — circular). The "describe but don't transact" pattern persists even behind the login wall.</p>
+
+<h3>lms.unimelb.edu.au — Learning Management System</h3>
+
+<table>
+<tr><th>Metric</th><th>Value</th></tr>
+<tr><td>Pages crawled</td><td>60</td></tr>
+<tr><td>Authenticated</td><td>✅ Yes</td></tr>
+<tr><td>Key paths</td><td>/staff, /students, /learning-technologies, /canvas, /updates</td></tr>
+<tr><td>Key titles</td><td>"Learning Management System", "LMS support for staff", "LMS support for students", "Digital exams"</td></tr>
+</table>
+
+<p><strong>Finding: The LMS is a gateway.</strong> It links to Canvas (the actual learning platform), LMS support pages, digital exam info, and learning technology guides. The real course content lives in Canvas behind a separate authentication. The LMS is the front door; Canvas is the house.</p>
+
+<p><strong>Implication: The LMS→Canvas handoff is clean but invisible from the public side.</strong> The public hub describes "access your course materials in the LMS" — the LMS then routes to Canvas. Two hops. The public→LMS link should ideally describe both: "Access course materials → LMS, then Canvas."</p>
+
+<h3>course-planner.unimelb.edu.au — My Course Planner</h3>
+
+<table>
+<tr><th>Metric</th><th>Value</th></tr>
+<tr><td>Pages crawled</td><td>60</td></tr>
+<tr><td>Authenticated</td><td>✅ Yes</td></tr>
+<tr><td>Key paths</td><td>/course-admin/planning-your-course-and-subjects/faculty-course-planning-resources, /your-course/manage-your-course/planning-your-course-and-subjects</td></tr>
+<tr><td>Key titles</td><td>"My Course Planner", "Planning your course and subjects", "Faculty course planning resources"</td></tr>
+</table>
+
+<p><strong>Finding: The planner sits within the hub's IA.</strong> The authenticated planner shows the same course-admin and your-course pages identified in the course-planning deep-dive. It's not a separate system with different content — it's a view into the hub's planning pages with authentication.</p>
+
+<p><strong>Implication: The "two planning tools" problem (StudyOS My Course Planner vs my.unimelb study plan) is a routing problem, not a content problem.</strong> Both tools surface the same hub content. The fix is to pick one canonical path and stop routing students to two different entry points.</p>
+
+<h3>forms.your.unimelb.edu.au — FormAssembly</h3>
+
+<table>
+<tr><th>Metric</th><th>Value</th></tr>
+<tr><td>Pages crawled</td><td>60</td></tr>
+<tr><td>Authenticated</td><td>✅ Yes</td></tr>
+<tr><td>Key paths</td><td>/users/forgot_password, /cybersecurity/resources/mfa</td></tr>
+<tr><td>Key titles</td><td>"FormAssembly: Enterprise", "University of Melbourne - Sign In", "MFA Support & FAQ"</td></tr>
+</table>
+
+<p><strong>Finding: The form platform exists and has support pages.</strong> But the actual form content (fee remission questions, leave-of-absence fields, hardship grant criteria) is behind the form submission itself. The crawl couldn't see form internals — only the platform's login, password reset, and MFA pages.</p>
+
+<p><strong>Implication: Forms remain partially opaque.</strong> We know the platform is FormAssembly. We know MFA is required. We know there are support pages for password resets and account access. But the 2,044 "Enquiry" links from the public estate still resolve to forms whose internal structure is invisible without submitting them.</p>
+
+<h3>intlstudaccept.unimelb.edu.au — International Acceptance</h3>
+
+<table>
+<tr><th>Metric</th><th>Value</th></tr>
+<tr><td>Pages crawled</td><td>60</td></tr>
+<tr><td>Authenticated</td><td>✅ Yes (public content — no auth needed for the acceptance page itself)</td></tr>
+<tr><td>Key titles</td><td>"International Student Acceptance and Payment Agreement"</td></tr>
+</table>
+
+<p><strong>Finding: Simple and clean.</strong> The acceptance flow is one main page with extensive corporate chrome (giving, alumni, staff, search). The crawl confirms nothing is hidden — the public page IS the experience. No separate authenticated content layer.</p>
+
+<h3>ecommerce.unimelb.edu.au — Payment Gateway</h3>
+
+<table>
+<tr><th>Metric</th><th>Value</th></tr>
+<tr><td>Pages crawled</td><td>60</td></tr>
+<tr><td>Authenticated</td><td>✅ Yes (public + authenticated content)</td></tr>
+<tr><td>Key paths</td><td>/customer/account/login, /customer/account/create, /checkout/cart, /courses</td></tr>
+<tr><td>Key titles</td><td>"Home page", "Customer Login", "Shopping Cart", "Courses", "Faculty of Science - Courses"</td></tr>
+</table>
+
+<p><strong>Finding: Full Magento commerce platform.</strong> Course materials, faculty stores, merchandise, shopping cart, wishlist. This is a complete ecommerce site, not just a payment gateway. The sport deep-dive's finding about sport→ecommerce integration (29 links) connects to a real, functional commerce platform.</p>
+
+<hr>
+
+<h2>The authenticated core: what we now know</h2>
+
+<table>
+<tr><th>Before (inferred)</th><th>After (crawled)</th></tr>
+<tr><td>my.unimelb is a black box</td><td>It's a portal routing to the same hub pages</td></tr>
+<tr><td>LMS might have its own content</td><td>It's a gateway to Canvas + support pages</td></tr>
+<tr><td>Course Planner might be a separate system</td><td>It sits within the hub's IA</td></tr>
+<tr><td>Forms are completely opaque</td><td>FormAssembly platform confirmed; MFA required; form internals still invisible</td></tr>
+<tr><td>Ecommerce has public pages</td><td>Full Magento site with stores, cart, wishlist</td></tr>
+<tr><td>International acceptance is simple</td><td>Confirmed — one page, corporate chrome</td></tr>
+</table>
+
+<hr>
+
+<h2>What the authenticated crawl changes</h2>
+
+<h3>1. The find→act gap is not solved by login</h3>
+
+<p>The project's #1 finding — "the public estate describes but never transacts" — was based on the assumption that the authenticated side transacts what the public side describes. <strong>The crawl shows this is partly wrong.</strong> my.unimelb routes to the same hub pages. The hub describes enrolment; my.unimelb links to the hub description. The action (actual enrolment) is behind yet another layer — the SIS transaction screens that didn't appear in the crawl.</p>
+
+<p><strong>The find→act gap is a find→describe→act gap.</strong> Public hub describes → my.unimelb links to hub description → SIS transaction screens transact. Three layers, not two.</p>
+
+<h3>2. The hub migration matters even more</h3>
+
+<p>Course Planner shows both /course-admin and /your-course pages — both trees are live in the authenticated experience. The mid-migration debt is visible to logged-in students. Finishing the hub migration (Improvement #1) fixes both the public and authenticated sides simultaneously.</p>
+
+<h3>3. Forms remain the biggest unknown</h3>
+
+<p>We confirmed FormAssembly as the platform and MFA as the gate. But the actual form content — the questions a student answers when applying for fee remission or requesting leave — is still invisible. This is the last frontier: the forms themselves.</p>
+
+<hr>
+
+<h2>Recommendations</h2>
+
+<h3>1. Add "What you'll do here" preview text to my.unimelb links `[HIGH · quick-win]`</h3>
+
+<p>The SIS routes to the hub. The hub describes. The SIS transacts (somewhere deeper). Every link from the hub to my.unimelb should say what the student will find: "You'll enrol in subjects, check your timetable, and view your results." The crawl confirms this is accurate.</p>
+
+<h3>2. Finish the hub migration — it affects both sides `[HIGH · medium]`</h3>
+
+<p>Course Planner shows both /course-admin and /your-course. The authenticated experience inherits the public estate's mid-migration debt. Collapsing the parallel trees fixes both.</p>
+
+<h3>3. The LMS→Canvas handoff should be a single public link `[MEDIUM · quick-win]`</h3>
+
+<p>"Access course materials → Canvas" is what students need. "Access course materials → LMS → Canvas" is what they get. Collapse to one hop.</p>
+
+<h3>4. Request a form-content walkthrough `[HIGH · validation]`</h3>
+
+<p>The last frontier. Fee remission, leave of absence, hardship grants — the form fields, options, and language are invisible without submitting. A walkthrough of the 5 highest-traffic forms would complete the authenticated picture.</p>
+
+<hr>
+
+<p><em>Built from: authenticated crawl of 6 hosts, 363 pages. June 2026.</em></p>
+
+</main>
+</body>
+</html>

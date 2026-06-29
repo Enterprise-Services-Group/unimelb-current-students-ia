@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fees & Finance · UoM Current Students IA</title>
+<style>@font-face{font-family:'Fraunces';src:url('assets/fonts/Fraunces-VariableFont_SOFT_WONK_opsz_wght.ttf') format('truetype');font-weight:100 900;font-display:swap}
+@font-face{font-family:'Source Sans 3';src:url('assets/fonts/SourceSans3-VariableFont_wght.ttf') format('truetype');font-weight:200 900;font-display:swap}
+@font-face{font-family:'Source Code Pro';src:url('assets/fonts/SourceCodePro-VariableFont_wght.ttf') format('truetype');font-weight:200 900;font-display:swap}
+:root{--navy:#000F46;--navy-light:#1B2D5C;--cyan:#46C8F0;--ink:#222;--ink-2:#555;--bg:#fff;--bg-nav:#000F46;--bg-subtle:#F3F3F6;--border:#DDDDE7;--red:#DB1927;--amber:#AC5907;--green:#31733B;--font-h:'Fraunces',Georgia,serif;--font-b:'Source Sans 3',system-ui,sans-serif;--font-m:'Source Code Pro',monospace;--nav-w:280px}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:var(--font-b);font-size:17px;line-height:1.65;color:var(--ink);background:var(--bg);display:flex;min-height:100vh;-webkit-font-smoothing:antialiased}
+a{color:#004EAD;text-decoration:none}a:hover{text-decoration:underline}
+
+/* ── LHS Navigation ── */
+nav.lhs{position:fixed;top:0;left:0;width:var(--nav-w);height:100vh;background:var(--bg-nav);color:#C9CDE6;overflow-y:auto;z-index:100;display:flex;flex-direction:column;font-size:14px;line-height:1.4}
+nav.lhs .logo{padding:24px 20px 16px;border-bottom:1px solid rgba(255,255,255,.1)}
+nav.lhs .logo img{height:26px}
+nav.lhs .logo a{display:block;color:#fff;font-family:var(--font-h);font-size:16px;font-weight:600;text-decoration:none;margin-top:8px}
+nav.lhs .nav-scroll{flex:1;overflow-y:auto;padding:8px 0 24px}
+nav.lhs .section{font-family:var(--font-m);font-size:11px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--cyan);padding:16px 20px 6px}
+nav.lhs a.nav-link{display:block;padding:5px 20px;color:#9BA3C4;text-decoration:none;transition:all .15s;border-left:3px solid transparent}
+nav.lhs a.nav-link:hover{color:#fff;background:rgba(255,255,255,.05)}
+nav.lhs a.nav-link.active{color:#fff;background:rgba(255,255,255,.08);border-left-color:var(--cyan)}
+nav.lhs .sep{border:none;border-top:1px solid rgba(255,255,255,.08);margin:8px 16px}
+nav.lhs .footer{padding:16px 20px;font-size:11px;color:#6B7394;border-top:1px solid rgba(255,255,255,.08)}
+
+/* ── Main content ── */
+main{margin-left:var(--nav-w);flex:1;min-width:0;padding:40px 56px 80px;max-width:900px}
+main h1{font-family:var(--font-h);font-size:42px;font-weight:700;color:var(--navy);line-height:1.07;letter-spacing:-.012em;margin:0 0 8px}
+main h2{font-family:var(--font-h);font-size:28px;font-weight:600;color:var(--navy);margin:48px 0 16px;padding-bottom:8px;border-bottom:2px solid var(--border);line-height:1.15}
+main h3{font-family:var(--font-h);font-size:20px;font-weight:600;color:var(--navy);margin:32px 0 10px;line-height:1.2}
+main h4{font-size:18px;font-weight:700;color:var(--navy);margin:24px 0 8px}
+main p{margin:12px 0}
+main .subtitle{color:var(--ink-2);font-style:italic;font-size:18px;margin-bottom:32px}
+main blockquote{border-left:3px solid var(--navy);padding:12px 20px;margin:20px 0;background:var(--bg-subtle);font-style:italic;color:var(--ink-2)}
+main code{font-family:var(--font-m);font-size:14px;background:var(--bg-subtle);padding:2px 6px;border-radius:3px}
+main table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+main th{background:var(--navy);color:#fff;padding:10px 14px;text-align:left;font-weight:600}
+main td{padding:8px 14px;border-bottom:1px solid var(--border)}
+main tr:nth-child(even) td{background:var(--bg-subtle)}
+main ul,main ol{margin:8px 0 8px 24px}
+main li{margin:4px 0}
+main hr{border:none;border-top:1px solid var(--border);margin:40px 0}
+main strong{color:var(--navy)}
+.severity-high{display:inline-block;padding:1px 8px;border-radius:3px;font-size:12px;font-weight:700;background:#FFEBEE;color:var(--red)}
+.severity-medium{display:inline-block;padding:1px 8px;border-radius:3px;font-size:12px;font-weight:700;background:#FFF8E1;color:var(--amber)}
+.effort{display:inline-block;padding:1px 8px;border-radius:3px;font-size:12px;font-weight:700;background:#E8F5E9;color:var(--green)}
+.footer-note{color:var(--ink-2);font-size:13px;font-style:italic;margin-top:48px;padding-top:16px;border-top:1px solid var(--border)}
+
+/* ── Mobile ── */
+.menu-toggle{display:none;position:fixed;top:12px;left:12px;z-index:200;background:var(--navy);color:#fff;border:none;border-radius:6px;padding:8px 12px;font-size:20px;cursor:pointer}
+@media(max-width:960px){
+  nav.lhs{transform:translateX(-100%);transition:transform .25s}
+  nav.lhs.open{transform:translateX(0)}
+  main{margin-left:0;padding:60px 24px 40px}
+  .menu-toggle{display:block}
+}
+</style>
+</head>
+<body>
+<button class="menu-toggle" onclick="document.getElementById('lhsNav').classList.toggle('open')">☰</button>
+<nav class="lhs" id="lhsNav">
+  <div class="logo">
+    <img src="assets/UoM_Logo_Horiz_onDark.svg" alt="UoM">
+    <a href="index.html">Current Students IA</a>
+  </div>
+  <div class="nav-scroll">
+    <a class="nav-link" href="index.html">🏠 Home</a>
+    <div class="section">📊 Project Summary</div>
+    <div class="section">🎯 Five Root Findings</div>
+    <hr class="sep">
+    <div class="section">📋 Key Reports</div>
+    <a class="nav-link" href="report/Improvements-Register.html"> Improvements Register</a>
+    <a class="nav-link" href="report/Lifecycle-Journeys.html"> Lifecycle Journeys</a>
+    <a class="nav-link" href="report/Course-Planning-Enrolment.html"> Course Planning</a>
+    <a class="nav-link" href="report/International-Student-Experience.html"> International Student</a>
+    <a class="nav-link" href="report/Student-Services-Fragmentation.html"> Services Fragmentation</a>
+    <a class="nav-link" href="report/Careers-Employability-WIL.html"> Careers & WIL</a>
+    <hr class="sep">
+    <div class="section">🔬 Structural Deep-Dives</div>
+    <a class="nav-link" href="analysis/graduation-alumni-handoff.html"> Graduation → Alumni</a>
+    <a class="nav-link" href="analysis/careers-online-wiring.html"> Careers Online Wiring</a>
+    <a class="nav-link" href="analysis/prospective-current-handoff.html"> Prospective → Current</a>
+    <a class="nav-link" href="analysis/equity-indigenous-journey.html"> Equity & Indigenous</a>
+    <a class="nav-link" href="analysis/hdr-candidature-duplication.html"> HDR Duplication</a>
+    <a class="nav-link" href="analysis/forms-microsite-audit.html"> Forms & Microsites</a>
+    <hr class="sep">
+    <div class="section">📝 Content Quality</div>
+    <a class="nav-link" href="analysis/the-handbook.html"> The Handbook</a>
+    <a class="nav-link active" href="analysis/fees-finance.html"> Fees & Finance</a>
+    <a class="nav-link" href="analysis/scholarships.html"> Scholarships</a>
+    <a class="nav-link" href="analysis/mobile-performance-audit.html"> Mobile & Performance</a>
+    <a class="nav-link" href="analysis/content-freshness-sandbox-leakage.html"> Content Freshness</a>
+    <a class="nav-link" href="analysis/content-quality-deep-dive.html"> Content Quality Audit</a>
+    <hr class="sep">
+    <div class="section">🔐 Authenticated Core</div>
+    <a class="nav-link" href="analysis/authenticated-core-audit.html"> Auth Core Audit</a>
+    <a class="nav-link" href="analysis/auth-hosts-live-check.html"> Live Host Check</a>
+    <a class="nav-link" href="analysis/authenticated-core-findings.html"> Auth Core Findings</a>
+    <hr class="sep">
+    <div class="section">🌐 Crawl Analyses</div>
+    <a class="nav-link" href="analysis/crawl-ask-unimelb.html"> ask.unimelb</a>
+    <a class="nav-link" href="analysis/crawl-gradresearch.html"> gradresearch</a>
+    <a class="nav-link" href="analysis/crawl-murrupbarak.html"> murrupbarak</a>
+    <a class="nav-link" href="analysis/crawl-safercommunity.html"> safercommunity</a>
+    <a class="nav-link" href="analysis/crawl-umsu.html"> umsu</a>
+    <a class="nav-link" href="analysis/crawl-online.html"> online.unimelb</a>
+    <a class="nav-link" href="analysis/crawl-sport.html"> sport</a>
+    <a class="nav-link" href="analysis/crawl-library.html"> library</a>
+    <a class="nav-link" href="analysis/crawl-studentit.html"> studentit</a>
+    <hr class="sep">
+    <div class="section">👤 Personas</div>
+    <a class="nav-link" href="personas/sam-planning-their-path.html"> Sam — Planning</a>
+    <a class="nav-link" href="personas/alex-at-risk-withdrawal.html"> Alex — At-risk</a>
+    <a class="nav-link" href="personas/priya-international-student.html"> Priya — International</a>
+    <a class="nav-link" href="personas/jordan-course-planning-maze.html"> Jordan — Course Maze</a>
+    <a class="nav-link" href="personas/taylor-wellbeing-mental-health.html"> Taylor — Wellbeing</a>
+    <hr class="sep">
+    <div class="section">📦 Deliverables</div>
+    <a class="nav-link" href="analysis/governance-summary-pack.html"> Governance Pack</a>
+    <a class="nav-link" href="analysis/quick-wins-checklist.html"> Quick Wins</a>
+    <a class="nav-link" href="analysis/final-synthesis.html"> Final Synthesis</a>
+  </div>
+  <div class="footer">UoM · Student Experience &amp; Design<br>June 2026 · 41,533 pages · 31 domains</div>
+</nav>
+
+<main>
+<h1>Fees & Finance</h1>
+<p class="subtitle">Triple-tree duplication, census→404, 8:1 applicant-to-enrolled ratio.</p>
+<h1>Fees & Finance — Deep-Dive</h1>
+
+<p><em>The financial spine of the student experience — census dates, fee payments, HELP loans, and hardship support. 593 pages across 16 domains, but 62% are on the applicant-facing study.unimelb while only 46 serve enrolled students. The census-dates page canonicalises to /page-not-found. Core answers are outsourced to a legacy FAQ. June 2026.</em></p>
+
+<hr>
+
+<h2>Executive summary</h2>
+
+<p>Fees and finance is the highest-stakes operational content in the estate. Get a census date wrong and a student pays for a subject they didn't want. Miss a fee deadline and enrolment is cancelled. Can't find hardship support and a student drops out over rent. Yet the financial spine is fractured across three live URL trees on the hub, reverse-funnelled through the applicant-facing study.unimelb (366 pages for applicants vs 46 for enrolled students), and dependent on a legacy ask.unimelb FAQ for the actual answers.</p>
+
+<p>Three acute failures define it:</p>
+<ol>
+<li>**The census-dates page canonicalises to `/page-not-found`** — the single most financially consequential page tells search engines it doesn't exist.</li>
+<li>**The reverse-funnel**: 366 fee pages on study.unimelb (for applicants) vs 46 on students.unimelb (for enrolled students) — an 8:1 ratio. Enrolled students searching for fee information are routed to the applicant site.</li>
+<li>**Financial hardship is ~5 pages with opaque form parameters** — the pathway a fee-stressed student needs most is the hardest to find.</li>
+</ul>
+
+<p>The fix: one canonical "Fees and finance" hub on students.unimelb, fix the census canonical, bring answers back from the FAQ, and build a findable hardship front door.</p>
+
+<hr>
+
+<h2>The fee footprint: where fee content actually lives</h2>
+
+<table>
+<tr><th>Domain</th><th>Pages</th><th>Audience</th><th>Note</th></tr>
+<tr><td>study.unimelb.edu.au</td><td>366</td><td>Applicants</td><td>62% of all fee pages — the reverse-funnel problem</td></tr>
+<tr><td>law.unimelb.edu.au</td><td>68</td><td>Mixed</td><td>Faculty-specific fee content</td></tr>
+<tr><td>students.unimelb.edu.au</td><td>**46**</td><td>**Enrolled students**</td><td>The hub — but only 8% of fee pages</td></tr>
+<tr><td>fbe.unimelb.edu.au</td><td>39</td><td>Mixed</td><td>Business/economics fees</td></tr>
+<tr><td>msd.unimelb.edu.au</td><td>18</td><td>Mixed</td><td>Architecture/building fees</td></tr>
+<tr><td>medicine.unimelb.edu.au</td><td>13</td><td>Mixed</td><td>Medicine fees</td></tr>
+<tr><td>Other (10 domains)</td><td>43</td><td>Mixed</td><td>Scattered</td></tr>
+<tr><td>**Total**</td><td>**593**</td><td></td><td>**8:1 ratio of applicant to enrolled pages**</td></tr>
+</table>
+
+<hr>
+
+<h2>The triple-tree duplication on the hub</h2>
+
+<p>The hub's 46 enrolled-student fee/finance pages are split across three URL trees — the same mid-migration debt pattern that fractures everything else:</p>
+
+<table>
+<tr><th>Tree</th><th>Pages</th><th>Role</th></tr>
+<tr><td>`/course-admin/`</td><td>~17</td><td>Canonical — fees, census, HELP loans</td></tr>
+<tr><td>`/your-course/`</td><td>~12</td><td>Legacy — duplicated fee content</td></tr>
+<tr><td>`/admin/fees`</td><td>~17</td><td>Administrative — payment, sanctions, refunds</td></tr>
+</table>
+
+<p>Plus a fourth dimension: <code>/support-and-wellbeing</code> hosts the financial-aid/hardship pages (mis-titled "Support and wellbeing"), and <code>/student-support</code> hosts legacy copies. A student looking for "how much do I owe" or "when is census" can land on any of 3-4 versions of the same answer.</p>
+
+<hr>
+
+<h2>The three acute failures</h2>
+
+<h3>1. Census-dates page canonicalises to /page-not-found `[HIGH]`</h3>
+
+<p>The census date is the deadline that determines whether a student pays for a subject. Withdraw before census and the subject disappears from your record and your fee statement. Withdraw after and you pay full fees and/or take an academic fail. It is the single most financially consequential date in the student lifecycle.</p>
+
+<p>The page at <code>/course-admin/census-dates</code> carries <code><link rel="canonical" href="/page-not-found"></code>. The authoritative date page tells search engines — and any tool that respects canonical tags — that it doesn't exist. A student googling "unimelb census date 2026" may never find the real page.</p>
+
+<p>This is a one-line fix. It's been broken through the entire duration of this project. It should have been fixed on day one.</p>
+
+<h3>2. The reverse-funnel: enrolled students sent to the applicant site `[HIGH]`</h3>
+
+<p>366 fee pages live on study.unimelb.edu.au — the applicant-facing recruitment site. These pages explain course fees, HELP loan eligibility, and payment options to <em>prospective</em> students. Only 46 fee pages live on students.unimelb.edu.au — the <em>enrolled</em> student hub.</p>
+
+<p>An enrolled student searching for "how to pay my fees" or "check my fee statement" lands on study.unimelb pages that assume they haven't applied yet. The content is written for the wrong audience. 363 fee pages on the applicant site vs ~17 on the enrolled hub — a 21:1 ratio in the wrong direction.</p>
+
+<p>The fix recommended in §8a: build a single enrolled-student "Fees and finance" hub that owns payment, census, HELP loans, fee remission, and hardship — and bridge every applicant fee page to it with "Already enrolled? Go here."</p>
+
+<h3>3. Financial hardship: ~5 pages, opaque forms, buried under wrong titles `[HIGH]`</h3>
+
+<p>A student who can't pay rent, fees, or eat needs emergency grants, fee remission, hardship bursaries, or emergency accommodation. What they find:</p>
+
+<table>
+<tr><th>Resource</th><th>Coverage</th><th>Findability</th></tr>
+<tr><td>Financial hardship pages</td><td>~5 on students.unimelb</td><td>Buried under "Support and wellbeing"</td></tr>
+<tr><td>Bursary pages</td><td>~2</td><td>Near-invisible</td></tr>
+<tr><td>Fee remission form</td><td>1 — forms.your.unimelb.edu.au/4747166</td><td>Three opaque SID query params; no plain-language labels</td></tr>
+<tr><td>Emergency accommodation</td><td>Scattered</td><td>No single entry point</td></tr>
+<tr><td>Food relief</td><td>Unknown</td><td>No dedicated page found</td></tr>
+</table>
+
+<p>The financial-aid page is mis-titled "Support and wellbeing" — not "Financial aid" or "Emergency support." A panicking student searching "financial hardship unimelb" may never find it. The fee-remission form uses indistinguishable SID parameters — a student can't tell which link is for a waiver, which for a review, and which for an enquiry.</p>
+
+<hr>
+
+<h2>The ask.unimelb dependency</h2>
+
+<p>Core fee answers — census dates, HELP loan eligibility, fee payment methods, Statement of Liability — live on ask.unimelb.edu.au, a legacy FAQ knowledge base with two inconsistent URL formats. The hub describes the topic; the actual answer is one hop away on an unmaintained system. This is the same pattern as enrolment (396 ask.unimelb links), mirrored in fees.</p>
+
+<hr>
+
+<h2>_nocache URL leakage</h2>
+
+<p>15 pages link to _nocache versions of fee/eligibility pages — e.g. the CSP/HELP-loans eligibility page. These are cache-bust artifacts that dilute link equity and create duplicate destinations. A student who bookmarks a _nocache URL gets a URL that may break.</p>
+
+<hr>
+
+<h2>Recommendations</h2>
+
+<h3>1. Fix the census-dates canonical tag `[HIGH · quick-win]`</h3>
+<p>One-line fix: change <code><link rel="canonical" href="/page-not-found"></code> to the actual page URL. Should have been done on day one. The highest-priority single-page fix in the entire estate.</p>
+
+<h3>2. Build one enrolled-student "Fees and finance" hub `[HIGH · medium]`</h3>
+<p>One canonical home on students.unimelb (under /course-admin/) linking out to: pay my fees (my.unimelb), understanding your fees, census dates, FEE-HELP/HECS eligibility, fee remission/refunds, financial aid/hardship, and scholarship payments. Keep study.unimelb fee pages scoped to applicants/cost-to-study. Add "Already enrolled? Go here" bridge from every applicant fee page.</p>
+
+<h3>3. Build a findable "Financial difficulty / emergency support" front door `[HIGH · medium]`</h3>
+<p>Consolidate fee remission, payment extensions, hardship grants, emergency loans, and Stop 1 financial advice into one clearly-titled entry point. Link prominently from the fees hub, census page, and paying-your-fees. Label the three fee-remission form actions in plain language. Strip _nocache query-string variants from internal links.</p>
+
+<h3>4. Migrate core fee answers off ask.unimelb `[HIGH · large]`</h3>
+<p>Bring census dates, HELP eligibility, fee payment methods, and Statement of Liability answers into the maintained hub pages. Stop describing-then-deferring on the financial core.</p>
+
+<h3>5. Collapse the triple-tree duplication `[HIGH · medium]`</h3>
+<p>One canonical fee tree on students.unimelb. 301-redirect the legacy <code>/your-course/</code> and <code>/admin/fees</code> duplicates. This is part of the hub migration (Improvement #1).</p>
+
+<hr>
+
+<h2>Linked improvements from the register</h2>
+
+<table>
+<tr><th>§</th><th>Improvement</th><th>Severity · Effort</th></tr>
+<tr><td>8a.1</td><td>Collapse the triple-tree URL duplication on core enrolled-student fee pages</td><td>HIGH · medium</td></tr>
+<tr><td>8a.2</td><td>Fix broken/mismatched metadata on the highest-stakes fee and census pages</td><td>HIGH · quick-win</td></tr>
+<tr><td>8a.3</td><td>Migrate core fee answers off the legacy ask.unimelb FAQ system into the maintained IA</td><td>HIGH · large</td></tr>
+<tr><td>8a.4</td><td>Build a single enrolled-student "Fees and finance" hub; stop sending enrolled students to study.unimelb</td><td>HIGH · medium</td></tr>
+<tr><td>8a.5</td><td>Consolidate the cross-domain census-date duplication into one authoritative source</td><td>MEDIUM · quick-win</td></tr>
+<tr><td>8a.6</td><td>Surface and strengthen the financial-hardship / emergency-support and fee-remission pathway</td><td>MEDIUM · medium</td></tr>
+</table>
+
+<hr>
+
+<p><em>Built from: fees-finance.csv (593 pages, 16 domains), improvements-register.md (§8a Fees, census dates & finance), course-planning-enrolment.md (census-date canonical finding), cross-site-flow.csv, and crawl/students-full/ (hub fee pages). June 2026.</em></p>
+
+</main>
+</body>
+</html>

@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Prospective → Current Handoff · UoM Current Students IA</title>
+<style>@font-face{font-family:'Fraunces';src:url('assets/fonts/Fraunces-VariableFont_SOFT_WONK_opsz_wght.ttf') format('truetype');font-weight:100 900;font-display:swap}
+@font-face{font-family:'Source Sans 3';src:url('assets/fonts/SourceSans3-VariableFont_wght.ttf') format('truetype');font-weight:200 900;font-display:swap}
+@font-face{font-family:'Source Code Pro';src:url('assets/fonts/SourceCodePro-VariableFont_wght.ttf') format('truetype');font-weight:200 900;font-display:swap}
+:root{--navy:#000F46;--navy-light:#1B2D5C;--cyan:#46C8F0;--ink:#222;--ink-2:#555;--bg:#fff;--bg-nav:#000F46;--bg-subtle:#F3F3F6;--border:#DDDDE7;--red:#DB1927;--amber:#AC5907;--green:#31733B;--font-h:'Fraunces',Georgia,serif;--font-b:'Source Sans 3',system-ui,sans-serif;--font-m:'Source Code Pro',monospace;--nav-w:280px}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:var(--font-b);font-size:17px;line-height:1.65;color:var(--ink);background:var(--bg);display:flex;min-height:100vh;-webkit-font-smoothing:antialiased}
+a{color:#004EAD;text-decoration:none}a:hover{text-decoration:underline}
+
+/* ── LHS Navigation ── */
+nav.lhs{position:fixed;top:0;left:0;width:var(--nav-w);height:100vh;background:var(--bg-nav);color:#C9CDE6;overflow-y:auto;z-index:100;display:flex;flex-direction:column;font-size:14px;line-height:1.4}
+nav.lhs .logo{padding:24px 20px 16px;border-bottom:1px solid rgba(255,255,255,.1)}
+nav.lhs .logo img{height:26px}
+nav.lhs .logo a{display:block;color:#fff;font-family:var(--font-h);font-size:16px;font-weight:600;text-decoration:none;margin-top:8px}
+nav.lhs .nav-scroll{flex:1;overflow-y:auto;padding:8px 0 24px}
+nav.lhs .section{font-family:var(--font-m);font-size:11px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--cyan);padding:16px 20px 6px}
+nav.lhs a.nav-link{display:block;padding:5px 20px;color:#9BA3C4;text-decoration:none;transition:all .15s;border-left:3px solid transparent}
+nav.lhs a.nav-link:hover{color:#fff;background:rgba(255,255,255,.05)}
+nav.lhs a.nav-link.active{color:#fff;background:rgba(255,255,255,.08);border-left-color:var(--cyan)}
+nav.lhs .sep{border:none;border-top:1px solid rgba(255,255,255,.08);margin:8px 16px}
+nav.lhs .footer{padding:16px 20px;font-size:11px;color:#6B7394;border-top:1px solid rgba(255,255,255,.08)}
+
+/* ── Main content ── */
+main{margin-left:var(--nav-w);flex:1;min-width:0;padding:40px 56px 80px;max-width:900px}
+main h1{font-family:var(--font-h);font-size:42px;font-weight:700;color:var(--navy);line-height:1.07;letter-spacing:-.012em;margin:0 0 8px}
+main h2{font-family:var(--font-h);font-size:28px;font-weight:600;color:var(--navy);margin:48px 0 16px;padding-bottom:8px;border-bottom:2px solid var(--border);line-height:1.15}
+main h3{font-family:var(--font-h);font-size:20px;font-weight:600;color:var(--navy);margin:32px 0 10px;line-height:1.2}
+main h4{font-size:18px;font-weight:700;color:var(--navy);margin:24px 0 8px}
+main p{margin:12px 0}
+main .subtitle{color:var(--ink-2);font-style:italic;font-size:18px;margin-bottom:32px}
+main blockquote{border-left:3px solid var(--navy);padding:12px 20px;margin:20px 0;background:var(--bg-subtle);font-style:italic;color:var(--ink-2)}
+main code{font-family:var(--font-m);font-size:14px;background:var(--bg-subtle);padding:2px 6px;border-radius:3px}
+main table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+main th{background:var(--navy);color:#fff;padding:10px 14px;text-align:left;font-weight:600}
+main td{padding:8px 14px;border-bottom:1px solid var(--border)}
+main tr:nth-child(even) td{background:var(--bg-subtle)}
+main ul,main ol{margin:8px 0 8px 24px}
+main li{margin:4px 0}
+main hr{border:none;border-top:1px solid var(--border);margin:40px 0}
+main strong{color:var(--navy)}
+.severity-high{display:inline-block;padding:1px 8px;border-radius:3px;font-size:12px;font-weight:700;background:#FFEBEE;color:var(--red)}
+.severity-medium{display:inline-block;padding:1px 8px;border-radius:3px;font-size:12px;font-weight:700;background:#FFF8E1;color:var(--amber)}
+.effort{display:inline-block;padding:1px 8px;border-radius:3px;font-size:12px;font-weight:700;background:#E8F5E9;color:var(--green)}
+.footer-note{color:var(--ink-2);font-size:13px;font-style:italic;margin-top:48px;padding-top:16px;border-top:1px solid var(--border)}
+
+/* ── Mobile ── */
+.menu-toggle{display:none;position:fixed;top:12px;left:12px;z-index:200;background:var(--navy);color:#fff;border:none;border-radius:6px;padding:8px 12px;font-size:20px;cursor:pointer}
+@media(max-width:960px){
+  nav.lhs{transform:translateX(-100%);transition:transform .25s}
+  nav.lhs.open{transform:translateX(0)}
+  main{margin-left:0;padding:60px 24px 40px}
+  .menu-toggle{display:block}
+}
+</style>
+</head>
+<body>
+<button class="menu-toggle" onclick="document.getElementById('lhsNav').classList.toggle('open')">☰</button>
+<nav class="lhs" id="lhsNav">
+  <div class="logo">
+    <img src="assets/UoM_Logo_Horiz_onDark.svg" alt="UoM">
+    <a href="index.html">Current Students IA</a>
+  </div>
+  <div class="nav-scroll">
+    <a class="nav-link" href="index.html">🏠 Home</a>
+    <div class="section">📊 Project Summary</div>
+    <div class="section">🎯 Five Root Findings</div>
+    <hr class="sep">
+    <div class="section">📋 Key Reports</div>
+    <a class="nav-link" href="report/Improvements-Register.html"> Improvements Register</a>
+    <a class="nav-link" href="report/Lifecycle-Journeys.html"> Lifecycle Journeys</a>
+    <a class="nav-link" href="report/Course-Planning-Enrolment.html"> Course Planning</a>
+    <a class="nav-link" href="report/International-Student-Experience.html"> International Student</a>
+    <a class="nav-link" href="report/Student-Services-Fragmentation.html"> Services Fragmentation</a>
+    <a class="nav-link" href="report/Careers-Employability-WIL.html"> Careers & WIL</a>
+    <hr class="sep">
+    <div class="section">🔬 Structural Deep-Dives</div>
+    <a class="nav-link" href="analysis/graduation-alumni-handoff.html"> Graduation → Alumni</a>
+    <a class="nav-link" href="analysis/careers-online-wiring.html"> Careers Online Wiring</a>
+    <a class="nav-link active" href="analysis/prospective-current-handoff.html"> Prospective → Current</a>
+    <a class="nav-link" href="analysis/equity-indigenous-journey.html"> Equity & Indigenous</a>
+    <a class="nav-link" href="analysis/hdr-candidature-duplication.html"> HDR Duplication</a>
+    <a class="nav-link" href="analysis/forms-microsite-audit.html"> Forms & Microsites</a>
+    <hr class="sep">
+    <div class="section">📝 Content Quality</div>
+    <a class="nav-link" href="analysis/the-handbook.html"> The Handbook</a>
+    <a class="nav-link" href="analysis/fees-finance.html"> Fees & Finance</a>
+    <a class="nav-link" href="analysis/scholarships.html"> Scholarships</a>
+    <a class="nav-link" href="analysis/mobile-performance-audit.html"> Mobile & Performance</a>
+    <a class="nav-link" href="analysis/content-freshness-sandbox-leakage.html"> Content Freshness</a>
+    <a class="nav-link" href="analysis/content-quality-deep-dive.html"> Content Quality Audit</a>
+    <hr class="sep">
+    <div class="section">🔐 Authenticated Core</div>
+    <a class="nav-link" href="analysis/authenticated-core-audit.html"> Auth Core Audit</a>
+    <a class="nav-link" href="analysis/auth-hosts-live-check.html"> Live Host Check</a>
+    <a class="nav-link" href="analysis/authenticated-core-findings.html"> Auth Core Findings</a>
+    <hr class="sep">
+    <div class="section">🌐 Crawl Analyses</div>
+    <a class="nav-link" href="analysis/crawl-ask-unimelb.html"> ask.unimelb</a>
+    <a class="nav-link" href="analysis/crawl-gradresearch.html"> gradresearch</a>
+    <a class="nav-link" href="analysis/crawl-murrupbarak.html"> murrupbarak</a>
+    <a class="nav-link" href="analysis/crawl-safercommunity.html"> safercommunity</a>
+    <a class="nav-link" href="analysis/crawl-umsu.html"> umsu</a>
+    <a class="nav-link" href="analysis/crawl-online.html"> online.unimelb</a>
+    <a class="nav-link" href="analysis/crawl-sport.html"> sport</a>
+    <a class="nav-link" href="analysis/crawl-library.html"> library</a>
+    <a class="nav-link" href="analysis/crawl-studentit.html"> studentit</a>
+    <hr class="sep">
+    <div class="section">👤 Personas</div>
+    <a class="nav-link" href="personas/sam-planning-their-path.html"> Sam — Planning</a>
+    <a class="nav-link" href="personas/alex-at-risk-withdrawal.html"> Alex — At-risk</a>
+    <a class="nav-link" href="personas/priya-international-student.html"> Priya — International</a>
+    <a class="nav-link" href="personas/jordan-course-planning-maze.html"> Jordan — Course Maze</a>
+    <a class="nav-link" href="personas/taylor-wellbeing-mental-health.html"> Taylor — Wellbeing</a>
+    <hr class="sep">
+    <div class="section">📦 Deliverables</div>
+    <a class="nav-link" href="analysis/governance-summary-pack.html"> Governance Pack</a>
+    <a class="nav-link" href="analysis/quick-wins-checklist.html"> Quick Wins</a>
+    <a class="nav-link" href="analysis/final-synthesis.html"> Final Synthesis</a>
+  </div>
+  <div class="footer">UoM · Student Experience &amp; Design<br>June 2026 · 41,533 pages · 31 domains</div>
+</nav>
+
+<main>
+<h1>Prospective → Current Handoff</h1>
+<p class="subtitle">373 study→hub links. Only one cohort gets a guided transition.</p>
+<h1>Prospective → Current Student Handoff — Deep-Dive</h1>
+
+<p><em>The seam every student crosses exactly once — from applicant to enrolled student. 373 contextual links from study.unimelb to students.unimelb. 19 domains link the hub. But the most important transition in the lifecycle rides on fewer links than MSD sends to the hub from a single faculty. June 2026.</em></p>
+
+<hr>
+
+<h2>Executive summary</h2>
+
+<p>The prospective→current handoff is the transition every student makes: from course discovery on study.unimelb.edu.au to the enrolled-student hub at students.unimelb.edu.au. It is the single most important seam in the lifecycle — get it wrong and a new student starts lost. Yet it rides on <strong>373 contextual links</strong> — fewer than the 8,069 links MSD alone sends to the hub, and barely more than the 396 links the hub sends to a legacy FAQ.</p>
+
+<p>The handoff works for one cohort: domestic VTAC undergraduates, who receive a guided "Get Started at Melbourne" sequence. For everyone else — international postgraduates, HDR candidates, online learners, non-award students — the seam is a cold link buried in an offer email or a my.unimelb notification. The public estate doesn't own this transition; it outsources it to the authenticated SIS.</p>
+
+<p>The fix: a bidirectional, intentional handoff from every applicant-facing page to the enrolled-student equivalent, and a consistent "Already enrolled? Go here" bridge in the other direction.</p>
+
+<hr>
+
+<h2>The seam by the numbers</h2>
+
+<table>
+<tr><th>Metric</th><th>Value</th></tr>
+<tr><td>Contextual links study→hub</td><td>373</td></tr>
+<tr><td>Total hub inbound (all domains)</td><td>11,186</td></tr>
+<tr><td>MSD→hub (comparison)</td><td>8,069</td></tr>
+<tr><td>Handbook→hub</td><td>1,193</td></tr>
+<tr><td>Hub→study (reverse)</td><td>125</td></tr>
+<tr><td>Domains linking the hub</td><td>19</td></tr>
+<tr><td>Domains sending <100 links to hub</td><td>9 (law 99, science 64, finearts 63, medicine 21, mbs 26, www 24, scholarships 16, dental 6, research 30)</td></tr>
+</table>
+
+<hr>
+
+<h2>Who links the hub — and who doesn't</h2>
+
+<table>
+<tr><th>Source</th><th>Contextual links</th><th>Verdict</th></tr>
+<tr><td>msd.unimelb.edu.au</td><td>**8,069**</td><td>⚠ All on deprecated paths — link-break risk</td></tr>
+<tr><td>handbook.unimelb.edu.au</td><td>1,193</td><td>✅ Strong — course structure → student hub</td></tr>
+<tr><td>study.unimelb.edu.au</td><td>**373**</td><td>⚠ The prospective→current seam — thin</td></tr>
+<tr><td>education.unimelb.edu.au</td><td>275</td><td>⚠ Below floor</td></tr>
+<tr><td>eng.unimelb.edu.au</td><td>224</td><td>⚠ Below floor</td></tr>
+<tr><td>arts.unimelb.edu.au</td><td>191</td><td>⚠ Below floor</td></tr>
+<tr><td>mdhs.unimelb.edu.au</td><td>175</td><td>⚠ Below floor</td></tr>
+<tr><td>fbe.unimelb.edu.au</td><td>131</td><td>⚠ Below floor</td></tr>
+<tr><td>biomedicalsciences.unimelb.edu.au</td><td>130</td><td>⚠ Below floor</td></tr>
+<tr><td>law.unimelb.edu.au</td><td>99</td><td>❌ Below 100</td></tr>
+<tr><td>science.unimelb.edu.au</td><td>64</td><td>❌ Near-zero</td></tr>
+<tr><td>finearts-music.unimelb.edu.au</td><td>63</td><td>❌ Near-zero</td></tr>
+<tr><td>medicine.unimelb.edu.au</td><td>21</td><td>❌ Near-zero</td></tr>
+<tr><td>mbs.unimelb.edu.au</td><td>26</td><td>❌ Near-zero</td></tr>
+<tr><td>dental.unimelb.edu.au</td><td>6</td><td>❌ Effectively zero</td></tr>
+<tr><td>research.unimelb.edu.au</td><td>30</td><td>❌ Research→student seam broken</td></tr>
+<tr><td>scholarships.unimelb.edu.au</td><td>16</td><td>❌ Hub barely reaches scholarships</td></tr>
+<tr><td>services.unimelb.edu.au</td><td>76</td><td>⚠ Service pages should route to hub</td></tr>
+<tr><td>www.unimelb.edu.au</td><td>24</td><td>❌ Corporate site barely links student hub</td></tr>
+</table>
+
+<p><strong>9 of 19 domains send fewer than 100 contextual links to the student hub.</strong> The University's own corporate site (www.unimelb.edu.au) sends 24. The scholarships catalogue — a core student service — sends 16. Dental sends 6.</p>
+
+<hr>
+
+<h2>The study→hub seam: what the 373 links actually are</h2>
+
+<p>The 373 contextual links from study.unimelb to students.unimelb are the sum of every in-content reference from the applicant-facing site to the enrolled-student hub. They are not a single "You're in — here's next" bridge. They're scattered across:</p>
+
+<ul>
+<li>Per-course "How to apply" pages (the dominant entry path)</li>
+<li>International student pages (visa, CoE, OSHC guidance)</li>
+<li>"Get Started at Melbourne" pages (domestic VTAC UG only)</li>
+<li>General "current students" footer/nav links (stripped as chrome)</li>
+<li>Offer-acceptance pages</li>
+</ul>
+
+<p>The 373 figure is the total after stripping navigation chrome — genuine in-content links. But they're not concentrated at the transition point. A student who has just accepted an offer is not met with a prominent "Now go here → students.unimelb" CTA; they're expected to already know the hub exists.</p>
+
+<hr>
+
+<h2>The reverse seam: hub→study</h2>
+
+<p>The hub sends only 125 contextual links back to study.unimelb. These are mostly "how to apply" references for prospective students who've landed on the enrolled hub by mistake. The reverse handoff is:</p>
+<ul>
+<li>Not a consistent "Already enrolled? Go here" bridge from study pages</li>
+<li>Not a persistent "Not enrolled yet? Find your course" bridge from hub pages</li>
+<li>Not bidirectional — a student who lands on the wrong side has no clear path to the right one</li>
+</ul>
+
+<hr>
+
+<h2>Which cohorts get a guided handoff?</h2>
+
+<table>
+<tr><th>Cohort</th><th>Handoff experience</th><th>Verdict</th></tr>
+<tr><td>Domestic VTAC undergraduate</td><td>"Get Started at Melbourne" sequence — guided</td><td>✅ Good</td></tr>
+<tr><td>International postgraduate</td><td>Offer email → my.unimelb → find hub yourself</td><td>❌ Cold</td></tr>
+<tr><td>HDR candidate</td><td>Faculty/gradresearch → my.unimelb → find hub yourself</td><td>❌ Cold</td></tr>
+<tr><td>Online / micro-credential</td><td>study-with-us → Canvas → no hub at all</td><td>❌ Orphaned</td></tr>
+<tr><td>Non-award / single subject</td><td>study-with-us → enrol → no hub home</td><td>❌ Orphaned</td></tr>
+<tr><td>Domestic graduate coursework</td><td>VTAC/direct → my.unimelb → find hub yourself</td><td>❌ Cold</td></tr>
+</table>
+
+<p>Only one cohort gets a guided handoff. The majority of commencing students are expected to discover the hub on their own.</p>
+
+<hr>
+
+<h2>The authenticated core dependency</h2>
+
+<p>The my.unimelb SIS (187 links from the hub) sits between the two public estates. The offer→accept→enrol flow happens in my.unimelb behind login. The public study.unimelb and students.unimelb can only describe what happens inside it. This means:</p>
+
+<ul>
+<li>The handoff is invisible to link-graph analysis — it happens in emails, offer letters, and portal notifications</li>
+<li>The public estate can't confirm the handoff works</li>
+<li>The authenticated flow may already be excellent — we can't see it</li>
+<li>But the public bridges (study→hub, hub→study) should still be bidirectional and intentional regardless</li>
+</ul>
+
+<hr>
+
+<h2>Recommendations</h2>
+
+<h3>1. Add a prominent "Now go here → students.unimelb" CTA to every offer-acceptance page on study.unimelb `[HIGH · quick-win]`</h3>
+<p>One template change. Every student who accepts an offer should be handed to the hub with a clear, consistent "You're in — here's your next step" bridge.</p>
+
+<h3>2. Build "Already enrolled?" and "Not enrolled yet?" bidirectional bridges `[MEDIUM · medium]`</h3>
+<p>Every study.unimelb page that serves enrolled students (fees, census, enrol) should carry "Already enrolled? Go to students.unimelb." Every students.unimelb page should carry "Not enrolled yet? Find your course on study.unimelb." Persistent, consistent, template-level.</p>
+
+<h3>3. Give every commencing cohort a guided "Get Started" sequence `[MEDIUM · medium]`</h3>
+<p>The domestic VTAC UG sequence works. Replicate it for international postgraduates, HDR candidates, graduate coursework, and online learners. One sequence per audience, linked from the offer-acceptance page.</p>
+
+<h3>4. Lift faculty→hub links to a floor of 200 per faculty `[MEDIUM · medium]`</h3>
+<p>9 faculties send fewer than 200 links to the hub. The eng/FBE pattern (~200-275) is proven — replicate it everywhere. Ensure links point to the canonical hub paths, not deprecated trees.</p>
+
+<hr>
+
+<h2>Linked improvements from the register</h2>
+
+<table>
+<tr><th>§</th><th>Improvement</th><th>Severity · Effort</th></tr>
+<tr><td>3.7</td><td>Make the prospective↔current handoff bidirectional and intentional at apply→enrol</td><td>MEDIUM · medium</td></tr>
+<tr><td>3.4</td><td>Replicate the MSD central-hub model — 12 faculties under-route students</td><td>MEDIUM · large</td></tr>
+<tr><td>1.2</td><td>One URL convention for the current-students entry — top-level `/students`</td><td>HIGH · medium</td></tr>
+</table>
+
+<hr>
+
+<p><em>Built from: cross-site-flow.csv (study→hub 373 links, full hub inbound audit, hub outbound audit), lifecycle-journeys.md (seam map), and improvements-register.md (§3.7, §3.4). June 2026.</em></p>
+
+</main>
+</body>
+</html>

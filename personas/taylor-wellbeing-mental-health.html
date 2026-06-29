@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Taylor — Wellbeing & crisis · UoM Current Students IA</title>
+<style>@font-face{font-family:'Fraunces';src:url('assets/fonts/Fraunces-VariableFont_SOFT_WONK_opsz_wght.ttf') format('truetype');font-weight:100 900;font-display:swap}
+@font-face{font-family:'Source Sans 3';src:url('assets/fonts/SourceSans3-VariableFont_wght.ttf') format('truetype');font-weight:200 900;font-display:swap}
+@font-face{font-family:'Source Code Pro';src:url('assets/fonts/SourceCodePro-VariableFont_wght.ttf') format('truetype');font-weight:200 900;font-display:swap}
+:root{--navy:#000F46;--navy-light:#1B2D5C;--cyan:#46C8F0;--ink:#222;--ink-2:#555;--bg:#fff;--bg-nav:#000F46;--bg-subtle:#F3F3F6;--border:#DDDDE7;--red:#DB1927;--amber:#AC5907;--green:#31733B;--font-h:'Fraunces',Georgia,serif;--font-b:'Source Sans 3',system-ui,sans-serif;--font-m:'Source Code Pro',monospace;--nav-w:280px}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:var(--font-b);font-size:17px;line-height:1.65;color:var(--ink);background:var(--bg);display:flex;min-height:100vh;-webkit-font-smoothing:antialiased}
+a{color:#004EAD;text-decoration:none}a:hover{text-decoration:underline}
+
+/* ── LHS Navigation ── */
+nav.lhs{position:fixed;top:0;left:0;width:var(--nav-w);height:100vh;background:var(--bg-nav);color:#C9CDE6;overflow-y:auto;z-index:100;display:flex;flex-direction:column;font-size:14px;line-height:1.4}
+nav.lhs .logo{padding:24px 20px 16px;border-bottom:1px solid rgba(255,255,255,.1)}
+nav.lhs .logo img{height:26px}
+nav.lhs .logo a{display:block;color:#fff;font-family:var(--font-h);font-size:16px;font-weight:600;text-decoration:none;margin-top:8px}
+nav.lhs .nav-scroll{flex:1;overflow-y:auto;padding:8px 0 24px}
+nav.lhs .section{font-family:var(--font-m);font-size:11px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--cyan);padding:16px 20px 6px}
+nav.lhs a.nav-link{display:block;padding:5px 20px;color:#9BA3C4;text-decoration:none;transition:all .15s;border-left:3px solid transparent}
+nav.lhs a.nav-link:hover{color:#fff;background:rgba(255,255,255,.05)}
+nav.lhs a.nav-link.active{color:#fff;background:rgba(255,255,255,.08);border-left-color:var(--cyan)}
+nav.lhs .sep{border:none;border-top:1px solid rgba(255,255,255,.08);margin:8px 16px}
+nav.lhs .footer{padding:16px 20px;font-size:11px;color:#6B7394;border-top:1px solid rgba(255,255,255,.08)}
+
+/* ── Main content ── */
+main{margin-left:var(--nav-w);flex:1;min-width:0;padding:40px 56px 80px;max-width:900px}
+main h1{font-family:var(--font-h);font-size:42px;font-weight:700;color:var(--navy);line-height:1.07;letter-spacing:-.012em;margin:0 0 8px}
+main h2{font-family:var(--font-h);font-size:28px;font-weight:600;color:var(--navy);margin:48px 0 16px;padding-bottom:8px;border-bottom:2px solid var(--border);line-height:1.15}
+main h3{font-family:var(--font-h);font-size:20px;font-weight:600;color:var(--navy);margin:32px 0 10px;line-height:1.2}
+main h4{font-size:18px;font-weight:700;color:var(--navy);margin:24px 0 8px}
+main p{margin:12px 0}
+main .subtitle{color:var(--ink-2);font-style:italic;font-size:18px;margin-bottom:32px}
+main blockquote{border-left:3px solid var(--navy);padding:12px 20px;margin:20px 0;background:var(--bg-subtle);font-style:italic;color:var(--ink-2)}
+main code{font-family:var(--font-m);font-size:14px;background:var(--bg-subtle);padding:2px 6px;border-radius:3px}
+main table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+main th{background:var(--navy);color:#fff;padding:10px 14px;text-align:left;font-weight:600}
+main td{padding:8px 14px;border-bottom:1px solid var(--border)}
+main tr:nth-child(even) td{background:var(--bg-subtle)}
+main ul,main ol{margin:8px 0 8px 24px}
+main li{margin:4px 0}
+main hr{border:none;border-top:1px solid var(--border);margin:40px 0}
+main strong{color:var(--navy)}
+.severity-high{display:inline-block;padding:1px 8px;border-radius:3px;font-size:12px;font-weight:700;background:#FFEBEE;color:var(--red)}
+.severity-medium{display:inline-block;padding:1px 8px;border-radius:3px;font-size:12px;font-weight:700;background:#FFF8E1;color:var(--amber)}
+.effort{display:inline-block;padding:1px 8px;border-radius:3px;font-size:12px;font-weight:700;background:#E8F5E9;color:var(--green)}
+.footer-note{color:var(--ink-2);font-size:13px;font-style:italic;margin-top:48px;padding-top:16px;border-top:1px solid var(--border)}
+
+/* ── Mobile ── */
+.menu-toggle{display:none;position:fixed;top:12px;left:12px;z-index:200;background:var(--navy);color:#fff;border:none;border-radius:6px;padding:8px 12px;font-size:20px;cursor:pointer}
+@media(max-width:960px){
+  nav.lhs{transform:translateX(-100%);transition:transform .25s}
+  nav.lhs.open{transform:translateX(0)}
+  main{margin-left:0;padding:60px 24px 40px}
+  .menu-toggle{display:block}
+}
+</style>
+</head>
+<body>
+<button class="menu-toggle" onclick="document.getElementById('lhsNav').classList.toggle('open')">☰</button>
+<nav class="lhs" id="lhsNav">
+  <div class="logo">
+    <img src="assets/UoM_Logo_Horiz_onDark.svg" alt="UoM">
+    <a href="index.html">Current Students IA</a>
+  </div>
+  <div class="nav-scroll">
+    <a class="nav-link" href="index.html">🏠 Home</a>
+    <div class="section">📊 Project Summary</div>
+    <div class="section">🎯 Five Root Findings</div>
+    <hr class="sep">
+    <div class="section">📋 Key Reports</div>
+    <a class="nav-link" href="report/Improvements-Register.html"> Improvements Register</a>
+    <a class="nav-link" href="report/Lifecycle-Journeys.html"> Lifecycle Journeys</a>
+    <a class="nav-link" href="report/Course-Planning-Enrolment.html"> Course Planning</a>
+    <a class="nav-link" href="report/International-Student-Experience.html"> International Student</a>
+    <a class="nav-link" href="report/Student-Services-Fragmentation.html"> Services Fragmentation</a>
+    <a class="nav-link" href="report/Careers-Employability-WIL.html"> Careers & WIL</a>
+    <hr class="sep">
+    <div class="section">🔬 Structural Deep-Dives</div>
+    <a class="nav-link" href="analysis/graduation-alumni-handoff.html"> Graduation → Alumni</a>
+    <a class="nav-link" href="analysis/careers-online-wiring.html"> Careers Online Wiring</a>
+    <a class="nav-link" href="analysis/prospective-current-handoff.html"> Prospective → Current</a>
+    <a class="nav-link" href="analysis/equity-indigenous-journey.html"> Equity & Indigenous</a>
+    <a class="nav-link" href="analysis/hdr-candidature-duplication.html"> HDR Duplication</a>
+    <a class="nav-link" href="analysis/forms-microsite-audit.html"> Forms & Microsites</a>
+    <hr class="sep">
+    <div class="section">📝 Content Quality</div>
+    <a class="nav-link" href="analysis/the-handbook.html"> The Handbook</a>
+    <a class="nav-link" href="analysis/fees-finance.html"> Fees & Finance</a>
+    <a class="nav-link" href="analysis/scholarships.html"> Scholarships</a>
+    <a class="nav-link" href="analysis/mobile-performance-audit.html"> Mobile & Performance</a>
+    <a class="nav-link" href="analysis/content-freshness-sandbox-leakage.html"> Content Freshness</a>
+    <a class="nav-link" href="analysis/content-quality-deep-dive.html"> Content Quality Audit</a>
+    <hr class="sep">
+    <div class="section">🔐 Authenticated Core</div>
+    <a class="nav-link" href="analysis/authenticated-core-audit.html"> Auth Core Audit</a>
+    <a class="nav-link" href="analysis/auth-hosts-live-check.html"> Live Host Check</a>
+    <a class="nav-link" href="analysis/authenticated-core-findings.html"> Auth Core Findings</a>
+    <hr class="sep">
+    <div class="section">🌐 Crawl Analyses</div>
+    <a class="nav-link" href="analysis/crawl-ask-unimelb.html"> ask.unimelb</a>
+    <a class="nav-link" href="analysis/crawl-gradresearch.html"> gradresearch</a>
+    <a class="nav-link" href="analysis/crawl-murrupbarak.html"> murrupbarak</a>
+    <a class="nav-link" href="analysis/crawl-safercommunity.html"> safercommunity</a>
+    <a class="nav-link" href="analysis/crawl-umsu.html"> umsu</a>
+    <a class="nav-link" href="analysis/crawl-online.html"> online.unimelb</a>
+    <a class="nav-link" href="analysis/crawl-sport.html"> sport</a>
+    <a class="nav-link" href="analysis/crawl-library.html"> library</a>
+    <a class="nav-link" href="analysis/crawl-studentit.html"> studentit</a>
+    <hr class="sep">
+    <div class="section">👤 Personas</div>
+    <a class="nav-link" href="personas/sam-planning-their-path.html"> Sam — Planning</a>
+    <a class="nav-link" href="personas/alex-at-risk-withdrawal.html"> Alex — At-risk</a>
+    <a class="nav-link" href="personas/priya-international-student.html"> Priya — International</a>
+    <a class="nav-link" href="personas/jordan-course-planning-maze.html"> Jordan — Course Maze</a>
+    <a class="nav-link active" href="personas/taylor-wellbeing-mental-health.html"> Taylor — Wellbeing</a>
+    <hr class="sep">
+    <div class="section">📦 Deliverables</div>
+    <a class="nav-link" href="analysis/governance-summary-pack.html"> Governance Pack</a>
+    <a class="nav-link" href="analysis/quick-wins-checklist.html"> Quick Wins</a>
+    <a class="nav-link" href="analysis/final-synthesis.html"> Final Synthesis</a>
+  </div>
+  <div class="footer">UoM · Student Experience &amp; Design<br>June 2026 · 41,533 pages · 31 domains</div>
+</nav>
+
+<main>
+<h1>Taylor — Wellbeing & crisis</h1>
+<p class="subtitle">Third-year seeking help. 3-4 hosts to reach counselling.</p>
+<h1>Taylor — Wellbeing & mental health crisis</h1>
+
+<blockquote>
+*"I searched 'mental health support' on the student hub and got a page about academic skills. I clicked through three more pages before I found counselling. By then I'd already given up and called a friend instead."*
+</blockquote>
+
+<h2>Bio</h2>
+<p>Taylor is a third-year undergraduate who has been struggling with anxiety and depression throughout the semester. After missing two assignment deadlines and receiving a concerning email from their subject coordinator, Taylor decides to seek help. They navigate to students.unimelb, search for "mental health," and land on a page whose dominant brand signal is "Academic Skills Unit" — not "Counselling." The service exists (counselling, health, and safer community are all real, funded services) but Taylor must route through 3–4 hosts with inconsistent labels before reaching the right one. This is the journey where the estate's fragmentation costs the most: a student in crisis has the least margin to hunt across systems.</p>
+
+<h2>Journey pain points</h2>
+
+<table>
+<tr><th>Pain point</th><th>Crawl evidence</th><th>Severity</th></tr>
+<tr><td>**Counselling delivery is off-brand**</td><td>services.unimelb branded "Academic Skills Unit" (614× anchor mentions) vs "Counselling" (39×)</td><td>HIGH</td></tr>
+<tr><td>**Wellbeing support forked across parallel hub trees**</td><td>`/support-and-wellbeing` (canonical, 152 pages) vs `/student-support` (deprecated, 80+ pages, linked by 12 domains)</td><td>HIGH</td></tr>
+<tr><td>**Student crosses 3-4 hosts to reach help**</td><td>students.unimelb → services.unimelb → safercommunity.unimelb → safety.unimelb</td><td>HIGH</td></tr>
+<tr><td>**Financial hardship support is ~5 pages**</td><td>Thin for the cohort most likely to need it — request funnels into one opaque form</td><td>HIGH</td></tr>
+<tr><td>**Special consideration scattered behind walls**</td><td>Content across trees and faculties; application at specialconsideration.app / my.unimelb</td><td>MEDIUM</td></tr>
+<tr><td>**Safer community on separate uncrawled domain**</td><td>safercommunity.unimelb — critical safety service with zero presence on the main hub</td><td>MEDIUM</td></tr>
+<tr><td>**No unified "I need help now" front door**</td><td>Support scattered across counselling, health, safety, financial, academic progress — no single crisis entry</td><td>HIGH</td></tr>
+</table>
+
+<h2>Top frustrations</h2>
+<ol>
+<li>**Counselling is hiding behind the wrong label.** The wellbeing link lands on a page dominated by "Academic Skills Unit" branding — Taylor doesn't know they've found the counselling service.</li>
+<li>**Two competing versions of support exist.** The deprecated `/student-support` tree is still live and still linked by 12 external domains — Taylor may read the wrong, outdated version.</li>
+<li>**The crisis services are on a completely separate domain.** Safer community and safety services live on uncrawled domains with no reciprocal linking from the main hub.</li>
+<li>**Financial help is near-invisible.** Five pages for the cohort most likely to need emergency financial support — and the request path is an opaque form with SID parameters.</li>
+</ul>
+
+<h2>Service touchpoints</h2>
+<table>
+<tr><th>Touchpoint</th><th>Where it lives</th><th>What's wrong</th></tr>
+<tr><td>Mental health / counselling</td><td>services.unimelb /counsel</td><td>Off-brand — labeled "Academic Skills Unit" 16× more than "Counselling"</td></tr>
+<tr><td>Health services</td><td>services.unimelb /health</td><td>Separate from counselling; no unified wellbeing home</td></tr>
+<tr><td>Safer community</td><td>safercommunity.unimelb</td><td>Separate uncrawled domain; zero presence on main hub</td></tr>
+<tr><td>Safety / emergency</td><td>safety.unimelb</td><td>Another separate domain</td></tr>
+<tr><td>Financial hardship</td><td>students.unimelb (~5 pages)</td><td>Thin; opaque form with SID params</td></tr>
+<tr><td>Special consideration</td><td>specialconsideration.app / my.unimelb</td><td>Behind wall; content scattered</td></tr>
+<tr><td>Academic progress</td><td>students.unimelb (2 trees)</td><td>Competing content across parallel URL trees</td></tr>
+<tr><td>Disability support (SEDS)</td><td>students.unimelb (3 trees)</td><td>Registration wizard exists on only 1 of 3 trees — 12 domains link the 2 that lack it</td></tr>
+</table>
+
+<h2>The wellbeing footprint</h2>
+<table>
+<tr><th>Component</th><th>Pages</th><th>Note</th></tr>
+<tr><td>Hub front door (canonical)</td><td>152 raw / 109 unique</td><td>Genuine router — fans out to providers</td></tr>
+<tr><td>Hub legacy tree</td><td>~80 pages</td><td>Deprecated but still linked by 12 domains</td></tr>
+<tr><td>Counselling delivery</td><td>~100 pages (services.unimelb)</td><td>Off-brand host</td></tr>
+<tr><td>Health delivery</td><td>~20 pages (services.unimelb)</td><td>Separate from counselling</td></tr>
+<tr><td>Faculty wellbeing stubs</td><td>~41 pages</td><td>Scattered across education, law, science, fbe, eng</td></tr>
+<tr><td>**True current-student footprint**</td><td>**~244 unique paths**</td><td>After filtering 1,488 medical-school false positives + 428 study.unimelb prospective</td></tr>
+</table>
+
+<h2>Systems traversed</h2>
+<p>~6: students.unimelb (2-3 trees) → services.unimelb → specialconsideration.app → my.unimelb → safercommunity.unimelb → forms.your</p>
+
+<h2>Linked improvements from the register</h2>
+<table>
+<tr><th>#</th><th>Improvement</th><th>Severity · Effort</th></tr>
+<tr><td>1</td><td>Finish the stalled hub migration & collapse parallel URL trees</td><td>HIGH · medium</td></tr>
+<tr><td>—</td><td>Build one "I need help now" front door collapsing parallel trees</td><td>HIGH · medium</td></tr>
+<tr><td>—</td><td>Rebrand services.unimelb counselling pages to be findable as "Counselling"</td><td>MEDIUM · quick-win</td></tr>
+<tr><td>—</td><td>Surface safer community from the main hub with reciprocal linking</td><td>MEDIUM · medium</td></tr>
+</table>
+
+<h2>Related deep-dives</h2>
+<ul>
+<li>`analysis/student-services-fragmentation.md` — wellbeing service audit</li>
+<li>`analysis/student-services-profiles.json` — wellbeing, health & safety profile</li>
+<li>`analysis/lifecycle-journeys.md` — At-risk student journey trace</li>
+<li>`report/Student-Services-Fragmentation.html` — formatted report</li>
+</ul>
+
+<hr>
+
+<p><em>Built from: student-services-profiles.json (wellbeing profile — 244 true current-student paths), lifecycle-journeys.md, improvements-register.md, and the full-scrape link graph. June 2026.</em></p>
+
+</main>
+</body>
+</html>

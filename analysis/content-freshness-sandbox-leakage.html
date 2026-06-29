@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Content Freshness & Sandbox Leakage · UoM Current Students IA</title>
+<style>@font-face{font-family:'Fraunces';src:url('assets/fonts/Fraunces-VariableFont_SOFT_WONK_opsz_wght.ttf') format('truetype');font-weight:100 900;font-display:swap}
+@font-face{font-family:'Source Sans 3';src:url('assets/fonts/SourceSans3-VariableFont_wght.ttf') format('truetype');font-weight:200 900;font-display:swap}
+@font-face{font-family:'Source Code Pro';src:url('assets/fonts/SourceCodePro-VariableFont_wght.ttf') format('truetype');font-weight:200 900;font-display:swap}
+:root{--navy:#000F46;--navy-light:#1B2D5C;--cyan:#46C8F0;--ink:#222;--ink-2:#555;--bg:#fff;--bg-nav:#000F46;--bg-subtle:#F3F3F6;--border:#DDDDE7;--red:#DB1927;--amber:#AC5907;--green:#31733B;--font-h:'Fraunces',Georgia,serif;--font-b:'Source Sans 3',system-ui,sans-serif;--font-m:'Source Code Pro',monospace;--nav-w:280px}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:var(--font-b);font-size:17px;line-height:1.65;color:var(--ink);background:var(--bg);display:flex;min-height:100vh;-webkit-font-smoothing:antialiased}
+a{color:#004EAD;text-decoration:none}a:hover{text-decoration:underline}
+
+/* ── LHS Navigation ── */
+nav.lhs{position:fixed;top:0;left:0;width:var(--nav-w);height:100vh;background:var(--bg-nav);color:#C9CDE6;overflow-y:auto;z-index:100;display:flex;flex-direction:column;font-size:14px;line-height:1.4}
+nav.lhs .logo{padding:24px 20px 16px;border-bottom:1px solid rgba(255,255,255,.1)}
+nav.lhs .logo img{height:26px}
+nav.lhs .logo a{display:block;color:#fff;font-family:var(--font-h);font-size:16px;font-weight:600;text-decoration:none;margin-top:8px}
+nav.lhs .nav-scroll{flex:1;overflow-y:auto;padding:8px 0 24px}
+nav.lhs .section{font-family:var(--font-m);font-size:11px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--cyan);padding:16px 20px 6px}
+nav.lhs a.nav-link{display:block;padding:5px 20px;color:#9BA3C4;text-decoration:none;transition:all .15s;border-left:3px solid transparent}
+nav.lhs a.nav-link:hover{color:#fff;background:rgba(255,255,255,.05)}
+nav.lhs a.nav-link.active{color:#fff;background:rgba(255,255,255,.08);border-left-color:var(--cyan)}
+nav.lhs .sep{border:none;border-top:1px solid rgba(255,255,255,.08);margin:8px 16px}
+nav.lhs .footer{padding:16px 20px;font-size:11px;color:#6B7394;border-top:1px solid rgba(255,255,255,.08)}
+
+/* ── Main content ── */
+main{margin-left:var(--nav-w);flex:1;min-width:0;padding:40px 56px 80px;max-width:900px}
+main h1{font-family:var(--font-h);font-size:42px;font-weight:700;color:var(--navy);line-height:1.07;letter-spacing:-.012em;margin:0 0 8px}
+main h2{font-family:var(--font-h);font-size:28px;font-weight:600;color:var(--navy);margin:48px 0 16px;padding-bottom:8px;border-bottom:2px solid var(--border);line-height:1.15}
+main h3{font-family:var(--font-h);font-size:20px;font-weight:600;color:var(--navy);margin:32px 0 10px;line-height:1.2}
+main h4{font-size:18px;font-weight:700;color:var(--navy);margin:24px 0 8px}
+main p{margin:12px 0}
+main .subtitle{color:var(--ink-2);font-style:italic;font-size:18px;margin-bottom:32px}
+main blockquote{border-left:3px solid var(--navy);padding:12px 20px;margin:20px 0;background:var(--bg-subtle);font-style:italic;color:var(--ink-2)}
+main code{font-family:var(--font-m);font-size:14px;background:var(--bg-subtle);padding:2px 6px;border-radius:3px}
+main table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+main th{background:var(--navy);color:#fff;padding:10px 14px;text-align:left;font-weight:600}
+main td{padding:8px 14px;border-bottom:1px solid var(--border)}
+main tr:nth-child(even) td{background:var(--bg-subtle)}
+main ul,main ol{margin:8px 0 8px 24px}
+main li{margin:4px 0}
+main hr{border:none;border-top:1px solid var(--border);margin:40px 0}
+main strong{color:var(--navy)}
+.severity-high{display:inline-block;padding:1px 8px;border-radius:3px;font-size:12px;font-weight:700;background:#FFEBEE;color:var(--red)}
+.severity-medium{display:inline-block;padding:1px 8px;border-radius:3px;font-size:12px;font-weight:700;background:#FFF8E1;color:var(--amber)}
+.effort{display:inline-block;padding:1px 8px;border-radius:3px;font-size:12px;font-weight:700;background:#E8F5E9;color:var(--green)}
+.footer-note{color:var(--ink-2);font-size:13px;font-style:italic;margin-top:48px;padding-top:16px;border-top:1px solid var(--border)}
+
+/* ── Mobile ── */
+.menu-toggle{display:none;position:fixed;top:12px;left:12px;z-index:200;background:var(--navy);color:#fff;border:none;border-radius:6px;padding:8px 12px;font-size:20px;cursor:pointer}
+@media(max-width:960px){
+  nav.lhs{transform:translateX(-100%);transition:transform .25s}
+  nav.lhs.open{transform:translateX(0)}
+  main{margin-left:0;padding:60px 24px 40px}
+  .menu-toggle{display:block}
+}
+</style>
+</head>
+<body>
+<button class="menu-toggle" onclick="document.getElementById('lhsNav').classList.toggle('open')">☰</button>
+<nav class="lhs" id="lhsNav">
+  <div class="logo">
+    <img src="assets/UoM_Logo_Horiz_onDark.svg" alt="UoM">
+    <a href="index.html">Current Students IA</a>
+  </div>
+  <div class="nav-scroll">
+    <a class="nav-link" href="index.html">🏠 Home</a>
+    <div class="section">📊 Project Summary</div>
+    <div class="section">🎯 Five Root Findings</div>
+    <hr class="sep">
+    <div class="section">📋 Key Reports</div>
+    <a class="nav-link" href="report/Improvements-Register.html"> Improvements Register</a>
+    <a class="nav-link" href="report/Lifecycle-Journeys.html"> Lifecycle Journeys</a>
+    <a class="nav-link" href="report/Course-Planning-Enrolment.html"> Course Planning</a>
+    <a class="nav-link" href="report/International-Student-Experience.html"> International Student</a>
+    <a class="nav-link" href="report/Student-Services-Fragmentation.html"> Services Fragmentation</a>
+    <a class="nav-link" href="report/Careers-Employability-WIL.html"> Careers & WIL</a>
+    <hr class="sep">
+    <div class="section">🔬 Structural Deep-Dives</div>
+    <a class="nav-link" href="analysis/graduation-alumni-handoff.html"> Graduation → Alumni</a>
+    <a class="nav-link" href="analysis/careers-online-wiring.html"> Careers Online Wiring</a>
+    <a class="nav-link" href="analysis/prospective-current-handoff.html"> Prospective → Current</a>
+    <a class="nav-link" href="analysis/equity-indigenous-journey.html"> Equity & Indigenous</a>
+    <a class="nav-link" href="analysis/hdr-candidature-duplication.html"> HDR Duplication</a>
+    <a class="nav-link" href="analysis/forms-microsite-audit.html"> Forms & Microsites</a>
+    <hr class="sep">
+    <div class="section">📝 Content Quality</div>
+    <a class="nav-link" href="analysis/the-handbook.html"> The Handbook</a>
+    <a class="nav-link" href="analysis/fees-finance.html"> Fees & Finance</a>
+    <a class="nav-link" href="analysis/scholarships.html"> Scholarships</a>
+    <a class="nav-link" href="analysis/mobile-performance-audit.html"> Mobile & Performance</a>
+    <a class="nav-link active" href="analysis/content-freshness-sandbox-leakage.html"> Content Freshness</a>
+    <a class="nav-link" href="analysis/content-quality-deep-dive.html"> Content Quality Audit</a>
+    <hr class="sep">
+    <div class="section">🔐 Authenticated Core</div>
+    <a class="nav-link" href="analysis/authenticated-core-audit.html"> Auth Core Audit</a>
+    <a class="nav-link" href="analysis/auth-hosts-live-check.html"> Live Host Check</a>
+    <a class="nav-link" href="analysis/authenticated-core-findings.html"> Auth Core Findings</a>
+    <hr class="sep">
+    <div class="section">🌐 Crawl Analyses</div>
+    <a class="nav-link" href="analysis/crawl-ask-unimelb.html"> ask.unimelb</a>
+    <a class="nav-link" href="analysis/crawl-gradresearch.html"> gradresearch</a>
+    <a class="nav-link" href="analysis/crawl-murrupbarak.html"> murrupbarak</a>
+    <a class="nav-link" href="analysis/crawl-safercommunity.html"> safercommunity</a>
+    <a class="nav-link" href="analysis/crawl-umsu.html"> umsu</a>
+    <a class="nav-link" href="analysis/crawl-online.html"> online.unimelb</a>
+    <a class="nav-link" href="analysis/crawl-sport.html"> sport</a>
+    <a class="nav-link" href="analysis/crawl-library.html"> library</a>
+    <a class="nav-link" href="analysis/crawl-studentit.html"> studentit</a>
+    <hr class="sep">
+    <div class="section">👤 Personas</div>
+    <a class="nav-link" href="personas/sam-planning-their-path.html"> Sam — Planning</a>
+    <a class="nav-link" href="personas/alex-at-risk-withdrawal.html"> Alex — At-risk</a>
+    <a class="nav-link" href="personas/priya-international-student.html"> Priya — International</a>
+    <a class="nav-link" href="personas/jordan-course-planning-maze.html"> Jordan — Course Maze</a>
+    <a class="nav-link" href="personas/taylor-wellbeing-mental-health.html"> Taylor — Wellbeing</a>
+    <hr class="sep">
+    <div class="section">📦 Deliverables</div>
+    <a class="nav-link" href="analysis/governance-summary-pack.html"> Governance Pack</a>
+    <a class="nav-link" href="analysis/quick-wins-checklist.html"> Quick Wins</a>
+    <a class="nav-link" href="analysis/final-synthesis.html"> Final Synthesis</a>
+  </div>
+  <div class="footer">UoM · Student Experience &amp; Design<br>June 2026 · 41,533 pages · 31 domains</div>
+</nav>
+
+<main>
+<h1>Content Freshness & Sandbox Leakage</h1>
+<p class="subtitle">Live sandbox visa draft with 90 real inbound links.</p>
+<h1>Content Freshness & Sandbox Leakage — Deep-Dive</h1>
+
+<p><em>Draft content is live, indexed, and accumulating production inbound links. A published sandbox carries 19,000+ chars of real visa/CoE/OSHC text with 90 real inbound links. A 2025 English requirements page is still live in 2026. _nocache variants leak into the link graph. There is no content ownership registry. June 2026.</em></p>
+
+<hr>
+
+<h2>Executive summary</h2>
+
+<p>The University's web estate has no mechanism to prevent draft, staging, or stale content from being published, indexed, and linked from production pages. Three acute failures define the gap:</p>
+
+<ol>
+<li>**A live /sandbox/2026-uplifts/student-visas draft tree** — 812KB, 19,000+ chars of real immigration-critical content, accumulating **90 real inbound links** from production pages. One URL resolves to a UoM Sign-In wall — confirming it's a live staging surface, not a content model.</li>
+</ul>
+
+<ol>
+<li>**Year-stamped stale content** — a "2025 English language requirements" page still live and linked from the 2026 hub. An applicant can apply against superseded IELTS thresholds.</li>
+</ul>
+
+<ol>
+<li>**_nocache URL variants leaking into the link graph** — 15 production pages link to _nocache versions of fee/eligibility pages.</li>
+</ul>
+
+<p>Underneath all three: <strong>there is no content ownership registry.</strong> No one knows who owns which page, when it should be reviewed, or when it should be retired. The estate silently degrades because nobody is watching.</p>
+
+<hr>
+
+<h2>The sandbox leakage</h2>
+
+<h3>What's live</h3>
+
+<p>The freshness-signals.csv crawl found <strong>13 students.unimelb /sandbox URLs</strong>. 12 are under <code>/sandbox/2026-uplifts/student-visas/</code>. These are not empty stubs — the page.html for <code>/sandbox/2026-uplifts/student-visas/support-with-student-visas</code> is <strong>812,250 bytes with 19,493 characters of real visible text</strong> covering:</p>
+
+<ul>
+<li>Overseas Student Health Cover (OSHC)</li>
+<li>Confirmation of Enrolment (CoE)</li>
+<li>Study load requirements</li>
+<li>Department of Home Affairs links</li>
+<li>Visa renewal information</li>
+<li>Working on a student visa</li>
+</ul>
+
+<p>This is a fully-authored, publication-ready page on the single most immigration-critical topic in the estate — and it's served from a <code>/sandbox/</code> URL.</p>
+
+<h3>What links to it</h3>
+
+<p><strong>90 real inbound links</strong> from production students.unimelb pages point to sandbox URLs:</p>
+
+<table>
+<tr><th>Sandbox destination</th><th>Inbound links</th><th>Anchor text</th></tr>
+<tr><td>.../arrange-your-overseas-student-health-cover-oshc</td><td>8</td><td>Correct anchor text from students.unimelb itself</td></tr>
+<tr><td>Other visa/CoE/OSHC sandbox pages</td><td>82</td><td>Various</td></tr>
+</table>
+
+<p>Editors are already linking to staging content. The sandbox is functioning as a parallel production tree for visa/immigration content — without any of the governance, redirects, or canonical tags that protect the rest of the estate.</p>
+
+<h3>The Sign-In wall</h3>
+
+<p>One sandbox URL (<code>.../renew-your-student-visa/_nocache</code>) resolves to a <strong>"University of Melbourne - Sign In"</strong> wall — confirming this is a live staging surface connected to the University's authentication system, not a static content model.</p>
+
+<h3>The SEDS sandbox</h3>
+
+<p>A parallel <code>/sandbox/content-models/student-equity-and-disability-services</code> tree also leaks — its SEDS-privacy page has <strong>10 inbound links</strong> from production pages. The equity/disability service, already forked across three production trees, now has a fourth: a sandbox draft accumulating real traffic.</p>
+
+<hr>
+
+<h2>Stale content: 2025 in 2026</h2>
+
+<h3>English language requirements</h3>
+
+<p>A "2025 English language requirements" page is still live on study.unimelb as of June 2026. It is <strong>still linked from the current 2026 hub</strong> (verified in links.json). The page mentions "2025" 6 times and "2026" only once. It carries 3,441 words of real content — IELTS thresholds, country equivalency tables, test provider links.</p>
+
+<p>An international applicant can land on this page and apply against <strong>superseded IELTS thresholds</strong>. A 0.5-band miss means no offer and no visa. This is a direct immigration-compliance risk from stale content.</p>
+
+<h3>_nocache URL leakage</h3>
+
+<p>15 pages across students.unimelb link to _nocache versions of fee, eligibility, and HELP-loan pages. These are cache-bust artifacts — URL variants that bypass the CDN. They leak into the link graph because editors linked the _nocache URL instead of the canonical one. A student who bookmarks a _nocache URL gets a URL that:</p>
+<ul>
+<li>May break when the CDN configuration changes</li>
+<li>Creates duplicate analytics entries</li>
+<li>Splits link equity across two URLs</li>
+</ul>
+
+<hr>
+
+<h2>No content ownership registry</h2>
+
+<p>Underneath all three failures is the same governance gap: <strong>there is no content ownership registry.</strong> No system tracks:</p>
+
+<ul>
+<li>Who owns each page</li>
+<li>When it was last reviewed</li>
+<li>When it should next be reviewed</li>
+<li>Whether it's live, draft, or deprecated</li>
+<li>What its retirement date is</li>
+</ul>
+
+<p>The 415 distinct <code><em>.unimelb.edu.au</code> hosts in the contextual graph have no owner register. The 19 single-purpose transaction <code></em>.app</code> hosts have no retirement date. The sandbox trees have no publication gate. The 2025 English page has no expiry flag. The _nocache variants have no redirect.</p>
+
+<p>The estate cannot self-govern because it doesn't know what it contains.</p>
+
+<hr>
+
+<h2>Recommendations</h2>
+
+<h3>1. Unpublish all /sandbox/ content — immediately `[HIGH · quick-win]`</h3>
+<p>Take down <code>/sandbox/2026-uplifts/student-visas/</code> and <code>/sandbox/content-models/student-equity-and-disability-services/</code>. If the content is ready for production, publish it to the canonical URL tree with proper redirects. If it's not ready, remove it from the public web. A live published draft on immigration-critical content is a compliance hazard.</p>
+
+<h3>2. Redirect all sandbox inbound links to canonical destinations `[HIGH · quick-win]`</h3>
+<p>The 90 real inbound links to sandbox visa pages need 301-redirects to the canonical <code>/support-and-wellbeing/international-student-support/visas/</code> tree. Don't break the links editors already created — redirect them.</p>
+
+<h3>3. Unpublish / 301 the 2025 English requirements page `[HIGH · quick-win]`</h3>
+<p>Remove the 2025 page and redirect its inbound links to the current 2026 English requirements page. Never expose year-forked eligibility thresholds.</p>
+
+<h3>4. Add a publication gate: no /sandbox/ content accessible without authentication `[MEDIUM · medium]`</h3>
+<p>Sandbox/staging environments should require login. Public sandbox URLs should 404 or redirect. This is a server-config change, not a content change.</p>
+
+<h3>5. Strip _nocache query strings from internal links `[MEDIUM · quick-win]`</h3>
+<p>Audit and fix the 15 known _nocache inbound links. Add a CMS guard that prevents editors from linking to _nocache URLs.</p>
+
+<h3>6. Stand up a content ownership registry `[MEDIUM · medium]`</h3>
+<p>Every published page needs: owner, last-review date, next-review date, and status (live/draft/deprecated). Every subdomain needs a registered owner and a retirement date. This is the structural fix that prevents all three failures from recurring.</p>
+
+<hr>
+
+<h2>Linked improvements from the register</h2>
+
+<table>
+<tr><th>§</th><th>Improvement</th><th>Severity · Effort</th></tr>
+<tr><td>9.1</td><td>Draft / sandbox content is live and indexed in production</td><td>HIGH · quick-win</td></tr>
+<tr><td>8b.2</td><td>A draft /sandbox/2026-uplifts/student-visas tree is live, indexed, and accumulating production links on immigration-critical content</td><td>HIGH · quick-win</td></tr>
+<tr><td>9.2</td><td>Governance actions have no addressee — there is no current-state ownership map</td><td>MEDIUM · medium</td></tr>
+<tr><td>Discover (international)</td><td>Unpublish / 301 the live 2025 English language requirements page</td><td>HIGH · quick-win</td></tr>
+<tr><td>5.1</td><td>Stand up a subdomain registry + provisioning gate</td><td>HIGH · medium</td></tr>
+</table>
+
+<hr>
+
+<p><em>Built from: freshness-signals.csv (13 sandbox URLs), improvements-register.md (§9 Content freshness, §8b International compliance & equity), crawl/ sandbox page captures, international-student-experience.md (2025 English page finding), and cross-site-flow.csv (sandbox inbound link audit). June 2026.</em></p>
+
+</main>
+</body>
+</html>

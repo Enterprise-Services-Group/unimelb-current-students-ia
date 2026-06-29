@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HDR Candidature Duplication · UoM Current Students IA</title>
+<style>@font-face{font-family:'Fraunces';src:url('assets/fonts/Fraunces-VariableFont_SOFT_WONK_opsz_wght.ttf') format('truetype');font-weight:100 900;font-display:swap}
+@font-face{font-family:'Source Sans 3';src:url('assets/fonts/SourceSans3-VariableFont_wght.ttf') format('truetype');font-weight:200 900;font-display:swap}
+@font-face{font-family:'Source Code Pro';src:url('assets/fonts/SourceCodePro-VariableFont_wght.ttf') format('truetype');font-weight:200 900;font-display:swap}
+:root{--navy:#000F46;--navy-light:#1B2D5C;--cyan:#46C8F0;--ink:#222;--ink-2:#555;--bg:#fff;--bg-nav:#000F46;--bg-subtle:#F3F3F6;--border:#DDDDE7;--red:#DB1927;--amber:#AC5907;--green:#31733B;--font-h:'Fraunces',Georgia,serif;--font-b:'Source Sans 3',system-ui,sans-serif;--font-m:'Source Code Pro',monospace;--nav-w:280px}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:var(--font-b);font-size:17px;line-height:1.65;color:var(--ink);background:var(--bg);display:flex;min-height:100vh;-webkit-font-smoothing:antialiased}
+a{color:#004EAD;text-decoration:none}a:hover{text-decoration:underline}
+
+/* ── LHS Navigation ── */
+nav.lhs{position:fixed;top:0;left:0;width:var(--nav-w);height:100vh;background:var(--bg-nav);color:#C9CDE6;overflow-y:auto;z-index:100;display:flex;flex-direction:column;font-size:14px;line-height:1.4}
+nav.lhs .logo{padding:24px 20px 16px;border-bottom:1px solid rgba(255,255,255,.1)}
+nav.lhs .logo img{height:26px}
+nav.lhs .logo a{display:block;color:#fff;font-family:var(--font-h);font-size:16px;font-weight:600;text-decoration:none;margin-top:8px}
+nav.lhs .nav-scroll{flex:1;overflow-y:auto;padding:8px 0 24px}
+nav.lhs .section{font-family:var(--font-m);font-size:11px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--cyan);padding:16px 20px 6px}
+nav.lhs a.nav-link{display:block;padding:5px 20px;color:#9BA3C4;text-decoration:none;transition:all .15s;border-left:3px solid transparent}
+nav.lhs a.nav-link:hover{color:#fff;background:rgba(255,255,255,.05)}
+nav.lhs a.nav-link.active{color:#fff;background:rgba(255,255,255,.08);border-left-color:var(--cyan)}
+nav.lhs .sep{border:none;border-top:1px solid rgba(255,255,255,.08);margin:8px 16px}
+nav.lhs .footer{padding:16px 20px;font-size:11px;color:#6B7394;border-top:1px solid rgba(255,255,255,.08)}
+
+/* ── Main content ── */
+main{margin-left:var(--nav-w);flex:1;min-width:0;padding:40px 56px 80px;max-width:900px}
+main h1{font-family:var(--font-h);font-size:42px;font-weight:700;color:var(--navy);line-height:1.07;letter-spacing:-.012em;margin:0 0 8px}
+main h2{font-family:var(--font-h);font-size:28px;font-weight:600;color:var(--navy);margin:48px 0 16px;padding-bottom:8px;border-bottom:2px solid var(--border);line-height:1.15}
+main h3{font-family:var(--font-h);font-size:20px;font-weight:600;color:var(--navy);margin:32px 0 10px;line-height:1.2}
+main h4{font-size:18px;font-weight:700;color:var(--navy);margin:24px 0 8px}
+main p{margin:12px 0}
+main .subtitle{color:var(--ink-2);font-style:italic;font-size:18px;margin-bottom:32px}
+main blockquote{border-left:3px solid var(--navy);padding:12px 20px;margin:20px 0;background:var(--bg-subtle);font-style:italic;color:var(--ink-2)}
+main code{font-family:var(--font-m);font-size:14px;background:var(--bg-subtle);padding:2px 6px;border-radius:3px}
+main table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+main th{background:var(--navy);color:#fff;padding:10px 14px;text-align:left;font-weight:600}
+main td{padding:8px 14px;border-bottom:1px solid var(--border)}
+main tr:nth-child(even) td{background:var(--bg-subtle)}
+main ul,main ol{margin:8px 0 8px 24px}
+main li{margin:4px 0}
+main hr{border:none;border-top:1px solid var(--border);margin:40px 0}
+main strong{color:var(--navy)}
+.severity-high{display:inline-block;padding:1px 8px;border-radius:3px;font-size:12px;font-weight:700;background:#FFEBEE;color:var(--red)}
+.severity-medium{display:inline-block;padding:1px 8px;border-radius:3px;font-size:12px;font-weight:700;background:#FFF8E1;color:var(--amber)}
+.effort{display:inline-block;padding:1px 8px;border-radius:3px;font-size:12px;font-weight:700;background:#E8F5E9;color:var(--green)}
+.footer-note{color:var(--ink-2);font-size:13px;font-style:italic;margin-top:48px;padding-top:16px;border-top:1px solid var(--border)}
+
+/* ── Mobile ── */
+.menu-toggle{display:none;position:fixed;top:12px;left:12px;z-index:200;background:var(--navy);color:#fff;border:none;border-radius:6px;padding:8px 12px;font-size:20px;cursor:pointer}
+@media(max-width:960px){
+  nav.lhs{transform:translateX(-100%);transition:transform .25s}
+  nav.lhs.open{transform:translateX(0)}
+  main{margin-left:0;padding:60px 24px 40px}
+  .menu-toggle{display:block}
+}
+</style>
+</head>
+<body>
+<button class="menu-toggle" onclick="document.getElementById('lhsNav').classList.toggle('open')">☰</button>
+<nav class="lhs" id="lhsNav">
+  <div class="logo">
+    <img src="assets/UoM_Logo_Horiz_onDark.svg" alt="UoM">
+    <a href="index.html">Current Students IA</a>
+  </div>
+  <div class="nav-scroll">
+    <a class="nav-link" href="index.html">🏠 Home</a>
+    <div class="section">📊 Project Summary</div>
+    <div class="section">🎯 Five Root Findings</div>
+    <hr class="sep">
+    <div class="section">📋 Key Reports</div>
+    <a class="nav-link" href="report/Improvements-Register.html"> Improvements Register</a>
+    <a class="nav-link" href="report/Lifecycle-Journeys.html"> Lifecycle Journeys</a>
+    <a class="nav-link" href="report/Course-Planning-Enrolment.html"> Course Planning</a>
+    <a class="nav-link" href="report/International-Student-Experience.html"> International Student</a>
+    <a class="nav-link" href="report/Student-Services-Fragmentation.html"> Services Fragmentation</a>
+    <a class="nav-link" href="report/Careers-Employability-WIL.html"> Careers & WIL</a>
+    <hr class="sep">
+    <div class="section">🔬 Structural Deep-Dives</div>
+    <a class="nav-link" href="analysis/graduation-alumni-handoff.html"> Graduation → Alumni</a>
+    <a class="nav-link" href="analysis/careers-online-wiring.html"> Careers Online Wiring</a>
+    <a class="nav-link" href="analysis/prospective-current-handoff.html"> Prospective → Current</a>
+    <a class="nav-link" href="analysis/equity-indigenous-journey.html"> Equity & Indigenous</a>
+    <a class="nav-link active" href="analysis/hdr-candidature-duplication.html"> HDR Duplication</a>
+    <a class="nav-link" href="analysis/forms-microsite-audit.html"> Forms & Microsites</a>
+    <hr class="sep">
+    <div class="section">📝 Content Quality</div>
+    <a class="nav-link" href="analysis/the-handbook.html"> The Handbook</a>
+    <a class="nav-link" href="analysis/fees-finance.html"> Fees & Finance</a>
+    <a class="nav-link" href="analysis/scholarships.html"> Scholarships</a>
+    <a class="nav-link" href="analysis/mobile-performance-audit.html"> Mobile & Performance</a>
+    <a class="nav-link" href="analysis/content-freshness-sandbox-leakage.html"> Content Freshness</a>
+    <a class="nav-link" href="analysis/content-quality-deep-dive.html"> Content Quality Audit</a>
+    <hr class="sep">
+    <div class="section">🔐 Authenticated Core</div>
+    <a class="nav-link" href="analysis/authenticated-core-audit.html"> Auth Core Audit</a>
+    <a class="nav-link" href="analysis/auth-hosts-live-check.html"> Live Host Check</a>
+    <a class="nav-link" href="analysis/authenticated-core-findings.html"> Auth Core Findings</a>
+    <hr class="sep">
+    <div class="section">🌐 Crawl Analyses</div>
+    <a class="nav-link" href="analysis/crawl-ask-unimelb.html"> ask.unimelb</a>
+    <a class="nav-link" href="analysis/crawl-gradresearch.html"> gradresearch</a>
+    <a class="nav-link" href="analysis/crawl-murrupbarak.html"> murrupbarak</a>
+    <a class="nav-link" href="analysis/crawl-safercommunity.html"> safercommunity</a>
+    <a class="nav-link" href="analysis/crawl-umsu.html"> umsu</a>
+    <a class="nav-link" href="analysis/crawl-online.html"> online.unimelb</a>
+    <a class="nav-link" href="analysis/crawl-sport.html"> sport</a>
+    <a class="nav-link" href="analysis/crawl-library.html"> library</a>
+    <a class="nav-link" href="analysis/crawl-studentit.html"> studentit</a>
+    <hr class="sep">
+    <div class="section">👤 Personas</div>
+    <a class="nav-link" href="personas/sam-planning-their-path.html"> Sam — Planning</a>
+    <a class="nav-link" href="personas/alex-at-risk-withdrawal.html"> Alex — At-risk</a>
+    <a class="nav-link" href="personas/priya-international-student.html"> Priya — International</a>
+    <a class="nav-link" href="personas/jordan-course-planning-maze.html"> Jordan — Course Maze</a>
+    <a class="nav-link" href="personas/taylor-wellbeing-mental-health.html"> Taylor — Wellbeing</a>
+    <hr class="sep">
+    <div class="section">📦 Deliverables</div>
+    <a class="nav-link" href="analysis/governance-summary-pack.html"> Governance Pack</a>
+    <a class="nav-link" href="analysis/quick-wins-checklist.html"> Quick Wins</a>
+    <a class="nav-link" href="analysis/final-synthesis.html"> Final Synthesis</a>
+  </div>
+  <div class="footer">UoM · Student Experience &amp; Design<br>June 2026 · 41,533 pages · 31 domains</div>
+</nav>
+
+<main>
+<h1>HDR Candidature Duplication</h1>
+<p class="subtitle">33 byte-identical pairs across education + mdhs.</p>
+<h1>HDR Candidature Duplication — Deep-Dive</h1>
+
+<p><em>The graduate research candidature lifecycle is authored identically across two faculty CMSes while a canonical owner already exists — off the crawled estate. ~8 faculties each maintain their own copy. The faculties with the largest research estates carry the least HDR-student support. June 2026.</em></p>
+
+<hr>
+
+<h2>Executive summary</h2>
+
+<p>Higher Degree by Research (HDR) candidates — PhD and MPhil students — navigate a distinct lifecycle: candidature, milestones, supervision, thesis, examination, completion. The canonical owner of this lifecycle is gradresearch.unimelb.edu.au (the Graduate Research Hub). But it sits <strong>outside the crawled student estate</strong>, and ~8 faculties independently re-host the same content — including <strong>33 path-tails that are byte-identical (Jaccard 1.000) across education.unimelb and mdhs.unimelb</strong>.</p>
+
+<p>The duplication is not approximate. It's literal copy-paste across two CMSes. And it's compounded by the "research paradox": the faculties with the largest research estates carry the least HDR-student support. MDHS has 63 research pages and 1 HDR-student page. The lifecycle is broken at both ends — near-absent prospective PhD funnel (6 pages) and a single research-alumni page.</p>
+
+<p>The fix is clean because the canonical owner already exists: 301 the byte-identical clones to gradresearch.unimelb, reconcile the drifted remainder, and connect the prospective-PhD and research-alumni ends.</p>
+
+<hr>
+
+<h2>The duplication map</h2>
+
+<h3>Byte-identical pairs (Jaccard 1.000)</h3>
+
+<p>near_dup.py confirmed <strong>33 path-tails are byte-for-byte identical</strong> across education.unimelb.edu.au and mdhs.unimelb.edu.au. These cover the full candidature lifecycle:</p>
+
+<table>
+<tr><th>Lifecycle stage</th><th>Path-tail example</th><th>Both on</th></tr>
+<tr><td>Candidature milestones</td><td>/graduate-research/milestones</td><td>education + mdhs</td></tr>
+<tr><td>Supervision</td><td>/graduate-research/supervision</td><td>education + mdhs</td></tr>
+<tr><td>Thesis submission</td><td>/graduate-research/thesis</td><td>education + mdhs</td></tr>
+<tr><td>Examination</td><td>/graduate-research/examination</td><td>education + mdhs</td></tr>
+<tr><td>Completion</td><td>/graduate-research/completion</td><td>education + mdhs</td></tr>
+</table>
+
+<p>Two faculties maintain identical copies of the same HDR candidature content, on different CMSes, under different URL trees. The maintenance burden is doubled. The drift risk is guaranteed. The student arriving from either faculty sees the same content — but it's authored, hosted, and governed separately.</p>
+
+<h3>The drifted remainder</h3>
+
+<p>Beyond the 33 byte-identical pairs, ~8 faculty CMSes each carry their own version of HDR content under different URL trees. Some have localised content (faculty-specific contacts, discipline-specific milestone variations). Most are template re-hosts with minor edits that have already begun to drift.</p>
+
+<h3>The canonical owner — already exists</h3>
+
+<p>gradresearch.unimelb.edu.au is the Graduate Research Hub — the designated system of record for the HDR candidature lifecycle. It covers milestones, supervision, thesis, examination, completion, and professional development. It has a clean IA and is actively maintained.</p>
+
+<p>But it sits <strong>outside the crawled student estate</strong> — it was not included in the 20-domain crawl because it's a separate host under a different governance model. The lifecycle's spine is off to the side, invisible to the link-graph analysis that mapped every other student journey.</p>
+
+<hr>
+
+<h2>The research paradox</h2>
+
+<table>
+<tr><th>Faculty</th><th>Research pages</th><th>HDR-student support pages</th><th>Verdict</th></tr>
+<tr><td>MDHS</td><td>63</td><td>**1**</td><td>Strongest research identity, weakest research-student journey</td></tr>
+<tr><td>Medicine</td><td>Large research estate</td><td>Minimal HDR</td><td>Same pattern</td></tr>
+<tr><td>Biomed</td><td>Large research estate</td><td>Minimal HDR</td><td>Same pattern</td></tr>
+<tr><td>Education</td><td>28</td><td>Multiple (but duplicated)</td><td>Duplicated, not genuinely local</td></tr>
+<tr><td>Arts</td><td>Modest</td><td>Scattered</td><td>Variable</td></tr>
+</table>
+
+<p>The faculties with the largest research estates — the ones that produce the most PhDs — carry the least support content for their own HDR students. The research identity dominates the faculty CMS; the HDR student is an afterthought.</p>
+
+<hr>
+
+<h2>The broken ends</h2>
+
+<p>The HDR journey is broken at both ends of the lifecycle:</p>
+
+<h3>Prospective — near-absent PhD funnel</h3>
+
+<p>study.unimelb carries only ~6 prospective research-degree pages. A prospective PhD student browsing courses finds a near-empty funnel compared to the 440-page coursework catalogue. The research-degree discovery experience is essentially: "Find a supervisor → apply." No course structure, no career outcomes, no student profiles.</p>
+
+<h3>Alumni — 1 page</h3>
+
+<p>Research alumni gets exactly 1 page. The PhD graduate — the University's most intensive research investment — is handed to the alumni relationship by a single page. The prospective→HDR→research-alumni lifecycle is broken at both seams.</p>
+
+<hr>
+
+<h2>The gradresearch handoff gap</h2>
+
+<p>Cross-site-flow.csv shows significant faculty→gradresearch links (education 1,972, mdhs 1,882) — evidence that faculties DO route HDR students to the Graduate Research Hub. But the same faculties ALSO re-host the content they're routing to. The student gets two versions: the canonical one at gradresearch, and the faculty's slightly-different copy. No rel=canonical, no redirect, no indication which is authoritative.</p>
+
+<hr>
+
+<h2>Recommendations</h2>
+
+<h3>1. 301-redirect the 33 byte-identical pairs to gradresearch.unimelb `[HIGH · medium]`</h3>
+<p>The 33 Jaccard=1.000 education+mdhs pages should immediately 301 to their gradresearch equivalents. No eyeballing needed — they're byte-identical. The canonical owner exists. This removes 33 pages of duplicated maintenance instantly.</p>
+
+<h3>2. Reconcile the drifted remainder: audit and either redirect or justify localisation `[MEDIUM · medium]`</h3>
+<p>For the remaining ~8 faculty HDR trees, audit each page: if it's genuinely faculty-specific (local contacts, discipline-specific milestones), keep it with a rel=canonical pointing to gradresearch for the shared content. If it's a template re-host, 301 it.</p>
+
+<h3>3. Make gradresearch.unimelb the single source of truth for the HDR lifecycle `[HIGH · medium]`</h3>
+<p>Declare gradresearch the canonical owner. Every faculty HDR page either 301s to it or carries rel=canonical to it. No more dual-authoring the candidature lifecycle.</p>
+
+<h3>4. Connect the prospective-PhD funnel `[MEDIUM · medium]`</h3>
+<p>Build out the study.unimelb research-degree discovery experience: course structure, career outcomes, student profiles, supervisor search. The 6-page funnel is not enough to recruit PhD candidates.</p>
+
+<h3>5. Connect research-alumni to the alumni mentoring streams `[MEDIUM · medium]`</h3>
+<p>Bridge the 1-page research-alumni stub to the 12 faculty-specific alumni mentoring streams. A PhD graduate should flow into research-alumni mentoring, not a dead end.</p>
+
+<h3>6. Add a standing near-duplicate CI check `[MEDIUM · medium]`</h3>
+<p>near_dup.py already exists and works. Run it as a CI gate so cross-domain content forks are detected when they're created, not discovered years later.</p>
+
+<hr>
+
+<h2>Linked improvements from the register</h2>
+
+<table>
+<tr><th>§</th><th>Improvement</th><th>Severity · Effort</th></tr>
+<tr><td>4.1 / 9b.1</td><td>Redirect the 18 byte-identical HDR candidature/thesis pages (education+mdhs) to gradresearch.unimelb</td><td>HIGH · medium</td></tr>
+<tr><td>9b.4</td><td>Add a standing near-duplicate CI check (near_dup.py) to the web governance toolchain</td><td>MEDIUM · medium</td></tr>
+<tr><td>3.3</td><td>Resolve the HDR-support paradox at the seam — route research-intensive faculties to the Graduate Research Hub</td><td>MEDIUM · quick-win</td></tr>
+<tr><td>—</td><td>Connect prospective-PhD funnel and research-alumni to close the research lifecycle</td><td>MEDIUM · medium</td></tr>
+</table>
+
+<hr>
+
+<p><em>Built from: near_dup.py output (33 byte-identical pairs), improvements-register.md (§4.1, §9b.1, §3.3), lifecycle-journeys.md (HDR persona trace), cross-site-flow.csv (faculty→gradresearch links), and the gradresearch.unimelb crawl gap analysis. June 2026.</em></p>
+
+</main>
+</body>
+</html>

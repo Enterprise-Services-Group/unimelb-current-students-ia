@@ -1,90 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Graduation → Alumni Handoff — Deep-Dive | UoM Current Students IA</title>
-<style>
-  :root {
-    --bg: #fff;
-    --text: #1a1a1a;
-    --muted: #555;
-    --accent: #1B3A5C;
-    --border: #e0e0e0;
-    --tag-bg: #f5f5f5;
-    --high: #d32f2f;
-    --medium: #f57c00;
-    --table-stripe: #fafafa;
-  }
-  * { margin: 0; padding: 0; box-sizing: border-box; }
-  body {
-    font-family: 'Source Sans 3', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-    color: var(--text);
-    background: var(--bg);
-    line-height: 1.6;
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 2rem 1.5rem;
-  }
-  h1 { font-size: 1.8rem; margin-bottom: 0.3rem; color: var(--accent); }
-  h2 { font-size: 1.35rem; margin: 2rem 0 0.75rem; color: var(--accent); border-bottom: 2px solid var(--border); padding-bottom: 0.3rem; }
-  h3 { font-size: 1.1rem; margin: 1.5rem 0 0.5rem; }
-  p { margin: 0.75rem 0; }
-  .subtitle { color: var(--muted); font-style: italic; margin-bottom: 1.5rem; }
-  .severity { display: inline-block; padding: 0.15rem 0.5rem; border-radius: 3px; font-size: 0.8rem; font-weight: 600; }
-  .severity-high { background: #ffebee; color: var(--high); }
-  .severity-medium { background: #fff3e0; color: var(--medium); }
-  .effort { display: inline-block; padding: 0.15rem 0.5rem; border-radius: 3px; font-size: 0.8rem; background: #e8f5e9; color: #2e7d32; }
-  .stat-box {
-    background: var(--tag-bg);
-    border: 1px solid var(--border);
-    border-radius: 6px;
-    padding: 1rem 1.25rem;
-    margin: 1rem 0;
-  }
-  .stat-box p { margin: 0.3rem 0; }
-  .stat { font-weight: 700; color: var(--accent); }
-  table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: 0.92rem; }
-  th { background: var(--accent); color: white; padding: 0.5rem 0.75rem; text-align: left; }
-  td { padding: 0.5rem 0.75rem; border-bottom: 1px solid var(--border); }
-  tr:nth-child(even) td { background: var(--table-stripe); }
-  blockquote {
-    border-left: 3px solid var(--accent);
-    padding: 0.75rem 1rem;
-    margin: 1rem 0;
-    background: var(--tag-bg);
-    font-style: italic;
-    color: var(--muted);
-  }
-  ul, ol { margin: 0.5rem 0 0.5rem 1.5rem; }
-  li { margin: 0.3rem 0; }
-  .tag { display: inline-block; padding: 0.1rem 0.4rem; border-radius: 3px; font-size: 0.75rem; background: var(--tag-bg); margin-right: 0.3rem; }
-  hr { border: none; border-top: 1px solid var(--border); margin: 2rem 0; }
-  .footer { color: var(--muted); font-size: 0.85rem; margin-top: 2rem; }
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Graduation → Alumni Handoff · UoM Current Students IA</title>
+<style>@font-face{font-family:'Fraunces';src:url('assets/fonts/Fraunces-VariableFont_SOFT_WONK_opsz_wght.ttf') format('truetype');font-weight:100 900;font-display:swap}
+@font-face{font-family:'Source Sans 3';src:url('assets/fonts/SourceSans3-VariableFont_wght.ttf') format('truetype');font-weight:200 900;font-display:swap}
+@font-face{font-family:'Source Code Pro';src:url('assets/fonts/SourceCodePro-VariableFont_wght.ttf') format('truetype');font-weight:200 900;font-display:swap}
+:root{--navy:#000F46;--navy-light:#1B2D5C;--cyan:#46C8F0;--ink:#222;--ink-2:#555;--bg:#fff;--bg-nav:#000F46;--bg-subtle:#F3F3F6;--border:#DDDDE7;--red:#DB1927;--amber:#AC5907;--green:#31733B;--font-h:'Fraunces',Georgia,serif;--font-b:'Source Sans 3',system-ui,sans-serif;--font-m:'Source Code Pro',monospace;--nav-w:280px}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:var(--font-b);font-size:17px;line-height:1.65;color:var(--ink);background:var(--bg);display:flex;min-height:100vh;-webkit-font-smoothing:antialiased}
+a{color:#004EAD;text-decoration:none}a:hover{text-decoration:underline}
+
+/* ── LHS Navigation ── */
+nav.lhs{position:fixed;top:0;left:0;width:var(--nav-w);height:100vh;background:var(--bg-nav);color:#C9CDE6;overflow-y:auto;z-index:100;display:flex;flex-direction:column;font-size:14px;line-height:1.4}
+nav.lhs .logo{padding:24px 20px 16px;border-bottom:1px solid rgba(255,255,255,.1)}
+nav.lhs .logo img{height:26px}
+nav.lhs .logo a{display:block;color:#fff;font-family:var(--font-h);font-size:16px;font-weight:600;text-decoration:none;margin-top:8px}
+nav.lhs .nav-scroll{flex:1;overflow-y:auto;padding:8px 0 24px}
+nav.lhs .section{font-family:var(--font-m);font-size:11px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--cyan);padding:16px 20px 6px}
+nav.lhs a.nav-link{display:block;padding:5px 20px;color:#9BA3C4;text-decoration:none;transition:all .15s;border-left:3px solid transparent}
+nav.lhs a.nav-link:hover{color:#fff;background:rgba(255,255,255,.05)}
+nav.lhs a.nav-link.active{color:#fff;background:rgba(255,255,255,.08);border-left-color:var(--cyan)}
+nav.lhs .sep{border:none;border-top:1px solid rgba(255,255,255,.08);margin:8px 16px}
+nav.lhs .footer{padding:16px 20px;font-size:11px;color:#6B7394;border-top:1px solid rgba(255,255,255,.08)}
+
+/* ── Main content ── */
+main{margin-left:var(--nav-w);flex:1;min-width:0;padding:40px 56px 80px;max-width:900px}
+main h1{font-family:var(--font-h);font-size:42px;font-weight:700;color:var(--navy);line-height:1.07;letter-spacing:-.012em;margin:0 0 8px}
+main h2{font-family:var(--font-h);font-size:28px;font-weight:600;color:var(--navy);margin:48px 0 16px;padding-bottom:8px;border-bottom:2px solid var(--border);line-height:1.15}
+main h3{font-family:var(--font-h);font-size:20px;font-weight:600;color:var(--navy);margin:32px 0 10px;line-height:1.2}
+main h4{font-size:18px;font-weight:700;color:var(--navy);margin:24px 0 8px}
+main p{margin:12px 0}
+main .subtitle{color:var(--ink-2);font-style:italic;font-size:18px;margin-bottom:32px}
+main blockquote{border-left:3px solid var(--navy);padding:12px 20px;margin:20px 0;background:var(--bg-subtle);font-style:italic;color:var(--ink-2)}
+main code{font-family:var(--font-m);font-size:14px;background:var(--bg-subtle);padding:2px 6px;border-radius:3px}
+main table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+main th{background:var(--navy);color:#fff;padding:10px 14px;text-align:left;font-weight:600}
+main td{padding:8px 14px;border-bottom:1px solid var(--border)}
+main tr:nth-child(even) td{background:var(--bg-subtle)}
+main ul,main ol{margin:8px 0 8px 24px}
+main li{margin:4px 0}
+main hr{border:none;border-top:1px solid var(--border);margin:40px 0}
+main strong{color:var(--navy)}
+.severity-high{display:inline-block;padding:1px 8px;border-radius:3px;font-size:12px;font-weight:700;background:#FFEBEE;color:var(--red)}
+.severity-medium{display:inline-block;padding:1px 8px;border-radius:3px;font-size:12px;font-weight:700;background:#FFF8E1;color:var(--amber)}
+.effort{display:inline-block;padding:1px 8px;border-radius:3px;font-size:12px;font-weight:700;background:#E8F5E9;color:var(--green)}
+.footer-note{color:var(--ink-2);font-size:13px;font-style:italic;margin-top:48px;padding-top:16px;border-top:1px solid var(--border)}
+
+/* ── Mobile ── */
+.menu-toggle{display:none;position:fixed;top:12px;left:12px;z-index:200;background:var(--navy);color:#fff;border:none;border-radius:6px;padding:8px 12px;font-size:20px;cursor:pointer}
+@media(max-width:960px){
+  nav.lhs{transform:translateX(-100%);transition:transform .25s}
+  nav.lhs.open{transform:translateX(0)}
+  main{margin-left:0;padding:60px 24px 40px}
+  .menu-toggle{display:block}
+}
 </style>
 </head>
 <body>
+<button class="menu-toggle" onclick="document.getElementById('lhsNav').classList.toggle('open')">☰</button>
+<nav class="lhs" id="lhsNav">
+  <div class="logo">
+    <img src="assets/UoM_Logo_Horiz_onDark.svg" alt="UoM">
+    <a href="index.html">Current Students IA</a>
+  </div>
+  <div class="nav-scroll">
+    <a class="nav-link" href="index.html">🏠 Home</a>
+    <div class="section">📊 Project Summary</div>
+    <div class="section">🎯 Five Root Findings</div>
+    <hr class="sep">
+    <div class="section">📋 Key Reports</div>
+    <a class="nav-link" href="report/Improvements-Register.html"> Improvements Register</a>
+    <a class="nav-link" href="report/Lifecycle-Journeys.html"> Lifecycle Journeys</a>
+    <a class="nav-link" href="report/Course-Planning-Enrolment.html"> Course Planning</a>
+    <a class="nav-link" href="report/International-Student-Experience.html"> International Student</a>
+    <a class="nav-link" href="report/Student-Services-Fragmentation.html"> Services Fragmentation</a>
+    <a class="nav-link" href="report/Careers-Employability-WIL.html"> Careers & WIL</a>
+    <hr class="sep">
+    <div class="section">🔬 Structural Deep-Dives</div>
+    <a class="nav-link active" href="analysis/graduation-alumni-handoff.html"> Graduation → Alumni</a>
+    <a class="nav-link" href="analysis/careers-online-wiring.html"> Careers Online Wiring</a>
+    <a class="nav-link" href="analysis/prospective-current-handoff.html"> Prospective → Current</a>
+    <a class="nav-link" href="analysis/equity-indigenous-journey.html"> Equity & Indigenous</a>
+    <a class="nav-link" href="analysis/hdr-candidature-duplication.html"> HDR Duplication</a>
+    <a class="nav-link" href="analysis/forms-microsite-audit.html"> Forms & Microsites</a>
+    <hr class="sep">
+    <div class="section">📝 Content Quality</div>
+    <a class="nav-link" href="analysis/the-handbook.html"> The Handbook</a>
+    <a class="nav-link" href="analysis/fees-finance.html"> Fees & Finance</a>
+    <a class="nav-link" href="analysis/scholarships.html"> Scholarships</a>
+    <a class="nav-link" href="analysis/mobile-performance-audit.html"> Mobile & Performance</a>
+    <a class="nav-link" href="analysis/content-freshness-sandbox-leakage.html"> Content Freshness</a>
+    <a class="nav-link" href="analysis/content-quality-deep-dive.html"> Content Quality Audit</a>
+    <hr class="sep">
+    <div class="section">🔐 Authenticated Core</div>
+    <a class="nav-link" href="analysis/authenticated-core-audit.html"> Auth Core Audit</a>
+    <a class="nav-link" href="analysis/auth-hosts-live-check.html"> Live Host Check</a>
+    <a class="nav-link" href="analysis/authenticated-core-findings.html"> Auth Core Findings</a>
+    <hr class="sep">
+    <div class="section">🌐 Crawl Analyses</div>
+    <a class="nav-link" href="analysis/crawl-ask-unimelb.html"> ask.unimelb</a>
+    <a class="nav-link" href="analysis/crawl-gradresearch.html"> gradresearch</a>
+    <a class="nav-link" href="analysis/crawl-murrupbarak.html"> murrupbarak</a>
+    <a class="nav-link" href="analysis/crawl-safercommunity.html"> safercommunity</a>
+    <a class="nav-link" href="analysis/crawl-umsu.html"> umsu</a>
+    <a class="nav-link" href="analysis/crawl-online.html"> online.unimelb</a>
+    <a class="nav-link" href="analysis/crawl-sport.html"> sport</a>
+    <a class="nav-link" href="analysis/crawl-library.html"> library</a>
+    <a class="nav-link" href="analysis/crawl-studentit.html"> studentit</a>
+    <hr class="sep">
+    <div class="section">👤 Personas</div>
+    <a class="nav-link" href="personas/sam-planning-their-path.html"> Sam — Planning</a>
+    <a class="nav-link" href="personas/alex-at-risk-withdrawal.html"> Alex — At-risk</a>
+    <a class="nav-link" href="personas/priya-international-student.html"> Priya — International</a>
+    <a class="nav-link" href="personas/jordan-course-planning-maze.html"> Jordan — Course Maze</a>
+    <a class="nav-link" href="personas/taylor-wellbeing-mental-health.html"> Taylor — Wellbeing</a>
+    <hr class="sep">
+    <div class="section">📦 Deliverables</div>
+    <a class="nav-link" href="analysis/governance-summary-pack.html"> Governance Pack</a>
+    <a class="nav-link" href="analysis/quick-wins-checklist.html"> Quick Wins</a>
+    <a class="nav-link" href="analysis/final-synthesis.html"> Final Synthesis</a>
+  </div>
+  <div class="footer">UoM · Student Experience &amp; Design<br>June 2026 · 41,533 pages · 31 domains</div>
+</nav>
 
+<main>
+<h1>Graduation → Alumni Handoff</h1>
+<p class="subtitle">35 completion pages, 0 alumni links. The most severed transition in the student lifecycle.</p>
 <h1>Graduation → Alumni Handoff — Deep-Dive</h1>
-<p class="subtitle">The last transition in the student lifecycle — and the most severed. 35 completion pages, 0 alumni links. The graduation-day page links Facebook and Instagram but not the alumni relationship. June 2026.</p>
+
+<p><em>The last transition in the student lifecycle — and the most severed. 35 completion pages, 0 alumni links. The graduation-day page links Facebook and Instagram but not the alumni relationship. This is the seam where the University loses every graduating student as a lifelong connection. June 2026.</em></p>
+
+<hr>
 
 <h2>Executive summary</h2>
+
 <p>The graduation→alumni handoff is the single most broken transition in the student lifecycle. After 3–5 years of interacting with the University across 20+ systems, a graduating student is handed to the alumni relationship by essentially nothing. The evidence is stark: <strong>after stripping navigation chrome, only ~97 contextual links reach the alumni estate</strong> — and <strong>zero of them come from any completion page</strong>. The graduation-day page links Facebook and Instagram but not alumni.unimelb. 35 completion/conferral pages across the hub exist to mark the end of a degree, and not one of them bridges to what comes next.</p>
 
 <p>This is not a content problem. The alumni estate exists — 16 mentoring pages across 12 faculty-specific streams, a global alumni network, events, giving, and benefits. It's a <strong>design problem</strong>: the join between "I've finished" and "I'm an alum" was never built. The fix is the highest-leverage, lowest-cost service-design intervention in the improvements register: add one prominent, consistent "Stay connected" bridge from every completion page, and the alumni relationship activates for every graduating student.</p>
 
+<hr>
+
 <h2>The seam by the numbers</h2>
 
 <table>
-  <tr><th>Metric</th><th>Value</th><th>Source</th></tr>
-  <tr><td>Completion/conferral pages on students.unimelb</td><td class="stat">35</td><td>crawl/students-full</td></tr>
-  <tr><td>Contextual links from completion pages → alumni</td><td class="stat" style="color:var(--high)">0</td><td>link-graph audit</td></tr>
-  <tr><td>Total contextual links estate-wide → alumni hosts</td><td class="stat">~97</td><td>cross-site-flow.csv</td></tr>
-  <tr><td>Graduation-day page links to alumni</td><td class="stat" style="color:var(--high)">0</td><td>page audit — links Facebook, Instagram, Twitter, TikTok</td></tr>
-  <tr><td>Alumni mentoring streams</td><td class="stat">12</td><td>per faculty</td></tr>
-  <tr><td>Faculty student-mentoring programs</td><td class="stat">8+</td><td>faculty CMSes</td></tr>
-  <tr><td>Cross-links between faculty mentoring and alumni mentoring</td><td class="stat" style="color:var(--high)">0</td><td>link-graph audit</td></tr>
+<tr><th>Metric</th><th>Value</th><th>Source</th></tr>
+<tr><td>Completion/conferral pages on students.unimelb</td><td>35</td><td>crawl/students-full</td></tr>
+<tr><td>Contextual links from completion pages → alumni</td><td>**0**</td><td>link-graph audit</td></tr>
+<tr><td>Total contextual links estate-wide → alumni hosts</td><td>~97</td><td>cross-site-flow.csv</td></tr>
+<tr><td>Graduation-day page links to alumni</td><td>0</td><td>page audit — links Facebook, Instagram, Twitter, TikTok</td></tr>
+<tr><td>Alumni mentoring streams</td><td>12 (per faculty)</td><td>www.unimelb/alumni</td></tr>
+<tr><td>Faculty student-mentoring programs</td><td>8+</td><td>faculty CMSes</td></tr>
+<tr><td>Cross-links between faculty mentoring and alumni mentoring</td><td>0</td><td>link-graph audit</td></tr>
 </table>
+
+<hr>
 
 <h2>The journey as it actually works</h2>
 
@@ -93,11 +164,11 @@
 <p>A student completes their final semester, receives results via my.unimelb (behind login), and is told they're eligible to graduate. The public estate's "complete → graduate" transition is partial but functional:</p>
 
 <ol>
-  <li><strong>Apply to graduate</strong> — a clean spine on students.unimelb (conferral, ceremony, academic dress)</li>
-  <li><strong>Check completion</strong> — course completion checks via my.unimelb</li>
-  <li><strong>Attend ceremony</strong> — graduation-day page with logistics, tickets, dress</li>
-  <li><strong>Receive testamur</strong> — parchment and academic transcript</li>
-</ol>
+<li>**Apply to graduate** — a clean spine on students.unimelb (conferral, ceremony, academic dress)</li>
+<li>**Check completion** — course completion checks via my.unimelb</li>
+<li>**Attend ceremony** — graduation-day page with logistics, tickets, dress</li>
+<li>**Receive testamur** — parchment and academic transcript</li>
+</ul>
 
 <p>This spine exists and works. It's split across two URL trees (the hub's mid-migration debt again) but it's navigable.</p>
 
@@ -107,77 +178,129 @@
 
 <p>From the alumni side, www.unimelb/alumni runs:</p>
 <ul>
-  <li>16 mentoring pages across 12 faculty-specific streams</li>
-  <li>A global alumni network with events and chapters</li>
-  <li>Giving and volunteering pathways</li>
-  <li>Benefits and services (library access, career support, discounts)</li>
+<li>16 mentoring pages across 12 faculty-specific streams (accounting, arts, business, education, engineering, law, MDHS, science, vet science…)</li>
+<li>A global alumni network with events and chapters</li>
+<li>Giving and volunteering pathways</li>
+<li>Benefits and services (library access, career support, discounts)</li>
 </ul>
 
 <p>But none of this is wired to the moment a student becomes an alum. The alumni estate is nav-only — reachable only if a graduate already knows to type "unimelb alumni" into Google.</p>
 
+<hr>
+
 <h2>What makes this different from the rest of the estate</h2>
+
+<p>The graduation→alumni seam is unique in three ways:</p>
 
 <h3>1. It's the only purely additive fix in the register</h3>
 <p>Every other seam requires collapsing trees, retiring deprecated pages, or rewiring systems. This one requires <strong>adding one bridge</strong> — nothing to unpick, nothing to migrate.</p>
 
 <h3>2. The downstream service already exists</h3>
-<p>The alumni estate is built, staffed, and functional. Careers Online exists. The mentoring programs exist. The gap is a <strong>missing handoff</strong>, not a missing service.</p>
+<p>The alumni estate is built, staffed, and functional. Careers Online exists. The mentoring programs exist. The gap is a <strong>missing handoff</strong>, not a missing service. Adding the bridge costs nothing in service-delivery terms.</p>
 
 <h3>3. It closes the lifecycle loop</h3>
 <p>A graduating student who becomes an alum becomes a mentor, a donor, an employer of graduates, a postgraduate applicant. The alumni→mentoring→careers→prospective loop is the University's most valuable flywheel. It currently doesn't spin because the first connection was never made.</p>
 
+<hr>
+
+<h2>The faculty mentoring disconnect</h2>
+
+<p>A compounding failure: faculty student-mentoring and alumni mentoring are <strong>the same service for adjacent life stages, and they never link</strong>.</p>
+
+<ul>
+<li>Faculties run their own student-mentoring programs (8+ across the estate)</li>
+<li>Alumni runs 12 faculty-specific mentoring streams</li>
+<li>A final-year student in a faculty mentoring program graduates into the alumni mentoring stream for the SAME faculty</li>
+<li>**Zero pages cross-reference the two**</li>
+</ul>
+
+<p>This is the highest-value, lowest-cost careers connection in the estate: at the completion moment, tell the graduating student "your faculty mentoring continues as alumni mentoring — here's the link." This single bridge serves Sam, Priya, Jordan, AND Taylor simultaneously — every graduating student benefits.</p>
+
+<hr>
+
 <h2>The alumni footprint</h2>
 
 <table>
-  <tr><th>Component</th><th>Pages</th><th>Note</th></tr>
-  <tr><td>www.unimelb/alumni home</td><td>1</td><td>Global alumni front door</td></tr>
-  <tr><td>Faculty-specific mentoring streams</td><td>16</td><td>12 streams across faculties</td></tr>
-  <tr><td>Alumni events</td><td>~5</td><td>Global + chapter events</td></tr>
-  <tr><td>Giving / volunteering</td><td>~8</td><td>Donation and volunteer pathways</td></tr>
-  <tr><td>Benefits & services</td><td>~10</td><td>Library access, career support, discounts</td></tr>
-  <tr style="font-weight:700"><td>Total contextual inbound links</td><td style="color:var(--high)">~97</td><td>Entire estate → any alumni host</td></tr>
+<tr><th>Component</th><th>Pages</th><th>Note</th></tr>
+<tr><td>www.unimelb/alumni home</td><td>1</td><td>Global alumni front door</td></tr>
+<tr><td>Faculty-specific mentoring streams</td><td>16</td><td>12 streams (accounting, arts, business, education, engineering, law, MDHS, science, vet science…)</td></tr>
+<tr><td>Alumni events</td><td>~5</td><td>Global + chapter events</td></tr>
+<tr><td>Giving / volunteering</td><td>~8</td><td>Donation and volunteer pathways</td></tr>
+<tr><td>Benefits & services</td><td>~10</td><td>Library access, career support, discounts</td></tr>
+<tr><td>**Total contextual inbound links**</td><td>**~97**</td><td>Entire estate → any alumni host</td></tr>
 </table>
 
-<div class="stat-box">
-  <p><strong>Compare ~97 alumni links to:</strong></p>
-  <p>ask.unimelb FAQ: <span class="stat">396</span> links</p>
-  <p>my.unimelb (the SIS): <span class="stat">187</span> links</p>
-  <p>Handbook: <span class="stat">195</span> links</p>
-</div>
+<p>Compare ~97 alumni links to:</p>
+<ul>
+<li>ask.unimelb FAQ: **396** links</li>
+<li>my.unimelb (the SIS): **187** links</li>
+<li>Handbook: **195** links</li>
+</ul>
+
+<p>The alumni estate gets fewer contextual links than a single FAQ knowledge base. The student's 3–5 year relationship with the University receives less connective tissue than a census-date article.</p>
+
+<hr>
 
 <h2>The completion-page audit</h2>
 
 <table>
-  <tr><th>Page type</th><th>Count</th><th>Links to alumni</th></tr>
-  <tr><td>Apply to graduate</td><td>~8</td><td style="color:var(--high)">0</td></tr>
-  <tr><td>Conferral / ceremony dates</td><td>~5</td><td style="color:var(--high)">0</td></tr>
-  <tr><td>Academic dress / tickets</td><td>~6</td><td style="color:var(--high)">0</td></tr>
-  <tr><td>Graduation day</td><td>1</td><td style="color:var(--high)">0 (links Facebook, Instagram, Twitter, TikTok)</td></tr>
-  <tr><td>Testamur / transcripts</td><td>~6</td><td style="color:var(--high)">0</td></tr>
-  <tr><td>Course completion</td><td>~4</td><td style="color:var(--high)">0</td></tr>
-  <tr><td>After graduation / what's next</td><td>~5</td><td style="color:var(--high)">0</td></tr>
-  <tr style="font-weight:700"><td>Total</td><td>~35</td><td style="color:var(--high)">0</td></tr>
+<tr><th>Page type</th><th>Count</th><th>Links to alumni</th></tr>
+<tr><td>Apply to graduate</td><td>~8</td><td>0</td></tr>
+<tr><td>Conferral / ceremony dates</td><td>~5</td><td>0</td></tr>
+<tr><td>Academic dress / tickets</td><td>~6</td><td>0</td></tr>
+<tr><td>Graduation day</td><td>1</td><td>0 (links Facebook, Instagram, Twitter, TikTok)</td></tr>
+<tr><td>Testamur / transcripts</td><td>~6</td><td>0</td></tr>
+<tr><td>Course completion</td><td>~4</td><td>0</td></tr>
+<tr><td>After graduation / what's next</td><td>~5</td><td>0</td></tr>
+<tr><td>**Total**</td><td>**~35**</td><td>**0**</td></tr>
 </table>
+
+<hr>
 
 <h2>Recommendations</h2>
 
-<h3>1. Add one "Stay connected" bridge to every completion page <span class="severity severity-high">HIGH</span> <span class="effort">quick-win</span></h3>
-<p>On all 35 completion/conferral pages, add a consistent, prominent "Stay connected — join your alumni network" CTA. One link, one destination (alumni.unimelb), one line of design.</p>
+<h3>1. Add one "Stay connected" bridge to every completion page `[HIGH · quick-win]`</h3>
+<p>On all 35 completion/conferral pages, add a consistent, prominent "Stay connected — join your alumni network" CTA. One link, one destination (alumni.unimelb), one line of design. This is the single highest-leverage fix in the improvements register — zero migration cost, maximum impact.</p>
 
-<h3>2. Replace social media links on the graduation-day page with alumni <span class="severity severity-high">HIGH</span> <span class="effort">quick-win</span></h3>
-<p>The graduation-day page currently links Facebook, Instagram, Twitter, and TikTok. Replace (or supplement) with "Join your alumni network" → alumni.unimelb.</p>
+<h3>2. Replace social media links on the graduation-day page with alumni `[HIGH · quick-win]`</h3>
+<p>The graduation-day page currently links Facebook, Instagram, Twitter, and TikTok. Replace (or supplement) with "Join your alumni network" → alumni.unimelb. A graduating student at their highest-engagement moment should be handed to the University's own relationship, not a social media platform.</p>
 
-<h3>3. Bridge faculty mentoring → alumni mentoring at completion <span class="severity severity-high">HIGH</span> <span class="effort">quick-win</span></h3>
-<p>On every faculty student-mentoring page and every completion page, add "Your mentoring continues after graduation — join the [faculty] alumni mentoring program."</p>
+<h3>3. Bridge faculty mentoring → alumni mentoring at completion `[HIGH · quick-win]`</h3>
+<p>On every faculty student-mentoring page and every completion page, add "Your mentoring continues after graduation — join the [faculty] alumni mentoring program." The same service, adjacent life stages, one link.</p>
 
-<h3>4. Add alumni to the "Get Started" reverse sequence <span class="severity severity-medium">MEDIUM</span> <span class="effort">medium</span></h3>
-<p>Build a "Stay Connected with Melbourne" sequence for graduating students — alumni network, mentoring, careers, events, benefits.</p>
+<h3>4. Add alumni to the "Get Started" reverse sequence `[MEDIUM · medium]`</h3>
+<p>The University has a "Get Started at Melbourne" sequence for new students. Build a "Stay Connected with Melbourne" sequence for graduating students — alumni network, mentoring, careers, events, benefits. Same pattern, opposite end of the lifecycle.</p>
 
-<h3>5. Wire "After graduation" pages to actual alumni services <span class="severity severity-medium">MEDIUM</span> <span class="effort">medium</span></h3>
-<p>The ~5 "after graduation / what's next" pages describe what alumni status <em>means</em>. Wire them to what alumni status <em>does</em>: mentoring signup, events calendar, career services, library access.</p>
+<h3>5. Wire "After graduation" pages to actual alumni services `[MEDIUM · medium]`</h3>
+<p>The ~5 "after graduation / what's next" pages currently describe what alumni status <em>means</em>. Wire them to what alumni status <em>does</em>: mentoring signup, events calendar, career services, library access.</p>
 
 <hr>
-<p class="footer">Built from: improvements-register.md (Top 12, Item #7), lifecycle-journeys.md (seam map), careers-employability-wil.md (alumni mentoring section), full-scrape link graph (cross-site-flow.csv, hub crawl), and the completion-page audit over crawl/students-full/. June 2026.</p>
 
+<h2>Linked improvements from the register</h2>
+
+<table>
+<tr><th>#</th><th>Improvement</th><th>Severity · Effort</th></tr>
+<tr><td>7</td><td>Build the graduation→alumni bridge (35 completion pages, 0 alumni links)</td><td>HIGH · quick-win</td></tr>
+<tr><td>8</td><td>Wire faculty + hub to central Careers Online at the apply-for-jobs moment</td><td>HIGH · medium</td></tr>
+<tr><td>—</td><td>Bridge faculty student-mentoring to alumni mentoring at final-year/graduation</td><td>HIGH · quick-win</td></tr>
+</table>
+
+<hr>
+
+<h2>Related deep-dives</h2>
+
+<ul>
+<li>`analysis/lifecycle-journeys.md` — Lifecycle seam map (graduate→alumni = severed)</li>
+<li>`analysis/careers-employability-wil.md` — Faculty + alumni mentoring disconnect</li>
+<li>`analysis/improvements-register.md` — Item #7, Top 12</li>
+<li>`personas/` — All 5 personas end with this broken seam</li>
+<li>`report/Lifecycle-Journeys.html` — Formatted lifecycle report</li>
+</ul>
+
+<hr>
+
+<p><em>Built from: improvements-register.md (Top 12, Item #7), lifecycle-journeys.md (seam map), careers-employability-wil.md (alumni mentoring section), full-scrape link graph (cross-site-flow.csv, hub crawl), and the completion-page audit over crawl/students-full/. June 2026.</em></p>
+
+</main>
 </body>
 </html>

@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Handbook · UoM Current Students IA</title>
+<style>@font-face{font-family:'Fraunces';src:url('assets/fonts/Fraunces-VariableFont_SOFT_WONK_opsz_wght.ttf') format('truetype');font-weight:100 900;font-display:swap}
+@font-face{font-family:'Source Sans 3';src:url('assets/fonts/SourceSans3-VariableFont_wght.ttf') format('truetype');font-weight:200 900;font-display:swap}
+@font-face{font-family:'Source Code Pro';src:url('assets/fonts/SourceCodePro-VariableFont_wght.ttf') format('truetype');font-weight:200 900;font-display:swap}
+:root{--navy:#000F46;--navy-light:#1B2D5C;--cyan:#46C8F0;--ink:#222;--ink-2:#555;--bg:#fff;--bg-nav:#000F46;--bg-subtle:#F3F3F6;--border:#DDDDE7;--red:#DB1927;--amber:#AC5907;--green:#31733B;--font-h:'Fraunces',Georgia,serif;--font-b:'Source Sans 3',system-ui,sans-serif;--font-m:'Source Code Pro',monospace;--nav-w:280px}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:var(--font-b);font-size:17px;line-height:1.65;color:var(--ink);background:var(--bg);display:flex;min-height:100vh;-webkit-font-smoothing:antialiased}
+a{color:#004EAD;text-decoration:none}a:hover{text-decoration:underline}
+
+/* ── LHS Navigation ── */
+nav.lhs{position:fixed;top:0;left:0;width:var(--nav-w);height:100vh;background:var(--bg-nav);color:#C9CDE6;overflow-y:auto;z-index:100;display:flex;flex-direction:column;font-size:14px;line-height:1.4}
+nav.lhs .logo{padding:24px 20px 16px;border-bottom:1px solid rgba(255,255,255,.1)}
+nav.lhs .logo img{height:26px}
+nav.lhs .logo a{display:block;color:#fff;font-family:var(--font-h);font-size:16px;font-weight:600;text-decoration:none;margin-top:8px}
+nav.lhs .nav-scroll{flex:1;overflow-y:auto;padding:8px 0 24px}
+nav.lhs .section{font-family:var(--font-m);font-size:11px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--cyan);padding:16px 20px 6px}
+nav.lhs a.nav-link{display:block;padding:5px 20px;color:#9BA3C4;text-decoration:none;transition:all .15s;border-left:3px solid transparent}
+nav.lhs a.nav-link:hover{color:#fff;background:rgba(255,255,255,.05)}
+nav.lhs a.nav-link.active{color:#fff;background:rgba(255,255,255,.08);border-left-color:var(--cyan)}
+nav.lhs .sep{border:none;border-top:1px solid rgba(255,255,255,.08);margin:8px 16px}
+nav.lhs .footer{padding:16px 20px;font-size:11px;color:#6B7394;border-top:1px solid rgba(255,255,255,.08)}
+
+/* ── Main content ── */
+main{margin-left:var(--nav-w);flex:1;min-width:0;padding:40px 56px 80px;max-width:900px}
+main h1{font-family:var(--font-h);font-size:42px;font-weight:700;color:var(--navy);line-height:1.07;letter-spacing:-.012em;margin:0 0 8px}
+main h2{font-family:var(--font-h);font-size:28px;font-weight:600;color:var(--navy);margin:48px 0 16px;padding-bottom:8px;border-bottom:2px solid var(--border);line-height:1.15}
+main h3{font-family:var(--font-h);font-size:20px;font-weight:600;color:var(--navy);margin:32px 0 10px;line-height:1.2}
+main h4{font-size:18px;font-weight:700;color:var(--navy);margin:24px 0 8px}
+main p{margin:12px 0}
+main .subtitle{color:var(--ink-2);font-style:italic;font-size:18px;margin-bottom:32px}
+main blockquote{border-left:3px solid var(--navy);padding:12px 20px;margin:20px 0;background:var(--bg-subtle);font-style:italic;color:var(--ink-2)}
+main code{font-family:var(--font-m);font-size:14px;background:var(--bg-subtle);padding:2px 6px;border-radius:3px}
+main table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+main th{background:var(--navy);color:#fff;padding:10px 14px;text-align:left;font-weight:600}
+main td{padding:8px 14px;border-bottom:1px solid var(--border)}
+main tr:nth-child(even) td{background:var(--bg-subtle)}
+main ul,main ol{margin:8px 0 8px 24px}
+main li{margin:4px 0}
+main hr{border:none;border-top:1px solid var(--border);margin:40px 0}
+main strong{color:var(--navy)}
+.severity-high{display:inline-block;padding:1px 8px;border-radius:3px;font-size:12px;font-weight:700;background:#FFEBEE;color:var(--red)}
+.severity-medium{display:inline-block;padding:1px 8px;border-radius:3px;font-size:12px;font-weight:700;background:#FFF8E1;color:var(--amber)}
+.effort{display:inline-block;padding:1px 8px;border-radius:3px;font-size:12px;font-weight:700;background:#E8F5E9;color:var(--green)}
+.footer-note{color:var(--ink-2);font-size:13px;font-style:italic;margin-top:48px;padding-top:16px;border-top:1px solid var(--border)}
+
+/* ── Mobile ── */
+.menu-toggle{display:none;position:fixed;top:12px;left:12px;z-index:200;background:var(--navy);color:#fff;border:none;border-radius:6px;padding:8px 12px;font-size:20px;cursor:pointer}
+@media(max-width:960px){
+  nav.lhs{transform:translateX(-100%);transition:transform .25s}
+  nav.lhs.open{transform:translateX(0)}
+  main{margin-left:0;padding:60px 24px 40px}
+  .menu-toggle{display:block}
+}
+</style>
+</head>
+<body>
+<button class="menu-toggle" onclick="document.getElementById('lhsNav').classList.toggle('open')">☰</button>
+<nav class="lhs" id="lhsNav">
+  <div class="logo">
+    <img src="assets/UoM_Logo_Horiz_onDark.svg" alt="UoM">
+    <a href="index.html">Current Students IA</a>
+  </div>
+  <div class="nav-scroll">
+    <a class="nav-link" href="index.html">🏠 Home</a>
+    <div class="section">📊 Project Summary</div>
+    <div class="section">🎯 Five Root Findings</div>
+    <hr class="sep">
+    <div class="section">📋 Key Reports</div>
+    <a class="nav-link" href="report/Improvements-Register.html"> Improvements Register</a>
+    <a class="nav-link" href="report/Lifecycle-Journeys.html"> Lifecycle Journeys</a>
+    <a class="nav-link" href="report/Course-Planning-Enrolment.html"> Course Planning</a>
+    <a class="nav-link" href="report/International-Student-Experience.html"> International Student</a>
+    <a class="nav-link" href="report/Student-Services-Fragmentation.html"> Services Fragmentation</a>
+    <a class="nav-link" href="report/Careers-Employability-WIL.html"> Careers & WIL</a>
+    <hr class="sep">
+    <div class="section">🔬 Structural Deep-Dives</div>
+    <a class="nav-link" href="analysis/graduation-alumni-handoff.html"> Graduation → Alumni</a>
+    <a class="nav-link" href="analysis/careers-online-wiring.html"> Careers Online Wiring</a>
+    <a class="nav-link" href="analysis/prospective-current-handoff.html"> Prospective → Current</a>
+    <a class="nav-link" href="analysis/equity-indigenous-journey.html"> Equity & Indigenous</a>
+    <a class="nav-link" href="analysis/hdr-candidature-duplication.html"> HDR Duplication</a>
+    <a class="nav-link" href="analysis/forms-microsite-audit.html"> Forms & Microsites</a>
+    <hr class="sep">
+    <div class="section">📝 Content Quality</div>
+    <a class="nav-link active" href="analysis/the-handbook.html"> The Handbook</a>
+    <a class="nav-link" href="analysis/fees-finance.html"> Fees & Finance</a>
+    <a class="nav-link" href="analysis/scholarships.html"> Scholarships</a>
+    <a class="nav-link" href="analysis/mobile-performance-audit.html"> Mobile & Performance</a>
+    <a class="nav-link" href="analysis/content-freshness-sandbox-leakage.html"> Content Freshness</a>
+    <a class="nav-link" href="analysis/content-quality-deep-dive.html"> Content Quality Audit</a>
+    <hr class="sep">
+    <div class="section">🔐 Authenticated Core</div>
+    <a class="nav-link" href="analysis/authenticated-core-audit.html"> Auth Core Audit</a>
+    <a class="nav-link" href="analysis/auth-hosts-live-check.html"> Live Host Check</a>
+    <a class="nav-link" href="analysis/authenticated-core-findings.html"> Auth Core Findings</a>
+    <hr class="sep">
+    <div class="section">🌐 Crawl Analyses</div>
+    <a class="nav-link" href="analysis/crawl-ask-unimelb.html"> ask.unimelb</a>
+    <a class="nav-link" href="analysis/crawl-gradresearch.html"> gradresearch</a>
+    <a class="nav-link" href="analysis/crawl-murrupbarak.html"> murrupbarak</a>
+    <a class="nav-link" href="analysis/crawl-safercommunity.html"> safercommunity</a>
+    <a class="nav-link" href="analysis/crawl-umsu.html"> umsu</a>
+    <a class="nav-link" href="analysis/crawl-online.html"> online.unimelb</a>
+    <a class="nav-link" href="analysis/crawl-sport.html"> sport</a>
+    <a class="nav-link" href="analysis/crawl-library.html"> library</a>
+    <a class="nav-link" href="analysis/crawl-studentit.html"> studentit</a>
+    <hr class="sep">
+    <div class="section">👤 Personas</div>
+    <a class="nav-link" href="personas/sam-planning-their-path.html"> Sam — Planning</a>
+    <a class="nav-link" href="personas/alex-at-risk-withdrawal.html"> Alex — At-risk</a>
+    <a class="nav-link" href="personas/priya-international-student.html"> Priya — International</a>
+    <a class="nav-link" href="personas/jordan-course-planning-maze.html"> Jordan — Course Maze</a>
+    <a class="nav-link" href="personas/taylor-wellbeing-mental-health.html"> Taylor — Wellbeing</a>
+    <hr class="sep">
+    <div class="section">📦 Deliverables</div>
+    <a class="nav-link" href="analysis/governance-summary-pack.html"> Governance Pack</a>
+    <a class="nav-link" href="analysis/quick-wins-checklist.html"> Quick Wins</a>
+    <a class="nav-link" href="analysis/final-synthesis.html"> Final Synthesis</a>
+  </div>
+  <div class="footer">UoM · Student Experience &amp; Design<br>June 2026 · 41,533 pages · 31 domains</div>
+</nav>
+
+<main>
+<h1>The Handbook</h1>
+<p class="subtitle">The #1 dependency in the estate — 7,819 inbound links, SPA-only, blank titles.</p>
+<h1>The Handbook — Deep-Dive</h1>
+
+<p><em>The biggest single dependency in the University's web estate, and the one governed to the lowest web standard. 7,819 contextual inbound links from across 15+ domains — more than any other system — but SPA-only with no server-rendered fallback, blank titles on every page, and no "enrol" action. June 2026.</em></p>
+
+<hr>
+
+<h2>Executive summary</h2>
+
+<p>The Handbook (handbook.unimelb.edu.au) is the system that defines course structure, subject prerequisites, points, and entry requirements for every degree the University offers. It is the <strong>#1 dependency in the estate</strong>:</p>
+
+<ul>
+<li>**7,819 contextual inbound links** from 15+ domains — more than my.unimelb (187), ask.unimelb (396), or Careers Online (115) combined</li>
+<li>**8,323 outbound links** — the Handbook is the estate's second-most prolific linker after study.unimelb</li>
+<li>Referenced on **~830 hub enrolment pages** (195 direct links from the course-planning toolchain alone)</li>
+<li>**2,134 pages** — 161 subjects, 105 courses, plus structure and search pages</li>
+</ul>
+
+<p>But the Handbook is governed to a visibly lower web standard than the rest of the estate. It's built on a different platform, operates as a single-page application with <strong>no server-rendered fallback</strong>, has <strong>blank <code><title></code> tags on every subject and course page</strong>, carries <strong>non-descriptive anchor text</strong> at scale, and provides <strong>no "Enrol in this subject" action</strong> — the single most important task a student would want to perform from a subject page. For ~1,470 of 2,134 crawled captures, the page delivered to the crawler is an 887-byte Imperva bot-block shell — meaning search engines, social-media link previews, and non-JS users see nothing at all.</p>
+
+<p>The fix is not a rebuild. It's SSR, metadata templates, browsable indexes, and one enrol action per subject page. Get this right and the entire estate's planning toolchain — the 7-system obstacle course Jordan and Sam navigate — gets its foundation.</p>
+
+<hr>
+
+<h2>The Handbook by the numbers</h2>
+
+<table>
+<tr><th>Metric</th><th>Value</th></tr>
+<tr><td>Total pages</td><td>2,134 (crawled)</td></tr>
+<tr><td>Genuine content pages</td><td>~664 (after filtering ~1,470 bot-block shells)</td></tr>
+<tr><td>Subjects</td><td>161 (orphaned — no inbound links)</td></tr>
+<tr><td>Courses</td><td>105 (orphaned — no inbound links)</td></tr>
+<tr><td>Contextual inbound links (estate-wide)</td><td>**7,819**</td></tr>
+<tr><td>Contextual outbound links</td><td>**8,323**</td></tr>
+<tr><td>Median page weight</td><td>0KB (bot-block artifact)</td></tr>
+<tr><td>Max page weight</td><td>180KB</td></tr>
+<tr><td>Blank `<title>` tags</td><td>All subject/course pages</td></tr>
+</table>
+
+<hr>
+
+<h2>The inbound dependency: who relies on the Handbook</h2>
+
+<table>
+<tr><th>Source</th><th>Contextual links</th><th>What for</th></tr>
+<tr><td>study.unimelb.edu.au</td><td>**4,391**</td><td>Course discovery — every /find/courses/ page links handbook for structure, entry requirements, subjects</td></tr>
+<tr><td>law.unimelb.edu.au</td><td>1,147</td><td>Law course/subject detail</td></tr>
+<tr><td>msd.unimelb.edu.au</td><td>778</td><td>Architecture/building course structure</td></tr>
+<tr><td>finearts-music.unimelb.edu.au</td><td>374</td><td>VCA/MCM course detail</td></tr>
+<tr><td>arts.unimelb.edu.au</td><td>315</td><td>Arts course/subject detail</td></tr>
+<tr><td>students.unimelb.edu.au</td><td>179</td><td>Hub enrolment guidance → handbook course structure</td></tr>
+<tr><td>education.unimelb.edu.au</td><td>146</td><td>Education course detail</td></tr>
+<tr><td>biomedicalsciences.unimelb.edu.au</td><td>145</td><td>Biomedical course structure</td></tr>
+<tr><td>fbe.unimelb.edu.au</td><td>131</td><td>Business/economics course detail</td></tr>
+<tr><td>medicine.unimelb.edu.au</td><td>95</td><td>Medicine course structure</td></tr>
+<tr><td>eng.unimelb.edu.au</td><td>60</td><td>Engineering course detail</td></tr>
+</table>
+
+<p>The Handbook is the <strong>single most-linked-to system after www.unimelb.edu.au and about.unimelb.edu.au</strong> — and unlike those, it's the operational backbone. When a student clicks "course structure" on any faculty site, they land on the Handbook.</p>
+
+<hr>
+
+<h2>The outbound dependency: where the Handbook sends students</h2>
+
+<table>
+<tr><th>Destination</th><th>Contextual links</th><th>What for</th></tr>
+<tr><td>www.unimelb.edu.au</td><td>2,964</td><td>Generic University links</td></tr>
+<tr><td>about.unimelb.edu.au</td><td>2,479</td><td>Policy/administrative links</td></tr>
+<tr><td>students.unimelb.edu.au</td><td>**1,193**</td><td>Current student hub — the most important destination</td></tr>
+<tr><td>safety.unimelb.edu.au</td><td>493</td><td>Safety links (bulk chrome)</td></tr>
+<tr><td>archive.handbook.unimelb.edu.au</td><td>489</td><td>Archive cross-links</td></tr>
+<tr><td>study.unimelb.edu.au</td><td>223</td><td>Course discovery</td></tr>
+<tr><td>forms.your.unimelb.edu.au</td><td>48</td><td>Enrolment variation forms</td></tr>
+<tr><td>policy.unimelb.edu.au</td><td>41</td><td>University policy</td></tr>
+<tr><td>ask.unimelb.edu.au</td><td>25</td><td>Legacy FAQ</td></tr>
+</table>
+
+<p>The Handbook sends 1,193 links to students.unimelb — the most important handoff. But those links are generic (bare URLs, "current students" labels). None say "Enrol in this subject."</p>
+
+<hr>
+
+<h2>The three failures</h2>
+
+<h3>1. SPA-only with no server-rendered fallback `[HIGH]`</h3>
+
+<p>The Handbook is a single-page application. When a search engine, social-media crawler, or non-JS user-agent requests a subject or course page, the server returns JavaScript that must be executed to render content. The Imperva WAF adds a second layer: ~1,470 of 2,134 crawled captures are 887-byte bot-block shells — the WAF challenged the crawler and the crawler couldn't execute JS to pass the challenge.</p>
+
+<p>The result:</p>
+<ul>
+<li>**Search engines see blank pages with no content.** Every handbook page is effectively invisible to Google.</li>
+<li>**Social media link previews show nothing.** Share a handbook subject link on Slack/Teams/LinkedIn — no title, no description, no image.</li>
+<li>**Screen readers and accessibility tools fail.** No server-rendered content = no accessible DOM.</li>
+<li>**266 pages are "orphans"** (161 subjects + 105 courses) — but this is an artifact of the bot-block. The pages exist; the crawler couldn't see who links to them.</li>
+</ul>
+
+<h3>2. Blank `<title>` on every subject and course page `[HIGH]`</h3>
+
+<p>Every subject page and course page in the Handbook has an empty or generic <code><title></code> tag. This is the single most impactful accessibility + SEO + findability failure in the estate by volume. When a student bookmarks a subject, the bookmark reads nothing. When they search their browser history, nothing appears. When Google indexes the page (if it can), the search result has no title.</p>
+
+<h3>3. No "Enrol in this subject" action `[HIGH]`</h3>
+
+<p>A student looking at a subject page in the Handbook wants to do one thing: enrol in it. The Handbook describes the subject — points, prerequisites, assessment, timetable — but provides <strong>zero path to enrol</strong>. The "describe but don't transact" pattern that defines the estate's worst faults is most acute here: the page a student lands on to decide <em>whether</em> to enrol has no way to <em>actually</em> enrol. §6.7 of the improvements register calls for exactly this action.</p>
+
+<hr>
+
+<h2>Anchor text: non-descriptive at scale</h2>
+
+<p>The Handbook carries thousands of links, but anchor text is generic — "current students," "handbook," bare URLs. This is the #2 findability finding in §2.6. Every link from the Handbook to the student hub should say what it does: "Enrol in subjects," "Check census dates," "Manage your timetable." Instead they're chrome-level labels.</p>
+
+<hr>
+
+<h2>The orphan problem — mostly an artifact</h2>
+
+<p>266 handbook pages appear as orphans (no inbound links). 161 are subjects, 105 are courses. But this is substantially a <strong>crawl artifact</strong>: the WAF blocked the crawler from seeing the full link graph. The pages are linked — just not visible through the bot-block. However, the artifact itself is the problem: if the crawler can't see inbound links, neither can Google.</p>
+
+<hr>
+
+<h2>Recommendations</h2>
+
+<h3>1. Add server-rendered fallback for every subject and course page `[HIGH · large]`</h3>
+<p>Implement SSR so every /subjects/<em> and /courses/</em> page delivers a complete HTML document with title, h1, meta description, prerequisite list, points, and assessment structure — before any JavaScript executes. This fixes search engine visibility, link previews, accessibility, and the bot-block problem in one change.</p>
+
+<h3>2. Give every subject and course page a descriptive `<title>` `[HIGH · medium]`</h3>
+<p>Template: "MULT10001 Introduction to Life Sciences — Handbook | University of Melbourne". One template change touches all 2,134 pages. The highest-impact accessibility + SEO fix in the estate.</p>
+
+<h3>3. Add one "Enrol in this subject → my.unimelb" action to every subject page `[HIGH · medium]`</h3>
+<p>The action students want, on the page they use to decide. One CTA, one destination (my.unimelb enrolment), one template change.</p>
+
+<h3>4. Build browsable indexes — stop being search-only `[HIGH · medium]`</h3>
+<p>Subjects and courses are currently discoverable only via the Handbook's internal search. Add browsable A-Z indexes, by-faculty listings, and by-level groupings. These are the pages that search engines and students can navigate.</p>
+
+<h3>5. Fix non-descriptive anchor text `[MEDIUM · medium]`</h3>
+<p>Replace generic link labels ("current students," "handbook") with action-oriented labels ("Enrol in subjects," "Check prerequisites," "View course structure").</p>
+
+<h3>6. Confirm the bot-block serves a real HTML fallback to legitimate non-JS user agents `[MEDIUM · medium]`</h3>
+<p>The Imperva challenge should not block screen readers, accessibility tools, or link-preview bots. Configure WAF to serve SSR'd content to known-good non-JS user agents.</p>
+
+<hr>
+
+<h2>Linked improvements from the register</h2>
+
+<table>
+<tr><th>§</th><th>Improvement</th><th>Severity · Effort</th></tr>
+<tr><td>2.2</td><td>Surface live 2026 handbook subjects/courses via browsable indexes + give them a `<title>`</td><td>HIGH · medium</td></tr>
+<tr><td>5.3</td><td>Bring the Handbook up to the estate's web-standards baseline</td><td>HIGH · medium</td></tr>
+<tr><td>6.6</td><td>Treat handbook subject/course pages as JS-only — provide a server-rendered fallback</td><td>MEDIUM · large</td></tr>
+<tr><td>6.7</td><td>Wire an "Enrol in this subject" action onto every handbook subject & course page</td><td>HIGH · medium</td></tr>
+<tr><td>2.6</td><td>Fix non-descriptive anchor text on the Handbook</td><td>MEDIUM · quick-win</td></tr>
+<tr><td>5.7</td><td>Annotate the handbook crawl artifact so a false "14% orphaned" doesn't reach the deck</td><td>LOW · quick-win</td></tr>
+</table>
+
+<hr>
+
+<p><em>Built from: cross-site-flow.csv (7,819 inbound / 8,323 outbound links), orphans.csv (266 handbook orphans), page-weight.csv (0KB median = bot-block artifact), improvements-register.md (§2.2, §5.3, §6.6, §6.7, §2.6), and crawl/handbook/ (2,134 captures). June 2026.</em></p>
+
+</main>
+</body>
+</html>

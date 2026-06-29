@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>online.unimelb.edu.au · UoM Current Students IA</title>
+<style>@font-face{font-family:'Fraunces';src:url('assets/fonts/Fraunces-VariableFont_SOFT_WONK_opsz_wght.ttf') format('truetype');font-weight:100 900;font-display:swap}
+@font-face{font-family:'Source Sans 3';src:url('assets/fonts/SourceSans3-VariableFont_wght.ttf') format('truetype');font-weight:200 900;font-display:swap}
+@font-face{font-family:'Source Code Pro';src:url('assets/fonts/SourceCodePro-VariableFont_wght.ttf') format('truetype');font-weight:200 900;font-display:swap}
+:root{--navy:#000F46;--navy-light:#1B2D5C;--cyan:#46C8F0;--ink:#222;--ink-2:#555;--bg:#fff;--bg-nav:#000F46;--bg-subtle:#F3F3F6;--border:#DDDDE7;--red:#DB1927;--amber:#AC5907;--green:#31733B;--font-h:'Fraunces',Georgia,serif;--font-b:'Source Sans 3',system-ui,sans-serif;--font-m:'Source Code Pro',monospace;--nav-w:280px}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:var(--font-b);font-size:17px;line-height:1.65;color:var(--ink);background:var(--bg);display:flex;min-height:100vh;-webkit-font-smoothing:antialiased}
+a{color:#004EAD;text-decoration:none}a:hover{text-decoration:underline}
+
+/* ── LHS Navigation ── */
+nav.lhs{position:fixed;top:0;left:0;width:var(--nav-w);height:100vh;background:var(--bg-nav);color:#C9CDE6;overflow-y:auto;z-index:100;display:flex;flex-direction:column;font-size:14px;line-height:1.4}
+nav.lhs .logo{padding:24px 20px 16px;border-bottom:1px solid rgba(255,255,255,.1)}
+nav.lhs .logo img{height:26px}
+nav.lhs .logo a{display:block;color:#fff;font-family:var(--font-h);font-size:16px;font-weight:600;text-decoration:none;margin-top:8px}
+nav.lhs .nav-scroll{flex:1;overflow-y:auto;padding:8px 0 24px}
+nav.lhs .section{font-family:var(--font-m);font-size:11px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--cyan);padding:16px 20px 6px}
+nav.lhs a.nav-link{display:block;padding:5px 20px;color:#9BA3C4;text-decoration:none;transition:all .15s;border-left:3px solid transparent}
+nav.lhs a.nav-link:hover{color:#fff;background:rgba(255,255,255,.05)}
+nav.lhs a.nav-link.active{color:#fff;background:rgba(255,255,255,.08);border-left-color:var(--cyan)}
+nav.lhs .sep{border:none;border-top:1px solid rgba(255,255,255,.08);margin:8px 16px}
+nav.lhs .footer{padding:16px 20px;font-size:11px;color:#6B7394;border-top:1px solid rgba(255,255,255,.08)}
+
+/* ── Main content ── */
+main{margin-left:var(--nav-w);flex:1;min-width:0;padding:40px 56px 80px;max-width:900px}
+main h1{font-family:var(--font-h);font-size:42px;font-weight:700;color:var(--navy);line-height:1.07;letter-spacing:-.012em;margin:0 0 8px}
+main h2{font-family:var(--font-h);font-size:28px;font-weight:600;color:var(--navy);margin:48px 0 16px;padding-bottom:8px;border-bottom:2px solid var(--border);line-height:1.15}
+main h3{font-family:var(--font-h);font-size:20px;font-weight:600;color:var(--navy);margin:32px 0 10px;line-height:1.2}
+main h4{font-size:18px;font-weight:700;color:var(--navy);margin:24px 0 8px}
+main p{margin:12px 0}
+main .subtitle{color:var(--ink-2);font-style:italic;font-size:18px;margin-bottom:32px}
+main blockquote{border-left:3px solid var(--navy);padding:12px 20px;margin:20px 0;background:var(--bg-subtle);font-style:italic;color:var(--ink-2)}
+main code{font-family:var(--font-m);font-size:14px;background:var(--bg-subtle);padding:2px 6px;border-radius:3px}
+main table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+main th{background:var(--navy);color:#fff;padding:10px 14px;text-align:left;font-weight:600}
+main td{padding:8px 14px;border-bottom:1px solid var(--border)}
+main tr:nth-child(even) td{background:var(--bg-subtle)}
+main ul,main ol{margin:8px 0 8px 24px}
+main li{margin:4px 0}
+main hr{border:none;border-top:1px solid var(--border);margin:40px 0}
+main strong{color:var(--navy)}
+.severity-high{display:inline-block;padding:1px 8px;border-radius:3px;font-size:12px;font-weight:700;background:#FFEBEE;color:var(--red)}
+.severity-medium{display:inline-block;padding:1px 8px;border-radius:3px;font-size:12px;font-weight:700;background:#FFF8E1;color:var(--amber)}
+.effort{display:inline-block;padding:1px 8px;border-radius:3px;font-size:12px;font-weight:700;background:#E8F5E9;color:var(--green)}
+.footer-note{color:var(--ink-2);font-size:13px;font-style:italic;margin-top:48px;padding-top:16px;border-top:1px solid var(--border)}
+
+/* ── Mobile ── */
+.menu-toggle{display:none;position:fixed;top:12px;left:12px;z-index:200;background:var(--navy);color:#fff;border:none;border-radius:6px;padding:8px 12px;font-size:20px;cursor:pointer}
+@media(max-width:960px){
+  nav.lhs{transform:translateX(-100%);transition:transform .25s}
+  nav.lhs.open{transform:translateX(0)}
+  main{margin-left:0;padding:60px 24px 40px}
+  .menu-toggle{display:block}
+}
+</style>
+</head>
+<body>
+<button class="menu-toggle" onclick="document.getElementById('lhsNav').classList.toggle('open')">☰</button>
+<nav class="lhs" id="lhsNav">
+  <div class="logo">
+    <img src="assets/UoM_Logo_Horiz_onDark.svg" alt="UoM">
+    <a href="index.html">Current Students IA</a>
+  </div>
+  <div class="nav-scroll">
+    <a class="nav-link" href="index.html">🏠 Home</a>
+    <div class="section">📊 Project Summary</div>
+    <div class="section">🎯 Five Root Findings</div>
+    <hr class="sep">
+    <div class="section">📋 Key Reports</div>
+    <a class="nav-link" href="report/Improvements-Register.html"> Improvements Register</a>
+    <a class="nav-link" href="report/Lifecycle-Journeys.html"> Lifecycle Journeys</a>
+    <a class="nav-link" href="report/Course-Planning-Enrolment.html"> Course Planning</a>
+    <a class="nav-link" href="report/International-Student-Experience.html"> International Student</a>
+    <a class="nav-link" href="report/Student-Services-Fragmentation.html"> Services Fragmentation</a>
+    <a class="nav-link" href="report/Careers-Employability-WIL.html"> Careers & WIL</a>
+    <hr class="sep">
+    <div class="section">🔬 Structural Deep-Dives</div>
+    <a class="nav-link" href="analysis/graduation-alumni-handoff.html"> Graduation → Alumni</a>
+    <a class="nav-link" href="analysis/careers-online-wiring.html"> Careers Online Wiring</a>
+    <a class="nav-link" href="analysis/prospective-current-handoff.html"> Prospective → Current</a>
+    <a class="nav-link" href="analysis/equity-indigenous-journey.html"> Equity & Indigenous</a>
+    <a class="nav-link" href="analysis/hdr-candidature-duplication.html"> HDR Duplication</a>
+    <a class="nav-link" href="analysis/forms-microsite-audit.html"> Forms & Microsites</a>
+    <hr class="sep">
+    <div class="section">📝 Content Quality</div>
+    <a class="nav-link" href="analysis/the-handbook.html"> The Handbook</a>
+    <a class="nav-link" href="analysis/fees-finance.html"> Fees & Finance</a>
+    <a class="nav-link" href="analysis/scholarships.html"> Scholarships</a>
+    <a class="nav-link" href="analysis/mobile-performance-audit.html"> Mobile & Performance</a>
+    <a class="nav-link" href="analysis/content-freshness-sandbox-leakage.html"> Content Freshness</a>
+    <a class="nav-link" href="analysis/content-quality-deep-dive.html"> Content Quality Audit</a>
+    <hr class="sep">
+    <div class="section">🔐 Authenticated Core</div>
+    <a class="nav-link" href="analysis/authenticated-core-audit.html"> Auth Core Audit</a>
+    <a class="nav-link" href="analysis/auth-hosts-live-check.html"> Live Host Check</a>
+    <a class="nav-link" href="analysis/authenticated-core-findings.html"> Auth Core Findings</a>
+    <hr class="sep">
+    <div class="section">🌐 Crawl Analyses</div>
+    <a class="nav-link" href="analysis/crawl-ask-unimelb.html"> ask.unimelb</a>
+    <a class="nav-link" href="analysis/crawl-gradresearch.html"> gradresearch</a>
+    <a class="nav-link" href="analysis/crawl-murrupbarak.html"> murrupbarak</a>
+    <a class="nav-link" href="analysis/crawl-safercommunity.html"> safercommunity</a>
+    <a class="nav-link" href="analysis/crawl-umsu.html"> umsu</a>
+    <a class="nav-link active" href="analysis/crawl-online.html"> online.unimelb</a>
+    <a class="nav-link" href="analysis/crawl-sport.html"> sport</a>
+    <a class="nav-link" href="analysis/crawl-library.html"> library</a>
+    <a class="nav-link" href="analysis/crawl-studentit.html"> studentit</a>
+    <hr class="sep">
+    <div class="section">👤 Personas</div>
+    <a class="nav-link" href="personas/sam-planning-their-path.html"> Sam — Planning</a>
+    <a class="nav-link" href="personas/alex-at-risk-withdrawal.html"> Alex — At-risk</a>
+    <a class="nav-link" href="personas/priya-international-student.html"> Priya — International</a>
+    <a class="nav-link" href="personas/jordan-course-planning-maze.html"> Jordan — Course Maze</a>
+    <a class="nav-link" href="personas/taylor-wellbeing-mental-health.html"> Taylor — Wellbeing</a>
+    <hr class="sep">
+    <div class="section">📦 Deliverables</div>
+    <a class="nav-link" href="analysis/governance-summary-pack.html"> Governance Pack</a>
+    <a class="nav-link" href="analysis/quick-wins-checklist.html"> Quick Wins</a>
+    <a class="nav-link" href="analysis/final-synthesis.html"> Final Synthesis</a>
+  </div>
+  <div class="footer">UoM · Student Experience &amp; Design<br>June 2026 · 41,533 pages · 31 domains</div>
+</nav>
+
+<main>
+<h1>online.unimelb.edu.au</h1>
+<p class="subtitle">87 pages — 52% lead-capture forms, no current-learner home.</p>
+<h1>online.unimelb.edu.au — Crawl Analysis</h1>
+
+<p><em>The online learning portal — 87 pages. 45 pages are RFI (Request for Information) forms. The rest is marketing for online courses. Confirms the lifecycle deep-dive: online learners are courted by marketing but have no current-student home. June 2026.</em></p>
+
+<hr>
+
+<h2>What we found</h2>
+
+<p>The lifecycle deep-dive identified online/micro-credential learners as an orphaned cohort — courted by study.unimelb/study-with-us but with no current-student home once enrolled. The online.unimelb.edu.au crawl confirms this: the site is a <strong>prospective marketing funnel, not a current-learner portal.</strong></p>
+
+<h3>Structure</h3>
+
+<table>
+<tr><th>Section</th><th>Pages</th><th>Content</th></tr>
+<tr><td>`/form/rfi-form-modal`</td><td>**45**</td><td>Request for Information forms — 52% of the site</td></tr>
+<tr><td>`/news/category`</td><td>5</td><td>News categories</td></tr>
+<tr><td>`/news`</td><td>4</td><td>News listing</td></tr>
+<tr><td>`/online-courses/`</td><td>~13</td><td>Course pages: Master of HRM, Grad Cert HRM, Master of Education, Master of Public Health, etc.</td></tr>
+<tr><td>`/`</td><td>1</td><td>Homepage</td></tr>
+<tr><td>`/contact`</td><td>1</td><td>Contact page</td></tr>
+</table>
+
+<p><strong>52% of the site is lead-capture forms.</strong> The remaining content is course marketing pages and news. There is no current-student section, no learning portal, no "already enrolled" path.</p>
+
+<h3>Content profile</h3>
+
+<ul>
+<li>45 RFI forms — all identical template, different courses</li>
+<li>5 Graduate Certificate pages</li>
+<li>2 Master's pages</li>
+<li>Topics: "Online learning experience," "How to become..." — marketing, not service</li>
+<li>"Resources" section — but these are prospective resources (how online learning works), not enrolled-student resources</li>
+</ul>
+
+<h3>Link analysis</h3>
+
+<table>
+<tr><th>Outbound destination</th><th>Links in 30-page sample</th><th>Role</th></tr>
+<tr><td>www.unimelb.edu.au</td><td>90</td><td>Heavy chrome</td></tr>
+<tr><td>study.unimelb.edu.au</td><td>33</td><td>Strong connection to the prospective estate</td></tr>
+<tr><td>policy.unimelb.edu.au</td><td>1</td><td>Minimal</td></tr>
+<tr><td>about.unimelb.edu.au</td><td>1</td><td>Minimal</td></tr>
+<tr><td>students.unimelb.edu.au</td><td>**1**</td><td>Near-zero connection to the student hub</td></tr>
+</table>
+
+<p>The site is tightly coupled to study.unimelb (33 links) but sends <strong>exactly 1 link to students.unimelb.</strong> Once a student enrols, the marketing funnel drops them — there's no path to the enrolled-student experience.</p>
+
+<h3>Page weight</h3>
+
+<p>Median 199KB — moderate. Consistent template (182-344KB range). Lighter than the study.unimelb course pages (304KB median).</p>
+
+<hr>
+
+<h2>What this means</h2>
+
+<h3>1. The orphaned cohort gap is confirmed</h3>
+
+<p>The lifecycle deep-dive said online learners have no current-student home. The crawl confirms: online.unimelb.edu.au is a marketing site that hands off to study.unimelb and Canvas, with <strong>zero current-student infrastructure.</strong> The "already enrolled" student is invisible to this site.</p>
+
+<h3>2. 52% of the site is lead capture</h3>
+
+<p>45 RFI forms dominate the crawl. This is a recruitment engine, not a service portal. The site's purpose is to convert prospects, not support enrolled learners.</p>
+
+<h3>3. The Canvas handoff is invisible</h3>
+
+<p>online.unimelb.edu.au does not link to lms.unimelb.edu.au or canvas.lms.unimelb.edu.au. The journey from "enrol in an online course" to "start learning in Canvas" has no public bridge. This is the same find→act gap that defines the rest of the estate.</p>
+
+<h3>4. The opportunity: a current-learner overlay</h3>
+
+<p>The fix recommended in the lifecycle deep-dive — give online learners a defined current-learner home — could live here or on students.unimelb. Either way, the gap between "you're enrolled" and "here's how to study" needs a bridge.</p>
+
+<hr>
+
+<h2>Recommendations</h2>
+
+<ol>
+<li>**Add an "Already enrolled? Access your course →" bridge.** On every course page and the homepage, link to students.unimelb (or directly to Canvas/LMS). Stop dropping students after enrolment.</li>
+</ul>
+
+<ol>
+<li>**Create an "Online learner" section on students.unimelb.** The hub is built for award-course students. Online/micro-credential learners need a home there — or a dedicated section on online.unimelb with current-student content.</li>
+</ul>
+
+<ol>
+<li>**Wire the RFI forms to the current experience.** When a prospect submits an RFI, the confirmation page should include "If you enrol, here's what your learning experience looks like" — bridging the marketing→reality gap.</li>
+</ul>
+
+<hr>
+
+<p><em>Built from: online crawl (87 pages), links.json sampling (30 pages), index.json structural analysis, lifecycle-journeys.md deep-dive. June 2026.</em></p>
+
+</main>
+</body>
+</html>

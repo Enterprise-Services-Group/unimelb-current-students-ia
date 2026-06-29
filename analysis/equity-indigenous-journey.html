@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Equity & Indigenous Journey · UoM Current Students IA</title>
+<style>@font-face{font-family:'Fraunces';src:url('assets/fonts/Fraunces-VariableFont_SOFT_WONK_opsz_wght.ttf') format('truetype');font-weight:100 900;font-display:swap}
+@font-face{font-family:'Source Sans 3';src:url('assets/fonts/SourceSans3-VariableFont_wght.ttf') format('truetype');font-weight:200 900;font-display:swap}
+@font-face{font-family:'Source Code Pro';src:url('assets/fonts/SourceCodePro-VariableFont_wght.ttf') format('truetype');font-weight:200 900;font-display:swap}
+:root{--navy:#000F46;--navy-light:#1B2D5C;--cyan:#46C8F0;--ink:#222;--ink-2:#555;--bg:#fff;--bg-nav:#000F46;--bg-subtle:#F3F3F6;--border:#DDDDE7;--red:#DB1927;--amber:#AC5907;--green:#31733B;--font-h:'Fraunces',Georgia,serif;--font-b:'Source Sans 3',system-ui,sans-serif;--font-m:'Source Code Pro',monospace;--nav-w:280px}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:var(--font-b);font-size:17px;line-height:1.65;color:var(--ink);background:var(--bg);display:flex;min-height:100vh;-webkit-font-smoothing:antialiased}
+a{color:#004EAD;text-decoration:none}a:hover{text-decoration:underline}
+
+/* ── LHS Navigation ── */
+nav.lhs{position:fixed;top:0;left:0;width:var(--nav-w);height:100vh;background:var(--bg-nav);color:#C9CDE6;overflow-y:auto;z-index:100;display:flex;flex-direction:column;font-size:14px;line-height:1.4}
+nav.lhs .logo{padding:24px 20px 16px;border-bottom:1px solid rgba(255,255,255,.1)}
+nav.lhs .logo img{height:26px}
+nav.lhs .logo a{display:block;color:#fff;font-family:var(--font-h);font-size:16px;font-weight:600;text-decoration:none;margin-top:8px}
+nav.lhs .nav-scroll{flex:1;overflow-y:auto;padding:8px 0 24px}
+nav.lhs .section{font-family:var(--font-m);font-size:11px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--cyan);padding:16px 20px 6px}
+nav.lhs a.nav-link{display:block;padding:5px 20px;color:#9BA3C4;text-decoration:none;transition:all .15s;border-left:3px solid transparent}
+nav.lhs a.nav-link:hover{color:#fff;background:rgba(255,255,255,.05)}
+nav.lhs a.nav-link.active{color:#fff;background:rgba(255,255,255,.08);border-left-color:var(--cyan)}
+nav.lhs .sep{border:none;border-top:1px solid rgba(255,255,255,.08);margin:8px 16px}
+nav.lhs .footer{padding:16px 20px;font-size:11px;color:#6B7394;border-top:1px solid rgba(255,255,255,.08)}
+
+/* ── Main content ── */
+main{margin-left:var(--nav-w);flex:1;min-width:0;padding:40px 56px 80px;max-width:900px}
+main h1{font-family:var(--font-h);font-size:42px;font-weight:700;color:var(--navy);line-height:1.07;letter-spacing:-.012em;margin:0 0 8px}
+main h2{font-family:var(--font-h);font-size:28px;font-weight:600;color:var(--navy);margin:48px 0 16px;padding-bottom:8px;border-bottom:2px solid var(--border);line-height:1.15}
+main h3{font-family:var(--font-h);font-size:20px;font-weight:600;color:var(--navy);margin:32px 0 10px;line-height:1.2}
+main h4{font-size:18px;font-weight:700;color:var(--navy);margin:24px 0 8px}
+main p{margin:12px 0}
+main .subtitle{color:var(--ink-2);font-style:italic;font-size:18px;margin-bottom:32px}
+main blockquote{border-left:3px solid var(--navy);padding:12px 20px;margin:20px 0;background:var(--bg-subtle);font-style:italic;color:var(--ink-2)}
+main code{font-family:var(--font-m);font-size:14px;background:var(--bg-subtle);padding:2px 6px;border-radius:3px}
+main table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+main th{background:var(--navy);color:#fff;padding:10px 14px;text-align:left;font-weight:600}
+main td{padding:8px 14px;border-bottom:1px solid var(--border)}
+main tr:nth-child(even) td{background:var(--bg-subtle)}
+main ul,main ol{margin:8px 0 8px 24px}
+main li{margin:4px 0}
+main hr{border:none;border-top:1px solid var(--border);margin:40px 0}
+main strong{color:var(--navy)}
+.severity-high{display:inline-block;padding:1px 8px;border-radius:3px;font-size:12px;font-weight:700;background:#FFEBEE;color:var(--red)}
+.severity-medium{display:inline-block;padding:1px 8px;border-radius:3px;font-size:12px;font-weight:700;background:#FFF8E1;color:var(--amber)}
+.effort{display:inline-block;padding:1px 8px;border-radius:3px;font-size:12px;font-weight:700;background:#E8F5E9;color:var(--green)}
+.footer-note{color:var(--ink-2);font-size:13px;font-style:italic;margin-top:48px;padding-top:16px;border-top:1px solid var(--border)}
+
+/* ── Mobile ── */
+.menu-toggle{display:none;position:fixed;top:12px;left:12px;z-index:200;background:var(--navy);color:#fff;border:none;border-radius:6px;padding:8px 12px;font-size:20px;cursor:pointer}
+@media(max-width:960px){
+  nav.lhs{transform:translateX(-100%);transition:transform .25s}
+  nav.lhs.open{transform:translateX(0)}
+  main{margin-left:0;padding:60px 24px 40px}
+  .menu-toggle{display:block}
+}
+</style>
+</head>
+<body>
+<button class="menu-toggle" onclick="document.getElementById('lhsNav').classList.toggle('open')">☰</button>
+<nav class="lhs" id="lhsNav">
+  <div class="logo">
+    <img src="assets/UoM_Logo_Horiz_onDark.svg" alt="UoM">
+    <a href="index.html">Current Students IA</a>
+  </div>
+  <div class="nav-scroll">
+    <a class="nav-link" href="index.html">🏠 Home</a>
+    <div class="section">📊 Project Summary</div>
+    <div class="section">🎯 Five Root Findings</div>
+    <hr class="sep">
+    <div class="section">📋 Key Reports</div>
+    <a class="nav-link" href="report/Improvements-Register.html"> Improvements Register</a>
+    <a class="nav-link" href="report/Lifecycle-Journeys.html"> Lifecycle Journeys</a>
+    <a class="nav-link" href="report/Course-Planning-Enrolment.html"> Course Planning</a>
+    <a class="nav-link" href="report/International-Student-Experience.html"> International Student</a>
+    <a class="nav-link" href="report/Student-Services-Fragmentation.html"> Services Fragmentation</a>
+    <a class="nav-link" href="report/Careers-Employability-WIL.html"> Careers & WIL</a>
+    <hr class="sep">
+    <div class="section">🔬 Structural Deep-Dives</div>
+    <a class="nav-link" href="analysis/graduation-alumni-handoff.html"> Graduation → Alumni</a>
+    <a class="nav-link" href="analysis/careers-online-wiring.html"> Careers Online Wiring</a>
+    <a class="nav-link" href="analysis/prospective-current-handoff.html"> Prospective → Current</a>
+    <a class="nav-link active" href="analysis/equity-indigenous-journey.html"> Equity & Indigenous</a>
+    <a class="nav-link" href="analysis/hdr-candidature-duplication.html"> HDR Duplication</a>
+    <a class="nav-link" href="analysis/forms-microsite-audit.html"> Forms & Microsites</a>
+    <hr class="sep">
+    <div class="section">📝 Content Quality</div>
+    <a class="nav-link" href="analysis/the-handbook.html"> The Handbook</a>
+    <a class="nav-link" href="analysis/fees-finance.html"> Fees & Finance</a>
+    <a class="nav-link" href="analysis/scholarships.html"> Scholarships</a>
+    <a class="nav-link" href="analysis/mobile-performance-audit.html"> Mobile & Performance</a>
+    <a class="nav-link" href="analysis/content-freshness-sandbox-leakage.html"> Content Freshness</a>
+    <a class="nav-link" href="analysis/content-quality-deep-dive.html"> Content Quality Audit</a>
+    <hr class="sep">
+    <div class="section">🔐 Authenticated Core</div>
+    <a class="nav-link" href="analysis/authenticated-core-audit.html"> Auth Core Audit</a>
+    <a class="nav-link" href="analysis/auth-hosts-live-check.html"> Live Host Check</a>
+    <a class="nav-link" href="analysis/authenticated-core-findings.html"> Auth Core Findings</a>
+    <hr class="sep">
+    <div class="section">🌐 Crawl Analyses</div>
+    <a class="nav-link" href="analysis/crawl-ask-unimelb.html"> ask.unimelb</a>
+    <a class="nav-link" href="analysis/crawl-gradresearch.html"> gradresearch</a>
+    <a class="nav-link" href="analysis/crawl-murrupbarak.html"> murrupbarak</a>
+    <a class="nav-link" href="analysis/crawl-safercommunity.html"> safercommunity</a>
+    <a class="nav-link" href="analysis/crawl-umsu.html"> umsu</a>
+    <a class="nav-link" href="analysis/crawl-online.html"> online.unimelb</a>
+    <a class="nav-link" href="analysis/crawl-sport.html"> sport</a>
+    <a class="nav-link" href="analysis/crawl-library.html"> library</a>
+    <a class="nav-link" href="analysis/crawl-studentit.html"> studentit</a>
+    <hr class="sep">
+    <div class="section">👤 Personas</div>
+    <a class="nav-link" href="personas/sam-planning-their-path.html"> Sam — Planning</a>
+    <a class="nav-link" href="personas/alex-at-risk-withdrawal.html"> Alex — At-risk</a>
+    <a class="nav-link" href="personas/priya-international-student.html"> Priya — International</a>
+    <a class="nav-link" href="personas/jordan-course-planning-maze.html"> Jordan — Course Maze</a>
+    <a class="nav-link" href="personas/taylor-wellbeing-mental-health.html"> Taylor — Wellbeing</a>
+    <hr class="sep">
+    <div class="section">📦 Deliverables</div>
+    <a class="nav-link" href="analysis/governance-summary-pack.html"> Governance Pack</a>
+    <a class="nav-link" href="analysis/quick-wins-checklist.html"> Quick Wins</a>
+    <a class="nav-link" href="analysis/final-synthesis.html"> Final Synthesis</a>
+  </div>
+  <div class="footer">UoM · Student Experience &amp; Design<br>June 2026 · 41,533 pages · 31 domains</div>
+</nav>
+
+<main>
+<h1>Equity & Indigenous Journey</h1>
+<p class="subtitle">SEDS wizard on 1 of 3 trees. Zero Indigenous pages on the hub.</p>
+<h1>Equity & Indigenous Student Journey — Deep-Dive</h1>
+
+<p><em>The highest-equity-stakes journey in the estate: the cohorts least able to absorb fragmentation hit the most of it. A forked disability-registration wizard, an Indigenous support service with zero hub presence, and financial-hardship support spread across ~5 pages — all behind login walls. June 2026.</em></p>
+
+<hr>
+
+<h2>Executive summary</h2>
+
+<p>The equity and Indigenous student journey is where the estate's fragmentation costs the most. Three findings define it:</p>
+
+<ol>
+<li>**The disability registration wizard exists on only 1 of 3 equity hubs.** 12 external domains link disabled students to the two hubs that lack it — so a student arriving from their faculty lands on an equity page with no visible "register for support" path.</li>
+</ul>
+
+<ol>
+<li>**Indigenous students have zero presence on the current-students hub.** Murrup Barak — the University's Indigenous student support unit — lives on a separate, uncrawled domain. The hub that serves every other cohort sends only 19–35 contextual links to the Indigenous service. Meanwhile MSD alone sends 614 — a building-and-construction faculty links Indigenous support 30× more than the student hub.</li>
+</ul>
+
+<ol>
+<li>**Financial hardship support is ~5 pages.** The fee-remission form funnels through opaque SID query parameters. "Bursary" appears on 2 pages. A student in genuine financial crisis meets one of the thinnest, hardest-to-find corners of the estate.</li>
+</ul>
+
+<p>The fix is structural: one canonical equity hub with the wizard, one Indigenous-students landing page on the hub, one emergency/hardship front door. Prioritise because the equity cost is highest.</p>
+
+<hr>
+
+<h2>The SEDS fork: one wizard, three trees</h2>
+
+<h3>The problem</h3>
+
+<p>Student Equity & Disability Services (SEDS) is the entry point for disability registration, academic adjustments, and ongoing support. It's forked across <strong>three live, simultaneously-published URL trees</strong> on students.unimelb:</p>
+
+<table>
+<tr><th>Tree</th><th>Inbound links</th><th>Has registration wizard?</th><th>Linked by faculties?</th></tr>
+<tr><td>`/support-and-wellbeing/student-equity-and-disability-services`</td><td>137</td><td>✅ Yes (4-step: prepare→register→create→action)</td><td>No</td></tr>
+<tr><td>`/student-support/student-equity-and-disability-services`</td><td>63</td><td>❌ No</td><td>Yes — 12 domains</td></tr>
+<tr><td>`/student-support/student-equity-and-disability-support`</td><td>31</td><td>❌ No</td><td>Yes — 12 domains</td></tr>
+<tr><td>`/sandbox/content-models/student-equity-and-disability-services`</td><td>10</td><td>❌ Draft</td><td>No</td></tr>
+</table>
+
+<p>The 4-step registration wizard (prepare-to-register → registration-for-ongoing-support → create-your-plan → action-your-plan, each ~10-16 inbound with "Step N" anchors) exists ONLY under the canonical <code>/support-and-wellbeing</code> tree.</p>
+
+<p>But <strong>12 external domains</strong> (arts, biomedicalsciences, education, eng, fbe, handbook, law, mdhs, medicine, msd, services, study) link disabled students to the two <code>/student-support</code> hubs that <strong>do not carry the wizard</strong>. A student arriving from their faculty's "disability support" link lands on a page with no visible path to register.</p>
+
+<h3>The equity/hardship gap</h3>
+
+<p>Beyond SEDS, the equity journey fragments further:</p>
+<ul>
+<li>Financial hardship appears on only 5 pages across all 833 students.unimelb pages</li>
+<li>"Bursary" appears on 2 pages</li>
+<li>The fee-remission/refund route funnels into a single forms.your.unimelb.edu.au/4747166 reached via three opaque SID query params</li>
+<li>143 students.unimelb pages reference that form ID — a widely-linked opaque destination</li>
+<li>The financial-aid page is mis-titled "Support and wellbeing"</li>
+<li>_nocache URL variants of fee pages leak into the link graph (15 pages link a _nocache version of CSP/HELP-loans eligibility)</li>
+</ul>
+
+<hr>
+
+<h2>Indigenous students: zero hub presence, fragmented destinations</h2>
+
+<h3>The hub gap</h3>
+
+<p>A scan of all 833 students.unimelb pages returns <strong>zero Indigenous-specific pages</strong>. Murrup Barak — Melbourne's Indigenous student support unit — is not in the current-students IA at all. It lives on a separate, uncrawled domain murrupbarak.unimelb.edu.au, reached only as an outbound destination.</p>
+
+<h3>Who links Murrup Barak — and who doesn't</h3>
+
+<table>
+<tr><th>Source</th><th>Contextual links to Murrup Barak</th></tr>
+<tr><td>msd.unimelb.edu.au</td><td>**614**</td></tr>
+<tr><td>study.unimelb.edu.au</td><td>79</td></tr>
+<tr><td>mdhs.unimelb.edu.au</td><td>49</td></tr>
+<tr><td>students.unimelb.edu.au</td><td>**19**</td></tr>
+<tr><td>research.unimelb.edu.au</td><td>9</td></tr>
+<tr><td>eng.unimelb.edu.au</td><td>7</td></tr>
+<tr><td>scholarships.unimelb.edu.au</td><td>7</td></tr>
+<tr><td>science.unimelb.edu.au</td><td>4</td></tr>
+<tr><td>services.unimelb.edu.au</td><td>4</td></tr>
+<tr><td>arts.unimelb.edu.au</td><td>3</td></tr>
+<tr><td>education.unimelb.edu.au</td><td>3</td></tr>
+</table>
+
+<p>The central student hub — the front door for every enrolled student — links Murrup Barak <strong>19 times</strong>. MSD, a building-and-construction faculty, links it <strong>614 times</strong> — a 30:1 ratio. The hub that should be the primary entry point for Indigenous student support is the second-lowest linker among faculties.</p>
+
+<h3>The destination fragmentation</h3>
+
+<p>Indigenous support is scattered across 4+ destinations with no single canonical path:</p>
+
+<table>
+<tr><th>Destination</th><th>What it is</th><th>Inbound links</th></tr>
+<tr><td>murrupbarak.unimelb.edu.au</td><td>Indigenous student support unit</td><td>614 (msd), 19 (students hub)</td></tr>
+<tr><td>indigenousknowledge.unimelb.edu.au</td><td>Research institute</td><td>90 (research)</td></tr>
+<tr><td>Wilin Centre (vca/finearts)</td><td>Indigenous arts centre</td><td>29-10</td></tr>
+<tr><td>indigenousscholarships.com.au</td><td>External scholarships site</td><td>Unknown</td></tr>
+</table>
+
+<p>Anchors drift: "Indigenous Students" appears 611×, "Murrup Barak" 47×, "Visit Murrup Barak website" 5×. The destination is www-split (murrupbarak vs www.murrupbarak — one of the 28 www-twins in the estate). A student asking "where do I go for Indigenous support?" gets 4+ different answers depending on which page they land on.</p>
+
+<h3>The wider equity destinations</h3>
+
+<table>
+<tr><th>Destination</th><th>Inbound links</th></tr>
+<tr><td>socialequity.unimelb.edu.au</td><td>236 (research), 7 (eng), 5 (arts), 5 (law), 4 (medicine)</td></tr>
+<tr><td>disability.unimelb.edu.au</td><td>24 (research), 4 (mdhs), 3 (fbe)</td></tr>
+</table>
+
+<p>Social equity and disability research institutes have more presence on the estate than the services meant for current students.</p>
+
+<hr>
+
+<h2>The financial-hardship pathway</h2>
+
+<p>A student in genuine financial crisis — can't pay rent, fees, or eat — needs emergency grants, fee remission, hardship bursaries, emergency accommodation, or food relief. What they find:</p>
+
+<table>
+<tr><th>Resource</th><th>Coverage</th><th>Findability</th></tr>
+<tr><td>Financial hardship pages</td><td>~5 on students.unimelb</td><td>Thin; buried under wellbeing</td></tr>
+<tr><td>Bursary pages</td><td>~2</td><td>Near-invisible</td></tr>
+<tr><td>Fee remission form</td><td>1 — forms.your.unimelb.edu.au/4747166</td><td>Three opaque SID params; no plain-language labels</td></tr>
+<tr><td>Emergency accommodation</td><td>Scattered across wellbeing, scholarships</td><td>No single entry point</td></tr>
+<tr><td>Food relief</td><td>Unknown</td><td>No dedicated page found</td></tr>
+</table>
+
+<p>The request funnels into one form with indistinguishable SID links. The financial-aid page is mis-titled. A stressed student is the least able to hunt.</p>
+
+<hr>
+
+<h2>The common pattern: every action is behind a wall</h2>
+
+<p>Like every other journey in the estate, equity actions terminate behind login:</p>
+<ul>
+<li>SEDS registration → my.unimelb / forms</li>
+<li>Disability adjustments → Academic Adjustment Plan (behind login)</li>
+<li>Fee remission → forms.your.unimelb.edu.au</li>
+<li>Hardship grants → forms / my.unimelb</li>
+<li>Murrup Barak appointments → separate uncrawled domain</li>
+</ul>
+
+<p>The public estate describes the service; it never lets the student transact it.</p>
+
+<hr>
+
+<h2>Recommendations</h2>
+
+<h3>1. Collapse SEDS to one canonical tree carrying the wizard `[HIGH · medium]`</h3>
+<p>Canonicalize to <code>/support-and-wellbeing/student-equity-and-disability-services</code>. 301-redirect the two <code>/student-support</code> trees. Unpublish the sandbox draft. Repoint the 12 external faculty/service links. Every equity hub must surface the prepare→register→create→action steps above the fold.</p>
+
+<h3>2. Create an Indigenous-students landing page on the hub `[HIGH · medium]`</h3>
+<p>Mirroring the international-student-support hub pattern: one canonical Indigenous-students page within students.unimelb that introduces Murrup Barak, scholarships, cultural leave, and the Wilin Centre, then deep-links out — so Indigenous students enter through the same front door as every other cohort.</p>
+
+<h3>3. Standardise the Indigenous support anchor and resolve the www-twin `[MEDIUM · quick-win]`</h3>
+<p>Standardise the outbound anchor to one label ("Murrup Barak — Indigenous student support"). Resolve the murrupbarak/www.murrupbarak twin to one host. Have all faculties link the new students.unimelb Indigenous-students hub page rather than 4 different destinations.</p>
+
+<h3>4. Build one emergency/hardship front door `[HIGH · medium]`</h3>
+<p>Create a clearly-titled, findable "Financial difficulty / emergency support" page consolidating fee remission, payment extensions, hardship grants, emergency loans, and Stop 1 financial advice. Link prominently from the fees hub, the census page, and paying-your-fees. Label the three fee-remission form actions in plain language. Strip _nocache query-string variants from internal links.</p>
+
+<h3>5. Surface the SEDS wizard from the "I need help now" front door `[MEDIUM · medium]`</h3>
+<p>If recommendation 1 lands, ensure the consolidated SEDS hub is reachable from a single "I need help now" crisis entry (as described in the at-risk student journey). A panicking student shouldn't need to know the service is called "SEDS."</p>
+
+<hr>
+
+<h2>Linked improvements from the register</h2>
+
+<table>
+<tr><th>§</th><th>Improvement</th><th>Severity · Effort</th></tr>
+<tr><td>8b.1</td><td>Collapse SEDS to one canonical tree; repoint 12 faculties to wizard-carrying hub</td><td>HIGH · medium</td></tr>
+<tr><td>8b.2</td><td>Create Indigenous-students landing page on the hub; standardise anchors and resolve www-twin</td><td>HIGH · medium</td></tr>
+<tr><td>8a.1</td><td>Build emergency/hardship front door; label fee-remission SID links in plain language</td><td>MEDIUM · medium</td></tr>
+<tr><td>8a.2</td><td>Create one canonical enrolled fees hub; bridge from applicant fee pages</td><td>HIGH · medium</td></tr>
+<tr><td>8c</td><td>Wire highest-risk pages (reduced study load, enrolment changes) to action forms</td><td>HIGH · medium</td></tr>
+</table>
+
+<hr>
+
+<p><em>Built from: cross-site-flow.csv (Murrup Barak + equity links), improvements-register.md (§8 High-stakes Journeys, 8b International compliance & equity), lifecycle-journeys.md (Equity/Indigenous persona trace), student-services-profiles.json, and the full-scrape link graph. June 2026.</em></p>
+
+</main>
+</body>
+</html>
